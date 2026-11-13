@@ -536,3 +536,245 @@ can prevent matches; multiple reports or connections can produce multiple
 rows. Test and tune the query in your tenant before creating a scheduled
 custom detection. It has been statically validated for Defender XDR but not
 executed in a tenant.
+
+### Find payload URLs in process command lines
+
+This Defender XDR query searches one day of selected process creation events
+for concrete URLs from `PayloadUrl` and `ResolvedDownloadUrl` in the seven-day
+report set. It matches host, explicit port, path, and query string rather than
+just the domain, and groups matching reports per process event.
+
+```kusto
+let PayloadKey = (Value:string) {
+    let Parsed = parse_url(Value);
+    let Host = tolower(trim_end(@"\.+", tostring(Parsed.Host)));
+    let Path = tostring(Parsed.Path);
+    let Port = tostring(Parsed.Port);
+    let Query = extract(@"\?([^#]*)", 1, Value);
+    iff(
+        isempty(Host)
+            or ((isempty(Path) or Path == "/") and isempty(Query)),
+        "",
+        strcat(
+            Host,
+            iff(isempty(Port), "", strcat(":", Port)),
+            Path,
+            iff(isempty(Query), "", strcat("?", Query))
+        )
+    )
+};
+let PayloadIndicators = materialize(
+    externaldata(Entry:dynamic)
+    [
+        "https://raw.githubusercontent.com/benscha/ClickFixObserver/refs/heads/main/data/sets/7D.json"
+    ]
+    with(
+        format="multijson",
+        ingestionMapping='[{"Column":"Entry","Properties":{"Path":"$"}}]'
+    )
+    | mv-expand PayloadUrl = array_concat(
+        Entry.PayloadUrl,
+        Entry.ResolvedDownloadUrl
+    ) to typeof(string)
+    | extend PayloadUrl = trim(@"\s+", PayloadUrl)
+    | where PayloadUrl startswith "https://"
+        or PayloadUrl startswith "http://"
+    | extend MatchKey = PayloadKey(PayloadUrl)
+    | where isnotempty(MatchKey)
+    | project
+        MatchKey,
+        PayloadUrl,
+        ReportJson = tostring(Entry)
+    | distinct MatchKey, PayloadUrl, ReportJson
+    | extend Entry = parse_json(ReportJson)
+);
+DeviceProcessEvents
+| where Timestamp >= ago(1d)
+| where ActionType == "ProcessCreated"
+| where FileName in~ (
+    "powershell.exe", "pwsh.exe", "cmd.exe",
+    "curl.exe", "wget.exe", "mshta.exe", "msiexec.exe",
+    "rundll32.exe", "regsvr32.exe",
+    "wscript.exe", "cscript.exe",
+    "certutil.exe", "bitsadmin.exe",
+    "bash", "sh", "zsh", "curl", "wget", "pwsh"
+)
+| where ProcessCommandLine contains "http://"
+    or ProcessCommandLine contains "https://"
+| project
+    Timestamp,
+    ReportId,
+    DeviceId,
+    DeviceName,
+    AccountUpn,
+    AccountSid,
+    FileName,
+    ProcessCommandLine,
+    InitiatingProcessFileName,
+    InitiatingProcessCommandLine
+| extend CommandUrls = extract_all(
+    @"(?i)(https?://[^\s""'<>|;`()]+)",
+    ProcessCommandLine
+)
+| mv-expand CommandUrl = CommandUrls to typeof(string)
+| extend MatchKey = PayloadKey(CommandUrl)
+| where isnotempty(MatchKey)
+| join kind=inner (PayloadIndicators) on MatchKey
+| summarize
+    MatchedCommandUrls = make_set(CommandUrl, 1000),
+    MatchedPayloadUrls = make_set(PayloadUrl, 1000),
+    ObserverReportIds = make_set(tostring(Entry.ReportId), 1000),
+    ObserverPayloadCommands = make_set(tostring(Entry.Payload), 1000),
+    OriginalReports = make_set(Entry, 1000)
+    by
+    Timestamp,
+    ReportId,
+    DeviceId,
+    DeviceName,
+    AccountUpn,
+    AccountSid,
+    FileName,
+    ProcessCommandLine,
+    InitiatingProcessFileName,
+    InitiatingProcessCommandLine
+| extend ObserverReportCount = array_length(ObserverReportIds)
+```
+
+Hosts are case-insensitive; paths and query strings remain case-sensitive.
+Scheme and fragments are ignored, but query parameter order is preserved.
+Root URLs without a query are skipped. Shared services remain eligible when
+their concrete URLs match. The arrays are capped at 1,000 values each.
+
+A match proves only that a selected process was started with a known payload
+URL in its command line, not that the download or payload execution succeeded.
+Obfuscated, encoded, dynamically assembled, or schemaless URLs can be missed,
+as can changed query parameters and URLs the extraction regex cannot capture.
+Test and tune in your tenant before creating a scheduled custom detection.
+The query has been statically validated for Defender XDR but has not been
+executed in a tenant.
+
+### Generate recurring payload templates and hunt for new URLs
+
+This hunting query derives recurring PowerShell download-and-execute templates
+from the seven-day report set and searches one day of process creation events.
+Both payloads and command lines use the same URL placeholder, allowing matches
+on new infrastructure. It normalizes case, whitespace, and trailing semicolons.
+Only templates with at least two distinct payload commands are used.
+
+```kusto
+let MinDistinctPayloads = 2;
+let NormalizePayload = (Text:string) {
+    let Refanged = replace_string(
+        replace_string(Text, "[.]", "."),
+        "&amp;",
+        "&"
+    );
+    let DownloadSlot = replace_regex(
+        Refanged,
+        @"(?i)\b(irm|iwr|invoke-restmethod|invoke-webrequest)\s+[""']?(?:https?://)?[a-z0-9-]+(?:\.[a-z0-9-]+)+(?::\d+)?(?:/[^\s""'<>|;`()]+)?[""']?",
+        @"\1 __url__"
+    );
+    let UrlsReplaced = replace_regex(
+        DownloadSlot,
+        @"(?i)https?://[^\s""'<>|;`()]+",
+        "__url__"
+    );
+    trim_end(
+        @";+",
+        tolower(replace_regex(UrlsReplaced, @"\s+", ""))
+    )
+};
+let Patterns = materialize(
+    externaldata(Entry:dynamic)
+    [
+        "https://raw.githubusercontent.com/benscha/ClickFixObserver/refs/heads/main/data/sets/7D.json"
+    ]
+    with(
+        format="multijson",
+        ingestionMapping='[{"Column":"Entry","Properties":{"Path":"$"}}]'
+    )
+    | project
+        Payload = tostring(Entry.Payload),
+        ObserverReportId = tostring(Entry.ReportId)
+    | where isnotempty(Payload) and strlen(Payload) <= 2000
+    | where Payload matches regex
+        @"(?i)^\s*\(?\s*(irm|iwr|invoke-restmethod|invoke-webrequest)\b"
+    | where Payload matches regex
+        @"(?i)\b(iex|invoke-expression)\b"
+    | extend
+        Downloader = tolower(
+            extract(
+                @"(?i)\b(irm|iwr|invoke-restmethod|invoke-webrequest)\b",
+                1,
+                Payload
+            )
+        ),
+        Pattern = NormalizePayload(Payload)
+    | where Pattern contains "__url__"
+    | summarize
+        PayloadExamples = make_set(Payload, 1000),
+        ObserverReportIds = make_set(ObserverReportId, 1000)
+        by Downloader, Pattern
+    | extend DistinctPayloadCount = array_length(PayloadExamples)
+    | where DistinctPayloadCount >= MinDistinctPayloads
+);
+DeviceProcessEvents
+| where Timestamp >= ago(1d)
+| where ActionType == "ProcessCreated"
+| where FileName in~ ("powershell.exe", "pwsh.exe")
+| where ProcessCommandLine has_any (
+    "irm", "iwr", "Invoke-RestMethod", "Invoke-WebRequest"
+)
+| where ProcessCommandLine has_any ("iex", "Invoke-Expression")
+| extend
+    Downloader = tolower(
+        extract(
+            @"(?i)\b(irm|iwr|invoke-restmethod|invoke-webrequest)\b",
+            1,
+            ProcessCommandLine
+        )
+    ),
+    NormalizedCommand = NormalizePayload(ProcessCommandLine)
+| join kind=inner (Patterns) on Downloader
+| where NormalizedCommand contains_cs Pattern
+| summarize
+    MatchedPatterns = make_set(Pattern, 1000),
+    PatternEvidence = make_set(
+        pack(
+            "Pattern", Pattern,
+            "DistinctPayloadCount", DistinctPayloadCount,
+            "ObserverReportIds", ObserverReportIds
+        ),
+        1000
+    )
+    by
+    Timestamp,
+    ReportId,
+    DeviceId,
+    DeviceName,
+    AccountUpn,
+    FileName,
+    ProcessCommandLine,
+    InitiatingProcessFileName
+| extend ExplorerStarted = InitiatingProcessFileName =~ "explorer.exe"
+```
+
+To inspect only the generated templates, replace the entire section starting
+with `DeviceProcessEvents` with:
+
+```kusto
+Patterns
+| project Pattern, DistinctPayloadCount, PayloadExamples, ObserverReportIds
+| order by DistinctPayloadCount desc
+```
+
+This is lexical normalization, not a PowerShell parser. Legitimate
+administration and quoted code can match; `ExplorerStarted` is context, not
+proof of ClickFix. Obfuscation, variables, alternative spellings, and changed
+parameters can prevent matches. MSI, curl/shell, and encoded payloads need
+separate template families. Counts describe distinct commands, not victims
+or independent campaigns; arrays are capped at 1,000 values each. The coarse
+join on downloader can be expensive if many templates qualify. Review the
+generated templates and baseline results before using them for alerting.
+The query has been statically validated for Defender XDR, and equivalent
+normalization was tested locally, but it has not been executed in a tenant.
