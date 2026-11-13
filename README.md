@@ -262,3 +262,252 @@ Missing matches do not prove no click occurred: coverage depends on Defender
 for Office 365 Safe Links telemetry and available message identifiers.
 The query has been statically validated for Defender XDR but has not been
 executed in a tenant.
+
+### Correlate email clicks, browser connections, and PowerShell execution
+
+This Defender XDR query correlates allowed or clicked-through email links to
+seven-day lure domains with successful browser connections by the same user,
+followed by suspicious PowerShell activity on the same device. The telemetry
+lookback is one day.
+
+```kusto
+let Lures = materialize(
+    externaldata(Entry:dynamic)
+    [
+        "https://raw.githubusercontent.com/benscha/ClickFixObserver/refs/heads/main/data/sets/7D.json"
+    ]
+    with (
+        format="multijson",
+        ingestionMapping='[{"Column":"Entry","Properties":{"Path":"$"}}]'
+    )
+    | extend Host = tolower(
+        trim_end(@"\.+", tostring(Entry.UrlDomain))
+    )
+    | where isnotempty(Host)
+    | project
+        Host,
+        ObserverReportId = tostring(Entry.ReportId),
+        ScannedAt = todatetime(Entry.ScannedAt)
+    | distinct Host, ObserverReportId, ScannedAt
+);
+let Clicks = UrlClickEvents
+| where Timestamp > ago(1d)
+| where Workload == "Email"
+| where ActionType == "ClickAllowed" or IsClickedThrough == true
+| where isnotempty(AccountUpn) and isnotempty(Url)
+| extend
+    Host = tolower(trim_end(@"\.+", tostring(parse_url(Url).Host))),
+    UserKey = tolower(AccountUpn)
+| join kind=inner (Lures) on Host
+| project
+    Host,
+    UserKey,
+    ClickTime = Timestamp,
+    ClickUrl = Url,
+    ClickAction = ActionType,
+    IsClickedThrough,
+    NetworkMessageId,
+    ClickReportId = ReportId,
+    ObserverReportId,
+    ScannedAt;
+let BrowserConnections = DeviceNetworkEvents
+| where Timestamp > ago(1d)
+| where ActionType == "ConnectionSuccess"
+| where InitiatingProcessFileName in~ (
+    "msedge.exe", "chrome.exe", "firefox.exe", "brave.exe"
+)
+| where isnotempty(DeviceId)
+    and isnotempty(RemoteUrl)
+    and isnotempty(InitiatingProcessAccountUpn)
+| extend
+    Host = tolower(
+        trim_end(
+            @"\.+",
+            tostring(
+                parse_url(
+                    iff(
+                        RemoteUrl contains "://",
+                        RemoteUrl,
+                        strcat("https://", RemoteUrl)
+                    )
+                ).Host
+            )
+        )
+    ),
+    UserKey = tolower(InitiatingProcessAccountUpn)
+| project
+    Host,
+    UserKey,
+    DeviceId,
+    NetworkTime = Timestamp,
+    RemoteUrl,
+    RemoteIP;
+let SuspiciousProcesses = DeviceProcessEvents
+| where Timestamp > ago(1d)
+| where ActionType == "ProcessCreated"
+| where FileName in~ ("powershell.exe", "pwsh.exe")
+    and InitiatingProcessFileName =~ "explorer.exe"
+| where ProcessCommandLine matches regex
+    @"(?i)\b(irm|iwr|invoke-restmethod|invoke-webrequest)\b"
+| where ProcessCommandLine matches regex
+    @"(?i)\b(iex|invoke-expression)\b|(-outfile\b.*\.msi\b)"
+| where isnotempty(AccountUpn) and isnotempty(DeviceId)
+| extend UserKey = tolower(AccountUpn)
+| project
+    Timestamp,
+    ReportId,
+    DeviceId,
+    DeviceName,
+    UserKey,
+    AccountUpn,
+    ProcessCommandLine;
+Clicks
+| join kind=inner (BrowserConnections) on Host, UserKey
+| where NetworkTime >= ClickTime - 2m and NetworkTime <= ClickTime + 10m
+| join kind=inner (
+    SuspiciousProcesses
+) on DeviceId, UserKey
+| where Timestamp >= ClickTime and Timestamp <= ClickTime + 30m
+| where NetworkTime <= Timestamp + 1m
+| project
+    Timestamp,
+    ReportId,
+    DeviceId,
+    DeviceName,
+    AccountUpn,
+    ProcessCommandLine,
+    ClickTime,
+    ClickUrl,
+    ClickAction,
+    IsClickedThrough,
+    NetworkMessageId,
+    ClickReportId,
+    NetworkTime,
+    RemoteUrl,
+    RemoteIP,
+    Host,
+    ObserverReportId,
+    ScannedAt
+```
+
+The correlation uses exact, case-insensitive hosts and matching UPNs. It does
+not prove that the click caused the process, and the click may have occurred
+on another device. Redirects, missing UPNs or telemetry, other browsers, and
+other command patterns can prevent matches. Multiple matching events or
+reports can produce multiple rows. Test and tune the query in your tenant
+before creating a scheduled custom detection. It has been statically
+validated for Defender XDR but not executed in a tenant.
+
+### Correlate processes with connections to delivery domains
+
+This Defender XDR query correlates successful connections to seven-day delivery
+domains with selected processes on the same device, using their unique process
+identifiers. The telemetry lookback is one day, and the connection must occur
+within one hour of process creation.
+
+```kusto
+let IocDomains = materialize(
+    externaldata(Entry:dynamic)
+    [
+        "https://raw.githubusercontent.com/benscha/ClickFixObserver/refs/heads/main/data/sets/7D.json"
+    ]
+    with (
+        format="multijson",
+        ingestionMapping='[{"Column":"Entry","Properties":{"Path":"$"}}]'
+    )
+    | mv-expand Indicator = Entry.DeliveryUrl to typeof(string)
+    | extend Host = tolower(
+        trim_end(
+            @"\.+",
+            tostring(
+                parse_url(
+                    iff(
+                        Indicator contains "://",
+                        Indicator,
+                        strcat("https://", Indicator)
+                    )
+                ).Host
+            )
+        )
+    )
+    | where isnotempty(Host)
+    | where Host !in (
+        "fastly.jsdelivr.net",
+        "cdn.jsdelivr.net",
+        "raw.githubusercontent.com",
+        "github.com",
+        "pastebin.com",
+        "drive.google.com",
+        "dropbox.com",
+        "storage.googleapis.com"
+    )
+    | project
+        Host,
+        ObserverReportId = tostring(Entry.ReportId),
+        ScannedAt = todatetime(Entry.ScannedAt)
+    | distinct Host, ObserverReportId, ScannedAt
+);
+let Procs = DeviceProcessEvents
+| where Timestamp > ago(1d)
+| where ActionType == "ProcessCreated"
+| where FileName in~ (
+    "powershell.exe", "pwsh.exe", "cmd.exe", "mshta.exe",
+    "wscript.exe", "cscript.exe", "curl.exe", "msiexec.exe"
+)
+| where isnotempty(DeviceId) and isnotempty(ProcessUniqueId)
+| project
+    DeviceId,
+    ProcessKey = ProcessUniqueId,
+    ProcessTime = Timestamp,
+    ProcessCommandLine,
+    FileName,
+    AccountUpn;
+DeviceNetworkEvents
+| where Timestamp > ago(1d)
+| where ActionType == "ConnectionSuccess"
+| where isnotempty(DeviceId)
+    and isnotempty(InitiatingProcessUniqueId)
+    and isnotempty(RemoteUrl)
+| extend Host = tolower(
+    trim_end(
+        @"\.+",
+        tostring(
+            parse_url(
+                iff(
+                    RemoteUrl contains "://",
+                    RemoteUrl,
+                    strcat("https://", RemoteUrl)
+                )
+            ).Host
+        )
+    )
+)
+| join kind=inner (IocDomains) on Host
+| join kind=inner (Procs)
+    on DeviceId, $left.InitiatingProcessUniqueId == $right.ProcessKey
+| where Timestamp >= ProcessTime and Timestamp <= ProcessTime + 1h
+| project
+    Timestamp,
+    ReportId,
+    DeviceId,
+    DeviceName,
+    RemoteUrl,
+    RemoteIP,
+    Host,
+    FileName,
+    ProcessCommandLine,
+    AccountUpn,
+    ProcessTime,
+    ObserverReportId,
+    ScannedAt
+```
+
+Hosts are matched exactly and case-insensitively; subdomains are not included
+automatically. The shared-service exclusions are not exhaustive, so review
+delivery domains and tune the list before alerting. A successful connection
+does not prove that downloaded content was executed. Missing process keys or
+`RemoteUrl`, IP-only connections, excluded hosts, and long-running processes
+can prevent matches; multiple reports or connections can produce multiple
+rows. Test and tune the query in your tenant before creating a scheduled
+custom detection. It has been statically validated for Defender XDR but not
+executed in a tenant.
