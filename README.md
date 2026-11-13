@@ -74,9 +74,9 @@ GitHub Raw responses may also be cached.
 
 ## Payload patterns
 
-Every successful export also rebuilds `data/Patterns.json`,
-`data/Patterns.txt`, and `data/Patterns.regex.json` from the same seven-day set,
-without additional downloads.
+Every successful export rebuilds `data/Patterns.json` and `data/Patterns.txt`
+from the seven-day set and adds newly discovered regex to
+`data/Patterns.regex.json`, without additional downloads.
 The existing workflow commits all three files under `data`; unchanged contents
 are not rewritten. All nonempty payloads are included, including singletons,
 long scripts, and payloads without recognizable URLs.
@@ -119,7 +119,15 @@ Use the JSON file for programmatic consumption and multiline scripts.
 
 `Patterns.regex.json` contains only a JSON array of regex strings, without
 objects, metadata, report IDs, or original payload examples. Metadata and
-examples remain in `Patterns.json`. Regex literals are
+examples for the current seven-day set remain in `Patterns.json`.
+The regex array is cumulative: existing entries and their order are preserved,
+and new expressions are appended only if the exact string is not already
+present. Regexes are not removed when reports leave the rolling set.
+Without additions, the file is not rewritten, even if its formatting differs.
+Malformed JSON, non-string entries, or invalid existing Python regex cause
+failure before output files are written. Historical regex may outlive their
+metadata and require manual review or removal when obsolete.
+Regex literals are
 escaped; only the defined placeholders become constrained expressions.
 Whitespace matching is flexible (PHP outside quoted strings), but case is
 preserved. Regexes use dot-all mode and substring matching, without lookarounds

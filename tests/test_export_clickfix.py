@@ -616,7 +616,38 @@ class PatternTests(unittest.TestCase):
             exporter.write_patterns(output, [])
             self.assertEqual((output / "Patterns.txt").read_text(), "")
             self.assertEqual(json.loads((output / "Patterns.json").read_text()), [])
-            self.assertEqual(json.loads((output / "Patterns.regex.json").read_text()), [])
+            self.assertEqual(
+                json.loads((output / "Patterns.regex.json").read_text()),
+                [item["Regex"] for item in exporter.build_regex_patterns(patterns)],
+            )
+
+    def test_regex_history_appends_unique_entries_and_preserves_old_bytes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            path = output / "Patterns.regex.json"
+            original = '["old", "old"]'
+            path.write_text(original, encoding="utf-8")
+            exporter.write_patterns(output, [], [{"Regex": "old"}])
+            self.assertEqual(path.read_text(encoding="utf-8"), original)
+            exporter.write_patterns(output, [], [
+                {"Regex": "new"}, {"Regex": "old"}, {"Regex": "new"},
+            ])
+            self.assertEqual(json.loads(path.read_text()), ["old", "old", "new"])
+            before = path.read_bytes()
+            exporter.write_patterns(output, [], [])
+            self.assertEqual(path.read_bytes(), before)
+
+    def test_invalid_regex_history_fails_before_writing_outputs(self):
+        for content in ("bad json", "{}", '[42]', '["["]'):
+            with self.subTest(content=content), tempfile.TemporaryDirectory() as directory:
+                output = Path(directory)
+                path = output / "Patterns.regex.json"
+                path.write_text(content, encoding="utf-8")
+                with self.assertRaises((ValueError, re.error)):
+                    exporter.write_patterns(output, [])
+                self.assertEqual(path.read_text(), content)
+                self.assertFalse((output / "Patterns.json").exists())
+                self.assertFalse((output / "Patterns.txt").exists())
 
     def test_export_generates_patterns_from_same_seven_day_set(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -555,19 +555,43 @@ def build_regex_patterns(patterns):
     return results
 
 
+def merge_regex_history(output, regex_patterns):
+    path = output / "Patterns.regex.json"
+    existing = []
+    if path.exists():
+        with path.open(encoding="utf-8") as file:
+            existing = json.load(file)
+        if not isinstance(existing, list) or not all(isinstance(value, str) for value in existing):
+            raise ValueError(f"Expected an array of regex strings in {path}")
+        for value in existing:
+            re.compile(value)
+    merged = list(existing)
+    seen = set(existing)
+    for item in regex_patterns:
+        value = item["Regex"]
+        if value not in seen:
+            merged.append(value)
+            seen.add(value)
+    return merged, len(merged) - len(existing)
+
+
 def write_patterns(output, patterns, regex_patterns=None):
     if regex_patterns is None:
         regex_patterns = build_regex_patterns(patterns)
+    regex_history, added = merge_regex_history(output, regex_patterns)
     contents = {
         "Patterns.json": json.dumps(patterns, indent=2, ensure_ascii=False) + "\n",
-        "Patterns.regex.json": json.dumps(
-            [item["Regex"] for item in regex_patterns], indent=2, ensure_ascii=False
-        ) + "\n",
         "Patterns.txt": "".join(
             json.dumps(item["Pattern"], ensure_ascii=False)[1:-1] + "\n"
             for item in patterns
         ),
     }
+    if added or not (output / "Patterns.regex.json").exists():
+        contents["Patterns.regex.json"] = json.dumps(
+            regex_history, indent=2, ensure_ascii=False
+        ) + "\n"
+    else:
+        print(f"Skipping {output / 'Patterns.regex.json'}: no new regex", flush=True)
     output.mkdir(parents=True, exist_ok=True)
     for name, content in contents.items():
         path = output / name
@@ -575,7 +599,10 @@ def write_patterns(output, patterns, regex_patterns=None):
             print(f"Skipping {path}: unchanged", flush=True)
             continue
         path.write_text(content, encoding="utf-8")
-        print(f"Wrote {path}: {len(patterns)} patterns", flush=True)
+        if name == "Patterns.regex.json":
+            print(f"Wrote {path}: {len(regex_history)} regex ({added} new)", flush=True)
+        else:
+            print(f"Wrote {path}: {len(patterns)} patterns", flush=True)
 
 
 def export(output, now, delay):
@@ -651,6 +678,7 @@ def export(output, now, delay):
     sets = build_sets(output, now, {day: group["entries"] for day, group in grouped.items()})
     patterns = build_patterns(sets[7])
     regex_patterns = build_regex_patterns(patterns)
+    merge_regex_history(output, regex_patterns)
     output.mkdir(parents=True, exist_ok=True)
     for day in sorted(grouped):
         destination = output / f"{day:%Y%m%d}.json"
