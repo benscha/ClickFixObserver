@@ -129,7 +129,7 @@ For a public repository, use a fixed URL for the desired set, for example
 the last 72 hours:
 
 ```kusto
-let clifixobserver = externaldata(Entry:dynamic)
+let clickfixobserver = externaldata(Entry:dynamic)
 [
     "https://raw.githubusercontent.com/benscha/ClickFixObserver/refs/heads/main/data/sets/3D.json"
 ]
@@ -147,5 +147,118 @@ with (
     Related = Entry.Related,
     Payload = tostring(Entry.Payload),
     ResolvedDownloadUrl = Entry.ResolvedDownloadUrl;
-clifixobserver
+clickfixobserver
 ```
+
+### Find delivery domains in email URLs
+
+The following Defender XDR query loads delivery indicators from the seven-day
+set and searches `EmailUrlInfo` for the last seven days. It also checks
+`UrlClickEvents` for email clicks on the same URL in the same message and
+returns the matching original JSON reports alongside the email and click details.
+The set must have been published by a successful workflow run.
+
+```kusto
+let clickfixobserver = materialize(
+    externaldata(Entry:dynamic)
+    [
+        "https://raw.githubusercontent.com/benscha/ClickFixObserver/refs/heads/main/data/sets/7D.json"
+    ]
+    with(
+        format="multijson",
+        ingestionMapping='[{"Column":"Entry","Properties":{"Path":"$"}}]'
+    )
+    | mv-expand Delivery = Entry.DeliveryUrl to typeof(string)
+    | extend Delivery = trim(@"\s+", Delivery)
+    | where isnotempty(Delivery)
+    | extend Domain = tostring(
+        parse_url(
+            iff(Delivery contains "://", Delivery, strcat("https://", Delivery))
+        ).Host
+    )
+    | extend Domain = tolower(trim_end(@"\.+", Domain))
+    | where isnotempty(Domain)
+    | project Domain, ReportJson = tostring(Entry)
+    | distinct Domain, ReportJson
+    | extend Entry = parse_json(ReportJson)
+    | project Domain, Entry
+);
+let MatchingEmailUrls = EmailUrlInfo
+| where Timestamp >= ago(7d)
+| where isnotempty(NetworkMessageId) and isnotempty(Url)
+| extend MatchedDomain = tolower(trim_end(@"\.+", UrlDomain))
+| where MatchedDomain in (clickfixobserver | project Domain)
+| project
+    EmailTimestamp = Timestamp,
+    NetworkMessageId,
+    Url,
+    UrlDomain,
+    UrlLocation,
+    MatchedDomain;
+let EmailClicks = UrlClickEvents
+| where Timestamp >= ago(7d)
+| where Workload == "Email"
+| where isnotempty(NetworkMessageId) and isnotempty(Url)
+| project
+    NetworkMessageId,
+    Url,
+    ClickTimestamp = Timestamp,
+    AccountUpn,
+    ActionType,
+    IsClickedThrough,
+    ClickIPAddress = IPAddress,
+    ClickReportId = ReportId;
+MatchingEmailUrls
+| join kind=inner (EmailClicks) on NetworkMessageId, Url
+| join kind=inner (clickfixobserver) on $left.MatchedDomain == $right.Domain
+| project
+    EmailTimestamp,
+    NetworkMessageId,
+    Url,
+    UrlDomain,
+    UrlLocation,
+    ClickTimestamp,
+    AccountUpn,
+    ActionType,
+    IsClickedThrough,
+    ClickIPAddress,
+    ClickReportId,
+    ObserverReportId = tostring(Entry.ReportId),
+    ObserverScannedAt = todatetime(Entry.ScannedAt),
+    LureDomain = tostring(Entry.UrlDomain),
+    DeliveryUrl = Entry.DeliveryUrl,
+    PayloadUrl = Entry.PayloadUrl,
+    InfrastructureIP = Entry.IP,
+    Related = Entry.Related,
+    Payload = tostring(Entry.Payload),
+    ResolvedDownloadUrl = Entry.ResolvedDownloadUrl,
+    OriginalReport = Entry
+| order by ClickTimestamp desc, EmailTimestamp desc
+```
+
+Matching is case-insensitive and uses exact domains, ignoring trailing dots.
+For full delivery URLs, only the host is compared; paths and query parameters
+are ignored. Subdomains are not automatically included. Change `7D.json` and
+`ago(7d)` to select other indicator and email lookback periods.
+Both email URLs and click events use this lookback period. Clicks are joined
+using both `NetworkMessageId` and the exact, case-sensitive full `Url`, so a
+click on a different URL in the same email does not count as a match.
+URL rewrites or redirects that change the recorded URL can prevent a match;
+this query does not correlate redirect chains.
+
+The inner joins return only matching email URLs with click events and their
+associated observer reports. Multiple clicks or multiple reports for the
+same delivery domain produce multiple rows. Duplicate copies of the same
+report/domain pair are removed before joining.
+
+`UrlDomain` is the email URL's domain; `LureDomain` is the original report's
+`UrlDomain`. `ObserverReportId` and `ObserverScannedAt` identify the source
+report; `InfrastructureIP` distinguishes report IPs from `ClickIPAddress`.
+`OriginalReport` retains the entire original JSON object, including any
+additional fields not individually projected.
+An event can represent a blocked click and does not prove the destination
+was reached. Review `ActionType` and `IsClickedThrough`.
+Missing matches do not prove no click occurred: coverage depends on Defender
+for Office 365 Safe Links telemetry and available message identifiers.
+The query has been statically validated for Defender XDR but has not been
+executed in a tenant.
