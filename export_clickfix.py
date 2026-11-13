@@ -31,6 +31,20 @@ DOWNLOAD_URL = re.compile(
     r"""(?:/[^\s"'<>|;`()]+)?""",
     re.IGNORECASE,
 )
+QUOTED_TEXT = re.compile(r"'(?:\\.|[^'\\])*'|\"(?:\\.|[^\"\\])*\"")
+CURL_POST = re.compile(r"""(\bcurl\s+[^;\n]*?\s-d\s+)(["'])(.*?)\2""", re.DOTALL)
+PHP_PREFIX = re.compile(
+    r"""^(\$tok\s*=\s*')([A-Za-z0-9_-]+)('\s*;\s*\$id\s*=\s*')"""
+    r"""([a-fA-F0-9]+)('\s*;\s*\$interval\s*=\s*\d+\s*;)"""
+)
+PLACEHOLDER_REGEX = {
+    "<URL>": r"""(?:https?://)?[^\s"'<>|;`()]+""",
+    "<UUID>": r"[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}",
+    "<ENCODED_URL>": r"""https?%3[Aa]%2[Ff]%2[Ff][^&\s"']+""",
+    "<TIMESTAMP>": r"\d{4}-\d{2}-\d{2}T\d{2}(?::|%3[Aa])\d{2}(?::|%3[Aa])\d{2}(?:\.\d+)?Z",
+    "<TOKEN>": r"[A-Za-z0-9_-]+",
+    "<HEX_ID>": r"[a-fA-F0-9]+",
+}
 VOID_TAGS = {
     "area", "base", "br", "col", "embed", "hr", "img", "input", "link",
     "meta", "param", "source", "track", "wbr",
@@ -400,9 +414,48 @@ def write_sets(output, sets):
         print(f"Wrote {path}: {len(entries)} entries (last {days * 24} hours)", flush=True)
 
 
+def pattern_family(payload):
+    if PHP_PREFIX.match(payload.strip()) and "function _ea_inv" in payload:
+        return "PHP inventory"
+    if CURL_POST.search(payload) and re.search(r"\|\s*(?:sh|bash|zsh)\b", payload):
+        return "curl telemetry + shell"
+    return "Other"
+
+
 def normalize_payload(payload):
     text = payload.replace("\r\n", "\n").replace("\r", "\n").strip()
     text = text.replace("[.]", ".")
+    family = pattern_family(text)
+    if family == "curl telemetry + shell":
+        def normalize_post(match):
+            body = match.group(3)
+            replacements = {
+                "id": ("<UUID>", r"[a-fA-F0-9]{8}(?:-[a-fA-F0-9]{4}){3}-[a-fA-F0-9]{12}"),
+                "siteUrl": ("<ENCODED_URL>", r"https?%3[Aa]%2[Ff]%2[Ff][^&]+"),
+                "lastVisitAt": ("<TIMESTAMP>", PLACEHOLDER_REGEX["<TIMESTAMP>"]),
+                "lastShellAt": ("<TIMESTAMP>", PLACEHOLDER_REGEX["<TIMESTAMP>"]),
+            }
+            for name, (placeholder, value_regex) in replacements.items():
+                body = re.sub(
+                    rf"(^|&)({name}=){value_regex}(?=&|$)",
+                    lambda field: field.group(1) + field.group(2) + placeholder,
+                    body,
+                )
+            return match.group(1) + match.group(2) + body + match.group(2)
+        text = CURL_POST.sub(normalize_post, text)
+    elif family == "PHP inventory":
+        text = PHP_PREFIX.sub(
+            lambda match: match.group(1) + "<TOKEN>" + match.group(3)
+            + "<HEX_ID>" + match.group(5), text, count=1,
+        )
+        pieces = []
+        offset = 0
+        for match in QUOTED_TEXT.finditer(text):
+            pieces.append(re.sub(r"\s+", " ", text[offset:match.start()]))
+            pieces.append(match.group())
+            offset = match.end()
+        pieces.append(re.sub(r"\s+", " ", text[offset:]))
+        text = "".join(pieces)
     text = PAYLOAD_URL.sub("<URL>", text)
     return DOWNLOAD_URL.sub(lambda match: match.group(1) + "<URL>", text)
 
@@ -456,9 +509,60 @@ def build_patterns(entries):
     )
 
 
-def write_patterns(output, patterns):
+def escape_regex_literal(text):
+    return re.sub(r"([\\.^$|?*+(){}\[\]])", r"\\\1", text)
+
+
+def pattern_regex(pattern, family):
+    if family == "PHP inventory":
+        tokens = re.findall(
+            r"""'(?:\\.|[^'\\])*'|"(?:\\.|[^"\\])*"|[A-Za-z0-9_]+|[^\s]""",
+            pattern,
+        )
+        return "(?s)" + r"\s*".join(
+            pattern_regex(token, "Literal")[4:] for token in tokens
+        )
+    parts = re.split(r"(<URL>|<UUID>|<ENCODED_URL>|<TIMESTAMP>|<TOKEN>|<HEX_ID>)", pattern)
+    regex_parts = []
+    for part in parts:
+        if part in PLACEHOLDER_REGEX:
+            regex_parts.append(PLACEHOLDER_REGEX[part])
+        elif family == "Literal":
+            regex_parts.append(escape_regex_literal(part))
+        else:
+            regex_parts.append(r"\s+".join(
+                escape_regex_literal(chunk) for chunk in re.split(r"\s+", part)
+            ))
+    return "(?s)" + "".join(regex_parts)
+
+
+def build_regex_patterns(patterns):
+    results = []
+    for item in patterns:
+        family = pattern_family(item["PayloadExamples"][0])
+        regex = pattern_regex(item["Pattern"], family)
+        compiled = re.compile(regex)
+        for example in item["PayloadExamples"]:
+            if not compiled.search(example.replace("[.]", ".")):
+                raise ValueError(f"Generated regex does not match a source payload: {item['ReportIds']}")
+        results.append({
+            **{key: value for key, value in item.items() if key != "ReportIds"},
+            "Family": family,
+            "Target": "Server-side content" if family == "PHP inventory" else "Command line / content",
+            "InputNormalization": "Replace [.] with . before matching",
+            "Regex": regex,
+        })
+    return results
+
+
+def write_patterns(output, patterns, regex_patterns=None):
+    if regex_patterns is None:
+        regex_patterns = build_regex_patterns(patterns)
     contents = {
         "Patterns.json": json.dumps(patterns, indent=2, ensure_ascii=False) + "\n",
+        "Patterns.regex.json": json.dumps(
+            [item["Regex"] for item in regex_patterns], indent=2, ensure_ascii=False
+        ) + "\n",
         "Patterns.txt": "".join(
             json.dumps(item["Pattern"], ensure_ascii=False)[1:-1] + "\n"
             for item in patterns
@@ -546,6 +650,7 @@ def export(output, now, delay):
 
     sets = build_sets(output, now, {day: group["entries"] for day, group in grouped.items()})
     patterns = build_patterns(sets[7])
+    regex_patterns = build_regex_patterns(patterns)
     output.mkdir(parents=True, exist_ok=True)
     for day in sorted(grouped):
         destination = output / f"{day:%Y%m%d}.json"
@@ -561,7 +666,7 @@ def export(output, now, delay):
             f"({group['added']} new, {group['enriched']} enriched)"
         )
     write_sets(output, sets)
-    write_patterns(output, patterns)
+    write_patterns(output, patterns, regex_patterns)
 
 
 def main():

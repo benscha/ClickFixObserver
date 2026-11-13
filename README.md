@@ -74,17 +74,32 @@ GitHub Raw responses may also be cached.
 
 ## Payload patterns
 
-Every successful export also rebuilds `data/Patterns.json` and
-`data/Patterns.txt` from the same seven-day set, without additional downloads.
-The existing workflow commits both files under `data`; unchanged contents
+Every successful export also rebuilds `data/Patterns.json`,
+`data/Patterns.txt`, and `data/Patterns.regex.json` from the same seven-day set,
+without additional downloads.
+The existing workflow commits all three files under `data`; unchanged contents
 are not rewritten. All nonempty payloads are included, including singletons,
 long scripts, and payloads without recognizable URLs.
 
 Normalization replaces recognizable HTTP(S) URLs and schemaless domain URLs
 directly following `irm`, `iwr`, `Invoke-RestMethod`, or `Invoke-WebRequest`
 with `<URL>`. Defanged `[.]` dots are refanged, line endings are normalized,
-and outer whitespace is trimmed. Case, quotes, internal whitespace, variable
-names, filenames, IDs, and encoded content are otherwise preserved. This is
+and outer whitespace is trimmed. Two specific families receive additional
+normalization:
+
+- For `curl -d` telemetry followed by a shell pipeline, UUID-valued `id`,
+  percent-encoded `siteUrl`, and ISO UTC `lastVisitAt`/`lastShellAt` fields
+  inside the quoted POST argument become `<UUID>`, `<ENCODED_URL>`, and
+  `<TIMESTAMP>`. Field names, location, OS, downloader flags, and shell
+  execution structure remain intact. Curl and wget variants stay separate.
+- For the PHP inventory prefix `$tok=...;$id=...;$interval=...;` with
+  `function _ea_inv`, token and hex ID values become `<TOKEN>` and `<HEX_ID>`.
+  Whitespace outside quoted strings is collapsed; the interval and code
+  remain intact. These are server-side content templates, not Windows
+  process detections.
+
+Other case, quotes, internal whitespace, variable names, filenames, IDs, and
+encoded content are preserved. This is
 more conservative than the KQL template example below, so its pattern count
 can differ. It is lexical grouping, not a parser or executable detection rule.
 Split/obfuscated URLs, some URL punctuation, and schemaless URLs in other
@@ -101,6 +116,27 @@ The files inherit the rolling set's coverage and freshness limitations.
 Each template uses JSON string escaping, without the surrounding quotes:
 newlines appear as `\n`, backslashes as `\\`, and quotes as `\"`.
 Use the JSON file for programmatic consumption and multiline scripts.
+
+`Patterns.regex.json` contains only a JSON array of regex strings, without
+objects, metadata, report IDs, or original payload examples. Metadata and
+examples remain in `Patterns.json`. Regex literals are
+escaped; only the defined placeholders become constrained expressions.
+Whitespace matching is flexible (PHP outside quoted strings), but case is
+preserved. Regexes use dot-all mode and substring matching, without lookarounds
+or backreferences. Consumers must refang `[.]` to `.` before matching.
+Unlike the escaped TXT templates, each JSON string is the actual regex
+after JSON decoding.
+
+Every generated regex is compiled and checked against all of its original
+payload examples before files are written. Failure stops the export instead
+of silently omitting a pattern. This checks Python regex behavior, not live
+KQL execution. These expressions are analysis candidates, not automatically
+high-fidelity rules: quoted code can match, long scripts can be expensive,
+and partial source scripts are not proof of complete executable payloads.
+Keep server-side content separate from endpoint command-line detections.
+The TXT file remains a template list, so existing consumers are not silently
+switched to regex. Consumers using exact normalized-template comparisons must
+implement the new field placeholders to match those newly grouped families.
 
 To rebuild patterns locally from the existing set without accessing the network:
 

