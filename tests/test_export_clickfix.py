@@ -163,11 +163,14 @@ class ExportTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
-            (output / "20261110.json").write_text("existing", encoding="utf-8")
+            partial = [{"UrlDomain": "other.example", "DeliveryUrl": [], "PayloadUrl": []}]
+            (output / "20261110.json").write_text(json.dumps(partial), encoding="utf-8")
             (output / "20261109.json").write_text("older", encoding="utf-8")
             with patch.object(exporter, "fetch", side_effect=fake_fetch):
                 exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
-            self.assertEqual((output / "20261110.json").read_text(), "existing")
+            partial_result = json.loads((output / "20261110.json").read_text())
+            self.assertEqual(partial_result[0], partial[0])
+            self.assertEqual(partial_result[1]["ReportId"], "partial")
             self.assertEqual((output / "20261109.json").read_text(), "older")
             self.assertFalse((output / "20261108.json").exists())
             self.assertEqual(json.loads((output / "20261111.json").read_text()), [])
@@ -194,13 +197,81 @@ class ExportTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
             existing = output / "20261113.json"
-            existing.write_text("existing", encoding="utf-8")
+            existing.write_text("[]", encoding="utf-8")
             with patch.object(
                 exporter, "fetch", side_effect=[sitemap(entries), b"<html>missing</html>"]
             ):
                 with self.assertRaisesRegex(RuntimeError, "/report/report"):
                     exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
-            self.assertEqual(existing.read_text(), "existing")
+            self.assertEqual(existing.read_text(), "[]")
+
+    def test_append_by_report_id_and_preserve_legacy_records_across_days(self):
+        entries = [
+            ("new", "2026-11-13T12:00:00Z"),
+            ("known", "2026-11-13T11:00:00Z"),
+            ("legacy", "2026-11-13T10:00:00Z"),
+            ("oldnew", "2026-11-12T10:00:00Z"),
+        ]
+        existing = {
+            "ReportId": "known", "UrlDomain": "known.example",
+            "DeliveryUrl": [], "PayloadUrl": [],
+        }
+        legacy = {"UrlDomain": "same.example", "DeliveryUrl": [], "PayloadUrl": []}
+        old = {"UrlDomain": "old.example", "DeliveryUrl": [], "PayloadUrl": []}
+        calls = []
+
+        def fake_fetch(url):
+            calls.append(url)
+            if url == exporter.SITEMAP_URL:
+                return sitemap(entries)
+            return report(lure="same[.]example").encode()
+
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            current = output / "20261113.json"
+            previous = output / "20261112.json"
+            current.write_text(json.dumps([existing, legacy]), encoding="utf-8")
+            previous.write_text(json.dumps([old]), encoding="utf-8")
+            with patch.object(exporter, "fetch", side_effect=fake_fetch):
+                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                result = json.loads(current.read_text())
+                self.assertEqual(result[:2], [existing, legacy])
+                self.assertEqual(len(result), 3)
+                self.assertEqual(result[2]["ReportId"], "legacy")
+                self.assertEqual(json.loads(previous.read_text())[0], old)
+                self.assertEqual(json.loads(previous.read_text())[1]["ReportId"], "oldnew")
+                before = current.read_bytes()
+                old_before = previous.read_bytes()
+                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                self.assertEqual(current.read_bytes(), before)
+                self.assertEqual(previous.read_bytes(), old_before)
+            self.assertNotIn(exporter.BASE_URL + "/report/known", calls)
+
+    def test_distinct_reports_with_identical_data_remain_distinct(self):
+        entries = [("a", "2026-11-13T12:00:00Z"), ("b", "2026-11-13T11:00:00Z")]
+
+        def fake_fetch(url):
+            return sitemap(entries) if url == exporter.SITEMAP_URL else report().encode()
+
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            with patch.object(exporter, "fetch", side_effect=fake_fetch):
+                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+            result = json.loads((output / "20261113.json").read_text())
+            self.assertEqual([entry["ReportId"] for entry in result], ["a", "b"])
+
+    def test_invalid_existing_data_fails_without_writing(self):
+        entries = [("a", "2026-11-13T12:00:00Z")]
+        for content in ('not json', '{}', '[{"ReportId": "a"}, {"ReportId": "a"}]'):
+            with self.subTest(content=content), tempfile.TemporaryDirectory() as directory:
+                output = Path(directory)
+                file = output / "20261113.json"
+                file.write_text(content, encoding="utf-8")
+                with patch.object(exporter, "fetch", return_value=sitemap(entries)):
+                    with self.assertRaises(ValueError):
+                        exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                self.assertEqual(file.read_text(), content)
 
 
 if __name__ == "__main__":

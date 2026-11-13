@@ -242,6 +242,30 @@ def parse_sitemap(data):
     return reports
 
 
+def load_existing_entries(path):
+    with path.open(encoding="utf-8") as file:
+        entries = json.load(file)
+    if not isinstance(entries, list) or not all(isinstance(entry, dict) for entry in entries):
+        raise ValueError(f"Expected an array of objects in {path}")
+    report_ids = set()
+    legacy = []
+    for entry in entries:
+        if "ReportId" not in entry:
+            if not {"UrlDomain", "DeliveryUrl", "PayloadUrl"}.issubset(entry) or not set(entry).issubset({
+                "UrlDomain", "DeliveryUrl", "PayloadUrl", "IP", "Related",
+                "Payload", "ResolvedDownloadUrl",
+            }):
+                raise ValueError(f"Cannot identify legacy entry in {path}")
+            legacy.append(entry)
+        else:
+            report_id = entry["ReportId"]
+            if (not isinstance(report_id, str) or not REPORT_PATH.fullmatch("/report/" + report_id)
+                    or report_id in report_ids):
+                raise ValueError(f"Invalid or duplicate ReportId in {path}")
+            report_ids.add(report_id)
+    return entries, report_ids, legacy
+
+
 def export(output, now, delay):
     reports = parse_sitemap(fetch(SITEMAP_URL))
     today = now.astimezone(timezone.utc).date()
@@ -254,34 +278,58 @@ def export(output, now, delay):
             file=sys.stderr,
         )
 
-    grouped = {today - timedelta(days=offset): [] for offset in range(7)}
+    grouped = {}
+    for offset in range(7):
+        day = today - timedelta(days=offset)
+        if day < oldest:
+            continue
+        destination = output / f"{day:%Y%m%d}.json"
+        exists = destination.exists()
+        entries, ids, legacy = load_existing_entries(destination) if exists else ([], set(), [])
+        grouped[day] = {
+            "entries": entries, "ids": ids, "legacy": legacy,
+            "exists": exists, "added": 0,
+        }
     for path, timestamp in reports:
         day = timestamp.date()
         if day < start or day > today:
             continue
-        destination = output / f"{day:%Y%m%d}.json"
-        if day == oldest and destination.exists():
+        group = grouped[day]
+        report_id = path.rsplit("/", 1)[-1]
+        if report_id in group["ids"]:
             continue
         time.sleep(delay)
         try:
             entry = parse_infrastructure(fetch(BASE_URL + path).decode("utf-8"))
         except Exception as exc:
             raise RuntimeError(f"Failed to process {BASE_URL + path}: {exc}") from exc
-        grouped[day].append(entry)
+        match = next(
+            (index for index, old in enumerate(group["legacy"])
+             if all(key in entry and entry[key] == value for key, value in old.items())),
+            None,
+        )
+        if match is not None:
+            group["legacy"].pop(match)
+            continue
+        entry["ReportId"] = report_id
+        group["ids"].add(report_id)
+        group["added"] += 1
+        group["entries"].append(entry)
 
     output.mkdir(parents=True, exist_ok=True)
-    for day, entries in sorted(grouped.items()):
+    for day in sorted(today - timedelta(days=offset) for offset in range(7)):
         destination = output / f"{day:%Y%m%d}.json"
         if day < oldest:
             print(f"Skipping {day}: not covered by sitemap")
             continue
-        if day == oldest and destination.exists():
-            print(f"Skipping {day}: preserving existing file for partially covered day")
+        group = grouped[day]
+        if group["exists"] and not group["added"]:
+            print(f"Skipping {day}: no new entries")
             continue
         destination.write_text(
-            json.dumps(entries, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+            json.dumps(group["entries"], indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )
-        print(f"Wrote {destination}: {len(entries)} entries")
+        print(f"Wrote {destination}: {len(group['entries'])} entries ({group['added']} new)")
 
 
 def main():
