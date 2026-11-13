@@ -1,0 +1,40 @@
+name: Export ClickFix infrastructure
+
+on:
+  schedule:
+    - cron: '15 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clickfix-infrastructure-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  export:
+    if: github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Export reports
+        run: python export_clickfix.py
+      - name: Commit changed exports
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update ClickFix infrastructure exports"
+            git push origin "HEAD:${BRANCH}"
+          fi
