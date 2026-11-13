@@ -72,6 +72,47 @@ The sets reflect the last successful export, not the time a consumer reads
 them. A failed or delayed workflow leaves the previously committed sets in place.
 GitHub Raw responses may also be cached.
 
+## Payload patterns
+
+Every successful export also rebuilds `data/Patterns.json` and
+`data/Patterns.txt` from the same seven-day set, without additional downloads.
+The existing workflow commits both files under `data`; unchanged contents
+are not rewritten. All nonempty payloads are included, including singletons,
+long scripts, and payloads without recognizable URLs.
+
+Normalization replaces recognizable HTTP(S) URLs and schemaless domain URLs
+directly following `irm`, `iwr`, `Invoke-RestMethod`, or `Invoke-WebRequest`
+with `<URL>`. Defanged `[.]` dots are refanged, line endings are normalized,
+and outer whitespace is trimmed. Case, quotes, internal whitespace, variable
+names, filenames, IDs, and encoded content are otherwise preserved. This is
+more conservative than the KQL template example below, so its pattern count
+can differ. It is lexical grouping, not a parser or executable detection rule.
+Split/obfuscated URLs, some URL punctuation, and schemaless URLs in other
+contexts can be missed. Never execute the payloads or templates.
+
+`Patterns.json` is an array of objects containing `Pattern`,
+`DistinctPayloadCount`, `ReportCount`, `FirstSeen`, `LastSeen`, `ReportIds`,
+and all distinct original `PayloadExamples`. Patterns are sorted by variant
+count, report count, then text. Counts refer to commands and reports, not
+victims or independent campaigns; scan timestamps cover only the loaded set.
+The files inherit the rolling set's coverage and freshness limitations.
+
+`Patterns.txt` contains one template per physical line in the same order.
+Each template uses JSON string escaping, without the surrounding quotes:
+newlines appear as `\n`, backslashes as `\\`, and quotes as `\"`.
+Use the JSON file for programmatic consumption and multiline scripts.
+
+To rebuild patterns locally from the existing set without accessing the network:
+
+```powershell
+python export_clickfix.py --patterns-only
+```
+
+This mode uses the existing `data/sets/7D.json` as-is; it does not refresh its
+time window. Missing or malformed input fails explicitly. Pattern input is
+validated before normal exports start writing daily files and sets. A failed
+workflow leaves the previously committed files in place.
+
 ## Exported fields
 
 `UrlDomain`, `DeliveryUrl`, and `PayloadUrl` contain the values shown in the

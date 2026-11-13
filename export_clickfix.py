@@ -24,6 +24,13 @@ SITEMAP_URL = f"{BASE_URL}/sitemap.xml"
 USER_AGENT = "ClickFixInfrastructureExport/1.0"
 REPORT_PATH = re.compile(r"^/report/[a-zA-Z0-9]+$")
 SET_DAYS = (*range(1, 11), 14, 30)
+PAYLOAD_URL = re.compile(r"""https?://[^\s"'<>|;`()]+""", re.IGNORECASE)
+DOWNLOAD_URL = re.compile(
+    r"""(\b(?:irm|iwr|invoke-restmethod|invoke-webrequest)\s+["']?)"""
+    r"""(?:[a-z0-9-]+\.)+[a-z][a-z0-9-]*(?::\d+)?"""
+    r"""(?:/[^\s"'<>|;`()]+)?""",
+    re.IGNORECASE,
+)
 VOID_TAGS = {
     "area", "base", "br", "col", "embed", "hr", "img", "input", "link",
     "meta", "param", "source", "track", "wbr",
@@ -393,6 +400,80 @@ def write_sets(output, sets):
         print(f"Wrote {path}: {len(entries)} entries (last {days * 24} hours)", flush=True)
 
 
+def normalize_payload(payload):
+    text = payload.replace("\r\n", "\n").replace("\r", "\n").strip()
+    text = text.replace("[.]", ".")
+    text = PAYLOAD_URL.sub("<URL>", text)
+    return DOWNLOAD_URL.sub(lambda match: match.group(1) + "<URL>", text)
+
+
+def build_patterns(entries):
+    if not isinstance(entries, list):
+        raise ValueError("Expected a report array for patterns")
+    groups = {}
+    seen = {}
+    for entry in entries:
+        if not isinstance(entry, dict):
+            raise ValueError("Expected report objects for patterns")
+        report_id = entry.get("ReportId")
+        stamp = entry.get("ScannedAt")
+        payload = entry.get("Payload")
+        if (not isinstance(report_id, str)
+                or not REPORT_PATH.fullmatch("/report/" + report_id)
+                or not isinstance(stamp, str)):
+            raise ValueError("Pattern reports require valid ReportId and ScannedAt")
+        timestamp = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+        if timestamp.tzinfo is None:
+            raise ValueError(f"Pattern report {report_id} has no timestamp timezone")
+        if payload is not None and not isinstance(payload, str):
+            raise ValueError(f"Invalid Payload in pattern report {report_id}")
+        if report_id in seen:
+            if seen[report_id] != entry:
+                raise ValueError(f"Conflicting pattern ReportId: {report_id}")
+            continue
+        seen[report_id] = entry
+        if payload is None or not payload.strip():
+            continue
+        pattern = normalize_payload(payload)
+        group = groups.setdefault(pattern, {"payloads": set(), "reports": {}})
+        group["payloads"].add(payload)
+        group["reports"][report_id] = timestamp.astimezone(timezone.utc)
+    patterns = [
+        {
+            "Pattern": pattern,
+            "DistinctPayloadCount": len(group["payloads"]),
+            "ReportCount": len(group["reports"]),
+            "FirstSeen": min(group["reports"].values()).isoformat(),
+            "LastSeen": max(group["reports"].values()).isoformat(),
+            "ReportIds": sorted(group["reports"]),
+            "PayloadExamples": sorted(group["payloads"]),
+        }
+        for pattern, group in groups.items()
+    ]
+    return sorted(
+        patterns,
+        key=lambda item: (-item["DistinctPayloadCount"], -item["ReportCount"], item["Pattern"]),
+    )
+
+
+def write_patterns(output, patterns):
+    contents = {
+        "Patterns.json": json.dumps(patterns, indent=2, ensure_ascii=False) + "\n",
+        "Patterns.txt": "".join(
+            json.dumps(item["Pattern"], ensure_ascii=False)[1:-1] + "\n"
+            for item in patterns
+        ),
+    }
+    output.mkdir(parents=True, exist_ok=True)
+    for name, content in contents.items():
+        path = output / name
+        if path.exists() and path.read_text(encoding="utf-8") == content:
+            print(f"Skipping {path}: unchanged", flush=True)
+            continue
+        path.write_text(content, encoding="utf-8")
+        print(f"Wrote {path}: {len(patterns)} patterns", flush=True)
+
+
 def export(output, now, delay):
     now = now.astimezone(timezone.utc)
     reports = parse_sitemap(fetch(SITEMAP_URL))
@@ -464,6 +545,7 @@ def export(output, now, delay):
         group["entries"].append(entry)
 
     sets = build_sets(output, now, {day: group["entries"] for day, group in grouped.items()})
+    patterns = build_patterns(sets[7])
     output.mkdir(parents=True, exist_ok=True)
     for day in sorted(grouped):
         destination = output / f"{day:%Y%m%d}.json"
@@ -479,16 +561,27 @@ def export(output, now, delay):
             f"({group['added']} new, {group['enriched']} enriched)"
         )
     write_sets(output, sets)
+    write_patterns(output, patterns)
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=Path("data"))
     parser.add_argument("--delay", type=float, default=1.0, help="Seconds between report requests")
+    parser.add_argument(
+        "--patterns-only", action="store_true",
+        help="Rebuild patterns from the existing sets/7D.json without network requests",
+    )
     args = parser.parse_args()
     if args.delay < 0:
         parser.error("--delay must not be negative")
-    export(args.output, datetime.now(timezone.utc), args.delay)
+    if args.patterns_only:
+        source = args.output / "sets" / "7D.json"
+        with source.open(encoding="utf-8") as file:
+            patterns = build_patterns(json.load(file))
+        write_patterns(args.output, patterns)
+    else:
+        export(args.output, datetime.now(timezone.utc), args.delay)
 
 
 if __name__ == "__main__":

