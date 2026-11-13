@@ -7,10 +7,13 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from http.client import IncompleteRead
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -104,11 +107,20 @@ def is_ip(value):
         return False
 
 
+class IncompleteReportError(ValueError):
+    pass
+
+
 def parse_infrastructure(html):
     parser = InfrastructureParser()
     parser.feed(html)
+    parser.close()
     if parser.root is None or parser.stack:
-        raise ValueError("Missing or incomplete infrastructure section")
+        raise IncompleteReportError(
+            "Missing or incomplete infrastructure section "
+            f"(HTML characters: {len(html)}, section found: {parser.root is not None}, "
+            f"unclosed tags: {[node.tag for node in parser.stack]})"
+        )
 
     columns = {}
     for column in parser.root.descendants():
@@ -215,6 +227,53 @@ def fetch(url):
         return response.read()
 
 
+def retry_delay(error, attempt):
+    delay = 5 * attempt
+    if not isinstance(error, urllib.error.HTTPError):
+        return delay
+    retry_after = error.headers.get("Retry-After")
+    if retry_after is None:
+        return delay
+    try:
+        if retry_after.strip().isdigit():
+            return max(delay, int(retry_after))
+        date = parsedate_to_datetime(retry_after)
+        if date.tzinfo is None:
+            raise ValueError("Missing timezone")
+        return max(delay, (date - datetime.now(timezone.utc)).total_seconds())
+    except (ValueError, TypeError, OverflowError) as exc:
+        print(
+            f"WARNING: Invalid Retry-After header {retry_after!r}: {exc}; "
+            f"waiting {delay}s instead.",
+            file=sys.stderr, flush=True,
+        )
+        return delay
+
+
+def fetch_report(url):
+    for attempt in range(1, 4):
+        try:
+            return parse_infrastructure(fetch(url).decode("utf-8"))
+        except (IncompleteReportError, urllib.error.URLError, TimeoutError, IncompleteRead) as exc:
+            if isinstance(exc, urllib.error.HTTPError) and exc.code not in {
+                429, 500, 502, 503, 504,
+            }:
+                raise RuntimeError(f"Failed to process {url}: {exc}") from exc
+            if attempt == 3:
+                raise RuntimeError(
+                    f"Failed to process {url} after {attempt} attempts: {exc}"
+                ) from exc
+            delay = retry_delay(exc, attempt)
+            print(
+                f"WARNING: Attempt {attempt}/3 failed for {url}: {exc}; "
+                f"retrying in {delay:g}s.",
+                file=sys.stderr, flush=True,
+            )
+            time.sleep(delay)
+        except ValueError as exc:
+            raise RuntimeError(f"Failed to process {url}: {exc}") from exc
+
+
 def parse_sitemap(data):
     root = ET.fromstring(data)
     namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
@@ -290,19 +349,23 @@ def export(output, now, delay):
             "entries": entries, "ids": ids, "legacy": legacy,
             "exists": exists, "added": 0,
         }
-    for path, timestamp in reports:
+    pending = [
+        (path, timestamp) for path, timestamp in reports
+        if start <= timestamp.date() <= today
+        and path.rsplit("/", 1)[-1] not in grouped[timestamp.date()]["ids"]
+    ]
+    print(
+        f"Checking {len(pending)} reports; "
+        f"{sum(len(group['legacy']) for group in grouped.values())} existing entries lack ReportId.",
+        flush=True,
+    )
+    for index, (path, timestamp) in enumerate(pending, start=1):
         day = timestamp.date()
-        if day < start or day > today:
-            continue
         group = grouped[day]
         report_id = path.rsplit("/", 1)[-1]
-        if report_id in group["ids"]:
-            continue
         time.sleep(delay)
-        try:
-            entry = parse_infrastructure(fetch(BASE_URL + path).decode("utf-8"))
-        except Exception as exc:
-            raise RuntimeError(f"Failed to process {BASE_URL + path}: {exc}") from exc
+        print(f"[{index}/{len(pending)}] Fetching {BASE_URL + path}", flush=True)
+        entry = fetch_report(BASE_URL + path)
         match = next(
             (index for index, old in enumerate(group["legacy"])
              if all(key in entry and entry[key] == value for key, value in old.items())),

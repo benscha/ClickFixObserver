@@ -1,7 +1,9 @@
 import json
 import tempfile
 import unittest
+import urllib.error
 from datetime import datetime, timezone
+from http.client import IncompleteRead
 from pathlib import Path
 from unittest.mock import patch
 
@@ -139,6 +141,66 @@ class SitemapTests(unittest.TestCase):
                 exporter.parse_sitemap(sitemap(entries))
 
 
+class FetchReportTests(unittest.TestCase):
+    def test_missing_section_retries_then_succeeds(self):
+        with patch.object(
+            exporter, "fetch", side_effect=[b"<html>temporary response</html>", report().encode()]
+        ) as fetch, patch.object(exporter.time, "sleep") as sleep:
+            result = exporter.fetch_report(exporter.BASE_URL + "/report/test")
+        self.assertEqual(result["UrlDomain"], "lure.example")
+        self.assertEqual(fetch.call_count, 2)
+        sleep.assert_called_once_with(5)
+
+    def test_persistent_missing_section_fails_after_three_attempts(self):
+        with patch.object(exporter, "fetch", return_value=b"<html>missing</html>") as fetch:
+            with patch.object(exporter.time, "sleep") as sleep:
+                with self.assertRaisesRegex(RuntimeError, "after 3 attempts.*section found: False"):
+                    exporter.fetch_report(exporter.BASE_URL + "/report/test")
+        self.assertEqual(fetch.call_count, 3)
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], [5, 10])
+
+    def test_transient_network_errors_retry(self):
+        url = exporter.BASE_URL + "/report/test"
+        errors = [
+            urllib.error.URLError("temporary connection failure"),
+            TimeoutError("timed out"),
+            IncompleteRead(b"partial", 100),
+            urllib.error.HTTPError(url, 503, "Unavailable", {}, None),
+            urllib.error.HTTPError(url, 429, "Rate limited", {"Retry-After": "30"}, None),
+        ]
+        for error in errors:
+            with self.subTest(error=error):
+                with patch.object(exporter, "fetch", side_effect=[error, report().encode()]):
+                    with patch.object(exporter.time, "sleep") as sleep:
+                        self.assertEqual(exporter.fetch_report(url)["UrlDomain"], "lure.example")
+                sleep.assert_called_once_with(30 if getattr(error, "code", None) == 429 else 5)
+
+    def test_permanent_http_and_schema_errors_are_not_retried(self):
+        url = exporter.BASE_URL + "/report/test"
+        for failure in (
+            urllib.error.HTTPError(url, 404, "Not found", {}, None),
+            report().replace("Payload", "Unexpected").encode(),
+        ):
+            with self.subTest(failure=failure):
+                with patch.object(exporter, "fetch", side_effect=[failure]) as fetch:
+                    with patch.object(exporter.time, "sleep") as sleep:
+                        with self.assertRaisesRegex(RuntimeError, "/report/test"):
+                            exporter.fetch_report(url)
+                fetch.assert_called_once_with(url)
+                sleep.assert_not_called()
+
+    def test_retry_after_date_and_invalid_header(self):
+        url = exporter.BASE_URL + "/report/test"
+        error = urllib.error.HTTPError(
+            url, 429, "Rate limited", {"Retry-After": "Fri, 13 Nov 2026 10:00:30 GMT"}, None
+        )
+        with patch.object(exporter, "datetime") as clock:
+            clock.now.return_value = datetime(2026, 11, 13, 10, tzinfo=timezone.utc)
+            self.assertEqual(exporter.retry_delay(error, 1), 30)
+        error.headers["Retry-After"] = "invalid"
+        self.assertEqual(exporter.retry_delay(error, 2), 10)
+
+
 class ExportTests(unittest.TestCase):
     def test_seven_days_preserves_partial_day_and_existing_older_files(self):
         entries = [
@@ -198,11 +260,13 @@ class ExportTests(unittest.TestCase):
             output = Path(directory)
             existing = output / "20261113.json"
             existing.write_text("[]", encoding="utf-8")
-            with patch.object(
-                exporter, "fetch", side_effect=[sitemap(entries), b"<html>missing</html>"]
-            ):
-                with self.assertRaisesRegex(RuntimeError, "/report/report"):
-                    exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+            def fake_fetch(url):
+                return sitemap(entries) if url == exporter.SITEMAP_URL else b"<html>missing</html>"
+
+            with patch.object(exporter, "fetch", side_effect=fake_fetch):
+                with patch.object(exporter.time, "sleep"):
+                    with self.assertRaisesRegex(RuntimeError, "/report/report.*after 3 attempts"):
+                        exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
             self.assertEqual(existing.read_text(), "[]")
 
     def test_append_by_report_id_and_preserve_legacy_records_across_days(self):

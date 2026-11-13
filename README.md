@@ -37,6 +37,20 @@ gleichen Werte haben oder ein alter Report sich geändert hat, kann es zu
 falschen Zuordnungen oder doppelten Einträgen kommen. Ungültige vorhandene
 JSON-Dateien führen zum Abbruch, statt überschrieben zu werden.
 
+Der Workflow zeigt jeden Reportabruf sofort im Log an. Fehlende oder
+unvollständige Infrastrukturabschnitte und temporäre Abruffehler werden
+höchstens dreimal versucht, mit fünf bzw. zehn Sekunden Pause. Bei HTTP 429
+oder temporären Serverfehlern wird ein längerer `Retry-After`-Hinweis
+berücksichtigt. Dauerhafte HTTP-Fehler und andere Schemafehler führen direkt
+zum Abbruch. Bei einem endgültigen Abruf- oder Parserfehler werden keine
+Tagesdateien geschrieben; der fehlende Report wird nicht stillschweigend
+ausgelassen.
+
+Solange Einträge keine `ReportId` besitzen, müssen die entsprechenden Reports
+bei jedem Lauf für den Wertevergleich abgerufen werden. Bei 500 Reports
+benötigt allein die standardmäßige Pause mehr als acht Minuten; die
+Antwortzeiten kommen hinzu.
+
 Die Felder `UrlDomain`, `DeliveryUrl` und `PayloadUrl` enthalten die jeweiligen
 Werte der drei Infrastrukturspalten. Einzelne IP-Adressen aus diesen Spalten
 und dem Bereich Related werden dedupliziert im Array `IP` gesammelt. Falls

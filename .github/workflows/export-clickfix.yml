@@ -26,7 +26,7 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s tests -v
       - name: Export reports
-        run: python export_clickfix.py
+        run: python -u export_clickfix.py
       - name: Commit changed exports
         env:
           BRANCH: ${{ github.ref_name }}
