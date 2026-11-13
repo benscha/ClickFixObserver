@@ -23,6 +23,7 @@ BASE_URL = "https://clickfix.observer"
 SITEMAP_URL = f"{BASE_URL}/sitemap.xml"
 USER_AGENT = "ClickFixInfrastructureExport/1.0"
 REPORT_PATH = re.compile(r"^/report/[a-zA-Z0-9]+$")
+SET_DAYS = (*range(1, 11), 14, 30)
 VOID_TAGS = {
     "area", "base", "br", "col", "embed", "hr", "img", "input", "link",
     "meta", "param", "source", "track", "wbr",
@@ -325,10 +326,78 @@ def load_existing_entries(path):
     return entries, report_ids, legacy
 
 
+def build_sets(output, now, replacements):
+    now = now.astimezone(timezone.utc)
+    sets = {days: [] for days in SET_DAYS}
+    seen = {}
+    for offset in range(31):
+        day = now.date() - timedelta(days=offset)
+        path = output / f"{day:%Y%m%d}.json"
+        if day in replacements:
+            entries = replacements[day]
+        elif path.exists():
+            entries, _, _ = load_existing_entries(path)
+        else:
+            print(f"WARNING: No archive file for {day}; sets may be incomplete.",
+                  file=sys.stderr, flush=True)
+            continue
+        excluded = 0
+        for entry in entries:
+            if "ScannedAt" not in entry:
+                excluded += 1
+                continue
+            stamp = entry["ScannedAt"]
+            if not isinstance(stamp, str):
+                raise ValueError(f"Invalid ScannedAt in {path}")
+            timestamp = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+            if timestamp.tzinfo is None or timestamp.astimezone(timezone.utc).date() != day:
+                raise ValueError(f"Invalid ScannedAt timezone or archive date in {path}")
+            timestamp = timestamp.astimezone(timezone.utc)
+            report_id = entry.get("ReportId")
+            if not report_id:
+                raise ValueError(f"ScannedAt without ReportId in {path}")
+            if report_id in seen:
+                if seen[report_id] != entry:
+                    raise ValueError(f"Conflicting archived ReportId: {report_id}")
+                continue
+            seen[report_id] = entry
+            for days in SET_DAYS:
+                if now - timedelta(days=days) <= timestamp <= now:
+                    sets[days].append(entry)
+        if excluded:
+            print(
+                f"WARNING: Excluding {excluded} entries from {path} without ScannedAt.",
+                file=sys.stderr, flush=True,
+            )
+    for entries in sets.values():
+        entries.sort(
+            key=lambda entry: (
+                datetime.fromisoformat(entry["ScannedAt"].replace("Z", "+00:00")),
+                entry["ReportId"],
+            ),
+            reverse=True,
+        )
+    return sets
+
+
+def write_sets(output, sets):
+    directory = output / "sets"
+    directory.mkdir(parents=True, exist_ok=True)
+    for days, entries in sets.items():
+        path = directory / f"{days}D.json"
+        content = json.dumps(entries, indent=2, ensure_ascii=False) + "\n"
+        if path.exists() and path.read_text(encoding="utf-8") == content:
+            print(f"Skipping {path}: unchanged", flush=True)
+            continue
+        path.write_text(content, encoding="utf-8")
+        print(f"Wrote {path}: {len(entries)} entries (last {days * 24} hours)", flush=True)
+
+
 def export(output, now, delay):
+    now = now.astimezone(timezone.utc)
     reports = parse_sitemap(fetch(SITEMAP_URL))
-    today = now.astimezone(timezone.utc).date()
-    start = today - timedelta(days=6)
+    today = now.date()
+    start = (now - timedelta(days=30)).date()
     oldest = reports[-1][1].date()
     if oldest >= start:
         print(
@@ -338,7 +407,7 @@ def export(output, now, delay):
         )
 
     grouped = {}
-    for offset in range(7):
+    for offset in range(31):
         day = today - timedelta(days=offset)
         if day < oldest:
             continue
@@ -347,11 +416,21 @@ def export(output, now, delay):
         entries, ids, legacy = load_existing_entries(destination) if exists else ([], set(), [])
         grouped[day] = {
             "entries": entries, "ids": ids, "legacy": legacy,
-            "exists": exists, "added": 0,
+            "exists": exists, "added": 0, "enriched": 0,
         }
+    for path, timestamp in reports:
+        day = timestamp.date()
+        if day not in grouped or timestamp > now:
+            continue
+        group = grouped[day]
+        report_id = path.rsplit("/", 1)[-1]
+        for entry in group["entries"]:
+            if entry.get("ReportId") == report_id and "ScannedAt" not in entry:
+                entry["ScannedAt"] = timestamp.isoformat()
+                group["enriched"] += 1
     pending = [
         (path, timestamp) for path, timestamp in reports
-        if start <= timestamp.date() <= today
+        if start <= timestamp.date() <= today and timestamp <= now
         and path.rsplit("/", 1)[-1] not in grouped[timestamp.date()]["ids"]
     ]
     print(
@@ -372,27 +451,34 @@ def export(output, now, delay):
             None,
         )
         if match is not None:
-            group["legacy"].pop(match)
+            old = group["legacy"].pop(match)
+            old["ReportId"] = report_id
+            old["ScannedAt"] = timestamp.isoformat()
+            group["ids"].add(report_id)
+            group["enriched"] += 1
             continue
         entry["ReportId"] = report_id
+        entry["ScannedAt"] = timestamp.isoformat()
         group["ids"].add(report_id)
         group["added"] += 1
         group["entries"].append(entry)
 
+    sets = build_sets(output, now, {day: group["entries"] for day, group in grouped.items()})
     output.mkdir(parents=True, exist_ok=True)
-    for day in sorted(today - timedelta(days=offset) for offset in range(7)):
+    for day in sorted(grouped):
         destination = output / f"{day:%Y%m%d}.json"
-        if day < oldest:
-            print(f"Skipping {day}: not covered by sitemap")
-            continue
         group = grouped[day]
-        if group["exists"] and not group["added"]:
+        if group["exists"] and not group["added"] and not group["enriched"]:
             print(f"Skipping {day}: no new entries")
             continue
         destination.write_text(
             json.dumps(group["entries"], indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )
-        print(f"Wrote {destination}: {len(group['entries'])} entries ({group['added']} new)")
+        print(
+            f"Wrote {destination}: {len(group['entries'])} entries "
+            f"({group['added']} new, {group['enriched']} enriched)"
+        )
+    write_sets(output, sets)
 
 
 def main():

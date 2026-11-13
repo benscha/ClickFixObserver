@@ -2,7 +2,7 @@ import json
 import tempfile
 import unittest
 import urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from http.client import IncompleteRead
 from pathlib import Path
 from unittest.mock import patch
@@ -201,8 +201,114 @@ class FetchReportTests(unittest.TestCase):
         self.assertEqual(exporter.retry_delay(error, 2), 10)
 
 
+class RollingSetTests(unittest.TestCase):
+    def test_all_windows_exact_boundaries_and_midday_cutoffs(self):
+        now = datetime(2026, 11, 13, 14, 30, tzinfo=timezone.utc)
+        replacements = {}
+
+        def add(report_id, timestamp):
+            entry = {
+                "ReportId": report_id, "ScannedAt": timestamp.isoformat(),
+                "UrlDomain": "example.com", "DeliveryUrl": [], "PayloadUrl": [],
+                "IP": ["192.0.2.1"], "Payload": "unchanged",
+            }
+            replacements.setdefault(timestamp.date(), []).append(entry)
+
+        for days in exporter.SET_DAYS:
+            cutoff = now - timedelta(days=days)
+            add(f"exact{days}", cutoff)
+            add(f"before{days}", cutoff - timedelta(microseconds=1))
+            add(f"after{days}", cutoff + timedelta(microseconds=1))
+        add("now", now)
+        add("future", now + timedelta(microseconds=1))
+        with tempfile.TemporaryDirectory() as directory:
+            with patch.object(exporter, "print"):
+                sets = exporter.build_sets(Path(directory), now, replacements)
+                exporter.write_sets(Path(directory), sets)
+            self.assertEqual(set(sets), {*range(1, 11), 14, 30})
+            self.assertEqual(
+                {p.name for p in (Path(directory) / "sets").glob("*.json")},
+                {f"{days}D.json" for days in exporter.SET_DAYS},
+            )
+            for days, entries in sets.items():
+                ids = {entry["ReportId"] for entry in entries}
+                self.assertIn(f"exact{days}", ids)
+                self.assertIn(f"after{days}", ids)
+                self.assertNotIn(f"before{days}", ids)
+                self.assertIn("now", ids)
+                self.assertNotIn("future", ids)
+                self.assertTrue(all(entry["Payload"] == "unchanged" for entry in entries))
+                for entry in entries:
+                    stamp = datetime.fromisoformat(entry["ScannedAt"])
+                    self.assertTrue(now - timedelta(hours=days * 24) <= stamp <= now)
+
+    def test_archived_history_outside_sitemap_and_legacy_exclusion(self):
+        now = datetime(2026, 11, 13, 14, tzinfo=timezone.utc)
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            entry = {
+                "ReportId": "historical", "ScannedAt": "2026-10-20T12:00:00Z",
+                "UrlDomain": "archive.example", "DeliveryUrl": [], "PayloadUrl": [],
+            }
+            legacy = {"UrlDomain": "old.example", "DeliveryUrl": [], "PayloadUrl": []}
+            path = output / "20261020.json"
+            path.write_text(json.dumps([entry, legacy]), encoding="utf-8")
+            before = path.read_bytes()
+            with patch.object(exporter, "print") as log:
+                sets = exporter.build_sets(output, now, {})
+            self.assertEqual(sets[30], [entry])
+            self.assertEqual(sets[14], [])
+            self.assertTrue(any("without ScannedAt" in call.args[0]
+                                for call in log.call_args_list))
+            self.assertEqual(path.read_bytes(), before)
+
+    def test_invalid_timestamp_fails_before_sets_are_written(self):
+        for stamp in (None, "invalid", "2026-11-13T00:00:00", "2026-11-12T00:00:00Z"):
+            with self.subTest(stamp=stamp), tempfile.TemporaryDirectory() as directory:
+                output = Path(directory)
+                entries = [{"ReportId": "bad", "ScannedAt": stamp}]
+                with patch.object(exporter, "print"), self.assertRaises(ValueError):
+                    exporter.build_sets(
+                        output, datetime(2026, 11, 13, 14, tzinfo=timezone.utc),
+                        {datetime(2026, 11, 13).date(): entries},
+                    )
+                self.assertFalse((output / "sets").exists())
+
+    def test_timezone_conversion_and_conflicting_report_ids(self):
+        now = datetime(2026, 11, 13, 14, tzinfo=timezone.utc)
+        day = now.date()
+        records = [
+            {"ReportId": "a", "ScannedAt": "2026-11-13T15:00:00+02:00"},
+            {"ReportId": "b", "ScannedAt": "2026-11-13T12:30:00Z"},
+        ]
+        with tempfile.TemporaryDirectory() as directory, patch.object(exporter, "print"):
+            sets = exporter.build_sets(Path(directory), now, {day: records})
+            self.assertEqual([row["ReportId"] for row in sets[1]], ["a", "b"])
+            duplicate = {"ReportId": "a", "ScannedAt": "2026-11-13T12:00:00Z"}
+            with self.assertRaisesRegex(ValueError, "Conflicting archived ReportId"):
+                exporter.build_sets(Path(directory), now, {day: [*records, duplicate]})
+
+    def test_sets_roll_forward_even_without_new_reports(self):
+        now = datetime(2026, 11, 13, 14, tzinfo=timezone.utc)
+        replacements = {
+            now.date(): [{"ReportId": "one", "ScannedAt": now.isoformat()}],
+        }
+        with tempfile.TemporaryDirectory() as directory, patch.object(exporter, "print"):
+            output = Path(directory)
+            exporter.write_sets(output, exporter.build_sets(output, now, replacements))
+            path = output / "sets" / "1D.json"
+            self.assertEqual(len(json.loads(path.read_text())), 1)
+            modified = path.stat().st_mtime_ns
+            exporter.write_sets(output, exporter.build_sets(output, now, replacements))
+            self.assertEqual(path.stat().st_mtime_ns, modified)
+            exporter.write_sets(
+                output, exporter.build_sets(output, now + timedelta(days=1, seconds=1), replacements)
+            )
+            self.assertEqual(json.loads(path.read_text()), [])
+
+
 class ExportTests(unittest.TestCase):
-    def test_seven_days_preserves_partial_day_and_existing_older_files(self):
+    def test_archive_preserves_partial_day_and_existing_older_files(self):
         entries = [
             ("today", "2026-11-13T10:00:00Z"),
             ("yesterday", "2026-11-12T10:00:00Z"),
@@ -227,16 +333,21 @@ class ExportTests(unittest.TestCase):
             output = Path(directory)
             partial = [{"UrlDomain": "other.example", "DeliveryUrl": [], "PayloadUrl": []}]
             (output / "20261110.json").write_text(json.dumps(partial), encoding="utf-8")
-            (output / "20261109.json").write_text("older", encoding="utf-8")
+            older = '[{"UrlDomain":"older.example","DeliveryUrl":[],"PayloadUrl":[]}]'
+            (output / "20261109.json").write_text(older, encoding="utf-8")
             with patch.object(exporter, "fetch", side_effect=fake_fetch):
-                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                exporter.export(output, datetime(2026, 11, 13, 23, tzinfo=timezone.utc), 0)
             partial_result = json.loads((output / "20261110.json").read_text())
             self.assertEqual(partial_result[0], partial[0])
             self.assertEqual(partial_result[1]["ReportId"], "partial")
-            self.assertEqual((output / "20261109.json").read_text(), "older")
+            self.assertEqual((output / "20261109.json").read_text(), older)
             self.assertFalse((output / "20261108.json").exists())
             self.assertEqual(json.loads((output / "20261111.json").read_text()), [])
             result = json.loads((output / "20261113.json").read_text())
+            self.assertEqual(result[0]["ScannedAt"], "2026-11-13T10:00:00+00:00")
+            self.assertEqual(
+                json.loads((output / "sets" / "1D.json").read_text()), result
+            )
             self.assertEqual(result[0]["DeliveryUrl"], ["delivery.example"])
             self.assertEqual(result[0]["IP"], ["192.0.2.4"])
             self.assertEqual(result[0]["PayloadUrl"], ["https://payload.example/x"])
@@ -251,7 +362,7 @@ class ExportTests(unittest.TestCase):
             with patch.object(
                 exporter, "fetch", side_effect=[sitemap(entries), report().encode()]
             ):
-                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                exporter.export(output, datetime(2026, 11, 13, 23, tzinfo=timezone.utc), 0)
             self.assertEqual(len(json.loads((output / "20261110.json").read_text())), 1)
 
     def test_failed_report_does_not_change_existing_output(self):
@@ -266,7 +377,7 @@ class ExportTests(unittest.TestCase):
             with patch.object(exporter, "fetch", side_effect=fake_fetch):
                 with patch.object(exporter.time, "sleep"):
                     with self.assertRaisesRegex(RuntimeError, "/report/report.*after 3 attempts"):
-                        exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                        exporter.export(output, datetime(2026, 11, 13, 23, tzinfo=timezone.utc), 0)
             self.assertEqual(existing.read_text(), "[]")
 
     def test_append_by_report_id_and_preserve_legacy_records_across_days(self):
@@ -297,16 +408,22 @@ class ExportTests(unittest.TestCase):
             current.write_text(json.dumps([existing, legacy]), encoding="utf-8")
             previous.write_text(json.dumps([old]), encoding="utf-8")
             with patch.object(exporter, "fetch", side_effect=fake_fetch):
-                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                exporter.export(output, datetime(2026, 11, 13, 23, tzinfo=timezone.utc), 0)
                 result = json.loads(current.read_text())
-                self.assertEqual(result[:2], [existing, legacy])
+                self.assertEqual(
+                    [{k: v for k, v in row.items() if k != "ScannedAt" and
+                      (k != "ReportId" or index == 0)}
+                     for index, row in enumerate(result[:2])],
+                    [existing, legacy],
+                )
+                self.assertEqual(result[1]["ReportId"], "new")
                 self.assertEqual(len(result), 3)
                 self.assertEqual(result[2]["ReportId"], "legacy")
                 self.assertEqual(json.loads(previous.read_text())[0], old)
                 self.assertEqual(json.loads(previous.read_text())[1]["ReportId"], "oldnew")
                 before = current.read_bytes()
                 old_before = previous.read_bytes()
-                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                exporter.export(output, datetime(2026, 11, 13, 23, tzinfo=timezone.utc), 0)
                 self.assertEqual(current.read_bytes(), before)
                 self.assertEqual(previous.read_bytes(), old_before)
             self.assertNotIn(exporter.BASE_URL + "/report/known", calls)
@@ -320,8 +437,8 @@ class ExportTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
             with patch.object(exporter, "fetch", side_effect=fake_fetch):
-                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
-                exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                exporter.export(output, datetime(2026, 11, 13, 23, tzinfo=timezone.utc), 0)
+                exporter.export(output, datetime(2026, 11, 13, 23, tzinfo=timezone.utc), 0)
             result = json.loads((output / "20261113.json").read_text())
             self.assertEqual([entry["ReportId"] for entry in result], ["a", "b"])
 
@@ -334,7 +451,7 @@ class ExportTests(unittest.TestCase):
                 file.write_text(content, encoding="utf-8")
                 with patch.object(exporter, "fetch", return_value=sitemap(entries)):
                     with self.assertRaises(ValueError):
-                        exporter.export(output, datetime(2026, 11, 13, tzinfo=timezone.utc), 0)
+                        exporter.export(output, datetime(2026, 11, 13, 23, tzinfo=timezone.utc), 0)
                 self.assertEqual(file.read_text(), content)
 
 
