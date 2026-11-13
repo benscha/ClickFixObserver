@@ -38,11 +38,14 @@ class Node:
                 yield child
                 yield from child.descendants()
 
-    def text(self):
+    def raw_text(self):
         return "".join(
-            child.text() if isinstance(child, Node) else child
+            child.raw_text() if isinstance(child, Node) else child
             for child in self.children
-        ).strip()
+        )
+
+    def text(self):
+        return self.raw_text().strip()
 
     def has_class(self, name):
         return name in self.attrs.get("class", "").split()
@@ -53,16 +56,20 @@ class InfrastructureParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.root = None
         self.stack = []
+        self.payload_sections = []
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if not self.stack:
-            if tag != "details" or attrs.get("id") != "infrastructure":
-                return
-            if self.root is not None:
-                raise ValueError("Multiple infrastructure sections found")
-            self.root = Node(tag, attrs)
-            self.stack.append(self.root)
+            if tag == "details" and attrs.get("id") == "infrastructure":
+                if self.root is not None:
+                    raise ValueError("Multiple infrastructure sections found")
+                self.root = Node(tag, attrs)
+                self.stack.append(self.root)
+            elif tag == "section" and "obs-alert-danger" in attrs.get("class", "").split():
+                section = Node(tag, attrs)
+                self.payload_sections.append(section)
+                self.stack.append(section)
             return
         node = Node(tag, attrs)
         self.stack[-1].children.append(node)
@@ -125,10 +132,80 @@ def parse_infrastructure(html):
 
     if set(columns) != {"Lure", "Delivery", "Payload"} or len(columns["Lure"]) != 1:
         raise ValueError("Unexpected infrastructure columns or lure count")
+
+    ips = []
+
+    def collect_ips(values):
+        remaining = []
+        for value in values:
+            if is_ip(value):
+                if value not in ips:
+                    ips.append(value)
+            else:
+                remaining.append(value)
+        return remaining
+
+    lure = collect_ips(columns["Lure"])
+    delivery = collect_ips(columns["Delivery"])
+    payload_urls = collect_ips(columns["Payload"])
+
+    related = []
+    for node in parser.root.descendants():
+        if not node.has_class("obs-infra-related"):
+            continue
+        values = [item.text() for item in node.descendants() if item.has_class("obs-data")]
+        tags = [item.text() for item in node.descendants() if item.has_class("obs-badge")]
+        if len(values) != 1 or len(tags) != 1 or not values[0] or not tags[0]:
+            raise ValueError("Unexpected related infrastructure item")
+        value = defang_to_plain(values[0])
+        if collect_ips([value]):
+            related.append({"Value": value, "Type": tags[0]})
+        else:
+            related.append({"IP": value, "Type": tags[0]})
+
+    payload_sections = [
+        section for section in parser.payload_sections
+        if any(node.tag == "h2" and node.text() == "Extracted payload"
+               for node in section.descendants())
+    ]
+    if len(payload_sections) > 1:
+        raise ValueError("Multiple extracted payload sections found")
+    command = None
+    resolved_urls = []
+    if payload_sections:
+        section = payload_sections[0]
+        commands = [node.raw_text() for node in section.descendants() if node.tag == "pre"]
+        if len(commands) != 1 or not commands[0].strip():
+            raise ValueError("Unexpected extracted payload command")
+        command = commands[0]
+        for node in section.descendants():
+            if node.tag != "div":
+                continue
+            labels = [child for child in node.children
+                      if isinstance(child, Node) and child.has_class("obs-label")]
+            if not any(label.text() in {"Resolved download URL", "Resolved download URLs"}
+                       for label in labels):
+                continue
+            lists = [child for child in node.children
+                     if isinstance(child, Node) and child.tag == "ul"]
+            if len(lists) != 1:
+                raise ValueError("Unexpected resolved download URL list")
+            for item in lists[0].children:
+                if isinstance(item, Node) and item.tag == "li":
+                    value = defang_to_plain(item.text())
+                    if not value:
+                        raise ValueError("Empty resolved download URL")
+                    resolved_urls.append(value)
+    resolved_urls = collect_ips(resolved_urls)
+
     return {
-        "UrlDomain": columns["Lure"][0],
-        "DeliveryUrl": [value for value in columns["Delivery"] if not is_ip(value)],
-        "PayloadUrl": columns["Payload"],
+        "UrlDomain": lure[0] if lure else None,
+        "DeliveryUrl": delivery,
+        "PayloadUrl": payload_urls,
+        "IP": ips,
+        "Related": related,
+        "Payload": command,
+        "ResolvedDownloadUrl": resolved_urls,
     }
 
 

@@ -16,16 +16,32 @@ entsteht `data/YYYYMMDD.json`, ein Array mit einem Objekt pro Report:
   {
     "UrlDomain": "example.com",
     "DeliveryUrl": ["delivery.example"],
-    "PayloadUrl": ["https://delivery.example/payload"]
+    "PayloadUrl": ["https://delivery.example/payload"],
+    "IP": ["192.0.2.1"],
+    "Related": [{"Value": "related.example", "Type": "Reference"}],
+    "Payload": "command as displayed in the report",
+    "ResolvedDownloadUrl": ["https://delivery.example/payload"]
   }
 ]
 ```
 
-Die Werte stammen ausschließlich aus den Spalten Lure, Delivery und Payload
-der Infrastrukturansicht. IP-Adressen in Delivery werden ausgeschlossen;
-eckige Klammern werden entfernt. Nicht vorhandene Delivery- oder Payload-Werte
-ergeben leere Arrays. Die Ergebnisse enthalten damit **aktive, nicht mehr
-defangte potenziell gefährliche Indikatoren**: nicht im Browser öffnen.
+Die Felder `UrlDomain`, `DeliveryUrl` und `PayloadUrl` enthalten die jeweiligen
+Werte der drei Infrastrukturspalten. Einzelne IP-Adressen aus diesen Spalten
+und dem Bereich Related werden dedupliziert im Array `IP` gesammelt. Falls
+Lure eine IP-Adresse ist, ist `UrlDomain` gleich `null`. `Related` enthält alle
+zugehörigen Werte mit ihrem angezeigten Typ; bei einer einzelnen IP-Adresse
+heißt das Wertefeld `IP` statt `Value`.
+
+`Payload` enthält den vollständigen Befehl aus „Extracted payload“, wie auf
+der Website angezeigt, oder `null`, falls dieser Bereich fehlt.
+`ResolvedDownloadUrl` enthält die dort angezeigten Download-URLs. Diese
+können sich von `PayloadUrl` unterscheiden, das nur die Payload-Spalte der
+Infrastrukturansicht enthält. Nicht vorhandene Listen ergeben leere Arrays.
+Bei Indikatoren werden eckige Klammern entfernt; der Payload-Befehl bleibt
+hingegen unverändert, damit beispielsweise PowerShell-Typen wie `[guid]`
+erhalten bleiben. Die Ergebnisse enthalten **aktive, nicht mehr defangte
+potenziell gefährliche Indikatoren und möglicherweise schädliche Befehle**:
+nicht öffnen oder ausführen.
 
 ## Einschränkung der Datenquelle
 
@@ -34,7 +50,8 @@ als sieben Tage abdecken. Der Export verwendet bewusst nicht die durch
 `robots.txt` für Crawler ausgeschlossene Dashboard-API. Ein Warnhinweis im
 Workflow-Log nennt den ältesten verfügbaren Tag. Für diesen Tag kann die
 Liste unvollständig sein; eine bereits vorhandene Datei dieses Tages wird
-nicht überschrieben. Ältere, nicht abgedeckte Tage werden weder neu angelegt
+auch nach einer Schemaänderung nicht überschrieben und enthält deshalb
+gegebenenfalls noch das alte Format. Ältere, nicht abgedeckte Tage werden weder neu angelegt
 noch verändert. Auch innerhalb des Zeitraums ist die Vollständigkeit von der
 Sitemap abhängig. Dateien außerhalb des Zeitraums bleiben erhalten.
 
