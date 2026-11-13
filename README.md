@@ -74,9 +74,9 @@ GitHub Raw responses may also be cached.
 
 ## Payload patterns
 
-Every successful export rebuilds `data/Patterns.json` and `data/Patterns.txt`
+Every successful export rebuilds `data/patterns.json` and `data/patterns.txt`
 from the seven-day set and adds newly discovered regex to
-`data/Patterns.regex.json`, without additional downloads.
+`data/patterns.regex.json`, without additional downloads.
 The existing workflow commits all three files under `data`; unchanged contents
 are not rewritten. All nonempty payloads are included, including singletons,
 long scripts, and payloads without recognizable URLs.
@@ -84,7 +84,7 @@ long scripts, and payloads without recognizable URLs.
 Normalization replaces recognizable HTTP(S) URLs and schemaless domain URLs
 directly following `irm`, `iwr`, `Invoke-RestMethod`, or `Invoke-WebRequest`
 with `<URL>`. Defanged `[.]` dots are refanged, line endings are normalized,
-and outer whitespace is trimmed. Two specific families receive additional
+and outer whitespace is trimmed. Specific families receive additional
 normalization:
 
 - For `curl -d` telemetry followed by a shell pipeline, UUID-valued `id`,
@@ -97,6 +97,14 @@ normalization:
   Whitespace outside quoted strings is collapsed; the interval and code
   remain intact. These are server-side content templates, not Windows
   process detections.
+- WUA user-agent and `X-WUA` header hex values (8-32 characters) become
+  `<WUA_ID>`, preserving the header names and command structure. The regex
+  does not enforce equality between the two IDs.
+- Clipboard/encoded PowerShell with `Get-Clipboard`, `FromBase64String`,
+  `Unicode.GetString`, and `Invoke-Expression $clean` groups the ASCII banner,
+  base64 assignment to `$updateloadUrl`, and millisecond sleep values.
+  Placeholders are constrained by character sets and lengths; other code
+  and quoted messages are retained.
 
 Other case, quotes, internal whitespace, variable names, filenames, IDs, and
 encoded content are preserved. This is
@@ -105,21 +113,21 @@ can differ. It is lexical grouping, not a parser or executable detection rule.
 Split/obfuscated URLs, some URL punctuation, and schemaless URLs in other
 contexts can be missed. Never execute the payloads or templates.
 
-`Patterns.json` is an array of objects containing `Pattern`,
+`patterns.json` is an array of objects containing `Pattern`,
 `DistinctPayloadCount`, `ReportCount`, `FirstSeen`, `LastSeen`, `ReportIds`,
 and all distinct original `PayloadExamples`. Patterns are sorted by variant
 count, report count, then text. Counts refer to commands and reports, not
 victims or independent campaigns; scan timestamps cover only the loaded set.
 The files inherit the rolling set's coverage and freshness limitations.
 
-`Patterns.txt` contains one template per physical line in the same order.
+`patterns.txt` contains one template per physical line in the same order.
 Each template uses JSON string escaping, without the surrounding quotes:
 newlines appear as `\n`, backslashes as `\\`, and quotes as `\"`.
 Use the JSON file for programmatic consumption and multiline scripts.
 
-`Patterns.regex.json` contains only a JSON array of regex strings, without
+`patterns.regex.json` contains only a JSON array of regex strings, without
 objects, metadata, report IDs, or original payload examples. Metadata and
-examples for the current seven-day set remain in `Patterns.json`.
+examples for the current seven-day set remain in `patterns.json`.
 The regex array is cumulative: existing entries and their order are preserved,
 and new expressions are appended only if the exact string is not already
 present. Regexes are not removed when reports leave the rolling set.
@@ -145,6 +153,28 @@ Keep server-side content separate from endpoint command-line detections.
 The TXT file remains a template list, so existing consumers are not silently
 switched to regex. Consumers using exact normalized-template comparisons must
 implement the new field placeholders to match those newly grouped families.
+
+Regex generation also combines simple `irm URL | iex` forms, with or without
+parentheses, into one expression with scoped case-insensitive command names
+and flexible quote/whitespace syntax. This affects new generation too: future
+variants covered by these rules produce an existing regex and are not appended.
+Unknown structures remain separate rather than being generalized blindly.
+
+All three generated pattern filenames are lowercase. GitHub Raw URLs are
+case-sensitive: update existing consumers from `Patterns.*` to `patterns.*`.
+Contents, JSON keys, and regex escapes are not lowercased.
+
+An explicit one-time consolidation is available:
+
+```powershell
+python export_clickfix.py --patterns-only --consolidate-regex-history
+```
+
+This uses existing `patterns.json` provenance to replace known historical
+expressions with newly generated, verified equivalents and removes exact
+duplicates. Unknown historical expressions are retained. It must run before
+overwriting that provenance with a normal refresh. Subsequent normal runs
+remain append-only; consolidation is not enabled in the scheduled workflow.
 
 To rebuild patterns locally from the existing set without accessing the network:
 
@@ -863,3 +893,92 @@ join on downloader can be expensive if many templates qualify. Review the
 generated templates and baseline results before using them for alerting.
 The query has been statically validated for Defender XDR, and equivalent
 normalization was tested locally, but it has not been executed in a tenant.
+
+### Hunt for regex matches in Explorer-started processes
+
+This query loads the cumulative regex array as text and JSON-decodes each
+line. This import format was successfully tested in Defender Advanced Hunting;
+the direct `multijson` scalar mapping previously failed at execution time.
+All nonempty regex are combined into a single constant expression.
+
+It searches one hour of processes started directly by Explorer or through
+`explorer.exe -> cmd.exe -> process`. Each distinct command line is evaluated
+once, then all matching process events are returned.
+
+```kusto
+let RegexPatterns = materialize(
+    externaldata(Line:string)
+    [
+        "https://raw.githubusercontent.com/benscha/ClickFixObserver/refs/heads/main/data/patterns.regex.json"
+    ]
+    with(format="txt")
+    | extend JsonString = trim(@"\s+", Line)
+    | where JsonString != "[" and JsonString != "]"
+    | where isnotempty(JsonString)
+    | extend JsonString = trim_end(@",", JsonString)
+    | extend Regex = tostring(parse_json(JsonString))
+    | where isnotempty(Regex)
+    | distinct Regex
+    | project Alternative = strcat(
+        "(?:",
+        replace_regex(Regex, @"^\(\?s\)", ""),
+        ")"
+    )
+);
+let PatternCount = toscalar(RegexPatterns | count);
+let CombinedRegex = toscalar(
+    RegexPatterns
+    | summarize Alternatives = make_list(Alternative, 1000000)
+    | project Expression = strcat(
+        "(?s)(?:",
+        strcat_array(Alternatives, "|"),
+        ")"
+    )
+);
+let Processes = materialize(
+    DeviceProcessEvents
+    | where Timestamp >= ago(1h)
+    | where ActionType == "ProcessCreated"
+    | where isnotempty(ProcessCommandLine)
+    | where InitiatingProcessFileName =~ "explorer.exe"
+        or (
+            InitiatingProcessFileName =~ "cmd.exe"
+            and InitiatingProcessParentFileName =~ "explorer.exe"
+        )
+    | project
+        Timestamp,
+        ReportId,
+        DeviceId,
+        DeviceName,
+        AccountUpn,
+        FileName,
+        ProcessCommandLine,
+        InitiatingProcessFileName,
+        InitiatingProcessCommandLine
+);
+let MatchingCommands = Processes
+| distinct ProcessCommandLine
+| where PatternCount > 0
+| extend MatchInput = replace_string(ProcessCommandLine, "[.]", ".")
+| where MatchInput matches regex CombinedRegex
+| project ProcessCommandLine;
+Processes
+| join kind=leftsemi (MatchingCommands) on ProcessCommandLine
+```
+
+The text import requires the exporter's format: one JSON string per line,
+with array brackets on separate lines. JSON escapes are decoded before regex
+matching. `matches regex` requires a constant expression, not a regex column
+from a join; `toscalar` builds that expression. The empty-pattern guard
+prevents an empty alternation from matching every command.
+
+The parent filter is compatible with Run-dialog launches, but also includes
+other Explorer launches and excludes deeper process chains. It does not prove
+Win+R or malicious execution. Matching is case-sensitive except where a regex
+explicitly scopes case-insensitive command names. Obfuscated
+commands or scripts absent from command-line telemetry may be missed. Results
+do not identify which individual regex matched. A growing cumulative regex
+array and larger time windows can increase compilation cost and materialize
+memory use. This query was statically validated and successfully executed by
+the user in Defender Advanced Hunting; detection accuracy and scheduled-rule
+behavior still require tenant-specific testing.

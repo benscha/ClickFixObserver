@@ -44,7 +44,30 @@ PLACEHOLDER_REGEX = {
     "<TIMESTAMP>": r"\d{4}-\d{2}-\d{2}T\d{2}(?::|%3[Aa])\d{2}(?::|%3[Aa])\d{2}(?:\.\d+)?Z",
     "<TOKEN>": r"[A-Za-z0-9_-]+",
     "<HEX_ID>": r"[a-fA-F0-9]+",
+    "<WUA_ID>": r"[a-fA-F0-9]{8,32}",
+    "<BASE64>": r"[A-Za-z0-9+/]{40,16384}={0,2}",
+    "<MILLISECONDS>": r"\d{1,5}",
+    "<BANNER>": r"[ _/\\|(),\r\n-]{1,1000}",
 }
+SIMPLE_IEX = re.compile(
+    r"""(?:irm\s+["']?<URL>["']?\s*\|\s*iex;?"""
+    r"""|\(irm\s+["']?<URL>["']?\)\s*\|\s*iex;?)""", re.IGNORECASE,
+)
+WUA_FIELDS = re.compile(
+    r"""(WUA/|['"]X-WUA['"]\s*=\s*['"])([a-fA-F0-9]{8,32})""",
+    re.IGNORECASE,
+)
+
+
+def collapse_unquoted_whitespace(text):
+    pieces = []
+    offset = 0
+    for match in QUOTED_TEXT.finditer(text):
+        pieces.append(re.sub(r"\s+", " ", text[offset:match.start()]))
+        pieces.append(match.group())
+        offset = match.end()
+    pieces.append(re.sub(r"\s+", " ", text[offset:]))
+    return "".join(pieces)
 VOID_TAGS = {
     "area", "base", "br", "col", "embed", "hr", "img", "input", "link",
     "meta", "param", "source", "track", "wbr",
@@ -419,6 +442,9 @@ def pattern_family(payload):
         return "PHP inventory"
     if CURL_POST.search(payload) and re.search(r"\|\s*(?:sh|bash|zsh)\b", payload):
         return "curl telemetry + shell"
+    if ("Get-Clipboard" in payload and "FromBase64String" in payload
+            and "Unicode.GetString" in payload and "Invoke-Expression $clean" in payload):
+        return "Clipboard + encoded PowerShell"
     return "Other"
 
 
@@ -448,14 +474,22 @@ def normalize_payload(payload):
             lambda match: match.group(1) + "<TOKEN>" + match.group(3)
             + "<HEX_ID>" + match.group(5), text, count=1,
         )
-        pieces = []
-        offset = 0
-        for match in QUOTED_TEXT.finditer(text):
-            pieces.append(re.sub(r"\s+", " ", text[offset:match.start()]))
-            pieces.append(match.group())
-            offset = match.end()
-        pieces.append(re.sub(r"\s+", " ", text[offset:]))
-        text = "".join(pieces)
+        text = collapse_unquoted_whitespace(text)
+    elif family == "Clipboard + encoded PowerShell":
+        text = re.sub(
+            r"""(\$updateloadUrl\s*=\s*')[A-Za-z0-9+/]{40,16384}={0,2}(')""",
+            lambda match: match.group(1) + "<BASE64>" + match.group(2), text,
+        )
+        text = re.sub(
+            r"(Start-Sleep\s+-Milliseconds\s+)\d{1,5}\b",
+            lambda match: match.group(1) + "<MILLISECONDS>", text,
+        )
+        text = re.sub(
+            r'(echo\s+")([ _/\\|(),\r\n-]{1,1000})(")',
+            lambda match: match.group(1) + "<BANNER>" + match.group(3), text,
+        )
+        text = collapse_unquoted_whitespace(text)
+    text = WUA_FIELDS.sub(lambda match: match.group(1) + "<WUA_ID>", text)
     text = PAYLOAD_URL.sub("<URL>", text)
     return DOWNLOAD_URL.sub(lambda match: match.group(1) + "<URL>", text)
 
@@ -513,7 +547,12 @@ def escape_regex_literal(text):
     return re.sub(r"([\\.^$|?*+(){}\[\]])", r"\\\1", text)
 
 
-def pattern_regex(pattern, family):
+def pattern_regex(pattern, family, consolidate=True):
+    if consolidate and SIMPLE_IEX.fullmatch(pattern):
+        url = PLACEHOLDER_REGEX["<URL>"]
+        argument = rf"""(?:'{url}'|"{url}"|{url})"""
+        command = rf"(?i:irm)\s+{argument}"
+        return rf"(?s)(?:\b{command}|\({command}\s*\))\s*\|\s*(?i:iex)\b;?"
     if family == "PHP inventory":
         tokens = re.findall(
             r"""'(?:\\.|[^'\\])*'|"(?:\\.|[^"\\])*"|[A-Za-z0-9_]+|[^\s]""",
@@ -522,7 +561,8 @@ def pattern_regex(pattern, family):
         return "(?s)" + r"\s*".join(
             pattern_regex(token, "Literal")[4:] for token in tokens
         )
-    parts = re.split(r"(<URL>|<UUID>|<ENCODED_URL>|<TIMESTAMP>|<TOKEN>|<HEX_ID>)", pattern)
+    placeholders = "|".join(re.escape(value) for value in PLACEHOLDER_REGEX)
+    parts = re.split(f"({placeholders})", pattern)
     regex_parts = []
     for part in parts:
         if part in PLACEHOLDER_REGEX:
@@ -555,8 +595,36 @@ def build_regex_patterns(patterns):
     return results
 
 
-def merge_regex_history(output, regex_patterns):
-    path = output / "Patterns.regex.json"
+def consolidation_replacements(output):
+    path = output / "patterns.json"
+    with path.open(encoding="utf-8") as file:
+        old_patterns = json.load(file)
+    if not isinstance(old_patterns, list):
+        raise ValueError(f"Expected pattern metadata array in {path}")
+    replacements = {}
+    for item in old_patterns:
+        examples = item["PayloadExamples"]
+        family = pattern_family(examples[0])
+        previous = pattern_regex(item["Pattern"], family, consolidate=False)
+        candidates = {
+            pattern_regex(normalize_payload(example), pattern_family(example))
+            for example in examples
+        }
+        if len(candidates) == 1:
+            replacement = candidates.pop()
+            compiled = re.compile(replacement)
+            if not all(compiled.search(example.replace("[.]", ".")) for example in examples):
+                raise ValueError("Consolidated regex failed original-payload verification")
+            replacements[previous] = replacement
+            for legacy_banner in (r"[ _/\\|()\r\n]{1,1000}", r"[ _/\\|()\r\n-]{1,1000}"):
+                replacements[previous.replace(
+                    PLACEHOLDER_REGEX["<BANNER>"], legacy_banner
+                )] = replacement
+    return replacements
+
+
+def merge_regex_history(output, regex_patterns, replacements=None):
+    path = output / "patterns.regex.json"
     existing = []
     if path.exists():
         with path.open(encoding="utf-8") as file:
@@ -565,33 +633,39 @@ def merge_regex_history(output, regex_patterns):
             raise ValueError(f"Expected an array of regex strings in {path}")
         for value in existing:
             re.compile(value)
-    merged = list(existing)
-    seen = set(existing)
+    if replacements is None:
+        merged = list(existing)
+    else:
+        merged = list(dict.fromkeys(replacements.get(value, value) for value in existing))
+    seen = set(merged)
+    added = 0
     for item in regex_patterns:
         value = item["Regex"]
         if value not in seen:
             merged.append(value)
             seen.add(value)
-    return merged, len(merged) - len(existing)
+            added += 1
+    return merged, added, merged != existing
 
 
-def write_patterns(output, patterns, regex_patterns=None):
+def write_patterns(output, patterns, regex_patterns=None, consolidate=False):
     if regex_patterns is None:
         regex_patterns = build_regex_patterns(patterns)
-    regex_history, added = merge_regex_history(output, regex_patterns)
+    replacements = consolidation_replacements(output) if consolidate else None
+    regex_history, added, changed = merge_regex_history(output, regex_patterns, replacements)
     contents = {
-        "Patterns.json": json.dumps(patterns, indent=2, ensure_ascii=False) + "\n",
-        "Patterns.txt": "".join(
+        "patterns.json": json.dumps(patterns, indent=2, ensure_ascii=False) + "\n",
+        "patterns.txt": "".join(
             json.dumps(item["Pattern"], ensure_ascii=False)[1:-1] + "\n"
             for item in patterns
         ),
     }
-    if added or not (output / "Patterns.regex.json").exists():
-        contents["Patterns.regex.json"] = json.dumps(
+    if changed or not (output / "patterns.regex.json").exists():
+        contents["patterns.regex.json"] = json.dumps(
             regex_history, indent=2, ensure_ascii=False
         ) + "\n"
     else:
-        print(f"Skipping {output / 'Patterns.regex.json'}: no new regex", flush=True)
+        print(f"Skipping {output / 'patterns.regex.json'}: no new regex", flush=True)
     output.mkdir(parents=True, exist_ok=True)
     for name, content in contents.items():
         path = output / name
@@ -599,7 +673,7 @@ def write_patterns(output, patterns, regex_patterns=None):
             print(f"Skipping {path}: unchanged", flush=True)
             continue
         path.write_text(content, encoding="utf-8")
-        if name == "Patterns.regex.json":
+        if name == "patterns.regex.json":
             print(f"Wrote {path}: {len(regex_history)} regex ({added} new)", flush=True)
         else:
             print(f"Wrote {path}: {len(patterns)} patterns", flush=True)
@@ -705,14 +779,20 @@ def main():
         "--patterns-only", action="store_true",
         help="Rebuild patterns from the existing sets/7D.json without network requests",
     )
+    parser.add_argument(
+        "--consolidate-regex-history", action="store_true",
+        help="One-time consolidation of known historical regex; requires --patterns-only",
+    )
     args = parser.parse_args()
     if args.delay < 0:
         parser.error("--delay must not be negative")
+    if args.consolidate_regex_history and not args.patterns_only:
+        parser.error("--consolidate-regex-history requires --patterns-only")
     if args.patterns_only:
         source = args.output / "sets" / "7D.json"
         with source.open(encoding="utf-8") as file:
             patterns = build_patterns(json.load(file))
-        write_patterns(args.output, patterns)
+        write_patterns(args.output, patterns, consolidate=args.consolidate_regex_history)
     else:
         export(args.output, datetime.now(timezone.utc), args.delay)
 

