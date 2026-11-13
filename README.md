@@ -407,8 +407,14 @@ for Defender XDR but has not been executed in a tenant.
 
 This Defender XDR query correlates allowed or clicked-through email links to
 seven-day lure domains with successful browser connections by the same user,
-followed by suspicious PowerShell activity on the same device. The telemetry
-lookback is one day.
+followed by suspicious command execution under `explorer.exe` on the same
+device. The telemetry lookback is one day. Beyond `powershell.exe`/`pwsh.exe`,
+the suspicious-process check also covers `cmd.exe`, `mshta.exe`,
+`wscript.exe`, `cscript.exe`, `msiexec.exe`, `rundll32.exe`, and
+`regsvr32.exe`, matching the binary list already used in the delivery-domain
+correlation below. PowerShell is held to the stricter `irm|iwr ... | iex`
+pattern; the other binaries are flagged when their command line carries any
+URL.
 
 ```kusto
 let Lures = materialize(
@@ -485,12 +491,20 @@ let BrowserConnections = DeviceNetworkEvents
 let SuspiciousProcesses = DeviceProcessEvents
 | where Timestamp > ago(1d)
 | where ActionType == "ProcessCreated"
-| where FileName in~ ("powershell.exe", "pwsh.exe")
-    and InitiatingProcessFileName =~ "explorer.exe"
-| where ProcessCommandLine matches regex
-    @"(?i)\b(irm|iwr|invoke-restmethod|invoke-webrequest)\b"
-| where ProcessCommandLine matches regex
-    @"(?i)\b(iex|invoke-expression)\b|(-outfile\b.*\.msi\b)"
+| where InitiatingProcessFileName =~ "explorer.exe"
+| where FileName in~ (
+    "powershell.exe", "pwsh.exe", "cmd.exe", "mshta.exe",
+    "wscript.exe", "cscript.exe", "msiexec.exe",
+    "rundll32.exe", "regsvr32.exe"
+)
+| where
+    (FileName in~ ("powershell.exe", "pwsh.exe")
+        and ProcessCommandLine matches regex
+            @"(?i)\b(irm|iwr|invoke-restmethod|invoke-webrequest)\b"
+        and (ProcessCommandLine matches regex @"(?i)\b(iex|invoke-expression)\b"
+            or ProcessCommandLine matches regex @"(?i)-outfile\b.*\.msi\b"))
+    or (FileName !in~ ("powershell.exe", "pwsh.exe")
+        and (ProcessCommandLine contains "http://" or ProcessCommandLine contains "https://"))
 | where isnotempty(AccountUpn) and isnotempty(DeviceId)
 | extend UserKey = tolower(AccountUpn)
 | project
@@ -500,6 +514,7 @@ let SuspiciousProcesses = DeviceProcessEvents
     DeviceName,
     UserKey,
     AccountUpn,
+    FileName,
     ProcessCommandLine;
 Clicks
 | join kind=inner (BrowserConnections) on Host, UserKey
@@ -515,6 +530,7 @@ Clicks
     DeviceId,
     DeviceName,
     AccountUpn,
+    FileName,
     ProcessCommandLine,
     ClickTime,
     ClickUrl,
@@ -533,10 +549,14 @@ Clicks
 The correlation uses exact, case-insensitive hosts and matching UPNs. It does
 not prove that the click caused the process, and the click may have occurred
 on another device. Redirects, missing UPNs or telemetry, other browsers, and
-other command patterns can prevent matches. Multiple matching events or
-reports can produce multiple rows. Test and tune the query in your tenant
-before creating a scheduled custom detection. It has been statically
-validated for Defender XDR but not executed in a tenant.
+other command patterns can prevent matches. The non-PowerShell binaries are
+matched on "any URL in the command line" rather than a specific execution
+verb, so legitimate installers or downloads triggered through `explorer.exe`
+can still produce false positives; review and tighten this per binary before
+alerting. Multiple matching events or reports can produce multiple rows. Test
+and tune the query in your tenant before creating a scheduled custom
+detection. It has been statically validated for Defender XDR but not executed
+in a tenant.
 
 ### Correlate processes with connections to delivery domains
 
@@ -982,3 +1002,75 @@ array and larger time windows can increase compilation cost and materialize
 memory use. This query was statically validated and successfully executed by
 the user in Defender Advanced Hunting; detection accuracy and scheduled-rule
 behavior still require tenant-specific testing.
+
+### Correlate RunMRU paste-and-run with Explorer-launched processes
+
+This Defender XDR query targets the "Win+R, paste, Enter" step itself,
+independent of the IOC feed: a write to the Explorer `RunMRU` registry key
+followed shortly by a matching process launched directly by `explorer.exe`.
+The telemetry lookback is one day.
+
+```kusto
+let LookbackWindow = 1d;
+let SuspiciousBinaries = dynamic([
+    "powershell.exe", "pwsh.exe", "cmd.exe", "mshta.exe",
+    "wscript.exe", "cscript.exe", "msiexec.exe",
+    "rundll32.exe", "regsvr32.exe", "curl.exe"
+]);
+let RunMRUWrites = DeviceRegistryEvents
+| where Timestamp > ago(LookbackWindow)
+| where ActionType == "RegistryValueSet"
+| where RegistryKey contains @"\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU"
+| where RegistryValueName !in~ ("MRUList", "MRUListEx")
+| extend RunCommand = trim(@"\\\d+$", tostring(RegistryValueData))
+| where strlen(RunCommand) > 15
+    or RunCommand contains "http://" or RunCommand contains "https://"
+    or RunCommand matches regex @"(?i)\b(irm|iwr|iex|invoke-expression|invoke-restmethod|invoke-webrequest)\b"
+| project
+    DeviceId,
+    DeviceName,
+    RunMRUTime = Timestamp,
+    RunMRUAccount = InitiatingProcessAccountUpn,
+    RunCommand;
+let SuspiciousExplorerChildren = DeviceProcessEvents
+| where Timestamp > ago(LookbackWindow)
+| where ActionType == "ProcessCreated"
+| where InitiatingProcessFileName =~ "explorer.exe"
+| where FileName in~ (SuspiciousBinaries)
+| project
+    ProcessTime = Timestamp,
+    ReportId,
+    DeviceId,
+    DeviceName,
+    AccountUpn,
+    FileName,
+    ProcessCommandLine,
+    InitiatingProcessFileName;
+RunMRUWrites
+| join kind=inner (SuspiciousExplorerChildren) on DeviceId
+| where ProcessTime >= RunMRUTime - 15s and ProcessTime <= RunMRUTime + 2m
+| project
+    RunMRUTime,
+    ProcessTime,
+    DeviceId,
+    DeviceName,
+    RunMRUAccount,
+    AccountUpn,
+    RunCommand,
+    FileName,
+    ProcessCommandLine,
+    InitiatingProcessFileName
+| order by ProcessTime desc
+```
+
+`RunMRU` legacy and extended value names (`MRUList`, `MRUListEx`) hold only
+the entries' display order, not a command, and are excluded. Each value's
+trailing `\<slot number>` marker is stripped before evaluation. The
+`strlen(RunCommand) > 15` clause, together with the URL/PowerShell-verb
+checks, exists specifically to drop short, everyday Run-dialog commands
+(`cmd`, `powershell`, `regedit`) that would otherwise dominate the results;
+tune the threshold and binary list against your own baseline. This query does
+not use the ClickFix infrastructure feed, so it has no concept of report
+freshness or known infrastructure, it is a generic paste-and-run heuristic and
+will also fire on legitimate but unusual Run-dialog usage. It has not been
+executed in a tenant; validate and tune before using it for alerting.
