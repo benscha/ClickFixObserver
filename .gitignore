@@ -1,2 +1,7 @@
 __pycache__/
 *.py[cod]
+ClickFix-URLS.txt
+ClickFix-Commands.txt
+ClickFixGrab.ps1
+Keywords.txt
+/tests/*
