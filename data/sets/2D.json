@@ -3340,25 +3340,5 @@
     ],
     "ReportId": "cmwcbb1wp06p00omllkagp0ih",
     "ScannedAt": "2026-11-11T16:07:10.237000+00:00"
-  },
-  {
-    "UrlDomain": "therapie-in-chemnitz.de",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "193.141.3.66"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
-    ],
-    "ReportId": "cmwcaz8yj06i20omltq3gtf6h",
-    "ScannedAt": "2026-11-11T15:57:59.519000+00:00"
   }
 ]
