@@ -8770,22 +8770,5 @@
     ],
     "ReportId": "cmw9n6mj101wv0oml32xyr1jx",
     "ScannedAt": "2026-11-09T19:16:20.516000+00:00"
-  },
-  {
-    "UrlDomain": "thesuperlead.com",
-    "DeliveryUrl": [
-      "gl.githack.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "160.153.0.179"
-    ],
-    "Related": [],
-    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
-    ],
-    "ReportId": "cmw9j217600v80omls8fciut4",
-    "ScannedAt": "2026-11-09T17:20:47.752000+00:00"
   }
 ]
