@@ -150,15 +150,45 @@ with (
 clickfixobserver
 ```
 
-### Find delivery domains in email URLs
+### Find lure and delivery domains in email URLs
 
-The following Defender XDR query loads delivery indicators from the seven-day
-set and searches `EmailUrlInfo` for the last seven days. It also checks
-`UrlClickEvents` for email clicks on the same URL in the same message and
-returns the matching original JSON reports alongside the email and click details.
+The following Defender XDR query searches seven days of email URLs and clicks
+against the seven-day report set. It includes lure, delivery, payload, and
+resolved download indicators. Dedicated hosts use domain matching; the listed
+shared services require an exact host and non-root URL path. Matching reports
+and email metadata are grouped per click event instead of multiplying rows.
 The set must have been published by a successful workflow run.
 
 ```kusto
+let SharedHosts = dynamic([
+    "script.google.com", "script.googleusercontent.com",
+    "fastly.jsdelivr.net", "cdn.jsdelivr.net",
+    "raw.githubusercontent.com", "github.com", "gitlab.com",
+    "gist.github.com", "gist.githubusercontent.com",
+    "pastebin.com", "drive.google.com", "docs.google.com",
+    "dropbox.com", "www.dropbox.com", "dl.dropboxusercontent.com",
+    "storage.googleapis.com", "vercel.app", "pages.dev"
+]);
+let GetMatchKey = (Value:string) {
+    let Parsed = parse_url(
+        iff(Value contains "://", Value, strcat("https://", Value))
+    );
+    let Host = tolower(trim_end(@"\.+", tostring(Parsed.Host)));
+    let Path = tostring(Parsed.Path);
+    iff(
+        isempty(Host),
+        "",
+        iff(
+            Host in (SharedHosts),
+            iff(
+                isempty(Path) or Path == "/",
+                "",
+                strcat("url:", Host, Path)
+            ),
+            strcat("domain:", Host)
+        )
+    )
+};
 let clickfixobserver = materialize(
     externaldata(Entry:dynamic)
     [
@@ -168,33 +198,33 @@ let clickfixobserver = materialize(
         format="multijson",
         ingestionMapping='[{"Column":"Entry","Properties":{"Path":"$"}}]'
     )
-    | mv-expand Delivery = Entry.DeliveryUrl to typeof(string)
-    | extend Delivery = trim(@"\s+", Delivery)
-    | where isnotempty(Delivery)
-    | extend Domain = tostring(
-        parse_url(
-            iff(Delivery contains "://", Delivery, strcat("https://", Delivery))
-        ).Host
-    )
-    | extend Domain = tolower(trim_end(@"\.+", Domain))
-    | where isnotempty(Domain)
-    | project Domain, ReportJson = tostring(Entry)
-    | distinct Domain, ReportJson
+    | mv-expand Indicator = array_concat(
+        pack_array(tostring(Entry.UrlDomain)),
+        Entry.DeliveryUrl,
+        Entry.PayloadUrl,
+        Entry.ResolvedDownloadUrl
+    ) to typeof(string)
+    | extend Indicator = trim(@"\s+", Indicator)
+    | where isnotempty(Indicator)
+    | extend MatchKey = GetMatchKey(Indicator)
+    | where isnotempty(MatchKey)
+    | project MatchKey, ReportJson = tostring(Entry)
+    | distinct MatchKey, ReportJson
     | extend Entry = parse_json(ReportJson)
-    | project Domain, Entry
+    | project MatchKey, Entry
 );
 let MatchingEmailUrls = EmailUrlInfo
 | where Timestamp >= ago(7d)
 | where isnotempty(NetworkMessageId) and isnotempty(Url)
-| extend MatchedDomain = tolower(trim_end(@"\.+", UrlDomain))
-| where MatchedDomain in (clickfixobserver | project Domain)
+| extend MatchKey = GetMatchKey(Url)
+| where isnotempty(MatchKey)
 | project
     EmailTimestamp = Timestamp,
     NetworkMessageId,
     Url,
     UrlDomain,
     UrlLocation,
-    MatchedDomain;
+    MatchKey;
 let EmailClicks = UrlClickEvents
 | where Timestamp >= ago(7d)
 | where Workload == "Email"
@@ -209,59 +239,54 @@ let EmailClicks = UrlClickEvents
     ClickIPAddress = IPAddress,
     ClickReportId = ReportId;
 MatchingEmailUrls
+| join kind=inner (clickfixobserver) on MatchKey
 | join kind=inner (EmailClicks) on NetworkMessageId, Url
-| join kind=inner (clickfixobserver) on $left.MatchedDomain == $right.Domain
-| project
-    EmailTimestamp,
+| summarize
+    EmailTimestamps = make_set(EmailTimestamp, 1000),
+    UrlLocations = make_set(UrlLocation, 1000),
+    ObserverReportIds = make_set(tostring(Entry.ReportId), 1000),
+    LureDomains = make_set(tostring(Entry.UrlDomain), 1000),
+    OriginalReports = make_set(Entry, 1000)
+    by
     NetworkMessageId,
     Url,
-    UrlDomain,
-    UrlLocation,
     ClickTimestamp,
+    MatchKey,
     AccountUpn,
     ActionType,
     IsClickedThrough,
     ClickIPAddress,
-    ClickReportId,
-    ObserverReportId = tostring(Entry.ReportId),
-    ObserverScannedAt = todatetime(Entry.ScannedAt),
-    LureDomain = tostring(Entry.UrlDomain),
-    DeliveryUrl = Entry.DeliveryUrl,
-    PayloadUrl = Entry.PayloadUrl,
-    InfrastructureIP = Entry.IP,
-    Related = Entry.Related,
-    Payload = tostring(Entry.Payload),
-    ResolvedDownloadUrl = Entry.ResolvedDownloadUrl,
-    OriginalReport = Entry
-| order by ClickTimestamp desc, EmailTimestamp desc
+    ClickReportId
+| extend
+    MatchedDomain = tolower(
+        trim_end(@"\.+", tostring(parse_url(Url).Host))
+    ),
+    MatchType = iff(MatchKey startswith "url:", "ExactHostAndPath", "Domain"),
+    ReportCount = array_length(ObserverReportIds)
+| order by ClickTimestamp desc
 ```
 
-Matching is case-insensitive and uses exact domains, ignoring trailing dots.
-For full delivery URLs, only the host is compared; paths and query parameters
-are ignored. Subdomains are not automatically included. Change `7D.json` and
-`ago(7d)` to select other indicator and email lookback periods.
-Both email URLs and click events use this lookback period. Clicks are joined
-using both `NetworkMessageId` and the exact, case-sensitive full `Url`, so a
-click on a different URL in the same email does not count as a match.
-URL rewrites or redirects that change the recorded URL can prevent a match;
-this query does not correlate redirect chains.
+Hosts are case-insensitive and ignore trailing dots; URL paths remain
+case-sensitive. Scheme and query parameters are ignored for indicator matching,
+so providers that identify content through query parameters need provider-specific
+matching. Shared-host entries without a concrete path are skipped rather than
+matching every URL on that service. The shared-host list is not exhaustive and
+must be maintained; tenant-specific hosts such as `example.vercel.app` still
+use exact domain matching. Subdomains and redirect chains are not expanded.
 
-The inner joins return only matching email URLs with click events and their
-associated observer reports. Multiple clicks or multiple reports for the
-same delivery domain produce multiple rows. Duplicate copies of the same
-report/domain pair are removed before joining.
+Clicks are joined on both `NetworkMessageId` and the exact, case-sensitive
+full `Url`. Each result groups matching reports for a click ID, timestamp, URL,
+account, action, and IP; distinct click events remain distinct. The report and
+metadata arrays are capped at 1,000 values each. `ReportCount` counts matching
+reports, not attacks or victims. `OriginalReports` preserves the full report
+objects, including payloads, URLs, IPs, and scan timestamps.
 
-`UrlDomain` is the email URL's domain; `LureDomain` is the original report's
-`UrlDomain`. `ObserverReportId` and `ObserverScannedAt` identify the source
-report; `InfrastructureIP` distinguishes report IPs from `ClickIPAddress`.
-`OriginalReport` retains the entire original JSON object, including any
-additional fields not individually projected.
-An event can represent a blocked click and does not prove the destination
-was reached. Review `ActionType` and `IsClickedThrough`.
-Missing matches do not prove no click occurred: coverage depends on Defender
-for Office 365 Safe Links telemetry and available message identifiers.
-The query has been statically validated for Defender XDR but has not been
-executed in a tenant.
+A match does not prove malicious execution or establish that an indicator was
+malicious at the click time. Blocked clicks are included; review `ActionType`
+and `IsClickedThrough`. Missing matches do not prove no click occurred.
+Coverage depends on Safe Links telemetry, available message identifiers, URL
+representation, and the report set. The query has been statically validated
+for Defender XDR but has not been executed in a tenant.
 
 ### Correlate email clicks, browser connections, and PowerShell execution
 
