@@ -49,7 +49,7 @@ Invalid existing JSON files cause the exporter to fail instead of overwriting th
 Each successful export rebuilds the following JSON arrays from the daily archive:
 
 | File under `data/sets` | Time window |
-|---|---|
+| --- | --- |
 | `1D.json` through `10D.json` | Last 24, 48, 72, ... 240 hours |
 | `14D.json` | Last 336 hours |
 | `30D.json` | Last 720 hours |
@@ -134,11 +134,30 @@ present. Regexes are not removed when reports leave the rolling set.
 Without additions, the file is not rewritten, even if its formatting differs.
 Manually maintained regex strings can be appended directly to this array and
 are preserved by normal exports, even without matching reports. The feed also
-includes 18 manually supplied behavioral and lure-text expressions. These are
-case-sensitive as supplied and are hunting indicators, not independently
-high-confidence ClickFix detections: legitimate administration and quoted text
+includes 37 manually supplied behavioral and lure-text expressions. Their
+case sensitivity is determined by each expression. They are hunting indicators,
+not independently high-confidence ClickFix detections: legitimate administration and quoted text
 can match. Lure-text expressions only match process events if that text appears
 in the recorded command line.
+FQDNs and literal IPs in a regex do not establish whether the destination is
+external or malicious. Apply tenant-specific allowlists and network context;
+legitimate WebDAV, administration, and script-block execution can also match.
+
+The manually maintained indicators include:
+
+- Clipboard writes, paste-and-run instructions, DNS staging, and use of
+  `finger.exe`: [Microsoft CrashFix](https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/)
+  and [DNS staging](https://securityaffairs.com/188039/hacking/microsoft-alerts-on-dns-based-clickfix-variant-delivering-malware-via-nslookup.html).
+- WebDAV and UNC execution, `cmdkey`, `regsvr32`, delayed expansion and
+  `pcalua`: [CyberProof](https://www.cyberproof.com/blog/clickfix-keeps-evolving-rundll32-ordinal-execution-over-webdav/)
+  and [Atos](https://atos.net/en/lp/cybershield/investigating-a-new-click-fix-variant).
+- In-memory PowerShell decoding and user-writable MSBuild projects:
+  [Menlo Security](https://www.menlosecurity.com/blog/the-evolution-of-clickfix-from-cleartext-to-server-side-polymorphism)
+  and [Windows Terminal campaign](https://thehackernews.com/2026/03/microsoft-reveals-clickfix-campaign.html).
+- macOS download pipelines and password verification:
+  [Microsoft](https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/)
+  and [Vega](https://threats.vega.io/brief/clickfix-macos-infostealers/).
+
 Malformed JSON, non-string entries, or invalid existing Python regex cause
 failure before output files are written. Historical regex may outlive their
 metadata and require manual review or removal when obsolete.
@@ -241,6 +260,10 @@ Python 3.11 or later is required. No third-party packages are needed.
 python -m unittest discover -s tests -v
 python export_clickfix.py
 ```
+
+The regex compatibility tests also use the optional `google-re2` package;
+without it the RE2-specific compilation test is skipped. Install `pytest` and
+`google-re2` to run the full optional test coverage with `python -m pytest`.
 
 Use `--output` to change the destination directory and `--delay` to change
 the pause between report requests in seconds (default: one second).
@@ -927,10 +950,16 @@ This query loads the cumulative regex array as text and JSON-decodes each
 line. This import format was successfully tested in Defender Advanced Hunting;
 the direct `multijson` scalar mapping previously failed at execution time.
 All nonempty regex are combined into a single constant expression.
+KQL limits that expression to 16 capturing groups. The feed uses noncapturing
+groups for boolean matching, and tests validate the complete alternation,
+not just individual entries. `SEM0213` can indicate an outdated feed containing
+capturing groups; do not rewrite arbitrary parentheses in the query, because
+escaped parentheses and character classes must remain intact.
 
-It searches one hour of processes started directly by Explorer or through
-`explorer.exe -> cmd.exe -> process`. Each distinct command line is evaluated
-once, then all matching process events are returned.
+It searches one hour of Explorer- and Windows Terminal-started processes, and
+selected interpreter or LOLBin children of browsers. Each distinct command
+line is evaluated once, then all matching process events are returned.
+`Variant` identifies the observed process lineage, not a confirmed attack.
 
 ```kusto
 let RegexPatterns = materialize(
@@ -946,11 +975,12 @@ let RegexPatterns = materialize(
     | extend Regex = tostring(parse_json(JsonString))
     | where isnotempty(Regex)
     | distinct Regex
-    | project Alternative = strcat(
-        "(?:",
-        replace_regex(Regex, @"^\(\?s\)", ""),
-        ")"
-    )
+    | extend Regex = replace_regex(Regex, @"^\(\?s\)", "")
+    // Capturing Groups in Non-Capturing Groups umwandeln (Limit: 16 Gruppen pro Regex).
+    // Zweimal angewendet, damit auch direkt verschachtelte "((" erfasst werden.
+    | extend Regex = replace_regex(Regex, @"(^|[^\\])\(([^?)\]])", @"\1(?:\2")
+    | extend Regex = replace_regex(Regex, @"(^|[^\\])\(([^?)\]])", @"\1(?:\2")
+    | project Alternative = strcat("(?:", Regex, ")")
 );
 let PatternCount = toscalar(RegexPatterns | count);
 let CombinedRegex = toscalar(
@@ -972,6 +1002,21 @@ let Processes = materialize(
             InitiatingProcessFileName =~ "cmd.exe"
             and InitiatingProcessParentFileName =~ "explorer.exe"
         )
+        or (
+            InitiatingProcessFileName =~ "windowsterminal.exe"
+            and FileName in~ ("powershell.exe", "pwsh.exe", "cmd.exe")
+        )
+        or (
+            InitiatingProcessFileName in~ ("chrome.exe", "msedge.exe", "firefox.exe", "brave.exe", "opera.exe")
+            and FileName in~ ("powershell.exe", "pwsh.exe", "cmd.exe", "mshta.exe",
+                "rundll32.exe", "regsvr32.exe", "conhost.exe", "wscript.exe",
+                "cscript.exe", "curl.exe")
+        )
+    | extend Variant = case(
+        InitiatingProcessFileName =~ "windowsterminal.exe", "TerminalFix candidate",
+        InitiatingProcessFileName in~ ("chrome.exe", "msedge.exe", "firefox.exe", "brave.exe", "opera.exe"), "FileFix browser-dialog candidate",
+        "Explorer / Run or FileFix candidate"
+    )
     | project
         Timestamp,
         ReportId,
@@ -981,7 +1026,8 @@ let Processes = materialize(
         FileName,
         ProcessCommandLine,
         InitiatingProcessFileName,
-        InitiatingProcessCommandLine
+        InitiatingProcessCommandLine,
+        Variant
 );
 let MatchingCommands = Processes
 | distinct ProcessCommandLine
@@ -999,16 +1045,104 @@ matching. `matches regex` requires a constant expression, not a regex column
 from a join; `toscalar` builds that expression. The empty-pattern guard
 prevents an empty alternation from matching every command.
 
-The parent filter is compatible with Run-dialog launches, but also includes
-other Explorer launches and excludes deeper process chains. It does not prove
-Win+R or malicious execution. Matching is case-sensitive except where a regex
+The Explorer branch includes both Run-dialog launches and FileFix in a separate
+Explorer window. The browser branch also includes ordinary browser children,
+and is limited to the listed interpreters and LOLBins. None of these lineages
+proves that a command was pasted or malicious. FileFix investigations may also
+inspect `HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths`,
+subject to telemetry availability and normal artifact limitations.
+The Windows Terminal branch includes direct shell starts, not arbitrary
+descendants. Commands pasted into an already running interpreter do not
+necessarily create a new process event; investigate script-block/AMSI telemetry
+and descendant processes separately for those cases.
+Matching is case-sensitive except where a regex
 explicitly scopes case-insensitive command names. Obfuscated
 commands or scripts absent from command-line telemetry may be missed. Results
 do not identify which individual regex matched. A growing cumulative regex
 array and larger time windows can increase compilation cost and materialize
-memory use. This query was statically validated and successfully executed by
-the user in Defender Advanced Hunting; detection accuracy and scheduled-rule
-behavior still require tenant-specific testing.
+memory use. The previous Explorer-only query was executed in Defender Advanced
+Hunting; the expanded query requires execution and baselining in your tenant
+before operational use.
+
+### Hunt for regex matches in macOS Terminal-started processes
+
+This separate query uses the same feed and evaluates each distinct command line
+once. Its parent names are limited to observed shell, Terminal, and `osascript`
+process names; they also include noninteractive administration. The last
+reported `DeviceInfo` record per device determines its platform. A separate
+branch includes the observed `xpcproxy -> Script Editor` application launch;
+it does not assume that Script Editor is a directly observed shell parent.
+
+```kusto
+let RegexPatterns = materialize(
+    externaldata(Line:string)
+    [
+        "https://raw.githubusercontent.com/benscha/ClickFixObserver/refs/heads/main/data/patterns.regex.json"
+    ]
+    with(format="txt")
+    | extend JsonString = trim_end(@",", trim(@"\s+", Line))
+    | where JsonString !in ("[", "]") and isnotempty(JsonString)
+    | extend Regex = tostring(parse_json(JsonString))
+    | where isnotempty(Regex)
+    | distinct Regex
+    | extend Regex = replace_regex(Regex, @"^\(\?s\)", "")
+    // Named Groups (?P<name> / (?<name> -> (?:
+    | extend Regex = replace_regex(Regex, @"(^|[^\\])\(\?P?<[A-Za-z_][A-Za-z0-9_]*>", @"\1(?:")
+    // Capture Groups -> (?:  (3 Durchläufe für verschachtelte Klammern)
+    | extend Regex = replace_regex(Regex, @"(^|[^\\])\(([^?])", @"\1(?:\2")
+    | extend Regex = replace_regex(Regex, @"(^|[^\\])\(([^?])", @"\1(?:\2")
+    | extend Regex = replace_regex(Regex, @"(^|[^\\])\(([^?])", @"\1(?:\2")
+    | project Alternative = strcat("(?:", Regex, ")")
+);
+let PatternCount = toscalar(RegexPatterns | count);
+let CombinedRegex = toscalar(
+    RegexPatterns
+    | summarize Alternatives = make_list(Alternative)
+    | project Expression = strcat("(?s)(?:", strcat_array(Alternatives, "|"), ")")
+);
+let MacDevices = DeviceInfo
+    | where Timestamp > ago(7d)
+    | summarize arg_max(Timestamp, OSPlatform) by DeviceId
+    | where OSPlatform =~ "macOS"
+    | project DeviceId;
+let Processes = materialize(
+    DeviceProcessEvents
+    | where Timestamp >= ago(1h)
+    | where ActionType == "ProcessCreated"
+    | where isnotempty(ProcessCommandLine)
+    | where InitiatingProcessFileName in~ ("zsh", "bash", "sh", "terminal", "osascript")
+        or (FileName == "Script Editor" and InitiatingProcessFileName == "xpcproxy")
+    | join kind=leftsemi (MacDevices) on DeviceId
+    | extend Variant = iff(
+        FileName == "Script Editor" and InitiatingProcessFileName == "xpcproxy",
+        "macOS Script Editor launch",
+        "macOS shell / Terminal candidate"
+    )
+    | project Timestamp, ReportId, DeviceId, DeviceName, AccountUpn, FileName,
+        ProcessCommandLine, InitiatingProcessFileName, InitiatingProcessCommandLine, Variant
+);
+let MatchingCommands = Processes
+    | where PatternCount > 0
+    | distinct ProcessCommandLine
+    | extend MatchInput = replace_string(ProcessCommandLine, "[.]", ".")
+    | where MatchInput matches regex CombinedRegex
+    | project ProcessCommandLine;
+Processes
+| join kind=leftsemi (MatchingCommands) on ProcessCommandLine
+```
+
+The macOS query has not been executed in Defender Advanced Hunting.
+Telemetry verified `Script Editor` as a child of `xpcproxy`, but not as a
+shell's `InitiatingProcessFileName`. Direct Script Editor children are therefore
+not yet covered; application launches without script text on the command line
+will not match a payload regex.
+[Jamf](https://www.jamf.com/blog/clickfix-macos-script-editor-atomic-stealer/)
+describes a Script Editor variant that bypasses macOS 26.4 Terminal paste
+protection. Application-launch coverage alone does not establish coverage of
+the executed script. Verify its child-process lineage in your tenant before
+relying on this query for that variant. Shell parents can
+produce substantial volumes of ordinary process events; benchmark the
+lookback and materialization costs in your environment.
 
 ### Correlate RunMRU paste-and-run with Explorer-launched processes
 
@@ -1090,7 +1224,7 @@ This project acts purely as an automated parser and formatter to make these comm
 
 ## Disclaimer
 
-* **No Warranty:** The scripts and formatted indicator lists in this repository are provided *"as is"*, without warranty of any kind, express or implied.
+- **No Warranty:** The scripts and formatted indicator lists in this repository are provided *"as is"*, without warranty of any kind, express or implied.
 
-* **False Positives:** Threat intelligence feeds can occasionally contain legitimate domains, shared hosting infrastructure, or outdated indicators. Always validate and test these feeds in **hunting or audit mode** before using them for automated blocking or containment actions (e.g., via Defender Indicator API).
-* **Takedown / Removal:** If you are the maintainer of `clickfix.observer` and prefer that these formatted outputs are not hosted in this repository, please open an issue or reach out directly, and the hosted data files will be removed immediately.
+- **False Positives:** Threat intelligence feeds can occasionally contain legitimate domains, shared hosting infrastructure, or outdated indicators. Always validate and test these feeds in **hunting or audit mode** before using them for automated blocking or containment actions (e.g., via Defender Indicator API).
+- **Takedown / Removal:** If you are the maintainer of `clickfix.observer` and prefer that these formatted outputs are not hosted in this repository, please open an issue or reach out directly, and the hosted data files will be removed immediately.
