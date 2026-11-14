@@ -45,7 +45,13 @@ PLACEHOLDER_REGEX = {
     "<TOKEN>": r"[A-Za-z0-9_-]+",
     "<HEX_ID>": r"[a-fA-F0-9]+",
     "<WUA_ID>": r"[a-fA-F0-9]{8,32}",
-    "<BASE64>": r"[A-Za-z0-9+/]{40,16384}={0,2}",
+    # RE2 caps counted repeats at 1000; nesting avoids equivalent backtracking paths.
+    "<BASE64>": (
+        r"[A-Za-z0-9+/]{40}"
+        + r"(?:[A-Za-z0-9+/]{1000}" * 15
+        + r")?" * 15
+        + r"(?:[A-Za-z0-9+/]{0,999}|[A-Za-z0-9+/]{1000}[A-Za-z0-9+/]{0,344})={0,2}"
+    ),
     "<MILLISECONDS>": r"\d{1,5}",
     "<BANNER>": r"[ _/\\|(),\r\n-]{1,1000}",
 }
