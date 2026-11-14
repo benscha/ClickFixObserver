@@ -2850,25 +2850,5 @@
     ],
     "ReportId": "cmwd4640y000g0omltvf69x8b",
     "ScannedAt": "2026-11-12T05:35:08.554000+00:00"
-  },
-  {
-    "UrlDomain": "capitalschoolofmotoring.co.uk",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "78.31.111.159"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
-    ],
-    "ReportId": "cmwd2owqi0fsp0oml01op4h6a",
-    "ScannedAt": "2026-11-12T04:53:46.338000+00:00"
   }
 ]

