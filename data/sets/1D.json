@@ -618,25 +618,5 @@
     ],
     "ReportId": "cmwel9plu0czo0omlez5ttanw",
     "ScannedAt": "2026-11-13T06:21:36.065000+00:00"
-  },
-  {
-    "UrlDomain": "www.ticconsulting.ma",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "109.234.162.18"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/4a27-e3b8-4863-8d49-fc408649faef/-/raw/main/d9-4f53-8f7a-6a6104bff2af | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/4a27-e3b8-4863-8d49-fc408649faef/-/raw/main/d9-4f53-8f7a-6a6104bff2af"
-    ],
-    "ReportId": "cmwekfqsd0ciq0omld5n99u1h",
-    "ScannedAt": "2026-11-13T05:58:18.016000+00:00"
   }
 ]
