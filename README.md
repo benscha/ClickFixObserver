@@ -1081,3 +1081,16 @@ not use the ClickFix infrastructure feed, so it has no concept of report
 freshness or known infrastructure, it is a generic paste-and-run heuristic and
 will also fire on legitimate but unusual Run-dialog usage. It has not been
 executed in a tenant; validate and tune before using it for alerting.
+
+## Data Source & Attribution
+
+All Indicators of Compromise (IOCs) processed and formatted by this repository are sourced from **[clickfix.observer](https://clickfix.observer)**.
+
+This project acts purely as an automated parser and formatter to make these community-curated threat intelligence feeds easily consumable in Microsoft Sentinel and Microsoft Defender XDR via KQL (`externaldata`). All credit for the discovery, tracking, and curation of the underlying IOCs belongs to the maintainers of `clickfix.observer`.
+
+## Disclaimer
+
+* **No Warranty:** The scripts and formatted indicator lists in this repository are provided *"as is"*, without warranty of any kind, express or implied.
+
+* **False Positives:** Threat intelligence feeds can occasionally contain legitimate domains, shared hosting infrastructure, or outdated indicators. Always validate and test these feeds in **hunting or audit mode** before using them for automated blocking or containment actions (e.g., via Defender Indicator API).
+* **Takedown / Removal:** If you are the maintainer of `clickfix.observer` and prefer that these formatted outputs are not hosted in this repository, please open an issue or reach out directly, and the hosted data files will be removed immediately.

