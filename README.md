@@ -132,6 +132,13 @@ The regex array is cumulative: existing entries and their order are preserved,
 and new expressions are appended only if the exact string is not already
 present. Regexes are not removed when reports leave the rolling set.
 Without additions, the file is not rewritten, even if its formatting differs.
+Manually maintained regex strings can be appended directly to this array and
+are preserved by normal exports, even without matching reports. The feed also
+includes 18 manually supplied behavioral and lure-text expressions. These are
+case-sensitive as supplied and are hunting indicators, not independently
+high-confidence ClickFix detections: legitimate administration and quoted text
+can match. Lure-text expressions only match process events if that text appears
+in the recorded command line.
 Malformed JSON, non-string entries, or invalid existing Python regex cause
 failure before output files are written. Historical regex may outlive their
 metadata and require manual review or removal when obsolete.
