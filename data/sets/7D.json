@@ -12940,22 +12940,5 @@
     ],
     "ReportId": "cmw8xhdsa29h60omla79nljoa",
     "ScannedAt": "2026-11-09T07:16:52.411000+00:00"
-  },
-  {
-    "UrlDomain": "www.thebigred.it",
-    "DeliveryUrl": [
-      "gl.githack.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.106.88"
-    ],
-    "Related": [],
-    "Payload": "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gl.githack.com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803"
-    ],
-    "ReportId": "cmw8wnjce28520omlftbpbnhd",
-    "ScannedAt": "2026-11-09T06:53:39.862000+00:00"
   }
 ]
