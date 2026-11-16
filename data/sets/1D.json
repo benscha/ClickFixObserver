@@ -1101,25 +1101,5 @@
     ],
     "ReportId": "cmwh8ut7p0pca0omlsvkn7e9j",
     "ScannedAt": "2026-11-15T02:57:24.123000+00:00"
-  },
-  {
-    "UrlDomain": "droid-digital.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.252.125"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwh6rtfu0ot30omlftsxinhi",
-    "ScannedAt": "2026-11-15T01:59:05.218000+00:00"
   }
 ]
