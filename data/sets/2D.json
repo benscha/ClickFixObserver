@@ -2762,25 +2762,5 @@
     ],
     "ReportId": "cmwhriwss0typ0omlc5n94jzl",
     "ScannedAt": "2026-11-15T11:40:01.513000+00:00"
-  },
-  {
-    "UrlDomain": "www.agenciatllevamos.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "67.205.27.248"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwhq6uff0ttl0omlkcvw2hab",
-    "ScannedAt": "2026-11-15T11:02:39.036000+00:00"
   }
 ]
