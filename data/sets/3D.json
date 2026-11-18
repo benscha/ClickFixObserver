@@ -7238,25 +7238,5 @@
     ],
     "ReportId": "cmwhj320f0szd0oml00i8ue6s",
     "ScannedAt": "2026-11-15T07:43:44.936000+00:00"
-  },
-  {
-    "UrlDomain": "www.thespartanite.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "108.170.34.19"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwhgwtfi0stz0omlcnpm3c3e",
-    "ScannedAt": "2026-11-15T06:42:54.666000+00:00"
   }
 ]
