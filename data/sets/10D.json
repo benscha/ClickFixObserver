@@ -1,5 +1,65 @@
 [
   {
+    "UrlDomain": "mikinkaesamulis.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "191.6.210.84"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwnt6b7q1xan0omlwi7e71xm",
+    "ScannedAt": "2026-11-19T17:12:50.058000+00:00"
+  },
+  {
+    "UrlDomain": "seolocalpro.es",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "212.227.255.16"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwnt3ci91x980omlku572i93",
+    "ScannedAt": "2026-11-19T17:10:31.749000+00:00"
+  },
+  {
+    "UrlDomain": "oranjeverenigingenter.nl",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "146.190.27.85"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwnt2anm1x7q0omlytin6ijo",
+    "ScannedAt": "2026-11-19T17:09:42.708000+00:00"
+  },
+  {
     "UrlDomain": "nucleus.ltd",
     "DeliveryUrl": [
       "img-codes-cloude.info",
@@ -18720,22 +18780,5 @@
     ],
     "ReportId": "cmw9n6mj101wv0oml32xyr1jx",
     "ScannedAt": "2026-11-09T19:16:20.516000+00:00"
-  },
-  {
-    "UrlDomain": "thesuperlead.com",
-    "DeliveryUrl": [
-      "gl.githack.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "160.153.0.179"
-    ],
-    "Related": [],
-    "Payload": "IRM gl[.]githack[.]com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gl.githack.com/wiktor1992/53ffa7-d630-49af-a405-7e7278271132/-/raw/main/30-9434283BDFec"
-    ],
-    "ReportId": "cmw9j217600v80omls8fciut4",
-    "ScannedAt": "2026-11-09T17:20:47.752000+00:00"
   }
 ]

