@@ -344,12 +344,11 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 91,
-    "ReportCount": 91,
-    "FirstSeen": "2026-11-12T10:50:52.751000+00:00",
+    "DistinctPayloadCount": 90,
+    "ReportCount": 90,
+    "FirstSeen": "2026-11-12T18:01:12.852000+00:00",
     "LastSeen": "2026-11-19T09:49:42.393000+00:00",
     "ReportIds": [
-      "cmwdfg5is03uq0oml2mt1nbdk",
       "cmwdutkf6051q0omli4b2mlk3",
       "cmwe7ahpk081t0oml3caic0vl",
       "cmwe7b7wf082h0omlg6jyyk5k",
@@ -531,8 +530,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/click/08e224a04deaeb52')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/aca3a98798ec3d08')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/online/e22c82da8905db58')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/online/ec2a5899511dfa69')|iex",
-      "(irm 'https://nexguard[.]pro/Girya/ff9a9c33c814a1a4')|iex"
+      "(irm 'https://j7tracker[.]gb[.]net/online/ec2a5899511dfa69')|iex"
     ]
   },
   {
