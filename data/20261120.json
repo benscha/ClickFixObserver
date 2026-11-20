@@ -302,5 +302,24 @@
     ],
     "ReportId": "cmwojn0hw206k0omlh7hl8vzk",
     "ScannedAt": "2026-11-20T05:33:38.751000+00:00"
+  },
+  {
+    "UrlDomain": "www.moebelfan.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8c4ac79ebaf0d7c0"
+    ],
+    "IP": [
+      "149.126.4.68"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8c4ac79ebaf0d7c0')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8c4ac79ebaf0d7c0"
+    ],
+    "ReportId": "cmwonme0d20sn0omlf9mptxyx",
+    "ScannedAt": "2026-11-20T07:25:08.633000+00:00"
   }
 ]
