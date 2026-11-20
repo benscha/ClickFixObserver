@@ -134,5 +134,24 @@
     ],
     "ReportId": "cmwoed01h1z340oml4kvksqv8",
     "ScannedAt": "2026-11-20T03:05:54.133000+00:00"
+  },
+  {
+    "UrlDomain": "infinitelove.media",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ba4873e5c111ee58"
+    ],
+    "IP": [
+      "173.254.21.246"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ba4873e5c111ee58')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ba4873e5c111ee58"
+    ],
+    "ReportId": "cmwohx2dv1zej0oml7l27yiez",
+    "ScannedAt": "2026-11-20T04:45:29.109000+00:00"
   }
 ]
