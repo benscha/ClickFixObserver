@@ -1288,5 +1288,29 @@
     ],
     "ReportId": "cmwqsnua328lm0omlqomd3emx",
     "ScannedAt": "2026-11-21T19:21:46.825000+00:00"
+  },
+  {
+    "UrlDomain": "lotus-property.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/6f6738d86905ea6c"
+    ],
+    "IP": [
+      "173.236.214.176"
+    ],
+    "Related": [
+      {
+        "Value": "https://www.instagram.com/lotusproperty1/",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/6f6738d86905ea6c')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/6f6738d86905ea6c"
+    ],
+    "ReportId": "cmwqx7aub28og0oml2cfuy2y3",
+    "ScannedAt": "2026-11-21T21:28:53.145000+00:00"
   }
 ]
