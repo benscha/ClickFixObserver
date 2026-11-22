@@ -1350,49 +1350,5 @@
     ],
     "ReportId": "cmwpowabb23s00omlnjfvwnz5",
     "ScannedAt": "2026-11-21T00:48:36.215000+00:00"
-  },
-  {
-    "UrlDomain": "www.iccc-cairo.com",
-    "DeliveryUrl": [
-      "xlfsgudhiaokbioa.sisterleveling.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "216.36.238.209"
-    ],
-    "Related": [
-      {
-        "Value": "https://xlfsgudhiaokbioa.sisterleveling.com/1b60ae7b-21f3-4d74-bb56-138bf4f4620b/b5e589ce-d56d-4c50-bc8d-502a073548.36",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM xlfsgudhiaokbioa[.]sisterleveling[.]com/1b60ae7b-21f3-4d74-bb56-138bf4f4620b/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://xlfsgudhiaokbioa.sisterleveling.com/1b60ae7b-21f3-4d74-bb56-138bf4f4620b/b5e589ce-d56d-4c50-bc8d-502a073548.36"
-    ],
-    "ReportId": "cmwpm6lvr23e30oml1297pw5o",
-    "ScannedAt": "2026-11-20T23:32:38.930000+00:00"
-  },
-  {
-    "UrlDomain": "experty.cc",
-    "DeliveryUrl": [
-      "fozeenyqzeokeeqh.sisterleveling.com"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "178.105.148.179"
-    ],
-    "Related": [
-      {
-        "Value": "https://fozeenyqzeokeeqh.sisterleveling.com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM fozeenyqzeokeeqh[.]sisterleveling[.]com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fozeenyqzeokeeqh.sisterleveling.com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36"
-    ],
-    "ReportId": "cmwpm6bi223d10omlcv3e8omg",
-    "ScannedAt": "2026-11-20T23:32:25.482000+00:00"
   }
 ]
