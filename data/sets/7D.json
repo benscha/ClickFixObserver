@@ -11477,25 +11477,5 @@
     ],
     "ReportId": "cmwijlxrh0zwy0omlmlk3hhqx",
     "ScannedAt": "2026-11-16T00:46:11.976000+00:00"
-  },
-  {
-    "UrlDomain": "hospitaldebertioga.com.br",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "54.233.106.189"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwif9m880ztz0oml69lmb145",
-    "ScannedAt": "2026-11-15T22:44:38.790000+00:00"
   }
 ]
