@@ -4438,24 +4438,5 @@
     ],
     "ReportId": "cmwm4ipde1sbg0omlmv080a4m",
     "ScannedAt": "2026-11-18T12:54:51.702000+00:00"
-  },
-  {
-    "UrlDomain": "www.zanzibartourstz.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/f8dec8b4b16293e1"
-    ],
-    "IP": [
-      "23.153.104.141"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f8dec8b4b16293e1')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/f8dec8b4b16293e1"
-    ],
-    "ReportId": "cmwm1xz9s1rjr0oml003ikce7",
-    "ScannedAt": "2026-11-18T11:42:45.468000+00:00"
   }
 ]

