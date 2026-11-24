@@ -657,10 +657,10 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 10,
-    "ReportCount": 48,
+    "DistinctPayloadCount": 11,
+    "ReportCount": 49,
     "FirstSeen": "2026-11-18T00:49:30.143000+00:00",
-    "LastSeen": "2026-11-24T19:31:31.009000+00:00",
+    "LastSeen": "2026-11-24T22:32:49.589000+00:00",
     "ReportIds": [
       "cmwlelvxw1ia70omlg26sddeu",
       "cmwlenmwv1ies0omlx1cn7azg",
@@ -709,10 +709,12 @@
       "cmwv2cuv40c5y0nmllc3forq5",
       "cmwv2dt510c780nmllwpk3z4p",
       "cmwv38c020d1b0nmloakqhl75",
-      "cmwv3bx2a0d6w0nmlyocu5mqg"
+      "cmwv3bx2a0d6w0nmlyocu5mqg",
+      "cmwv9t2zk0eit0nmljfzv0sd0"
     ],
     "PayloadExamples": [
       "IRM fozeenyqzeokeeqh[.]sisterleveling[.]com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX",
+      "IRM gitlab[.]com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/31863a48-57f3-41bd-b43d-d745c0e71e27/-/raw/main/b2df0d5d-e86b-4ac9-bf98-0f31b3843a70 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/efad4910-0ec9-439e-aa10-54dca6ba535e/-/raw/main/9869d9ad-7e4a-407a-8829-89c0d60614c7 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",

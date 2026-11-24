@@ -1,5 +1,25 @@
 [
   {
+    "UrlDomain": "aga-pics.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "143.95.235.24"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84"
+    ],
+    "ReportId": "cmwv9t2zk0eit0nmljfzv0sd0",
+    "ScannedAt": "2026-11-24T22:32:49.589000+00:00"
+  },
+  {
     "UrlDomain": "sky88.builders",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -12717,25 +12737,5 @@
     ],
     "ReportId": "cmwijlxrh0zwy0omlmlk3hhqx",
     "ScannedAt": "2026-11-16T00:46:11.976000+00:00"
-  },
-  {
-    "UrlDomain": "hospitaldebertioga.com.br",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "54.233.106.189"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwif9m880ztz0oml69lmb145",
-    "ScannedAt": "2026-11-15T22:44:38.790000+00:00"
   }
 ]

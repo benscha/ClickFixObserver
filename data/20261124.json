@@ -1238,5 +1238,25 @@
     ],
     "ReportId": "cmwv5kxqk0djg0nmlm8i882tp",
     "ScannedAt": "2026-11-24T20:34:31.079000+00:00"
+  },
+  {
+    "UrlDomain": "aga-pics.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "143.95.235.24"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84"
+    ],
+    "ReportId": "cmwv9t2zk0eit0nmljfzv0sd0",
+    "ScannedAt": "2026-11-24T22:32:49.589000+00:00"
   }
 ]
