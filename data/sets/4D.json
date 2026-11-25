@@ -1,5 +1,37 @@
 [
   {
+    "UrlDomain": "gupsedu.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "31.77.63.20"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      },
+      {
+        "Value": "a",
+        "Type": "Hostname"
+      },
+      {
+        "Value": "b",
+        "Type": "Hostname"
+      },
+      {
+        "Value": "x",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D"
+    ],
+    "ReportId": "cmwwhh7lk0jqc0nmleauzucm1",
+    "ScannedAt": "2026-11-25T18:55:18.748000+00:00"
+  },
+  {
     "UrlDomain": "casinorbitworld.com",
     "DeliveryUrl": [
       "browse-login.info"
