@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "www.streetculture.nu",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "128.140.220.78"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/96598984d8229501",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/96598984d8229501'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/96598984d8229501"
+    ],
+    "ReportId": "cmwwqyouc07dh0omlolqmo2dw",
+    "ScannedAt": "2026-11-25T23:20:50.781000+00:00"
+  },
+  {
     "UrlDomain": "constanzaexclusive.com",
     "DeliveryUrl": [
       "browse-login.info"

