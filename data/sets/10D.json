@@ -1,5 +1,26 @@
 [
   {
+    "UrlDomain": "whatsapp.learnwithquantum.com",
+    "DeliveryUrl": [
+      "browse-login.info",
+      "script.google.com",
+      "claude-flare-verification.vercel.app",
+      "2fwhatsapp.learnwithquantum.com"
+    ],
+    "PayloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://claude-flare-verification.vercel.app/win"
+    ],
+    "IP": [
+      "91.108.98.140"
+    ],
+    "Related": [],
+    "Payload": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwxg9tj90et40oml99nbobpa",
+    "ScannedAt": "2026-11-26T11:09:20.516000+00:00"
+  },
+  {
     "UrlDomain": "radhashok.com",
     "DeliveryUrl": [
       "mon-blanc-02.cfd"

