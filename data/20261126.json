@@ -967,5 +967,31 @@
     ],
     "ReportId": "cmwx9rben0djs0omlp5yofdsa",
     "ScannedAt": "2026-11-26T08:06:59.527000+00:00"
+  },
+  {
+    "UrlDomain": "radhashok.com",
+    "DeliveryUrl": [
+      "mon-blanc-02.cfd"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "103.50.160.62"
+    ],
+    "Related": [
+      {
+        "Value": "https://mon-blanc-02.cfd/api.php?s=bfa8d66687ce0fd20ad81e377f3d0a63841b42231a0c7f95&amp;_v=29928078",
+        "Type": "Reference"
+      },
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12"
+    ],
+    "ReportId": "cmwxcbz2i0eq80omlzv5b0dii",
+    "ScannedAt": "2026-11-26T09:19:02.490000+00:00"
   }
 ]
