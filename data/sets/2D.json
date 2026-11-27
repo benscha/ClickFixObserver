@@ -2177,33 +2177,5 @@
     ],
     "ReportId": "cmwwj0nvv000e0omlrzpsql9i",
     "ScannedAt": "2026-11-25T19:38:25.950000+00:00"
-  },
-  {
-    "UrlDomain": "eduxmanager.com.br",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "20.115.232.15"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      },
-      {
-        "Value": "a",
-        "Type": "Hostname"
-      },
-      {
-        "Value": "b",
-        "Type": "Hostname"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D"
-    ],
-    "ReportId": "cmwwhss5u0jtf0nmlt7brl6jz",
-    "ScannedAt": "2026-11-25T19:04:18.623000+00:00"
   }
 ]
