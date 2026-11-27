@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "adatewithhoney.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://adatewithhoney.com/"
+    ],
+    "IP": [
+      "68.178.246.197"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwz2jbcw0ief0omlg3kvw0zx",
+    "ScannedAt": "2026-11-27T14:20:21.191000+00:00"
+  },
+  {
     "UrlDomain": "forexmakesmoney.info",
     "DeliveryUrl": [
       "woodland-furniture.com"
@@ -12728,42 +12750,5 @@
     ],
     "ReportId": "cmwkte9y71fs10omlyn3mr6rc",
     "ScannedAt": "2026-11-17T14:55:43.108000+00:00"
-  },
-  {
-    "UrlDomain": "www.mhc-sa.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "184.168.113.236"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwks1j5h1fne0omlmmivmcx4",
-    "ScannedAt": "2026-11-17T14:17:48.863000+00:00"
-  },
-  {
-    "UrlDomain": "theroyalfischer.co.za",
-    "DeliveryUrl": [
-      "fastly.jsdelivr.net"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "148.163.100.171"
-    ],
-    "Related": [],
-    "Payload": "IRM fastly[.]jsdelivr[.]net/g\"h\"/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa | IEX",
-    "ResolvedDownloadUrl": [
-      "https://fastly.jsdelivr.net/gh/wiktor1992kl/sds37465-df459-kcne8xhf-ajdf55/ea25409061fa"
-    ],
-    "ReportId": "cmwkr312l1fmb0omljm9yarua",
-    "ScannedAt": "2026-11-17T13:50:59.134000+00:00"
   }
 ]

