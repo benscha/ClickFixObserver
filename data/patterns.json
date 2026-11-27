@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 79,
-    "ReportCount": 79,
-    "FirstSeen": "2026-11-20T05:45:32.254000+00:00",
+    "DistinctPayloadCount": 78,
+    "ReportCount": 78,
+    "FirstSeen": "2026-11-20T07:25:08.633000+00:00",
     "LastSeen": "2026-11-27T02:48:36.713000+00:00",
     "ReportIds": [
-      "cmwok2akb20g20omltyjagk4e",
       "cmwonme0d20sn0omlf9mptxyx",
       "cmwooi4ba20ti0omludc2kosv",
       "cmwooi70420ts0omlj0pbm2lo",
@@ -140,7 +139,6 @@
       "(irm 'https://j7tracker[.]gb[.]net/ben/1e715b77597ae0f6')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/ben/a95e4549bad4d866')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/ben/ae502c3194a7fafa')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/click/25d9c68043f5404e')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/6969303e6ea8eb03')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/8117764681afc8de')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/click/8d6a62fbc425bc67')|iex",
@@ -363,13 +361,11 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 11,
-    "ReportCount": 41,
-    "FirstSeen": "2026-11-20T05:33:38.751000+00:00",
+    "DistinctPayloadCount": 10,
+    "ReportCount": 39,
+    "FirstSeen": "2026-11-20T11:23:25.821000+00:00",
     "LastSeen": "2026-11-27T02:43:50.648000+00:00",
     "ReportIds": [
-      "cmwojn0hw206k0omlh7hl8vzk",
-      "cmwojn1tc206n0omln6obho4m",
       "cmwow4tu121cw0oml6qodymgo",
       "cmwow6bu321eq0omlg5tbyj07",
       "cmwpm6bi223d10omlcv3e8omg",
@@ -415,7 +411,6 @@
       "IRM gitlab[.]com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/31863a48-57f3-41bd-b43d-d745c0e71e27/-/raw/main/b2df0d5d-e86b-4ac9-bf98-0f31b3843a70 | IEX",
       "IRM gitlab[.]com/cc4b6f224188/efad4910-0ec9-439e-aa10-54dca6ba535e/-/raw/main/9869d9ad-7e4a-407a-8829-89c0d60614c7 | IEX",
-      "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
       "IRM gitlab[.]com/dsy648ajd6ff/cd459154-52c3-4436-9b70-b7b0b3a5c110/-/raw/main/cd459154-52c3-4436-9b70-b7b0b3a5c110 | IEX",
       "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
