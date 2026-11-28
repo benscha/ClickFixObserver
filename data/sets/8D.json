@@ -7038,24 +7038,5 @@
     ],
     "ReportId": "cmwoarw6c1ytk0omlfgbkqvw7",
     "ScannedAt": "2026-11-20T01:25:30.403000+00:00"
-  },
-  {
-    "UrlDomain": "zekoturizm.com",
-    "DeliveryUrl": [
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
-    ],
-    "IP": [
-      "37.18.61.132"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/f6e1bc839f837436')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/f6e1bc839f837436"
-    ],
-    "ReportId": "cmwo9kdgz1ys80omlr22sxrni",
-    "ScannedAt": "2026-11-20T00:51:39.997000+00:00"
   }
 ]

