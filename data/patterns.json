@@ -108,10 +108,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 44,
-    "ReportCount": 44,
+    "DistinctPayloadCount": 45,
+    "ReportCount": 45,
     "FirstSeen": "2026-11-21T21:28:53.145000+00:00",
-    "LastSeen": "2026-11-28T19:46:55.475000+00:00",
+    "LastSeen": "2026-11-28T20:27:16.125000+00:00",
     "ReportIds": [
       "cmwqx7aub28og0oml2cfuy2y3",
       "cmwro4vsm2qpw0omlz9qmz51u",
@@ -156,9 +156,11 @@
       "cmwz4gsnv0iq30omlwd650f6z",
       "cmwzd6ocn0ith0omltr54b6zu",
       "cmwzd702m0iv20omlo0974ppz",
-      "cmx0tn50m00yy0omlx8d7coqy"
+      "cmx0tn50m00yy0omlx8d7coqy",
+      "cmx0v30tc027c0oml6hiztb1t"
     ],
     "PayloadExamples": [
+      "(irm 'https://cfverification[.]com/8pchkbdes5/abaa0e2b9cbc0f2d')|iex",
       "(irm 'https://cfverification[.]com/ben/5090c6de66164869')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/023cf003bfe9c9b9')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/05b20b325b2ab321')|iex",
