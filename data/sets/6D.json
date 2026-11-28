@@ -4393,25 +4393,5 @@
     ],
     "ReportId": "cmwrdyff62irs0omlxjwupgay",
     "ScannedAt": "2026-11-22T05:17:52.705000+00:00"
-  },
-  {
-    "UrlDomain": "imajenationcompany.com",
-    "DeliveryUrl": [],
-    "PayloadUrl": [],
-    "IP": [
-      "172.67.195.252"
-    ],
-    "Related": [
-      {
-        "Value": "gitlab.com",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
-    "ResolvedDownloadUrl": [
-      "https://gitlab.com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677"
-    ],
-    "ReportId": "cmwrd2dg22ir70omlf543udnz",
-    "ScannedAt": "2026-11-22T04:52:57.176000+00:00"
   }
 ]
